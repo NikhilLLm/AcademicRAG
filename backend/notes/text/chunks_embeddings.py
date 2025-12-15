@@ -1,7 +1,7 @@
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.embeddings import Embeddings
-from backend.notes.extractor import PDFTextExtractor
+from backend.notes.text.extractor import PDFTextExtractor
 from backend.embedding.embedd import embed_string
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import VectorParams, Distance

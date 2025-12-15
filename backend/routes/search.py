@@ -4,9 +4,9 @@ from typing import Optional
 from backend.ingestion.extraction import extract_metadata, extract_text_from_image, enhance_text_query
 from backend.embedding.embedd import embed_string
 from backend.search.service import SearchService
-from backend.notes.chunks_embeddings import TextPreprocessor
-from backend.notes.extractor import PDFTextExtractor
-from backend.notes.summarizer import summarize
+from backend.notes.text.chunks_embeddings import TextPreprocessor
+from backend.notes.text.extractor import PDFTextExtractor
+from backend.notes.text.summarizer import summarize
 router = APIRouter()
 search_service = SearchService()
 

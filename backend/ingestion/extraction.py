@@ -152,7 +152,7 @@ def extract_abstract(first_page_blocks, second_page_blocks):
             continue
             
         block_text = ""
-        for l in b.get("lines", []):
+        for l in b.get("lines", []):   
             line_text = " ".join([s["text"] for s in l.get("spans", [])]).strip()
             block_text += line_text + " "
         

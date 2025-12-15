@@ -4,7 +4,7 @@ from huggingface_hub import InferenceClient
 from transformers import pipeline
 import re
 from langchain_core.prompts import PromptTemplate
-from backend.notes.chunks_embeddings import TextPreprocessor
+from backend.notes.text.chunks_embeddings import TextPreprocessor
 
 
 # ----------------------------------------------------
