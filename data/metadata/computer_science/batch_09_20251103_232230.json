@@ -1,0 +1,760 @@
+[
+  {
+    "title": "Natural Language Processing using Hadoop and KOSHIK",
+    "abstract": "Natural language processing, as a data analytics related technology, is used\nwidely in many research areas such as artificial intelligence, human language\nprocessing, and translation. At present, due to explosive growth of data, there\nare many challenges for natural language processing. Hadoop is one of the\nplatforms that can process the large amount of data required for natural\nlanguage processing. KOSHIK is one of the natural language processing\narchitectures, and utilizes Hadoop and contains language processing components\nsuch as Stanford CoreNLP and OpenNLP. This study describes how to build a\nKOSHIK platform with the relevant tools, and provides the steps to analyze wiki\ndata. Finally, it evaluates and discusses the advantages and disadvantages of\nthe KOSHIK architecture, and gives recommendations on improving the processing\nperformance.",
+    "authors": [
+      "Emre Erturk",
+      "Hong Shi"
+    ],
+    "publication_date": "2016-08-15T23:09:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1608.04434v1",
+    "download_url": "http://arxiv.org/abs/1608.04434v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Integrating AI Planning with Natural Language Processing: A Combination\n  of Explicit and Tacit Knowledge",
+    "abstract": "Natural language processing (NLP) aims at investigating the interactions\nbetween agents and humans, processing and analyzing large amounts of natural\nlanguage data. Large-scale language models play an important role in current\nnatural language processing. However, the challenges of explainability and\ncomplexity come along with the developments of language models. One way is to\nintroduce logical relations and rules into natural language processing models,\nsuch as making use of Automated Planning. Automated planning (AI planning)\nfocuses on building symbolic domain models and synthesizing plans to transit\ninitial states to goals based on domain models. Recently, there have been\nplenty of works related to these two fields, which have the abilities to\ngenerate explicit knowledge, e.g., preconditions and effects of action models,\nand learn from tacit knowledge, e.g., neural models, respectively. Integrating\nAI planning and natural language processing effectively improves the\ncommunication between human and intelligent agents. This paper outlines the\ncommons and relations between AI planning and natural language processing,\nargues that each of them can effectively impact on the other one by five areas:\n(1) planning-based text understanding, (2) planning-based natural language\nprocessing, (3) planning-based explainability, (4) text-based human-robot\ninteraction, and (5) applications. We also explore some potential future issues\nbetween AI planning and natural language processing. To the best of our\nknowledge, this survey is the first work that addresses the deep connections\nbetween AI planning and Natural language processing.",
+    "authors": [
+      "Kebing Jin",
+      "Hankz Hankui Zhuo"
+    ],
+    "publication_date": "2022-02-15T02:19:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.07138v2",
+    "download_url": "http://arxiv.org/abs/2202.07138v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "NLI4DB: A Systematic Review of Natural Language Interfaces for Databases",
+    "abstract": "As the demand for querying databases in all areas of life continues to grow,\nresearchers have devoted significant attention to the natural language\ninterface for databases (NLIDB). This paper presents a comprehensive survey of\nrecently proposed NLIDBs. We begin with a brief introduction to natural\nlanguage processing techniques, executable database languages and the\nintermediate representation between natural language and executable language,\nand then provide an overview of the translation process from natural language\nto executable database language. The translation process is divided into three\nstages: (i) natural language preprocessing, (ii) natural language\nunderstanding, and (iii) natural language translation. Traditional and\ndata-driven methods are utilized in the preprocessing stage. Traditional\napproaches rely on predefined rules and grammars, and involve techniques such\nas regular expressions, dependency parsing and named entity recognition.\nData-driven approaches depend on large-scale data and machine learning models,\nusing techniques including word embedding and pattern linking. Natural language\nunderstanding methods are classified into three categories: (i) rule-based,\n(ii) machine learning-based, and (iii) hybrid. We then describe a general\nconstruction process for executable languages over relational and\nspatio-temporal databases. Subsequently, common benchmarks and evaluation\nmetrics for transforming natural language into executable language are\npresented, and methods for generating new benchmarks are explored. Finally, we\nsummarize the classification, development, and enhancement of NLIDB systems,\nand discuss deep language understanding and database interaction techniques\nrelated to NLIDB, including (i) using LLM for Text2SQL tasks, (ii) generating\nnatural language interpretations from SQL, and (iii) transforming speech\nqueries into SQL.",
+    "authors": [
+      "Mengyi Liu",
+      "Jianqiu Xu"
+    ],
+    "publication_date": "2025-03-04T09:22:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.02435v2",
+    "download_url": "http://arxiv.org/abs/2503.02435v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Simple Natural Language Processing Tools for Danish",
+    "abstract": "This technical note describes a set of baseline tools for automatic\nprocessing of Danish text. The tools are machine-learning based, using natural\nlanguage processing models trained over previously annotated documents. They\nare maintained at ITU Copenhagen and will always be freely available.",
+    "authors": [
+      "Leon Derczynski"
+    ],
+    "publication_date": "2019-06-27T13:15:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1906.11608v2",
+    "download_url": "http://arxiv.org/abs/1906.11608v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural Language Generation",
+    "abstract": "This article provides a brief overview of the field of Natural Language\nGeneration. The term Natural Language Generation (NLG), in its broadest\ndefinition, refers to the study of systems that verbalize some form of\ninformation through natural language. That information could be stored in a\nlarge database or knowledge graph (in data-to-text applications), but NLG\nresearchers may also study summarisation (text-to-text) or image captioning\n(image-to-text), for example. As a subfield of Natural Language Processing, NLG\nis closely related to other sub-disciplines such as Machine Translation (MT)\nand Dialog Systems. Some NLG researchers exclude MT from their definition of\nthe field, since there is no content selection involved where the system has to\ndetermine what to say. Conversely, dialog systems do not typically fall under\nthe header of Natural Language Generation since NLG is just one component of\ndialog systems (the others being Natural Language Understanding and Dialog\nManagement). However, with the rise of Large Language Models (LLMs), different\nsubfields of Natural Language Processing have converged on similar\nmethodologies for the production of natural language and the evaluation of\nautomatically generated text.",
+    "authors": [
+      "Emiel van Miltenburg",
+      "Chenghua Lin"
+    ],
+    "publication_date": "2025-03-20T22:12:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.16728v2",
+    "download_url": "http://arxiv.org/abs/2503.16728v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards the Study of Morphological Processing of the Tangkhul Language",
+    "abstract": "There is no or little work on natural language processing of Tangkhul\nlanguage. The current work is a humble beginning of morphological processing of\nthis language using an unsupervised approach. We use a small corpus collected\nfrom different sources of text books, short stories and articles of other\ntopics. Based on the experiments carried out, the morpheme identification task\nusing morphessor gives reasonable and interesting output despite using a small\ncorpus.",
+    "authors": [
+      "Mirinso Shadang",
+      "Navanath Saharia",
+      "Thoudam Doren Singh"
+    ],
+    "publication_date": "2020-06-29T17:24:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.16212v1",
+    "download_url": "http://arxiv.org/abs/2006.16212v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Primer on Neural Network Models for Natural Language Processing",
+    "abstract": "Over the past few years, neural networks have re-emerged as powerful\nmachine-learning models, yielding state-of-the-art results in fields such as\nimage recognition and speech processing. More recently, neural network models\nstarted to be applied also to textual natural language signals, again with very\npromising results. This tutorial surveys neural network models from the\nperspective of natural language processing research, in an attempt to bring\nnatural-language researchers up to speed with the neural techniques. The\ntutorial covers input encoding for natural language tasks, feed-forward\nnetworks, convolutional networks, recurrent networks and recursive networks, as\nwell as the computation graph abstraction for automatic gradient computation.",
+    "authors": [
+      "Yoav Goldberg"
+    ],
+    "publication_date": "2015-10-02T20:17:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1510.00726v1",
+    "download_url": "http://arxiv.org/abs/1510.00726v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural Language Understanding with Distributed Representation",
+    "abstract": "This is a lecture note for the course DS-GA 3001 <Natural Language\nUnderstanding with Distributed Representation> at the Center for Data Science ,\nNew York University in Fall, 2015. As the name of the course suggests, this\nlecture note introduces readers to a neural network based approach to natural\nlanguage understanding/processing. In order to make it as self-contained as\npossible, I spend much time on describing basics of machine learning and neural\nnetworks, only after which how they are used for natural languages is\nintroduced. On the language front, I almost solely focus on language modelling\nand machine translation, two of which I personally find most fascinating and\nmost fundamental to natural language understanding.",
+    "authors": [
+      "Kyunghyun Cho"
+    ],
+    "publication_date": "2015-11-24T23:23:13Z",
+    "arxiv_id": "http://arxiv.org/abs/1511.07916v1",
+    "download_url": "http://arxiv.org/abs/1511.07916v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deploying Technology to Save Endangered Languages",
+    "abstract": "Computer scientists working on natural language processing, native speakers\nof endangered languages, and field linguists to discuss ways to harness\nAutomatic Speech Recognition, especially neural networks, to automate\nannotation, speech tagging, and text parsing on endangered languages.",
+    "authors": [
+      "Hilaria Cruz",
+      "Joseph Waring"
+    ],
+    "publication_date": "2019-08-23T18:31:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.08971v2",
+    "download_url": "http://arxiv.org/abs/1908.08971v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Supporting Undotted Arabic with Pre-trained Language Models",
+    "abstract": "We observe a recent behaviour on social media, in which users intentionally\nremove consonantal dots from Arabic letters, in order to bypass\ncontent-classification algorithms. Content classification is typically done by\nfine-tuning pre-trained language models, which have been recently employed by\nmany natural-language-processing applications. In this work we study the effect\nof applying pre-trained Arabic language models on \"undotted\" Arabic texts. We\nsuggest several ways of supporting undotted texts with pre-trained models,\nwithout additional training, and measure their performance on two Arabic\nnatural-language-processing downstream tasks. The results are encouraging; in\none of the tasks our method shows nearly perfect performance.",
+    "authors": [
+      "Aviad Rom",
+      "Kfir Bar"
+    ],
+    "publication_date": "2021-11-18T16:47:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.09791v1",
+    "download_url": "http://arxiv.org/abs/2111.09791v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multilingual Text Classification for Dravidian Languages",
+    "abstract": "As the fourth largest language family in the world, the Dravidian languages\nhave become a research hotspot in natural language processing (NLP). Although\nthe Dravidian languages contain a large number of languages, there are\nrelatively few public available resources. Besides, text classification task,\nas a basic task of natural language processing, how to combine it to multiple\nlanguages in the Dravidian languages, is still a major difficulty in Dravidian\nNatural Language Processing. Hence, to address these problems, we proposed a\nmultilingual text classification framework for the Dravidian languages. On the\none hand, the framework used the LaBSE pre-trained model as the base model.\nAiming at the problem of text information bias in multi-task learning, we\npropose to use the MLM strategy to select language-specific words, and used\nadversarial training to perturb them. On the other hand, in view of the problem\nthat the model cannot well recognize and utilize the correlation among\nlanguages, we further proposed a language-specific representation module to\nenrich semantic information for the model. The experimental results\ndemonstrated that the framework we proposed has a significant performance in\nmultilingual text classification tasks with each strategy achieving certain\nimprovements.",
+    "authors": [
+      "Xiaotian Lin",
+      "Nankai Lin",
+      "Kanoksak Wattanachote",
+      "Shengyi Jiang",
+      "Lianxi Wang"
+    ],
+    "publication_date": "2021-12-03T04:26:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.01705v1",
+    "download_url": "http://arxiv.org/abs/2112.01705v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Precis of Language Models are not Models of Language",
+    "abstract": "Natural Language Processing is one of the leading application areas in the\ncurrent resurgence of Artificial Intelligence, spearheaded by Artificial Neural\nNetworks. We show that despite their many successes at performing linguistic\ntasks, Large Neural Language Models are ill-suited as comprehensive models of\nnatural language. The wider implication is that, in spite of the often\noverbearing optimism about AI, modern neural models do not represent a\nrevolution in our understanding of cognition.",
+    "authors": [
+      "Csaba Veres"
+    ],
+    "publication_date": "2022-05-16T12:50:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.07634v1",
+    "download_url": "http://arxiv.org/abs/2205.07634v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fence - An Efficient Parser with Ambiguity Support for Model-Driven\n  Language Specification",
+    "abstract": "Model-based language specification has applications in the implementation of\nlanguage processors, the design of domain-specific languages, model-driven\nsoftware development, data integration, text mining, natural language\nprocessing, and corpus-based induction of models. Model-based language\nspecification decouples language design from language processing and, unlike\ntraditional grammar-driven approaches, which constrain language designers to\nspecific kinds of grammars, it needs general parser generators able to deal\nwith ambiguities. In this paper, we propose Fence, an efficient bottom-up\nparsing algorithm with lexical and syntactic ambiguity support that enables the\nuse of model-based language specification in practice.",
+    "authors": [
+      "Luis Quesada",
+      "Fernando Berzal",
+      "Francisco J. Cortijo"
+    ],
+    "publication_date": "2011-07-23T12:56:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1107.4687v2",
+    "download_url": "http://arxiv.org/abs/1107.4687v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Self-move and Other-move: Quantum Categorical Foundations of Japanese",
+    "abstract": "The purpose of this work is to contribute toward the larger goal of creating\na Quantum Natural Language Processing (QNLP) translator program. This work\ncontributes original diagrammatic representations of the Japanese language\nbased on prior work that accomplished on the English language based on category\ntheory. The germane differences between the English and Japanese languages are\nemphasized to help address English language bias in the current body of\nresearch. Additionally, topological principles of these diagrams and many\npotential avenues for further research are proposed. Why is this endeavor\nimportant? Hundreds of languages have developed over the course of millennia\ncoinciding with the evolution of human interaction across time and geographic\nlocation. These languages are foundational to human survival, experience,\nflourishing, and living the good life. They are also, however, the strongest\nbarrier between people groups. Over the last several decades, advancements in\nNatural Language Processing (NLP) have made it easier to bridge the gap between\nindividuals who do not share a common language or culture. Tools like Google\nTranslate and DeepL make it easier than ever before to share our experiences\nwith people globally. Nevertheless, these tools are still inadequate as they\nfail to convey our ideas across the language barrier fluently, leaving people\nfeeling anxious and embarrassed. This is particularly true of languages born\nout of substantially different cultures, such as English and Japanese. Quantum\ncomputers offer the best chance to achieve translation fluency in that they are\nbetter suited to simulating the natural world and natural phenomenon such as\nnatural speech.\n  Keywords: category theory, DisCoCat, DisCoCirc, Japanese grammar, English\ngrammar, translation, topology, Quantum Natural Language Processing, Natural\nLanguage Processing",
+    "authors": [
+      "Ryder Dale Walton"
+    ],
+    "publication_date": "2022-10-10T06:26:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2210.04451v1",
+    "download_url": "http://arxiv.org/abs/2210.04451v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Problems and Countermeasures in Natural Language Processing Evaluation",
+    "abstract": "Evaluation in natural language processing guides and promotes research on\nmodels and methods. In recent years, new evalua-tion data sets and evaluation\ntasks have been continuously proposed. At the same time, a series of problems\nexposed by ex-isting evaluation have also restricted the progress of natural\nlanguage processing technology. Starting from the concept, com-position,\ndevelopment and meaning of natural language evaluation, this article classifies\nand summarizes the tasks and char-acteristics of mainstream natural language\nevaluation, and then summarizes the problems and causes of natural language\npro-cessing evaluation. Finally, this article refers to the human language\nability evaluation standard, puts forward the concept of human-like machine\nlanguage ability evaluation, and proposes a series of basic principles and\nimplementation ideas for hu-man-like machine language ability evaluation from\nthe three aspects of reliability, difficulty and validity.",
+    "authors": [
+      "Qingxiu Dong",
+      "Zhifang Sui",
+      "Weidong Zhan",
+      "Baobao Chang"
+    ],
+    "publication_date": "2021-04-20T01:35:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.09712v1",
+    "download_url": "http://arxiv.org/abs/2104.09712v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Specifying Logic Programs in Controlled Natural Language",
+    "abstract": "Writing specifications for computer programs is not easy since one has to\ntake into account the disparate conceptual worlds of the application domain and\nof software development. To bridge this conceptual gap we propose controlled\nnatural language as a declarative and application-specific specification\nlanguage. Controlled natural language is a subset of natural language that can\nbe accurately and efficiently processed by a computer, but is expressive enough\nto allow natural usage by non-specialists. Specifications in controlled natural\nlanguage are automatically translated into Prolog clauses, hence become formal\nand executable. The translation uses a definite clause grammar (DCG) enhanced\nby feature structures. Inter-text references of the specification, e.g.\nanaphora, are resolved with the help of discourse representation theory (DRT).\nThe generated Prolog clauses are added to a knowledge base. We have implemented\na prototypical specification system that successfully processes the\nspecification of a simple automated teller machine.",
+    "authors": [
+      "Norbert E. Fuchs",
+      "Rolf Schwitter"
+    ],
+    "publication_date": "1995-07-21T17:44:05Z",
+    "arxiv_id": "http://arxiv.org/abs/cmp-lg/9507009v1",
+    "download_url": "http://arxiv.org/abs/cmp-lg/9507009v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Including Signed Languages in Natural Language Processing",
+    "abstract": "Signed languages are the primary means of communication for many deaf and\nhard of hearing individuals. Since signed languages exhibit all the fundamental\nlinguistic properties of natural language, we believe that tools and theories\nof Natural Language Processing (NLP) are crucial towards its modeling. However,\nexisting research in Sign Language Processing (SLP) seldom attempt to explore\nand leverage the linguistic organization of signed languages. This position\npaper calls on the NLP community to include signed languages as a research area\nwith high social and scientific impact. We first discuss the linguistic\nproperties of signed languages to consider during their modeling. Then, we\nreview the limitations of current SLP models and identify the open challenges\nto extend NLP to signed languages. Finally, we urge (1) the adoption of an\nefficient tokenization method; (2) the development of linguistically-informed\nmodels; (3) the collection of real-world signed language data; (4) the\ninclusion of local signed language communities as an active and leading voice\nin the direction of research.",
+    "authors": [
+      "Kayo Yin",
+      "Amit Moryossef",
+      "Julie Hochgesang",
+      "Yoav Goldberg",
+      "Malihe Alikhani"
+    ],
+    "publication_date": "2021-05-11T17:37:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.05222v2",
+    "download_url": "http://arxiv.org/abs/2105.05222v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A natural language interface to a graph-based bibliographic information\n  retrieval system",
+    "abstract": "With the ever-increasing scientific literature, there is a need on a natural\nlanguage interface to bibliographic information retrieval systems to retrieve\nrelated information effectively. In this paper, we propose a natural language\ninterface, NLI-GIBIR, to a graph-based bibliographic information retrieval\nsystem. In designing NLI-GIBIR, we developed a novel framework that can be\napplicable to graph-based bibliographic information retrieval systems. Our\nframework integrates algorithms/heuristics for interpreting and analyzing\nnatural language bibliographic queries. NLI-GIBIR allows users to search for a\nvariety of bibliographic data through natural language. A series of text- and\nlinguistic-based techniques are used to analyze and answer natural language\nqueries, including tokenization, named entity recognition, and syntactic\nanalysis. We find that our framework can effectively represents and addresses\ncomplex bibliographic information needs. Thus, the contributions of this paper\nare as follows: First, to our knowledge, it is the first attempt to propose a\nnatural language interface to graph-based bibliographic information retrieval.\nSecond, we propose a novel customized natural language processing framework\nthat integrates a few original algorithms/heuristics for interpreting and\nanalyzing natural language bibliographic queries. Third, we show that the\nproposed framework and natural language interface provide a practical solution\nin building real-world natural language interface-based bibliographic\ninformation retrieval systems. Our experimental results show that the presented\nsystem can correctly answer 39 out of 40 example natural language queries with\nvarying lengths and complexities.",
+    "authors": [
+      "Yongjun Zhu",
+      "Erjia Yan",
+      "Il-Yeol Song"
+    ],
+    "publication_date": "2016-12-10T00:32:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1612.03231v1",
+    "download_url": "http://arxiv.org/abs/1612.03231v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "PersianLLaMA: Towards Building First Persian Large Language Model",
+    "abstract": "Despite the widespread use of the Persian language by millions globally,\nlimited efforts have been made in natural language processing for this\nlanguage. The use of large language models as effective tools in various\nnatural language processing tasks typically requires extensive textual data and\nrobust hardware resources. Consequently, the scarcity of Persian textual data\nand the unavailability of powerful hardware resources have hindered the\ndevelopment of large language models for Persian. This paper introduces the\nfirst large Persian language model, named PersianLLaMA, trained on a collection\nof Persian texts and datasets. This foundational model comes in two versions,\nwith 7 and 13 billion parameters, trained on formal and colloquial Persian\ntexts using two different approaches. PersianLLaMA has been evaluated for\nnatural language generation tasks based on the latest evaluation methods,\nnamely using larger language models, and for natural language understanding\ntasks based on automated machine metrics. The results indicate that\nPersianLLaMA significantly outperforms its competitors in both understanding\nand generating Persian text. PersianLLaMA marks an important step in the\ndevelopment of Persian natural language processing and can be a valuable\nresource for the Persian-speaking community. This large language model can be\nused for various natural language processing tasks, especially text generation\nlike chatbots, question-answering, machine translation, and text summarization",
+    "authors": [
+      "Mohammad Amin Abbasi",
+      "Arash Ghafouri",
+      "Mahdi Firouzmandi",
+      "Hassan Naderi",
+      "Behrouz Minaei Bidgoli"
+    ],
+    "publication_date": "2023-12-25T12:48:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.15713v1",
+    "download_url": "http://arxiv.org/abs/2312.15713v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ANGLEr: A Next-Generation Natural Language Exploratory Framework",
+    "abstract": "Natural language processing is used for solving a wide variety of problems.\nSome scholars and interest groups working with language resources are not well\nversed in programming, so there is a need for a good graphical framework that\nallows users to quickly design and test natural language processing pipelines\nwithout the need for programming. The existing frameworks do not satisfy all\nthe requirements for such a tool. We, therefore, propose a new framework that\nprovides a simple way for its users to build language processing pipelines. It\nalso allows a simple programming language agnostic way for adding new modules,\nwhich will help the adoption by natural language processing developers and\nresearchers. The main parts of the proposed framework consist of (a) a\npluggable Docker-based architecture, (b) a general data model, and (c) APIs\ndescription along with the graphical user interface. The proposed design is\nbeing used for implementation of a new natural language processing framework,\ncalled ANGLEr.",
+    "authors": [
+      "Timotej Knez",
+      "Marko Bajec",
+      "Slavko Žitnik"
+    ],
+    "publication_date": "2022-05-10T13:32:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.08266v1",
+    "download_url": "http://arxiv.org/abs/2206.08266v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey of Resources and Methods for Natural Language Processing of\n  Serbian Language",
+    "abstract": "The Serbian language is a Slavic language spoken by over 12 million speakers\nand well understood by over 15 million people. In the area of natural language\nprocessing, it can be considered a low-resourced language. Also, Serbian is\nconsidered a high-inflectional language. The combination of many word\ninflections and low availability of language resources makes natural language\nprocessing of Serbian challenging. Nevertheless, over the past three decades,\nthere have been a number of initiatives to develop resources and methods for\nnatural language processing of Serbian, ranging from developing a corpus of\nfree text from books and the internet, annotated corpora for classification and\nnamed entity recognition tasks to various methods and models performing these\ntasks. In this paper, we review the initiatives, resources, methods, and their\navailability.",
+    "authors": [
+      "Ulfeta A. Marovac",
+      "Aldina R. Avdić",
+      "Nikola Lj. Milošević"
+    ],
+    "publication_date": "2023-04-11T19:33:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.05468v1",
+    "download_url": "http://arxiv.org/abs/2304.05468v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Continuous multilinguality with language vectors",
+    "abstract": "Most existing models for multilingual natural language processing (NLP) treat\nlanguage as a discrete category, and make predictions for either one language\nor the other. In contrast, we propose using continuous vector representations\nof language. We show that these can be learned efficiently with a\ncharacter-based neural language model, and used to improve inference about\nlanguage varieties not seen during training. In experiments with 1303 Bible\ntranslations into 990 different languages, we empirically explore the capacity\nof multilingual language models, and also show that the language vectors\ncapture genetic relationships between languages.",
+    "authors": [
+      "Robert Östling",
+      "Jörg Tiedemann"
+    ],
+    "publication_date": "2016-12-22T08:29:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1612.07486v2",
+    "download_url": "http://arxiv.org/abs/1612.07486v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural Language Generation Using Link Grammar for General\n  Conversational Intelligence",
+    "abstract": "Many current artificial general intelligence (AGI) and natural language\nprocessing (NLP) architectures do not possess general conversational\nintelligence--that is, they either do not deal with language or are unable to\nconvey knowledge in a form similar to the human language without manual,\nlabor-intensive methods such as template-based customization. In this paper, we\npropose a new technique to automatically generate grammatically valid sentences\nusing the Link Grammar database. This natural language generation method far\noutperforms current state-of-the-art baselines and may serve as the final\ncomponent in a proto-AGI question answering pipeline that understandably\nhandles natural language material.",
+    "authors": [
+      "Vignav Ramesh",
+      "Anton Kolonin"
+    ],
+    "publication_date": "2021-04-19T06:16:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.00830v1",
+    "download_url": "http://arxiv.org/abs/2105.00830v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural Language Understanding Based on Semantic Relations between\n  Sentences",
+    "abstract": "In this paper, we define event expression over sentences of natural language\nand semantic relations between events. Based on this definition, we formally\nconsider text understanding process having events as basic unit.",
+    "authors": [
+      "Hyeok Kong"
+    ],
+    "publication_date": "2012-12-19T14:40:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1212.4674v1",
+    "download_url": "http://arxiv.org/abs/1212.4674v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Thoth: Improved Rapid Serial Visual Presentation using Natural Language\n  Processing",
+    "abstract": "Thoth is a tool designed to combine many different types of speed reading\ntechnology. The largest insight is using natural language parsing for more\noptimal rapid serial visual presentation and more effective reading\ninformation.",
+    "authors": [
+      "David Awad"
+    ],
+    "publication_date": "2019-08-05T15:45:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.01699v1",
+    "download_url": "http://arxiv.org/abs/1908.01699v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Information Flow in Pregroup Models of Natural Language",
+    "abstract": "This paper is about pregroup models of natural languages, and how they relate\nto the explicitly categorical use of pregroups in Compositional Distributional\nSemantics and Natural Language Processing. These categorical interpretations\nmake certain assumptions about the nature of natural languages that, when\nstated formally, may be seen to impose strong restrictions on pregroup grammars\nfor natural languages.\n  We formalize this as a hypothesis about the form that pregroup models of\nnatural languages must take, and demonstrate by an artificial language example\nthat these restrictions are not imposed by the pregroup axioms themselves. We\ncompare and contrast the artificial language examples with natural languages\n(using Welsh, a language where the 'noun' type cannot be taken as primitive, as\nan illustrative example).\n  The hypothesis is simply that there must exist a causal connection, or\ninformation flow, between the words of a sentence in a language whose purpose\nis to communicate information. This is not necessarily the case with formal\nlanguages that are simply generated by a series of 'meaning-free' rules. This\nimposes restrictions on the types of pregroup grammars that we expect to find\nin natural languages; we formalize this in algebraic, categorical, and\ngraphical terms.\n  We take some preliminary steps in providing conditions that ensure pregroup\nmodels satisfy these conjectured properties, and discuss the more general forms\nthis hypothesis may take.",
+    "authors": [
+      "Peter M. Hines"
+    ],
+    "publication_date": "2018-11-08T05:10:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.03273v1",
+    "download_url": "http://arxiv.org/abs/1811.03273v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Language Tasks and Language Games: On Methodology in Current Natural\n  Language Processing Research",
+    "abstract": "\"This paper introduces a new task and a new dataset\", \"we improve the state\nof the art in X by Y\" -- it is rare to find a current natural language\nprocessing paper (or AI paper more generally) that does not contain such\nstatements. What is mostly left implicit, however, is the assumption that this\nnecessarily constitutes progress, and what it constitutes progress towards.\nHere, we make more precise the normally impressionistically used notions of\nlanguage task and language game and ask how a research programme built on these\nmight make progress towards the goal of modelling general language competence.",
+    "authors": [
+      "David Schlangen"
+    ],
+    "publication_date": "2019-08-28T14:29:13Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.10747v1",
+    "download_url": "http://arxiv.org/abs/1908.10747v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fuzzy Modeling and Natural Language Processing for Panini's Sanskrit\n  Grammar",
+    "abstract": "Indian languages have long history in World Natural languages. Panini was the\nfirst to define Grammar for Sanskrit language with about 4000 rules in fifth\ncentury. These rules contain uncertainty information. It is not possible to\nComputer processing of Sanskrit language with uncertain information. In this\npaper, fuzzy logic and fuzzy reasoning are proposed to deal to eliminate\nuncertain information for reasoning with Sanskrit grammar. The Sanskrit\nlanguage processing is also discussed in this paper.",
+    "authors": [
+      "P. Venkata Subba Reddy"
+    ],
+    "publication_date": "2010-06-14T20:07:32Z",
+    "arxiv_id": "http://arxiv.org/abs/1006.2835v1",
+    "download_url": "http://arxiv.org/abs/1006.2835v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Categorical Tools for Natural Language Processing",
+    "abstract": "This thesis develops the translation between category theory and\ncomputational linguistics as a foundation for natural language processing. The\nthree chapters deal with syntax, semantics and pragmatics. First, string\ndiagrams provide a unified model of syntactic structures in formal grammars.\nSecond, functors compute semantics by turning diagrams into logical, tensor,\nneural or quantum computation. Third, the resulting functorial models can be\ncomposed to form games where equilibria are the solutions of language\nprocessing tasks. This framework is implemented as part of DisCoPy, the Python\nlibrary for computing with string diagrams. We describe the correspondence\nbetween categorical, linguistic and computational structures, and demonstrate\ntheir applications in compositional natural language processing.",
+    "authors": [
+      "Giovanni de Felice"
+    ],
+    "publication_date": "2022-12-13T15:12:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.06636v1",
+    "download_url": "http://arxiv.org/abs/2212.06636v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Unnatural Language Processing: Bridging the Gap Between Synthetic and\n  Natural Language Data",
+    "abstract": "Large, human-annotated datasets are central to the development of natural\nlanguage processing models. Collecting these datasets can be the most\nchallenging part of the development process. We address this problem by\nintroducing a general purpose technique for ``simulation-to-real'' transfer in\nlanguage understanding problems with a delimited set of target behaviors,\nmaking it possible to develop models that can interpret natural utterances\nwithout natural training data. We begin with a synthetic data generation\nprocedure, and train a model that can accurately interpret utterances produced\nby the data generator. To generalize to natural utterances, we automatically\nfind projections of natural language utterances onto the support of the\nsynthetic language, using learned sentence embeddings to define a distance\nmetric. With only synthetic training data, our approach matches or outperforms\nstate-of-the-art models trained on natural language data in several domains.\nThese results suggest that simulation-to-real transfer is a practical framework\nfor developing NLP applications, and that improved models for transfer might\nprovide wide-ranging improvements in downstream tasks.",
+    "authors": [
+      "Alana Marzoev",
+      "Samuel Madden",
+      "M. Frans Kaashoek",
+      "Michael Cafarella",
+      "Jacob Andreas"
+    ],
+    "publication_date": "2020-04-28T16:41:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.13645v1",
+    "download_url": "http://arxiv.org/abs/2004.13645v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Challenges Encountered in Turkish Natural Language Processing Studies",
+    "abstract": "Natural language processing is a branch of computer science that combines\nartificial intelligence with linguistics. It aims to analyze a language element\nsuch as writing or speaking with software and convert it into information.\nConsidering that each language has its own grammatical rules and vocabulary\ndiversity, the complexity of the studies in this field is somewhat\nunderstandable. For instance, Turkish is a very interesting language in many\nways. Examples of this are agglutinative word structure, consonant/vowel\nharmony, a large number of productive derivational morphemes (practically\ninfinite vocabulary), derivation and syntactic relations, a complex emphasis on\nvocabulary and phonological rules. In this study, the interesting features of\nTurkish in terms of natural language processing are mentioned. In addition,\nsummary info about natural language processing techniques, systems and various\nsources developed for Turkish are given.",
+    "authors": [
+      "Kadir Tohma",
+      "Yakup Kutlu"
+    ],
+    "publication_date": "2021-01-21T08:30:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2101.11436v1",
+    "download_url": "http://arxiv.org/abs/2101.11436v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Real-Time Multilingual Sign Language Processing",
+    "abstract": "Sign Language Processing (SLP) is an interdisciplinary field comprised of\nNatural Language Processing (NLP) and Computer Vision. It is focused on the\ncomputational understanding, translation, and production of signed languages.\nTraditional approaches have often been constrained by the use of gloss-based\nsystems that are both language-specific and inadequate for capturing the\nmultidimensional nature of sign language. These limitations have hindered the\ndevelopment of technology capable of processing signed languages effectively.\n  This thesis aims to revolutionize the field of SLP by proposing a simple\nparadigm that can bridge this existing technological gap. We propose the use of\nSignWiring, a universal sign language transcription notation system, to serve\nas an intermediary link between the visual-gestural modality of signed\nlanguages and text-based linguistic representations.\n  We contribute foundational libraries and resources to the SLP community,\nthereby setting the stage for a more in-depth exploration of the tasks of sign\nlanguage translation and production. These tasks encompass the translation of\nsign language from video to spoken language text and vice versa. Through\nempirical evaluations, we establish the efficacy of our transcription method as\na pivot for enabling faster, more targeted research, that can lead to more\nnatural and accurate translations across a range of languages.\n  The universal nature of our transcription-based paradigm also paves the way\nfor real-time, multilingual applications in SLP, thereby offering a more\ninclusive and accessible approach to language technology. This is a significant\nstep toward universal accessibility, enabling a wider reach of AI-driven\nlanguage technologies to include the deaf and hard-of-hearing community.",
+    "authors": [
+      "Amit Moryossef"
+    ],
+    "publication_date": "2024-12-02T21:51:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.01991v1",
+    "download_url": "http://arxiv.org/abs/2412.01991v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Curriculum learning for language modeling",
+    "abstract": "Language Models like ELMo and BERT have provided robust representations of\nnatural language, which serve as the language understanding component for a\ndiverse range of downstream tasks.Curriculum learning is a method that employs\na structured training regime instead, which has been leveraged in computer\nvision and machine translation to improve model training speed and model\nperformance. While language models have proven transformational for the natural\nlanguage processing community, these models have proven expensive,\nenergy-intensive, and challenging to train. In this work, we explore the effect\nof curriculum learning on language model pretraining using various\nlinguistically motivated curricula and evaluate transfer performance on the\nGLUE Benchmark. Despite a broad variety of training methodologies and\nexperiments we do not find compelling evidence that curriculum learning methods\nimprove language model training.",
+    "authors": [
+      "Daniel Campos"
+    ],
+    "publication_date": "2021-08-04T16:53:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.02170v1",
+    "download_url": "http://arxiv.org/abs/2108.02170v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Pretraining with Artificial Language: Studying Transferable Knowledge in\n  Language Models",
+    "abstract": "We investigate what kind of structural knowledge learned in neural network\nencoders is transferable to processing natural language. We design artificial\nlanguages with structural properties that mimic natural language, pretrain\nencoders on the data, and see how much performance the encoder exhibits on\ndownstream tasks in natural language. Our experimental results show that\npretraining with an artificial language with a nesting dependency structure\nprovides some knowledge transferable to natural language. A follow-up probing\nanalysis indicates that its success in the transfer is related to the amount of\nencoded contextual information and what is transferred is the knowledge of\nposition-aware context dependence of language. Our results provide insights\ninto how neural network encoders process human languages and the source of\ncross-lingual transferability of recent multilingual language models.",
+    "authors": [
+      "Ryokan Ri",
+      "Yoshimasa Tsuruoka"
+    ],
+    "publication_date": "2022-03-19T13:29:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.10326v2",
+    "download_url": "http://arxiv.org/abs/2203.10326v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Development of Deep Learning Based Natural Language Processing Model for\n  Turkish",
+    "abstract": "Natural language is one of the most fundamental features that distinguish\npeople from other living things and enable people to communicate each other.\nLanguage is a tool that enables people to express their feelings and thoughts\nand to transfers cultures through generations. Texts and audio are examples of\nnatural language in daily life. In the natural language, many words disappear\nin time, on the other hand new words are derived. Therefore, while the process\nof natural language processing (NLP) is complex even for human, it is difficult\nto process in computer system. The area of linguistics examines how people use\nlanguage. NLP, which requires the collaboration of linguists and computer\nscientists, plays an important role in human computer interaction. Studies in\nNLP have increased with the use of artificial intelligence technologies in the\nfield of linguistics. With the deep learning methods which are one of the\nartificial intelligence study areas, platforms close to natural language are\nbeing developed. Developed platforms for language comprehension, machine\ntranslation and part of speech (POS) tagging benefit from deep learning\nmethods. Recurrent Neural Network (RNN), one of the deep learning\narchitectures, is preferred for processing sequential data such as text or\naudio data. In this study, Turkish POS tagging model has been proposed by using\nBidirectional Long-Short Term Memory (BLSTM) which is an RNN type. The proposed\nPOS tagging model is provided to natural language researchers with a platform\nthat allows them to perform and use their own analysis. In the development\nphase of the platform developed by using BLSTM, the error rate of the POS\ntagger has been reduced by taking feedback with expert opinion.",
+    "authors": [
+      "Baris Baburoglu",
+      "Adem Tekerek",
+      "Mehmet Tekerek"
+    ],
+    "publication_date": "2019-05-07T21:09:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.05699v1",
+    "download_url": "http://arxiv.org/abs/1905.05699v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural Language Reasoning, A Survey",
+    "abstract": "This survey paper proposes a clearer view of natural language reasoning in\nthe field of Natural Language Processing (NLP), both conceptually and\npractically. Conceptually, we provide a distinct definition for natural\nlanguage reasoning in NLP, based on both philosophy and NLP scenarios, discuss\nwhat types of tasks require reasoning, and introduce a taxonomy of reasoning.\nPractically, we conduct a comprehensive literature review on natural language\nreasoning in NLP, mainly covering classical logical reasoning, natural language\ninference, multi-hop question answering, and commonsense reasoning. The paper\nalso identifies and views backward reasoning, a powerful paradigm for\nmulti-step reasoning, and introduces defeasible reasoning as one of the most\nimportant future directions in natural language reasoning research. We focus on\nsingle-modality unstructured natural language text, excluding neuro-symbolic\ntechniques and mathematical reasoning.",
+    "authors": [
+      "Fei Yu",
+      "Hongbo Zhang",
+      "Prayag Tiwari",
+      "Benyou Wang"
+    ],
+    "publication_date": "2023-03-26T13:44:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.14725v2",
+    "download_url": "http://arxiv.org/abs/2303.14725v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On Even Linear Indexed Languages with a Reduction to the Learning of\n  Context-Free Languages",
+    "abstract": "This paper presents a restricted form of linear indexed grammars, called even\nlinear indexed grammars, which yield the even linear indexed languages. These\nlanguages properly contain the context-free languages and are contained in the\nset of linear indexed languages. We show that several patterns found in natural\nlanguages are also generated by these grammars, including crossing\ndependencies, copying, and multiple agreements. We discuss the learning problem\nfor even linear indexed languages and show that it is reducible to that of the\ncontext-free languages. The closure properties for this class of languages are\nalso presented.",
+    "authors": [
+      "Benjamin Caulfield"
+    ],
+    "publication_date": "2013-12-01T03:16:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1312.0175v2",
+    "download_url": "http://arxiv.org/abs/1312.0175v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Causal Graph in Language Model Rediscovers Cortical Hierarchy in Human\n  Narrative Processing",
+    "abstract": "Understanding how humans process natural language has long been a vital\nresearch direction. The field of natural language processing (NLP) has recently\nexperienced a surge in the development of powerful language models. These\nmodels have proven to be invaluable tools for studying another complex system\nknown to process human language: the brain. Previous studies have demonstrated\nthat the features of language models can be mapped to fMRI brain activity. This\nraises the question: is there a commonality between information processing in\nlanguage models and the human brain? To estimate information flow patterns in a\nlanguage model, we examined the causal relationships between different layers.\nDrawing inspiration from the workspace framework for consciousness, we\nhypothesized that features integrating more information would more accurately\npredict higher hierarchical brain activity. To validate this hypothesis, we\nclassified language model features into two categories based on causal network\nmeasures: 'low in-degree' and 'high in-degree'. We subsequently compared the\nbrain prediction accuracy maps for these two groups. Our results reveal that\nthe difference in prediction accuracy follows a hierarchical pattern,\nconsistent with the cortical hierarchy map revealed by activity time constants.\nThis finding suggests a parallel between how language models and the human\nbrain process linguistic information.",
+    "authors": [
+      "Zhengqi He",
+      "Taro Toyoizumi"
+    ],
+    "publication_date": "2023-11-17T10:09:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.10431v1",
+    "download_url": "http://arxiv.org/abs/2311.10431v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "NLTK: The Natural Language Toolkit",
+    "abstract": "NLTK, the Natural Language Toolkit, is a suite of open source program\nmodules, tutorials and problem sets, providing ready-to-use computational\nlinguistics courseware. NLTK covers symbolic and statistical natural language\nprocessing, and is interfaced to annotated corpora. Students augment and\nreplace existing components, learn structured programming by example, and\nmanipulate sophisticated models from the outset.",
+    "authors": [
+      "Edward Loper",
+      "Steven Bird"
+    ],
+    "publication_date": "2002-05-17T12:51:00Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0205028v1",
+    "download_url": "http://arxiv.org/abs/cs/0205028v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Incrementalizing RASA's Open-Source Natural Language Understanding\n  Pipeline",
+    "abstract": "As spoken dialogue systems and chatbots are gaining more widespread adoption,\ncommercial and open-sourced services for natural language understanding are\nemerging. In this paper, we explain how we altered the open-source RASA natural\nlanguage understanding pipeline to process incrementally (i.e., word-by-word),\nfollowing the incremental unit framework proposed by Schlangen and Skantze. To\ndo so, we altered existing RASA components to process incrementally, and added\nan update-incremental intent recognition model as a component to RASA. Our\nevaluations on the Snips dataset show that our changes allow RASA to function\nas an effective incremental natural language understanding service.",
+    "authors": [
+      "Andrew Rafla",
+      "Casey Kennington"
+    ],
+    "publication_date": "2019-07-11T17:35:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.05403v1",
+    "download_url": "http://arxiv.org/abs/1907.05403v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "File mapping Rule-based DBMS and Natural Language Processing",
+    "abstract": "This paper describes the system of storage, extract and processing of\ninformation structured similarly to the natural language. For recursive\ninference the system uses the rules having the same representation, as the\ndata. The environment of storage of information is provided with the File\nMapping (SHM) mechanism of operating system. In the paper the main principles\nof construction of dynamic data structure and language for record of the\ninference rules are stated; the features of available implementation are\nconsidered and the description of the application realizing semantic\ninformation retrieval on the natural language is given.",
+    "authors": [
+      "Vjacheslav M. Novikov"
+    ],
+    "publication_date": "2001-06-10T14:56:51Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0106016v1",
+    "download_url": "http://arxiv.org/abs/cs/0106016v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Attributes as Semantic Units between Natural Language and Visual\n  Recognition",
+    "abstract": "Impressive progress has been made in the fields of computer vision and\nnatural language processing. However, it remains a challenge to find the best\npoint of interaction for these very different modalities. In this chapter we\ndiscuss how attributes allow us to exchange information between the two\nmodalities and in this way lead to an interaction on a semantic level.\nSpecifically we discuss how attributes allow using knowledge mined from\nlanguage resources for recognizing novel visual categories, how we can generate\nsentence description about images and video, how we can ground natural language\nin visual content, and finally, how we can answer natural language questions\nabout images.",
+    "authors": [
+      "Marcus Rohrbach"
+    ],
+    "publication_date": "2016-04-12T05:23:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1604.03249v1",
+    "download_url": "http://arxiv.org/abs/1604.03249v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Overview of Natural Language State Representation for Reinforcement\n  Learning",
+    "abstract": "A suitable state representation is a fundamental part of the learning process\nin Reinforcement Learning. In various tasks, the state can either be described\nby natural language or be natural language itself. This survey outlines the\nstrategies used in the literature to build natural language state\nrepresentations. We appeal for more linguistically interpretable and grounded\nrepresentations, careful justification of design decisions and evaluation of\nthe effectiveness of different approaches.",
+    "authors": [
+      "Brielen Madureira",
+      "David Schlangen"
+    ],
+    "publication_date": "2020-07-19T20:15:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.09774v1",
+    "download_url": "http://arxiv.org/abs/2007.09774v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural Language Specifications in Proof Assistants",
+    "abstract": "Interactive proof assistants are computer programs carefully constructed to\ncheck a human-designed proof of a mathematical claim with high confidence in\nthe implementation. However, this only validates truth of a formal claim, which\nmay have been mistranslated from a claim made in natural language. This is\nespecially problematic when using proof assistants to formally verify the\ncorrectness of software with respect to a natural language specification. The\ntranslation from informal to formal remains a challenging, time-consuming\nprocess that is difficult to audit for correctness. This paper argues that it\nis possible to build support for natural language specifications within\nexisting proof assistants, in a way that complements the principles used to\nestablish trust and auditability in proof assistants themselves.",
+    "authors": [
+      "Colin S. Gordon",
+      "Sergey Matskevich"
+    ],
+    "publication_date": "2022-05-16T17:05:45Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.07811v1",
+    "download_url": "http://arxiv.org/abs/2205.07811v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Can Transformers Reason in Fragments of Natural Language?",
+    "abstract": "State-of-the-art deep-learning-based approaches to Natural Language\nProcessing (NLP) are credited with various capabilities that involve reasoning\nwith natural language texts. In this paper we carry out a large-scale empirical\nstudy investigating the detection of formally valid inferences in controlled\nfragments of natural language for which the satisfiability problem becomes\nincreasingly complex. We find that, while transformer-based language models\nperform surprisingly well in these scenarios, a deeper analysis re-veals that\nthey appear to overfit to superficial patterns in the data rather than\nacquiring the logical principles governing the reasoning in these fragments.",
+    "authors": [
+      "Viktor Schlegel",
+      "Kamen V. Pavlov",
+      "Ian Pratt-Hartmann"
+    ],
+    "publication_date": "2022-11-10T08:46:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.05417v1",
+    "download_url": "http://arxiv.org/abs/2211.05417v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Putting Natural in Natural Language Processing",
+    "abstract": "Human language is firstly spoken and only secondarily written. Text, however,\nis a very convenient and efficient representation of language, and modern\ncivilization has made it ubiquitous. Thus the field of NLP has overwhelmingly\nfocused on processing written rather than spoken language. Work on spoken\nlanguage, on the other hand, has been siloed off within the largely separate\nspeech processing community which has been inordinately preoccupied with\ntranscribing speech into text. Recent advances in deep learning have led to a\nfortuitous convergence in methods between speech processing and mainstream NLP.\nArguably, the time is ripe for a unification of these two fields, and for\nstarting to take spoken language seriously as the primary mode of human\ncommunication. Truly natural language processing could lead to better\nintegration with the rest of language science and could lead to systems which\nare more data-efficient and more human-like, and which can communicate beyond\nthe textual modality.",
+    "authors": [
+      "Grzegorz Chrupała"
+    ],
+    "publication_date": "2023-05-08T09:29:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.04572v2",
+    "download_url": "http://arxiv.org/abs/2305.04572v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Controlled Natural Languages and Default Reasoning",
+    "abstract": "Controlled natural languages (CNLs) are effective languages for knowledge\nrepresentation and reasoning. They are designed based on certain natural\nlanguages with restricted lexicon and grammar. CNLs are unambiguous and simple\nas opposed to their base languages. They preserve the expressiveness and\ncoherence of natural languages. In this report, we focus on a class of CNLs,\ncalled machine-oriented CNLs, which have well-defined semantics that can be\ndeterministically translated into formal languages, such as Prolog, to do\nlogical reasoning. Over the past 20 years, a number of machine-oriented CNLs\nemerged and have been used in many application domains for problem solving and\nquestion answering. However, few of them support non-monotonic inference. In\nour work, we propose non-monotonic extensions of CNL to support defeasible\nreasoning.\n  In the first part of this report, we survey CNLs and compare three\ninfluential systems: Attempto Controlled English (ACE), Processable English\n(PENG), and Computer-processable English (CPL). We compare their language\ndesign, semantic interpretations, and reasoning services. In the second part of\nthis report, we first identify typical non-monotonicity in natural languages,\nsuch as defaults, exceptions and conversational implicatures. Then, we propose\ntheir representation in CNL and the corresponding formalizations in a form of\ndefeasible reasoning known as Logic Programming with Defaults and Argumentation\nTheory (LPDA).",
+    "authors": [
+      "Tiantian Gao"
+    ],
+    "publication_date": "2019-05-11T02:02:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.04422v1",
+    "download_url": "http://arxiv.org/abs/1905.04422v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "GANCoder: An Automatic Natural Language-to-Programming Language\n  Translation Approach based on GAN",
+    "abstract": "We propose GANCoder, an automatic programming approach based on Generative\nAdversarial Networks (GAN), which can generate the same functional and logical\nprogramming language codes conditioned on the given natural language\nutterances. The adversarial training between generator and discriminator helps\ngenerator learn distribution of dataset and improve code generation quality.\nOur experimental results show that GANCoder can achieve comparable accuracy\nwith the state-of-the-art methods and is more stable when programming\nlanguages.",
+    "authors": [
+      "Yabing Zhu",
+      "Yanfeng Zhang",
+      "Huili Yang",
+      "Fangjing Wang"
+    ],
+    "publication_date": "2019-12-02T07:41:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.00609v1",
+    "download_url": "http://arxiv.org/abs/1912.00609v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Cross-lingual Adaption Model-Agnostic Meta-Learning for Natural Language\n  Understanding",
+    "abstract": "Meta learning with auxiliary languages has demonstrated promising\nimprovements for cross-lingual natural language processing. However, previous\nstudies sample the meta-training and meta-testing data from the same language,\nwhich limits the ability of the model for cross-lingual transfer. In this\npaper, we propose XLA-MAML, which performs direct cross-lingual adaption in the\nmeta-learning stage. We conduct zero-shot and few-shot experiments on Natural\nLanguage Inference and Question Answering. The experimental results demonstrate\nthe effectiveness of our method across different languages, tasks, and\npretrained models. We also give analysis on various cross-lingual specific\nsettings for meta-learning including sampling strategy and parallelism.",
+    "authors": [
+      "Qianying Liu",
+      "Fei Cheng",
+      "Sadao Kurohashi"
+    ],
+    "publication_date": "2021-11-10T16:53:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.05805v1",
+    "download_url": "http://arxiv.org/abs/2111.05805v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Using the DIFF Command for Natural Language Processing",
+    "abstract": "Diff is a software program that detects differences between two data sets and\nis useful in natural language processing. This paper shows several examples of\nthe application of diff. They include the detection of differences between two\ndifferent datasets, extraction of rewriting rules, merging of two different\ndatasets, and the optimal matching of two different data sets. Since diff comes\nwith any standard UNIX system, it is readily available and very easy to use.\nOur studies showed that diff is a practical tool for research into natural\nlanguage processing.",
+    "authors": [
+      "Masaki Murata",
+      "Hitoshi Isahara"
+    ],
+    "publication_date": "2002-08-13T03:39:20Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0208020v1",
+    "download_url": "http://arxiv.org/abs/cs/0208020v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

@@ -1,0 +1,792 @@
+[
+  {
+    "title": "A load balanced chemistry model with analytical Jacobian for faster\n  reactive simulations in OpenFOAM",
+    "abstract": "In this study, we introduce a novel open-source chemistry model for OpenFOAM\nto speed-up the reactive computational fluid dynamics (CFD) simulations using\nfinite-rate chemistry. First, a dynamic load balancing model called DLBFoam is\nintroduced to balance the chemistry load during runtime in parallel\nsimulations. In addition, the solution of the cell-based chemistry problem is\nimproved by utilizing an analytical Jacobian using an open-source library\ncalled pyJac and an efficient linear algebra library LAPACK. Combination of the\naforementioned efforts yields a speed-up factor 200 for a high-fidelity\nlarge-eddy simulation spray combustion case compared to the standard OpenFOAM\nimplementation. It is worth noting that the present implementation does not\ncompromise the solution accuracy.",
+    "authors": [
+      "Bulut Tekgül",
+      "Heikki Kahila",
+      "Petteri Peltonen",
+      "Mahmoud Gadalla",
+      "Ossi Kaario",
+      "Ville Vuorinen"
+    ],
+    "publication_date": "2021-12-10T21:12:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.05834v1",
+    "download_url": "http://arxiv.org/abs/2112.05834v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fiducial Inference for Random-Effects Calibration Models: Advancing\n  Reliable Quantification in Environmental Analytical Chemistry",
+    "abstract": "This article addresses calibration challenges in analytical chemistry by\nemploying a random-effects calibration curve model and its generalizations to\ncapture variability in analyte concentrations. The model is motivated by\nspecific issues in analytical chemistry, where measurement errors remain\nconstant at low concentrations but increase proportionally as concentrations\nrise. To account for this, the model permits the parameters of the calibration\ncurve, which relate instrument responses to true concentrations, to vary across\ndifferent laboratories, thereby reflecting real-world variability in\nmeasurement processes. Traditional large-sample interval estimation methods are\ninadequate for small samples, leading to the use of an alternative approach,\nnamely the fiducial approach. The calibration curve that accurately captures\nthe heteroscedastic nature of the data, results in more reliable estimates\nacross diverse laboratory conditions. It turns out that the fiducial approach,\nwhen used to construct a confidence interval for an unknown concentration,\nproduces a slightly wider width while achieving the desired coverage\nprobability. Applications considered include the determination of the presence\nof an analyte and the interval estimation of an unknown true analyte\nconcentration. The proposed method is demonstrated for both simulated and real\ninterlaboratory data, including examples involving copper and cadmium in\ndistilled water.",
+    "authors": [
+      "Soumya Sahu",
+      "Thomas Mathew",
+      "Robert Gibbons",
+      "Dulal K. Bhaumik"
+    ],
+    "publication_date": "2025-03-06T16:26:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.04588v2",
+    "download_url": "http://arxiv.org/abs/2503.04588v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Conventional Quantum Chemical Correlation Energy versus\n  Density-Functional Correlation Energy",
+    "abstract": "We analyze the difference between the correlation energy as defined within\nthe conventional quantum chemistry framework and its namesake in\ndensity-functional theory. Both quantities are rigorously defined concepts; one\nfinds that $E_c^{QC} \\geq E_c^{DFT}$. We give numerical and analytical\narguments suggesting that the numerical difference between the two rigorous\nquantities is small. Finally, approximate density functional correlation\nenergies resulting from some popular correlation energy functionals are\ncompared with the conventional quantum chemistry values.",
+    "authors": [
+      "E. K. U. Gross",
+      "M. Petersilka",
+      "T. Grabo"
+    ],
+    "publication_date": "1995-09-19T14:07:20Z",
+    "arxiv_id": "http://arxiv.org/abs/atom-ph/9509002v1",
+    "download_url": "http://arxiv.org/abs/atom-ph/9509002v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Implementation of chemistry in the Athena++ code",
+    "abstract": "Chemistry plays a key role in many aspects of astrophysical fluids. Atoms and\nmolecules are agents for heating and cooling, determine the ionization\nfraction, serve as observational tracers, and build the molecular foundation of\nlife. We present the implementation of a chemistry module in the publicly\navailable magneto-hydrodynamic code Athena++. We implement several chemical\nnetworks and heating and cooling processes suitable for simulating the\ninterstellar medium (ISM). A general chemical network framework in the KIDA\nformat is also included, allowing the user to easily implement their own\nchemistry. Radiation transfer and cosmic-ray ionization are coupled with\nchemistry and solved with the simple six-ray approximation. The chemical and\nthermal processes are evolved as a system of coupled ODEs with an implicit\nsolver from the CVODE library. We perform and present a series of tests to\nensure the numerical accuracy and convergence of the code. Many tests combine\nchemistry with gas dynamics, including comparisons with analytic solutions, 1D\nproblems of the photo-dissociation regions and shocks, and realistic 3D\nsimulations of the turbulent ISM. We release the code with the new public\nversion of Athena++, aiming to provide a robust and flexible code for the\nastrochemical simulation community.",
+    "authors": [
+      "Munan Gong",
+      "Ka-Wai Ho",
+      "James M. Stone",
+      "Eve C. Ostriker",
+      "Paola Caselli",
+      "Tommaso Grassi",
+      "Chang-Goo Kim",
+      "Jeong-Gyu Kim",
+      "Goni Halevi"
+    ],
+    "publication_date": "2023-05-08T18:01:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.04965v1",
+    "download_url": "http://arxiv.org/abs/2305.04965v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Automatic differentiation in quantum chemistry with an application to\n  fully variational Hartree-Fock",
+    "abstract": "Automatic Differentiation (AD) is a powerful tool that allows calculating\nderivatives of implemented algorithms with respect to all of their parameters\nup to machine precision, without the need to explicitly add any additional\nfunctions. Thus, AD has great potential in quantum chemistry, where gradients\nare omnipresent but also difficult to obtain, and researchers typically spend a\nconsiderable amount of time finding suitable analytical forms when implementing\nderivatives. Here, we demonstrate that automatic differentiation can be used to\ncompute gradients with respect to any parameter throughout a complete quantum\nchemistry method. We implement DiffiQult, a fully autodifferentiable\nHartree-Fock (HF) algorithm, which serves as a proof-of-concept that\nillustrates the capabilities of AD for quantum chemistry. We leverage the\nobtained gradients to optimize the parameters of one-particle basis sets in the\ncontext of the floating Gaussian framework.",
+    "authors": [
+      "Teresa Tamayo-Mendoza",
+      "Christoph Kreisbeck",
+      "Roland Lindh",
+      "Alán Aspuru-Guzik"
+    ],
+    "publication_date": "2017-11-22T04:33:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1711.08127v2",
+    "download_url": "http://arxiv.org/abs/1711.08127v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Unifying machine learning and quantum chemistry -- a deep neural network\n  for molecular wavefunctions",
+    "abstract": "Machine learning advances chemistry and materials science by enabling\nlarge-scale exploration of chemical space based on quantum chemical\ncalculations. While these models supply fast and accurate predictions of\natomistic chemical properties, they do not explicitly capture the electronic\ndegrees of freedom of a molecule, which limits their applicability for reactive\nchemistry and chemical analysis. Here we present a deep learning framework for\nthe prediction of the quantum mechanical wavefunction in a local basis of\natomic orbitals from which all other ground-state properties can be derived.\nThis approach retains full access to the electronic structure via the\nwavefunction at force field-like efficiency and captures quantum mechanics in\nan analytically differentiable representation. On several examples, we\ndemonstrate that this opens promising avenues to perform inverse design of\nmolecular structures for target electronic property optimisation and a clear\npath towards increased synergy of machine learning and quantum chemistry.",
+    "authors": [
+      "K. T. Schütt",
+      "M. Gastegger",
+      "A. Tkatchenko",
+      "K. -R. Müller",
+      "R. J. Maurer"
+    ],
+    "publication_date": "2019-06-24T15:46:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1906.10033v1",
+    "download_url": "http://arxiv.org/abs/1906.10033v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "From 2015 to 2023: How Machine Learning Aids Natural Product Analysis",
+    "abstract": "In recent years, conventional chemistry techniques have faced significant\nchallenges due to their inherent limitations, struggling to cope with the\nincreasing complexity and volume of data generated in contemporary research\nendeavors. Computational methodologies represent robust tools in the field of\nchemistry, offering the capacity to harness potent machine-learning models to\nyield insightful analytical outcomes. This review delves into the spectrum of\ncomputational strategies available for natural product analysis and constructs\na research framework for investigating both qualitative and quantitative\nchemistry problems. Our objective is to present a novel perspective on the\nsymbiosis of machine learning and chemistry, with the potential to catalyze a\ntransformation in the field of natural product analysis.",
+    "authors": [
+      "Suwen Shi",
+      "Ziwei Huang",
+      "Xingxin Gu",
+      "Xu Lin",
+      "Chaoying Zhong",
+      "Junjie Hang",
+      "Jianli Lin",
+      "Claire Chenwen Zhong",
+      "Lin Zhang",
+      "Yu Li",
+      "Junjie Huang"
+    ],
+    "publication_date": "2024-07-18T03:52:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.00793v1",
+    "download_url": "http://arxiv.org/abs/2408.00793v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytical Hartree-Fock gradients for periodic systems",
+    "abstract": "We present the theory of analytical Hartree-Fock gradients for periodic\nsystems as implemented in the code CRYSTAL. We demonstrate how derivatives of\nthe integrals can be computed with the McMurchie-Davidson algorithm. Highly\naccurate gradients with respect to nuclear coordinates are obtained for systems\nperiodic in 0,1,2 or 3 dimensions.",
+    "authors": [
+      "K. Doll",
+      "V. R. Saunders",
+      "N. M. Harrison"
+    ],
+    "publication_date": "2000-11-16T17:16:45Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0011285v1",
+    "download_url": "http://arxiv.org/abs/cond-mat/0011285v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytical Hartree-Fock gradients with respect to the cell parameter for\n  systems periodic in three dimensions",
+    "abstract": "Analytical Hartree-Fock gradients with respect to the cell parameter have\nbeen implemented in the electronic structure code CRYSTAL, for the case of\nthree-dimensional periodicity. The code is based on Gaussian type orbitals, and\nthe summation of the Coulomb energy is performed with the Ewald method. It is\nshown that a high accuracy of the cell gradient can be achieved.",
+    "authors": [
+      "K. Doll",
+      "R. Dovesi",
+      "R. Orlando"
+    ],
+    "publication_date": "2004-02-27T13:23:37Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0402666v1",
+    "download_url": "http://arxiv.org/abs/cond-mat/0402666v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Validation of the Scientific Literature via Chemputation Augmented by\n  Large Language Models",
+    "abstract": "Chemputation is the process of programming chemical robots to do experiments\nusing a universal symbolic language, but the literature can be error prone and\nhard to read due to ambiguities. Large Language Models (LLMs) have demonstrated\nremarkable capabilities in various domains, including natural language\nprocessing, robotic control, and more recently, chemistry. Despite significant\nadvancements in standardizing the reporting and collection of synthetic\nchemistry data, the automatic reproduction of reported syntheses remains a\nlabour-intensive task. In this work, we introduce an LLM-based chemical\nresearch agent workflow designed for the automatic validation of synthetic\nliterature procedures. Our workflow can autonomously extract synthetic\nprocedures and analytical data from extensive documents, translate these\nprocedures into universal XDL code, simulate the execution of the procedure in\na hardware-specific setup, and ultimately execute the procedure on an\nXDL-controlled robotic system for synthetic chemistry. This demonstrates the\npotential of LLM-based workflows for autonomous chemical synthesis with\nChemputers. Due to the abstraction of XDL this approach is safe, secure, and\nscalable since hallucinations will not be chemputable and the XDL can be both\nverified and encrypted. Unlike previous efforts, which either addressed only a\nlimited portion of the workflow, relied on inflexible hard-coded rules, or\nlacked validation in physical systems, our approach provides four realistic\nexamples of syntheses directly executed from synthetic literature. We\nanticipate that our workflow will significantly enhance automation in\nrobotically driven synthetic chemistry research, streamline data extraction,\nimprove the reproducibility, scalability, and safety of synthetic and\nexperimental chemistry.",
+    "authors": [
+      "Sebastian Pagel",
+      "Michael Jirasek",
+      "Leroy Cronin"
+    ],
+    "publication_date": "2024-10-08T21:31:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.06384v1",
+    "download_url": "http://arxiv.org/abs/2410.06384v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytical Models of Exoplanetary Atmospheres. III. Gaseous C-H-O-N\n  Chemistry with 9 Molecules",
+    "abstract": "We present novel, analytical, equilibrium-chemistry formulae for the\nabundances of molecules in hot exoplanetary atmospheres that include the\ncarbon, oxygen and nitrogen networks. Our hydrogen-dominated solutions involve\nacetylene (C$_2$H$_2$), ammonia (NH$_3$), carbon dioxide (CO$_2$), carbon\nmonoxide (CO), ethylene (C$_2$H$_4$), hydrogen cyanide (HCN), methane (CH$_4$),\nmolecular nitrogen (N$_2$) and water (H$_2$O). By considering only the gas\nphase, we prove that the mixing ratio of carbon monoxide is governed by a decic\nequation (polynomial equation of degree 10). We validate our solutions against\nnumerical calculations of equilibrium chemistry that perform Gibbs free energy\nminimization and demonstrate that they are accurate at the $\\sim 1\\%$ level for\ntemperatures from 500 to 3000 K. In hydrogen-dominated atmospheres, the ratio\nof abundances of HCN to CH$_4$ is nearly constant across a wide range of\ncarbon-to-oxygen ratios, which makes it a robust diagnostic of the metallicity\nin the gas phase. Our validated formulae allow for the convenient benchmarking\nof chemical kinetics codes and provide an efficient way of enforcing chemical\nequilibrium in atmospheric retrieval calculations.",
+    "authors": [
+      "Kevin Heng",
+      "Shang-Min Tsai"
+    ],
+    "publication_date": "2016-03-17T10:30:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1603.05418v2",
+    "download_url": "http://arxiv.org/abs/1603.05418v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bistability in Interstellar Gas-Phase Chemistry",
+    "abstract": "We present an analysis of \"bistability\" in gas-phase chemical models of dark\ninterstellar clouds. We identify the chemical mechanisms that allow high- and\nlow-ionization solutions to the chemical rate-equations to coexist. We derive\nsimple analytic scaling relations for the gas densities and ionization rates\nfor which the chemistry becomes bistable. We explain why bistability is\nsensitive to the H3+ dissociative recombination rate coefficient, and why it is\ndamped by gas-grain neutralization.",
+    "authors": [
+      "Gai I. Boger",
+      "Amiel Sternberg"
+    ],
+    "publication_date": "2006-01-16T09:04:22Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0601323v1",
+    "download_url": "http://arxiv.org/abs/astro-ph/0601323v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Universal model for exoergic bimolecular reactions and inelastic\n  processes",
+    "abstract": "From a rigorous multichannel quantum-defect formulation of bimolecular\nprocesses, we derive a fully quantal and analytic model for the total rate of\nexoergic bimolecular reactions and/or inelastic processes that is applicable\nover a wide range of temperatures including the ultracold regime. The theory\nestablishes a connection between the ultracold chemistry and the regular\nchemistry by showing that the same theory that gives the quantum threshold\nbehavior agrees with the classical Gorin model at higher temperatures. In\nbetween, it predicts that the rates for identical bosonic molecules and\ndistinguishable molecules would first decrease with temperature outside of the\nWigner threshold region, before rising after a minimum is reached.",
+    "authors": [
+      "Bo Gao"
+    ],
+    "publication_date": "2010-10-24T16:48:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1010.4979v1",
+    "download_url": "http://arxiv.org/abs/1010.4979v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An incomplete taxonomy of self-assigned color specialties",
+    "abstract": "Every discipline in science or professional practice can be sub-divided into\nspecialties and subspecialties. E.g., in medicine a doctor could indicate that\ntheir specialty is ophthalmology and their sub-specialty the retina, or in\nchemistry a specialty could be analytical chemistry and a sub-specialty\nspectroscopy. But, what are the specialties and sub-specialties of the color\ndiscipline? The present report shares the anonymized results of a\n152-participant, online survey conducted between 23rd May and 8th June 2022\nthat suggests 11 top-level color specialties.",
+    "authors": [
+      "Jan Morovic"
+    ],
+    "publication_date": "2022-06-16T15:05:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.08779v2",
+    "download_url": "http://arxiv.org/abs/2206.08779v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytical Swarm Chemistry: Characterization and Analysis of Emergent\n  Swarm Behaviors",
+    "abstract": "Swarm robotics has potential for a wide variety of applications, but\nreal-world deployments remain rare due to the difficulty of predicting emergent\nbehaviors arising from simple local interactions. Traditional engineering\napproaches design controllers to achieve desired macroscopic outcomes under\nidealized conditions, while agent-based and artificial life studies explore\nemergent phenomena in a bottom-up, exploratory manner. In this work, we\nintroduce Analytical Swarm Chemistry, a framework that integrates concepts from\nengineering, agent-based and artificial life research, and chemistry. This\nframework combines macrostate definitions with phase diagram analysis to\nsystematically explore how swarm parameters influence emergent behavior.\nInspired by concepts from chemistry, the framework treats parameters like\nthermodynamic variables, enabling visualization of regions in parameter space\nthat give rise to specific behaviors. Applying this framework to agents with\nminimally viable capabilities, we identify sufficient conditions for behaviors\nsuch as milling and diffusion and uncover regions of the parameter space that\nreliably produce these behaviors. Preliminary validation on real robots\ndemonstrates that these regions correspond to observable behaviors in practice.\nBy providing a principled, interpretable approach, this framework lays the\ngroundwork for predictable and reliable emergent behavior in real-world swarm\nsystems.",
+    "authors": [
+      "Ricardo Vega",
+      "Connor Mattson",
+      "Kevin Zhu",
+      "Daniel S. Brown",
+      "Cameron Nowzari"
+    ],
+    "publication_date": "2025-10-26T20:31:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.22821v1",
+    "download_url": "http://arxiv.org/abs/2510.22821v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytic evaluation of Coulomb integrals for one, two and three-electron\n  distance operators, $R_{C1}^{-n}R_{D1}^{-m}$, $R_{C1}^{-n}r_{12}^{-m}$ and\n  $r_{12}^{-n}r_{13}^{-m}$ with $n, m=0,1,2$",
+    "abstract": "The state of the art for integral evaluation is that analytical solutions to\nintegrals are far more useful than numerical solutions. We evaluate certain\nintegrals analytically that are necessary in some approaches in quantum\nchemistry. In the title, where R stands for nucleus-electron and r for\nelectron-electron distances, the $(n,m)=(0,0)$ case is trivial, the\n$(n,m)=(1,0)$ and (0,1) cases are well known, fundamental milestone in\nintegration and widely used in computation chemistry, as well as based on\nLaplace transformation with integrand exp(-$a^2t^2$). The rest of the cases are\nnew and need the other Laplace transformation with integrand exp(-$a^2t$) also,\nas well as the necessity of a two dimensional version of Boys function comes up\nin case. These analytic expressions (up to Gaussian function integrand) are\nuseful for manipulation with higher moments of inter-electronic distances, for\nexample in correlation calculations.",
+    "authors": [
+      "Sandor Kristyan"
+    ],
+    "publication_date": "2017-09-02T16:22:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1709.03378v1",
+    "download_url": "http://arxiv.org/abs/1709.03378v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An analytic probability density function for partially premixed flames\n  with detailed chemistry",
+    "abstract": "Laminar premixed flame profiles of methane/air free flames and strained\nflames at different fuel/air ratios and strain rates are analysed using\ndetailed chemistry with Lewis numbers equal to one. It is shown that the\ndetailed chemistry flame profiles of progress variables CO2+CO and H2O+H2 in\ncanonically stretched coordinates can be fitted accurately by a slight\ngeneralization of recently proposed analytical presumed flame profiles over a\nwide range of fuel/air ratios through adaptation of a single model parameter.\nStrained flame profiles can be reproduced using an additional linear coordinate\ntransformation, emulating the compression of the preheat zone by strain as\npredicted by premixed flame theory. The model parameter can alternatively be\ndetermined using only the laminar flame speeds and the fully burnt temperatures\nfrom the laminar flame calculations. The stretch factor of the coordinate\ntransformation is proportional to cp/lambda, which drops by factor up to 4\nacross the laminar flame. It is shown how the non-constant cp/lambda modifies\nthe laminar flame \\textcolor{black}{probability density function (pdf)}, a\npolynomial fit to cp/lambda as function of progress variable allows analytical\nresults for the laminar flame pdf, the mean value of progress variable and of\nthe reaction source term. An analytic pdf for partially premixed flames is\nproposed based on Bayes theorem as a combination of a beta pdf for the mixture\nfraction and the laminar flame pdf's evaluated at the respective fuel/air\nratio.",
+    "authors": [
+      "Michael Pfitzner",
+      "Paola Breda"
+    ],
+    "publication_date": "2021-12-20T14:39:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.10566v1",
+    "download_url": "http://arxiv.org/abs/2112.10566v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ab-initio non-relativistic quantum electrodynamics: Bridging quantum\n  chemistry and quantum optics from weak to strong coupling",
+    "abstract": "By applying the Born-Huang expansion, originally developed for coupled\nnucleus-electron systems, to the full nucleus-electron-photon Hamiltonian of\nnon-relativistic quantum electrodynamics (QED) in the long-wavelength\napproximation, we deduce an exact set of coupled equations for electrons on\nphotonic energy surfaces and the nuclei on the resulting polaritonic energy\nsurfaces. This theory describes seamlessly many-body interactions between\nnuclei, electrons and photons including the quantum fluctuation of the\nelectromagnetic field and provides a proper first-principle framework to\ndescribe QED-chemistry phenomena. Since the photonic surfaces and the\ncorresponding non-adiabatic coupling elements can be solved analytically, the\nresulting expansion can be brought into a compact form which allows us to\nanalyze aspects of coupled nucleus-electron-photon systems in a simple and\nintuitive manner. Furthermore, we discuss structural differences between the\nexact quantum treatment and Floquet theory and show how existing\nimplementations of Floquet theory can be adjusted to adhere to QED. From this\ngeneralized Born-Huang expansion an adapted Born-Oppenheimer approximation for\nnuclei on polaritonic surfaces can be deduced. This form allows a direct\napplication of first-principle methods of quantum chemistry such as\ncoupled-cluster or configuration interaction approaches to QED chemistry. By\nrestricting the basis set of this generalized Born-Oppenheimer approximation we\nfurthermore bridge quantum chemistry and quantum optics by recovering simple\nmodels of coupled matter-photon systems employed in quantum optics and\npolaritonic chemistry. We finally highlight numerically that simple few-level\nmodels can lead to physically wrong predictions, even in weak-coupling regimes,\nand show how the presented derivations from first principles help to check and\nderive physically reliable simplified models.",
+    "authors": [
+      "Christian Schäfer",
+      "Michael Ruggenthaler",
+      "Angel Rubio"
+    ],
+    "publication_date": "2018-04-03T12:05:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1804.00923v2",
+    "download_url": "http://arxiv.org/abs/1804.00923v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytical evaluation of ground state gradients in quantum\n  electrodynamics coupled cluster theory",
+    "abstract": "Analytical gradients of potential energy surfaces play a central role in\nquantum chemistry, allowing for molecular geometry optimizations and molecular\ndynamics simulations. In strong coupling conditions, potential energy surfaces\ncan account for strong interactions between matter and the quantized\nelectromagnetic field. In this paper, we derive expressions for the ground\nstate analytical gradients in quantum electrodynamics coupled cluster theory.\nWe also present a Cholesky-based implementation for the coupled cluster singles\nand doubles model. We report timings to show the performance of the\nimplementation and present optimized geometries to highlight cavity-induced\nmolecular orientation effects in strong coupling conditions.",
+    "authors": [
+      "Marcus Takvam Lexander",
+      "Sara Angelico",
+      "Eirik Fadum Kjønstad",
+      "Henrik Koch"
+    ],
+    "publication_date": "2024-06-12T11:39:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.08107v1",
+    "download_url": "http://arxiv.org/abs/2406.08107v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Radial Distribution of Production Rates, Loss Rates and Densities\n  Corresponding to Ion Masses <=40 amu in the Inner Coma of Comet Halley:\n  Composition and Chemistry",
+    "abstract": "In this paper we have studied the chemistry of C, H, N, O, and S compounds\ncorresponding to ions of masses <=40 amu in the inner coma of the comet\n1P/Halley. The production rates, loss rates, and ion mass densities are\ncalculated using the Analytical Yield Spectrum approach and solving coupled\ncontinuity equation controlled by the steady state photochemical equilibrium\ncondition. The primary ionization sources in the model are solar EUV photons,\nphotoelectrons, and auroral electrons of the solar wind origin. The chemical\nmodel couples ion-neutral, electron-neutral, photon-neutral and electron-ion\nreactions among ions, neutrals, electrons, and photons through over 600\nchemical reactions. Of the 46 ions considered in the model the chemistry of 24\nimportant ions are discussed in this paper. The calculated ion mass densities\nare compared with the Giotto Ion Mass Spectrometer (IMS) and Neutral Mass\nSpectrometer (NMS) data at radial distances 1500, 3500, and 6000 km.",
+    "authors": [
+      "S. A. Haider",
+      "Anil Bhardwaj"
+    ],
+    "publication_date": "2005-04-29T17:16:25Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0504667v1",
+    "download_url": "http://arxiv.org/abs/astro-ph/0504667v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Photo-Chemical Applications of Phase-Modulus Interdependencies",
+    "abstract": "After an accolade to Joshua Jortner, we trace the influences of his Chemistry\nbackground in his Physics writings. On the way, we note the richness of Physics\nin principles (or large-scale laws) and the fact-orientedness of Chemistry.\n  Next we turn to a recent laser-induced electron-detachment experiment and\nutilize analytic properties of the developing wave-packet in the (complex) time\ndomain, studied by us previously, to relate the phase of the optimized laser\nfield to its intensity. It is suggested that these results can be used to\nreduce the labor of pulse optimization in phase-intensity controlled reaction\ndynamics. Phase-intensity interdependencies are also established in simulated\nresults (obtained with the END-algorithm) for photo-excited hydrogen-molecules.",
+    "authors": [
+      "Robert Englman",
+      "Asher Yahalom"
+    ],
+    "publication_date": "2004-06-25T14:55:06Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/0406127v1",
+    "download_url": "http://arxiv.org/abs/physics/0406127v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Transformers and Large Language Models for Chemistry and Drug Discovery",
+    "abstract": "Language modeling has seen impressive progress over the last years, mainly\nprompted by the invention of the Transformer architecture, sparking a\nrevolution in many fields of machine learning, with breakthroughs in chemistry\nand biology. In this chapter, we explore how analogies between chemical and\nnatural language have inspired the use of Transformers to tackle important\nbottlenecks in the drug discovery process, such as retrosynthetic planning and\nchemical space exploration. The revolution started with models able to perform\nparticular tasks with a single type of data, like linearised molecular graphs,\nwhich then evolved to include other types of data, like spectra from analytical\ninstruments, synthesis actions, and human language. A new trend leverages\nrecent developments in large language models, giving rise to a wave of models\ncapable of solving generic tasks in chemistry, all facilitated by the\nflexibility of natural language. As we continue to explore and harness these\ncapabilities, we can look forward to a future where machine learning plays an\neven more integral role in accelerating scientific discovery.",
+    "authors": [
+      "Andres M Bran",
+      "Philippe Schwaller"
+    ],
+    "publication_date": "2023-10-09T18:40:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.06083v1",
+    "download_url": "http://arxiv.org/abs/2310.06083v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Vertical Tracer Mixing in Hot Jupiter Atmospheres",
+    "abstract": "Aerosols appear to be ubiquitous in close-in gas giant atmospheres, and\ndisequilibrium chemistry likely impacts the emergent spectra of these planets.\nLofted aerosols and disequilibrium chemistry are caused by vigorous vertical\ntransport in these heavily irradiated atmospheres. Here we numerically and\nanalytically investigate how vertical transport should change over the\nparameter space of spin-synchronized gas giants. In order to understand how\ntracer transport depends on planetary parameters, we develop an analytic theory\nto predict vertical velocities and mixing rates ($K_\\mathrm{zz}$) and compare\nthe results to our numerical experiments. We find that both our theory and\nnumerical simulations predict that, if the vertical mixing rate is described by\nan eddy diffusivity, then this eddy diffusivity $K_\\mathrm{zz}$ should increase\nwith increasing equilibrium temperature, decreasing frictional drag strength,\nand increasing chemical loss timescales. We find that the transition in our\nnumerical simulations between circulation dominated by a superrotating jet and\nthat with solely day-to-night flow causes a marked change in the vertical\nvelocity structure and tracer distribution. The mixing ratio of passive tracers\nis greatest for intermediate drag strengths that corresponds to this transition\nbetween a superrotating jet with columnar vertical velocity structure and\nday-to-night flow with upwelling on the dayside and downwelling on the\nnightside. Lastly, we present analytic solutions for $K_\\mathrm{zz}$ as a\nfunction of planetary effective temperature, chemical loss timescales, and\nother parameters, for use as input to one-dimensional chemistry models of\nspin-synchronized gas giant atmospheres.",
+    "authors": [
+      "Thaddeus D. Komacek",
+      "Adam P. Showman",
+      "Vivien Parmentier"
+    ],
+    "publication_date": "2019-04-21T23:14:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.09676v3",
+    "download_url": "http://arxiv.org/abs/1904.09676v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Approach to Ergodicity in Monte Carlo Simulations",
+    "abstract": "The approach to the ergodic limit in Monte Carlo simulations is studied using\nboth analytic and numerical methods. With the help of a stochastic model, a\nmetric is defined that enables the examination of a simulation in both the\nergodic and non-ergodic regimes. In the non-ergodic regime, the model implies\nhow the simulation is expected to approach ergodic behavior analytically, and\nthe analytically inferred decay law of the metric allows the monitoring of the\nonset of ergodic behavior. The metric is related to previously defined measures\ndeveloped for molecular dynamics simulations, and the metric enables the\ncomparison of the relative efficiencies of different Monte Carlo schemes.\nApplications to Lennard-Jones 13-particle clusters are shown to match the model\nfor Metropolis, J-walking and parallel tempering based approaches. The relative\nefficiencies of these three Monte Carlo approaches are compared, and the decay\nlaw is shown to be useful in determining needed high temperature parameters in\nparallel tempering and J-walking studies of atomic clusters.",
+    "authors": [
+      "J. P. Neirotti",
+      "D. L. Freeman",
+      "J. D. Doll"
+    ],
+    "publication_date": "2000-08-31T15:37:23Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/0008245v1",
+    "download_url": "http://arxiv.org/abs/physics/0008245v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Slow-light enhancement of Beer-Lambert-Bouguer absorption",
+    "abstract": "We theoretically show how slow light in an optofluidic environment\nfacilitates enhanced light-matter interactions, by orders of magnitude. The\nproposed concept provides strong opportunities for improving existing\nminiaturized chemical absorbance cells for Beer-Lambert-Bouguer absorption\nmeasurements widely employed in analytical chemistry.",
+    "authors": [
+      "Niels Asger Mortensen",
+      "Sanshui Xiao"
+    ],
+    "publication_date": "2007-03-06T10:34:06Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/0703059v1",
+    "download_url": "http://arxiv.org/abs/physics/0703059v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Some definite logarithmic integrals from Euler sums, and other\n  integration results",
+    "abstract": "We present explicit expressions for multi-fold logarithmic integrals that are\nequivalent to sums over polygamma functions at integer argument. Such relations\nfind application in perturbative quantum field theory, quantum chemistry,\nanalytic number theory, and elsewhere. The analysis includes the use of\nproperties of a variety of special functions.",
+    "authors": [
+      "Mark W. Coffey"
+    ],
+    "publication_date": "2010-01-08T21:37:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1001.1366v1",
+    "download_url": "http://arxiv.org/abs/1001.1366v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Global existence and asymptotic behavior for a reaction-diffusion system\n  with unbounded coefficients",
+    "abstract": "We consider a reaction-diffusion system which may serve as a model for a\nferment catalytic reaction in chemistry. The model consists of a system of\nreaction diffusion equations with unbounded time dependent coefficients and\ndifferent polynomial reaction terms. An exponential decay of the globally\nbounded solutions is proved. The key tool of the proofs are properties of\nanalytic semigroups and some inequalities.",
+    "authors": [
+      "Mohamed Majdoub",
+      "Nasser-eddine Tatar"
+    ],
+    "publication_date": "2022-06-11T14:23:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.05538v1",
+    "download_url": "http://arxiv.org/abs/2206.05538v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Guiding principles for the design of a chemical vapor deposition process\n  for highly crystalline transition metal dichalcogenides",
+    "abstract": "Two-dimensional transition metal dichalcogenides (TMDs) for advanced logic\ntransistor technologies are deposited by various modifications of the chemical\nvapor deposition (CVD) method using a wide variety of precursors. Being a major\nelectrical performance limiter, the TMD crystal grain size strongly differs\nbetween the various CVD precursor chemistries from nano- to millimeter-sized\ncrystals. However, it remains unclear how the CVD precursor chemistry affects\nthe nucleation density and resulting TMD crystal grain size. This work\npostulates guiding principles to design a CVD process for highly crystalline\nTMD deposition using a quantitative analytical model benchmarked against\nliterature. The TMD nucleation density reduces favorably under low\nsupersaturation conditions, where the metal precursor sorption on the starting\nsurface is reversible and the corresponding metal precursor desorption rate\nexceeds the overall deposition rate. Such reversible precursor adsorption\nguarantees efficient long-range gas-phase lateral diffusion of precursor\nspecies in addition to short-range surface diffusion, which vitally increases\ncrystal grain size. As such, the proposed model explains the large spread in\nexperimentally observed TMD nucleation densities and crystal grain sizes for\nstate-of-the-art CVD chemistries. Ultimately, it empowers the reader to\ninterpret and modulate precursor adsorption and diffusion reactions through\ndesigning CVD precursor chemistries compatible with temperature sensitive\napplication schemes.",
+    "authors": [
+      "Vladislav Voronenkov",
+      "Benjamin Groven",
+      "Henry Medina Silva",
+      "Pierre Morin",
+      "Stefan De Gendt"
+    ],
+    "publication_date": "2023-11-25T12:23:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.15007v2",
+    "download_url": "http://arxiv.org/abs/2311.15007v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Stochastic Operator Learning for Chemistry in Non-Equilibrium Flows",
+    "abstract": "This work presents a novel framework for physically consistent model error\ncharacterization and operator learning for reduced-order models of\nnon-equilibrium chemical kinetics. By leveraging the Bayesian framework, we\nidentify and infer sources of model and parametric uncertainty within the\nCoarse-Graining Methodology across a range of initial conditions. The model\nerror is embedded into the chemical kinetics model to ensure that its\npropagation to quantities of interest remains physically consistent. For\noperator learning, we develop a methodology that separates time dynamics from\nother input parameters. Karhunen-Loeve Expansion (KLE) is employed to capture\ntime dynamics, yielding temporal modes, while Polynomial Chaos Expansion (PCE)\nis subsequently used to map model error and input parameters to KLE\ncoefficients. The proposed model offers three significant advantages: i)\nSeparating time dynamics from other inputs ensures stability of chemistry\nsurrogate when coupled with fluid solvers; ii) The framework fully accounts for\nmodel and parametric uncertainty, enabling robust probabilistic predictions;\niii) The surrogate model is highly interpretable, with visualizable time modes\nand a PCE component that facilitates analytical calculation of sensitivity\nindices. We apply this framework to O2-O chemistry system under hypersonic\nflight conditions, validating it in both a 0D adiabatic reactor and coupled\nsimulations with a fluid solver in a 1D shock case. Results demonstrate that\nthe surrogate is stable during time integration, delivers physically consistent\nprobabilistic predictions accounting for model and parametric uncertainty, and\nachieves maximum relative error below 10%. This work represents a significant\nstep forward in enabling probabilistic predictions of non-equilibrium chemistry\nwith coupled fluid solvers, offering a physically accurate approach for\nhypersonic flow predictions.",
+    "authors": [
+      "Mridula Kuppa",
+      "Roger Ghanem",
+      "Marco Panesi"
+    ],
+    "publication_date": "2024-10-16T18:11:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.12925v1",
+    "download_url": "http://arxiv.org/abs/2410.12925v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Systems Astrochemistry: A New Doctrine for Experimental Studies",
+    "abstract": "Laboratory experiments play a key role in deciphering the chemistry of the\ninterstellar medium (ISM) and the role that product complex organic molecules\n(COMs) may play in the origins of life. However, to date, most studies in\nexperimental astrochemistry have made use of reductionist approaches to\nexperimental design in which chemical responses to variations in a single\nparameter are investigated while all other parameters are held constant.\nAlthough such work does afford insight into the chemistry of the ISM, it is\nlikely that several important points, such as the relative importance of an\nexperimental parameter in determining the chemical outcome of a reaction and\nthe interaction between parameters, remain ambiguous. In light of this, we\npropose adopting a new systems astrochemistry framework for experimental\nstudies which draws on current work performed in the field of prebiotic\nchemistry, and present the basic tenants of such an approach in this article.\nThis systems approach would focus on the emergent properties of the chemical\nsystem by performing the simultaneous variation of multiple experimental\nparameters and would allow for the effect of each parameter, as well as their\ninteractions, to be quantified. We anticipate that the application of systems\nscience to laboratory astrochemistry, coupled with developments in hyphenated\nanalytical techniques and data analytics, will uncover significant new data\nhitherto unknown, and will aid in better linking laboratory experiments to\nobservations and modelling work.",
+    "authors": [
+      "Nigel J. Mason",
+      "Perry A. Hailey",
+      "Duncan V. Mifsud",
+      "James S. Urquhart"
+    ],
+    "publication_date": "2021-07-06T22:20:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.02924v1",
+    "download_url": "http://arxiv.org/abs/2107.02924v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fast reactive flow simulations using analytical Jacobian and dynamic\n  load balancing in OpenFOAM",
+    "abstract": "Detailed chemistry-based computational fluid dynamics (CFD) simulations are\ncomputationally expensive due to the solution of the underlying chemical\nkinetics system of ordinary differential equations (ODEs). Here, we introduce a\nnovel open-source library aiming at speeding up such reactive flow simulations\nusing OpenFOAM, an open-source C++ software for CFD. First, our dynamic load\nbalancing model DLBFoam (Tekg\\\"ul et al., 2021) is utilized to mitigate the\ncomputational imbalance due to chemistry solution in multiprocessor reactive\nflow simulations. Then, the individual (cell-based) chemistry solutions are\noptimized by implementing an analytical Jacobian formulation using the\nopen-source library pyJac, and by increasing the efficiency of the ODE solvers\nby utilizing the linear algebra package LAPACK. We demonstrate the speed-up\ncapabilities of this new library on various combustion problems. These test\nproblems include a 2D turbulent reacting shear layer and 3D stratified\ncombustion to highlight the favorable scaling aspects of the library on\nignition/flame front initiation setups for dual-fuel combustion. Furthermore,\ntwo fundamental 3D demonstrations are provided on non-premixed and partially\npremixed flames, namely the ECN Spray A and the Sandia flame D experimental\nconfigurations. The novel model offers up to two orders of magnitude speed-up\nfor most of the investigated cases. The openly shared code along with the test\ncase setups represent a radically new enabler for reactive flow simulations in\nthe OpenFOAM framework.",
+    "authors": [
+      "Ilya Morev",
+      "Bulut Tekgül",
+      "Mahmoud Gadalla",
+      "Ali Shahanaghi",
+      "Jeevananthan Kannan",
+      "Shervin Karimkashi",
+      "Ossi Kaario",
+      "Ville Vuorinen"
+    ],
+    "publication_date": "2021-05-25T16:50:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.12070v2",
+    "download_url": "http://arxiv.org/abs/2105.12070v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Development of a Chemistry Dynamic Load Balancing Solver with Sparse\n  Analytical Jacobian Approach for Rapid and Accurate Reactive Flow Simulations",
+    "abstract": "In addressing the demands of industrial high-fidelity computation, the\npresent study introduces a rapid and accurate customized solver developed on\nthe OpenFOAM platform. To enhance computational efficiency, a novel integrated\nacceleration strategy is introduced. Initially, a sparse analytical Jacobian\napproach utilizing the SpeedCHEM chemistry library was implemented to increase\nthe efficiency of the ODE solver. Subsequently, the Dynamic Load Balancing\n(DLB) code was employed to uniformly distribute the computational workload for\nchemistry among multiple processes. Further optimization was achieved through\nthe introduction of the Open Multi-Processing (OpenMP) method to enhance\nparallel computing efficiency. Lastly, the Local Time Stepping (LTS) scheme was\nintegrated to maximize the individual time step for each computational cell,\nresulting in a noteworthy minimum speed-up of over 31 times. The effectiveness\nand robustness of this customized solver were systematically validated against\nthree distinct partially turbulent premixed flames, Sandia Flames D, E, and F.\nAdditionally, a comparative analysis was conducted, encompassing different\nturbulence models, turbulent Prandtl numbers, and model constants, resulting in\nthe recommendation of optimal numerical parameters for various conditions. The\npresent study offers one viable solution for rapid and accurate calculations in\nthe OpenFOAM platform, while also providing insights into the selection of\nturbulence models and parameters for industrial numerical simulation.",
+    "authors": [
+      "Yinan Yang",
+      "Tsukasa Hori",
+      "Shinya Sawada",
+      "Fumiteru Akamatsu"
+    ],
+    "publication_date": "2023-11-25T06:12:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.14941v1",
+    "download_url": "http://arxiv.org/abs/2311.14941v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Complex Adiabatic Connection: a Hidden Non-Hermitian Path from Ground to\n  Excited States",
+    "abstract": "Processes related to electronically excited states are central in many areas\nof science, however accurately determining excited-state energies remains a\nmajor challenge in theoretical chemistry. Recently, higher energy stationary\nstates of non-linear methods have themselves been proposed as approximations to\nexcited states, although the general understanding of the nature of these\nsolutions remains surprisingly limited. In this Letter, we present an entirely\nnovel approach for exploring and obtaining excited stationary states by\nexploiting the properties of non-Hermitian Hamiltonians. Our key idea centres\non performing analytic continuations of conventional quantum chemistry methods.\nConsidering Hartree--Fock theory as an example, we analytically continue the\nelectron-electron interaction to expose a hidden connectivity of multiple\nsolutions across the complex plane, revealing a close resemblance between\nCoulson--Fischer points and non-Hermitian degeneracies. Finally, we demonstrate\nhow a ground-state wave function can be morphed naturally into an excited-state\nwave function by constructing a well-defined complex adiabatic connection.",
+    "authors": [
+      "Hugh G. A. Burton",
+      "Alex J. W. Thom",
+      "Pierre-François Loos"
+    ],
+    "publication_date": "2018-11-22T13:25:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.09164v3",
+    "download_url": "http://arxiv.org/abs/1811.09164v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytic treatment of IR-spectroscopy data for double well potential",
+    "abstract": "A theoretical scheme for the analysis of experimental data on IR spectroscopy\nfor a quantum particle in a double well potential (DWP) is suggested. The\nanalysis is based on the trigonometric DWP for which the exact analytic\nsolution of the Schr\\\"odinger equation is available. The corresponding energy\nlevels along with their wave functions are expressed via special functions\nimplemented in {\\sl {Mathematica}} (spheroidal function and its spectrum of\neigenvalues). As a result trigonometric DWP makes the calculation of the energy\nlevels an extremely easy procedure. It contains three parameters allowing one\nto model the most important characteristics of DWP (barrier height and the\ndistance between the minima of the potential) along with the required\nasymmetry. Our approach provides an accurate calculation of the energy spectrum\nfor hydrogen bonds in chromous acid (CrOOH) and potassium dihydrogen phosphate\n(${\\rm{KH_2PO_4}}$) along with their polarizability in agreement with available\nexperimental data.",
+    "authors": [
+      "A. E. Sitnitsky"
+    ],
+    "publication_date": "2019-05-29T06:45:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.12242v1",
+    "download_url": "http://arxiv.org/abs/1905.12242v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multireference electron correlation methods: Journeys along potential\n  energy surfaces",
+    "abstract": "Multireference electron correlation methods describe static and dynamical\nelectron correlation in a balanced way, and therefore, can yield accurate and\npredictive results even when single-reference methods or multiconfigurational\nself-consistent field (MCSCF) theory fails. One of their most prominent\napplications in quantum chemistry is the exploration of potential energy\nsurfaces (PES). This includes the optimization of molecular geometries, such as\nequilibrium geometries and conical intersections, and on-the-fly photodynamics\nsimulations; both depend heavily on the ability of the method to properly\nexplore the PES. Since such applications require the nuclear gradients and\nderivative couplings, the availability of analytical nuclear gradients greatly\nimproves the utility of quantum chemical methods. This review focuses on the\ndevelopments and advances made in the past two decades. To motivate the\nreaders, we first summarize the notable applications of multireference electron\ncorrelation methods to mainstream chemistry, including geometry optimizations\nand on-the-fly dynamics. Subsequently, we review the analytical nuclear\ngradient and derivative coupling theories for these methods, and the software\ninfrastructure that allows one to make use of these quantities in applications.\nThe future prospects are discussed at the end of this review.",
+    "authors": [
+      "Jae Woo Park",
+      "Rachael Al-Saadon",
+      "Matthew K. MacLeod",
+      "Toru Shiozaki",
+      "Bess Vlaisavljevich"
+    ],
+    "publication_date": "2019-08-08T14:35:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1911.06836v1",
+    "download_url": "http://arxiv.org/abs/1911.06836v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Topological phonon analysis of the 2D buckled honeycomb lattice: an\n  application to real materials",
+    "abstract": "By means of group theory, topological quantum chemistry, first-principles and\nMonte Carlo calculations, we analyze the topology of the 2D buckled honeycomb\nlattice phonon spectra. Taking the pure crystal structure as an input, we show\nthat eleven distinct phases are possible, five of which necessarily have\nnon-trivial topology according to topological quantum chemistry. Another four\nof them are also identified as topological using Wilson loops in an analytical\nmodel that includes all the symmetry allowed force constants up to third\nnearest neighbors, making a total of nine topological phases. We then compute\nthe ab initio phonon spectra for the two-dimensional crystals of Si, Ge, P, As\nand Sb in this structure and construct its phase diagram. Despite the large\nproportion of topological phases found in the analytical model, all of the\ncrystals lie in a trivial phase. By analyzing the force constants space using\nMonte Carlo calculations, we elucidate why topological phonon phases are\nphysically difficult to realize in real materials with this crystal structure.",
+    "authors": [
+      "Martin Gutierrez-Amigo",
+      "Maia G. Vergniory",
+      "Ion Errea",
+      "J. L. Mañes"
+    ],
+    "publication_date": "2022-11-23T23:22:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.13346v1",
+    "download_url": "http://arxiv.org/abs/2211.13346v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Molecular fingerprinting of biological nanoparticles with a label-free\n  optofluidic platform",
+    "abstract": "Label-free detecting multiple analytes in a high-throughput fashion has been\none of the long-sought goals in biosensing applications. Yet, for all-optical\napproaches, interfacing state-of-the-art label-free techniques with\nmicrofluidics tools that can process small volumes of sample with high\nthroughput, and with surface chemistry that grants analyte specificity, poses a\ncritical challenge to date. Here, we introduce an optofluidic platform that\nbrings together state-of-the-art digital holography with PDMS microfluidics by\nusing supported lipid bilayers as a surface chemistry building block to\nintegrate both technologies. Specifically, this platform fingerprints\nheterogeneous biological nanoparticle populations via a multiplexed label-free\nimmunoaffinity assay with single particle sensitivity. Herein, we first\nthoroughly characterise the robustness and performance of the platform, and\nthen apply it to profile four distinct ovarian cell-derived extracellular\nvesicle populations over a panel of surface protein biomarkers, thus developing\na unique biomarker fingerprint for each cell line. We foresee that our approach\nwill find many applications where routine and multiplexed characterisation of\nbiological nanoparticles is required.",
+    "authors": [
+      "Alexia Stollmann",
+      "Jose Garcia-Guirado",
+      "Jae-Sang Hong",
+      "Hyungsoon Im",
+      "Hakho Lee",
+      "Jaime Ortega Arroyo",
+      "Romain Quidant"
+    ],
+    "publication_date": "2023-08-11T13:10:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.06117v1",
+    "download_url": "http://arxiv.org/abs/2308.06117v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Cavity-Mediated Collective Resonant Suppression of Local Molecular\n  Vibrations",
+    "abstract": "Recent advances in polaritonic chemistry suggest that chemical reactions can\nbe controlled via collective vibrational strong coupling (VSC) in a cavity. In\nthis fully analytical work, we demonstrate that the collective vibrations of a\nmolecular ensemble under VSC execute a beating with a period inversely\nproportional to the collective vacuum Rabi splitting. Significantly, this\ncollective beating is imprinted on the local dynamics and resonantly suppresses\nindividual molecular vibrations when a fraction of molecules are vibrationally\nexcited, as in activated complexes formed in chemical reactions. This emergent\nbeating occurs on significantly longer time scales than the individual\nmolecular vibration or the cavity field oscillation period, peaking at the\ncavity-molecule resonance, consistent with polaritonic chemistry experiments.\nThe cavity mediates an energy exchange between excited and ground-state\nmolecules, affecting the dynamics of the entire ensemble. These findings\nsuggest that the dynamics in polaritonic chemical reactions may not be in full\nequilibrium. In the ultra-strong coupling regime, we find that the local\nvibrations are modified by the cavity even at short time scales. Our analytical\nmodel offers insights into how collective VSC can dampen local molecular\nvibrations at resonance, potentially altering chemical reactivity.",
+    "authors": [
+      "Vasil Rokaj",
+      "Ilia Tutunnikov",
+      "H. R. Sadeghpour"
+    ],
+    "publication_date": "2025-02-15T22:21:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.10917v2",
+    "download_url": "http://arxiv.org/abs/2502.10917v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hot phase generation by supernovae: resolution, chemistry and thermal\n  conduction",
+    "abstract": "Supernovae (SN) generate hot gas in the interstellar medium (ISM), help\nsetting the ISM structure and support the driving of outflows. It is important\nto resolve the hot gas generation for galaxy formation simulations at solar\nmass and sub-parsec resolution which realise individual supernova (SN)\nexplosions with ambient densities varying by several orders of magnitude in a\nrealistic multi-phase ISM. We test resolution requirements by simulating SN\nblast waves at three metallicities ($Z = 0.01, 0.1$ and $1 Z_{\\odot}$), six\ndensities and their respective equilibrium chemical compositions ($n=0.001$\ncm$^{-3}$ - $100$ cm$^{-3}$), and four mass resolutions ($0.1$ - $100$\nM$_{\\odot}$), in three dimensions. We include non-equilibrium cooling and\nchemistry, a homogenous interstellar radiation field, and shielding with a\nmodern pressure-energy smoothed particle hydrodynamics (SPH) method including\nisotropic thermal conduction and a meshless-finite-mass (MFM) solver. We find\nstronger resolution requirements for chemistry and hot phase generation than\nfor momentum generation. While at $10$ M$_{\\odot}$ the radial momenta at the\nend of the Sedov phase start converging, the hot phase generation and chemistry\nrequire higher resolutions to represent the neutral to ionised hydrogen\nfraction at the end of the Sedov phase correctly. Thermal conduction typically\nreduces the hot phase by $0.2$ dex and has little impact on the chemical\ncomposition. In general, our $1$, and $0.1$ M$_{\\odot}$ results agree well with\nprevious numerical and analytic estimates. We conclude that for the thermal\nenergy injection SN model presented here resolutions higher than $10$\nM$_{\\odot}$ are required to model the chemistry, momentum and hot phase\ngeneration in a multi-phase ISM.",
+    "authors": [
+      "Ulrich P. Steinwandel",
+      "Benjamin P. Moster",
+      "Thorsten Naab",
+      "Chia-Yu Hu",
+      "Stefanie Walch"
+    ],
+    "publication_date": "2019-07-30T18:02:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.13153v2",
+    "download_url": "http://arxiv.org/abs/1907.13153v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Correlative analysis of structure and chemistry of LixFePO4 platelets\n  using 4D-STEM and X-ray ptychography",
+    "abstract": "Lithium iron phosphate (LixFePO4), a cathode material used in rechargeable\nLi-ion batteries, phase separates upon de/lithiation under equilibrium. The\ninterfacial structure and chemistry within these cathode materials affects\nLi-ion transport, and therefore battery performance. Correlative imaging of\nLixFePO4 was performed using four-dimensional scanning transmission electron\nmicroscopy (4D-STEM), scanning transmission X-ray microscopy (STXM), and X-ray\nptychography in order to analyze the local structure and chemistry of the same\nparticle set. Over 50,000 diffraction patterns from 10 particles provided\nmeasurements of both structure and chemistry at a nanoscale spatial resolution\n(16.6-49.5 nm) over wide (several micron) fields-of-view with statistical\nrobustness.LixFePO4 particles at varying stages of delithiation were measured\nto examine the evolution of structure and chemistry as a function of\ndelithiation. In lithiated and delithiated particles, local variations were\nobserved in the degree of lithiation even while local lattice structures\nremained comparatively constant, and calculation of linear coefficients of\nchemical expansion suggest pinning of the lattice structures in these\npopulations. Partially delithiated particles displayed broadly core-shell-like\nstructures, however, with highly variable behavior both locally and per\nindividual particle that exhibited distinctive intermediate regions at the\ninterface between phases, and pockets within the lithiated core that correspond\nto FePO4 in structure and chemistry.The results provide insight into the\nLixFePO4 system, subtleties in the scope and applicability of Vegards law\n(linear lattice parameter-composition behavior) under local versus global\nmeasurements, and demonstrate a powerful new combination of experimental and\nanalytical modalities for bridging the crucial gap between local and\nstatistical characterization.",
+    "authors": [
+      "L. A. Hughes",
+      "Benjamin H. Savitzky",
+      "Haitao D. Deng",
+      "Norman L. Jin",
+      "Eder G. Lomeli",
+      "Young-Sang Yu",
+      "David A. Shapiro",
+      "Patrick Herring",
+      "Abraham Anapolsky",
+      "William C. Chueh",
+      "Colin Ophus",
+      "Andrew M. Minor"
+    ],
+    "publication_date": "2021-07-09T05:34:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.04218v1",
+    "download_url": "http://arxiv.org/abs/2107.04218v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Relativistic two-photon bremsstrahlung",
+    "abstract": "An approximate approach for the description of the two-photon bremsstrahlung\nemitted by a relativistic projectile scattered in a spherically-symmetric field\nis developed. It based on the accurate treatment of the analytical structure of\nthe singularities in relativistic one-photon free-free matrix elements. For the\ncase of a Coulomb field the analytical expressions for the amplitude and cross\nsection of process are presented. Numerical results obtained within the\nframework of the proposed approach are compared with the available experimental\ndata and with the results of simpler theories.",
+    "authors": [
+      "A. V. Korol",
+      "I. A. Solovjev"
+    ],
+    "publication_date": "2004-11-04T10:30:36Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/0411044v4",
+    "download_url": "http://arxiv.org/abs/physics/0411044v4",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Derivatives of spin dynamics simulations",
+    "abstract": "We report analytical equations for the derivatives of spin dynamics\nsimulations with respect to pulse sequence and spin system parameters. The\nmethods described are significantly faster, more accurate and more reliable\nthan the finite difference approximations typically employed. The resulting\nderivatives may be used in fitting, optimization, performance evaluation and\nstability analysis of spin dynamics simulations and experiments.\n  Keywords: NMR, EPR, simulation, analytical derivatives, optimal control, spin\nchemistry, radical pair.",
+    "authors": [
+      "Ilya Kuprov",
+      "Christopher T. Rodgers"
+    ],
+    "publication_date": "2009-10-19T15:15:33Z",
+    "arxiv_id": "http://arxiv.org/abs/0910.3593v1",
+    "download_url": "http://arxiv.org/abs/0910.3593v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytical study of level crossings in the Stark-Zeeman spectrum of\n  ground state OH",
+    "abstract": "The ground electronic, vibrational and rotational state of the OH molecule is\ncurrently of interest as it can be manipulated by electric and magnetic fields\nfor experimental studies in ultracold chemistry and quantum degeneracy. Based\non our recent exact solution of the corresponding effective Stark-Zeeman\nHamiltonian, we present an analytical study of the crossings and avoided\ncrossings in the spectrum. These features are relevant to non-adiabatic\ntransitions, conical intersections and Berry phases. Specifically, for an\navoided crossing employed in the evaporative cooling of OH, we compare our\nexact results to those derived earlier from perturbation theory.",
+    "authors": [
+      "N. Cawley",
+      "Z. Howard",
+      "M. Kleinert",
+      "M. Bhattacharya"
+    ],
+    "publication_date": "2013-09-12T15:59:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1309.3204v1",
+    "download_url": "http://arxiv.org/abs/1309.3204v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Linear scaling computation of forces for the domain-decomposition linear\n  Poisson--Boltzmann method",
+    "abstract": "The Linearized Poisson--Boltzmann (LPB) equation is a popular and widely\naccepted model for accounting solvent effects in computational (bio-)\nchemistry. In the present article we derive the analytical forces of the\ndomain-decomposition-based ddLPB-method with vdW or SAS surface. We present an\nefficient strategy to compute the forces and its implementation, allowing\nlinear scaling of the method with respect to the number of atoms using the fast\nmultipole method (FMM). Numerical tests illustrates the accuracy of the\ncomputation of the analytical forces and compares efficiency with other\navailable methods.",
+    "authors": [
+      "Abhinav Jha",
+      "Michele Nottoli",
+      "Aleksandr Mikhalev",
+      "Chaoyu Quan",
+      "Benjamin Stamm"
+    ],
+    "publication_date": "2022-03-01T15:34:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.00552v2",
+    "download_url": "http://arxiv.org/abs/2203.00552v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Risk management for analytical methods: conciliating objectives of\n  methods, validation phase and routine decision rules",
+    "abstract": "In the industries that involved either chemistry or biology, such as\npharmaceutical industries, chemical industries or food industry, the analytical\nmethods are the necessary eyes and hear of all the material produced or used.\nIf the quality of an analytical method is doubtful, then the whole set of\ndecision that will be based on those measures is questionable. For those\nreasons, being able to assess the quality of an analytical method is far more\nthan a statistical challenge; it's a matter of ethic and good business\npractices. Many regulatory documents have been releases, primarily ICH and FDA\ndocuments in the pharmaceutical industry (FDA, 1995, 1997, 2001) to address\nthat issue.",
+    "authors": [
+      "Myriam Maumy",
+      "B. Boulanger",
+      "W. Dewe",
+      "A. Gilbert",
+      "B. Govaerts"
+    ],
+    "publication_date": "2007-12-31T14:05:52Z",
+    "arxiv_id": "http://arxiv.org/abs/0801.0207v1",
+    "download_url": "http://arxiv.org/abs/0801.0207v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Uncertainty quantification and complex analyticity of the nonlinear\n  Poisson-Boltzmann equation for the interface problem with random domains",
+    "abstract": "The nonlinear Poisson-Boltzmann equation (NPBE) is an elliptic partial\ndifferential equation used in applications such as protein interactions and\nbiophysical chemistry (among many others). It describes the nonlinear\nelectrostatic potential of charged bodies submerged in an ionic solution. The\nkinetic presence of the solvent molecules introduces randomness to the shape of\na protein, and thus a more accurate model that incorporates these random\nperturbations of the domain is analyzed to compute the statistics of quantities\nof interest of the solution. When the parameterization of the random\nperturbations is high-dimensional, this calculation is intractable as it is\nsubject to the curse of dimensionality. However, if the solution of the NPBE\nvaries analytically with respect to the random parameters, the problem becomes\namenable to techniques such as sparse grids and deep neural networks. In this\npaper, we show analyticity of the solution of the NPBE with respect to analytic\nperturbations of the domain by using the analytic implicit function theorem and\nthe domain mapping method. Previous works have shown analyticity of solutions\nto linear elliptic equations but not for nonlinear problems. We further show\nhow to derive \\emph{a priori} bounds on the size of the region of analyticity.\nThis method is applied to the trypsin molecule to demonstrate that the\nconvergence rates of the quantity of interest are consistent with the\nanalyticity result. Furthermore, the approach developed here is sufficiently\ngeneral enough to be applied to other nonlinear problems in uncertainty\nquantification.",
+    "authors": [
+      "Trevor Norton",
+      "Jie Xu",
+      "Brian Choi",
+      "Mark Kon",
+      "Julio Enrique Castrillón-Candás"
+    ],
+    "publication_date": "2023-09-28T13:46:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.16439v1",
+    "download_url": "http://arxiv.org/abs/2309.16439v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemically active colloids near osmotic-responsive walls with\n  surface-chemistry gradients",
+    "abstract": "Chemically active colloids move by creating gradients in the composition of\nthe surrounding solution and by exploiting the differences in their\ninteractions with the various molecular species in solution. If such particles\nmove near boundaries, e.g., the walls of the container confining the\nsuspension, gradients in the composition of the solution are also created along\nthe wall. This give rise to chemi-osmosis (via the interactions of the wall\nwith the molecular species forming the solution), which drives flows coupling\nback to the colloid and thus influences its motility. Employing an approximate\n\"point-particle\" analysis, we show analytically that -- owing to this kind of\ninduced active response (chemi-osmosis) of the wall -- such chemically active\ncolloids can align with, and follow, gradients in the surface chemistry of the\nwall. In this sense, these artificial \"swimmers\" exhibit a primitive form of\nthigmotaxis with the meaning of sensing the proximity of a (not necessarily\ndiscontinuous) physical change in the environment. We show that the alignment\nwith the surface-chemistry gradient is generic for chemically active colloids\nas long as they exhibit motility in an unbounded fluid, i.e., this phenomenon\ndoes not depend on the exact details of the propulsion mechanism. The results\nare discussed in the context of simple models of chemical activity,\ncorresponding to Janus particles with \"source\" chemical reactions on one half\nof the surface and either \"inert\" or \"sink\" reactions over the other half.",
+    "authors": [
+      "M. N. Popescu",
+      "W. E. Uspal",
+      "S. Dietrich"
+    ],
+    "publication_date": "2016-08-09T20:05:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1608.02973v1",
+    "download_url": "http://arxiv.org/abs/1608.02973v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

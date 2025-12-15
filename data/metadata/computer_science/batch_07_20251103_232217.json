@@ -1,0 +1,767 @@
+[
+  {
+    "title": "Using the Full-text Content of Academic Articles to Identify and\n  Evaluate Algorithm Entities in the Domain of Natural Language Processing",
+    "abstract": "In the era of big data, the advancement, improvement, and application of\nalgorithms in academic research have played an important role in promoting the\ndevelopment of different disciplines. Academic papers in various disciplines,\nespecially computer science, contain a large number of algorithms. Identifying\nthe algorithms from the full-text content of papers can determine popular or\nclassical algorithms in a specific field and help scholars gain a comprehensive\nunderstanding of the algorithms and even the field. To this end, this article\ntakes the field of natural language processing (NLP) as an example and\nidentifies algorithms from academic papers in the field. A dictionary of\nalgorithms is constructed by manually annotating the contents of papers, and\nsentences containing algorithms in the dictionary are extracted through\ndictionary-based matching. The number of articles mentioning an algorithm is\nused as an indicator to analyze the influence of that algorithm. Our results\nreveal the algorithm with the highest influence in NLP papers and show that\nclassification algorithms represent the largest proportion among the\nhigh-impact algorithms. In addition, the evolution of the influence of\nalgorithms reflects the changes in research tasks and topics in the field, and\nthe changes in the influence of different algorithms show different trends. As\na preliminary exploration, this paper conducts an analysis of the impact of\nalgorithms mentioned in the academic text, and the results can be used as\ntraining data for the automatic extraction of large-scale algorithms in the\nfuture. The methodology in this paper is domain-independent and can be applied\nto other domains.",
+    "authors": [
+      "Yuzhuo Wang",
+      "Chengzhi Zhang"
+    ],
+    "publication_date": "2020-10-21T08:24:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.10817v1",
+    "download_url": "http://arxiv.org/abs/2010.10817v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Cavity QED Implementation of Deutsch-Jozsa Algorithm",
+    "abstract": "The Deutsch-Jozsa algorithm is a generalization of the Deutsch algorithm\nwhich was the first algorithm written. We present schemes to implement the\nDeutsch algorithm and the Deutsch-Jozsa algorithm via cavity QED.",
+    "authors": [
+      "E. S. Guerra"
+    ],
+    "publication_date": "2004-10-23T13:26:18Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0410188v3",
+    "download_url": "http://arxiv.org/abs/quant-ph/0410188v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Floyd-Warshall Alorithm",
+    "abstract": "Classical Floyd-Warshall algorithm is used to solve all-pairs shortest path\nproblem on a directed graph. The classical algorithm runs in \\mathcal{O}\n(V^{3}) time where V represents the number of nodes. Here we have modified the\nalgorithm and proposed a quantum algorithm analogous to Floyd-Warshall\nalgorithm which exploits the superposition principle and runs in \\mathcal{O}\n(Vlog_{2}V) time.",
+    "authors": [
+      "A. S. Gupta",
+      "A. Pathak"
+    ],
+    "publication_date": "2005-02-23T11:01:24Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0502144v2",
+    "download_url": "http://arxiv.org/abs/quant-ph/0502144v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Grover search algorithm",
+    "abstract": "A quantum algorithm is a set of instructions for a quantum computer, however,\nunlike algorithms in classical computer science their results cannot be\nguaranteed. A quantum system can undergo two types of operation, measurement\nand quantum state transformation, operations themselves must be unitary\n(reversible). Most quantum algorithms involve a series of quantum state\ntransformations followed by a measurement. Currently very few quantum\nalgorithms are known and no general design methodology exists for their\nconstruction.",
+    "authors": [
+      "Eva Borbely"
+    ],
+    "publication_date": "2007-05-29T09:42:46Z",
+    "arxiv_id": "http://arxiv.org/abs/0705.4171v1",
+    "download_url": "http://arxiv.org/abs/0705.4171v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Polylogarithmic-Competitive Algorithm for the k-Server Problem",
+    "abstract": "We give the first polylogarithmic-competitive randomized online algorithm for\nthe $k$-server problem on an arbitrary finite metric space. In particular, our\nalgorithm achieves a competitive ratio of O(log^3 n log^2 k log log n) for any\nmetric space on n points. Our algorithm improves upon the deterministic\n(2k-1)-competitive algorithm of Koutsoupias and Papadimitriou [J.ACM'95]\nwhenever n is sub-exponential in k.",
+    "authors": [
+      "Nikhil Bansal",
+      "Niv Buchbinder",
+      "Aleksander Madry",
+      "Joseph",
+      "Naor"
+    ],
+    "publication_date": "2011-10-07T16:39:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1110.1580v1",
+    "download_url": "http://arxiv.org/abs/1110.1580v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An efficient parallel algorithm for the longest path problem in meshes",
+    "abstract": "In this paper, first we give a sequential linear-time algorithm for the\nlongest path problem in meshes. This algorithm can be considered as an\nimprovement of [13]. Then based on this sequential algorithm, we present a\nconstant-time parallel algorithm for the problem which can be run on every\nparallel machine.",
+    "authors": [
+      "Fatemeh Keshavarz-Kohjerdi",
+      "Alireza Bagheri"
+    ],
+    "publication_date": "2012-01-21T10:39:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1201.4459v1",
+    "download_url": "http://arxiv.org/abs/1201.4459v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A New Hybrid Classical-Quantum Algorithm for Continuous Global\n  Optimization Problems",
+    "abstract": "Grover's algorithm can be employed in global optimization methods providing,\nin some cases, a quadratic speedup over classical algorithms. This paper\ndescribes a new method for continuous global optimization problems that uses a\nclassical algorithm for finding a local minimum and Grover's algorithm to\nescape from this local minimum. Simulations with testbed functions and\ncomparisons with algorithms from the literature are presented.",
+    "authors": [
+      "Pedro Lara",
+      "Renato Portugal",
+      "Carlile Lavor"
+    ],
+    "publication_date": "2013-01-20T16:11:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1301.4667v1",
+    "download_url": "http://arxiv.org/abs/1301.4667v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Comment on \"Adiabatic Quantum Algorithm for Search Engine Ranking\"",
+    "abstract": "In their Letter, Garnerone et al. claim that an adiabatic quantum algorithm\ncan extract information about a PageRank vector with either a polynomial or\nexponential reduction in time resources over the classical algorithm with\ncomparable space resources. Here we argue that the quantum algorithm offers no\nobvious advantage over the classical algorithm and fails to preserve the\nfundamental stability property of the classical PageRank algorithm.",
+    "authors": [
+      "Jonathan E. Moussa"
+    ],
+    "publication_date": "2013-10-24T17:09:43Z",
+    "arxiv_id": "http://arxiv.org/abs/1310.6676v1",
+    "download_url": "http://arxiv.org/abs/1310.6676v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Fast String Matching Algorithm Based on Lowlight Characters in the\n  Pattern",
+    "abstract": "We put forth a new string matching algorithm which matches the pattern from\nneither the left nor the right end, instead a special position. Comparing with\nthe Knuth-Morris-Pratt algorithm and the Boyer-Moore algorithm, the new\nalgorithm is more flexible to pick the position for starting comparisons. The\noption really brings it a saving in cost.",
+    "authors": [
+      "Zhengjun Cao",
+      "Lihua Liu"
+    ],
+    "publication_date": "2014-01-28T08:27:19Z",
+    "arxiv_id": "http://arxiv.org/abs/1401.7110v1",
+    "download_url": "http://arxiv.org/abs/1401.7110v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Simple Algorithm for Maximum Margin Classification, Revisited",
+    "abstract": "In this note, we revisit the algorithm of Har-Peled et. al. [HRZ07] for\ncomputing a linear maximum margin classifier. Our presentation is self\ncontained, and the algorithm itself is slightly simpler than the original\nalgorithm. The algorithm itself is a simple Perceptron like iterative\nalgorithm. For more details and background, the reader is referred to the\noriginal paper.",
+    "authors": [
+      "Sariel Har-Peled"
+    ],
+    "publication_date": "2015-07-06T18:53:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1507.01563v1",
+    "download_url": "http://arxiv.org/abs/1507.01563v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On Minimal Accuracy Algorithm Selection in Computer Vision and\n  Intelligent Systems",
+    "abstract": "In this paper we discuss certain theoretical properties of algorithm\nselection approach to image processing and to intelligent system in general. We\nanalyze the theoretical limits of algorithm selection with respect to the\nalgorithm selection accuracy. We show the theoretical formulation of a crisp\nbound on the algorithm selector precision guaranteeing to always obtain better\nthan the best available algorithm result.",
+    "authors": [
+      "Martin Lukac",
+      "Kamila Abdiyeva",
+      "Michitaka Kameyama"
+    ],
+    "publication_date": "2016-08-12T15:55:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1608.03832v1",
+    "download_url": "http://arxiv.org/abs/1608.03832v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improving the Florentine algorithms: recovering algorithms for Motzkin\n  and Schröder paths",
+    "abstract": "We present random sampling procedures for Motzkin and Schr\\\"oder paths,\nfollowing previous work on Dyck paths. Our algorithms follow the anticipated\nrejection method of the Florentine algorithms (Barcucci et al. 1994+), but\nintroduce a recovery idea to greatly reduce the probability of rejection. They\nuse an optimal amount of randomness and achieve a better time complexity than\nthe Florentine algorithms.",
+    "authors": [
+      "Axel Bacher"
+    ],
+    "publication_date": "2018-02-16T17:07:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1802.06030v2",
+    "download_url": "http://arxiv.org/abs/1802.06030v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ergodicity for $p$-adic continued fraction algorithms",
+    "abstract": "Following Schweiger's generalization of multidimensional continued fraction\nalgorithms, we consider a very large family of $p$-adic multidimensional\ncontinued fraction algorithms, which include Schneider's algorithm, Ruban's\nalgorithms, and the $p$-adic Jacobi-Perron algorithm as special cases. The main\nresult is to show that all the transformations in the family are ergodic with\nrespect to the Haar measure.",
+    "authors": [
+      "Hui Rao",
+      "Shin-ichi Yasutomi"
+    ],
+    "publication_date": "2020-09-23T10:31:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.11041v2",
+    "download_url": "http://arxiv.org/abs/2009.11041v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient Score Computation and Expectation-Maximization Algorithm in\n  Regime-Switching Models",
+    "abstract": "This study proposes an efficient algorithm for score computation for\nregime-switching models, and derived from which, an efficient\nexpectation-maximization (EM) algorithm. Different from existing algorithms,\nthis algorithm does not rely on the forward-backward filtering for smoothed\nregime probabilities, and only involves forward computation. Moreover, the\nalgorithm to compute score is readily extended to compute the Hessian matrix.",
+    "authors": [
+      "Chaojun Li",
+      "Shi Qiu"
+    ],
+    "publication_date": "2022-05-03T15:42:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.01565v1",
+    "download_url": "http://arxiv.org/abs/2205.01565v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Issue in the Martingale Analysis of the Influence Maximization\n  Algorithm IMM",
+    "abstract": "This paper explains a subtle issue in the martingale analysis of the IMM\nalgorithm, a state-of-the-art influence maximization algorithm. Two workarounds\nare proposed to fix the issue, both requiring minor changes on the algorithm\nand incurring a slight penalty on the running time of the algorithm.",
+    "authors": [
+      "Wei Chen"
+    ],
+    "publication_date": "2018-08-24T02:59:03Z",
+    "arxiv_id": "http://arxiv.org/abs/1808.09363v3",
+    "download_url": "http://arxiv.org/abs/1808.09363v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bernstein-Vazirani Algorithm with A CCNOT-Based Oracle",
+    "abstract": "We introduce a quantum algorithm to solve Bernstein-Vazirani problem to\nrecover secret strings, using quantum oracles that are based on the Toffoli\n(CCNOT) logic gate. As in the known algorithm, the proposed algorithm is a\npolynomial speed-up algorithm. Moreover, the proposed approach allows us to\nsolve new problems.",
+    "authors": [
+      "Mahmoud H. Annaby"
+    ],
+    "publication_date": "2025-01-09T08:23:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.18951v1",
+    "download_url": "http://arxiv.org/abs/2503.18951v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deriving the Gradients of Some Popular Optimal Transport Algorithms",
+    "abstract": "In this note, I review entropy-regularized Monge-Kantorovich problem in\nOptimal Transport, and derive the gradients of several popular algorithms\npopular in Computational Optimal Transport, including the Sinkhorn algorithms,\nWasserstein Barycenter algorithms, and the Wasserstein Dictionary Learning\nalgorithms.",
+    "authors": [
+      "Fangzhou Xie"
+    ],
+    "publication_date": "2025-04-11T17:36:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.08722v2",
+    "download_url": "http://arxiv.org/abs/2504.08722v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards universally optimal sorting algorithms",
+    "abstract": "We formalize a new paradigm for optimality of algorithms, that generalizes\nworst-case optimality based only on input-size to problem-dependent parameters\nincluding implicit ones. We re-visit some existing sorting algorithms from this\nperspective, and also present a novel measure of sortedness that leads to an\noptimal algorithm based on partition sort. This paradigm of measuring\nefficiency of algorithms looks promising for further interesting applications\nbeyond the existing ones.",
+    "authors": [
+      "Sandeep Sen"
+    ],
+    "publication_date": "2025-06-09T21:55:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.08261v1",
+    "download_url": "http://arxiv.org/abs/2506.08261v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Joint Detection/Decoding Algorithms for Nonbinary LDPC Codes over ISI\n  Channels",
+    "abstract": "This paper is concerned with the application of nonbinary low-density\nparity-check (NB-LDPC) codes to binary input inter-symbol interference (ISI)\nchannels. Two low-complexity joint detection/decoding algorithms are proposed.\nOne is referred to as max-log-MAP/X-EMS algorithm, which is implemented by\nexchanging soft messages between the max-log-MAP detector and the extended\nmin-sum (EMS) decoder. The max-log-MAP/X-EMS algorithm is applicable to general\nNB-LDPC codes. The other one, referred to as Viterbi/GMLGD algorithm, is\ndesigned in particular for majority-logic decodable NB-LDPC codes. The\nViterbi/GMLGD algorithm works in an iterative manner by exchanging\nhard-decisions between the Viterbi detector and the generalized majority-logic\ndecoder(GMLGD). As a by-product, a variant of the original EMS algorithm is\nproposed, which is referred to as \\mu-EMS algorithm. In the \\mu-EMS algorithm,\nthe messages are truncated according to an adaptive threshold, resulting in a\nmore efficient algorithm. Simulations results show that the max-log-MAP/X-EMS\nalgorithm performs as well as the traditional iterative detection/decoding\nalgorithm based on the BCJR algorithm and the QSPA, but with lower complexity.\nThe complexity can be further reduced for majority-logic decodable NB-LDPC\ncodes by executing the Viterbi/GMLGD algorithm with a performance degradation\nwithin one dB. Simulation results also confirm that the \\mu-EMS algorithm\nrequires lower computational loads than the EMS algorithm with a fixed\nthreshold. These algorithms provide good candidates for trade-offs between\nperformance and complexity.",
+    "authors": [
+      "Shancheng Zhao",
+      "Zhifei Lu",
+      "Xiao Ma",
+      "Baoming Bai"
+    ],
+    "publication_date": "2012-09-12T10:03:01Z",
+    "arxiv_id": "http://arxiv.org/abs/1209.2542v1",
+    "download_url": "http://arxiv.org/abs/1209.2542v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Modified Vortex Search Algorithm for Numerical Function Optimization",
+    "abstract": "The Vortex Search (VS) algorithm is one of the recently proposed\nmetaheuristic algorithms which was inspired from the vortical flow of the\nstirred fluids. Although the VS algorithm is shown to be a good candidate for\nthe solution of certain optimization problems, it also has some drawbacks. In\nthe VS algorithm, candidate solutions are generated around the current best\nsolution by using a Gaussian distribution at each iteration pass. This provides\nsimplicity to the algorithm but it also leads to some problems along.\nEspecially, for the functions those have a number of local minimum points, to\nselect a single point to generate candidate solutions leads the algorithm to\nbeing trapped into a local minimum point. Due to the adaptive step-size\nadjustment scheme used in the VS algorithm, the locality of the created\ncandidate solutions is increased at each iteration pass. Therefore, if the\nalgorithm cannot escape a local point as quickly as possible, it becomes much\nmore difficult for the algorithm to escape from that point in the latter\niterations. In this study, a modified Vortex Search algorithm (MVS) is proposed\nto overcome above mentioned drawback of the existing VS algorithm. In the MVS\nalgorithm, the candidate solutions are generated around a number of points at\neach iteration pass. Computational results showed that with the help of this\nmodification the global search ability of the existing VS algorithm is improved\nand the MVS algorithm outperformed the existing VS algorithm, PSO2011 and ABC\nalgorithms for the benchmark numerical function set.",
+    "authors": [
+      "Berat Doğan"
+    ],
+    "publication_date": "2016-06-08T12:00:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1606.02710v1",
+    "download_url": "http://arxiv.org/abs/1606.02710v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On Conceptually Simple Algorithms for Variants of Online Bipartite\n  Matching",
+    "abstract": "We present a series of results regarding conceptually simple algorithms for\nbipartite matching in various online and related models. We first consider a\ndeterministic adversarial model. The best approximation ratio possible for a\none-pass deterministic online algorithm is $1/2$, which is achieved by any\ngreedy algorithm. D\\\"urr et al. recently presented a $2$-pass algorithm called\nCategory-Advice that achieves approximation ratio $3/5$. We extend their\nalgorithm to multiple passes. We prove the exact approximation ratio for the\n$k$-pass Category-Advice algorithm for all $k \\ge 1$, and show that the\napproximation ratio converges to the inverse of the golden ratio\n$2/(1+\\sqrt{5}) \\approx 0.618$ as $k$ goes to infinity. The convergence is\nextremely fast --- the $5$-pass Category-Advice algorithm is already within\n$0.01\\%$ of the inverse of the golden ratio.\n  We then consider a natural greedy algorithm in the online stochastic IID\nmodel---MinDegree. This algorithm is an online version of a well-known and\nextensively studied offline algorithm MinGreedy. We show that MinDegree cannot\nachieve an approximation ratio better than $1-1/e$, which is guaranteed by any\nconsistent greedy algorithm in the known IID model.\n  Finally, following the work in Besser and Poloczek, we depart from an\nadversarial or stochastic ordering and investigate a natural randomized\nalgorithm (MinRanking) in the priority model. Although the priority model\nallows the algorithm to choose the input ordering in a general but well defined\nway, this natural algorithm cannot obtain the approximation of the Ranking\nalgorithm in the ROM model.",
+    "authors": [
+      "Allan Borodin",
+      "Denis Pankratov",
+      "Amirali Salehi-Abari"
+    ],
+    "publication_date": "2017-06-29T22:04:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1706.09966v1",
+    "download_url": "http://arxiv.org/abs/1706.09966v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Online Graph Matching Problems with a Worst-Case Reassignment Budget",
+    "abstract": "In the online bipartite matching with reassignments problem, an algorithm is\ninitially given only one side of the vertex set of a bipartite graph; the\nvertices on the other side are revealed to the algorithm one by one, along with\nits incident edges. The algorithm is required to maintain a matching in the\ncurrent graph, where the algorithm revises the matching after each vertex\narrival by reassigning vertices. Bernstein, Holm, and Rotenberg showed that an\nonline algorithm can maintain a matching of maximum cardinality by performing\namortized $O(\\log^2 n)$ reassignments per arrival.\n  In this paper, we propose to consider the general question of how requiring a\nnon-amortized hard budget $k$ on the number of reassignments affects the\nalgorithms' performances, under various models from the literature.\n  We show that a simple, widely-used algorithm is a best-possible deterministic\nalgorithm for all these models. For the unweighted maximum-cardinality problem,\nthe algorithm is a $(1-\\frac{2}{k+2})$-competitive algorithm, which is the best\npossible for a deterministic algorithm both under vertex arrivals and edge\narrivals. Applied to the load balancing problem, this yields a bifactor online\nalgorithm. For the weighted problem, which is traditionally studied assuming\nthe triangle inequality, we show that the power of reassignment allows us to\nlift this assumption and the algorithm becomes a $\\frac{1}{2}$-competitive\nalgorithm for $k=4$, improving upon the $\\frac{1}{3}$ of the previous algorithm\nwithout reassignments. We show that this also is a best-possible deterministic\nalgorithm.",
+    "authors": [
+      "Yongho Shin",
+      "Kangsan Kim",
+      "Seungmin Lee",
+      "Hyung-Chan An"
+    ],
+    "publication_date": "2020-03-11T09:14:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.05175v1",
+    "download_url": "http://arxiv.org/abs/2003.05175v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "In-Place Parallel-Partition Algorithms using Exclusive-Read-and-Write\n  Memory",
+    "abstract": "We present an in-place algorithm for the partition problem that has linear\nwork and polylogarithmic span. The algorithm uses only exclusive read/write\nshared variables, and can be implemented using parallel-for-loops without any\nadditional concurrency considerations (i.e., the algorithm is EREW). A key\nfeature of the algorithm is that it exhibits provably optimal cache behavior,\nup to small-order factors.\n  We also present a second in-place EREW algorithm for the partition problem\nthat has linear work and span $O(\\log n \\cdot \\log \\log n)$, which is within an\n$O(\\log\\log n)$ factor of the optimal span. By using this low-span algorithm as\na subroutine within the cache-friendly algorithm, we are able to obtain a\nsingle EREW algorithm that combines their theoretical guarantees: the algorithm\nachieves span $O(\\log n \\cdot \\log \\log n)$ and optimal cache behavior. As an\nimmediate consequence, we also get an in-place EREW quicksort algorithm with\nwork $O(n \\log n)$, span $O(\\log^2 n \\cdot \\log \\log n)$.\n  Whereas the standard EREW algorithm for parallel partitioning is\nmemory-bandwidth bound on large numbers of cores, our cache-friendly algorithm\nis able to achieve near-ideal scaling in practice by avoiding the\nmemory-bandwidth bottleneck. The algorithm's performance is comparable to that\nof the Blocked Strided Algorithm of Francis, Pannan, Frias, and Petit, which is\nthe previous state-of-the art for parallel EREW sorting algorithms, but which\nlacks theoretical guarantees on its span and cache behavior.",
+    "authors": [
+      "William Kuszmaul",
+      "Alek Westover"
+    ],
+    "publication_date": "2020-04-27T01:19:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.12532v2",
+    "download_url": "http://arxiv.org/abs/2004.12532v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A 2/3-Approximation Algorithm for Vertex-weighted Matching in Bipartite\n  Graphs",
+    "abstract": "We consider the maximum vertex-weighted matching problem (MVM), in which\nnon-negative weights are assigned to the vertices of a graph, the weight of a\nmatching is the sum of the weights of the matched vertices, and we are required\nto compute a matching of maximum weight. We describe an exact algorithm for MVM\nwith $O(|V|\\, |E|)$ time complexity, and then we design a $2/3$-approximation\nalgorithm for MVM on bipartite graphs by restricting the length of augmenting\npaths to at most three. The latter algorithm has time complexity $O(|E| + |V|\n\\log |V|)$.\n  The approximation algorithm solves two MVM problems on bipartite graphs, each\nwith weights only on one vertex part, and then finds a matching from these two\nmatchings using the Mendelsohn-Dulmage Theorem. The approximation ratio of the\nalgorithm is obtained by considering failed vertices, i.e., vertices that the\napproximation algorithm fails to match but the exact algorithm does. We show\nthat at every step of the algorithm there are two distinct heavier vertices\nthat we can charge each failed vertex to.\n  We have implemented the $2/3$-approximation algorithm for MVM and compare it\nwith four other algorithms: an exact MEM algorithm, the exact MVM algorithm, a\n$1/2$-approximation algorithm for MVM, and a scaling-based\n$(1-\\epsilon)$-approximation algorithm for MEM. We also show that MVM problems\nshould not be first transformed to MEM problems and solved using exact\nalgorithms for the latter, since this transformation can increase runtimes by\nseveral orders of magnitude.",
+    "authors": [
+      "Florin Dobrian",
+      "Mahantesh Halappanavar",
+      "Alex Pothen",
+      "Ahmed Al-Herz"
+    ],
+    "publication_date": "2018-04-21T19:40:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1804.08016v2",
+    "download_url": "http://arxiv.org/abs/1804.08016v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Error Correction Decoding Algorithms of RS Codes Based on An Earlier\n  Termination Algorithm to Find The Error Locator Polynomial",
+    "abstract": "Reed-Solomon (RS) codes are widely used to correct errors in storage systems.\nFinding the error locator polynomial is one of the key steps in the error\ncorrection procedure of RS codes. Modular Approach (MA) is an effective\nalgorithm for solving the Welch-Berlekamp (WB) key-equation problem to find the\nerror locator polynomial that needs $2t$ steps, where $t$ is the error\ncorrection capability. In this paper, we first present a new MA algorithm that\nonly requires $2e$ steps and then propose two fast decoding algorithms for RS\ncodes based on our MA algorithm, where $e$ is the number of errors and $e\\leq\nt$. We propose Improved-Frequency Domain Modular Approach (I-FDMA) algorithm\nthat needs $2e$ steps to solve the error locator polynomial and present our\nfirst decoding algorithm based on the I-FDMA algorithm. We show that, compared\nwith the existing methods based on MA algorithms, our I-FDMA algorithm can\neffectively reduce the decoding complexity of RS codes when $e<t$. Furthermore,\nwe propose the $t_0$-Shortened I-FDMA ($t_0$-SI-FDMA) algorithm ($t_0$ is a\npredetermined even number less than $2t-1$) based on the new termination\nmechanism to solve the error number $e$ quickly. We propose our second decoding\nalgorithm based on the SI-FDMA algorithm for RS codes and show that the\nmultiplication complexity of our second decoding algorithm is lower than our\nfirst decoding algorithm (the I-FDMA decoding algorithm) when $2e<t_0+1$.",
+    "authors": [
+      "Zhengyi Jiang",
+      "Hao Shi",
+      "Zhongyi Huang",
+      "Linqi Song",
+      "Bo Bai",
+      "Gong Zhang",
+      "Hanxu Hou"
+    ],
+    "publication_date": "2024-07-28T12:32:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.19484v1",
+    "download_url": "http://arxiv.org/abs/2407.19484v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum search algorithm by adiabatic evolution under a priori\n  probability",
+    "abstract": "Grover's algorithm is one of the most important quantum algorithms, which\nperforms the task of searching an unsorted database without a priori\nprobability. Recently the adiabatic evolution has been used to design and\nreproduce quantum algorithms, including Grover's algorithm. In this paper, we\nshow that quantum search algorithm by adiabatic evolution has two properties\nthat conventional quantum search algorithm doesn't have. Firstly, we show that\nin the initial state of the algorithm only the amplitude of the basis state\ncorresponding to the solution affects the running time of the algorithm, while\nother amplitudes do not. Using this property, if we know a priori probability\nabout the location of the solution before search, we can modify the adiabatic\nevolution to make the algorithm faster. Secondly, we show that by a factor for\nthe initial and finial Hamiltonians we can reduce the running time of the\nalgorithm arbitrarily. Especially, we can reduce the running time of adiabatic\nsearch algorithm to a constant time independent of the size of the database.\nThe second property can be extended to other adiabatic algorithms.",
+    "authors": [
+      "Zhaohui Wei",
+      "Mingsheng Ying"
+    ],
+    "publication_date": "2004-12-15T12:13:59Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0412117v1",
+    "download_url": "http://arxiv.org/abs/quant-ph/0412117v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generating functions partitioning algorithm for computing power indices\n  in weighted voting games",
+    "abstract": "In this paper new algorithm for calculating power indices is described. The\ncomplexity class of the problem is #P-complete and even calculating power index\nof the biggest player is NP-hard task. Constructed algorithm is a mix of ideas\nof two algorithms: Klinz & Woeginger partitioning algorithm and Mann & Shapley\ngenerating functions algorithm. Time and space complexities of the algorithm\nare analysed and compared with other known algorithms for the problem.\nConstructed algorithm has pessimistic time complexity O(n 2^(n/2))and\npseudopolynomial complexity O(nq), where q is quota of the voting game. This\npaper also solves open problem stated by H. Aziz and M. Paterson - existence of\nthe algorithm for calculating Banzhaf power indices of all players with time\ncomplexity lower than O(n^2 2^(n/2)). Not only is the answer positive but this\ncan be done keeping the pseudopolynomial complexity of generating functions\nalgorithm in case weights are integers. New open problems are stated.",
+    "authors": [
+      "Bartosz Meglicki"
+    ],
+    "publication_date": "2010-11-30T13:38:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1011.6543v2",
+    "download_url": "http://arxiv.org/abs/1011.6543v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Converting online algorithms to local computation algorithms",
+    "abstract": "We propose a general method for converting online algorithms to local\ncomputation algorithms by selecting a random permutation of the input, and\nsimulating running the online algorithm. We bound the number of steps of the\nalgorithm using a query tree, which models the dependencies between queries. We\nimprove previous analyses of query trees on graphs of bounded degree, and\nextend the analysis to the cases where the degrees are distributed binomially,\nand to a special case of bipartite graphs.\n  Using this method, we give a local computation algorithm for maximal matching\nin graphs of bounded degree, which runs in time and space O(log^3 n).\n  We also show how to convert a large family of load balancing algorithms\n(related to balls and bins problems) to local computation algorithms. This\ngives several local load balancing algorithms which achieve the same\napproximation ratios as the online algorithms, but run in O(log n) time and\nspace.\n  Finally, we modify existing local computation algorithms for hypergraph\n2-coloring and k-CNF and use our improved analysis to obtain better time and\nspace bounds, of O(log^4 n), removing the dependency on the maximal degree of\nthe graph from the exponent.",
+    "authors": [
+      "Yishay Mansour",
+      "Aviad Rubinstein",
+      "Shai Vardi",
+      "Ning Xie"
+    ],
+    "publication_date": "2012-05-07T08:02:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1205.1312v1",
+    "download_url": "http://arxiv.org/abs/1205.1312v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On Some Recent MAX SAT Approximation Algorithms",
+    "abstract": "Recently a number of randomized 3/4-approximation algorithms for MAX SAT have\nbeen proposed that all work in the same way: given a fixed ordering of the\nvariables, the algorithm makes a random assignment to each variable in\nsequence, in which the probability of assigning each variable true or false\ndepends on the current set of satisfied (or unsatisfied) clauses. To our\nknowledge, the first such algorithm was proposed by Poloczek and Schnitger; Van\nZuylen subsequently gave an algorithm that set the probabilities differently\nand had a simpler analysis. She also set up a framework for deriving such\nalgorithms. Buchbinder, Feldman, Naor, and Schwartz, as a special case of their\nwork on maximizing submodular functions, also give a randomized\n3/4-approximation algorithm for MAX SAT with the same structure as these\nprevious algorithms. In this note we give a gloss on the Buchbinder et al.\nalgorithm that makes it even simpler, and show that in fact it is equivalent to\nthe previous algorithm of Van Zuylen. We also show how it extends to a\ndeterministic LP rounding algorithm; such an algorithm was also given by Van\nZuylen.",
+    "authors": [
+      "Matthias Poloczek",
+      "David P. Williamson",
+      "Anke van Zuylen"
+    ],
+    "publication_date": "2013-08-15T14:20:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1308.3405v1",
+    "download_url": "http://arxiv.org/abs/1308.3405v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient Image Encryption and Decryption Using Discrete Wavelet\n  Transform and Fractional Fourier Transform",
+    "abstract": "Fractional Fourier transform and chaos functions play a key role in many of\nencryption-decryption algorithms. In this work performance of image\nencryption-decryption algorithms is quantified and compared using the\ncomputation time i.e. the time consumption of encryption-decryption process and\nresemblance of input image to the restored image, quantified by MSE. This work\nproposes an improvement in computation-time of image encryptiondecryption\nalgorithms by utilizing image compression properties of the 2-dimensional\nDiscrete Wavelet Transform (DWT2). Initially, computation complexity of the\nalgorithms is evaluated and compared with that of existing algorithms. This\nanalysis claims the proposed algorithms to be nearly 8 times faster than the\nexisting algorithms. Further, simulations are performed using MATLAB7.7 to\nquantify performance of existing algorithms and the proposed algorithms using\nMSE and computation time. The results obtained in these simulations prove that\nfor the proposed algorithms MSE between restored and original images is lesser\nthan that of existing algorithms thereby maintaining the robustness of the\nexisting algorithms. These algorithms are found sensitive to a variation of\n1x10-1 in the fractional orders used in encryption-decryption process.",
+    "authors": [
+      "Prerana Sharma"
+    ],
+    "publication_date": "2013-12-14T13:44:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1401.6087v1",
+    "download_url": "http://arxiv.org/abs/1401.6087v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A forward-backward single-source shortest paths algorithm",
+    "abstract": "We describe a new forward-backward variant of Dijkstra's and Spira's\nSingle-Source Shortest Paths (SSSP) algorithms. While essentially all SSSP\nalgorithm only scan edges forward, the new algorithm scans some edges backward.\nThe new algorithm assumes that edges in the outgoing and incoming adjacency\nlists of the vertices appear in non-decreasing order of weight. (Spira's\nalgorithm makes the same assumption about the outgoing adjacency lists, but\ndoes not use incoming adjacency lists.) The running time of the algorithm on a\ncomplete directed graph on $n$ vertices with independent exponential edge\nweights is $O(n)$, with very high probability. This improves on the previously\nbest result of $O(n\\log n)$, which is best possible if only forward scans are\nallowed, exhibiting an interesting separation between forward-only and\nforward-backward SSSP algorithms. As a consequence, we also get a new all-pairs\nshortest paths algorithm. The expected running time of the algorithm on\ncomplete graphs with independent exponential edge weights is $O(n^2)$, matching\na recent algorithm of Demetrescu and Italiano as analyzed by Peres et al.\nFurthermore, the probability that the new algorithm requires more than $O(n^2)$\ntime is exponentially small, improving on the $O(n^{-1/26})$ probability bound\nobtained by Peres et al.",
+    "authors": [
+      "David B. Wilson",
+      "Uri Zwick"
+    ],
+    "publication_date": "2014-05-29T17:13:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1405.7619v1",
+    "download_url": "http://arxiv.org/abs/1405.7619v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Java Implementation of Parameter-less Evolutionary Algorithms",
+    "abstract": "The Parameter-less Genetic Algorithm was first presented by Harik and Lobo in\n1999 as an alternative to the usual trial-and-error method of finding, for each\ngiven problem, an acceptable set-up of the parameter values of the genetic\nalgorithm. Since then, the same strategy has been successfully applied to\ncreate parameter-less versions of other population-based search algorithms such\nas the Extended Compact Genetic Algorithm and the Hierarchical Bayesian\nOptimization Algorithm. This report describes a Java implementation,\nParameter-less Evolutionary Algorithm (P-EAJava), that integrates several\nparameter-less evolutionary algorithms into a single platform. Along with a\nbrief description of P-EAJava, we also provide detailed instructions on how to\nuse it, how to implement new problems, and how to generate new parameter-less\nversions of evolutionary algorithms.\n  At present time, P-EAJava already includes parameter-less versions of the\nSimple Genetic Algorithm, the Extended Compact Genetic Algorithm, the\nUnivariate Marginal Distribution Algorithm, and the Hierarchical Bayesian\nOptimization Algorithm. The source and binary files of the Java implementation\nof P-EAJava are available for free download at\nhttps://github.com/JoseCPereira/2015ParameterlessEvolutionaryAlgorithmsJava.",
+    "authors": [
+      "José C. Pereira",
+      "Fernando G. Lobo"
+    ],
+    "publication_date": "2015-06-26T07:53:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1506.08694v1",
+    "download_url": "http://arxiv.org/abs/1506.08694v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Dual Link Algorithm for the Weighted Sum Rate Maximization in MIMO\n  Interference Channels",
+    "abstract": "MIMO interference network optimization is important for increasingly crowded\nwireless communication networks. We provide a new algorithm, named Dual Link\nalgorithm, for the classic problem of weighted sum-rate maximization for MIMO\nmultiaccess channels (MAC), broadcast channels (BC), and general MIMO\ninterference channels with Gaussian input and a total power constraint. For\nMIMO MAC/BC, the algorithm finds optimal signals to achieve the capacity region\nboundary. For interference channels with Gaussian input assumption, two of the\nprevious state-of-the-art algorithms are the WMMSE algorithm and the polite\nwater-filling (PWF) algorithm. The WMMSE algorithm is provably convergent,\nwhile the PWF algorithm takes the advantage of the optimal transmit signal\nstructure and converges the fastest in most situations but is not guaranteed to\nconverge in all situations. It is highly desirable to design an algorithm that\nhas the advantages of both algorithms. The dual link algorithm is such an\nalgorithm. Its fast and guaranteed convergence is important to distributed\nimplementation and time varying channels. In addition, the technique and a\nscaling invariance property used in the convergence proof may find applications\nin other non-convex problems in communication networks.",
+    "authors": [
+      "Xing Li",
+      "Seungil You",
+      "Lijun Chen",
+      "An Liu",
+      "Youjian",
+      "Liu"
+    ],
+    "publication_date": "2016-04-04T16:01:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1604.00926v1",
+    "download_url": "http://arxiv.org/abs/1604.00926v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Just Take the Average! An Embarrassingly Simple $2^n$-Time Algorithm for\n  SVP (and CVP)",
+    "abstract": "We show a $2^{n+o(n)}$-time (and space) algorithm for the Shortest Vector\nProblem on lattices (SVP) that works by repeatedly running an embarrassingly\nsimple \"pair and average\" sieving-like procedure on a list of lattice vectors.\nThis matches the running time (and space) of the current fastest known\nalgorithm, due to Aggarwal, Dadush, Regev, and Stephens-Davidowitz (ADRS, in\nSTOC, 2015), with a far simpler algorithm. Our algorithm is in fact a\nmodification of the ADRS algorithm, with a certain careful rejection sampling\nstep removed.\n  The correctness of our algorithm follows from a more general \"meta-theorem,\"\nshowing that such rejection sampling steps are unnecessary for a certain class\nof algorithms and use cases. In particular, this also applies to the related\n$2^{n + o(n)}$-time algorithm for the Closest Vector Problem (CVP), due to\nAggarwal, Dadush, and Stephens-Davidowitz (ADS, in FOCS, 2015), yielding a\nsimilar embarrassingly simple algorithm for $\\gamma$-approximate CVP for any\n$\\gamma = 1+2^{-o(n/\\log n)}$. (We can also remove the rejection sampling\nprocedure from the $2^{n+o(n)}$-time ADS algorithm for exact CVP, but the\nresulting algorithm is still quite complicated.)",
+    "authors": [
+      "Divesh Aggarwal",
+      "Noah Stephens-Davidowitz"
+    ],
+    "publication_date": "2017-09-05T18:06:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1709.01535v1",
+    "download_url": "http://arxiv.org/abs/1709.01535v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient parameterized algorithms for computing all-pairs shortest\n  paths",
+    "abstract": "Computing all-pairs shortest paths is a fundamental and much-studied problem\nwith many applications. Unfortunately, despite intense study, there are still\nno significantly faster algorithms for it than the $\\mathcal{O}(n^3)$ time\nalgorithm due to Floyd and Warshall (1962). Somewhat faster algorithms exist\nfor the vertex-weighted version if fast matrix multiplication may be used.\nYuster (SODA 2009) gave an algorithm running in time $\\mathcal{O}(n^{2.842})$,\nbut no combinatorial, truly subcubic algorithm is known.\n  Motivated by the recent framework of efficient parameterized algorithms (or\n\"FPT in P\"), we investigate the influence of the graph parameters clique-width\n($cw$) and modular-width ($mw$) on the running times of algorithms for solving\nAll-Pairs Shortest Paths. We obtain efficient (and combinatorial) parameterized\nalgorithms on non-negative vertex-weighted graphs of times\n$\\mathcal{O}(cw^2n^2)$, resp. $\\mathcal{O}(mw^2n + n^2)$. If fast matrix\nmultiplication is allowed then the latter can be improved to\n$\\mathcal{O}(mw^{1.842}n + n^2)$ using the algorithm of Yuster as a black box.\nThe algorithm relative to modular-width is adaptive, meaning that the running\ntime matches the best unparameterized algorithm for parameter value $mw$ equal\nto $n$, and they outperform them already for $mw \\in \\mathcal{O}(n^{1 -\n\\varepsilon})$ for any $\\varepsilon > 0$.",
+    "authors": [
+      "Stefan Kratsch",
+      "Florian Nelles"
+    ],
+    "publication_date": "2020-01-14T17:05:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2001.04908v1",
+    "download_url": "http://arxiv.org/abs/2001.04908v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Biorthogonal Greedy Algorithms in Convex Optimization",
+    "abstract": "The study of greedy approximation in the context of convex optimization is\nbecoming a promising research direction as greedy algorithms are actively being\nemployed to construct sparse minimizers for convex functions with respect to\ngiven sets of elements. In this paper we propose a unified way of analyzing a\ncertain kind of greedy-type algorithms for the minimization of convex functions\non Banach spaces. Specifically, we define the class of Weak Biorthogonal Greedy\nAlgorithms for convex optimization that contains a wide range of greedy\nalgorithms. We analyze the introduced class of algorithms and establish the\nproperties of convergence, rate of convergence, and numerical stability, which\nis understood in the sense that the steps of the algorithm are allowed to be\nperformed not precisely but with controlled computational inaccuracies. We show\nthat the following well-known algorithms for convex optimization -- the Weak\nChebyshev Greedy Algorithm (co) and the Weak Greedy Algorithm with Free\nRelaxation (co) -- belong to this class, and introduce a new algorithm -- the\nRescaled Weak Relaxed Greedy Algorithm (co). Presented numerical experiments\ndemonstrate the practical performance of the aforementioned greedy algorithms\nin the setting of convex minimization as compared to optimization with\nregularization, which is the conventional approach of constructing sparse\nminimizers.",
+    "authors": [
+      "Anton Dereventsov",
+      "Vladimir Temlyakov"
+    ],
+    "publication_date": "2020-01-15T19:53:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2001.05530v2",
+    "download_url": "http://arxiv.org/abs/2001.05530v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the Theoretical Properties of the Exchange Algorithm",
+    "abstract": "The exchange algorithm is one of the most popular extensions of the\nMetropolis--Hastings algorithm to sample from doubly-intractable distributions.\nHowever, the theoretical exploration of the exchange algorithm is very limited.\nFor example, natural questions like `Does exchange algorithm converge at a\ngeometric rate?' or `Does the exchange algorithm admit a Central Limit\nTheorem?' have not been answered yet. In this paper, we study the theoretical\nproperties of the exchange algorithm, in terms of asymptotic variance and\nconvergence speed. We compare the exchange algorithm with the original\nMetropolis--Hastings algorithm and provide both necessary and sufficient\nconditions for the geometric ergodicity of the exchange algorithm. Moreover, we\nprove that our results can be applied to various practical applications such as\nlocation models, Gaussian models, Poisson models, and a large class of\nexponential families, which includes most of the practical applications of the\nexchange algorithm. A central limit theorem for the exchange algorithm is also\nestablished. Our results justify the theoretical usefulness of the exchange\nalgorithm.",
+    "authors": [
+      "Guanyang Wang"
+    ],
+    "publication_date": "2020-05-19T06:16:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.09235v4",
+    "download_url": "http://arxiv.org/abs/2005.09235v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Simultaenous Sieves: A Deterministic Streaming Algorithm for\n  Non-Monotone Submodular Maximization",
+    "abstract": "In this work, we present a combinatorial, deterministic single-pass streaming\nalgorithm for the problem of maximizing a submodular function, not necessarily\nmonotone, with respect to a cardinality constraint (SMCC). In the case the\nfunction is monotone, our algorithm reduces to the optimal streaming algorithm\nof Badanidiyuru et al. (2014). In general, our algorithm achieves ratio $\\alpha\n/ (1 + \\alpha) - \\varepsilon$, for any $\\varepsilon > 0$, where $\\alpha$ is the\nratio of an offline (deterministic) algorithm for SMCC used for\npost-processing. Thus, if exponential computation time is allowed, our\nalgorithm deterministically achieves nearly the optimal $1/2$ ratio. These\nresults nearly match those of a recently proposed, randomized streaming\nalgorithm that achieves the same ratios in expectation. For a deterministic,\nsingle-pass streaming algorithm, our algorithm achieves in polynomial time an\nimprovement of the best approximation factor from $1/9$ of previous literature\nto $\\approx 0.2689$.",
+    "authors": [
+      "Alan Kuhnle"
+    ],
+    "publication_date": "2020-10-27T15:22:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.14367v3",
+    "download_url": "http://arxiv.org/abs/2010.14367v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards Meta-Algorithm Selection",
+    "abstract": "Instance-specific algorithm selection (AS) deals with the automatic selection\nof an algorithm from a fixed set of candidates most suitable for a specific\ninstance of an algorithmic problem class, where \"suitability\" often refers to\nan algorithm's runtime. Over the past years, a plethora of algorithm selectors\nhave been proposed. As an algorithm selector is again an algorithm solving a\nspecific problem, the idea of algorithm selection could also be applied to AS\nalgorithms, leading to a meta-AS approach: Given an instance, the goal is to\nselect an algorithm selector, which is then used to select the actual algorithm\nfor solving the problem instance. We elaborate on consequences of applying AS\non a meta-level and identify possible problems. Empirically, we show that\nmeta-algorithm-selection can indeed prove beneficial in some cases. In general,\nhowever, successful AS approaches have problems with solving the meta-level\nproblem.",
+    "authors": [
+      "Alexander Tornede",
+      "Marcel Wever",
+      "Eyke Hüllermeier"
+    ],
+    "publication_date": "2020-11-17T17:27:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.08784v1",
+    "download_url": "http://arxiv.org/abs/2011.08784v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algorithm Selection on a Meta Level",
+    "abstract": "The problem of selecting an algorithm that appears most suitable for a\nspecific instance of an algorithmic problem class, such as the Boolean\nsatisfiability problem, is called instance-specific algorithm selection. Over\nthe past decade, the problem has received considerable attention, resulting in\na number of different methods for algorithm selection. Although most of these\nmethods are based on machine learning, surprisingly little work has been done\non meta learning, that is, on taking advantage of the complementarity of\nexisting algorithm selection methods in order to combine them into a single\nsuperior algorithm selector. In this paper, we introduce the problem of meta\nalgorithm selection, which essentially asks for the best way to combine a given\nset of algorithm selectors. We present a general methodological framework for\nmeta algorithm selection as well as several concrete learning methods as\ninstantiations of this framework, essentially combining ideas of meta learning\nand ensemble learning. In an extensive experimental evaluation, we demonstrate\nthat ensembles of algorithm selectors can significantly outperform single\nalgorithm selectors and have the potential to form the new state of the art in\nalgorithm selection.",
+    "authors": [
+      "Alexander Tornede",
+      "Lukas Gehring",
+      "Tanja Tornede",
+      "Marcel Wever",
+      "Eyke Hüllermeier"
+    ],
+    "publication_date": "2021-07-20T11:23:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.09414v1",
+    "download_url": "http://arxiv.org/abs/2107.09414v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Theory and Practice of Algorithm Engineering",
+    "abstract": "There is an ongoing debate in computer science how algorithms should best be\nstudied. Some scholars have argued that experimental evaluations should be\nconducted, others emphasize the benefits of formal analysis. We believe that\nthis debate less of a question of either-or, because both views can be\nintegrated into an overarching framework. It is the ambition of this paper to\ndevelop such a framework of algorithm engineering with a theoretical foundation\nin the philosophy of science. We take the empirical nature of algorithm\nengineering as a starting point. Our theoretical framework builds on three\nareas discussed in the philosophy of science: ontology, epistemology and\nmethodology. In essence, ontology describes algorithm engineering as being\nconcerned with algorithmic problems, algorithmic tasks, algorithm designs and\nalgorithm implementations. Epistemology describes the body of knowledge of\nalgorithm engineering as a collection of prescriptive and descriptive\nknowledge, residing in World 3 of Popper's Three Worlds model. Methodology\nrefers to the steps how we can systematically enhance our knowledge of specific\nalgorithms. In this context, we identified seven validity concerns and discuss\nhow researchers can respond to falsification. Our framework has important\nimplications for researching algorithms in various areas of computer science.",
+    "authors": [
+      "Jan Mendling",
+      "Benoît Depaire",
+      "Henrik Leopold"
+    ],
+    "publication_date": "2021-07-21T14:32:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.10675v1",
+    "download_url": "http://arxiv.org/abs/2107.10675v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning with Differentiable Algorithms",
+    "abstract": "Classic algorithms and machine learning systems like neural networks are both\nabundant in everyday life. While classic computer science algorithms are\nsuitable for precise execution of exactly defined tasks such as finding the\nshortest path in a large graph, neural networks allow learning from data to\npredict the most likely answer in more complex tasks such as image\nclassification, which cannot be reduced to an exact algorithm. To get the best\nof both worlds, this thesis explores combining both concepts leading to more\nrobust, better performing, more interpretable, more computationally efficient,\nand more data efficient architectures. The thesis formalizes the idea of\nalgorithmic supervision, which allows a neural network to learn from or in\nconjunction with an algorithm. When integrating an algorithm into a neural\narchitecture, it is important that the algorithm is differentiable such that\nthe architecture can be trained end-to-end and gradients can be propagated back\nthrough the algorithm in a meaningful way. To make algorithms differentiable,\nthis thesis proposes a general method for continuously relaxing algorithms by\nperturbing variables and approximating the expectation value in closed form,\ni.e., without sampling. In addition, this thesis proposes differentiable\nalgorithms, such as differentiable sorting networks, differentiable renderers,\nand differentiable logic gate networks. Finally, this thesis presents\nalternative training strategies for learning with algorithms.",
+    "authors": [
+      "Felix Petersen"
+    ],
+    "publication_date": "2022-09-01T17:30:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.00616v1",
+    "download_url": "http://arxiv.org/abs/2209.00616v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Halt Properties and Complexity Evaluations for Optimal DeepLLL Algorithm\n  Families",
+    "abstract": "DeepLLL algorithm (Schnorr, 1994) is a famous variant of LLL lattice basis\nreduction algorithm, and PotLLL algorithm (Fontein et al., 2014) and $S^2$LLL\nalgorithm (Yasuda and Yamaguchi, 2019) are recent polynomial-time variants of\nDeepLLL algorithm developed from cryptographic applications. However, the known\npolynomial bounds for computational complexity are shown only for parameter\n$\\delta < 1$; for \"optimal\" parameter $\\delta = 1$ which ensures the best\noutput quality, no polynomial bounds are known, and except for LLL algorithm,\nit is even not formally proved that the algorithm always halts within finitely\nmany steps. In this paper, we prove that these four algorithms always halt also\nwith optimal parameter $\\delta = 1$, and furthermore give explicit upper bounds\nfor the numbers of loops executed during the algorithms. Unlike the known bound\n(Akhavi, 2003) applicable to LLL algorithm only, our upper bounds are deduced\nin a unified way for all of the four algorithms.",
+    "authors": [
+      "Takuto Odagawa",
+      "Koji Nuida"
+    ],
+    "publication_date": "2021-05-31T04:26:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.14695v2",
+    "download_url": "http://arxiv.org/abs/2105.14695v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A New Algorithm based on Extent Bit-array for Computing Formal Concepts",
+    "abstract": "The emergence of Formal Concept Analysis (FCA) as a data analysis technique\nhas increased the need for developing algorithms which can compute formal\nconcepts quickly. The current efficient algorithms for FCA are variants of the\nClose-By-One (CbO) algorithm, such as In-Close2, In-Close3 and In-Close4, which\nare all based on horizontal storage of contexts. In this paper, based on\nalgorithm In-Close4, a new algorithm based on the vertical storage of contexts,\ncalled In-Close5, is proposed, which can significantly reduce both the time\ncomplexity and space complexity of algorithm In-Close4. Technically, the new\nalgorithm stores both context and extent of a concept as a vertical bit-array,\nwhile within In-Close4 algorithm the context is stored only as a horizontal\nbit-array, which is very slow in finding the intersection of two extent sets.\nExperimental results demonstrate that the proposed algorithm is much more\neffective than In-Close4 algorithm, and it also has a broader scope of\napplicability in computing formal concept in which one can solve the problems\nthat cannot be solved by the In-Close4 algorithm.",
+    "authors": [
+      "Jianqin Zhou",
+      "Sichun Yang",
+      "Xifeng Wang",
+      "Wanquan Liu"
+    ],
+    "publication_date": "2021-10-29T01:45:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.00003v1",
+    "download_url": "http://arxiv.org/abs/2111.00003v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Near-deterministic quantum search algorithm without phase design",
+    "abstract": "Grover's algorithm solves the unstructured search problem. Grover's algorithm\ncan find the target state with certainty only if searching one out of four.\nDesigning the deterministic search algorithm can avoid any repetition of the\nalgorithm, especially when Grover's algorithm is a subroutine in other\nalgorithms. Grover's algorithm can be deterministic if the phase of the oracle\nor the diffusion operator is delicately designed. The precision of the phases\ncould be a problem. A near-deterministic quantum search algorithm without the\nphase design is proposed. The algorithm has the same oracle and diffusion\noperators as Grover's algorithm. One additional component is the rescaled\ndiffusion operator. It acts partially on the database. The success probability\nof Grover's algorithm is improved by the partial diffusion operator in two\ndifferent ways. The possible cost is one or two more queries to the oracle. The\ndeterministic search algorithm is also designed when searching one out of\neight, sixteen, and thirty-two.",
+    "authors": [
+      "Zhen Wang",
+      "Kun Zhang",
+      "Vladimir Korepin"
+    ],
+    "publication_date": "2024-07-15T14:20:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.10748v4",
+    "download_url": "http://arxiv.org/abs/2407.10748v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards Faster Feasible Matrix Multiplication by Trilinear Aggregation",
+    "abstract": "Matrix multiplication is a fundamental kernel in high performance computing.\nMany algorithms for fast matrix multiplication can only be applied to enormous\nmatrices ($n>10^{100}$) and thus cannot be used in practice. Of all algorithms\napplicable to feasible input, Pan's $O(n^{2.773372})$ algorithm (1982) is\nasymptotically the fastest. We obtain an $O(n^{2.773203})$ algorithm applicable\nto the same input sizes as Pan's algorithm. This algorithm is the fastest\nmatrix multiplication algorithm with base case smaller than $1000$. Further,\nour method obtains the best asymptotic complexity for many small base cases,\nstarting at $n_0=28$. We also obtain better exponents for larger base cases. To\nconstruct our algorithm, we use the trilinear aggregation method. We find parts\nof the algorithms that are equivalent to matrix multiplication with smaller\nbase case, and use the de Groote equivalence to replace these parts in a way\nthat allows further optimization of our algorithms. Finally, we improve the\nadditive complexity of our algorithms by finding a sparse decomposition and\nreducing the leading coefficient. These mark a fundamental step towards\noutperforming existing fast matrix multiplication algorithms in practice.",
+    "authors": [
+      "Oded Schwartz",
+      "Eyal Zwecher"
+    ],
+    "publication_date": "2025-08-03T13:15:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.01748v1",
+    "download_url": "http://arxiv.org/abs/2508.01748v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bayesian Grammar Induction for Language Modeling",
+    "abstract": "We describe a corpus-based induction algorithm for probabilistic context-free\ngrammars. The algorithm employs a greedy heuristic search within a Bayesian\nframework, and a post-pass using the Inside-Outside algorithm. We compare the\nperformance of our algorithm to n-gram models and the Inside-Outside algorithm\nin three language modeling tasks. In two of the tasks, the training data is\ngenerated by a probabilistic context-free grammar and in both tasks our\nalgorithm outperforms the other techniques. The third task involves\nnaturally-occurring data, and in this task our algorithm does not perform as\nwell as n-gram models but vastly outperforms the Inside-Outside algorithm.",
+    "authors": [
+      "Stanley F. Chen"
+    ],
+    "publication_date": "1995-05-01T02:59:03Z",
+    "arxiv_id": "http://arxiv.org/abs/cmp-lg/9504034v1",
+    "download_url": "http://arxiv.org/abs/cmp-lg/9504034v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Is Grover's Algorithm a Quantum Hidden Subgroup Algorithm ?",
+    "abstract": "The arguments given in this paper suggest that Grover's and Shor's algorithms\nare more closely related than one might at first expect. Specifically, we show\nthat Grover's algorithm can be viewed as a quantum algorithm which solves a\nnon-abelian hidden subgroup problem (HSP). But we then go on to show that the\nstandard non-abelian quantum hidden subgroup (QHS) algorithm can not find a\nsolution to this particular HSP.\n  This leaves open the question as to whether or not there is some modification\nof the standard non-abelian QHS algorithm which is equivalent to Grover's\nalgorithm.",
+    "authors": [
+      "Samuel J. Lomonaco, Jr.",
+      "Louis H. Kauffman"
+    ],
+    "publication_date": "2006-03-15T19:30:29Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0603140v1",
+    "download_url": "http://arxiv.org/abs/quant-ph/0603140v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "P-adic arithmetic coding",
+    "abstract": "A new incremental algorithm for data compression is presented. For a sequence\nof input symbols algorithm incrementally constructs a p-adic integer number as\nan output. Decoding process starts with less significant part of a p-adic\ninteger and incrementally reconstructs a sequence of input symbols. Algorithm\nis based on certain features of p-adic numbers and p-adic norm. p-adic coding\nalgorithm may be considered as of generalization a popular compression\ntechnique - arithmetic coding algorithms. It is shown that for p = 2 the\nalgorithm works as integer variant of arithmetic coding; for a special class of\nmodels it gives exactly the same codes as Huffman's algorithm, for another\nspecial model and a specific alphabet it gives Golomb-Rice codes.",
+    "authors": [
+      "Anatoly Rodionov",
+      "Sergey Volkov"
+    ],
+    "publication_date": "2007-04-06T02:30:42Z",
+    "arxiv_id": "http://arxiv.org/abs/0704.0834v1",
+    "download_url": "http://arxiv.org/abs/0704.0834v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient Interpolation in the Guruswami-Sudan Algorithm",
+    "abstract": "A novel algorithm is proposed for the interpolation step of the\nGuruswami-Sudan list decoding algorithm. The proposed method is based on the\nbinary exponentiation algorithm, and can be considered as an extension of the\nLee-O'Sullivan algorithm. The algorithm is shown to achieve both asymptotical\nand practical performance gain compared to the case of iterative interpolation\nalgorithm. Further complexity reduction is achieved by integrating the proposed\nmethod with re-encoding. The key contribution of the paper, which enables the\ncomplexity reduction, is a novel randomized ideal multiplication algorithm.",
+    "authors": [
+      "Peter Trifonov"
+    ],
+    "publication_date": "2008-12-29T16:52:28Z",
+    "arxiv_id": "http://arxiv.org/abs/0812.4937v3",
+    "download_url": "http://arxiv.org/abs/0812.4937v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

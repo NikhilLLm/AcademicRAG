@@ -1,0 +1,744 @@
+[
+  {
+    "title": "Genetic Programming Theory and Practice: A Fifteen-Year Trajectory",
+    "abstract": "The GPTP workshop series, which began in 2003, has served over the years as a\nfocal meeting for genetic programming (GP) researchers. As such, we think it\nprovides an excellent source for studying the development of GP over the past\nfifteen years. We thus present herein a trajectory of the thematic developments\nin the field of GP.",
+    "authors": [
+      "Moshe Sipper",
+      "Jason H. Moore"
+    ],
+    "publication_date": "2024-02-01T08:48:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.00425v1",
+    "download_url": "http://arxiv.org/abs/2402.00425v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetic algorithm dynamics on a rugged landscape",
+    "abstract": "The genetic algorithm is an optimization procedure motivated by biological\nevolution and is successfully applied to optimization problems in different\nareas. A statistical mechanics model for its dynamics is proposed based on the\nparent-child fitness correlation of the genetic operators, making it applicable\nto general fitness landscapes. It is compared to a recent model based on a\nmaximum entropy ansatz. Finally it is applied to modeling the dynamics of a\ngenetic algorithm on the rugged fitness landscape of the NK model.",
+    "authors": [
+      "Stefan Bornholdt"
+    ],
+    "publication_date": "1999-03-04T16:48:09Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/9903076v1",
+    "download_url": "http://arxiv.org/abs/cond-mat/9903076v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An architecture for massive parallelization of the compact genetic\n  algorithm",
+    "abstract": "This paper presents an architecture which is suitable for a massive\nparallelization of the compact genetic algorithm. The resulting scheme has\nthree major advantages. First, it has low synchronization costs. Second, it is\nfault tolerant, and third, it is scalable.\n  The paper argues that the benefits that can be obtained with the proposed\napproach is potentially higher than those obtained with traditional parallel\ngenetic algorithms. In addition, the ideas suggested in the paper may also be\nrelevant towards parallelizing more complex probabilistic model building\ngenetic algorithms.",
+    "authors": [
+      "Fernando G. Lobo",
+      "Claudio F. Lima",
+      "Hugo Martires"
+    ],
+    "publication_date": "2004-02-20T16:36:20Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0402049v1",
+    "download_url": "http://arxiv.org/abs/cs/0402049v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimizing genetic algorithm strategies for evolving networks",
+    "abstract": "This paper explores the use of genetic algorithms for the design of networks,\nwhere the demands on the network fluctuate in time. For varying network\nconstraints, we find the best network using the standard genetic algorithm\noperators such as inversion, mutation and crossover. We also examine how the\nchoice of genetic algorithm operators affects the quality of the best network\nfound. Such networks typically contain redundancy in servers, where several\nservers perform the same task and pleiotropy, where servers perform multiple\ntasks. We explore this trade-off between pleiotropy versus redundancy on the\ncost versus reliability as a measure of the quality of the network.",
+    "authors": [
+      "Matthew J. Berryman",
+      "Andrew Allison",
+      "Derek Abbott"
+    ],
+    "publication_date": "2004-04-07T07:08:09Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0404019v1",
+    "download_url": "http://arxiv.org/abs/cs/0404019v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Amazing geometry of genetic space or are genetic algorithms convergent?",
+    "abstract": "There is no proof yet of convergence of Genetic Algorithms. We do not supply\nit too. Instead, we present some thoughts and arguments to convince the Reader,\nthat Genetic Algorithms are essentially bound for success. For this purpose, we\nconsider only the crossover operators, single- or multiple-point, together with\nselection procedure. We also give a proof that the soft selection is superior\nto other selection schemes.",
+    "authors": [
+      "Marek W. Gutowski"
+    ],
+    "publication_date": "2005-12-05T11:12:42Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0512019v1",
+    "download_url": "http://arxiv.org/abs/cs/0512019v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Patterning by genetic networks and modular principle",
+    "abstract": "We consider here the morphogenesis (pattern formation) problem for some\ngenetic network models. First, we show that any given spatio-temporal pattern\ncan be generated by a genetic network involving a sufficiently large number of\ngenes. Moreover, patterning process can be performed by an effective algorithm.\nWe also show that Turing's or Meinhardt's type reaction-diffusion models can be\napproximated by genetic networks. These results exploit the fundamental fact\nthat the genes form functional units and are organised in blocks (modular\nprinciple). Due to this modular organisation, the genes always are capable to\nconstruct any new patterns and even any time sequences of new patterns from old\npatterns. Computer simulations illustrate analytical results.",
+    "authors": [
+      "S. Genieys",
+      "S. Vakulenko"
+    ],
+    "publication_date": "2005-02-04T10:51:42Z",
+    "arxiv_id": "http://arxiv.org/abs/math/0502089v1",
+    "download_url": "http://arxiv.org/abs/math/0502089v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Braid Group of a Genetic Code",
+    "abstract": "For every group genetic code with finite number of generating and at most\nwith one defining relation we introduce the braid group of this genetic code.\nThis construction includes the braid group of Euclidean plane, the braid groups\nof closed orientable surfaces, B type groups of Artin-Brieskorn, and allow us\nto study all these groups with common point of view. We present some results on\nthe structure of the braid groups of genetic codes, describe normal form of\nwords, torsion, and some results on widths of the verbal subgroups. Also we\nprove that Scott's system of defining relations for the braid groups of closed\nsurfaces is contradictory.",
+    "authors": [
+      "Valerij G. Bardakov"
+    ],
+    "publication_date": "2006-03-16T12:08:24Z",
+    "arxiv_id": "http://arxiv.org/abs/math/0603397v1",
+    "download_url": "http://arxiv.org/abs/math/0603397v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Molecular geometry optimization with a genetic algorithm",
+    "abstract": "We present a method for reliably determining the lowest energy structure of\nan atomic cluster in an arbitrary model potential. The method is based on a\ngenetic algorithm, which operates on a population of candidate structures to\nproduce new candidates with lower energies. Our method dramatically outperforms\nsimulated annealing, which we demonstrate by applying the genetic algorithm to\na tight-binding model potential for carbon. With this potential, the algorithm\nefficiently finds fullerene cluster structures up to ${\\rm C}_{60}$ starting\nfrom random atomic coordinates.",
+    "authors": [
+      "D. M. Deaven",
+      "K. M. Ho"
+    ],
+    "publication_date": "1995-06-16T18:54:25Z",
+    "arxiv_id": "http://arxiv.org/abs/mtrl-th/9506004v1",
+    "download_url": "http://arxiv.org/abs/mtrl-th/9506004v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Degeneracy in the genetic code and its symmetries by base substitutions",
+    "abstract": "Why is the genetic code the way it is? The most successful theory states that\nthe codon assignments minimise the effects of errors arising in primordial\nliving systems. Here a transversion is reported that leaves invariant\ndegeneracy in the genetic code. A model was established to address the\nquestion: How should sets of synonymous codons be chosen to minimise the\ndeleterious effects of non synonymous substitutions? It is shown that the\narithmetic theory of quadratic forms provides the framework for degeneracy in\nthe genetic code.",
+    "authors": [
+      "Jean-Luc Jestin"
+    ],
+    "publication_date": "2003-03-11T16:54:09Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/0303045v2",
+    "download_url": "http://arxiv.org/abs/physics/0303045v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Triplet Genetic Code had a Doublet Predecessor",
+    "abstract": "Information theoretic analysis of genetic languages indicates that the\nnaturally occurring 20 amino acids and the triplet genetic code arose by\nduplication of 10 amino acids of class-II and a doublet genetic code having\ncodons NNY and anticodons $\\overleftarrow{\\rm GNN}$. Evidence for this scenario\nis presented based on the properties of aminoacyl-tRNA synthetases, amino acids\nand nucleotide bases.",
+    "authors": [
+      "Apoorva Patel"
+    ],
+    "publication_date": "2004-03-25T12:30:03Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0403036v2",
+    "download_url": "http://arxiv.org/abs/q-bio/0403036v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Monte Carlo Simulation and Statistical Analysis of Genetic Information\n  Coding",
+    "abstract": "The rules that specify how the information contained in DNA codes amino\nacids, is called \"the genetic code\". Using a simplified version of the Penna\nnodel, we are using computer simulations to investigate the importance of the\ngenetic code and the number of amino acids in Nature on population dynamics. We\nfind that the genetic code is not a random pairing of codons to amino acids and\nthe number of amino acids in Nature is an optimum under mutations.",
+    "authors": [
+      "E. Gultepe",
+      "M. L. Kurnaz"
+    ],
+    "publication_date": "2004-08-23T23:41:34Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0408017v1",
+    "download_url": "http://arxiv.org/abs/q-bio/0408017v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A p-Adic Model of DNA Sequence and Genetic Code",
+    "abstract": "Using basic properties of p-adic numbers, we consider a simple new approach\nto describe main aspects of DNA sequence and genetic code. Central role in our\ninvestigation plays an ultrametric p-adic information space which basic\nelements are nucleotides, codons and genes. We show that a 5-adic model is\nappropriate for DNA sequence. This 5-adic model, combined with 2-adic distance,\nis also suitable for genetic code and for a more advanced employment in\ngenomics. We find that genetic code degeneracy is related to the p-adic\ndistance between codons.",
+    "authors": [
+      "Branko Dragovich",
+      "Alexandra Dragovich"
+    ],
+    "publication_date": "2006-07-13T16:41:35Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0607018v1",
+    "download_url": "http://arxiv.org/abs/q-bio/0607018v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Symmetry of the Genetic Code and a Universal Trend of Amino Acid\n  Gain and Loss",
+    "abstract": "Part 1 of the study intends to show that the universal trend of amino acid\ngain and loss discovered by Jordan et al. (2005) can be accounted for by the\nspontaneity of DNA typical damages. These damages lead to replacements of\nguanine and cytosine by thymine. Part 2 proposes a hypothesis of the evolution\nof the genetic code, the leading mechanism of which is the nucleotide\nspontaneous damage. The hypothesis accounts for the universal trend of amino\nacid gain and loss, stability of the genetic code towards point mutations, the\npresence of code dialects, and the symmetry of the genetic code table.",
+    "authors": [
+      "Denis A. Semenov"
+    ],
+    "publication_date": "2007-07-05T10:29:00Z",
+    "arxiv_id": "http://arxiv.org/abs/0707.0754v1",
+    "download_url": "http://arxiv.org/abs/0707.0754v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Extreme genetic code optimality from a molecular dynamics calculation of\n  amino acid polar requirement",
+    "abstract": "A molecular dynamics calculation of the amino acid polar requirement is\npresented and used to score the canonical genetic code. Monte Carlo simulation\nshows that this computational polar requirement has been optimized by the\ncanonical genetic code more than any previously-known measure. These results\nstrongly support the idea that the genetic code evolved from a communal state\nof life prior to the root of the modern ribosomal tree of life.",
+    "authors": [
+      "Thomas Butler",
+      "Nigel Goldenfeld",
+      "Damien Mathew",
+      "Zaida Luthey-Schulten"
+    ],
+    "publication_date": "2007-12-20T06:32:50Z",
+    "arxiv_id": "http://arxiv.org/abs/0712.3332v2",
+    "download_url": "http://arxiv.org/abs/0712.3332v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the optimality of the standard genetic code: the role of stop codons",
+    "abstract": "The genetic code markup is the assignment of stop codons. The standard\ngenetic code markup ensures the maximum possible stability of genetic\ninformation with respect to two fault classes: frameshift and nonsense\nmutations. There are only 528 (about 1,3% of total number) optimal markups in\nthe set of markups having 3 stop codons. Among the sets of markups with\n1,2,...,8 stop codons, the standard case having 3 stop codons has maximum\nabsolute number of optimal markups.",
+    "authors": [
+      "Sergey Naumenko",
+      "Andrew Podlazov",
+      "Mikhail Burtsev",
+      "George Malinetsky"
+    ],
+    "publication_date": "2007-12-27T11:22:35Z",
+    "arxiv_id": "http://arxiv.org/abs/0712.4219v1",
+    "download_url": "http://arxiv.org/abs/0712.4219v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetic Code: Four-Codon and Non-Four-Codon Degeneracy",
+    "abstract": "In this work it is shown that 20 canonical amino acids (AAs) within genetic\ncode appear to be a whole system with strict distinction in Genetic Code Table\n(GCT) into some different quantums: 20, 23, 61 amino acid molecules. These\nmolecules distinction is followed by specific balanced atom number and/or\nnucleon number distinctions within those molecules. In this second version two\nappendices are added; also a new version of Periodic system of numbers, whose\nfirst verson is given in arXiv:1107.1998 [q-bio.OT].",
+    "authors": [
+      "Miloje M. Rakocevic"
+    ],
+    "publication_date": "2008-02-07T20:00:52Z",
+    "arxiv_id": "http://arxiv.org/abs/0802.1056v2",
+    "download_url": "http://arxiv.org/abs/0802.1056v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Enhanced Direct and Indirect Genetic Algorithm Approaches for a Mall\n  Layout and Tenant Selection Problem",
+    "abstract": "During our earlier research, it was recognised that in order to be successful\nwith an indirect genetic algorithm approach using a decoder, the decoder has to\nstrike a balance between being an optimiser in its own right and finding\nfeasible solutions. Previously this balance was achieved manually. Here we\nextend this by presenting an automated approach where the genetic algorithm\nitself, simultaneously to solving the problem, sets weights to balance the\ncomponents out. Subsequently we were able to solve a complex and non-linear\nscheduling problem better than with a standard direct genetic algorithm\nimplementation.",
+    "authors": [
+      "Uwe Aickelin",
+      "Kathryn Dowsland"
+    ],
+    "publication_date": "2008-03-20T10:19:01Z",
+    "arxiv_id": "http://arxiv.org/abs/0803.2957v1",
+    "download_url": "http://arxiv.org/abs/0803.2957v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The genetic code Via Godel encoding",
+    "abstract": "The genetic code structure into distinct multiplet-classes as well as the\nnumeric degeneracies of the latter are revealed by a two-step process. First,\nan empirical inventory of the degeneracies (of the shuffled multiplets) in two\nspecific equal moieties of the experimental genetic code table is made and\ntranscribed in the form of a sequence of integers. Second, a Godel Encoding\nprocedure is applied to the latter sequence delivering, as an output, a Godel\nNumber the digits of which, from the decimal representation, could remarkably\ndescribe the amino acids and the stops and allow us also to compute the exact\ndegeneracies, class by class. The standard and the vertebrate mitochondrial\ngenetic codes are considered and their multiplet structure is fully\nestablished.",
+    "authors": [
+      "Tidjani Negadi"
+    ],
+    "publication_date": "2008-05-06T10:56:19Z",
+    "arxiv_id": "http://arxiv.org/abs/0805.0695v1",
+    "download_url": "http://arxiv.org/abs/0805.0695v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A genetic algorithm for the atomistic design and global optimisation of\n  substitutionally disordered materials",
+    "abstract": "We present a genetic algorithm for the atomistic design and global\noptimisation of substitutionally disordered bulk materials and surfaces.\nPremature convergence which hamper conventional genetic algorithms due to\nproblems with synchronisation is avoided using a symmetry adapted crossover.\nThe algorithm outperforms previously reported Monte Carlo and genetic algorithm\nsimulations for finding low energy minima of two simple alloy models without\nthe need for any redesign.",
+    "authors": [
+      "Chris E. Mohn",
+      "Walter Kob"
+    ],
+    "publication_date": "2008-09-09T17:32:09Z",
+    "arxiv_id": "http://arxiv.org/abs/0809.1613v1",
+    "download_url": "http://arxiv.org/abs/0809.1613v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimality Properties of a Proposed Precursor to the Genetic Code",
+    "abstract": "We calculate the optimality of a doublet precursor to the canonical genetic\ncode with respect to mitigating the effects of point mutations and compare our\nresults to corresponding ones for the canonical genetic code. We find that the\nproposed precursor has much less optimality than that of the canonical code.\nOur results render unlikely the notion that the doublet precursor was an\nintermediate state in the evolution of the canonical genetic code. These\nfindings support the notion that code optimality reflects evolutionary\ndynamics, and that if such a doublet code originally had a biochemical\nsignificance, it arose before the emergence of translation.",
+    "authors": [
+      "Thomas Butler",
+      "Nigel Goldenfeld"
+    ],
+    "publication_date": "2009-05-18T16:32:10Z",
+    "arxiv_id": "http://arxiv.org/abs/0905.2932v1",
+    "download_url": "http://arxiv.org/abs/0905.2932v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Implementing Genetic Algorithms on Arduino Micro-Controllers",
+    "abstract": "Since their conception in 1975, Genetic Algorithms have been an extremely\npopular approach to find exact or approximate solutions to optimization and\nsearch problems. Over the last years there has been an enhanced interest in the\nfield with related techniques, such as grammatical evolution, being developed.\nUnfortunately, work on developing genetic optimizations for low-end embedded\narchitectures hasn't embraced the same enthusiasm. This short paper tackles\nthat situation by demonstrating how genetic algorithms can be implemented in\nArduino Duemilanove, a 16 MHz open-source micro-controller, with limited\ncomputation power and storage resources. As part of this short paper, the\nlibraries used in this implementation are released into the public domain under\na GPL license.",
+    "authors": [
+      "Nuno Alves"
+    ],
+    "publication_date": "2010-02-10T01:16:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1002.2012v1",
+    "download_url": "http://arxiv.org/abs/1002.2012v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Kingman and mathematical population genetics",
+    "abstract": "Mathematical population genetics is only one of Kingman's many research\ninterests. Nevertheless, his contribution to this field has been crucial, and\nmoved it in several important new directions. Here we outline some aspects of\nhis work which have had a major influence on population genetics theory.",
+    "authors": [
+      "Warren J. Ewens",
+      "Geoffrey A. Watterson"
+    ],
+    "publication_date": "2010-05-25T15:12:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1005.4601v1",
+    "download_url": "http://arxiv.org/abs/1005.4601v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Scaling Genetic Programming for Source Code Modification",
+    "abstract": "In Search Based Software Engineering, Genetic Programming has been used for\nbug fixing, performance improvement and parallelisation of programs through the\nmodification of source code. Where an evolutionary computation algorithm, such\nas Genetic Programming, is to be applied to similar code manipulation tasks,\nthe complexity and size of source code for real-world software poses a\nscalability problem. To address this, we intend to inspect how the Software\nEngineering concepts of modularity, granularity and localisation of change can\nbe reformulated as additional mechanisms within a Genetic Programming\nalgorithm.",
+    "authors": [
+      "Brendan Cody-Kenny",
+      "Stephen Barrett"
+    ],
+    "publication_date": "2012-11-21T17:32:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1211.5098v1",
+    "download_url": "http://arxiv.org/abs/1211.5098v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generating extrema approximation of analytically incomputable functions\n  through usage of parallel computer aided genetic algorithms",
+    "abstract": "This paper presents capabilities of using genetic algorithms to find\napproximations of function extrema, which cannot be found using analytic ways.\nTo enhance effectiveness of calculations, algorithm has been parallelized using\nOpenMP library. We gained much increase in speed on platforms using\nmultithreaded processors with shared memory free access. During analysis we\nused different modifications of genetic operator, using them we obtained varied\nevolution process of potential solutions. Results allow to choose best methods\namong many applied in genetic algorithms and observation of acceleration on\nYorkfield, Bloomfield, Westmere-EX and most recent Sandy Bridge cores.",
+    "authors": [
+      "Lukasz Swierczewski"
+    ],
+    "publication_date": "2013-03-18T08:49:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1303.4183v1",
+    "download_url": "http://arxiv.org/abs/1303.4183v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modified Soft Brood Crossover in Genetic Programming",
+    "abstract": "Premature convergence is one of the important issues while using Genetic\nProgramming for data modeling. It can be avoided by improving population\ndiversity. Intelligent genetic operators can help to improve the population\ndiversity. Crossover is an important operator in Genetic Programming. So, we\nhave analyzed number of intelligent crossover operators and proposed an\nalgorithm with the modification of soft brood crossover operator. It will help\nto improve the population diversity and reduce the premature convergence. We\nhave performed experiments on three different symbolic regression problems.\nThen we made the performance comparison of our proposed crossover (Modified\nSoft Brood Crossover) with the existing soft brood crossover and subtree\ncrossover operators.",
+    "authors": [
+      "Hardik M. Parekh",
+      "Vipul K. Dabhi"
+    ],
+    "publication_date": "2013-04-12T11:54:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1304.3610v1",
+    "download_url": "http://arxiv.org/abs/1304.3610v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Crystal Basis Model: Codon-Anticodon Interaction and Genetic Code\n  Evolution",
+    "abstract": "Imposing a minimum principle in the framework of the so called crystal basis\nmodel of the genetic code, we determine the structure of the minimum set of 22\nanticodons which allows the translational-transcription for animal\nmitochondrial code. The results are in very good agreement with the observed\nanticodons.\n  Then, we analyze the evolution of the genetic code, with 20 amino acids\nencoded from the beginning, from the viewpoint of codon-anticodon interaction.\nFollowing the same spirit as above, we determine the structure of the\nanticodons in the Ancient, Archetypal and Early Genetic codes. Most of our\nresults agree with the generally accepted scheme.",
+    "authors": [
+      "A. Sciarrino",
+      "P. Sorba"
+    ],
+    "publication_date": "2014-06-05T17:05:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1406.1445v1",
+    "download_url": "http://arxiv.org/abs/1406.1445v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Higher-Order Quantum-Inspired Genetic Algorithms",
+    "abstract": "This paper presents a theory and an empirical evaluation of Higher-Order\nQuantum-Inspired Genetic Algorithms. Fundamental notions of the theory have\nbeen introduced, and a novel Order-2 Quantum-Inspired Genetic Algorithm (QIGA2)\nhas been presented. Contrary to all QIGA algorithms which represent quantum\ngenes as independent qubits, in higher-order QIGAs quantum registers are used\nto represent genes strings which allows modelling of genes relations using\nquantum phenomena. Performance comparison has been conducted on a benchmark of\n20 deceptive combinatorial optimization problems. It has been presented that\nusing higher quantum orders is beneficial for genetic algorithm efficiency, and\nthe new QIGA2 algorithm outperforms the old QIGA algorithm which was tuned in\nhighly compute intensive metaoptimization process.",
+    "authors": [
+      "Robert Nowotniak",
+      "Jacek Kucharski"
+    ],
+    "publication_date": "2014-07-02T15:22:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1407.0977v1",
+    "download_url": "http://arxiv.org/abs/1407.0977v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The effect of recurrent mutations on genetic diversity in a large\n  population of varying size",
+    "abstract": "Recurrent mutations are a common phenomenon in population genetics. They may\nbe at the origin of the fixation of a new genotype, if they give a phenotypic\nadvantage to the carriers of the new mutation. In this paper, we are interested\nin the genetic signature left by a selective sweep induced by recurrent\nmutations at a given locus from an allele A to an allele a, depending on the\nmutation frequency. We distinguish three possible scales for the mutation\nprobability per reproductive event, which entail distinct genetic signatures.\nBesides, we study the hydrodynamic limit of the A- and a-population size\ndynamics when mutations are frequent, and find non trivial equilibria leading\nto several possible patterns of polymorphism.",
+    "authors": [
+      "Charline Smadi"
+    ],
+    "publication_date": "2015-11-11T15:43:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1511.03538v2",
+    "download_url": "http://arxiv.org/abs/1511.03538v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hitting times of local and global optima in genetic algorithms with very\n  high selection pressure",
+    "abstract": "The paper is devoted to upper bounds on the expected first hitting times of\nthe sets of local or global optima for non-elitist genetic algorithms with very\nhigh selection pressure. The results of this paper extend the range of\nsituations where the upper bounds on the expected runtime are known for genetic\nalgorithms and apply, in particular, to the Canonical Genetic Algorithm. The\nobtained bounds do not require the probability of fitness-decreasing mutation\nto be bounded by a constant less than one.",
+    "authors": [
+      "Anton Eremeev"
+    ],
+    "publication_date": "2016-06-18T17:36:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1606.05784v2",
+    "download_url": "http://arxiv.org/abs/1606.05784v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Using Genetic Algorithm To Evolve Cellular Automata In Performing Edge\n  Detection",
+    "abstract": "Cellular automata are discrete and computational models thatcan be shown as\ngeneral models of complexity. They are used in varied applications to derive\nthe generalized behavior of the presented model. In this paper we have took one\nsuch application. We have made an effort to perform edge detection on an image\nusing genetic algorithm. The purpose and the intention here is to analyze the\ncapability and performance of the suggested genetic algorithm. Genetic\nalgorithms are used to depict or obtain a general solution of given problem.\nUsing this feature of GA we have tried to evolve the cellular automata and\nshown that how with time it converges to the desired results.",
+    "authors": [
+      "Karan Nayak"
+    ],
+    "publication_date": "2020-05-13T04:07:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.06142v1",
+    "download_url": "http://arxiv.org/abs/2005.06142v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetic optimization algorithms applied toward mission computability\n  models",
+    "abstract": "Genetic algorithms are modeled after the biological evolutionary processes\nthat use natural selection to select the best species to survive. They are\nheuristics based and low cost to compute. Genetic algorithms use selection,\ncrossover, and mutation to obtain a feasible solution to computational\nproblems. In this paper, we describe our genetic optimization algorithms to a\nmission-critical and constraints-aware computation problem.",
+    "authors": [
+      "Mee Seong Im",
+      "Venkat R. Dasari"
+    ],
+    "publication_date": "2020-05-27T00:45:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.13105v1",
+    "download_url": "http://arxiv.org/abs/2005.13105v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Design a Technology Based on the Fusion of Genetic Algorithm, Neural\n  network and Fuzzy logic",
+    "abstract": "This paper describes the design and development of a prototype technique for\nartificial intelligence based on the fusion of genetic algorithm, neural\nnetwork and fuzzy logic. It starts by establishing a relationship between the\nneural network and fuzzy logic. Then, it combines the genetic algorithm with\nthem. Information fusions are at the confidence level, where matching scores\ncan be reported and discussed. The technique is called the Genetic Neuro-Fuzzy\n(GNF). It can be used for high accuracy real-time environments.",
+    "authors": [
+      "Raid R. Al-Nima",
+      "Fawaz S. Abdullah",
+      "Ali N. Hamoodi"
+    ],
+    "publication_date": "2021-02-16T09:17:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2102.08035v1",
+    "download_url": "http://arxiv.org/abs/2102.08035v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Using Genetic Data to Build Intuition about Population History",
+    "abstract": "Genetic data are now routinely used to study the history of population size,\nsubdivision, and gene flow. A variety of formal statistical methods is\navailable for testing hypotheses and fitting models to data. Yet it is often\nunclear which hypotheses are worth testing, which models worth fitting. There\nis a need for less formal methods that can be used in exploratory analysis of\ngenetic data. One approach to this problem uses *nucleotide site patterns*,\nwhich provide a simple summary of the pattern in genetic data. This article\nshows how to use them in exploratory data analysis.",
+    "authors": [
+      "Alan R. Rogers"
+    ],
+    "publication_date": "2022-01-07T20:33:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.02668v1",
+    "download_url": "http://arxiv.org/abs/2201.02668v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Solving even-parity problems using traceless genetic programming",
+    "abstract": "A genetic programming (GP) variant called traceless genetic programming (TGP)\nis proposed in this paper. TGP is a hybrid method combining a technique for\nbuilding individuals and a technique for representing individuals. The main\ndifference between TGP and other GP techniques is that TGP does not explicitly\nstore the evolved computer programs. Two genetic operators are used in\nconjunction with TGP: crossover and insertion. TGP is applied for evolving\ndigital circuits for the even-parity problem. Numerical experiments show that\nTGP outperforms standard GP with several orders of magnitude.",
+    "authors": [
+      "Mihai Oltean"
+    ],
+    "publication_date": "2021-10-04T13:23:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.02014v1",
+    "download_url": "http://arxiv.org/abs/2110.02014v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Active information requirements for fixation on the Wright-Fisher model\n  of population genetics",
+    "abstract": "In the context of population genetics, active information can be extended to\nmeasure the change of information of a given event (e.g., fixation of an\nallele) from a neutral model in which only genetic drift is taken into account\nto a non-neutral model that includes other sources of frequency variation\n(e.g., selection and mutation). In this paper we illustrate active information\nin population genetics through the Wright-Fisher model.",
+    "authors": [
+      "Daniel Andrés Díaz-Pachón",
+      "Robert J. Marks II"
+    ],
+    "publication_date": "2021-11-12T19:33:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.06909v1",
+    "download_url": "http://arxiv.org/abs/2111.06909v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evaluating Genetic Algorithms through the Approximability Hierarchy",
+    "abstract": "Optimization problems frequently appear in any scientific domain. Most of the\ntimes, the corresponding decision problem turns out to be NP-hard, and in these\ncases genetic algorithms are often used to obtain approximated solutions.\nHowever, the difficulty to approximate different NP-hard problems can vary a\nlot. In this paper, we analyze the usefulness of using genetic algorithms\ndepending on the approximation class the problem belongs to. In particular, we\nuse the standard approximability hierarchy, showing that genetic algorithms are\nespecially useful for the most pessimistic classes of the hierarchy",
+    "authors": [
+      "Alba Muñoz",
+      "Fernando Rubio"
+    ],
+    "publication_date": "2024-02-01T09:18:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.00444v1",
+    "download_url": "http://arxiv.org/abs/2402.00444v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep Learning-Based Operators for Evolutionary Algorithms",
+    "abstract": "We present two novel domain-independent genetic operators that harness the\ncapabilities of deep learning: a crossover operator for genetic algorithms and\na mutation operator for genetic programming. Deep Neural Crossover leverages\nthe capabilities of deep reinforcement learning and an encoder-decoder\narchitecture to select offspring genes. BERT mutation masks multiple gp-tree\nnodes and then tries to replace these masks with nodes that will most likely\nimprove the individual's fitness. We show the efficacy of both operators\nthrough experimentation.",
+    "authors": [
+      "Eliad Shem-Tov",
+      "Moshe Sipper",
+      "Achiya Elyasaf"
+    ],
+    "publication_date": "2024-07-15T07:05:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.10477v1",
+    "download_url": "http://arxiv.org/abs/2407.10477v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Gonosomic algebras: an extension of gonosomal algebras",
+    "abstract": "In this paper, we introduce gonosomic algebras to algebraically translate the\nphenomenon of genetic sterility. Gonosomic algebras extend the concept of\ngonosomal algebras used as algebraic model of genetic phenomena related to\nsex-determination and sex-linked gene transmission by allowing genetic\nsterility to be taken into account. Conditions under which gonosomic algebras\nare not gonosomal and several algebraic constructions of gonosomic algebras are\ngiven. To each gonosomic algebra, an evolution operator noted W is associated\nthat gives the state of the offspring population at the birth stage. Next from\nW we define the operator V which gives the frequency distribution of genetic\ntypes. We show that the various stability notions of equilibrium points are\npreserved by passing from W to V .",
+    "authors": [
+      "Richard Varro"
+    ],
+    "publication_date": "2025-10-06T08:27:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.04578v1",
+    "download_url": "http://arxiv.org/abs/2510.04578v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Genetic Code as a Chronicle of Early Events in the Origin of Life",
+    "abstract": "Molecular evidence regarding the genetic code has been examined and the\nfindings on the nature of the early events responsible for the amino acid\ndistribution in the code are reported.",
+    "authors": [
+      "Brian K. Davis"
+    ],
+    "publication_date": "1998-11-16T20:51:43Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/9811030v1",
+    "download_url": "http://arxiv.org/abs/physics/9811030v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetic algorithms for the numerical solution of variational problems\n  without analytic trial functions",
+    "abstract": "A coding of functions that allows a genetic algorithm to minimize functionals\nwithout analytic trial functions is presented and implemented for solving\nnumerically some instances of variational problems from physics.",
+    "authors": [
+      "Carlos D. Toledo"
+    ],
+    "publication_date": "2005-06-24T18:56:48Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/0506188v1",
+    "download_url": "http://arxiv.org/abs/physics/0506188v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Stochastic Synchronization of Genetic Oscillator Networks",
+    "abstract": "The study of synchronization among genetic oscillators is essential for the\nunderstanding of the rhythmic phenomena of living organisms at both molecular\nand cellular levels. Genetic networks are intrinsically noisy due to natural\nrandom intra- and inter-cellular fluctuations. Therefore, it is important to\nstudy the effects of noise perturbation on the synchronous dynamics of genetic\noscillators. From the synthetic biology viewpoint, it is also important to\nimplement biological systems that minimizing the negative influence of the\nperturbations. In this paper, based on systems biology approach, we provide a\ngeneral theoretical result on the synchronization of genetic oscillators with\nstochastic perturbations. By exploiting the specific properties of many genetic\noscillator models, we provide an easy-verified sufficient condition for the\nstochastic synchronization of coupled genetic oscillators, based on the Lur'e\nsystem approach in control theory. A design principle for minimizing the\ninfluence of noise is also presented. To demonstrate the effectiveness of our\ntheoretical results, a population of coupled repressillators is adopted as a\nnumerical example. In summary, we present an efficient theoretical method for\nanalyzing the synchronization of genetic oscillator networks, which is helpful\nfor understanding and testing the synchronization phenomena in biological\norganisms. Besides, the results are actually applicable to general oscillator\nnetworks.",
+    "authors": [
+      "Chunguang Li",
+      "Luonan Chen",
+      "Kazuyuki Aihara"
+    ],
+    "publication_date": "2007-02-11T12:22:44Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0702025v1",
+    "download_url": "http://arxiv.org/abs/q-bio/0702025v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The genetic code multiplet structure, in one number",
+    "abstract": "The standard genetic code multiplet structure as well as the correct\ndegeneracies, class by class, are all extracted from the (unique) number 23,\nthe order of the permutation group of 23 objects.",
+    "authors": [
+      "Tidjani Negadi"
+    ],
+    "publication_date": "2007-07-13T13:58:01Z",
+    "arxiv_id": "http://arxiv.org/abs/0707.2011v1",
+    "download_url": "http://arxiv.org/abs/0707.2011v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Matrix genetics, part 1: permutations of positions in triplets and\n  symmetries of genetic matrices",
+    "abstract": "The Kronecker family of the genetic matrices is investigated, which is based\non the genetic matrix [C T; A G], where C, T, A, G are the letters of the\ngenetic alphabet. The matrix [C T; A G] in the second Kronecker power is the\n(4*4)-matrix of 16 duplets. The matrix [C T; A G] in the third Kronecker power\nis the (8*8)-matrix of 64 triplets. It is significant that peculiarities of the\ndegeneracy of the genetic code are reflected in the symmetrical black-and-white\nmosaic of these genetic matrices. The article represents interesting\nmathematical properties of these mosaic matrices, which are connected with\npositional permutations inside duplets and triplets; with projector operators;\nwith unitary matrices and cyclic groups, etc. Fractal genetic nets are proposed\nas a new effective tool to study long nucleotide sequences. Some results about\nrevealing new symmetry principles of long nucleotide sequences are described.",
+    "authors": [
+      "Sergey V. Petoukhov"
+    ],
+    "publication_date": "2008-03-06T15:15:44Z",
+    "arxiv_id": "http://arxiv.org/abs/0803.0888v6",
+    "download_url": "http://arxiv.org/abs/0803.0888v6",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Wobbling of What?",
+    "abstract": "A simple explanation for the symmetry of the genetic code has been suggested.\nAn alternative to the wobble hypothesis has been proposed. The facts revealed\nin this study offer a new insight into physical mechanisms of the functioning\nof the genetic code.",
+    "authors": [
+      "Denis A. Semenov"
+    ],
+    "publication_date": "2008-08-13T05:20:46Z",
+    "arxiv_id": "http://arxiv.org/abs/0808.1780v1",
+    "download_url": "http://arxiv.org/abs/0808.1780v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetic Code: The unity of the stereochemical determinism and pure\n  chance",
+    "abstract": "It is presented that the positions of amino acids within Genetic Code Table\nfollow from strict their physical and chemical properties as well as from a\npure formal determination by the Golden mean.",
+    "authors": [
+      "Miloje M. Rakocevic"
+    ],
+    "publication_date": "2009-04-07T15:04:31Z",
+    "arxiv_id": "http://arxiv.org/abs/0904.1161v1",
+    "download_url": "http://arxiv.org/abs/0904.1161v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Critical control of a genetic algorithm",
+    "abstract": "Based on speculations coming from statistical mechanics and the conjectured\nexistence of critical states, I propose a simple heuristic in order to control\nthe mutation probability and the population size of a genetic algorithm.",
+    "authors": [
+      "Raphaël Cerf"
+    ],
+    "publication_date": "2010-05-19T09:29:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1005.3390v1",
+    "download_url": "http://arxiv.org/abs/1005.3390v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A sparse conditional Gaussian graphical model for analysis of genetical\n  genomics data",
+    "abstract": "Genetical genomics experiments have now been routinely conducted to measure\nboth the genetic markers and gene expression data on the same subjects. The\ngene expression levels are often treated as quantitative traits and are subject\nto standard genetic analysis in order to identify the gene expression\nquantitative loci (eQTL). However, the genetic architecture for many gene\nexpressions may be complex, and poorly estimated genetic architecture may\ncompromise the inferences of the dependency structures of the genes at the\ntranscriptional level. In this paper we introduce a sparse conditional Gaussian\ngraphical model for studying the conditional independent relationships among a\nset of gene expressions adjusting for possible genetic effects where the gene\nexpressions are modeled with seemingly unrelated regressions. We present an\nefficient coordinate descent algorithm to obtain the penalized estimation of\nboth the regression coefficients and the sparse concentration matrix. The\ncorresponding graph can be used to determine the conditional independence among\na group of genes while adjusting for shared genetic effects. Simulation\nexperiments and asymptotic convergence rates and sparsistency are used to\njustify our proposed methods. By sparsistency, we mean the property that all\nparameters that are zero are actually estimated as zero with probability\ntending to one. We apply our methods to the analysis of a yeast eQTL data set\nand demonstrate that the conditional Gaussian graphical model leads to a more\ninterpretable gene network than a standard Gaussian graphical model based on\ngene expression data alone.",
+    "authors": [
+      "Jianxin Yin",
+      "Hongzhe Li"
+    ],
+    "publication_date": "2012-02-29T11:14:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1202.6515v1",
+    "download_url": "http://arxiv.org/abs/1202.6515v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Non-stationary patterns of isolation-by-distance: inferring measures of\n  local genetic differentiation with Bayesian kriging",
+    "abstract": "Patterns of isolation-by-distance arise when population differentiation\nincreases with increasing geographic distances. Patterns of\nisolation-by-distance are usually caused by local spatial dispersal, which\nexplains why differences of allele frequencies between populations accumulate\nwith distance. However, spatial variations of demographic parameters such as\nmigration rate or population density can generate non-stationary patterns of\nisolation-by-distance where the rate at which genetic differentiation\naccumulates varies across space. To characterize non-stationary patterns of\nisolation-by-distance, we infer local genetic differentiation based on Bayesian\nkriging. Local genetic differentiation for a sampled population is defined as\nthe average genetic differentiation between the sampled population and fictive\nneighboring populations. To avoid defining populations in advance, the method\ncan also be applied at the scale of individuals making it relevant for\nlandscape genetics. Inference of local genetic differentiation relies on a\nmatrix of pairwise similarity or dissimilarity between populations or\nindividuals such as matrices of FST between pairs of populations. Simulation\nstudies show that maps of local genetic differentiation can reveal barriers to\ngene flow but also other patterns such as continuous variations of gene flow\nacross habitat. The potential of the method is illustrated with 2 data sets:\ngenome-wide SNP data for human Swedish populations and AFLP markers for alpine\nplant species. The software LocalDiff implementing the method is available at\nhttp://membres-timc.imag.fr/Michael.Blum/LocalDiff.html",
+    "authors": [
+      "Nicolas Duforet-Frebourg",
+      "Michael G. B. Blum"
+    ],
+    "publication_date": "2012-09-24T12:17:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1209.5242v3",
+    "download_url": "http://arxiv.org/abs/1209.5242v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A genome-wide survey of genetic variation in gorillas using reduced\n  representation sequencing",
+    "abstract": "All non-human great apes are endangered in the wild, and it is therefore\nimportant to gain an understanding of their demography and genetic diversity.\nTo date, however, genetic studies within these species have largely been\nconfined to mitochondrial DNA and a small number of other loci. Here, we\npresent a genome-wide survey of genetic variation in gorillas using a reduced\nrepresentation sequencing approach, focusing on the two lowland subspecies. We\nidentify 3,274,491 polymorphic sites in 14 individuals: 12 western lowland\ngorillas (Gorilla gorilla gorilla) and 2 eastern lowland gorillas (Gorilla\nberingei graueri). We find that the two species are genetically distinct, based\non levels of heterozygosity and patterns of allele sharing. Focusing on the\nwestern lowland population, we observe evidence for population substructure,\nand a deficit of rare genetic variants suggesting a recent episode of\npopulation contraction. In western lowland gorillas, there is an elevation of\nvariation towards telomeres and centromeres on the chromosomal scale. On a\nfiner scale, we find substantial variation in genetic diversity, including a\nmarked reduction close to the major histocompatibility locus, perhaps\nindicative of recent strong selection there. These findings suggest that\ndespite their maintaining an overall level of genetic diversity equal to or\ngreater than that of humans, population decline, perhaps associated with\ndisease, has been a significant factor in recent and long-term pressures on\nwild gorilla populations.",
+    "authors": [
+      "Aylwyn Scally",
+      "Bryndis Yngvadottir",
+      "Yali Xue",
+      "Qasim Ayub",
+      "Richard Durbin",
+      "Chris Tyler-Smith"
+    ],
+    "publication_date": "2013-01-09T00:44:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1301.1729v1",
+    "download_url": "http://arxiv.org/abs/1301.1729v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modeling and Testing for Joint Association Using a Genetic Random Field\n  Model",
+    "abstract": "Substantial progress has been made in identifying single genetic variants\npredisposing to common complex diseases. Nonetheless, the genetic etiology of\nhuman diseases remains largely unknown. Human complex diseases are likely\ninfluenced by the joint effect of a large number of genetic variants instead of\na single variant. The joint analysis of multiple genetic variants considering\nlinkage disequilibrium (LD) and potential interactions can further enhance the\ndiscovery process, leading to the identification of new disease-susceptibility\ngenetic variants. Motivated by the recent development in spatial statistics, we\npropose a new statistical model based on the random field theory, referred to\nas a genetic random field model (GenRF), for joint association analysis with\nthe consideration of possible gene-gene interactions and LD. Using a\npseudo-likelihood approach, a GenRF test for the joint association of multiple\ngenetic variants is developed, which has the following advantages: 1.\nconsidering complex interactions for improved performance; 2. natural dimension\nreduction; 3. boosting power in the presence of LD; 4. computationally\nefficient. Simulation studies are conducted under various scenarios. Compared\nwith a commonly adopted kernel machine approach, SKAT, GenRF shows overall\ncomparable performance and better performance in the presence of complex\ninteractions. The method is further illustrated by an application to the Dallas\nHeart Study.",
+    "authors": [
+      "Zihuai He",
+      "Min Zhang",
+      "Xiaowei Zhan",
+      "Qing Lu"
+    ],
+    "publication_date": "2013-02-22T06:39:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.5493v3",
+    "download_url": "http://arxiv.org/abs/1302.5493v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

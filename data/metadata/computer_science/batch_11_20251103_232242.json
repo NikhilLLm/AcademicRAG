@@ -1,0 +1,796 @@
+[
+  {
+    "title": "Large Language Models are not Models of Natural Language: they are\n  Corpus Models",
+    "abstract": "Natural Language Processing (NLP) has become one of the leading application\nareas in the current Artificial Intelligence boom. Transfer learning has\nenabled large deep learning neural networks trained on the language modeling\ntask to vastly improve performance in almost all downstream language tasks.\nInterestingly, when the language models are trained with data that includes\nsoftware code, they demonstrate remarkable abilities in generating functioning\ncomputer code from natural language specifications. We argue that this creates\na conundrum for the claim that eliminative neural models are a radical\nrestructuring in our understanding of cognition in that they eliminate the need\nfor symbolic abstractions like generative phrase structure grammars. Because\nthe syntax of programming languages is by design determined by phrase structure\ngrammars, neural models that produce syntactic code are apparently\nuninformative about the theoretical foundations of programming languages. The\ndemonstration that neural models perform well on tasks that involve clearly\nsymbolic systems, proves that they cannot be used as an argument that language\nand other cognitive systems are not symbolic. Finally, we argue as a corollary\nthat the term language model is misleading and propose the adoption of the\nworking term corpus model instead, which better reflects the genesis and\ncontents of the model.",
+    "authors": [
+      "Csaba Veres"
+    ],
+    "publication_date": "2021-12-13T22:39:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.07055v2",
+    "download_url": "http://arxiv.org/abs/2112.07055v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An OLAC Extension for Dravidian Languages",
+    "abstract": "OLAC was founded in 2000 for creating online databases of language resources.\nThis paper intends to review the bottom-up distributed character of the project\nand proposes an extension of the architecture for Dravidian languages. An\nontological structure is considered for effective natural language processing\n(NLP) and its advantages over statistical methods are reviewed",
+    "authors": [
+      "B Prabhulla Chandran Pillai"
+    ],
+    "publication_date": "2009-08-30T23:20:41Z",
+    "arxiv_id": "http://arxiv.org/abs/0908.4431v1",
+    "download_url": "http://arxiv.org/abs/0908.4431v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Development of Word Embeddings for Uzbek Language",
+    "abstract": "In this paper, we share the process of developing word embeddings for the\nCyrillic variant of the Uzbek language. The result of our work is the first\npublicly available set of word vectors trained on the word2vec, GloVe, and\nfastText algorithms using a high-quality web crawl corpus developed in-house.\nThe developed word embeddings can be used in many natural language processing\ndownstream tasks.",
+    "authors": [
+      "B. Mansurov",
+      "A. Mansurov"
+    ],
+    "publication_date": "2020-09-30T01:52:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.14384v1",
+    "download_url": "http://arxiv.org/abs/2009.14384v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Comparative Analysis of Word Embeddings for Capturing Word Similarities",
+    "abstract": "Distributed language representation has become the most widely used technique\nfor language representation in various natural language processing tasks. Most\nof the natural language processing models that are based on deep learning\ntechniques use already pre-trained distributed word representations, commonly\ncalled word embeddings. Determining the most qualitative word embeddings is of\ncrucial importance for such models. However, selecting the appropriate word\nembeddings is a perplexing task since the projected embedding space is not\nintuitive to humans. In this paper, we explore different approaches for\ncreating distributed word representations. We perform an intrinsic evaluation\nof several state-of-the-art word embedding methods. Their performance on\ncapturing word similarities is analysed with existing benchmark datasets for\nword pairs similarities. The research in this paper conducts a correlation\nanalysis between ground truth word similarities and similarities obtained by\ndifferent word embedding methods.",
+    "authors": [
+      "Martina Toshevska",
+      "Frosina Stojanovska",
+      "Jovan Kalajdjieski"
+    ],
+    "publication_date": "2020-05-08T01:16:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.03812v1",
+    "download_url": "http://arxiv.org/abs/2005.03812v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Do learned speech symbols follow Zipf's law?",
+    "abstract": "In this study, we investigate whether speech symbols, learned through deep\nlearning, follow Zipf's law, akin to natural language symbols. Zipf's law is an\nempirical law that delineates the frequency distribution of words, forming\nfundamentals for statistical analysis in natural language processing. Natural\nlanguage symbols, which are invented by humans to symbolize speech content, are\nrecognized to comply with this law. On the other hand, recent breakthroughs in\nspoken language processing have given rise to the development of learned speech\nsymbols; these are data-driven symbolizations of speech content. Our objective\nis to ascertain whether these data-driven speech symbols follow Zipf's law, as\nthe same as natural language symbols. Through our investigation, we aim to\nforge new ways for the statistical analysis of spoken language processing.",
+    "authors": [
+      "Shinnosuke Takamichi",
+      "Hiroki Maeda",
+      "Joonyong Park",
+      "Daisuke Saito",
+      "Hiroshi Saruwatari"
+    ],
+    "publication_date": "2023-09-18T11:56:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.09690v1",
+    "download_url": "http://arxiv.org/abs/2309.09690v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantifying Uncertainty in Natural Language Explanations of Large\n  Language Models for Question Answering",
+    "abstract": "Large language models (LLMs) have shown strong capabilities, enabling\nconcise, context-aware answers in question answering (QA) tasks. The lack of\ntransparency in complex LLMs has inspired extensive research aimed at\ndeveloping methods to explain large language behaviors. Among existing\nexplanation methods, natural language explanations stand out due to their\nability to explain LLMs in a self-explanatory manner and enable the\nunderstanding of model behaviors even when the models are closed-source.\nHowever, despite these promising advancements, there is no existing work\nstudying how to provide valid uncertainty guarantees for these generated\nnatural language explanations. Such uncertainty quantification is critical in\nunderstanding the confidence behind these explanations. Notably, generating\nvalid uncertainty estimates for natural language explanations is particularly\nchallenging due to the auto-regressive generation process of LLMs and the\npresence of noise in medical inquiries. To bridge this gap, in this work, we\nfirst propose a novel uncertainty estimation framework for these generated\nnatural language explanations, which provides valid uncertainty guarantees in a\npost-hoc and model-agnostic manner. Additionally, we also design a novel robust\nuncertainty estimation method that maintains valid uncertainty guarantees even\nunder noise. Extensive experiments on QA tasks demonstrate the desired\nperformance of our methods.",
+    "authors": [
+      "Yangyi Li",
+      "Mengdi Huai"
+    ],
+    "publication_date": "2025-09-18T20:29:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.15403v1",
+    "download_url": "http://arxiv.org/abs/2509.15403v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Investigating Masking-based Data Generation in Language Models",
+    "abstract": "The current era of natural language processing (NLP) has been defined by the\nprominence of pre-trained language models since the advent of BERT. A feature\nof BERT and models with similar architecture is the objective of masked\nlanguage modeling, in which part of the input is intentionally masked and the\nmodel is trained to predict this piece of masked information. Data augmentation\nis a data-driven technique widely used in machine learning, including research\nareas like computer vision and natural language processing, to improve model\nperformance by artificially augmenting the training data set by designated\ntechniques. Masked language models (MLM), an essential training feature of\nBERT, have introduced a novel approach to perform effective pre-training on\nTransformer based models in natural language processing tasks. Recent studies\nhave utilized masked language model to generate artificially augmented data for\nNLP downstream tasks. The experimental results show that Mask based data\naugmentation method provides a simple but efficient approach to improve the\nmodel performance. In this paper, we explore and discuss the broader\nutilization of these data augmentation methods based on MLM.",
+    "authors": [
+      "Ed S. Ma"
+    ],
+    "publication_date": "2023-06-16T16:48:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.00008v1",
+    "download_url": "http://arxiv.org/abs/2307.00008v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "RELATE: A Modern Processing Platform for Romanian Language",
+    "abstract": "This paper presents the design and evolution of the RELATE platform. It\nprovides a high-performance environment for natural language processing\nactivities, specially constructed for Romanian language. Initially developed\nfor text processing, it has been recently updated to integrate audio processing\ntools. Technical details are provided with regard to core components. We\nfurther present different usage scenarios, derived from actual use in national\nand international research projects, thus demonstrating that RELATE is a\nmature, modern, state-of-the-art platform for processing Romanian language\ncorpora. Finally, we present very recent developments including bimodal (text\nand audio) features available within the platform.",
+    "authors": [
+      "Vasile Păiş",
+      "Radu Ion",
+      "Andrei-Marius Avram",
+      "Maria Mitrofan",
+      "Dan Tufiş"
+    ],
+    "publication_date": "2024-10-29T06:33:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.21778v1",
+    "download_url": "http://arxiv.org/abs/2410.21778v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Parsing of part-of-speech tagged Assamese Texts",
+    "abstract": "A natural language (or ordinary language) is a language that is spoken,\nwritten, or signed by humans for general-purpose communication, as\ndistinguished from formal languages (such as computer-programming languages or\nthe \"languages\" used in the study of formal logic). The computational\nactivities required for enabling a computer to carry out information processing\nusing natural language is called natural language processing. We have taken\nAssamese language to check the grammars of the input sentence. Our aim is to\nproduce a technique to check the grammatical structures of the sentences in\nAssamese text. We have made grammar rules by analyzing the structures of\nAssamese sentences. Our parsing program finds the grammatical errors, if any,\nin the Assamese sentence. If there is no error, the program will generate the\nparse tree for the Assamese sentence",
+    "authors": [
+      "Mirzanur Rahman",
+      "Sufal Das",
+      "Utpal Sharma"
+    ],
+    "publication_date": "2009-12-09T18:03:20Z",
+    "arxiv_id": "http://arxiv.org/abs/0912.1820v1",
+    "download_url": "http://arxiv.org/abs/0912.1820v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Statistical patterns of word frequency suggesting the probabilistic\n  nature of human languages",
+    "abstract": "Traditional linguistic theories have largely regard language as a formal\nsystem composed of rigid rules. However, their failures in processing real\nlanguage, the recent successes in statistical natural language processing, and\nthe findings of many psychological experiments have suggested that language may\nbe more a probabilistic system than a formal system, and thus cannot be\nfaithfully modeled with the either/or rules of formal linguistic theory. The\npresent study, based on authentic language data, confirmed that those important\nlinguistic issues, such as linguistic universal, diachronic drift, and language\nvariations can be translated into probability and frequency patterns in parole.\nThese findings suggest that human language may well be probabilistic systems by\nnature, and that statistical may well make inherent properties of human\nlanguages.",
+    "authors": [
+      "Shuiyuan Yu",
+      "Chunshan Xu",
+      "Haitao Liu"
+    ],
+    "publication_date": "2020-12-01T00:48:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2012.00187v1",
+    "download_url": "http://arxiv.org/abs/2012.00187v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Enabling Quantum Natural Language Processing for Hindi Language",
+    "abstract": "Quantum Natural Language Processing (QNLP) is taking huge leaps in solving\nthe shortcomings of classical Natural Language Processing (NLP) techniques and\nmoving towards a more \"Explainable\" NLP system. The current literature around\nQNLP focuses primarily on implementing QNLP techniques in sentences in the\nEnglish language. In this paper, we propose to enable the QNLP approach to\nHINDI, which is the third most spoken language in South Asia. We present the\nprocess of building the parameterized quantum circuits required to undertake\nQNLP on Hindi sentences. We use the pregroup representation of Hindi and the\nDisCoCat framework to draw sentence diagrams. Later, we translate these\ndiagrams to Parameterised Quantum Circuits based on Instantaneous Quantum\nPolynomial (IQP) style ansatz. Using these parameterized quantum circuits\nallows one to train grammar and topic-aware sentence classifiers for the Hindi\nLanguage.",
+    "authors": [
+      "Naman Srivastava",
+      "Gaurang Belekar",
+      "Sunil Saumya",
+      "Aswath Babu H"
+    ],
+    "publication_date": "2023-12-02T20:19:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.01221v1",
+    "download_url": "http://arxiv.org/abs/2312.01221v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hierarchical Representation in Neural Language Models: Suppression and\n  Recovery of Expectations",
+    "abstract": "Deep learning sequence models have led to a marked increase in performance\nfor a range of Natural Language Processing tasks, but it remains an open\nquestion whether they are able to induce proper hierarchical generalizations\nfor representing natural language from linear input alone. Work using\nartificial languages as training input has shown that LSTMs are capable of\ninducing the stack-like data structures required to represent context-free and\ncertain mildly context-sensitive languages---formal language classes which\ncorrespond in theory to the hierarchical structures of natural language. Here\nwe present a suite of experiments probing whether neural language models\ntrained on linguistic data induce these stack-like data structures and deploy\nthem while incrementally predicting words. We study two natural language\nphenomena: center embedding sentences and syntactic island constraints on the\nfiller--gap dependency. In order to properly predict words in these structures,\na model must be able to temporarily suppress certain expectations and then\nrecover those expectations later, essentially pushing and popping these\nexpectations on a stack. Our results provide evidence that models can\nsuccessfully suppress and recover expectations in many cases, but do not fully\nrecover their previous grammatical state.",
+    "authors": [
+      "Ethan Wilcox",
+      "Roger Levy",
+      "Richard Futrell"
+    ],
+    "publication_date": "2019-06-10T15:20:32Z",
+    "arxiv_id": "http://arxiv.org/abs/1906.04068v1",
+    "download_url": "http://arxiv.org/abs/1906.04068v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural Language Processing Chains Inside a Cross-lingual Event-Centric\n  Knowledge Pipeline for European Union Under-resourced Languages",
+    "abstract": "This article presents the strategy for developing a platform containing\nLanguage Processing Chains for European Union languages, consisting of\nTokenization to Parsing, also including Named Entity recognition andwith\naddition ofSentiment Analysis. These chains are part of the first step of an\nevent-centric knowledge processing pipeline whose aim is to process\nmultilingual media information about major events that can cause an impactin\nEurope and the rest of the world. Due to the differences in terms of\navailability of language resources for each language, we have built this\nstrategy in three steps, starting with processing chains for the well-resourced\nlanguages and finishing with the development of new modules for the\nunder-resourced ones. In order to classify all European Union official\nlanguages in terms of resources, we have analysed the size of annotated corpora\nas well as the existence of pre-trained models in mainstream Language\nProcessing tools, and we have combined this information with the proposed\nclassification published at META-NETwhitepaper series.",
+    "authors": [
+      "Diego Alves",
+      "Gaurish Thakkar",
+      "Marko Tadić"
+    ],
+    "publication_date": "2020-10-23T14:26:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.12433v1",
+    "download_url": "http://arxiv.org/abs/2010.12433v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Semi-supervised Classification for Natural Language Processing",
+    "abstract": "Semi-supervised classification is an interesting idea where classification\nmodels are learned from both labeled and unlabeled data. It has several\nadvantages over supervised classification in natural language processing\ndomain. For instance, supervised classification exploits only labeled data that\nare expensive, often difficult to get, inadequate in quantity, and require\nhuman experts for annotation. On the other hand, unlabeled data are inexpensive\nand abundant. Despite the fact that many factors limit the wide-spread use of\nsemi-supervised classification, it has become popular since its level of\nperformance is empirically as good as supervised classification. This study\nexplores the possibilities and achievements as well as complexity and\nlimitations of semi-supervised classification for several natural langue\nprocessing tasks like parsing, biomedical information processing, text\nclassification, and summarization.",
+    "authors": [
+      "Rushdi Shams"
+    ],
+    "publication_date": "2014-09-25T15:18:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1409.7612v1",
+    "download_url": "http://arxiv.org/abs/1409.7612v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Automatic Language Identification for Romance Languages using Stop Words\n  and Diacritics",
+    "abstract": "Automatic language identification is a natural language processing problem\nthat tries to determine the natural language of a given content. In this paper\nwe present a statistical method for automatic language identification of\nwritten text using dictionaries containing stop words and diacritics. We\npropose different approaches that combine the two dictionaries to accurately\ndetermine the language of textual corpora. This method was chosen because stop\nwords and diacritics are very specific to a language, although some languages\nhave some similar words and special characters they are not all common. The\nlanguages taken into account were romance languages because they are very\nsimilar and usually it is hard to distinguish between them from a computational\npoint of view. We have tested our method using a Twitter corpus and a news\narticle corpus. Both corpora consists of UTF-8 encoded text, so the diacritics\ncould be taken into account, in the case that the text has no diacritics only\nthe stop words are used to determine the language of the text. The experimental\nresults show that the proposed method has an accuracy of over 90% for small\ntexts and over 99.8% for",
+    "authors": [
+      "Ciprian-Octavian Truică",
+      "Julien Velcin",
+      "Alexandru Boicea"
+    ],
+    "publication_date": "2018-06-14T11:38:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.05480v1",
+    "download_url": "http://arxiv.org/abs/1806.05480v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Autonomous requirements specification processing using natural language\n  processing",
+    "abstract": "We describe our ongoing research that centres on the application of natural\nlanguage processing (NLP) to software engineering and systems development\nactivities. In particular, this paper addresses the use of NLP in the\nrequirements analysis and systems design processes. We have developed a\nprototype toolset that can assist the systems analyst or software engineer to\nselect and verify terms relevant to a project. In this paper we describe the\nprocesses employed by the system to extract and classify objects of interest\nfrom requirements documents. These processes are illustrated using a small\nexample.",
+    "authors": [
+      "S. G. Macdonell",
+      "K. Min",
+      "A. M. Connor"
+    ],
+    "publication_date": "2014-07-23T03:29:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1407.6099v1",
+    "download_url": "http://arxiv.org/abs/1407.6099v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Novel Keyword Extraction and Language Detection Approaches",
+    "abstract": "Fuzzy string matching and language classification are important tools in\nNatural Language Processing pipelines, this paper provides advances in both\nareas. We propose a fast novel approach to string tokenisation for fuzzy\nlanguage matching and experimentally demonstrate an 83.6% decrease in\nprocessing time with an estimated improvement in recall of 3.1% at the cost of\na 2.6% decrease in precision. This approach is able to work even where keywords\nare subdivided into multiple words, without needing to scan\ncharacter-to-character. So far there has been little work considering using\nmetadata to enhance language classification algorithms. We provide\nobservational data and find the Accept-Language header is 14% more likely to\nmatch the classification than the IP Address.",
+    "authors": [
+      "Malgorzata Pikies",
+      "Andronicus Riyono",
+      "Junade Ali"
+    ],
+    "publication_date": "2020-09-24T17:28:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.11832v1",
+    "download_url": "http://arxiv.org/abs/2009.11832v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Morphosyntactic Analysis for CHILDES",
+    "abstract": "Language development researchers are interested in comparing the process of\nlanguage learning across languages. Unfortunately, it has been difficult to\nconstruct a consistent quantitative framework for such comparisons. However,\nrecent advances in AI (Artificial Intelligence) and ML (Machine Learning) are\nproviding new methods for ASR (automatic speech recognition) and NLP (natural\nlanguage processing) that can be brought to bear on this problem. Using the\nBatchalign2 program (Liu et al., 2023), we have been transcribing and linking\ndata for the CHILDES database and have applied the UD (Universal Dependencies)\nframework to provide a consistent and comparable morphosyntactic analysis for\n27 languages. These new resources open possibilities for deeper crosslinguistic\nstudy of language learning.",
+    "authors": [
+      "Houjun Liu",
+      "Brian MacWhinney"
+    ],
+    "publication_date": "2024-07-17T08:11:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.12389v1",
+    "download_url": "http://arxiv.org/abs/2407.12389v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "New Approaches for Natural Language Understanding based on the Idea that\n  Natural Language encodes both Information and its Processing Procedures",
+    "abstract": "We must recognize that natural language is a way of information encoding, and\nit encodes not only the information but also the procedures for how information\nis processed. To understand natural language, the same as we conceive and\ndesign computer languages, the first step is to separate information (or data)\nand the processing procedures of information (or data). In natural language,\nsome processing procedures of data are encoded directly as the structure chunk\nand the pointer chunk (this paper has reclassified lexical chunks as the data\nchunk, structure chunk, and the pointer chunk); some processing procedures of\ndata imply in sentences structures; some requests of processing procedures are\nexpressed by information senders and processed by information receivers. For\nthe data parts, the classification encoding system of attribute information and\nthe information organization architecture (including constitutional structures\nof information sets and the hierarchy between the information sets) were\ndiscussed. In section 2, the theoretical part elaborated in section 2 has been\nverified in examples and proofed that the studies in this paper have achieved\nthe goal of enabling machines to understand the information conveyed in the\ndialogue. In section 4, the author summarizes the basic conditions of\n\"Understanding\", rethinks what \"Understanding\" is and how to proceed. The study\nin this paper provides a practical, theoretical basis and research methods for\nNLU. It also can be applied in large-scale and multi-type information\nprocessing in the artificial intelligence (AI) area.",
+    "authors": [
+      "Limin Zhang"
+    ],
+    "publication_date": "2020-10-24T05:40:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.12789v3",
+    "download_url": "http://arxiv.org/abs/2010.12789v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Comprehensive Implementation of TextCNN for Enhanced Collaboration\n  between Natural Language Processing and System Recommendation",
+    "abstract": "Natural Language Processing (NLP) is an important branch of artificial\nintelligence that studies how to enable computers to understand, process, and\ngenerate human language. Text classification is a fundamental task in NLP,\nwhich aims to classify text into different predefined categories. Text\nclassification is the most basic and classic task in natural language\nprocessing, and most of the tasks in natural language processing can be\nregarded as classification tasks. In recent years, deep learning has achieved\ngreat success in many research fields, and today, it has also become a standard\ntechnology in the field of NLP, which is widely integrated into text\nclassification tasks. Unlike numbers and images, text processing emphasizes\nfine-grained processing ability. Traditional text classification methods\ngenerally require preprocessing the input model's text data. Additionally, they\nalso need to obtain good sample features through manual annotation and then use\nclassical machine learning algorithms for classification. Therefore, this paper\nanalyzes the application status of deep learning in the three core tasks of NLP\n(including text representation, word order modeling, and knowledge\nrepresentation). This content explores the improvement and synergy achieved\nthrough natural language processing in the context of text classification,\nwhile also taking into account the challenges posed by adversarial techniques\nin text generation, text classification, and semantic parsing. An empirical\nstudy on text classification tasks demonstrates the effectiveness of\ninteractive integration training, particularly in conjunction with TextCNN,\nhighlighting the significance of these advancements in text classification\naugmentation and enhancement.",
+    "authors": [
+      "Xiaonan Xu",
+      "Zheng Xu",
+      "Zhipeng Ling",
+      "Zhengyu Jin",
+      "ShuQian Du"
+    ],
+    "publication_date": "2024-03-12T07:25:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.09718v1",
+    "download_url": "http://arxiv.org/abs/2403.09718v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Basic Classes of Grammars with Prohibition",
+    "abstract": "A practical tool for natural language modeling and development of\nhuman-machine interaction is developed in the context of formal grammars and\nlanguages. A new type of formal grammars, called grammars with prohibition, is\nintroduced. Grammars with prohibition provide more powerful tools for natural\nlanguage generation and better describe processes of language learning than the\nconventional formal grammars. Here we study relations between languages\ngenerated by different grammars with prohibition based on conventional types of\nformal grammars such as context-free or context sensitive grammars. Besides, we\ncompare languages generated by different grammars with prohibition and\nlanguages generated by conventional formal grammars. In particular, it is\ndemonstrated that they have essentially higher computational power and\nexpressive possibilities in comparison with the conventional formal grammars.\nThus, while conventional formal grammars are recursive and subrecursive\nalgorithms, many classes of grammars with prohibition are superrecursive\nalgorithms. Results presented in this work are aimed at the development of\nhuman-machine interaction, modeling natural languages, empowerment of\nprogramming languages, computer simulation, better software systems, and theory\nof recursion.",
+    "authors": [
+      "Mark Burgin"
+    ],
+    "publication_date": "2013-02-21T04:58:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.5181v1",
+    "download_url": "http://arxiv.org/abs/1302.5181v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "XLDA: Cross-Lingual Data Augmentation for Natural Language Inference and\n  Question Answering",
+    "abstract": "While natural language processing systems often focus on a single language,\nmultilingual transfer learning has the potential to improve performance,\nespecially for low-resource languages. We introduce XLDA, cross-lingual data\naugmentation, a method that replaces a segment of the input text with its\ntranslation in another language. XLDA enhances performance of all 14 tested\nlanguages of the cross-lingual natural language inference (XNLI) benchmark.\nWith improvements of up to $4.8\\%$, training with XLDA achieves\nstate-of-the-art performance for Greek, Turkish, and Urdu. XLDA is in contrast\nto, and performs markedly better than, a more naive approach that aggregates\nexamples in various languages in a way that each example is solely in one\nlanguage. On the SQuAD question answering task, we see that XLDA provides a\n$1.0\\%$ performance increase on the English evaluation set. Comprehensive\nexperiments suggest that most languages are effective as cross-lingual\naugmentors, that XLDA is robust to a wide range of translation quality, and\nthat XLDA is even more effective for randomly initialized models than for\npretrained models.",
+    "authors": [
+      "Jasdeep Singh",
+      "Bryan McCann",
+      "Nitish Shirish Keskar",
+      "Caiming Xiong",
+      "Richard Socher"
+    ],
+    "publication_date": "2019-05-27T19:44:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.11471v1",
+    "download_url": "http://arxiv.org/abs/1905.11471v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "BioBART: Pretraining and Evaluation of A Biomedical Generative Language\n  Model",
+    "abstract": "Pretrained language models have served as important backbones for natural\nlanguage processing. Recently, in-domain pretraining has been shown to benefit\nvarious domain-specific downstream tasks. In the biomedical domain, natural\nlanguage generation (NLG) tasks are of critical importance, while understudied.\nApproaching natural language understanding (NLU) tasks as NLG achieves\nsatisfying performance in the general domain through constrained language\ngeneration or language prompting. We emphasize the lack of in-domain generative\nlanguage models and the unsystematic generative downstream benchmarks in the\nbiomedical domain, hindering the development of the research community. In this\nwork, we introduce the generative language model BioBART that adapts BART to\nthe biomedical domain. We collate various biomedical language generation tasks\nincluding dialogue, summarization, entity linking, and named entity\nrecognition. BioBART pretrained on PubMed abstracts has enhanced performance\ncompared to BART and set strong baselines on several tasks. Furthermore, we\nconduct ablation studies on the pretraining tasks for BioBART and find that\nsentence permutation has negative effects on downstream tasks.",
+    "authors": [
+      "Hongyi Yuan",
+      "Zheng Yuan",
+      "Ruyi Gan",
+      "Jiaxing Zhang",
+      "Yutao Xie",
+      "Sheng Yu"
+    ],
+    "publication_date": "2022-04-08T08:07:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.03905v2",
+    "download_url": "http://arxiv.org/abs/2204.03905v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "XNLI 2.0: Improving XNLI dataset and performance on Cross Lingual\n  Understanding (XLU)",
+    "abstract": "Natural Language Processing systems are heavily dependent on the availability\nof annotated data to train practical models. Primarily, models are trained on\nEnglish datasets. In recent times, significant advances have been made in\nmultilingual understanding due to the steeply increasing necessity of working\nin different languages. One of the points that stands out is that since there\nare now so many pre-trained multilingual models, we can utilize them for\ncross-lingual understanding tasks. Using cross-lingual understanding and\nNatural Language Inference, it is possible to train models whose applications\nextend beyond the training language. We can leverage the power of machine\ntranslation to skip the tiresome part of translating datasets from one language\nto another. In this work, we focus on improving the original XNLI dataset by\nre-translating the MNLI dataset in all of the 14 different languages present in\nXNLI, including the test and dev sets of XNLI using Google Translate. We also\nperform experiments by training models in all 15 languages and analyzing their\nperformance on the task of natural language inference. We then expand our\nboundary to investigate if we could improve performance in low-resource\nlanguages such as Swahili and Urdu by training models in languages other than\nEnglish.",
+    "authors": [
+      "Ankit Kumar Upadhyay",
+      "Harsit Kumar Upadhya"
+    ],
+    "publication_date": "2023-01-16T17:24:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2301.06527v1",
+    "download_url": "http://arxiv.org/abs/2301.06527v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Knowledge Representation for Conceptual, Motivational, and Affective\n  Processes in Natural Language Communication",
+    "abstract": "Natural language communication is an intricate and complex process. The\nspeaker usually begins with an intention and motivation of what is to be\ncommunicated, and what effects are expected from the communication, while\ntaking into consideration the listener's mental model to concoct an appropriate\nsentence. The listener likewise has to interpret what the speaker means, and\nrespond accordingly, also with the speaker's mental state in mind. To do this\nsuccessfully, conceptual, motivational, and affective processes have to be\nrepresented appropriately to drive the language generation and understanding\nprocesses. Language processing has succeeded well with the big data approach in\napplications such as chatbots and machine translation. However, in human-robot\ncollaborative social communication and in using natural language for delivering\nprecise instructions to robots, a deeper representation of the conceptual,\nmotivational, and affective processes is needed. This paper capitalizes on the\nUGALRS (Unified General Autonomous and Language Reasoning System) framework and\nthe CD+ (Conceptual Representation Plus) representational scheme to illustrate\nhow social communication through language is supported by a knowledge\nrepresentational scheme that handles conceptual, motivational, and affective\nprocesses in a deep and general way. Though a small set of concepts,\nmotivations, and emotions is treated in this paper, its main contribution is in\narticulating a general framework of knowledge representation and processing to\nlink these aspects together in serving the purpose of natural language\ncommunication for an intelligent system.",
+    "authors": [
+      "Seng-Beng Ho",
+      "Zhaoxia Wang",
+      "Boon-Kiat Quek",
+      "Erik Cambria"
+    ],
+    "publication_date": "2022-09-26T01:37:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2210.08994v2",
+    "download_url": "http://arxiv.org/abs/2210.08994v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Syllable-based Neural Named Entity Recognition for Myanmar Language",
+    "abstract": "Named Entity Recognition (NER) for Myanmar Language is essential to Myanmar\nnatural language processing research work. In this work, NER for Myanmar\nlanguage is treated as a sequence tagging problem and the effectiveness of deep\nneural networks on NER for Myanmar language has been investigated. Experiments\nare performed by applying deep neural network architectures on syllable level\nMyanmar contexts. Very first manually annotated NER corpus for Myanmar language\nis also constructed and proposed. In developing our in-house NER corpus,\nsentences from online news website and also sentences supported from\nALT-Parallel-Corpus are also used. This ALT corpus is one part of the Asian\nLanguage Treebank (ALT) project under ASEAN IVO. This paper contributes the\nfirst evaluation of neural network models on NER task for Myanmar language. The\nexperimental results show that those neural sequence models can produce\npromising results compared to the baseline CRF model. Among those neural\narchitectures, bidirectional LSTM network added CRF layer above gives the\nhighest F-score value. This work also aims to discover the effectiveness of\nneural network approaches to Myanmar textual processing as well as to promote\nfurther researches on this understudied language.",
+    "authors": [
+      "Hsu Myat Mo",
+      "Khin Mar Soe"
+    ],
+    "publication_date": "2019-03-12T05:52:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1903.04739v1",
+    "download_url": "http://arxiv.org/abs/1903.04739v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Safe Multi-agent Reinforcement Learning with Natural Language\n  Constraints",
+    "abstract": "The role of natural language constraints in Safe Multi-agent Reinforcement\nLearning (MARL) is crucial, yet often overlooked. While Safe MARL has vast\npotential, especially in fields like robotics and autonomous vehicles, its full\npotential is limited by the need to define constraints in pre-designed\nmathematical terms, which requires extensive domain expertise and reinforcement\nlearning knowledge, hindering its broader adoption. To address this limitation\nand make Safe MARL more accessible and adaptable, we propose a novel approach\nnamed Safe Multi-agent Reinforcement Learning with Natural Language constraints\n(SMALL). Our method leverages fine-tuned language models to interpret and\nprocess free-form textual constraints, converting them into semantic embeddings\nthat capture the essence of prohibited states and behaviours. These embeddings\nare then integrated into the multi-agent policy learning process, enabling\nagents to learn policies that minimize constraint violations while optimizing\nrewards. To evaluate the effectiveness of SMALL, we introduce the LaMaSafe, a\nmulti-task benchmark designed to assess the performance of multiple agents in\nadhering to natural language constraints. Empirical evaluations across various\nenvironments demonstrate that SMALL achieves comparable rewards and\nsignificantly fewer constraint violations, highlighting its effectiveness in\nunderstanding and enforcing natural language constraints.",
+    "authors": [
+      "Ziyan Wang",
+      "Meng Fang",
+      "Tristan Tomilin",
+      "Fei Fang",
+      "Yali Du"
+    ],
+    "publication_date": "2024-05-30T12:57:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.20018v1",
+    "download_url": "http://arxiv.org/abs/2405.20018v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Description Logics based Formalization of Wh-Queries",
+    "abstract": "The problem of Natural Language Query Formalization (NLQF) is to translate a\ngiven user query in natural language (NL) into a formal language so that the\nsemantic interpretation has equivalence with the NL interpretation.\nFormalization of NL queries enables logic based reasoning during information\nretrieval, database query, question-answering, etc. Formalization also helps in\nWeb query normalization and indexing, query intent analysis, etc. In this paper\nwe are proposing a Description Logics based formal methodology for wh-query\nintent (also called desire) identification and corresponding formal\ntranslation. We evaluated the scalability of our proposed formalism using\nMicrosoft Encarta 98 query dataset and OWL-S TC v.4.0 dataset.",
+    "authors": [
+      "Sourish Dasgupta",
+      "Rupali KaPatel",
+      "Ankur Padia",
+      "Kushal Shah"
+    ],
+    "publication_date": "2013-12-25T09:23:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1312.6948v1",
+    "download_url": "http://arxiv.org/abs/1312.6948v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Extracting and filtering paraphrases by bridging natural language\n  inference and paraphrasing",
+    "abstract": "Paraphrasing is a useful natural language processing task that can contribute\nto more diverse generated or translated texts. Natural language inference (NLI)\nand paraphrasing share some similarities and can benefit from a joint approach.\nWe propose a novel methodology for the extraction of paraphrasing datasets from\nNLI datasets and cleaning existing paraphrasing datasets. Our approach is based\non bidirectional entailment; namely, if two sentences can be mutually entailed,\nthey are paraphrases. We evaluate our approach using several large pretrained\ntransformer language models in the monolingual and cross-lingual setting. The\nresults show high quality of extracted paraphrasing datasets and surprisingly\nhigh noise levels in two existing paraphrasing datasets.",
+    "authors": [
+      "Matej Klemen",
+      "Marko Robnik-Šikonja"
+    ],
+    "publication_date": "2021-11-13T14:06:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.07119v1",
+    "download_url": "http://arxiv.org/abs/2111.07119v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "OCR Post Correction for Endangered Language Texts",
+    "abstract": "There is little to no data available to build natural language processing\nmodels for most endangered languages. However, textual data in these languages\noften exists in formats that are not machine-readable, such as paper books and\nscanned images. In this work, we address the task of extracting text from these\nresources. We create a benchmark dataset of transcriptions for scanned books in\nthree critically endangered languages and present a systematic analysis of how\ngeneral-purpose OCR tools are not robust to the data-scarce setting of\nendangered languages. We develop an OCR post-correction method tailored to ease\ntraining in this data-scarce setting, reducing the recognition error rate by\n34% on average across the three languages.",
+    "authors": [
+      "Shruti Rijhwani",
+      "Antonios Anastasopoulos",
+      "Graham Neubig"
+    ],
+    "publication_date": "2020-11-10T21:21:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.05402v1",
+    "download_url": "http://arxiv.org/abs/2011.05402v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Assessment of the Impact of OCR Noise on Language Models",
+    "abstract": "Neural language models are the backbone of modern-day natural language\nprocessing applications. Their use on textual heritage collections which have\nundergone Optical Character Recognition (OCR) is therefore also increasing.\nNevertheless, our understanding of the impact OCR noise could have on language\nmodels is still limited. We perform an assessment of the impact OCR noise has\non a variety of language models, using data in Dutch, English, French and\nGerman. We find that OCR noise poses a significant obstacle to language\nmodelling, with language models increasingly diverging from their noiseless\ntargets as OCR quality lowers. In the presence of small corpora, simpler models\nincluding PPMI and Word2Vec consistently outperform transformer-based models in\nthis respect.",
+    "authors": [
+      "Konstantin Todorov",
+      "Giovanni Colavizza"
+    ],
+    "publication_date": "2022-01-26T21:56:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.00470v1",
+    "download_url": "http://arxiv.org/abs/2202.00470v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Novi jezički modeli za srpski jezik",
+    "abstract": "The paper will briefly present the development history of transformer-based\nlanguage models for the Serbian language. Several new models for text\ngeneration and vectorization, trained on the resources of the Society for\nLanguage Resources and Technologies, will also be presented. Ten selected\nvectorization models for Serbian, including two new ones, will be compared on\nfour natural language processing tasks. Paper will analyze which models are the\nbest for each selected task, how does their size and the size of their training\nsets affect the performance on those tasks, and what is the optimal setting to\ntrain the best language models for the Serbian language.",
+    "authors": [
+      "Mihailo Škorić"
+    ],
+    "publication_date": "2024-02-22T08:48:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.14379v2",
+    "download_url": "http://arxiv.org/abs/2402.14379v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Saving the legacy of Hero Ibash: Evaluating Four Language Models for\n  Aminoacian",
+    "abstract": "This study assesses four cutting-edge language models in the underexplored\nAminoacian language. Through evaluation, it scrutinizes their adaptability,\neffectiveness, and limitations in text generation, semantic coherence, and\ncontextual understanding. Uncovering insights into these models' performance in\na low-resourced language, this research pioneers pathways to bridge linguistic\ngaps. By offering benchmarks and understanding challenges, it lays groundwork\nfor future advancements in natural language processing, aiming to elevate the\napplicability of language models in similar linguistic landscapes, marking a\nsignificant step toward inclusivity and progress in language technology.",
+    "authors": [
+      "Yunze Xiao",
+      "Yiyang Pan"
+    ],
+    "publication_date": "2024-02-28T07:22:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.18121v1",
+    "download_url": "http://arxiv.org/abs/2402.18121v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Scientific Computing with Large Language Models",
+    "abstract": "We provide an overview of the emergence of large language models for\nscientific computing applications. We highlight use cases that involve natural\nlanguage processing of scientific documents and specialized languages designed\nto describe physical systems. For the former, chatbot style applications appear\nin medicine, mathematics and physics and can be used iteratively with domain\nexperts for problem solving. We also review specialized languages within\nmolecular biology, the languages of molecules, proteins, and DNA where language\nmodels are being used to predict properties and even create novel physical\nsystems at much faster rates than traditional computing methods.",
+    "authors": [
+      "Christopher Culver",
+      "Peter Hicks",
+      "Mihailo Milenkovic",
+      "Sanjif Shanmugavelu",
+      "Tobias Becker"
+    ],
+    "publication_date": "2024-06-11T13:39:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.07259v1",
+    "download_url": "http://arxiv.org/abs/2406.07259v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Enhancing NER Performance in Low-Resource Pakistani Languages using\n  Cross-Lingual Data Augmentation",
+    "abstract": "Named Entity Recognition (NER), a fundamental task in Natural Language\nProcessing (NLP), has shown significant advancements for high-resource\nlanguages. However, due to a lack of annotated datasets and limited\nrepresentation in Pre-trained Language Models (PLMs), it remains understudied\nand challenging for low-resource languages. To address these challenges, we\npropose a data augmentation technique that generates culturally plausible\nsentences and experiments on four low-resource Pakistani languages; Urdu,\nShahmukhi, Sindhi, and Pashto. By fine-tuning multilingual masked Large\nLanguage Models (LLMs), our approach demonstrates significant improvements in\nNER performance for Shahmukhi and Pashto. We further explore the capability of\ngenerative LLMs for NER and data augmentation using few-shot learning.",
+    "authors": [
+      "Toqeer Ehsan",
+      "Thamar Solorio"
+    ],
+    "publication_date": "2025-04-07T15:18:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.08792v1",
+    "download_url": "http://arxiv.org/abs/2504.08792v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reasoning about Procedures with Natural Language Processing: A Tutorial",
+    "abstract": "This tutorial provides a comprehensive and in-depth view of the research on\nprocedures, primarily in Natural Language Processing. A procedure is a sequence\nof steps intended to achieve some goal. Understanding procedures in natural\nlanguage has a long history, with recent breakthroughs made possible by\nadvances in technology. First, we discuss established approaches to collect\nprocedures, by human annotation or extraction from web resources. Then, we\nexamine different angles from which procedures can be reasoned about, as well\nas ways to represent them. Finally, we enumerate scenarios where procedural\nknowledge can be applied to the real world.",
+    "authors": [
+      "Li Zhang"
+    ],
+    "publication_date": "2022-05-16T05:42:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.07455v1",
+    "download_url": "http://arxiv.org/abs/2205.07455v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "GreekBART: The First Pretrained Greek Sequence-to-Sequence Model",
+    "abstract": "The era of transfer learning has revolutionized the fields of Computer Vision\nand Natural Language Processing, bringing powerful pretrained models with\nexceptional performance across a variety of tasks. Specifically, Natural\nLanguage Processing tasks have been dominated by transformer-based language\nmodels. In Natural Language Inference and Natural Language Generation tasks,\nthe BERT model and its variants, as well as the GPT model and its successors,\ndemonstrated exemplary performance. However, the majority of these models are\npretrained and assessed primarily for the English language or on a multilingual\ncorpus. In this paper, we introduce GreekBART, the first Seq2Seq model based on\nBART-base architecture and pretrained on a large-scale Greek corpus. We\nevaluate and compare GreekBART against BART-random, Greek-BERT, and XLM-R on a\nvariety of discriminative tasks. In addition, we examine its performance on two\nNLG tasks from GreekSUM, a newly introduced summarization dataset for the Greek\nlanguage. The model, the code, and the new summarization dataset will be\npublicly available.",
+    "authors": [
+      "Iakovos Evdaimon",
+      "Hadi Abdine",
+      "Christos Xypolopoulos",
+      "Stamatis Outsios",
+      "Michalis Vazirgiannis",
+      "Giorgos Stamou"
+    ],
+    "publication_date": "2023-04-03T10:48:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.00869v1",
+    "download_url": "http://arxiv.org/abs/2304.00869v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Text-to-TrajVis: Enabling Trajectory Data Visualizations from Natural\n  Language Questions",
+    "abstract": "This paper introduces the Text-to-TrajVis task, which aims to transform\nnatural language questions into trajectory data visualizations, facilitating\nthe development of natural language interfaces for trajectory visualization\nsystems. As this is a novel task, there is currently no relevant dataset\navailable in the community. To address this gap, we first devised a new\nvisualization language called Trajectory Visualization Language (TVL) to\nfacilitate querying trajectory data and generating visualizations. Building on\nthis foundation, we further proposed a dataset construction method that\nintegrates Large Language Models (LLMs) with human efforts to create\nhigh-quality data. Specifically, we first generate TVLs using a comprehensive\nand systematic process, and then label each TVL with corresponding natural\nlanguage questions using LLMs. This process results in the creation of the\nfirst large-scale Text-to-TrajVis dataset, named TrajVL, which contains 18,140\n(question, TVL) pairs. Based on this dataset, we systematically evaluated the\nperformance of multiple LLMs (GPT, Qwen, Llama, etc.) on this task. The\nexperimental results demonstrate that this task is both feasible and highly\nchallenging and merits further exploration within the research community.",
+    "authors": [
+      "Tian Bai",
+      "Huiyan Ying",
+      "Kailong Suo",
+      "Junqiu Wei",
+      "Tao Fan",
+      "Yuanfeng Song"
+    ],
+    "publication_date": "2025-04-23T02:15:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.16358v1",
+    "download_url": "http://arxiv.org/abs/2504.16358v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How Good are Commercial Large Language Models on African Languages?",
+    "abstract": "Recent advancements in Natural Language Processing (NLP) has led to the\nproliferation of large pretrained language models. These models have been shown\nto yield good performance, using in-context learning, even on unseen tasks and\nlanguages. They have also been exposed as commercial APIs as a form of\nlanguage-model-as-a-service, with great adoption. However, their performance on\nAfrican languages is largely unknown. We present a preliminary analysis of\ncommercial large language models on two tasks (machine translation and text\nclassification) across eight African languages, spanning different language\nfamilies and geographical areas. Our results suggest that commercial language\nmodels produce below-par performance on African languages. We also find that\nthey perform better on text classification than machine translation. In\ngeneral, our findings present a call-to-action to ensure African languages are\nwell represented in commercial large language models, given their growing\npopularity.",
+    "authors": [
+      "Jessica Ojo",
+      "Kelechi Ogueji"
+    ],
+    "publication_date": "2023-05-11T02:29:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.06530v1",
+    "download_url": "http://arxiv.org/abs/2305.06530v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Language Segmentation",
+    "abstract": "Language segmentation consists in finding the boundaries where one language\nends and another language begins in a text written in more than one language.\nThis is important for all natural language processing tasks. The problem can be\nsolved by training language models on language data. However, in the case of\nlow- or no-resource languages, this is problematic. I therefore investigate\nwhether unsupervised methods perform better than supervised methods when it is\ndifficult or impossible to train supervised approaches. A special focus is\ngiven to difficult texts, i.e. texts that are rather short (one sentence),\ncontaining abbreviations, low-resource languages and non-standard language. I\ncompare three approaches: supervised n-gram language models, unsupervised\nclustering and weakly supervised n-gram language model induction. I devised the\nweakly supervised approach in order to deal with difficult text specifically.\nIn order to test the approach, I compiled a small corpus of different text\ntypes, ranging from one-sentence texts to texts of about 300 words. The weakly\nsupervised language model induction approach works well on short and difficult\ntexts, outperforming the clustering algorithm and reaching scores in the\nvicinity of the supervised approach. The results look promising, but there is\nroom for improvement and a more thorough investigation should be undertaken.",
+    "authors": [
+      "David Alfter"
+    ],
+    "publication_date": "2015-10-06T19:35:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1510.01717v1",
+    "download_url": "http://arxiv.org/abs/1510.01717v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Translation between Spoken Languages and Signed Languages\n  Represented in SignWriting",
+    "abstract": "This paper presents work on novel machine translation (MT) systems between\nspoken and signed languages, where signed languages are represented in\nSignWriting, a sign language writing system. Our work seeks to address the lack\nof out-of-the-box support for signed languages in current MT systems and is\nbased on the SignBank dataset, which contains pairs of spoken language text and\nSignWriting content. We introduce novel methods to parse, factorize, decode,\nand evaluate SignWriting, leveraging ideas from neural factored MT. In a\nbilingual setup--translating from American Sign Language to (American)\nEnglish--our method achieves over 30 BLEU, while in two multilingual\nsetups--translating in both directions between spoken languages and signed\nlanguages--we achieve over 20 BLEU. We find that common MT techniques used to\nimprove spoken language translation similarly affect the performance of sign\nlanguage translation. These findings validate our use of an intermediate text\nrepresentation for signed languages to include them in natural language\nprocessing research.",
+    "authors": [
+      "Zifan Jiang",
+      "Amit Moryossef",
+      "Mathias Müller",
+      "Sarah Ebling"
+    ],
+    "publication_date": "2022-10-11T12:28:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2210.05404v2",
+    "download_url": "http://arxiv.org/abs/2210.05404v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multilingual Brain Surgeon: Large Language Models Can be Compressed\n  Leaving No Language Behind",
+    "abstract": "Large Language Models (LLMs) have ushered in a new era in Natural Language\nProcessing, but their massive size demands effective compression techniques for\npracticality. Although numerous model compression techniques have been\ninvestigated, they typically rely on a calibration set that overlooks the\nmultilingual context and results in significant accuracy degradation for\nlow-resource languages. This paper introduces Multilingual Brain Surgeon (MBS),\na novel calibration data sampling method for multilingual LLMs compression. MBS\novercomes the English-centric limitations of existing methods by sampling\ncalibration data from various languages proportionally to the language\ndistribution of the model training datasets. Our experiments, conducted on the\nBLOOM multilingual LLM, demonstrate that MBS improves the performance of\nexisting English-centric compression methods, especially for low-resource\nlanguages. We also uncover the dynamics of language interaction during\ncompression, revealing that the larger the proportion of a language in the\ntraining set and the more similar the language is to the calibration language,\nthe better performance the language retains after compression. In conclusion,\nMBS presents an innovative approach to compressing multilingual LLMs,\naddressing the performance disparities and improving the language inclusivity\nof existing compression techniques.",
+    "authors": [
+      "Hongchuan Zeng",
+      "Hongshen Xu",
+      "Lu Chen",
+      "Kai Yu"
+    ],
+    "publication_date": "2024-04-06T22:16:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.04748v2",
+    "download_url": "http://arxiv.org/abs/2404.04748v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Opportunities for Large Language Models and Discourse in Engineering\n  Design",
+    "abstract": "In recent years, large language models have achieved breakthroughs on a wide\nrange of benchmarks in natural language processing and continue to increase in\nperformance. Recently, the advances of large language models have raised\ninterest outside the natural language processing community and could have a\nlarge impact on daily life. In this paper, we pose the question: How will large\nlanguage models and other foundation models shape the future product\ndevelopment process? We provide the reader with an overview of the subject by\nsummarizing both recent advances in natural language processing and the use of\ninformation technology in the engineering design process. We argue that\ndiscourse should be regarded as the core of engineering design processes, and\ntherefore should be represented in a digital artifact. On this basis, we\ndescribe how foundation models such as large language models could contribute\nto the design discourse by automating parts thereof that involve creativity and\nreasoning, and were previously reserved for humans. We describe how\nsimulations, experiments, topology optimizations, and other process steps can\nbe integrated into a machine-actionable, discourse-centric design process.\nFinally, we outline the future research that will be necessary for the\nimplementation of the conceptualized framework.",
+    "authors": [
+      "Jan Göpfert",
+      "Jann M. Weinand",
+      "Patrick Kuckertz",
+      "Detlef Stolten"
+    ],
+    "publication_date": "2023-06-15T14:46:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.09169v1",
+    "download_url": "http://arxiv.org/abs/2306.09169v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "LINDA: Unsupervised Learning to Interpolate in Natural Language\n  Processing",
+    "abstract": "Despite the success of mixup in data augmentation, its applicability to\nnatural language processing (NLP) tasks has been limited due to the discrete\nand variable-length nature of natural languages. Recent studies have thus\nrelied on domain-specific heuristics and manually crafted resources, such as\ndictionaries, in order to apply mixup in NLP. In this paper, we instead propose\nan unsupervised learning approach to text interpolation for the purpose of data\naugmentation, to which we refer as \"Learning to INterpolate for Data\nAugmentation\" (LINDA), that does not require any heuristics nor manually\ncrafted resources but learns to interpolate between any pair of natural\nlanguage sentences over a natural language manifold. After empirically\ndemonstrating the LINDA's interpolation capability, we show that LINDA indeed\nallows us to seamlessly apply mixup in NLP and leads to better generalization\nin text classification both in-domain and out-of-domain.",
+    "authors": [
+      "Yekyung Kim",
+      "Seohyeong Jeong",
+      "Kyunghyun Cho"
+    ],
+    "publication_date": "2021-12-28T02:56:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.13969v1",
+    "download_url": "http://arxiv.org/abs/2112.13969v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural language processing: she needs something old and something new\n  (maybe something borrowed and something blue, too)",
+    "abstract": "Given the present state of work in natural language processing, this address\nargues first, that advance in both science and applications requires a revival\nof concern about what language is about, broadly speaking the world; and\nsecond, that an attack on the summarising task, which is made ever more\nimportant by the growth of electronic text resources and requires an\nunderstanding of the role of large-scale discourse structure in marking\nimportant text content, is a good way forward.",
+    "authors": [
+      "Karen Sparck Jones"
+    ],
+    "publication_date": "1995-12-21T16:38:12Z",
+    "arxiv_id": "http://arxiv.org/abs/cmp-lg/9512004v1",
+    "download_url": "http://arxiv.org/abs/cmp-lg/9512004v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "What is word sense disambiguation good for?",
+    "abstract": "Word sense disambiguation has developed as a sub-area of natural language\nprocessing, as if, like parsing, it was a well-defined task which was a\npre-requisite to a wide range of language-understanding applications. First, I\nreview earlier work which shows that a set of senses for a word is only ever\ndefined relative to a particular human purpose, and that a view of word senses\nas part of the linguistic furniture lacks theoretical underpinnings. Then, I\ninvestigate whether and how word sense ambiguity is in fact a problem for\ndifferent varieties of NLP application.",
+    "authors": [
+      "Adam Kilgarriff"
+    ],
+    "publication_date": "1997-12-23T15:32:05Z",
+    "arxiv_id": "http://arxiv.org/abs/cmp-lg/9712008v1",
+    "download_url": "http://arxiv.org/abs/cmp-lg/9712008v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evaluation of Computational Grammar Formalisms for Indian Languages",
+    "abstract": "Natural Language Parsing has been the most prominent research area since the\ngenesis of Natural Language Processing. Probabilistic Parsers are being\ndeveloped to make the process of parser development much easier, accurate and\nfast. In Indian context, identification of which Computational Grammar\nFormalism is to be used is still a question which needs to be answered. In this\npaper we focus on this problem and try to analyze different formalisms for\nIndian languages.",
+    "authors": [
+      "Nisheeth Joshi",
+      "Iti Mathur"
+    ],
+    "publication_date": "2012-08-19T02:31:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1209.1301v1",
+    "download_url": "http://arxiv.org/abs/1209.1301v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "From Textual Information Sources to Linked Data in the Agatha Project",
+    "abstract": "Automatic reasoning about textual information is a challenging task in modern\nNatural Language Processing (NLP) systems. In this work we describe our\nproposal for representing and reasoning about Portuguese documents by means of\nLinked Data like ontologies and thesauri. Our approach resorts to a specialized\npipeline of natural language processing (part-of-speech tagger, named entity\nrecognition, semantic role labeling) to populate an ontology for the domain of\ncriminal investigations. The provided architecture and ontology are language\nindependent. Although some of the NLP modules are language dependent, they can\nbe built using adequate AI methodologies.",
+    "authors": [
+      "Paulo Quaresma",
+      "Vitor Beires Nogueira",
+      "Kashyap Raiyani",
+      "Roy Bayot",
+      "Teresa Gonçalves"
+    ],
+    "publication_date": "2019-09-03T08:27:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.05359v1",
+    "download_url": "http://arxiv.org/abs/1909.05359v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Parametrized Quantum Circuits of Synonymous Sentences in Quantum Natural\n  Language Processing",
+    "abstract": "In this paper, we develop a compositional vector-based semantics of positive\ntransitive sentences in quantum natural language processing for a non-English\nlanguage, i.e. Persian, to compare the parametrized quantum circuits of two\nsynonymous sentences in two languages, English and Persian. By considering\ngrammar+meaning of a transitive sentence, we translate DisCoCat diagram via\nZX-calculus into quantum circuit form. Also, we use a bigraph method to rewrite\nDisCoCat diagram and turn into quantum circuit in the semantic side.",
+    "authors": [
+      "Mina Abbaszadeh",
+      "S. Shahin Mousavi",
+      "Vahid Salari"
+    ],
+    "publication_date": "2021-02-02T23:11:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2102.02204v1",
+    "download_url": "http://arxiv.org/abs/2102.02204v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Role of Explanatory Value in Natural Language Processing",
+    "abstract": "A key aim of science is explanation, yet the idea of explaining language\nphenomena has taken a backseat in mainstream Natural Language Processing (NLP)\nand many other areas of Artificial Intelligence. I argue that explanation of\nlinguistic behaviour should be a main goal of NLP, and that this is not the\nsame as making NLP models explainable. To illustrate these ideas, some recent\nmodels of human language production are compared with each other. I conclude by\nasking what it would mean for NLP research and institutional policies if our\ncommunity took explanatory value seriously, while heeding some possible\npitfalls.",
+    "authors": [
+      "Kees van Deemter"
+    ],
+    "publication_date": "2022-09-13T17:19:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.06169v1",
+    "download_url": "http://arxiv.org/abs/2209.06169v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

@@ -1,0 +1,688 @@
+[
+  {
+    "title": "From Generalist to Specialist: A Survey of Large Language Models for\n  Chemistry",
+    "abstract": "Large Language Models (LLMs) have significantly transformed our daily life\nand established a new paradigm in natural language processing (NLP). However,\nthe predominant pretraining of LLMs on extensive web-based texts remains\ninsufficient for advanced scientific discovery, particularly in chemistry. The\nscarcity of specialized chemistry data, coupled with the complexity of\nmulti-modal data such as 2D graph, 3D structure and spectrum, present distinct\nchallenges. Although several studies have reviewed Pretrained Language Models\n(PLMs) in chemistry, there is a conspicuous absence of a systematic survey\nspecifically focused on chemistry-oriented LLMs. In this paper, we outline\nmethodologies for incorporating domain-specific chemistry knowledge and\nmulti-modal information into LLMs, we also conceptualize chemistry LLMs as\nagents using chemistry tools and investigate their potential to accelerate\nscientific research. Additionally, we conclude the existing benchmarks to\nevaluate chemistry ability of LLMs. Finally, we critically examine the current\nchallenges and identify promising directions for future research. Through this\ncomprehensive survey, we aim to assist researchers in staying at the forefront\nof developments in chemistry LLMs and to inspire innovative applications in the\nfield.",
+    "authors": [
+      "Yang Han",
+      "Ziping Wan",
+      "Lu Chen",
+      "Kai Yu",
+      "Xin Chen"
+    ],
+    "publication_date": "2024-12-28T03:40:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.19994v1",
+    "download_url": "http://arxiv.org/abs/2412.19994v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Theoretical Chemistry Course for Students in Chemistry",
+    "abstract": "In this work, the teaching content of a theoretical-chemistry (TC) course is\nreformed, establishing a theoretical contents from micro- to macro-system, and\ncomprehensively introducing the theory of chemical reaction to undergraduate\nstudents in chemistry. In order to develop such TC course based on the general\nphysical-chemistry course, we focus on the last-mile problem between the\nphysics and chemistry courses to train the critical thinking of undergraduate\nstudents in chemistry. To clearly show this, a reduction scheme of polymer\nmolecular dynamics was discussed as an example, which shows a different\ntheoretical content in polymer chemistry. Moreover, we propose a series of\nexperiences and dependent measures that can provide information regarding\nstudents' levels of knowledge and understanding. This assessment quiz was\ndesigned to test students on the fundamental concepts and applications of TC,\nsuch as dynamics, statistical ensemble, kinetics, and so on. From the actual\nteaching for 36 students, it was found that these students performed\nsignificantly improvement from the present TC content. Further analysis of each\nindividual question revealed that approximately two-third of the students learn\nnew knowledge. Although the present TC course might be considered to be a\ncertain degree of difficulty for chemists, these analyses show that students\ncan effectively accept these complicated concepts.",
+    "authors": [
+      "Qingyong Meng"
+    ],
+    "publication_date": "2021-09-26T10:12:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.12552v1",
+    "download_url": "http://arxiv.org/abs/2109.12552v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Q$^2$Chemistry: A quantum computation platform for quantum chemistry",
+    "abstract": "Quantum computer provides new opportunities for quantum chemistry. In this\narticle, we present a versatile, extensible, and efficient software package,\nnamed Q$^2$Chemistry, for developing quantum algorithms and quantum inspired\nclassical algorithms in the field of quantum chemistry. In Q$^2$Chemistry, wave\nfunction and Hamiltonian can be conveniently mapped into the qubit space, then\nquantum circuits can be generated according to a specific quantum algorithm\nalready implemented in the package or newly developed by the users. The\ngenerated circuits can be dispatched to either a physical quantum computer, if\navailable, or to the internal virtual quantum computer realized by simulating\nquantum circuit on classical supercomputers. As demonstrated by our benchmark\nsimulations with up to 72 qubit, Q$^2$Chemistry achieves excellent performance\nin simulating medium scale quantum circuits. Application of Q$^2$Chemistry to\nsimulate molecules and periodic systems are given with performance analysis.",
+    "authors": [
+      "Yi Fan",
+      "Jie Liu",
+      "Xiongzhi Zeng",
+      "Zhiqian Xu",
+      "Honghui Shang",
+      "Zhenyu Li",
+      "Jinlong Yang"
+    ],
+    "publication_date": "2022-08-23T13:50:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.10978v1",
+    "download_url": "http://arxiv.org/abs/2208.10978v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Post-Hartree-Fock method in Quantum Chemistry for Quantum Computer",
+    "abstract": "Quantum computational chemistry is a potential application of quantum\ncomputers that is expected to effectively solve several quantum-chemistry\nproblems, particularly the electronic structure problem. Quantum computational\nchemistry can be compared to the conventional computational devices. This\nreview comprehensively investigates the applications and overview of quantum\ncomputational chemistry, including a review of the Hartree-Fock method for\nquantum information scientists. Quantum algorithms, quantum phase estimation,\nand variational quantum eigensolver, have been applied to the post-Hartree-Fock\nmethod.",
+    "authors": [
+      "Yutaka Shikano",
+      "Hiroshi C. Watanabe",
+      "Ken M. Nakanishi",
+      "Yu-ya Ohnishi"
+    ],
+    "publication_date": "2020-11-03T07:46:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.01544v1",
+    "download_url": "http://arxiv.org/abs/2011.01544v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Theory and modeling of light-matter interactions in chemistry: current\n  and future",
+    "abstract": "Light-matter interaction not only plays an instrumental role in\ncharacterizing materials' properties via various spectroscopic techniques but\nalso provides a general strategy to manipulate material properties via the\ndesign of novel nanostructures. This perspective summarizes recent theoretical\nadvances in modeling light-matter interactions in chemistry, mainly focusing on\nplasmon and polariton chemistry. The former utilizes the highly localized\nphoton, plasmonic hot electrons, and local heat to drive chemical reactions. In\ncontrast, polariton chemistry modifies the potential energy curvatures of bare\nelectronic systems, and hence their chemistry, via forming light-matter hybrid\nstates, so-called polaritons. The perspective starts with the basic background\nof light-matter interactions, molecular quantum electrodynamics theory, and the\nchallenges of modeling light-matter interactions in chemistry. Then, the recent\nadvances in modeling plasmon and polariton chemistry are described, and future\ndirections toward multiscale simulations of light-matter interaction-mediated\nchemistry are discussed.",
+    "authors": [
+      "Braden M. Weight",
+      "Xinyang Li",
+      "Yu Zhang"
+    ],
+    "publication_date": "2023-03-17T16:41:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.10111v2",
+    "download_url": "http://arxiv.org/abs/2303.10111v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Estimating numerical errors due to operator splitting in global\n  atmospheric chemistry models: Transport and chemistry",
+    "abstract": "We present upper bounds for the numerical errors introduced when using\noperator splitting methods to integrate transport and non-linear chemistry\nprocesses in global chemical transport models (CTM). We show that (a) operator\nsplitting strategies that evaluate the stiff non-linear chemistry operator at\nthe end of the time step are more accurate, and (b) the results of numerical\nsimulations that use different operator splitting strategies differ by at most\n10 percent, in a prototype one-dimensional non-linear chemistry-transport\nmodel. We find similar upper bounds in operator splitting numerical errors in\nglobal CTM simulations.",
+    "authors": [
+      "Mauricio Santillana",
+      "Ling Zhang",
+      "Robert Yantosca"
+    ],
+    "publication_date": "2015-05-11T23:39:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1505.02835v2",
+    "download_url": "http://arxiv.org/abs/1505.02835v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Does chemistry need more physics ?",
+    "abstract": "In this mini-review I look into the physics underlying the theory of\nelectronic structure of atoms and molecules. Quantum mechanics is needed to\nunderstand the structure of the periodic table. Special relativity is\nindispensable for a correct description of the chemistry of the heavy elements.\nWith increased accuracy of quantum chemical calculations, it is natural to ask\nif chemistry needs more physics.",
+    "authors": [
+      "Trond Saue"
+    ],
+    "publication_date": "2025-04-26T19:19:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.19003v1",
+    "download_url": "http://arxiv.org/abs/2504.19003v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Back to the Future: A roadmap for quantum simulation from vintage\n  quantum chemistry",
+    "abstract": "A discussion of the prospects for quantum computation for quantum chemistry\nfrom the point of view of the history of classical calculations of electronic\nstructure.",
+    "authors": [
+      "Peter J. Love"
+    ],
+    "publication_date": "2012-08-27T22:36:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1208.5524v1",
+    "download_url": "http://arxiv.org/abs/1208.5524v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Computing Beyond Ground State Electronic Structure: A Review of\n  Progress Toward Quantum Chemistry Out of the Ground State",
+    "abstract": "Quantum computing offers the promise of revolutionizing quantum chemistry by\nenabling the solution of chemical problems for substantially less computational\ncost. While most demonstrations of quantum computation to date have focused on\nresolving the energies of the electronic ground states of small molecules, the\nfield of quantum chemistry is far broader than ground state chemistry; equally\nimportant to practicing chemists are chemical reaction dynamics and reaction\nmechanism prediction. Here, we review progress toward and the potential of\nquantum computation for understanding quantum chemistry beyond the ground\nstate, including for reaction mechanisms, reaction dynamics, and finite\ntemperature quantum chemistry. We discuss algorithmic and other considerations\nthese applications share, as well as differences that make them unique. We also\nhighlight the potential speedups these applications may realize and challenges\nthey may face. We hope that this discussion stimulates further research into\nhow quantum computation may better inform experimental chemistry in the future.",
+    "authors": [
+      "Alan Bidart",
+      "Prateek Vaish",
+      "Tilas Kabengele",
+      "Yaoqi Pang",
+      "Yuan Liu",
+      "Brenda M. Rubenstein"
+    ],
+    "publication_date": "2025-09-24T02:36:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.19709v1",
+    "download_url": "http://arxiv.org/abs/2509.19709v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spin-chemistry concepts for spintronics scientists",
+    "abstract": "Spin chemistry and spintronics developed independently and with different\nterminology. Until now, the interaction between the two fields has been very\nlimited. In this review, we compile the two \"languages\" in an effort to enhance\ncommunication. We expect that knowledge of spin chemistry will accelerate\nprogress in spintronics.",
+    "authors": [
+      "Konstantin L. Ivanov",
+      "Alexander Wagenpfahl",
+      "Carsten Deibel",
+      "Jörg Matysik"
+    ],
+    "publication_date": "2021-11-18T09:32:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.09596v1",
+    "download_url": "http://arxiv.org/abs/2111.09596v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Comprehensive reevaluation of acetaldehyde chemistry and the underlying\n  uncertainties",
+    "abstract": "Understanding the combustion chemistry of acetaldehyde is crucial to\ndeveloping robust and accurate combustion chemistry models for practical fuels,\nespecially for biofuels. This study aims to reevaluate the important rate and\nthermodynamic parameters for acetaldehyde combustion chemistry. The rate\nparameters of 79 key reactions are reevaluated using more than 100,000 direct\nexperiments and quantum chemistry computations from >900 studies, and the\nthermochemistry ({\\Delta}hf(298K), s0(298K) and cp) of 24 key species are\nreevaluated based on the ATCT database, the NIST Chemistry WebBook, the TMTD\ndatabase, and 35 published chemistry models. The updated parameters are\nincorporated into a recent acetaldehyde chemistry model, which is further\nassessed against available fundamental experiments (123 ignition delay times\nand 385 species concentrations) and existing chemistry models, with clearly\nbetter performance obtained in the high-temperature regime. Sensitivity and\nflux analyses further highlight the insufficiencies of previous models in\nrepresenting the key pathways, particularly the branching ratios of\nacetaldehyde- and formaldehyde-consuming pathways. Temperature-dependent and\ntemperature-independent uncertainties are statistically evaluated for kinetic\nand thermochemical parameters, respectively, where the large differences\nbetween the updated and the original model parameters reveal the necessity of\nreassessment of kinetic and thermochemical parameters completely based on\ndirect experiments and theoretical calculations for rate and thermodynamic\nparameters.",
+    "authors": [
+      "Xinrui Ren",
+      "Hongqing Wu",
+      "Ruoyue Tang",
+      "Yanqing Cui",
+      "Mingrui Wang",
+      "Song Cheng"
+    ],
+    "publication_date": "2024-09-06T04:03:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.04015v1",
+    "download_url": "http://arxiv.org/abs/2409.04015v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantifying team chemistry in scientific collaboration",
+    "abstract": "Team chemistry is the holy grail of understanding collaborative human\nbehavior, yet its quantitative understanding remains inconclusive. To reveal\nthe presence and mechanisms of team chemistry in scientific collaboration, we\nreconstruct the publication histories of 560,689 individual scientists and\n1,026,196 duos of scientists. We identify ability discrepancies between teams\nand their members, enabling us to evaluate team chemistry in a way that is\nrobust against prior experience of collaboration and inherent randomness.\nFurthermore, our network analysis uncovers a nontrivial modular structure that\nallows us to predict team chemistry between scientists who have never\ncollaborated before. Research interest is the highest correlated ingredient of\nteam chemistry among six personal characteristics that have been commonly\nattributed as the keys to successful collaboration, yet the diversity of the\ncharacteristics cannot completely explain team chemistry. Our results may lead\nto unlocking the hidden potential of collaboration by the matching of\nwell-paired scientists.",
+    "authors": [
+      "Gangmin Son",
+      "Jinhyuk Yun",
+      "Hawoong Jeong"
+    ],
+    "publication_date": "2022-02-15T08:40:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.07252v1",
+    "download_url": "http://arxiv.org/abs/2202.07252v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Guest Editorial: Special Topic on Data-enabled Theoretical Chemistry",
+    "abstract": "A survey of the contributions to the Special Topic on Data-enabled\nTheoretical Chemistry is given, including a glossary of relevant machine\nlearning terms.",
+    "authors": [
+      "Matthias Rupp",
+      "O. Anatole von Lilienfeld",
+      "Kieron Burke"
+    ],
+    "publication_date": "2018-06-07T14:04:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.02690v2",
+    "download_url": "http://arxiv.org/abs/1806.02690v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Perspective: Essentials of Relativistic Quantum Chemistry",
+    "abstract": "Relativistic quantum chemistry has evolved into a fertile and large field and\nis now becoming an integrated part of mainstream chemistry. Yet, given the\nmuch-involved physics and mathematics (as compared with nonrelativistic quantum\nchemistry), it is still necessary to clean up the essentials underlying the\nrelativistic electronic structure theories and methodologies (such that\nuninitiated readers can pick up quickly the right ideas and tools for further\ndevelopment or application) and meanwhile pinpoint future directions of the\nfield. To this end, the three aspects of electronic structure calculations,\ni.e., relativity, correlation, and QED, will be highlighted.",
+    "authors": [
+      "Wenjian Liu"
+    ],
+    "publication_date": "2020-04-21T23:07:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.10336v1",
+    "download_url": "http://arxiv.org/abs/2004.10336v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Inverse Quantum Chemistry: Concepts and Strategies for Rational Compound\n  Design",
+    "abstract": "The rational design of molecules and materials is becoming more and more\nimportant. With the advent of powerful computer systems and sophisticated\nalgorithms, quantum chemistry plays an important role in rational design. While\ntraditional quantum chemical approaches predict the properties of a predefined\nmolecular structure, the goal of inverse quantum chemistry is to find a\nstructure featuring one or more desired properties. Herein, we review inverse\nquantum chemical approaches proposed so far and discuss their advantages as\nwell as their weaknesses.",
+    "authors": [
+      "Thomas Weymuth",
+      "Markus Reiher"
+    ],
+    "publication_date": "2014-01-07T21:14:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1401.1512v2",
+    "download_url": "http://arxiv.org/abs/1401.1512v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum chemistry, classical heuristics, and quantum advantage",
+    "abstract": "We describe the problems of quantum chemistry, the intuition behind classical\nheuristic methods used to solve them, a conjectured form of the classical\ncomplexity of quantum chemistry problems, and the subsequent opportunities for\nquantum advantage. This article is written for both quantum chemists and\nquantum information theorists. In particular, we attempt to summarize the\ndomain of quantum chemistry problems as well as the chemical intuition that is\napplied to solve them within concrete statements (such as a classical heuristic\ncost conjecture and a classification of different avenues for quantum\nadvantage) in the hope that this may stimulate future analysis.",
+    "authors": [
+      "Garnet Kin-Lic Chan"
+    ],
+    "publication_date": "2024-07-15T20:58:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.11235v1",
+    "download_url": "http://arxiv.org/abs/2407.11235v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Solving Quantum Chemistry Problems with a D-Wave Quantum Annealer",
+    "abstract": "Quantum annealing devices have been subject to various analyses in order to\nclassify their usefulness for practical applications. While it has been\nsuccessfully proven that such systems can in general be used for solving\ncombinatorial optimization problems, they have not been used to solve chemistry\napplications. In this paper we apply a mapping, put forward by Xia et al. (The\nJournal of Physical Chemistry B 122.13 (2017): 3384-3395.), from a quantum\nchemistry Hamiltonian to an Ising spin glass formulation and find the ground\nstate energy with a quantum annealer. Additionally we investigate the scaling\nin terms of needed physical qubits on a quantum annealer with limited\nconnectivity. To the best of our knowledge, this is the first experimental\nstudy of quantum chemistry problems on quantum annealing devices. We find that\ncurrent quantum annealing technologies result in an exponential scaling for\nsuch inherently quantum problems and that new couplers are necessary to make\nquantum annealers attractive for quantum chemistry.",
+    "authors": [
+      "Michael Streif",
+      "Florian Neukart",
+      "Martin Leib"
+    ],
+    "publication_date": "2018-11-13T12:36:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.05256v2",
+    "download_url": "http://arxiv.org/abs/1811.05256v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The octet rule in chemical space: Generating virtual molecules",
+    "abstract": "We present a generator of virtual molecules that selects valid chemistry on\nthe basis of the octet rule. Also, we introduce a mesomer group key that allows\na fast detection of duplicates in the generated structures.\n  Compared to existing approaches, our model is simpler and faster, generates\nnew chemistry and avoids invalid chemistry. Its versatility is illustrated by\nthe correct generation of molecules containing third-row elements and a\nsurprisingly adept handling of complex boron chemistry.\n  Without any empirical parameters, our model is designed to be valid also in\nunexplored regions of chemical space. One first unexpected finding is the high\nprevalence of dipolar structures among generated molecules.",
+    "authors": [
+      "Rafel Israels",
+      "Astrid Maaß",
+      "Jan Hamaekers"
+    ],
+    "publication_date": "2017-09-20T07:27:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1709.06746v1",
+    "download_url": "http://arxiv.org/abs/1709.06746v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Maple's Quantum Chemistry Package in the Chemistry Classroom",
+    "abstract": "An introduction to the Quantum Chemistry Package (QCP), implemented in the\ncomputer algebra system Maple, is presented. The QCP combines sophisticated\nelectronic structure methods and Maple's easy-to-use graphical interface to\nenable computation and visualization of the electronic energies and properties\nof molecules. Here we describe how the QCP can be used in the chemistry\nclassroom using lessons provided within the package. In particular, the\ncalculation and visualization of molecular orbitals of hydrogen fluoride, the\napplication of the particle in a box to conjugated dyes, the use of geometry\noptimization and normal mode analysis for hypochlorous acid, and the\nthermodynamics of combustion of methane.",
+    "authors": [
+      "Jason M. Montgomery",
+      "David A. Mazziotti"
+    ],
+    "publication_date": "2019-10-21T18:00:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.10968v1",
+    "download_url": "http://arxiv.org/abs/2002.10968v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Natural Language Processing Models That Automate Programming Will\n  Transform Chemistry Research and Teaching",
+    "abstract": "Natural language processing models have emerged that can generate usable\nsoftware and automate a number of programming tasks with high fidelity. These\ntools have yet to have an impact on the chemistry community. Yet, our initial\ntesting demonstrates that this form of Artificial Intelligence is poised to\ntransform chemistry and chemical engineering research. Here, we review\ndevelopments that brought us to this point, examine applications in chemistry,\nand give our perspective on how this may fundamentally alter research and\nteaching.",
+    "authors": [
+      "Glen M. Hocky",
+      "Andrew D. White"
+    ],
+    "publication_date": "2021-08-30T16:31:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.13360v2",
+    "download_url": "http://arxiv.org/abs/2108.13360v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A backend-agnostic, quantum-classical framework for simulations of\n  chemistry in C++",
+    "abstract": "As quantum computing hardware systems continue to advance, the research and\ndevelopment of performant, scalable, and extensible software architectures,\nlanguages, models, and compilers is equally as important in order to bring this\nnovel coprocessing capability to a diverse group of domain computational\nscientists. For the field of quantum chemistry, applications and frameworks\nexists for modeling and simulation tasks that scale on heterogeneous classical\narchitectures, and we envision the need for similar frameworks on heterogeneous\nquantum-classical platforms. Here we present the XACC system-level quantum\ncomputing framework as a platform for prototyping, developing, and deploying\nquantum-classical software that specifically targets chemistry applications. We\nreview the fundamental design features in XACC, with special attention to its\nextensibility and modularity for key quantum programming workflow interfaces,\nand provide an overview of the interfaces most relevant to simulations of\nchemistry. A series of examples demonstrating some of the state-of-the-art\nchemistry algorithms currently implemented in XACC are presented, while also\nillustrating the various APIs that would enable the community to extend,\nmodify, and devise new algorithms and applications in the realm of chemistry.",
+    "authors": [
+      "Daniel Claudino",
+      "Alexander J. McCaskey",
+      "Dmitry I. Lyakh"
+    ],
+    "publication_date": "2021-05-04T16:53:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.01619v1",
+    "download_url": "http://arxiv.org/abs/2105.01619v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Condensed-Phase Quantum Chemistry",
+    "abstract": "Molecular quantum chemistry has seen enormous progress in the last few\ndecades thanks to the more advanced and sophisticated numerical techniques and\ncomputing power. Following the recent interest in extending these capabilities\nto condensed-phase problems, we summarize basic knowledge of condensed-phase\nquantum chemistry for ones with experience in molecular quantum chemistry. We\nhighlight recent efforts in this direction, including solving the electron\nrepulsion integrals bottleneck and implementing hybrid density functional\ntheory and wavefunction methods, and lattice dynamics for periodic systems\nwithin atom-centered basis sets. Many computational techniques presented here\nare inspired by the extensive method developments rooted in quantum chemistry.\nIn this Focus Article, we selectively focus on the computational techniques\nrooted in molecular quantum chemistry, emphasize some challenges, and point out\nopen questions. We hope our perspectives will encourage researchers to pursue\nthis exciting and promising research avenue.",
+    "authors": [
+      "Paul J. Robinson",
+      "Adam Rettig",
+      "Hieu Q. Dinh",
+      "Meng-Fu Chen",
+      "Joonho Lee"
+    ],
+    "publication_date": "2024-03-19T23:57:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.13207v1",
+    "download_url": "http://arxiv.org/abs/2403.13207v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Warm Cores around Regions of Low-Mass Star Formation",
+    "abstract": "Warm cores (or hot corinos) around low-mass protostellar objects show a rich\nchemistry with strong spatial variations. This chemistry is generally\nattributed to the sublimation of icy mantles on dust grains initiated by the\nwarming effect of the stellar radiation. We have used a model of the chemistry\nin warm cores in which the sublimation process is based on extensive laboratory\ndata; these data indicate that sublimation from mixed ices occurs in several\nwell-defined temperature bands. We have determined the position of these bands\nfor the slow warming by a solar-mass star. The resulting chemistry is dominated\nby the sublimation process and by subsequent gas-phase reactions; strong\nspatial and temporal variations in certain molecular species are found to\noccur, and our results are, in general, consistent with observational results\nfor the well-studied source IRAS 16293-2422. The model used is similar to one\nthat describes the chemistry of hot cores. We infer that the chemistry of both\nhot cores and warm cores may be described by the same model (suitably adjusted\nfor different physical parameters).",
+    "authors": [
+      "Zainab Awad",
+      "Serena Viti",
+      "Mark P. Collings",
+      "David A. Williams"
+    ],
+    "publication_date": "2010-05-28T10:52:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1005.5265v1",
+    "download_url": "http://arxiv.org/abs/1005.5265v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry of TMC-1 with multiply deuterated species and spin chemistry\n  of H2, H2+, H3+ and their isotopologues",
+    "abstract": "Deuterated species are unique and powerful tools in astronomy since they can\nprobe the physical conditions, chemistry, and ionization level of various\nastrophysical media. Recent observations of several deuterated species along\nwith some of their spin isomeric forms have rekindled the interest for more\naccurate studies on deuterium fractionation. This paper presents the first\npublicly available chemical network of multiply deuterated species along with\nspin chemistry implemented on the latest state-of-the-art gas-grain chemical\ncode `NAUTILUS'. D/H ratios for all deuterated species observed at different\npositions of TMC-1 are compared with the results of our model, which considers\nmultiply deuterated species along with the spin chemistry of light hydrogen\nbearing species H2, H2+, H3+ and their isotopologues. We also show the\ndifferences in the modeled abundances of non-deuterated species after the\ninclusion of deuteration and spin chemistry in the model. Finally, we present a\nlist of potentially observable deuterated species in TMC-1 awaiting detection.",
+    "authors": [
+      "L. Majumdar",
+      "P. Gratier",
+      "M. Ruaud",
+      "V. Wakelam",
+      "C. Vastel",
+      "O. Sipilä",
+      "F. Hersant",
+      "A. Dutrey",
+      "S. Guilloteau"
+    ],
+    "publication_date": "2016-12-23T00:36:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1612.07845v1",
+    "download_url": "http://arxiv.org/abs/1612.07845v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Zeeman: A Deep Learning Regional Atmospheric Chemistry Transport Model",
+    "abstract": "Atmospheric chemistry encapsulates the emission of various pollutants, the\ncomplex chemistry reactions, and the meteorology dominant transport, which form\na dynamic system that governs air quality. While deep learning (DL) models have\nshown promise in capturing intricate patterns for forecasting individual\natmospheric component - such as PM2.5 and ozone - the critical interactions\namong multiple pollutants and the combined influence of emissions and\nmeteorology are often overlook. This study introduces an advanced DL-based\natmospheric chemistry transport model Zeeman for multi-component atmospheric\nchemistry simulation. Leveraging an attention mechanism, our model effectively\ncaptures the nuanced relationships among these constituents. Performance\nmetrics demonstrate that our approach rivals numerical models, offering an\nefficient solution for atmospheric chemistry. In the future, this model could\nbe further integrated with data assimilation techniques to facilitate efficient\nand accurate atmospheric emission estimation and concentration forecast.",
+    "authors": [
+      "Mijie Pang",
+      "Jianbing Jin",
+      "Arjo Segers",
+      "Hai Xiang Lin",
+      "Guoqiang Wang",
+      "Hong Liao",
+      "Wei Han"
+    ],
+    "publication_date": "2025-10-07T17:14:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.06140v1",
+    "download_url": "http://arxiv.org/abs/2510.06140v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Three-body recombination in physical chemistry",
+    "abstract": "Three-body recombination, or ternary association, is a termolecular reaction\nin which three particles collide, forming a bound state between two, whereas\nthe third escapes freely. Three-body recombination reactions play a significant\nrole in many systems relevant to physics and chemistry. In particular, they are\nrelevant in cold and ultracold chemistry, quantum gases, astrochemistry,\natmospheric physics, physical chemistry, and plasma physics. As a result,\nthree-body recombination has been the subject of extensive work during the last\n50 years, although primarily from an experimental perspective. Indeed, a\ngeneral theory for three-body recombination remains elusive despite the\navailable experimental information. Our group recently developed a direct\napproach based on classical trajectory calculations in hyperspherical\ncoordinates for three-body recombination to amend this situation, leading to a\nfirst principle explanation of ion-atom-atom and atom-atom-atom three-body\nrecombination processes. This review aims to summarize our findings on\nthree-body recombination reactions and identify the remaining challenges in the\nfield.",
+    "authors": [
+      "Marjan Mirahmadi",
+      "Jesús Pérez-Ríos"
+    ],
+    "publication_date": "2023-04-11T15:16:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.05272v1",
+    "download_url": "http://arxiv.org/abs/2304.05272v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Collectively-modified inter-molecular electron correlations: The\n  connection of polaritonic chemistry and spin glass physics",
+    "abstract": "Polaritonic chemistry has garnered increasing attention in recent years due\nto pioneering experimental results, which show that site- and bond-selective\nchemistry at room temperature is achievable through strong collective coupling\nto field fluctuations in optical cavities. Despite these notable experimental\nstrides, the underlying theoretical mechanisms remain unclear. In this focus\nreview, we highlight a fundamental theoretical link between the seemingly\nunrelated fields of polaritonic chemistry and spin glasses, exploring its\nprofound implications for the theoretical framework of polaritonic chemistry.\nSpecifically, we present a mapping of the dressed many-molecules\nelectronic-structure problem under collective vibrational strong coupling to\nthe spherical Sherrington-Kirkpatrick (SSK) model of a spin glass. This mapping\nuncovers a collectively induced instability of the intermolecular electron\ncorrelations, which could provide the long sought-after seed for significant\nlocal chemical modifications in polaritonic chemistry. Overall, the qualitative\npredictions made from the SSK model (e.g., dispersion effects, phase\ntransitions, differently modified bulk and rare event properties, heating,...)\nagree well with available experimental observations. Our connection paves the\nway to incorporate, adjust and probe numerous spin glass concepts in\npolaritonic chemistry, such as modified fluctuation-dissipation relations,\n(non-equilibrium) aging dynamics, time-reversal symmetry breaking or stochastic\nresonances. Ultimately, the connection also offers fresh insights into the\napplicability of spin glass theory beyond condensed matter systems suggesting\nnovel theoretical directions such as spin glasses with explicitly\ntime-dependent (random) interactions.",
+    "authors": [
+      "Dominik Sidler",
+      "Michael Ruggenthaler",
+      "Angel Rubio"
+    ],
+    "publication_date": "2024-09-13T17:02:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.08986v2",
+    "download_url": "http://arxiv.org/abs/2409.08986v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Differentiable quantum computational chemistry with PennyLane",
+    "abstract": "This work describes the theoretical foundation for all quantum chemistry\nfunctionality in PennyLane, a quantum computing software library specializing\nin quantum differentiable programming. We provide an overview of fundamental\nconcepts in quantum chemistry, including the basic principles of the\nHartree-Fock method. A flagship feature in PennyLane is the differentiable\nHartree-Fock solver, allowing users to compute exact gradients of molecular\nHamiltonians with respect to nuclear coordinates and basis set parameters.\nPennyLane provides specialized operations for quantum chemistry, including\nexcitation gates as Givens rotations and templates for quantum chemistry\ncircuits. Moreover, built-in simulators exploit sparse matrix techniques for\nrepresenting molecular Hamiltonians that lead to fast simulation for quantum\nchemistry applications. In combination with PennyLane's existing methods for\nconstructing, optimizing, and executing circuits, these methods allow users to\nimplement a wide range of quantum algorithms for quantum chemistry. We discuss\nhow PennyLane can be used to implement variational algorithms for calculating\nground-state energies, excited-state energies, and energy derivatives, all of\nwhich can be differentiated with respect to both circuit and Hamiltonian\nparameters. We provide an example workflow describing how to jointly optimize\ncircuit parameters, nuclear coordinates, and basis set parameters for quantum\nchemistry algorithms. We discuss a functionality for reducing the number of\nqubits by using symmetries and explain how PennyLane can be used to estimate\nquantum resources needed to implement several quantum algorithms. By combining\ninsights from quantum computing, computational chemistry, and machine learning,\nPennyLane is the first library for differentiable quantum computational\nchemistry.",
+    "authors": [
+      "Juan Miguel Arrazola",
+      "Soran Jahangiri",
+      "Alain Delgado",
+      "Jack Ceroni",
+      "Josh Izaac",
+      "Antal Száva",
+      "Utkarsh Azad",
+      "Robert A. Lang",
+      "Zeyue Niu",
+      "Olivia Di Matteo",
+      "Romain Moyard",
+      "Jay Soni",
+      "Maria Schuld",
+      "Rodrigo A. Vargas-Hernández",
+      "Teresa Tamayo-Mendoza",
+      "Cedric Yen-Yu Lin",
+      "Alán Aspuru-Guzik",
+      "Nathan Killoran"
+    ],
+    "publication_date": "2021-11-18T23:06:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.09967v3",
+    "download_url": "http://arxiv.org/abs/2111.09967v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Physical chemistry of charged interfaces: Multiscale modelling and\n  applications to Energy",
+    "abstract": "We present the advantages of a multiscale modelling strategy for the\nunderstanding of systems with charged interfaces. On the one hand, one can\nsimulate a complex system at different levels, depending on the relevant length\nand time scales for a given physical chemistry problem. On the other hand, one\nshould make the link between the various levels of description, e.g. following\na bottom-up approach. We illustrate here the case of charged porous materials,\nin particular clay minerals, by discussing physical chemistry issues that arise\nin the context of geological disposal of nuclear wastes and CO2 sequestration.",
+    "authors": [
+      "Benjamin Rotenberg"
+    ],
+    "publication_date": "2018-11-22T10:39:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.09095v1",
+    "download_url": "http://arxiv.org/abs/1811.09095v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the Quantum Theory of Molecules: Rigour, Idealization, and\n  Uncertainty",
+    "abstract": "Philosophers have claimed that: (a) the Born-Oppenheimer approximation\nmethods for solving molecular Schr\\\"odinger equations violate the Heisenberg\nuncertainty relations; therefore (b) so-called `quantum chemistry' is not fully\nquantum; and so (c) chemistry does not reduce to physics. This paper analyses\nthe reasoning behind Born-Oppenheimer methods and shows that they are\ninternally consistent and fully quantum mechanical, contrary to (a)-(c). Our\nanalysis addresses important issues of mathematical rigour, physical\nidealisation, reduction, and classicality in the quantum theory of molecules,\nand we propose an agenda for the philosophy of quantum chemistry more solidly\ngrounded in scientific practice.",
+    "authors": [
+      "Nick Huggett",
+      "James Ladyman",
+      "Karim P. Y. Thébault"
+    ],
+    "publication_date": "2024-11-04T10:08:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.01942v1",
+    "download_url": "http://arxiv.org/abs/2411.01942v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Exploiting locality in quantum computation for quantum chemistry",
+    "abstract": "Accurate prediction of chemical and material properties from first principles\nquantum chemistry is a challenging task on traditional computers. Recent\ndevelopments in quantum computation offer a route towards highly accurate\nsolutions with polynomial cost, however this solution still carries a large\noverhead. In this perspective, we aim to bring together known results about the\nlocality of physical interactions from quantum chemistry with ideas from\nquantum computation. We show that the utilization of spatial locality combined\nwith the Bravyi-Kitaev transformation offers an improvement in the scaling of\nknown quantum algorithms for quantum chemistry and provide numerical examples\nto help illustrate this point. We combine these developments to improve the\noutlook for the future of quantum chemistry on quantum computers.",
+    "authors": [
+      "Jarrod R. McClean",
+      "Ryan Babbush",
+      "Peter J. Love",
+      "Alán Aspuru-Guzik"
+    ],
+    "publication_date": "2014-07-29T20:00:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1407.7863v1",
+    "download_url": "http://arxiv.org/abs/1407.7863v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Model Chemistry Recommendations for Scaled Harmonic Frequency\n  Calculations: A Benchmark Study",
+    "abstract": "Despite the popularity of scaled harmonic frequency calculations in\nchemistry, sparse benchmarking is available to guide users on appropriate level\nof theory and basis set choices (model chemistry). Here, we assess the\nperformance of over 600 model chemistries in scaled harmonic frequencies\ncalculations evaluating different scaling factors types.\n  We can summarise our results into three main findings: (1) using model\nchemistry-specific scaling factors optimised for three different frequency\nregions (low (below 1,000cm-1), mid (1,000-2,000cm-1), and high (above\n2,000cm-1)) results in better agreement between the scaled harmonic and\nexperimental frequencies compared to other choices; (2) larger basis sets and\nmore robust levels of theory generally lead to superior performance; however,\nthe particular model chemistry choice matters; and (3) outliers should be\nexpected in routine calculations.\n  In terms of specific recommendations, overall, the highest accuracy model\nchemistries are double-hybrid functionals with non-Pople augmented triple-zeta\nbasis sets, which can produce median frequency errors of down to 7.6cm-1\n(DSD-PBEP86/def2-TZVPD) lying close to the error in the harmonic approximation.\nDouble-zeta basis sets should not be used with double-hybrid functionals as\nthere is no improvement compared to hybrid functionals. Note that the 6-311G*\nand 6-311+G* bases perform like double-zeta basis sets for vibrational\nfrequencies.\n  After scaling, all studied hybrid functionals with non-Pople triple-zeta\nbasis sets will produce median errors of less than 15cm-1, with the best result\nof 9.9cm-1 with B97-1/def2-TZVPD. Appropriate matching of double-zeta basis\nsets with hybrid functionals can produce high quality results. The B97-1,\nTPSS0-D3(BJ) or wB97X-D hybrid functionals with 6-31G*, pc-1 or pcseg-1 are\nrecommended for fast routine calculations, all delivering median errors of\n11-12cm-1.",
+    "authors": [
+      "Juan C. Zapata Trujillo",
+      "Laura K. McKemmish"
+    ],
+    "publication_date": "2023-02-09T05:46:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.04448v1",
+    "download_url": "http://arxiv.org/abs/2302.04448v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Structured Chemistry Reasoning with Large Language Models",
+    "abstract": "Large Language Models (LLMs) excel in diverse areas, yet struggle with\ncomplex scientific reasoning, especially in the field of chemistry. Different\nfrom the simple chemistry tasks (e.g., molecule classification) addressed in\nprevious studies, complex chemistry problems require not only vast knowledge\nand precise calculation, but also compositional reasoning about rich dynamic\ninteractions of different concepts (e.g., temperature changes). Our study shows\nthat even advanced LLMs, like GPT-4, can fail easily in different ways.\nInterestingly, the errors often stem not from a lack of domain knowledge within\nthe LLMs, but rather from the absence of an effective reasoning structure that\nguides the LLMs to elicit the right knowledge, incorporate the knowledge in\nstep-by-step reasoning, and iteratively refine results for further improved\nquality. On this basis, we introduce StructChem, a simple yet effective\nprompting strategy that offers the desired guidance and substantially boosts\nthe LLMs' chemical reasoning capability. Testing across four chemistry areas --\nquantum chemistry, mechanics, physical chemistry, and kinetics -- StructChem\nsubstantially enhances GPT-4's performance, with up to 30\\% peak improvement.\nOur analysis also underscores the unique difficulties of precise grounded\nreasoning in science with LLMs, highlighting a need for more research in this\narea. Code is available at \\url{https://github.com/ozyyshr/StructChem}.",
+    "authors": [
+      "Siru Ouyang",
+      "Zhuosheng Zhang",
+      "Bing Yan",
+      "Xuan Liu",
+      "Yejin Choi",
+      "Jiawei Han",
+      "Lianhui Qin"
+    ],
+    "publication_date": "2023-11-16T08:20:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.09656v2",
+    "download_url": "http://arxiv.org/abs/2311.09656v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Large Language Model for Chemistry and Retrosynthesis Predictions",
+    "abstract": "Large language models (LLM) have achieved impressive progress across a broad\nrange of general-purpose tasks, but their effectiveness in chemistry remains\nlimited due to scarce domain-specific datasets and the demand for precise\nsymbolic and structural reasoning. Here we introduce ECNU-ChemGPT(name after\nEast China Normal University), a chemistry-specialized LLM engineered for deep\nchemical knowledge understanding and accurate retrosynthetic route planning.\nOur approach is distinguished by four key strategies: structured prompt-based\nknowledge distillation from authoritative chemistry textbooks to construct a\nhigh-quality question-answering dataset; domain-specific prompt engineering\nusing curated chemical keywords, combined with LLMs APIs for data derivation\nand knowledge distillation; large-scale fine-tuning on a meticulously cleaned\nand enriched Pistachio reaction dataset to enhance retrosynthesis prediction\naccuracy; and integration of BrainGPT, a dynamic multi-model scheduling\nframework that enables task-specific invocation of multiple specialized models\ntrained for diverse chemistry-related tasks. ECNU-ChemGPT exhibits superior\nperformance on chemistry question-answering and retrosynthetic planning\nbenchmarks, outperforming leading general-purpose models-including Deepseek-R1,\nQwen-2.5, and GPT-4o. In retrosynthesis, it achieves a Top-1 accuracy of 68.3%\non the USPTO_50K dataset and successfully reconstructed 13 complete\nexperimental pathways for real-world drug molecules from medicinal chemistry\njournals. These results underscore the effectiveness of domain-adapted\nfine-tuning combined with dynamic multi-model task scheduling, providing a\nscalable and robust solution for chemical knowledge question answering and\nretrosynthetic planning.",
+    "authors": [
+      "Yueqing Zhang",
+      "Wentao Liu",
+      "Yan Zhang",
+      "Danyang Xiong",
+      "Jihang Zhai",
+      "Hao Hao",
+      "YuCheng Gu",
+      "HaiBo Yang",
+      "Shuanhu Gao",
+      "Lianrui Hu",
+      "Aimin Zhou",
+      "Xiao He"
+    ],
+    "publication_date": "2025-07-02T08:04:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.01444v2",
+    "download_url": "http://arxiv.org/abs/2507.01444v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fortnite & Chemistry",
+    "abstract": "In this activity, we describe how the video game Fortnite provides a nice\nopportunity for students to think about chemistry. The game has a survival\nsystem based on the acquisition and use of items, which has interesting\nchemical and physical properties. In addition, the game also provides an\nimportant platform of crafting and base building and open discussion on\nmaterials.",
+    "authors": [
+      "Nicolas Dietrich"
+    ],
+    "publication_date": "2020-04-20T08:36:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.10085v1",
+    "download_url": "http://arxiv.org/abs/2004.10085v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Few-Qubit Magnetic Resonance Quantum Information Processors: Simulating\n  Chemistry and Physics",
+    "abstract": "We review recent progress made in quantum information processing (QIP) which\ncan be applied in the simulation of quantum systems and chemical phenomena. The\nreview is focused on quantum algorithms which are useful for quantum simulation\nof chemistry and advances in nuclear magnetic resonance (NMR) and electron spin\nresonance (ESR) QIP. Discussions also include a number of recent experiments\ndemonstrating the current capabilities of the NMR QIP for quantum simulation\nand prospects for spin-based implementations of QIP.",
+    "authors": [
+      "Ben Criger",
+      "Daniel K. Park",
+      "Jonathan Baugh"
+    ],
+    "publication_date": "2012-10-18T00:09:18Z",
+    "arxiv_id": "http://arxiv.org/abs/1210.4994v1",
+    "download_url": "http://arxiv.org/abs/1210.4994v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Limitations of Hartree-Fock with quantum resources",
+    "abstract": "The Hartree-Fock problem provides the conceptual and mathematical\nunderpinning of a large portion of quantum chemistry. As efforts in quantum\ntechnology aim to enhance computational chemistry algorithms, the fundamental\nHartree-Fock problem is a natural target. While quantum computers and quantum\nsimulation offer many prospects for the future of modern chemistry, the\nHartree-Fock problem is not a likely candidate. We highlight this fact from a\nnumber of perspectives including computational complexity, practical examples,\nand the full characterization of the energy landscapes for simple systems.",
+    "authors": [
+      "Sahil Gulania",
+      "James Daniel Whitfield"
+    ],
+    "publication_date": "2020-07-19T22:44:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.09806v1",
+    "download_url": "http://arxiv.org/abs/2007.09806v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Nobel Family",
+    "abstract": "Nobel laureates cluster together. 696 of the 727 winners of the Nobel Prize\nin physics, chemistry, medicine, and economics belong to one single academic\nfamily tree. 668 trace their ancestry to Emmanuel Stupanus, 228 to Lord\nRayleigh (physics, 1904). Craig Mello (medicine, 2006) counts 51 Nobelists\namong his ancestors. Chemistry laureates have the most Nobel ancestors and\ndescendants, economics laureates the fewest. Chemistry is the central\ndiscipline. Its Nobelists have trained and are trained by Nobelists in other\nfields. Nobelists in physics (medicine) have trained (by) others. Economics\nstands apart. Openness to other disciplines is the same in recent and earlier\ntimes. The familial concentration of Nobelists is lower now than it used to be.",
+    "authors": [
+      "Richard S. J. Tol"
+    ],
+    "publication_date": "2023-03-10T17:46:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.06106v1",
+    "download_url": "http://arxiv.org/abs/2303.06106v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Computational Complexity in Electronic Structure",
+    "abstract": "In quantum chemistry, the price paid by all known efficient model chemistries\nis either the truncation of the Hilbert space or uncontrolled approximations.\nTheoretical computer science suggests that these restrictions are not mere\nshortcomings of the algorithm designers and programmers but could stem from the\ninherent difficulty of simulating quantum systems. Extensions of computer\nscience and information processing exploiting quantum mechanics has led to new\nways of understanding the ultimate limitations of computational power.\nInterestingly, this perspective helps us understand widely used model\nchemistries in a new light. In this article, the fundamentals of computational\ncomplexity will be reviewed and motivated from the vantage point of chemistry.\nThen recent results from the computational complexity literature regarding\ncommon model chemistries including Hartree-Fock and density functional theory\nare discussed.",
+    "authors": [
+      "James D. Whitfield",
+      "Peter J. Love",
+      "Alan Aspuru-Guzik"
+    ],
+    "publication_date": "2012-08-16T10:30:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1208.3334v1",
+    "download_url": "http://arxiv.org/abs/1208.3334v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Recent Developments in Holographic Black Hole Chemistry",
+    "abstract": "One of the major developments in classical black hole thermodynamics is the\ninclusion of vacuum energy in the form of thermodynamic pressure. Known as\nBlack Hole Chemistry, this subdiscipline has led to the realization that anti\nde Sitter black holes exhibit a broad variety of phase transitions that are\nessentially the same as those observed in chemical systems. Since the pressure\nis given in terms of a negative cosmological constant (which parametrizes the\nvacuum energy), the holographic interpretation of Black Hole Chemistry has\nremained unclear. In the last few years there has been considerable progress in\ndeveloping an exact dictionary between the bulk laws of Black Hole Chemistry\nand the laws of the dual Conformal Field Theory (CFT). Holographic Black Hole\nChemistry is now becoming an established subfield, with a full thermodynamic\nbulk/boundary correspondence, and an emergent understanding of CFT phase\nbehaviour and its correspondence in the bulk. Here I review these developments,\nhighlighting key advances and briefly discussing future prospects for further\nresearch.",
+    "authors": [
+      "Robert B. Mann"
+    ],
+    "publication_date": "2024-03-05T11:14:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.02864v1",
+    "download_url": "http://arxiv.org/abs/2403.02864v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Physics and chemistry of hot molecular cores",
+    "abstract": "Young massive star-forming regions are known to produce hot molecular gas\ncores (HMCs) with a rich chemistry. While this chemistry is interesting in\nitself, it also allows to investigate important physical parameters. I will\npresent recent results obtained with high-angular-resolution interferometers\ndisentangling the small-scale structure and complexity of various molecular gas\ncomponents. Early attempts to develop a chemical evolutionary sequence are\ndiscussed. Furthermore, I will outline the difficulty to isolate the right\nmolecular lines capable to unambiguously trace potential massive accretion\ndisks.",
+    "authors": [
+      "Henrik Beuther"
+    ],
+    "publication_date": "2006-10-13T14:20:37Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0610411v1",
+    "download_url": "http://arxiv.org/abs/astro-ph/0610411v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

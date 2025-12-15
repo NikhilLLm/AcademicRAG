@@ -1,0 +1,753 @@
+[
+  {
+    "title": "A Note on the Performance of Algorithms for Solving Linear Diophantine\n  Equations in the Naturals",
+    "abstract": "We implement four algorithms for solving linear Diophantine equations in the\nnaturals: a lexicographic enumeration algorithm, a completion procedure, a\ngraph-based algorithm, and the Slopes algorithm. As already known, the\nlexicographic enumeration algorithm and the completion procedure are slower\nthan the other two algorithms. We compare in more detail the graph-based\nalgorithm and the Slopes algorithm. In contrast to previous comparisons, our\nwork suggests that they are equally fast on small inputs, but the graph-based\nalgorithm gets much faster as the input grows. We conclude that implementations\nof AC-unification algorithms should use the graph-based algorithm for maximum\nefficiency.",
+    "authors": [
+      "Valeriu Motroi",
+      "Stefan Ciobaca"
+    ],
+    "publication_date": "2021-04-12T04:45:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.05200v1",
+    "download_url": "http://arxiv.org/abs/2104.05200v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Critic Algorithms using Cooperative Networks",
+    "abstract": "An algorithm is proposed for policy evaluation in Markov Decision Processes\nwhich gives good empirical results with respect to convergence rates. The\nalgorithm tracks the Projected Bellman Error and is implemented as a true\ngradient based algorithm. In this respect this algorithm differs from\nTD($\\lambda$) class of algorithms. This algorithm tracks the Projected Bellman\nAlgorithm and is therefore different from the class of residual algorithms.\nFurther the convergence of this algorithm is empirically much faster than GTD2\nclass of algorithms which aim at tracking the Projected Bellman Error. We\nimplemented proposed algorithm in DQN and DDPG framework and found that our\nalgorithm achieves comparable results in both of these experiments",
+    "authors": [
+      "Debangshu Banerjee",
+      "Kavita Wagh"
+    ],
+    "publication_date": "2022-01-19T19:47:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.07839v1",
+    "download_url": "http://arxiv.org/abs/2201.07839v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Hidden Subgroup Algorithms: An Algorithmic Toolkit",
+    "abstract": "One of the most promising and versatile approaches to creating new quantum\nalgorithms is based on the quantum hidden subgroup (QHS) paradigm, originally\nsuggested by Alexei Kitaev. This class of quantum algorithms encompasses the\nDeutsch-Jozsa, Simon, Shor algorithms, and many more.\n  In this paper, our strategy for finding new quantum algorithms is to\ndecompose Shor's quantum factoring algorithm into its basic primitives, then to\ngeneralize these primitives, and finally to show how to reassemble them into\nnew QHS algorithms. Taking an \"alphabetic building blocks approach,\" we use\nthese primitives to form an \"algorithmic toolkit\" for the creation of new\nquantum algorithms, such as wandering Shor algorithms, continuous Shor\nalgorithms, the quantum circle algorithm, the dual Shor algorithm, a QHS\nalgorithm for Feynman integrals, free QHS algorithms, and more.\n  Toward the end of this paper, we show how Grover's algorithm is most\nsurprisingly \"almost\" a QHS algorithm, and how this result suggests the\npossibility of an even more complete \"algorithmic tookit\" beyond the QHS\nalgorithms.",
+    "authors": [
+      "Samuel J. Lomonaco Jr.",
+      "Louis H. Kauffman"
+    ],
+    "publication_date": "2006-07-06T18:50:51Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0607046v1",
+    "download_url": "http://arxiv.org/abs/quant-ph/0607046v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Arc-Search Infeasible Interior-Point Algorithm for Linear Programming",
+    "abstract": "Mehrotra's algorithm has been the most successful infeasible interior-point\nalgorithm for linear programming since 1990. Most popular interior-point\nsoftware packages for linear programming are based on Mehrotra's algorithm.\nThis paper proposes an alternative algorithm, arc-search infeasible\ninterior-point algorithm. We will demonstrate, by testing Netlib problems and\ncomparing the test results obtained by arc-search infeasible interior-point\nalgorithm and Mehrotra's algorithm, that the proposed arc-search infeasible\ninterior-point algorithm is a more efficient algorithm than Mehrotra's\nalgorithm.",
+    "authors": [
+      "Yaguang Yang"
+    ],
+    "publication_date": "2014-06-17T20:53:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1406.4539v3",
+    "download_url": "http://arxiv.org/abs/1406.4539v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Algorithm Computing the Local $b$ Function by an Approximate Division\n  Algorithm in $\\hat{\\mathcal{D}}$",
+    "abstract": "We give an algorithm to compute the local $b$ function. In this algorithm, we\nuse the Mora division algorithm in the ring of differential operators and an\napproximate division algorithm in the ring of differential operators with power\nseries coefficient.",
+    "authors": [
+      "Hiromasa Nakayama"
+    ],
+    "publication_date": "2006-06-19T06:39:46Z",
+    "arxiv_id": "http://arxiv.org/abs/math/0606437v1",
+    "download_url": "http://arxiv.org/abs/math/0606437v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Formalizing the notions of non-interactive and interactive algorithms",
+    "abstract": "An earlier paper gives an account of a quest for a satisfactory formalization\nof the classical informal notion of an algorithm. That notion only covers\nalgorithms that are deterministic and non-interactive. In this paper, an\nattempt is made to generalize the results of that quest first to a notion of an\nalgorithm that covers both deterministic and non-deterministic algorithms that\nare non-interactive and then further to a notion of an algorithm that covers\nboth deterministic and non-deterministic algorithms that are interactive. The\nnotions of an non-interactive proto-algorithm and an interactive\nproto-algorithm are introduced. Non-interactive algorithms and interactive\nalgorithms are expected to be equivalence classes of non-interactive\nproto-algorithms and interactive proto-algorithms, respectively, under an\nappropriate equivalence relation. On both non-interactive proto-algorithms and\ninteractive proto-algorithms, three equivalence relations are defined. Two of\nthem are deemed to be bounds for an appropriate equivalence relation and the\nthird is likely an appropriate one.",
+    "authors": [
+      "C. A. Middelburg"
+    ],
+    "publication_date": "2024-05-29T12:24:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.19037v3",
+    "download_url": "http://arxiv.org/abs/2405.19037v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Critical Analysis: Bat Algorithm based Investigation and Application on\n  Several Domains",
+    "abstract": "In recent years several swarm optimization algorithms, such as Bat Algorithm\n(BA) have emerged, which was proposed by Xin-She Yang in 2010. The idea of the\nalgorithm was taken from the echolocation ability of bats.\n  Purpose: The purpose of this study is to provide the reader with a full study\nof the Bat Algorithm, including its limitations, the fields that the algorithm\nhas been applied, versatile optimization problems in different domains, and all\nthe studies that assess its performance against other meta-heuristic\nalgorithms.\n  Approach: Bat Algorithm is given in-depth in terms of backgrounds,\ncharacteristics, limitations, it has also displayed the algorithms that\nhybridized with BA (K-Medoids, Back-propagation neural network, Harmony Search\nAlgorithm, Differential Evaluation Strategies, Enhanced Particle Swarm\nOptimization, and Cuckoo Search Algorithm) and their theoretical results, as\nwell as to the modifications that have been performed of the algorithm\n(Modified Bat Algorithm (MBA), Enhanced Bat Algorithm (EBA), Bat Algorithm with\nMutation (BAM), Uninhabited Combat Aerial Vehicle-Bat algorithm with Mutation\n(UCAV-BAM), Nonlinear Optimization)...\n  Findings: Shed light on the advantages and disadvantages of this algorithm\nthrough all the researches that dealt with the algorithm in addition to the\nfields and applications it has addressed in the hope that it will help\nscientists understand and develop it.\n  Originality/value: As far as the research community knowledge, there is no\ncomprehensive survey study conducted on this algorithm cover{\\i}ng all its\naspects.\n  Keywords: Swarm Intelligence; Nature-Inspired Algorithms; Metaheuristic\nAlgorithms; Optimization Algorithms; Bat Algorithm.",
+    "authors": [
+      "Shahla U. Umar",
+      "Tarik A. Rashid"
+    ],
+    "publication_date": "2021-01-18T19:25:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2102.01201v1",
+    "download_url": "http://arxiv.org/abs/2102.01201v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Algorithms",
+    "abstract": "This article surveys the state of the art in quantum computer algorithms,\nincluding both black-box and non-black-box results. It is infeasible to detail\nall the known quantum algorithms, so a representative sample is given. This\nincludes a summary of the early quantum algorithms, a description of the\nAbelian Hidden Subgroup algorithms (including Shor's factoring and discrete\nlogarithm algorithms), quantum searching and amplitude amplification, quantum\nalgorithms for simulating quantum mechanical systems, several non-trivial\ngeneralizations of the Abelian Hidden Subgroup Problem (and related\ntechniques), the quantum walk paradigm for quantum algorithms, the paradigm of\nadiabatic algorithms, a family of ``topological'' algorithms, and algorithms\nfor quantum tasks which cannot be done by a classical computer, followed by a\ndiscussion.",
+    "authors": [
+      "Michele Mosca"
+    ],
+    "publication_date": "2008-08-04T02:14:39Z",
+    "arxiv_id": "http://arxiv.org/abs/0808.0369v1",
+    "download_url": "http://arxiv.org/abs/0808.0369v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Novel Genetic Algorithm using Helper Objectives for the 0-1 Knapsack\n  Problem",
+    "abstract": "The 0-1 knapsack problem is a well-known combinatorial optimisation problem.\nApproximation algorithms have been designed for solving it and they return\nprovably good solutions within polynomial time. On the other hand, genetic\nalgorithms are well suited for solving the knapsack problem and they find\nreasonably good solutions quickly. A naturally arising question is whether\ngenetic algorithms are able to find solutions as good as approximation\nalgorithms do. This paper presents a novel multi-objective optimisation genetic\nalgorithm for solving the 0-1 knapsack problem. Experiment results show that\nthe new algorithm outperforms its rivals, the greedy algorithm, mixed strategy\ngenetic algorithm, and greedy algorithm + mixed strategy genetic algorithm.",
+    "authors": [
+      "Jun He",
+      "Feidun He",
+      "Hongbin Dong"
+    ],
+    "publication_date": "2014-04-03T11:46:42Z",
+    "arxiv_id": "http://arxiv.org/abs/1404.0868v1",
+    "download_url": "http://arxiv.org/abs/1404.0868v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Rethinking Recommender Systems: Cluster-based Algorithm Selection",
+    "abstract": "Cluster-based algorithm selection deals with selecting recommendation\nalgorithms on clusters of users to obtain performance gains. No studies have\nbeen attempted for many combinations of clustering approaches and\nrecommendation algorithms. We want to show that clustering users prior to\nalgorithm selection increases the performance of recommendation algorithms. Our\nstudy covers eight datasets, four clustering approaches, and eight\nrecommendation algorithms. We select the best performing recommendation\nalgorithm for each cluster. Our work shows that cluster-based algorithm\nselection is an effective technique for optimizing recommendation algorithm\nperformance. For five out of eight datasets, we report an increase in nDCG@10\nbetween 19.28% (0.032) and 360.38% (0.191) compared to algorithm selection\nwithout prior clustering.",
+    "authors": [
+      "Andreas Lizenberger",
+      "Ferdinand Pfeifer",
+      "Bastian Polewka"
+    ],
+    "publication_date": "2024-05-28T09:53:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.18011v1",
+    "download_url": "http://arxiv.org/abs/2405.18011v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Weighted graph algorithms with Python",
+    "abstract": "Python implementation of selected weighted graph algorithms is presented. The\nminimal graph interface is defined together with several classes implementing\nthis interface. Graph nodes can be any hashable Python objects. Directed edges\nare instances of the Edge class. Graphs are instances of the Graph class. It is\nbased on the adjacency-list representation, but with fast lookup of nodes and\nneighbors (dict-of-dict structure). Other implementations of this class are\nalso possible.\n  In this work, many algorithms are implemented using a unified approach. There\nare separate classes and modules devoted to different algorithms. Three\nalgorithms for finding a minimum spanning tree are implemented: the Boruvka's\nalgorithm, the Prim's algorithm (three implementations), and the Kruskal's\nalgorithm. Three algorithms for solving the single-source shortest path problem\nare implemented: the dag shortest path algorithm, the Bellman-Ford algorithm,\nand the Dijkstra's algorithm (two implementations). Two algorithms for solving\nall-pairs shortest path problem are implemented: the Floyd-Warshall algorithm\nand the Johnson's algorithm.\n  All algorithms were tested by means of the unittest module, the Python unit\ntesting framework. Additional computer experiments were done in order to\ncompare real and theoretical computational complexity. The source code is\navailable from the public GitHub repository.",
+    "authors": [
+      "A. Kapanowski",
+      "Ł. Gałuszka"
+    ],
+    "publication_date": "2015-04-29T12:20:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1504.07828v1",
+    "download_url": "http://arxiv.org/abs/1504.07828v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hedging Algorithms and Repeated Matrix Games",
+    "abstract": "Playing repeated matrix games (RMG) while maximizing the cumulative returns\nis a basic method to evaluate multi-agent learning (MAL) algorithms. Previous\nwork has shown that $UCB$, $M3$, $S$ or $Exp3$ algorithms have good behaviours\non average in RMG. Besides, hedging algorithms have been shown to be effective\non prediction problems. An hedging algorithm is made up with a top-level\nalgorithm and a set of basic algorithms. To make its decision, an hedging\nalgorithm uses its top-level algorithm to choose a basic algorithm, and the\nchosen algorithm makes the decision. This paper experimentally shows that\nwell-selected hedging algorithms are better on average than all previous MAL\nalgorithms on the task of playing RMG against various players. $S$ is a very\ngood top-level algorithm, and $UCB$ and $M3$ are very good basic algorithms.\nFurthermore, two-level hedging algorithms are more effective than one-level\nhedging algorithms, and three levels are not better than two levels.",
+    "authors": [
+      "Bruno Bouzy",
+      "Marc Métivier",
+      "Damien Pellier"
+    ],
+    "publication_date": "2018-10-15T15:05:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.06443v1",
+    "download_url": "http://arxiv.org/abs/1810.06443v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A more robust boosting algorithm",
+    "abstract": "We present a new boosting algorithm, motivated by the large margins theory\nfor boosting. We give experimental evidence that the new algorithm is\nsignificantly more robust against label noise than existing boosting algorithm.",
+    "authors": [
+      "Yoav Freund"
+    ],
+    "publication_date": "2009-05-13T16:04:02Z",
+    "arxiv_id": "http://arxiv.org/abs/0905.2138v1",
+    "download_url": "http://arxiv.org/abs/0905.2138v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Greedy Algorithm for Optimally Pipelining a Reduction",
+    "abstract": "Collective communications are ubiquitous in parallel applications. We present\ntwo new algorithms for performing a reduction. The operation associated with\nour reduction needs to be associative and commutative. The two algorithms are\ndeveloped under two different communication models (unidirectional and\nbidirectional). Both algorithms use a greedy scheduling scheme. For a\nunidirectional, fully connected network, we prove that our greedy algorithm is\noptimal when some realistic assumptions are respected. Previous algorithms fit\nthe same assumptions and are only appropriate for some given configurations.\nOur algorithm is optimal for all configurations. We note that there are some\nconfiguration where our greedy algorithm significantly outperform any existing\nalgorithms. This result represents a contribution to the state-of-the art. For\na bidirectional, fully connected network, we present a different greedy\nalgorithm. We verify by experimental simulations that our algorithm matches the\ntime complexity of an optimal broadcast (with addition of the computation).\nBeside reversing an optimal broadcast algorithm, the greedy algorithm is the\nfirst known reduction algorithm to experimentally attain this time complexity.\nSimulations show that this greedy algorithm performs well in practice,\noutperforming any state-of-the-art reduction algorithms. Positive experiments\non a parallel distributed machine are also presented.",
+    "authors": [
+      "Bradley R. Lowery",
+      "Julien Langou"
+    ],
+    "publication_date": "2013-10-17T10:12:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1310.4645v1",
+    "download_url": "http://arxiv.org/abs/1310.4645v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Performance Comparison of Two Streaming Data Clustering Algorithms",
+    "abstract": "The weighted fuzzy c-mean clustering algorithm and weighted fuzzy\nc-mean-adaptive cluster number are extension of traditional fuzzy c-mean\nAlgorithm to stream data clustering algorithm.",
+    "authors": [
+      "Chandrakant Mahobiya",
+      "M. Kumar"
+    ],
+    "publication_date": "2014-06-26T06:09:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1406.6778v1",
+    "download_url": "http://arxiv.org/abs/1406.6778v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A review of motion planning algorithms for intelligent robotics",
+    "abstract": "We investigate and analyze principles of typical motion planning algorithms.\nThese include traditional planning algorithms, supervised learning, optimal\nvalue reinforcement learning, policy gradient reinforcement learning.\nTraditional planning algorithms we investigated include graph search\nalgorithms, sampling-based algorithms, and interpolating curve algorithms.\nSupervised learning algorithms include MSVM, LSTM, MCTS and CNN. Optimal value\nreinforcement learning algorithms include Q learning, DQN, double DQN, dueling\nDQN. Policy gradient algorithms include policy gradient method, actor-critic\nalgorithm, A3C, A2C, DPG, DDPG, TRPO and PPO. New general criteria are also\nintroduced to evaluate performance and application of motion planning\nalgorithms by analytical comparisons. Convergence speed and stability of\noptimal value and policy gradient algorithms are specially analyzed. Future\ndirections are presented analytically according to principles and analytical\ncomparisons of motion planning algorithms. This paper provides researchers with\na clear and comprehensive understanding about advantages, disadvantages,\nrelationships, and future of motion planning algorithms in robotics, and paves\nways for better motion planning algorithms.",
+    "authors": [
+      "Chengmin Zhou",
+      "Bingding Huang",
+      "Pasi Fränti"
+    ],
+    "publication_date": "2021-02-04T02:24:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2102.02376v2",
+    "download_url": "http://arxiv.org/abs/2102.02376v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algorithms for matrix multiplication via sampling and opportunistic\n  matrix multiplication",
+    "abstract": "Karppa & Kaski (2019) proposed a novel ``broken\" or ``opportunistic\" matrix\nmultiplication algorithm, based on a variant of Strassen's algorithm, and used\nthis to develop new algorithms for Boolean matrix multiplication, among other\ntasks. Their algorithm can compute Boolean matrix multiplication in\n$O(n^{2.778})$ time. While asymptotically faster matrix multiplication\nalgorithms exist, most such algorithms are infeasible for practical problems.\n  We describe an alternative way to use the broken multiplication algorithm to\napproximately compute matrix multiplication, either for real-valued or Boolean\nmatrices. In brief, instead of running multiple iterations of the broken\nalgorithm on the original input matrix, we form a new larger matrix by sampling\nand run a single iteration of the broken algorithm on it. Asymptotically, our\nalgorithm has runtime $O(n^{2.763})$, a slight improvement over the\nKarppa-Kaski algorithm.\n  Since the goal is to obtain new practical matrix-multiplication algorithms,\nwe also estimate the concrete runtime for our algorithm for some large-scale\nsample problems. It appears that for these parameters, further optimizations\nare still needed to make our algorithm competitive.",
+    "authors": [
+      "David G. Harris"
+    ],
+    "publication_date": "2021-09-27T20:26:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.13335v4",
+    "download_url": "http://arxiv.org/abs/2109.13335v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Manifold Learning for Dimensionality Reduction: Quantum Isomap algorithm",
+    "abstract": "Isomap algorithm is a representative manifold learning algorithm. The\nalgorithm simplifies the data analysis process and is widely used in\nneuroimaging, spectral analysis and other fields. However, the classic Isomap\nalgorithm becomes unwieldy when dealing with large data sets. Our object is to\naccelerate the classical algorithm with quantum computing, and propose the\nquantum Isomap algorithm. The algorithm consists of two sub-algorithms. The\nfirst one is the quantum Floyd algorithm, which calculates the shortest\ndistance for any two nodes. The other is quantum Isomap algorithm based on\nquantum Floyd algorithm, which finds a low-dimensional representation for the\noriginal high-dimensional data. Finally, we analyze that the quantum Floyd\nalgorithm achieves exponential speedup without sampling. In addition, the time\ncomplexity of quantum Isomap algorithm is $O(dNpolylogN)$. Both algorithms\nreduce the time complexity of classical algorithms.",
+    "authors": [
+      "WeiJun Feng",
+      "GongDe Guo",
+      "Kai Yu",
+      "Xin Zhang",
+      "Song Lin"
+    ],
+    "publication_date": "2022-12-07T12:29:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.03599v1",
+    "download_url": "http://arxiv.org/abs/2212.03599v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Distributed Phase Estimation Algorithm and Distributed Shor's Algorithm",
+    "abstract": "Shor's algorithm is one of the most significant quantum algorithms. Shor's\nalgorithm can factor large integers with a certain success probability in\npolynomial time. However, Shor's algorithm requires an unbearable amount of\nqubits in the NISQ (Noisy Intermediate-scale Quantum) era. To reduce the\nresources required for Shor's algorithm, in this paper we first propose a new\ndistributed phase estimation algorithm. Our distributed phase estimation\nalgorithm does not require quantum communication and it reduces the number of\nqubits of a single node compared to the traditional phase estimation algorithm\n(non-iterative version). Then we apply our distributed phase estimation\nalgorithm to form a distributed order-finding algorithm for Shor's algorithm.\nCompared with the traditional Shor's algorithm (non-iterative version), the\nmaximum number of qubits required by a single node of our dristributed\norder-finding algorithm is reduced by $(2-\\dfrac{2}{k})L-\\log_2k-O(1)$ when\nfactoring an $L$-bit integer ($k$ is the number of compute nodes). The\ncommunication complexity of our distributed order-finding algorithm is $O(kL)$.",
+    "authors": [
+      "Ligang Xiao",
+      "Daowen Qiu",
+      "Le Luo",
+      "Paulo Mateus"
+    ],
+    "publication_date": "2023-04-24T13:52:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.12100v2",
+    "download_url": "http://arxiv.org/abs/2304.12100v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Permutation Generation: Two New Permutation Algorithms",
+    "abstract": "Two completely new algorithms for generating permutations, shift-cursor\nalgorithm and level algorithm, and their efficient implementations are\npresented in this paper. One implementation of the shift cursor algorithm gives\nan optimal solution of the permutation generation problem, and one\nimplementation of the level algorithm can be used to generate random\npermutations.",
+    "authors": [
+      "Jie Gao",
+      "Dianjun Wang"
+    ],
+    "publication_date": "2003-06-05T11:49:22Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0306025v3",
+    "download_url": "http://arxiv.org/abs/cs/0306025v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Cascading Haar Wavelet algorithm for computing the Walsh-Hadamard\n  Transform",
+    "abstract": "We propose a novel algorithm for computing the Walsh-Hadamard Transform (WHT)\nwhich consists entirely of Haar wavelet transforms. We prove that the\nalgorithm, which we call the Cascading Haar Wavelet (CHW) algorithm, shares\nprecisely the same serial complexity as the popular divide-and-conquer\nalgorithm for the WHT. We also propose a natural way of parallelizing the\nalgorithm which has a number of attractive features.",
+    "authors": [
+      "Andrew Thompson"
+    ],
+    "publication_date": "2016-09-21T17:10:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1609.06641v1",
+    "download_url": "http://arxiv.org/abs/1609.06641v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Universal Quantum Algorithm",
+    "abstract": "Quantum amplitude amplification and quantum phase estimation are two\nfundamental quantum algorithms. All known quantum algorithms are derived from\nthese two algorithms. Even the adiabatic quantum algorithms can also be\nefficiently simulated using quantum phase estimation. We present a universal\nquantum algorithm which explains these two algorithms as special cases. An\ninteresting result is that we do not need quantum fourier transform to do\nquantum phase estimation.",
+    "authors": [
+      "Avatar Tulsi"
+    ],
+    "publication_date": "2016-11-10T20:30:19Z",
+    "arxiv_id": "http://arxiv.org/abs/1611.03472v1",
+    "download_url": "http://arxiv.org/abs/1611.03472v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Self-Protected Quantum Algorithms Based on Quantum State Tomography",
+    "abstract": "Only a few classes of quantum algorithms are known which provide a speed-up\nover classical algorithms. However, these and any new quantum algorithms\nprovide important motivation for the development of quantum computers. In this\narticle new quantum algorithms are given which are based on quantum state\ntomography. These include an algorithm for the calculation of several quantum\nmechanical expectation values and an algorithm for the determination of\npolynomial factors. These quantum algorithms are important in their own right.\nHowever, it is remarkable that these quantum algorithms are immune to a large\nclass of errors. We describe these algorithms and provide conditions for\nimmunity.",
+    "authors": [
+      "Lian-Ao Wu",
+      "Mark S. Byrd"
+    ],
+    "publication_date": "2007-02-06T01:03:11Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0702047v1",
+    "download_url": "http://arxiv.org/abs/quant-ph/0702047v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Firefly Algorithms for Multimodal Optimization",
+    "abstract": "Nature-inspired algorithms are among the most powerful algorithms for\noptimization. This paper intends to provide a detailed description of a new\nFirefly Algorithm (FA) for multimodal optimization applications. We will\ncompare the proposed firefly algorithm with other metaheuristic algorithms such\nas particle swarm optimization (PSO). Simulations and results indicate that the\nproposed firefly algorithm is superior to existing metaheuristic algorithms.\nFinally we will discuss its applications and implications for further research.",
+    "authors": [
+      "Xin-She Yang"
+    ],
+    "publication_date": "2010-03-07T13:23:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1003.1466v1",
+    "download_url": "http://arxiv.org/abs/1003.1466v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Super Greedy Type Algorithms",
+    "abstract": "We study greedy-type algorithms such that at a greedy step we pick several\ndictionary elements contrary to a single dictionary element in standard\ngreedy-type algorithms. We call such greedy algorithms {\\it super greedy\nalgorithms}. The idea of picking several elements at a greedy step of the\nalgorithm is not new. Recently, we observed the following new phenomenon. For\nincoherent dictionaries these new type of algorithms (super greedy algorithms)\nprovide the same (in the sense of order) upper bound for the error as their\nanalogues from the standard greedy algorithms. The super greedy algorithms are\ncomputationally simpler than their analogues from the standard greedy\nalgorithms. We continue to study this phenomenon.",
+    "authors": [
+      "Entao Liu",
+      "Vladimir N. Temlyakov"
+    ],
+    "publication_date": "2010-10-26T15:12:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1010.5423v1",
+    "download_url": "http://arxiv.org/abs/1010.5423v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Scheduling and allocation algorithm for an elliptic filter",
+    "abstract": "A new evolutionary algorithm for scheduling and allocation algorithm is\ndeveloped for an elliptic filter. The elliptic filter is scheduled and\nallocated in the proposed work which is then compared with the different\nscheduling algorithms like As Soon As Possible algorithm, As Late As Possible\nalgorithm, Mobility Based Shift algorithm, FDLS, FDS and MOGS. In this paper\nexecution time and resource utilization is calculated using different\nscheduling algorithm for an Elliptic Filter and reported that proposed\nScheduling and Allocation increases the speed of operation by reducing the\ncontrol step. The proposed work to analyse the magnitude, phase and noise\nresponses for different scheduling algorithm in an elliptic filter.",
+    "authors": [
+      "Sangeetha Marikkannan"
+    ],
+    "publication_date": "2012-02-23T15:23:17Z",
+    "arxiv_id": "http://arxiv.org/abs/1205.3754v1",
+    "download_url": "http://arxiv.org/abs/1205.3754v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Comparison Study for Clonal Selection Algorithm and Genetic Algorithm",
+    "abstract": "Two metaheuristic algorithms namely Artificial Immune Systems (AIS) and\nGenetic Algorithms are classified as computational systems inspired by\ntheoretical immunology and genetics mechanisms. In this work we examine the\ncomparative performances of two algorithms. A special selection algorithm,\nClonal Selection Algorithm (CLONALG), which is a subset of Artificial Immune\nSystems, and Genetic Algorithms are tested with certain benchmark functions. It\nis shown that depending on type of a function Clonal Selection Algorithm and\nGenetic Algorithm have better performance over each other.",
+    "authors": [
+      "Ezgi Deniz Ulker",
+      "Sadik Ulker"
+    ],
+    "publication_date": "2012-09-12T20:17:05Z",
+    "arxiv_id": "http://arxiv.org/abs/1209.2717v1",
+    "download_url": "http://arxiv.org/abs/1209.2717v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "From the Closed Classical Algorithmic Universe to an Open World of\n  Algorithmic Constellations",
+    "abstract": "In this paper we analyze methodological and philosophical implications of\nalgorithmic aspects of unconventional computation. At first, we describe how\nthe classical algorithmic universe developed and analyze why it became closed\nin the conventional approach to computation. Then we explain how new models of\nalgorithms turned the classical closed algorithmic universe into the open world\nof algorithmic constellations, allowing higher flexibility and expressive\npower, supporting constructivism and creativity in mathematical modeling. As\nGoedels undecidability theorems demonstrate, the closed algorithmic universe\nrestricts essential forms of mathematical cognition. In contrast, the open\nalgorithmic universe, and even more the open world of algorithmic\nconstellations, remove such restrictions and enable new, richer understanding\nof computation.",
+    "authors": [
+      "Mark Burgin",
+      "Gordana Dodig-Crnkovic"
+    ],
+    "publication_date": "2012-10-29T19:49:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1211.4547v1",
+    "download_url": "http://arxiv.org/abs/1211.4547v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Symmetries of matrix multiplication algorithms. I",
+    "abstract": "In this work the algorithms of fast multiplication of matrices are\nconsidered. To any algorithm there associated a certain group of automorphisms.\nThese automorphism groups are found for some well-known algorithms, including\nalgorithms of Hopcroft, Laderman, and Pan. The automorphism group is isomorphic\nto $S_3\\times Z_2$ and $S_4$ for Hopcroft anf Laderman algorithms,\nrespectively. The studying of symmetry of algorithms may be a fruitful idea for\nfinding fast algorithms, by an analogy with well-known optimization problems\nfor codes, lattices, and graphs.\n  {\\em Keywords}: Strassen algorithm, symmetry, fast matrix multiplication.",
+    "authors": [
+      "V. P. Burichenko"
+    ],
+    "publication_date": "2015-08-05T15:45:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1508.01110v1",
+    "download_url": "http://arxiv.org/abs/1508.01110v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reconsider HHL algorithm and its related quantum machine learning\n  algorithms",
+    "abstract": "HHL quantum algorithm to solve linear systems is one of the most important\nsubroutines in many quantum machine learning algorithms. In this work, we\npresent and analyze several other caveats in HHL algorithm, which have been\nignored in the past. Their influences on the efficiency, accuracy and\npracticability of HHL algorithm and several related quantum machine learning\nalgorithms will be discussed. We also found that these caveats affect HHL\nalgorithm much deeper than the already noticed caveats. In order to obtain more\npractical quantum machine learning algorithms with less assumptions based on\nHHL algorithm, we should pay more attention to these caveats.",
+    "authors": [
+      "Changpeng Shao"
+    ],
+    "publication_date": "2018-03-05T03:53:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.01486v1",
+    "download_url": "http://arxiv.org/abs/1803.01486v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Branch and bound algorithm for the traveling salesman problem is not a\n  direct type algorithm",
+    "abstract": "In this paper, we consider the notion of a direct type algorithm introduced\nby V.A. Bondarenko in 1983. A direct type algorithm is a linear decision tree\nwith some special properties. Until recently, it was thought that the class of\ndirect type algorithms is wide and includes many classical combinatorial\nalgorithms, including the branch and bound algorithm for the traveling salesman\nproblem, proposed by J.D.C. Little, K.G. Murty, D.W. Sweeney, C. Karel in 1963.\nWe show that this algorithm is not a direct type algorithm.",
+    "authors": [
+      "Aleksandr Maksimenko"
+    ],
+    "publication_date": "2018-11-07T17:33:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.03031v1",
+    "download_url": "http://arxiv.org/abs/1811.03031v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multi-User Remote lab: Timetable Scheduling Using Simplex Nondominated\n  Sorting Genetic Algorithm",
+    "abstract": "The scheduling of multi-user remote laboratories is modeled as a multimodal\nfunction for the proposed optimization algorithm. The hybrid optimization\nalgorithm, hybridization of the Nelder-Mead Simplex algorithm and Non-dominated\nSorting Genetic Algorithm (NSGA), is proposed to optimize the timetable problem\nfor the remote laboratories to coordinate shared access. The proposed algorithm\nutilizes the Simplex algorithm in terms of exploration, and NSGA for sorting\nlocal optimum points with consideration of potential areas. The proposed\nalgorithm is applied to difficult nonlinear continuous multimodal functions,\nand its performance is compared with hybrid Simplex Particle Swarm\nOptimization, Simplex Genetic Algorithm, and other heuristic algorithms.",
+    "authors": [
+      "Seid Miad Zandavi",
+      "Vera Chung",
+      "Ali Anaissi"
+    ],
+    "publication_date": "2020-03-26T02:31:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.11708v1",
+    "download_url": "http://arxiv.org/abs/2003.11708v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A quantum algorithm for greatest common divisor problem",
+    "abstract": "We present a quantum algorithm solving the greatest common divisor (GCD)\nproblem. This quantum algorithm possesses similar computational complexity with\nclassical algorithms, such as the well-known Euclidean algorithm for GCD. This\nalgorithm is an application of the quantum algorithms for the hidden subgroup\nproblems, the same as Shor factoring algorithm. Explicit quantum circuits\nrealized by quantum gates for this quantum algorithm are provided. We also give\na computer simulation of this quantum algorithm and present the expected\noutcomes for the corresponding quantum circuit.",
+    "authors": [
+      "Wen Wang",
+      "Xu Jiang",
+      "Liang-zhu Mu",
+      "Heng Fan"
+    ],
+    "publication_date": "2017-07-20T09:51:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1707.06430v2",
+    "download_url": "http://arxiv.org/abs/1707.06430v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Beetle Swarm Optimization Algorithm:Theory and Application",
+    "abstract": "In this paper, a new meta-heuristic algorithm, called beetle swarm\noptimization algorithm, is proposed by enhancing the performance of swarm\noptimization through beetle foraging principles. The performance of 23\nbenchmark functions is tested and compared with widely used algorithms,\nincluding particle swarm optimization algorithm, genetic algorithm (GA) and\ngrasshopper optimization algorithm . Numerical experiments show that the beetle\nswarm optimization algorithm outperforms its counterparts. Besides, to\ndemonstrate the practical impact of the proposed algorithm, two classic\nengineering design problems, namely, pressure vessel design problem and\nhimmelblaus optimization problem, are also considered and the proposed beetle\nswarm optimization algorithm is shown to be competitive in those applications.",
+    "authors": [
+      "Tiantian Wang",
+      "Long Yang"
+    ],
+    "publication_date": "2018-08-01T07:34:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1808.00206v2",
+    "download_url": "http://arxiv.org/abs/1808.00206v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algorithmic Collusion is Algorithm Orchestration",
+    "abstract": "This paper proposes a fresh `meta-game' perspective on the problem of\nalgorithmic collusion in pricing games a la Bertrand. Economists have\ninterpreted the fact that algorithms can learn to price collusively as tacit\ncollusion. We argue instead that the co-parametrization of algorithms -- that\nwe show is necessary to obtain algorithmic collusion -- requires algorithm\ndesigner(s) to engage in explicit collusion by algorithm orchestration. To\nhighlight this, we model a meta-game of algorithm parametrization that is\nplayed by algorithm designers, and the relevant strategic analyses at that\nlevel reveal new equilibrium and collusion phenomena.",
+    "authors": [
+      "Cesare Carissimo",
+      "Fryderyk Falniowski",
+      "Siavash Rahimi",
+      "Heinrich Nax"
+    ],
+    "publication_date": "2025-08-20T15:16:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.14766v1",
+    "download_url": "http://arxiv.org/abs/2508.14766v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On Euclidean Algorithms for oriented linear Grassmanians",
+    "abstract": "In this paper we study Euclidean algorithms and the corresponding continued\nfractions for oriented linear Grassmanians $G(k,n)$. We propose two algorithms:\nMaximal Element Elimination algorithm and Minimal Element Elimination\nalgorithm. The first algorithm reduces the absolute maximal value of the\nPl\\\"ucker coordinates; the algorithm works only in $G(2,n)$. The second\nalgorithm eliminates the Pl\\\"ucker coordinate with the smallest absolute\nvalues, while all other coordinates may increase; the algorithm works for\narbitrary $G(2,n)$. We discuss basic features of these algorithms and formulate\nseveral natural open questions for further studies.",
+    "authors": [
+      "Maxim Arnold",
+      "Oleg Karpenkov"
+    ],
+    "publication_date": "2025-09-01T19:28:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.01733v2",
+    "download_url": "http://arxiv.org/abs/2509.01733v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Yet Another Efficient Unification Algorithm",
+    "abstract": "The unification algorithm is at the core of the logic programming paradigm,\nthe first unification algorithm being developed by Robinson [5]. More efficient\nalgorithms were developed later [3] and I introduce here yet another efficient\nunification algorithm centered on a specific data structure, called the\nUnification Table.",
+    "authors": [
+      "Alin Suciu"
+    ],
+    "publication_date": "2006-03-20T20:15:38Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0603080v1",
+    "download_url": "http://arxiv.org/abs/cs/0603080v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Combining Approximation Algorithms for the Prize-Collecting TSP",
+    "abstract": "We present a 1.91457-approximation algorithm for the prize-collecting\ntravelling salesman problem. This is obtained by combining a randomized variant\nof a rounding algorithm of Bienstock et al. and a primal-dual algorithm of\nGoemans and Williamson.",
+    "authors": [
+      "Michel X. Goemans"
+    ],
+    "publication_date": "2009-10-03T15:48:44Z",
+    "arxiv_id": "http://arxiv.org/abs/0910.0553v1",
+    "download_url": "http://arxiv.org/abs/0910.0553v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Another Disjoint Compression Algorithm for OCT",
+    "abstract": "We describe an elegant O*(2^k) algorithm for the disjoint compression problem\nfor Odd Cycle Transversal based on a reduction to Above Guarantee Vertex Cover.\nWe believe that this algorithm refines the understanding of the Odd Cycle\nTransversal algorithm by Reed, Smith and Vetta.",
+    "authors": [
+      "R. Krithika",
+      "N. S. Narayanaswamy"
+    ],
+    "publication_date": "2013-03-07T12:58:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1303.1671v1",
+    "download_url": "http://arxiv.org/abs/1303.1671v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Understanding Zadimoghaddam's Edge-weighted Online Matching Algorithm:\n  Unweighted Case",
+    "abstract": "This article identifies a key algorithmic ingredient in the edge-weighted\nonline matching algorithm by Zadimoghaddam (2017) and presents a simplified\nalgorithm and its analysis to demonstrate how it works in the unweighted case.",
+    "authors": [
+      "Zhiyi Huang",
+      "Runzhou Tao"
+    ],
+    "publication_date": "2019-10-07T01:03:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.02569v1",
+    "download_url": "http://arxiv.org/abs/1910.02569v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Parallel Minimum Spanning Tree Algorithms and Evaluation",
+    "abstract": "Minimum Spanning Tree (MST) is an important graph algorithm that has wide\nranging applications in the areas of computer networks, VLSI routing, wireless\ncommunications among others. Today virtually every computer is built out of\nmulti-core processors. Hence it is important to take advantage of such parallel\ncomputing power by parallelizing existing algorithms and applications. Most of\nthe earlier work on parallelizing MST focused on algorithms for PRAM models.\nThere are two limitations to such studies. First, PRAM models assume infinite\nmemory bandwidth which is unrealistic. Second, PRAM model based algorithms\nrequire at least O(n) processors where n being total number of vertices. For\nlarge graphs this is infeasible. There are very few implementations which\ntarget real systems. In this paper I present and evaluate two new parallel MST\nalgorithms that are a variant of Parallel Boruvka algorithms: i) First\nalgorithm uses lock variables without spin-locks ii) Second algorithm uses only\natomic compare-and-swap (CAS) primitive. I evaluated the performance of these\nalgorithms on a six-core, 12-thread Intel system on various input graphs of\nsizes up to 1 million vertices. First algorithm showed a speedup of up to1.94\nover an un-optimized sequential algorithm and a speedup of up to 1.4 over an\noptimized sequential algorithm. Second algorithm showed a speedup of up to 2.03\nover an un-optimized sequential algorithm and a speedup of up to 1.403 over an\noptimized sequential algorithm. When second algorithm using CAS is compared\nwith the first algorithm second algorithm is found to be up to 1.15 times\nbetter than the first algorithm at four threads.",
+    "authors": [
+      "Suryanarayana Murthy Durbhakula"
+    ],
+    "publication_date": "2020-05-14T12:30:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.06913v1",
+    "download_url": "http://arxiv.org/abs/2005.06913v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modular Multiplication without Carry Propagation (Algorithm Description)",
+    "abstract": "This paper describes a sufficiently simple modular multiplication algorithm,\nwhich uses only carry-save addition with bit inspection Boolean logic and\nwithout number comparison or carry propagation.",
+    "authors": [
+      "Oleg Mazonka"
+    ],
+    "publication_date": "2022-07-27T09:10:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.14401v1",
+    "download_url": "http://arxiv.org/abs/2207.14401v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Feasibility Analysis of Grover-meets-Simon Algorithm",
+    "abstract": "Quantum algorithm is a key tool for cryptanalysis. At present, people are\ncommitted to building powerful quantum algorithms and tapping the potential of\nquantum algorithms, so as to further analyze the security of cryptographic\nalgorithms under quantum computing. Recombining classical quantum algorithms is\none of the current ideas to construct quantum algorithms. However, they cannot\nbe easily combined, the feasibility of quantum algorithms needs further\nanalysis in quantum environment. This paper reanalyzes the existing combined\nalgorithm Grover-meets-Simon algorithm in terms of the principle of deferred\nmeasurement. First of all, due to the collapse problem caused by the\nmeasurement, we negate the measurement process of Simon's algorithm during the\nprocess of the Grover-meets-Simon algorithm. Second, since the output of the\nunmeasured Simon algorithm is quantum linear systems of equations, we discuss\nthe solution of quantum linear systems of equations and find it feasible to\nconsider the deferred measurement of the parallel Simon algorithm alone.\nFinally, since the Grover-meets-Simon algorithm involves an iterative problem,\nwe reconsider the feasibility of the algorithm when placing multiple\nmeasurements at the end. According to the maximum probability of success and\nquery times, we get that the Grover-meets-Simon algorithm is not an effective\nattack algorithm when putting the measurement process of the Simon algorithm in\nthe iterative process at the end of Grover-meets-Simon algorithm.",
+    "authors": [
+      "Qianru Zhu",
+      "Huiqin Xie",
+      "Qiqing Xia",
+      "Li Yang"
+    ],
+    "publication_date": "2023-01-17T05:13:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2301.06706v1",
+    "download_url": "http://arxiv.org/abs/2301.06706v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Online Optimization Algorithms in Repeated Price Competition:\n  Equilibrium Learning and Algorithmic Collusion",
+    "abstract": "This paper addresses the question of whether or not uncoupled online learning\nalgorithms converge to the Nash equilibrium in pricing competition or whether\nthey can learn to collude. Algorithmic collusion has been debated among\ncompetition regulators, and it is a highly relevant phenomenon for buyers and\nsellers on online retail platforms. We analyze formally if mean-based\nalgorithms, a class of bandit algorithms relevant to algorithmic pricing,\nconverge to the Nash equilibrium in repeated Bertrand oligopolies. Bandit\nalgorithms only learn the profit of the agent for the price set in each step.\nIn addition, we provide results of extensive experiments with different types\nof multi-armed bandit algorithms used for algorithmic pricing. In a\nmathematical proof, we show that mean-based algorithms converge to correlated\nrational strategy profiles, which coincide with the Nash equilibrium in\nversions of the Bertrand competition. Learning algorithms do not converge to a\nNash equilibrium in general, and the fact that Bertrand pricing games are\nlearnable with bandit algorithms is remarkable. Our numerical results suggest\nthat wide-spread bandit algorithms that are not mean-based also converge to\nequilibrium and that algorithmic collusion only arises with symmetric\nimplementations of UCB or Q-learning, but not if different algorithms are used\nby sellers. In addition, the level of supra-competitive prices decreases with\nincreasing numbers of sellers. Supra-competitive prices decrease consumer\nwelfare. If algorithms lead to algorithmic collusion, this is important for\nconsumers, sellers, and regulators to understand. We show that for the\nimportant class of multi-armed bandit algorithms such fears are overrated\nunless all sellers agree on a symmetric implementation of certain collusive\nalgorithms.",
+    "authors": [
+      "Martin Bichler",
+      "Julius Durmann",
+      "Matthias Oberlechner"
+    ],
+    "publication_date": "2024-12-20T09:29:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.15707v1",
+    "download_url": "http://arxiv.org/abs/2412.15707v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimal Constructions of Hybrid Algorithms",
+    "abstract": "We study on-line strategies for solving problems with hybrid algorithms.\nThere is a problem Q and w basic algorithms for solving Q. For some lambda <=\nw, we have a computer with lambda disjoint memory areas, each of which can be\nused to run a basic algorithm and store its intermediate results. In the worst\ncase, only one basic algorithm can solve Q in finite time, and all the other\nbasic algorithms run forever without solving Q. To solve Q with a hybrid\nalgorithm constructed from the basic algorithms, we run a basic algorithm for\nsome time, then switch to another, and continue this process until Q is solved.\nThe goal is to solve Q in the least amount of time. Using competitive ratios to\nmeasure the efficiency of a hybrid algorithm, we construct an optimal\ndeterministic hybrid algorithm and an efficient randomized hybrid algorithm.\nThis resolves an open question on searching with multiple robots posed by\nBaeza-Yates, Culberson and Rawlins. We also prove that our randomized algorithm\nis optimal for lambda = 1, settling a conjecture of Kao, Reif and Tate.",
+    "authors": [
+      "Ming-Yang Kao",
+      "Yuan Ma",
+      "Michael Sipser",
+      "Yiqun Yin"
+    ],
+    "publication_date": "2001-01-26T01:44:19Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0101028v1",
+    "download_url": "http://arxiv.org/abs/cs/0101028v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reduction algorithm for the NPMLE for the distribution function of\n  bivariate interval censored data",
+    "abstract": "We study computational aspects of the nonparametric maximum likelihood\nestimator (NPMLE) for the distribution function of bivariate interval censored\ndata. The computation of the NPMLE consists of two steps: a parameter reduction\nstep and an optimization step. In this paper we focus on the reduction step. We\nintroduce two new reduction algorithms: the Tree algorithm and the HeightMap\nalgorithm. The Tree algorithm is only mentioned briefly. The HeightMap\nalgorithm is discussed in detail and also given in pseudo code. It is a very\nfast and simple algorithm of time complexity O(n^2). This is an order faster\nthan the best known algorithm thus far, the O(n^3) algorithm of Bogaerts and\nLesaffre (2003). We compare our algorithms with the algorithms of Gentleman and\nVandal (2001), Song (2001) and Bogaerts and Lesaffre (2003), using simulated\ndata. We show that our algorithms, and especially the HeightMap algorithm, are\nsignificantly faster. Finally, we point out that the HeightMap algorithm can be\neasily generalized to d-dimensional data with d>2. Such a multivariate version\nof the HeightMap algorithm has time complexity O(n^d).",
+    "authors": [
+      "Marloes H. Maathuis"
+    ],
+    "publication_date": "2009-06-17T15:29:16Z",
+    "arxiv_id": "http://arxiv.org/abs/0906.3215v1",
+    "download_url": "http://arxiv.org/abs/0906.3215v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fast Clustering using MapReduce",
+    "abstract": "Clustering problems have numerous applications and are becoming more\nchallenging as the size of the data increases. In this paper, we consider\ndesigning clustering algorithms that can be used in MapReduce, the most popular\nprogramming environment for processing large datasets. We focus on the\npractical and popular clustering problems, $k$-center and $k$-median. We\ndevelop fast clustering algorithms with constant factor approximation\nguarantees. From a theoretical perspective, we give the first analysis that\nshows several clustering algorithms are in $\\mathcal{MRC}^0$, a theoretical\nMapReduce class introduced by Karloff et al. \\cite{KarloffSV10}. Our algorithms\nuse sampling to decrease the data size and they run a time consuming clustering\nalgorithm such as local search or Lloyd's algorithm on the resulting data set.\nOur algorithms have sufficient flexibility to be used in practice since they\nrun in a constant number of MapReduce rounds. We complement these results by\nperforming experiments using our algorithms. We compare the empirical\nperformance of our algorithms to several sequential and parallel algorithms for\nthe $k$-median problem. The experiments show that our algorithms' solutions are\nsimilar to or better than the other algorithms' solutions. Furthermore, on data\nsets that are sufficiently large, our algorithms are faster than the other\nparallel algorithms that we tested.",
+    "authors": [
+      "Alina Ene",
+      "Sungjin Im",
+      "Benjamin Moseley"
+    ],
+    "publication_date": "2011-09-07T21:10:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1109.1579v1",
+    "download_url": "http://arxiv.org/abs/1109.1579v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "CCCP Algorithms to Minimize the Bethe free energy of 3-SAT Problem",
+    "abstract": "The k-sat problem is a prototypical constraint satisfaction problem. There\nare many algorithms to study k-sat problem, BP algorithm is famous one of them.\nBut BP algorithm does not converge when $\\alpha$(constraint density)is bigger\nthan some threshold value. In this paper we use CCCP (Concave Convex Procedure)\nalgorithm to study 3-sat problem and we get better results than BP algorithm\nthat CCCP algorithm still converges when BP algorithm does not converge. Our\nwork almost builds on recent results by Yuille \\cite{Yuille2002} who apply the\nCCCP algorithm to Bethe and Kikuchi free energies and obtained two algorithms\non 2D and 3D spin glasses. Our implementation of CCCP algorithm on 3-sat\nproblem is some different from his implementation and we have some different\nviews about CCCP algorithm's some properties. Some difference of these maybe\nbecause of CCCP algorithm have different properties and implementation process\non different problem and some others of these are related to the CCCP algorithm\nitself. Our work indicates that CCCP algorithm has more learning and inference\napplications.",
+    "authors": [
+      "Yusupjan Habibulla"
+    ],
+    "publication_date": "2014-06-16T15:18:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1406.4041v2",
+    "download_url": "http://arxiv.org/abs/1406.4041v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Algebraic Formalization of Forward and Forward-backward Algorithms",
+    "abstract": "In this paper, we propose an algebraic formalization of the two important\nclasses of dynamic programming algorithms called forward and forward-backward\nalgorithms. They are generalized extensively in this study so that a wide range\nof other existing algorithms is subsumed. Forward algorithms generalized in\nthis study subsume the ordinary forward algorithm on trellises for sequence\nlabeling, the inside algorithm on derivation forests for CYK parsing, a\nunidirectional message passing on acyclic factor graphs, the forward mode of\nautomatic differentiation on computation graphs with addition and\nmultiplication, and so on. In addition, we reveal algebraic structures\nunderlying complicated computation with forward algorithms. By the aid of the\nrevealed algebraic structures, we also propose a systematic framework to design\ncomplicated variants of forward algorithms. Forward-backward algorithms\ngeneralized in this study subsume the ordinary forward-backward algorithm on\ntrellises for sequence labeling, the inside-outside algorithm on derivation\nforests for CYK parsing, the sum-product algorithm on acyclic factor graphs,\nthe reverse mode of automatic differentiation (a.k.a. back propagation) on\ncomputation graphs with addition and multiplication, and so on. We also propose\nan algebraic characterization of what can be computed by forward-backward\nalgorithms and elucidate the relationship between forward and forward-backward\nalgorithms.",
+    "authors": [
+      "Ai Azuma",
+      "Masashi Shimbo",
+      "Yuji Matsumoto"
+    ],
+    "publication_date": "2017-02-22T18:56:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1702.06941v1",
+    "download_url": "http://arxiv.org/abs/1702.06941v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Synchronization Clustering based on a Linearized Version of Vicsek model",
+    "abstract": "This paper presents a kind of effective synchronization clustering method\nbased on a linearized version of Vicsek model. This method can be represented\nby an Effective Synchronization Clustering algorithm (ESynC), an Improved\nversion of ESynC algorithm (IESynC), a Shrinking Synchronization Clustering\nalgorithm based on another linear Vicsek model (SSynC), and an effective\nMulti-level Synchronization Clustering algorithm (MSynC). After some analysis\nand comparisions, we find that ESynC algorithm based on the Linearized version\nof the Vicsek model has better synchronization effect than SynC algorithm based\non an extensive Kuramoto model and a similar synchronization clustering\nalgorithm based on the original Vicsek model. By simulated experiments of some\nartificial data sets, we observe that ESynC algorithm, IESynC algorithm, and\nSSynC algorithm can get better synchronization effect although it needs less\niterative times and less time than SynC algorithm. In some simulations, we also\nobserve that IESynC algorithm and SSynC algorithm can get some improvements in\ntime cost than ESynC algorithm. At last, it gives some research expectations to\npopularize this algorithm.",
+    "authors": [
+      "Xinquan Chen"
+    ],
+    "publication_date": "2014-11-02T01:09:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1411.0189v1",
+    "download_url": "http://arxiv.org/abs/1411.0189v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

@@ -1,0 +1,857 @@
+[
+  {
+    "title": "Robust Causality and False Attribution in Data-Driven Earth Science\n  Discoveries",
+    "abstract": "Causal and attribution studies are essential for earth scientific discoveries\nand critical for informing climate, ecology, and water policies. However, the\ncurrent generation of methods needs to keep pace with the complexity of\nscientific and stakeholder challenges and data availability combined with the\nadequacy of data-driven methods. Unless carefully informed by physics, they run\nthe risk of conflating correlation with causation or getting overwhelmed by\nestimation inaccuracies. Given that natural experiments, controlled trials,\ninterventions, and counterfactual examinations are often impractical,\ninformation-theoretic methods have been developed and are being continually\nrefined in the earth sciences. Here we show that transfer entropy-based causal\ngraphs, which have recently become popular in the earth sciences with\nhigh-profile discoveries, can be spurious even when augmented with statistical\nsignificance. We develop a subsample-based ensemble approach for robust\ncausality analysis. Simulated data, and observations in climate and\necohydrology, suggest the robustness and consistency of this approach.",
+    "authors": [
+      "Elizabeth Eldhose",
+      "Tejasvi Chauhan",
+      "Vikram Chandel",
+      "Subimal Ghosh",
+      "Auroop R. Ganguly"
+    ],
+    "publication_date": "2022-09-26T10:45:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.12580v1",
+    "download_url": "http://arxiv.org/abs/2209.12580v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quasistatic kinetic avalanches and self-organized criticality in\n  deviatorically loaded granular media",
+    "abstract": "The behavior of granular media under quasi-static loading has recently been\nshown to attain a stable evolution state corresponding to a manifold in the\nspace of micromechanical variables. This state is characterized by sudden\ntransitions between metastable jammed states, involving the partial\nmicromechanical rearrangement of the granular medium. Using numerical\nsimulations of two-dimensional granular media under quasistatic biaxial\ncompression, we show that the dynamics in the stable evolution state is\ncharacterized by scale-free avalanches well before the macromechanical\nstationary flow regime traditionally linked to a self-organized critical state.\nThis, together with the non-uniqueness and the non-monotony of macroscopic\ndeformation curves, suggests that the statistical avalanche properties and the\nsusceptibilities of the system cannot be reduced to a function of the\nmacromechanical state. The associated scaling exponents are non-universal and\ndepend on the interactions between particles. For stiffer particles (or samples\nat low confining pressure) we find distributions of avalanche properties\ncompatible with the predictions of mean-field theory. The scaling exponents\ndecrease below the mean-field values for softer interactions between particles.\nThese lower exponents are consistent with observations for amorphous solids at\ntheir critical point. We specifically discuss the relationship between\nmicroscopic and macroscopic variables, including the relation between the\nexternal stress drop and the internal potential energy released during kinetic\navalanches.",
+    "authors": [
+      "Jordi Baró",
+      "Mehdi Pouragha",
+      "Richard Wan",
+      "Jörn Davidsen"
+    ],
+    "publication_date": "2021-05-13T16:06:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.06375v1",
+    "download_url": "http://arxiv.org/abs/2105.06375v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Democratizing Aviation Emissions Estimation: Development of an\n  Open-Source, Data-Driven Methodology",
+    "abstract": "Through an aviation emissions estimation tool that is both\npublicly-accessible and comprehensive, researchers, planners, and community\nadvocates can help shape a more sustainable and equitable U.S. air\ntransportation system. To this end, we develop an open-source, data-driven\nmethodology to calculate the system-wide emissions of the U.S. domestic civil\naviation industry. This process utilizes and integrates six different public\ndatasets provided by the Bureau of Transportation Statistics (BTS), the Federal\nAviation Agency (FAA), EUROCONTROL, and the International Civil Aviation\nOrganization (ICAO). At the individual flight level, our approach examines the\nspecific aircraft type, equipped engine, and time in stage of flight to produce\na more granular estimate than competing approaches. Enabled by our methodology,\nwe then calculate system-wide emissions, considering four different greenhouse\ngases (CO2, NOx, CO, HC) during the Landing, Take-off (LTO) and Climb, Cruise,\nand Descent (CCD) flight cycles. Our results elucidate that emissions on a\nparticular route can vary significantly due to aircraft and engine choice, and\nthat emission rates differ significantly from airline to airline. We also find\nthat CO2 alone is not a sufficient proxy for emissions, as NOx, when converted\nto its CO2-equivalency, exceeds CO2 during both LTO and CCD.",
+    "authors": [
+      "Andy Eskenazi",
+      "Landon Butler",
+      "Arnav Joshi",
+      "Megan Ryerson"
+    ],
+    "publication_date": "2022-02-13T17:16:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.11208v2",
+    "download_url": "http://arxiv.org/abs/2202.11208v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modeling Adaptive Platoon and Reservation Based Autonomous Intersection\n  Control: A Deep Reinforcement Learning Approach",
+    "abstract": "As a strategy to reduce travel delay and enhance energy efficiency,\nplatooning of connected and autonomous vehicles (CAVs) at non-signalized\nintersections has become increasingly popular in academia. However, few studies\nhave attempted to model the relation between the optimal platoon size and the\ntraffic conditions around the intersection. To this end, this study proposes an\nadaptive platoon based autonomous intersection control model powered by deep\nreinforcement learning (DRL) technique. The model framework has following two\nlevels: the first level adopts a First Come First Serve (FCFS) reservation\nbased policy integrated with a nonconflicting lane selection mechanism to\ndetermine vehicles' passing priority; and the second level applies a deep\nQ-network algorithm to identify the optimal platoon size based on the real-time\ntraffic condition of an intersection. When being tested on a traffic\nmicro-simulator, our proposed model exhibits superior performances on travel\nefficiency and fuel conservation as compared to the state-of-the-art methods.",
+    "authors": [
+      "Duowei Li",
+      "Jianping Wu",
+      "Feng Zhu",
+      "Tianyi Chen",
+      "Yiik Diew Wong"
+    ],
+    "publication_date": "2022-06-24T08:50:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.12419v1",
+    "download_url": "http://arxiv.org/abs/2206.12419v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Large-Scale Modular and Uniformly Thick Origami-Inspired Adaptable and\n  Load-Carrying Structures",
+    "abstract": "Existing Civil Engineering structures have limited capability to adapt their\nconfigurations for new functions, non-stationary environments, or future reuse.\nAlthough origami principles provide capabilities of dense packaging and\nreconfiguration, existing origami systems have not achieved deployable\nmetre-scale structures that can support large loads. Here, we established\nmodular and uniformly thick origami-inspired structures that can deploy into\nmetre-scale structures, adapt into different shapes, and carry remarkably large\nloads. This work first derives general conditions for degree-N origami vertices\nto be flat foldable, developable, and uniformly thick, and uses these\nconditions to create the proposed origami-inspired structures. We then show\nthat these origami-inspired structures can utilize high modularity for rapid\nrepair and adaptability of shapes and functions; can harness multi-path folding\nmotions to reconfigure between storage and structural states; and can exploit\nuniform thickness to carry large loads. We believe concepts of modular and\nuniformly thick origami-inspired structures will challenge traditional practice\nin Civil Engineering by enabling large-scale, adaptable, deployable, and\nload-carrying structures, and offer broader applications in aerospace systems,\nspace habitats, robotics, and more.",
+    "authors": [
+      "Yi Zhu",
+      "Evgueni T. Filipov"
+    ],
+    "publication_date": "2023-10-04T20:47:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.03155v4",
+    "download_url": "http://arxiv.org/abs/2310.03155v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Iris Liveness Detection Competition (LivDet-Iris) -- The 2023 Edition",
+    "abstract": "This paper describes the results of the 2023 edition of the ''LivDet'' series\nof iris presentation attack detection (PAD) competitions. New elements in this\nfifth competition include (1) GAN-generated iris images as a category of\npresentation attack instruments (PAI), and (2) an evaluation of human accuracy\nat detecting PAI as a reference benchmark. Clarkson University and the\nUniversity of Notre Dame contributed image datasets for the competition,\ncomposed of samples representing seven different PAI categories, as well as\nbaseline PAD algorithms. Fraunhofer IGD, Beijing University of Civil\nEngineering and Architecture, and Hochschule Darmstadt contributed results for\na total of eight PAD algorithms to the competition. Accuracy results are\nanalyzed by different PAI types, and compared to human accuracy. Overall, the\nFraunhofer IGD algorithm, using an attention-based pixel-wise binary\nsupervision network, showed the best-weighted accuracy results (average\nclassification error rate of 37.31%), while the Beijing University of Civil\nEngineering and Architecture's algorithm won when equal weights for each PAI\nwere given (average classification rate of 22.15%). These results suggest that\niris PAD is still a challenging problem.",
+    "authors": [
+      "Patrick Tinsley",
+      "Sandip Purnapatra",
+      "Mahsa Mitcheff",
+      "Aidan Boyd",
+      "Colton Crum",
+      "Kevin Bowyer",
+      "Patrick Flynn",
+      "Stephanie Schuckers",
+      "Adam Czajka",
+      "Meiling Fang",
+      "Naser Damer",
+      "Xingyu Liu",
+      "Caiyong Wang",
+      "Xianyun Sun",
+      "Zhaohua Chang",
+      "Xinyue Li",
+      "Guangzhe Zhao",
+      "Juan Tapia",
+      "Christoph Busch",
+      "Carlos Aravena",
+      "Daniel Schulz"
+    ],
+    "publication_date": "2023-10-06T19:07:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.04541v1",
+    "download_url": "http://arxiv.org/abs/2310.04541v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Damage Localisation in Fresh Cement Mortar Observed via In Situ\n  (Timelapse) X-ray μCT imaging",
+    "abstract": "This paper presents the outcome of a study focused on the evolution of\ninternal damage in fresh cement mortar over 25 hours of hardening. In situ\ntimelapse X-ray computed micro-tomography ({\\mu}XCT) imaging method was used to\ndetect internal damage and capture its evolution in cement mortar hardening.\nDuring {\\mu}XCT scans, the temperature released during the cement hydration was\nmeasured, which provided insight into the internal damage evolution with a link\nto a hydration temperature rise. The measured temperature during cement mortar\nhardening was compared with an analytical model, which showed a relatively good\nagreement with the experimental data. Using 20 CT scans acquired throughout the\nobserved cement mortar hardening, it was possible to obtain a quantified\ncharacterisation of the porous space. Additionally, the use of timelapse\n{\\mu}XCT imaging over 25 hours allowed for studying the crack growth inside the\nmeso-structure including its volume and surface characterisation. The results\nprovide valuable insights into cement mortar shrinkage and serve as a\nproof-of-concept methodology for future material characterisation.",
+    "authors": [
+      "Petr Miarka",
+      "Daniel Kytýř",
+      "Petr Koudelka",
+      "Vlastimil Bílek"
+    ],
+    "publication_date": "2024-01-22T14:41:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.11988v4",
+    "download_url": "http://arxiv.org/abs/2401.11988v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Performance Evaluation of Damping Systems in Civil Engineering\n  Structures Via Minimal Sensor",
+    "abstract": "To control structural responses under various actions, the growing use of\nsupplementary damping systems in modern civil engineering structures\nnecessitates inspecting and evaluating their operational performance\npostinstallation. However, due to the dispersed placement and complex\nnonlinearities of these devices, difficulties arise in determining minimal\nsensor configuration. This is inherently connected to a pivotal challenge:\nestablishing a reliable input-output mapping, which comprises both the\nmathematical model and sensor arrangements. Prior work indicates this can be\nachieved through theoretical observability analysis or Lie symmetries analysis,\nboth of which provide different perspectives on the existence of a way to\naccess the solutions of a system identification problem uniquely (at least\nlocally). The present study introduces a unified framework, enhanced by\nalgorithm realization as an application guide, for analyzing the observability\nand Lie symmetries of a given input-output mapping. We demonstrate its\nimplementation via examples of a building structure with various damping\nsystems under different conditions such as seismic loads, wind loads, and\noperational vibrations. Finally, we present a case study for an isolation\nbuilding with an inerter damper and minimal sensor arrangement under seismic\naction. The results demonstrate that the unscented Kalman filter, a system\nidentification method, can precisely estimate structural responses and assess\ndamping device performance once a reliable input-output mapping is established.",
+    "authors": [
+      "Xinhao He",
+      "Dan Li"
+    ],
+    "publication_date": "2024-06-01T09:11:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.00372v1",
+    "download_url": "http://arxiv.org/abs/2406.00372v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Prediction of the Most Fire-Sensitive Point in Building Structures with\n  Differentiable Agents for Thermal Simulators",
+    "abstract": "Fire safety is crucial for ensuring the stability of building structures, yet\nevaluating whether a structure meets fire safety requirement is challenging.\nFires can originate at any point within a structure, and simulating every\npotential fire scenario is both expensive and time-consuming. To address this\nchallenge, we propose the concept of the Most Fire-Sensitive Point (MFSP) and\nan efficient machine learning framework for its identification. The MFSP is\ndefined as the location at which a fire, if initiated, would cause the most\nsevere detrimental impact on the building's stability, effectively representing\nthe worst-case fire scenario. In our framework, a Graph Neural Network (GNN)\nserves as an efficient and differentiable agent for conventional Finite Element\nAnalysis (FEA) simulators by predicting the Maximum Interstory Drift Ratio\n(MIDR) under fire, which then guides the training and evaluation of the MFSP\npredictor. Additionally, we enhance our framework with a novel edge update\nmechanism and a transfer learning-based training scheme. Evaluations on a\nlarge-scale simulation dataset demonstrate the good performance of the proposed\nframework in identifying the MFSP, offering a transformative tool for\noptimizing fire safety assessments in structural design. All developed datasets\nand codes are open-sourced online.",
+    "authors": [
+      "Yuan Xinjie",
+      "Khalid M. Mosalam"
+    ],
+    "publication_date": "2025-02-05T18:14:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.03424v5",
+    "download_url": "http://arxiv.org/abs/2502.03424v5",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Factors Influencing Change Orders in Horizontal Construction Projects: A\n  Comparative Analysis of Unit Price and Lump Sum Contracts",
+    "abstract": "Change orders (COs) are a common occurrence in construction projects, leading\nto increased costs and extended durations. Design-Bid-Build (DBB) projects,\nfavored by state transportation agencies (STAs), often experience a higher\nfrequency of COs compared to other project delivery methods. This study aims to\nidentify areas of improvement to reduce CO frequency in DBB projects through a\nquantitative analysis. Historical bidding data from the Florida Department of\nTransportation (FDOT) was utilized to evaluate five factors, contracting\ntechnique, project location, type of work, project size, and duration, on\nspecific horizontal construction projects. Two DBB contracting techniques, Unit\nPrice (UP) and Lump Sum (LS), were evaluated using a discrete choice model. The\nanalysis of 581 UP and 189 LS projects revealed that project size, duration,\nand type of work had a statistically significant influence on the frequency of\nchange orders at a 95% confidence level. The discrete choice model showed\nsignificant improvement in identifying the appropriate contract type for a\nspecific project compared to traditional methods used by STAs. By evaluating\nthe contracting technique instead of project delivery methods for horizontal\nconstruction projects, the use of DBB can be enhanced, leading to reduced\nchange orders for STAs.",
+    "authors": [
+      "Mohamed Khalafalla",
+      "Tejal Mulay",
+      "Shonda L Bernadin"
+    ],
+    "publication_date": "2025-06-30T21:43:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.00281v1",
+    "download_url": "http://arxiv.org/abs/2507.00281v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "BIGNet: Pretrained Graph Neural Network for Embedding Semantic, Spatial,\n  and Topological Data in BIM Models",
+    "abstract": "Large Foundation Models (LFMs) have demonstrated significant advantages in\ncivil engineering, but they primarily focus on textual and visual data,\noverlooking the rich semantic, spatial, and topological features in BIM\n(Building Information Modelling) models. Therefore, this study develops the\nfirst large-scale graph neural network (GNN), BIGNet, to learn, and reuse\nmultidimensional design features embedded in BIM models. Firstly, a scalable\ngraph representation is introduced to encode the \"semantic-spatial-topological\"\nfeatures of BIM components, and a dataset with nearly 1 million nodes and 3.5\nmillion edges is created. Subsequently, BIGNet is proposed by introducing a new\nmessage-passing mechanism to GraphMAE2 and further pretrained with a node\nmasking strategy. Finally, BIGNet is evaluated in various transfer learning\ntasks for BIM-based design checking. Results show that: 1) homogeneous graph\nrepresentation outperforms heterogeneous graph in learning design features, 2)\nconsidering local spatial relationships in a 30 cm radius enhances performance,\nand 3) BIGNet with GAT (Graph Attention Network)-based feature extraction\nachieves the best transfer learning results. This innovation leads to a 72.7%\nimprovement in Average F1-score over non-pretrained models, demonstrating its\neffectiveness in learning and transferring BIM design features and facilitating\ntheir automated application in future design and lifecycle management.",
+    "authors": [
+      "Jin Han",
+      "Xin-Zheng Lu",
+      "Jia-Rui Lin"
+    ],
+    "publication_date": "2025-09-14T05:43:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.11104v1",
+    "download_url": "http://arxiv.org/abs/2509.11104v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Can AI Chatbots Pass the Fundamentals of Engineering (FE) and Principles\n  and Practice of Engineering (PE) Structural Exams?",
+    "abstract": "The engineering community has recently witnessed the emergence of chatbot\ntechnology with the release of OpenAI ChatGPT-4 and Google Bard. While these\nchatbots have been reported to perform well and even pass various standardized\ntests, including medical and law exams, this forum paper explores whether these\nchatbots can also pass the Fundamentals of Engineering (FE) and Principles and\nPractice of Engineering (PE) exams. A diverse range of civil and environmental\nengineering questions and scenarios are used to evaluate the chatbots'\nperformance, as commonly present in the FE and PE exams. The chatbots'\nresponses were analyzed based on their relevance, accuracy, and clarity and\nthen compared against the recommendations of the National Council of Examiners\nfor Engineering and Surveying (NCEES). Our report shows that ChatGPT-4 and\nBard, respectively scored 70.9% and 39.2% in the FE exam and 46.2% and 41% in\nthe PE exam. It is evident that the current version of ChatGPT-4 could\npotentially pass the FE exam. While future editions are much more likely to\npass both exams, this study also highlights the potential of using chatbots as\nteaching assistants and guiding engineers.",
+    "authors": [
+      "M. Z. Naser",
+      "Brandon Ross",
+      "Jennier Ogle",
+      "Venkatesh Kodur",
+      "Rami Hawileh",
+      "Jamal Abdalla",
+      "Huu-Tai Thai"
+    ],
+    "publication_date": "2023-03-31T15:37:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.18149v2",
+    "download_url": "http://arxiv.org/abs/2303.18149v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A new fractional operator of variable order: application in the\n  description of anomalous diffusion",
+    "abstract": "In this paper, a new fractional operator of variable order with the use of\nthe monotonic increasing function is proposed in sense of Caputo type. The\nproperties in term of the Laplace and Fourier transforms are analyzed and the\nresults for the anomalous diffusion equations of variable order are discussed.\nThe new formulation is efficient in modeling a class of concentrations in the\ncomplex transport process.",
+    "authors": [
+      "Xiao-Jun Yang",
+      "J. A. Tenreiro Machado"
+    ],
+    "publication_date": "2016-11-21T18:19:03Z",
+    "arxiv_id": "http://arxiv.org/abs/1611.09200v1",
+    "download_url": "http://arxiv.org/abs/1611.09200v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Crash Severity Risk Modeling Strategies under Data Imbalance",
+    "abstract": "This study investigates crash severity risk modeling strategies for work\nzones involving large vehicles (i.e., trucks, buses, and vans) under crash data\nimbalance between low-severity (LS) and high-severity (HS) crashes. We utilized\ncrash data involving large vehicles in South Carolina work zones from 2014 to\n2018, which included four times more LS crashes than HS crashes. The objective\nof this study is to evaluate the crash severity prediction performance of\nvarious statistical, machine learning, and deep learning models under different\nfeature selection and data balancing techniques. Findings highlight a disparity\nin LS and HS predictions, with lower accuracy for HS crashes due to class\nimbalance and feature overlap. Discriminative Mutual Information (DMI) yields\nthe most effective feature set for predicting HS crashes without requiring data\nbalancing, particularly when paired with gradient boosting models and deep\nneural networks such as CatBoost, NeuralNetTorch, XGBoost, and LightGBM. Data\nbalancing techniques such as NearMiss-1 maximize HS recall when combined with\nDMI-selected features and certain models such as LightGBM, making them\nwell-suited for HS crash prediction. Conversely, RandomUnderSampler, HS Class\nWeighting, and RandomOverSampler achieve more balanced performance, which is\ndefined as an equitable trade-off between LS and HS metrics, especially when\napplied to NeuralNetTorch, NeuralNetFastAI, CatBoost, LightGBM, and Bayesian\nMixed Logit (BML) using merged feature sets or models without feature\nselection. The insights from this study offer safety analysts guidance on\nselecting models, feature selection, and data balancing techniques aligned with\nspecific safety goals, providing a robust foundation for enhancing work-zone\ncrash severity prediction.",
+    "authors": [
+      "Abdullah Al Mamun",
+      "Abyad Enan",
+      "Debbie A. Indah",
+      "Judith Mwakalonge",
+      "Gurcan Comert",
+      "Mashrur Chowdhury"
+    ],
+    "publication_date": "2024-12-03T02:28:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.02094v2",
+    "download_url": "http://arxiv.org/abs/2412.02094v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimizing the reliability of a bank with Logistic Regression and\n  Particle Swarm Optimization",
+    "abstract": "It is well-known that disciplines such as mechanical engineering, electrical\nengineering, civil engineering, aerospace engineering, chemical engineering and\nsoftware engineering witnessed successful applications of reliability\nengineering concepts. However, the concept of reliability in its strict sense\nis missing in financial services. Therefore, in order to fill this gap, in a\nfirst-of-its-kind-study, we define the reliability of a bank/firm in terms of\nthe financial ratios connoting the financial health of the bank to withstand\nthe likelihood of insolvency or bankruptcy. For the purpose of estimating the\nreliability of a bank, we invoke a statistical and machine learning algorithm\nnamely, logistic regression (LR). Once, the parameters are estimated in the 1st\nstage, we fix them and treat the financial ratios as decision variables. Thus,\nin the 1st stage, we accomplish the hitherto unknown way of estimating the\nreliability of a bank. Subsequently, in the 2nd stage, in order to maximize the\nreliability of the bank, we formulate an unconstrained optimization problem in\na single-objective environment and solve it using the well-known particle swarm\noptimization (PSO) algorithm. Thus, in essence, these two stages correspond to\npredictive and prescriptive analytics respectively. The proposed 2-stage\nstrategy of using them in tandem is beneficial to the decision-makers within a\nbank who can try to achieve the optimal or near-optimal values of the financial\nratios in order to maximize the reliability which is tantamount to safeguarding\ntheir bank against solvency or bankruptcy.",
+    "authors": [
+      "Vadlamani Ravi",
+      "Vadlamani Madhav"
+    ],
+    "publication_date": "2020-03-31T00:37:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.11122v1",
+    "download_url": "http://arxiv.org/abs/2004.11122v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Spider Stellar Engine: a Fully Steerable Extraterrestrial Design?",
+    "abstract": "A long-lived civilization will inevitably have to migrate towards a nearby\nstar as its home star runs out of nuclear fuel. One way to achieve such a\nmigration is by transforming its star into a stellar engine, and to control its\nmotion in the galaxy. We first provide a brief overview of stellar engines and\nconclude that looking for technosignatures of stellar engines has taken two\nroads: on the observational side, hypervelocity stars have been the target of\nsuch searches, but without good candidates. On the theoretical side, stellar\nengine concepts have been proposed but are poorly linked to observable\ntechnosignatures. Since about half the stars in our galaxy are in binary\nsystems where life might develop too, we introduce a model of a binary stellar\nengine. We propose mechanisms for acceleration, deceleration, steering in the\norbital plane and outside of the orbital plane. We apply the model to candidate\nsystems, spider pulsars, which are binary stars composed of one millisecond\npulsar and a very low-mass companion star that is heavily irradiated by the\npulsar wind. We discuss potential signatures of acceleration, deceleration,\nsteering, as well as maneuvers such as gravitational assists or captures.\n  Keywords: Pulsars: Spiders, Technosignatures, Stellar engine, Interstellar\ntravel",
+    "authors": [
+      "Clément Vidal"
+    ],
+    "publication_date": "2024-11-06T17:34:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.05038v1",
+    "download_url": "http://arxiv.org/abs/2411.05038v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Markov Chain Modelling for Reliability Estimation of Engineering Systems\n  at Different Scales - Some Considerations",
+    "abstract": "The concepts of probability, statistics and stochastic theory are being\nsuccessfully used in structural engineering. Markov Chain modelling is a simple\nstochastic process model that has found its application in both describing\nstochastic evolution of system and in system reliability estimation. The recent\ndevelopments in Markov Chain Monte Carlo and the possible integration of\nBayesian theory within Markov Chain theory have enhanced its application\npossibilities. However, the application possibility can be furthered to range\nover wider scales of application (perhaps from nano- to macro-) by considering\nthe developments in Physics (in particular Quantum Physics). This paper tries\nto present the results of quantum physics that would help in interpretation of\ntransition probability matrix. However, care has to be taken in the choice of\ndensities in computing the transition probability matrix. The paper is based on\navailable literature, and the aim is only to make an attempt to show how Markov\nChain can be used to model systems at various scales.",
+    "authors": [
+      "K. Balaji Rao"
+    ],
+    "publication_date": "2007-08-11T13:36:44Z",
+    "arxiv_id": "http://arxiv.org/abs/0708.1566v1",
+    "download_url": "http://arxiv.org/abs/0708.1566v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimization of Survivability Analysis for Large-Scale Engineering\n  Networks",
+    "abstract": "Engineering networks fall into the category of large-scale networks with\nheterogeneous nodes such as sources and sinks. The survivability analysis of\nsuch networks requires the analysis of the connectivity of the network\ncomponents for every possible combination of faults to determine a network\nresponse to each combination of faults. From the computational complexity point\nof view, the problem belongs to the class of exponential time problems at\nleast. Partially, the problem complexity can be reduced by mapping the initial\ntopology of a complex large-scale network with multiple sources and multiple\nsinks onto a set of smaller sub-topologies with multiple sources and a single\nsink connected to the network of sources by a single link. In this paper, the\nmapping procedure is applied to the Florida power grid.",
+    "authors": [
+      "S. V. Poroseva",
+      "P. A. Rikvold"
+    ],
+    "publication_date": "2012-05-03T17:06:50Z",
+    "arxiv_id": "http://arxiv.org/abs/1205.0768v1",
+    "download_url": "http://arxiv.org/abs/1205.0768v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sensitivity analysis of GSI based mechanical characterization of rock\n  mass",
+    "abstract": "Recently, the rock mechanical and rock engineering designs and calculations\nare frequently based on Geological Strength Index (GSI) method, because it is\nthe only system that provides a complete set of mechanical properties for\ndesign purpose. Both the failure criteria and the deformation moduli of the\nrock mass can be calculated with GSI based equations, which consists of the\ndisturbance factor, as well. The aim of this paper is the sensitivity analysis\nof GSI and disturbance factor dependent equations that characterize the\nmechanical properties of rock masses. The survey of the GSI system is not our\npurpose. The results show that the rock mass strength calculated by the\nHoek-Brown failure criteria and both the Hoek-Diederichs and modified\nHoek-Diederichs deformation moduli are highly sensitive to changes of both the\nGSI and the D factor, hence their exact determination is important for the rock\nengineering design.",
+    "authors": [
+      "P. Ván",
+      "B. Vásárhelyi"
+    ],
+    "publication_date": "2012-10-11T11:49:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1210.3024v1",
+    "download_url": "http://arxiv.org/abs/1210.3024v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A GPU Implementation for Two-Dimensional Shallow Water Modeling",
+    "abstract": "In this paper, we present a GPU implementation of a two-dimensional shallow\nwater model. Water simulations are useful for modeling floods, river/reservoir\nbehavior, and dam break scenarios. Our GPU implementation shows vast\nperformance improvements over the original Fortran implementation. By taking\nadvantage of the GPU, researchers and engineers will be able to study water\nsystems more efficiently and in greater detail.",
+    "authors": [
+      "Kerry A. Seitz Jr.",
+      "Alex Kennedy",
+      "Owen Ransom",
+      "Bassam A. Younis",
+      "John D. Owens"
+    ],
+    "publication_date": "2013-09-05T04:20:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1309.1230v1",
+    "download_url": "http://arxiv.org/abs/1309.1230v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A web application prototype for the multiscale modelling of seismic\n  input",
+    "abstract": "A web application prototype is described, aimed at the generation of\nsynthetic seismograms for user-defined earthquake models. The web application\ngraphical user interface hides the complexity of the underlying computational\nengine, which is the outcome of the continuous evolution of sophisticated\ncomputer codes, some of which saw the light back in the middle '80s. With the\nweb application, even the non-experts can produce ground shaking scenarios at\nthe local or regional scale in very short times, depending on the complexity of\nthe adopted source and medium models, without the need of a deep knowledge of\nthe physics of the earthquake phenomenon. Actually, it may even allow neophytes\nto get some basic education in the field of seismology and seismic engineering,\ndue to the simplified intuitive experimental approach to the matter. One of the\nmost powerful features made available to the users is indeed the capability of\nexecuting quick parametric tests in near real-time, to explore the relations\nbetween each model's parameter and the resulting ground motion scenario. The\nsynthetic seismograms generated through the web application can be used by\ncivil engineers for the design of new seismo-resistant structures, or to\nanalyse the performance of the existing ones under seismic load.",
+    "authors": [
+      "Franco Vaccari"
+    ],
+    "publication_date": "2014-07-09T12:14:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1407.2452v1",
+    "download_url": "http://arxiv.org/abs/1407.2452v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Networking Research - A Reflection in the Middle Years",
+    "abstract": "Networking is no longer a new area of computer science and engineering -- it\nhas matured as a discipline and the major infrastructure it supports, the\nInternet, is long past being primarily a research artifact. I believe that we\nshould consider ourselves as the civil engineers of the Internet, primarily\nhelping to understand and improve a vast and critical infrastructure. This\nimplies that implementing changes takes decades, not conference cycles, and\nthat implementation is largely driven by compatibility with existing\ninfrastructure and considerations of cost effectiveness, where resources that\nresearch focuses on, such as bandwidth and compute cycles, often play a much\nsmaller role than limited organizational capacity for change.\nTelecommunications carriers, in particular, have become akin to airlines,\nlargely operating equipment designed by others, with emphasis on marketing, not\ninnovation. Even more than in other engineering disciplines, standards matter,\nwhether set by standards bodies or dominant players. Given the multi-year time\nframes of standards and the limited willingness of national funding bodies to\nsupport standardization work, this makes research impact harder, as does the\nincreasing complexity of cellular networks and barriers to entry that shut out\nmost researchers from contributing to large parts of commercial mobile\nnetworks.",
+    "authors": [
+      "Henning Schulzrinne"
+    ],
+    "publication_date": "2018-09-03T15:12:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1809.00623v1",
+    "download_url": "http://arxiv.org/abs/1809.00623v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Elementary Constructions of conic sections",
+    "abstract": "In classical geometry, there is no such well-known and much-studied topic as\nthe construction of conic sections (or briefly conics) from its five points.\nIts importance in many applications of mechanical engineering, civil\nengineering and architectural engineering, as well as other applied sciences is\nclear. The beauty of the topic is that it raises difficult questions that can\nbe approached with basic tools. In this article, we provide constructions (and\ncorresponding theories) that can be taught to high school and university\nstudents without knowledge of projective geometry. For this, we recall some\nimportant facts about conic sections that can be found in the rich literature.\nWe use the concepts of power of a point on a circle, similarity, orthogonal\naffinity and inversion. We also mention famous constructions related to our\nquestions. We begin our article at this point, where the standard teaching ends\nthe discussion of conic sections. We therefore assume that the reader knows the\nbasic definitions and constructions of conics, the concepts of focus, axis,\ntangent, leading circle and leading line.",
+    "authors": [
+      "Ákos G. Horváth"
+    ],
+    "publication_date": "2023-10-13T07:41:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.08919v1",
+    "download_url": "http://arxiv.org/abs/2310.08919v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Starry Messages: Searching for Signatures of Interstellar Archaeology",
+    "abstract": "Searching for signatures of cosmic-scale archaeological artifacts such as\nDyson spheres or Kardashev civilizations is an interesting alternative to\nconventional SETI. Uncovering such an artifact does not require the intentional\ntransmission of a signal on the part of the original civilization. This type of\nsearch is called interstellar archaeology or sometimes cosmic archaeology. The\ndetection of intelligence elsewhere in the Universe with interstellar\narchaeology or SETI would have broad implications for science. For example, the\nconstraints of the anthropic principle would have to be loosened if a different\ntype of intelligence was discovered elsewhere. A variety of interstellar\narchaeology signatures are discussed including non-natural planetary\natmospheric constituents, stellar doping with isotopes of nuclear wastes, Dyson\nspheres, as well as signatures of stellar and galactic-scale engineering. The\nconcept of a Fermi bubble due to interstellar migration is introduced in the\ndiscussion of galactic signatures. These potential interstellar archaeological\nsignatures are classified using the Kardashev scale. A modified Drake equation\nis used to evaluate the relative challenges of finding various sources. With\nfew exceptions interstellar archaeological signatures are clouded and beyond\ncurrent technological capabilities. However SETI for so-called cultural\ntransmissions and planetary atmosphere signatures are within reach.",
+    "authors": [
+      "Richard A. Carrigan Jr"
+    ],
+    "publication_date": "2010-01-29T19:15:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1001.5455v1",
+    "download_url": "http://arxiv.org/abs/1001.5455v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "'Beating the news' with EMBERS: Forecasting Civil Unrest using Open\n  Source Indicators",
+    "abstract": "We describe the design, implementation, and evaluation of EMBERS, an\nautomated, 24x7 continuous system for forecasting civil unrest across 10\ncountries of Latin America using open source indicators such as tweets, news\nsources, blogs, economic indicators, and other data sources. Unlike\nretrospective studies, EMBERS has been making forecasts into the future since\nNov 2012 which have been (and continue to be) evaluated by an independent T&E\nteam (MITRE). Of note, EMBERS has successfully forecast the uptick and downtick\nof incidents during the June 2013 protests in Brazil. We outline the system\narchitecture of EMBERS, individual models that leverage specific data sources,\nand a fusion and suppression engine that supports trading off specific\nevaluation criteria. EMBERS also provides an audit trail interface that enables\nthe investigation of why specific predictions were made along with the data\nutilized for forecasting. Through numerous evaluations, we demonstrate the\nsuperiority of EMBERS over baserate methods and its capability to forecast\nsignificant societal happenings.",
+    "authors": [
+      "Naren Ramakrishnan",
+      "Patrick Butler",
+      "Sathappan Muthiah",
+      "Nathan Self",
+      "Rupinder Khandpur",
+      "Parang Saraf",
+      "Wei Wang",
+      "Jose Cadena",
+      "Anil Vullikanti",
+      "Gizem Korkmaz",
+      "Chris Kuhlman",
+      "Achla Marathe",
+      "Liang Zhao",
+      "Ting Hua",
+      "Feng Chen",
+      "Chang-Tien Lu",
+      "Bert Huang",
+      "Aravind Srinivasan",
+      "Khoa Trinh",
+      "Lise Getoor",
+      "Graham Katz",
+      "Andy Doyle",
+      "Chris Ackermann",
+      "Ilya Zavorin",
+      "Jim Ford",
+      "Kristen Summers",
+      "Youssef Fayed",
+      "Jaime Arredondo",
+      "Dipak Gupta",
+      "David Mares"
+    ],
+    "publication_date": "2014-02-27T19:40:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1402.7035v2",
+    "download_url": "http://arxiv.org/abs/1402.7035v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "NDSHA: robust and reliable seismic hazard assessment",
+    "abstract": "The Neo-Deterministic Seismic Hazard Assessment (NDSHA) method reliably and\nrealistically simulates the suite of earthquake ground motions that may impact\ncivil populations as well as their heritage buildings. The modeling technique\nis developed from comprehensive physical knowledge of the seismic source\nprocess, the propagation of earthquake waves and their combined interactions\nwith site effects. NDSHA effectively accounts for the tensor nature of\nearthquake ground motions formally described as the tensor product of the\nearthquake source functions and the Green Functions of the pathway. NDSHA uses\nall available information about the space distribution of large magnitude\nearthquake, including Maximum Credible Earthquake (MCE) and geological and\ngeophysical data. It does not rely on scalar empirical ground motion\nattenuation models, as these are often both weakly constrained by available\nobservations and unable to account for the tensor nature of earthquake ground\nmotion. Standard NDSHA provides robust and safely conservative hazard estimates\nfor engineering design and mitigation decision strategies without requiring\n(often faulty) assumptions about the probabilistic risk analysis model of\nearthquake occurrence. If specific applications may benefit from temporal\ninformation the definition of the Gutenberg-Richter (GR) relation is performed\naccording to the multi-scale seismicity model and occurrence rate is associated\nto each modeled source. Observations from recent destructive earthquakes in\nItaly and Nepal have confirmed the validity of NDSHA approach and application,\nand suggest that more widespread application of NDSHA will enhance earthquake\nsafety and resilience of civil populations in all earthquake-prone regions,\nespecially in tectonically active areas where the historic earthquake record is\ntoo short.",
+    "authors": [
+      "Giuliano F. Panza"
+    ],
+    "publication_date": "2017-09-09T11:33:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1709.02945v1",
+    "download_url": "http://arxiv.org/abs/1709.02945v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Forecasting the 2017-2018 Yemen Cholera Outbreak with Machine Learning",
+    "abstract": "The ongoing Yemen cholera outbreak has been deemed one of the worst cholera\noutbreaks in history, with over a million people impacted and thousands dead.\nTriggered by a civil war, the outbreak has been shaped by various political,\nenvironmental, and epidemiological factors and continues to worsen. While\ncholera has several effective treatments, the untimely and inefficient\ndistribution of existing medicines has been the primary cause of cholera\nmortality. With the hope of facilitating resource allocation, various\nmathematical models have been created to track the Yemeni outbreak and identify\nat-risk administrative divisions, called governorates. Existing models are not\npowerful enough to accurately and consistently forecast cholera cases per\ngovernorate over multiple timeframes. To address the need for a complex,\nreliable model, we offer the Cholera Artificial Learning Model (CALM); a system\nof 4 extreme-gradient-boosting (XGBoost) machine learning models that forecast\nthe number of new cholera cases a Yemeni governorate will experience from a\ntime range of 2 weeks to 2 months. CALM provides a novel machine learning\napproach that makes use of rainfall data, past cholera cases and deaths data,\ncivil war fatalities, and inter-governorate interactions represented across\nmultiple time frames. Additionally, the use of machine learning, along with\nextensive feature engineering, allows CALM to easily learn complex non-linear\nrelations apparent in an epidemiological phenomenon. CALM is able to forecast\ncholera incidence 2 weeks to 2 months in advance within a margin of just 5\ncholera cases per 10,000 people in real-world simulation.",
+    "authors": [
+      "Rohil Badkundri",
+      "Victor Valbuena",
+      "Srikusmanjali Pinnamareddy",
+      "Brittney Cantrell",
+      "Janet Standeven"
+    ],
+    "publication_date": "2019-02-16T05:26:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1902.06739v1",
+    "download_url": "http://arxiv.org/abs/1902.06739v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evolution of timekeeping from water clock to quartz clock -- the curious\n  case of the Bulova ACCUTRON 214 the first transistorized wristwatch",
+    "abstract": "The technological discoveries and developments since dawn of civilization\nthat resulted in the modern wristwatch are linked to the evolution of Science\nitself. A history of over 6000 years filled with amazing technical prowess\nsince the emergence of the first cities in Mesopotamia established by the\n\\v{S}umer civilization. Usage of gears for timekeeping has its origin in the\nIslamic Golden Age about 1000 years ago. Although gears have been known for\nover 2000 years such as found in the Antikythera Mechanism. Only in the\nseventeenth century springs started to be used in clock making. In the\neighteenth century the amazing \\textit{Tourbillon} was designed and built to\nincrease clock accuracy. In the nineteenth century the tuning fork was used for\nthe first time as timebase. Wristwatches started to become popular in the\nbeginning of the twentieth century. Later in the second half of the twentieth\ncentury the first electronic wristwatch was designed and produced, which brings\nus to the curious case of the Bulova \\textit{ACCUTRON} caliber 214 the first\ntransistorized wristwatch, another marvel of technological innovation and\ncraftsmanship whose operation is frequently misunderstood. In this paper the\nhistorical evolution of timekeeping is presented. The goal is to show the early\nconnection between Science and Engineering in the development of timekeeping\ndevices. This linked development only became common along the twentieth century\nand beyond.",
+    "authors": [
+      "Edval J. P. Santos"
+    ],
+    "publication_date": "2022-09-01T17:06:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.00656v1",
+    "download_url": "http://arxiv.org/abs/2209.00656v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Application of Segment Anything Model for Civil Infrastructure Defect\n  Assessment",
+    "abstract": "This research assesses the performance of two deep learning models, SAM and\nU-Net, for detecting cracks in concrete structures. The results indicate that\neach model has its own strengths and limitations for detecting different types\nof cracks. Using the SAM's unique crack detection approach, the image is\ndivided into various parts that identify the location of the crack, making it\nmore effective at detecting longitudinal cracks. On the other hand, the U-Net\nmodel can identify positive label pixels to accurately detect the size and\nlocation of spalling cracks. By combining both models, more accurate and\ncomprehensive crack detection results can be achieved. The importance of using\nadvanced technologies for crack detection in ensuring the safety and longevity\nof concrete structures cannot be overstated. This research can have significant\nimplications for civil engineering, as the SAM and U-Net model can be used for\na variety of concrete structures, including bridges, buildings, and roads,\nimproving the accuracy and efficiency of crack detection and saving time and\nresources in maintenance and repair. In conclusion, the SAM and U-Net model\npresented in this study offer promising solutions for detecting cracks in\nconcrete structures and leveraging the strengths of both models that can lead\nto more accurate and comprehensive results.",
+    "authors": [
+      "Mohsen Ahmadi",
+      "Ahmad Gholizadeh Lonbar",
+      "Hajar Kazemi Naeini",
+      "Ali Tarlani Beris",
+      "Mohammadsadegh Nouri",
+      "Amir Sharifzadeh Javidi",
+      "Abbas Sharifi"
+    ],
+    "publication_date": "2023-04-25T06:17:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.12600v2",
+    "download_url": "http://arxiv.org/abs/2304.12600v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Scalable Framework for the Management of STPA Requirements: a Case\n  Study on eVTOL Operations",
+    "abstract": "System-Theoretic Process Analysis (STPA) is a recommended method for\nanalysing complex systems, capable of identifying thousands of safety\nrequirements often missed by traditional techniques such as Failure Mode and\nEffects Analysis (FMEA) and Fault Tree Analysis (FTA). However, the absence of\na structured framework for managing and prioritising these requirements\npresents challenges, particularly in fast-paced development environments. This\npaper introduces a scalable framework for prioritising STPA-derived\nrequirements. The framework integrates outputs from each STPA step and\nincorporates expert evaluations based on four key factors: implementation time,\ncost, requirement type, and regulatory coverage. To reduce subjectivity,\nMonte-Carlo Simulation (MCS) is employed to calculate and stabilise requirement\nrankings. An automation toolchain supports the framework, enabling dynamic\nmapping of prioritised requirements in a scaling matrix. This visualisation\naids decision-making and ensures traceability across development phases. The\nframework is applicable from early conceptualisation to more advanced stages,\nenhancing its utility in iterative system development. The framework was\nvalidated through a real-world case study focused on Electric Vertical Take-off\nand Landing (eVTOL) operations, conducted in collaboration with the UK Civil\nAviation Authority. The findings contributed directly to CAP3141, a Civil\nAviation Publication that identifies systemic operational risks and safety\nmitigations for regulators, operators, and vertiports. The prioritisation\nprocess supported decision-making by helping stakeholders identify and manage\nhigh-impact requirements efficiently. This work contributes a practical\nsolution for managing STPA outputs, bridging gaps in requirement prioritisation\nand supporting safety-critical development in emerging technologies.",
+    "authors": [
+      "Shufeng Chen",
+      "Halima El Badaoui",
+      "Mariat James Elizebeth",
+      "Takuya Nakashima",
+      "Siddartha Khastgir",
+      "Paul Jennings"
+    ],
+    "publication_date": "2025-08-22T13:26:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.16708v1",
+    "download_url": "http://arxiv.org/abs/2508.16708v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Incremental Clustering Method for Anomaly Detection in Flight Data",
+    "abstract": "Safety is a top priority for civil aviation. New anomaly detection methods,\nprimarily clustering methods, have been developed to monitor pilot operations\nand detect any risks from such flight data. However, all existing anomaly\ndetection methods are offlline learning - the models are trained once using\nhistorical data and used for all future predictions. In practice, new flight\ndata are accumulated continuously and analyzed every month at airlines.\nClustering such dynamically growing data is challenging for an offlline method\nbecause it is memory and time intensive to re-train the model every time new\ndata come in. If the model is not re-trained, false alarms or missed detections\nmay increase since the model cannot reflect changes in data patterns. To\naddress this problem, we propose a novel incremental anomaly detection method\nbased on Gaussian Mixture Model (GMM) to identify common patterns and detect\noutliers in flight operations from digital flight data. It is a probabilistic\nclustering model of flight operations that can incrementally update its\nclusters based on new data rather than to re-cluster all data from scratch. It\ntrains an initial GMM model based on historical offlline data. Then, it\ncontinuously adapts to new incoming data points via an expectation-maximization\n(EM) algorithm. To track changes in flight operation patterns, only model\nparameters need to be saved. The proposed method was tested on three sets of\nsimulation data and two sets of real-world flight data. Compared with the\ntraditional offline GMM method, the proposed method can generate similar\nclustering results with significantly reduced processing time (57 % - 99 % time\nreduction in testing sets) and memory usage (91 % - 95 % memory usage reduction\nin testing sets). Preliminary results indicate that the incremental learning\nscheme is effective in dealing with dynamically growing data in flight data\nanalytics.",
+    "authors": [
+      "Weizun Zhao",
+      "Lishuai Li",
+      "Sameer Alam",
+      "Yanjun Wang"
+    ],
+    "publication_date": "2020-05-20T06:58:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.09874v4",
+    "download_url": "http://arxiv.org/abs/2005.09874v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Navigating Uncertainties in Machine Learning for Structural Dynamics: A\n  Comprehensive Survey of Probabilistic and Non-Probabilistic Approaches in\n  Forward and Inverse Problems",
+    "abstract": "In the era of big data, machine learning (ML) has become a powerful tool in\nvarious fields, notably impacting structural dynamics. ML algorithms offer\nadvantages by modeling physical phenomena based on data, even in the absence of\nunderlying mechanisms. However, uncertainties such as measurement noise and\nmodeling errors can compromise the reliability of ML predictions, highlighting\nthe need for effective uncertainty awareness to enhance prediction robustness.\nThis paper presents a comprehensive review on navigating uncertainties in ML,\ncategorizing uncertainty-aware approaches into probabilistic methods (including\nBayesian and frequentist perspectives) and non-probabilistic methods (such as\ninterval learning and fuzzy learning). Bayesian neural networks, known for\ntheir uncertainty quantification and nonlinear mapping capabilities, are\nemphasized for their superior performance and potential. The review covers\nvarious techniques and methodologies for addressing uncertainties in ML,\ndiscussing fundamentals and implementation procedures of each method. While\nproviding a concise overview of fundamental concepts, the paper refrains from\nin-depth critical explanations. Strengths and limitations of each approach are\nexamined, along with their applications in structural dynamic forward problems\nlike response prediction, sensitivity assessment, and reliability analysis, and\ninverse problems like system identification, model updating, and damage\nidentification. Additionally, the review identifies research gaps and suggests\nfuture directions for investigations, aiming to provide comprehensive insights\nto the research community. By offering an extensive overview of both\nprobabilistic and non-probabilistic approaches, this review aims to assist\nresearchers and practitioners in making informed decisions when utilizing ML\ntechniques to address uncertainties in structural dynamic problems.",
+    "authors": [
+      "Wang-Ji Yan",
+      "Lin-Feng Mei",
+      "Jiang Mo",
+      "Costas Papadimitriou",
+      "Ka-Veng Yuen",
+      "Michael Beer"
+    ],
+    "publication_date": "2024-08-16T09:43:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.08629v2",
+    "download_url": "http://arxiv.org/abs/2408.08629v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Warming demands extensive tropical but minimal temperate management in\n  plant-pollinator networks",
+    "abstract": "Anthropogenic warming impacts ecological communities and disturbs species\ninteractions, particularly in temperature sensitive plant pollinator networks.\nWhile previous assessments indicate that rising mean temperatures and shifting\ntemporal variability universally elevate pollinator extinction risk, many\nstudies often overlook how plant-pollinator networks of different ecoregions\nrequire distinct management approaches. Here, we integrate monthly near-surface\ntemperature projections from various Shared Socioeconomic Pathways of CMIP6\nEarth System Models with region-specific thermal performance parameters to\nsimulate population dynamics in 11 plant pollinator networks across tropical,\ntemperate, and Mediterranean ecosystems. Our results show that tropical\nnetworks, already near their thermal limits, face pronounced (50 percent)\npollinator declines under high-emissions scenarios (SSP5-8.5). Multi-species\nmanagement targeting keystone plants emerges as a critical strategy for\nstabilizing these high risk tropical systems, boosting both pollinator\nabundance and evenness. In contrast, temperate networks remain well below\ncritical temperature thresholds, with minimal (5 percent) pollinator declines\nand negligible gains from any intensive management strategy. These findings\nchallenge single-species models and uniform-parameter frameworks, which\nconsistently underestimate tropical vulnerability while overestimating\ntemperate risk. We demonstrate that explicitly incorporating complex network\ninteractions, region-specific thermal tolerances, and targeted multi species\ninterventions is vital for maintaining pollination services. By revealing when\nand where limited interventions suffice versus extensive management becomes\nindispensable, our study provides a clear blueprint for adaptive, ecosystem\nspecific management under accelerating climate change.",
+    "authors": [
+      "Adrija Datta",
+      "Sarth Dubey",
+      "Tarik C. Gouhier",
+      "Auroop R. Ganguly",
+      "Udit Bhatia"
+    ],
+    "publication_date": "2025-04-28T15:09:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.19879v1",
+    "download_url": "http://arxiv.org/abs/2504.19879v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Biotechnology and the lifetime of technical civilizations",
+    "abstract": "The number of people able to end Earth's technical civilization has\nheretofore been small. Emerging dual-use technologies, such as biotechnology,\nmay give similar power to thousands or millions of individuals. To\nquantitatively investigate the ramifications of such a marked shift on the\nsurvival of both terrestrial and extraterrestrial technical civilizations, this\npaper presents a two-parameter model for civilizational lifespans, i.e. the\nquantity $L$ in Drake's equation for the number of communicating\nextraterrestrial civilizations. One parameter characterizes the population\nlethality of a civilization's biotechnology and the other characterizes the\ncivilization's psychosociology. $L$ is demonstrated to be less than the inverse\nof the product of these two parameters. Using empiric data from Pubmed to\ninform the biotechnology parameter, the model predicts human civilization's\nmedian survival time as decades to centuries, even with optimistic\npsychosociological parameter values, thereby positioning biotechnology as a\nproximate threat to human civilization. For an ensemble of civilizations having\nsome median calculated survival time, the model predicts that, after 80 times\nthat duration, only one in $10^{24}$ civilizations will survive -- a tempo and\ndegree of winnowing compatible with Hanson's \"Great Filter.\" Thus, assuming\nthat civilizations universally develop advanced biotechnology, before they\nbecome vigorous interstellar colonizers, the model provides a resolution to the\nFermi paradox.",
+    "authors": [
+      "John G. Sotos"
+    ],
+    "publication_date": "2017-09-04T20:41:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1709.01149v2",
+    "download_url": "http://arxiv.org/abs/1709.01149v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How mobility patterns drive disease spread: A case study using public\n  transit passenger card travel data",
+    "abstract": "Outbreaks of infectious diseases present a global threat to human health and\nare considered a major health-care challenge. One major driver for the rapid\nspatial spread of diseases is human mobility. In particular, the travel\npatterns of individuals determine their spreading potential to a great extent.\nThese travel behaviors can be captured and modelled using novel location-based\ndata sources, e.g., smart travel cards, social media, etc. Previous studies\nhave shown that individuals who cannot be characterized by their most\nfrequently visited locations spread diseases farther and faster; however, these\nstudies are based on GPS data and mobile call records which have position\nuncertainty and do not capture explicit contacts. It is unclear if the same\nconclusions hold for large scale real-world transport networks. In this paper,\nwe investigate how mobility patterns impact disease spread in a large-scale\npublic transit network of empirical data traces. In contrast to previous\nfindings, our results reveal that individuals with mobility patterns\ncharacterized by their most frequently visited locations and who typically\ntravel large distances pose the highest spreading risk.",
+    "authors": [
+      "Ahmad El Shoghri",
+      "Jessica Liebig",
+      "Lauren Gardner",
+      "Raja Jurdak",
+      "Salil Kanhere"
+    ],
+    "publication_date": "2020-04-03T10:52:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.01466v1",
+    "download_url": "http://arxiv.org/abs/2004.01466v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "High-flexibility reconstruction of small-scale motions in wall\n  turbulence using a generalized zero-shot learning",
+    "abstract": "This study proposes a novel super-resolution (or SR) framework for generating\nhigh-resolution turbulent boundary layer (TBL) flow from low-resolution inputs.\nThe framework combines a super-resolution generative adversarial neural network\n(SRGAN) with down-sampling modules (DMs), integrating the residual of the\ncontinuity equation into the loss function. DMs selectively filter out\ncomponents with excessive energy dissipation in low-resolution fields prior to\nthe super-resolution process. The framework iteratively applies the SRGAN and\nDM procedure to fully capture the energy cascade of multi-scale flow\nstructures, collectively termed the SRGAN-based energy cascade framework\n(EC-SRGAN). Despite being trained solely on turbulent channel flow data (via\n\"zero-shot transfer\"), EC-SRGAN exhibits remarkable generalization in\npredicting TBL small-scale velocity fields, accurately reproducing wavenumber\nspectra compared to DNS results. Furthermore, a super-resolution core is\ntrained at a specific super-resolution ratio. By leveraging this pre-trained\nsuper-resolution core, EC-SRGAN efficiently reconstructs TBL fields at multiple\nsuper-resolution ratios from various levels of low-resolution inputs,\nshowcasing strong flexibility. By learning turbulent scale invariance, EC-SRGAN\ndemonstrates robustness across different TBL datasets. These results underscore\nEC-SRGAN potential for generating and predicting wall turbulence with high\nflexibility, offering promising applications in addressing diverse TBL-related\nchallenges.",
+    "authors": [
+      "Haokai Wu",
+      "Kai Zhang",
+      "Dai Zhou",
+      "Wen-Li Chen",
+      "Zhaolong Han",
+      "Yong Cao"
+    ],
+    "publication_date": "2024-07-22T12:59:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.15604v1",
+    "download_url": "http://arxiv.org/abs/2407.15604v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Material degradation due to moisture and temperature. Part 1:\n  Mathematical model, analysis, and analytical solutions",
+    "abstract": "The mechanical response, serviceability, and load bearing capacity of\nmaterials and structural components can be adversely affected due to external\nstimuli, which include exposure to a corrosive chemical species, high\ntemperatures, temperature fluctuations (i.e., freezing-thawing), cyclic\nmechanical loading, just to name a few. It is, therefore, of paramount\nimportance in several branches of engineering -- ranging from aerospace\nengineering, civil engineering to biomedical engineering -- to have a\nfundamental understanding of degradation of materials, as the materials in\nthese applications are often subjected to adverse environments. As a result of\nrecent advancements in material science, new materials like fiber-reinforced\npolymers and multi-functional materials that exhibit high ductility have been\ndeveloped and widely used; for example, as infrastructural materials or in\nmedical devices (e.g., stents). The traditional small-strain approaches of\nmodeling these materials will not be adequate. In this paper, we study\ndegradation of materials due to an exposure to chemical species and temperature\nunder large-strain and large-deformations. In the first part of our research\nwork, we present a consistent mathematical model with firm thermodynamic\nunderpinning. We then obtain semi-analytical solutions of several canonical\nproblems to illustrate the nature of the quasi-static and unsteady behaviors of\ndegrading hyperelastic solids.",
+    "authors": [
+      "C. Xu",
+      "M. K. Mudunuru",
+      "K. B. Nakshatrala"
+    ],
+    "publication_date": "2015-11-14T22:30:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1511.05538v2",
+    "download_url": "http://arxiv.org/abs/1511.05538v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "2060: Civilization, Energy, and Progression of Mankind on the Kardashev\n  Scale",
+    "abstract": "Energy has been propelling the development of human civilization for\nmillennia, and technologies acquiring energy beyond human and animal power have\nbeen continuously advanced and transformed. In 1964, the Kardashev Scale was\nproposed to quantify the relationship between energy consumption and the\ndevelopment of civilizations. Human civilization presently stands at Type\n0.7276 on this scale. Projecting the future energy consumption, estimating the\nchange of its constituting structure, and evaluating the influence of possible\ntechnological revolutions are critical in the context of civilization\ndevelopment. In this study, we use two machine learning models, random forest\n(RF) and autoregressive integrated moving average (ARIMA), to simulate and\npredict energy consumption on a global scale. We further project the position\nof human civilization on the Kardashev Scale in 2060. The result shows that the\nglobal energy consumption is expected to reach 928-940 EJ in 2060, with a total\ngrowth of over 50% in the coming 40 years, and our civilization is expected to\nachieve Type 0.7474 on the Kardashev Scale, still far away from a Type 1\ncivilization. Additionally, we discuss the potential energy segmentation change\nbefore 2060 and present the influence of the advent of nuclear fusion in this\ncontext.",
+    "authors": [
+      "Antong Zhang",
+      "Jiani Yang",
+      "Yangcheng Luo",
+      "Siteng Fan"
+    ],
+    "publication_date": "2022-08-10T23:31:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.12617v1",
+    "download_url": "http://arxiv.org/abs/2208.12617v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Turing Completeness and Sid Meier's Civilization",
+    "abstract": "We prove that three strategy video games from the Sid Meier's Civilization\nseries: Sid Meier's Civilization: Beyond Earth, Sid Meier's Civilization V, and\nSid Meier's Civilization VI, are Turing complete. We achieve this by building\nthree universal Turing machines-one for each game-using only the elements\npresent in the games, and using their internal rules and mechanics as the\ntransition function. The existence of such machines imply that under the\nassumptions made, the games are undecidable. We show constructions of these\nmachines within a running game session, and we provide a sample execution of an\nalgorithm-the three-state Busy Beaver-with one of our machines.",
+    "authors": [
+      "Adrian de Wynter"
+    ],
+    "publication_date": "2021-04-29T20:48:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.14647v1",
+    "download_url": "http://arxiv.org/abs/2104.14647v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quasi-one-dimensional ballistic ring in the field of circularly\n  polarized electromagnetic wave",
+    "abstract": "Dynamics is studied of an electron in a quasi-one-dimensional ballistic ring\nunder circularly polarized electromagnetic field propagating along the normal\nto the ring plane. The average emission intensity from the ring is calculated.\nThe value and direction of the electron average angular velocity in the ring\ndepend on the incident wave parameters. It is found that the ring average\ndipole moment can remain constant under certain conditions. Possibility is\nshown of higher harmonics enhancement in the ring radiation spectrum.",
+    "authors": [
+      "E. M. Epshtein",
+      "E. G. Fedorov",
+      "G. M. Shmelev"
+    ],
+    "publication_date": "2004-08-23T10:11:53Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0408482v1",
+    "download_url": "http://arxiv.org/abs/cond-mat/0408482v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Integrated Information Management for TESLA",
+    "abstract": "Next-generation projects in High Energy Physics will reach again a new\ndimension of complexity. Information management has to ensure an efficient and\neconomic information flow within the collaborations, offering world-wide\nup-to-date information access to the collaborators as one condition for\nsuccessful projects. DESY introduces several information systems in preparation\nfor the planned linear collider TESLA: a Requirements Management System (RMS)\nis in production for the TESLA planning group, a Product Data Management System\n(PDMS) is in production since the beginning of 2002 and is supporting the\ncavity preparation and the general engineering of accelerator components. A\npilot Asset Management System (AMS) is in production for supporting the\nmanagement and maintenance of the technical infrastructure, and a Facility\nManagement System (FMS) with a Geographic Information System (GIS) is currently\nbeing introduced to support civil engineering. Efforts have been started to\nintegrate the systems with the goal that users can retrieve information through\na single point of access. The paper gives an introduction to information\nmanagement and the activities at DESY.",
+    "authors": [
+      "Jochen Buerger",
+      "Lars Hagge",
+      "Jens Kreutzkamp",
+      "Kathrin Lappe",
+      "Andrea Robben"
+    ],
+    "publication_date": "2003-06-13T23:04:10Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0306079v1",
+    "download_url": "http://arxiv.org/abs/cs/0306079v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Rupture sismique des fondations par perte de capacité portante: Le cas\n  des semelles circulaires",
+    "abstract": "Within the context of earthquake-resistant design of shallow foundations, the\npresent study is concerned with the determination of the seismic bearing\ncapacity of a circular footing resting on the surface of a heterogene-ous\npurely cohesive semi-infinite soil layer. In the first part of the paper, a\ndatabase, containing case histories of civil engineering structures that\nsustained a foundation seismic bearing capacity failure, is briefly pre-sented,\naiming at a better understanding of the studied phenomenon and offering a\nnumber of case studies useful for validation of theoretical computations. In\nthe second part of the paper, the aforementioned problem is addressed using the\nkinematic approach of the Yield Design theory, thus establishing optimal upper\nbounds for the ultimate seismic loads supported by the soil-footing system. The\nresults lead to the establishment of some very simple guidelines that extend\nthe existing formulae for the seismic bearing capacity contained in the\nEuropean norms (proposed for strip footings on homogeneous soils) to the case\nof circular footings and to that of heterogeneous cohesive soils.",
+    "authors": [
+      "Charisis Chatzigogos",
+      "Alain Pecker",
+      "J. Salençon"
+    ],
+    "publication_date": "2008-03-13T07:57:11Z",
+    "arxiv_id": "http://arxiv.org/abs/0803.1913v1",
+    "download_url": "http://arxiv.org/abs/0803.1913v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Development of Hybrid Intelligent Systems and their Applications from\n  Engineering Systems to Complex Systems",
+    "abstract": "In this study, we introduce general frame of MAny Connected Intelligent\nParticles Systems (MACIPS). Connections and interconnections between particles\nget a complex behavior of such merely simple system (system in\nsystem).Contribution of natural computing, under information granulation\ntheory, are the main topic of this spacious skeleton. Upon this clue, we\norganize different algorithms involved a few prominent intelligent computing\nand approximate reasoning methods such as self organizing feature map (SOM)[9],\nNeuro- Fuzzy Inference System[10], Rough Set Theory (RST)[11], collaborative\nclustering, Genetic Algorithm and Ant Colony System. Upon this, we have\nemployed our algorithms on the several engineering systems, especially emerged\nsystems in Civil and Mineral processing. In other process, we investigated how\nour algorithms can be taken as a linkage of government-society interaction,\nwhere government catches various fashions of behavior: solid (absolute) or\nflexible. So, transition of such society, by changing of connectivity\nparameters (noise) from order to disorder is inferred. Add to this, one may\nfind an indirect mapping among finical systems and eventual market fluctuations\nwith MACIPS. In the following sections, we will mention the main topics of the\nsuggested proposal, briefly Details of the proposed algorithms can be found in\nthe references.",
+    "authors": [
+      "Hamed Owladeghaffari"
+    ],
+    "publication_date": "2008-06-14T03:44:35Z",
+    "arxiv_id": "http://arxiv.org/abs/0806.2356v1",
+    "download_url": "http://arxiv.org/abs/0806.2356v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A competitive comparison of different types of evolutionary algorithms",
+    "abstract": "This paper presents comparison of several stochastic optimization algorithms\ndeveloped by authors in their previous works for the solution of some problems\narising in Civil Engineering. The introduced optimization methods are: the\ninteger augmented simulated annealing (IASA), the real-coded augmented\nsimulated annealing (RASA), the differential evolution (DE) in its original\nfashion developed by R. Storn and K. Price and simplified real-coded\ndifferential genetic algorithm (SADE). Each of these methods was developed for\nsome specific optimization problem; namely the Chebychev trial polynomial\nproblem, the so called type 0 function and two engineering problems - the\nreinforced concrete beam layout and the periodic unit cell problem\nrespectively. Detailed and extensive numerical tests were performed to examine\nthe stability and efficiency of proposed algorithms. The results of our\nexperiments suggest that the performance and robustness of RASA, IASA and SADE\nmethods are comparable, while the DE algorithm performs slightly worse. This\nfact together with a small number of internal parameters promotes the SADE\nmethod as the most robust for practical use.",
+    "authors": [
+      "O. Hrstka",
+      "A. Kucerova",
+      "M. Leps",
+      "J. Zeman"
+    ],
+    "publication_date": "2009-02-10T13:41:15Z",
+    "arxiv_id": "http://arxiv.org/abs/0902.1647v1",
+    "download_url": "http://arxiv.org/abs/0902.1647v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Artificial table testing dynamically adaptive systems",
+    "abstract": "Dynamically Adaptive Systems (DAS) are systems that modify their behavior and\nstructure in response to changes in their surrounding environment. Critical\nmission systems increasingly incorporate adaptation and response to the\nenvironment; examples include disaster relief and space exploration systems.\nThese systems can be decomposed in two parts: the adaptation policy that\nspecifies how the system must react according to the environmental changes and\nthe set of possible variants to reconfigure the system. A major challenge for\ntesting these systems is the combinatorial explosions of variants and\nenvi-ronment conditions to which the system must react. In this paper we focus\non testing the adaption policy and propose a strategy for the selection of\nenvi-ronmental variations that can reveal faults in the policy. Artificial\nShaking Table Testing (ASTT) is a strategy inspired by shaking table testing\n(STT), a technique widely used in civil engineering to evaluate building's\nstructural re-sistance to seismic events. ASTT makes use of artificial\nearthquakes that simu-late violent changes in the environmental conditions and\nstresses the system adaptation capability. We model the generation of\nartificial earthquakes as a search problem in which the goal is to optimize\ndifferent types of envi-ronmental variations.",
+    "authors": [
+      "Freddy Munoz",
+      "Benoit Baudry"
+    ],
+    "publication_date": "2009-03-05T05:36:22Z",
+    "arxiv_id": "http://arxiv.org/abs/0903.0914v1",
+    "download_url": "http://arxiv.org/abs/0903.0914v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Renewable Energy Laboratory for Lighting Systems",
+    "abstract": "Nowadays, the electric lighting is an important part of our lives and also\nrepresents a significant part of the electric power consumption. Alternative\nsolutions such as renewable energy applied in this domain are thus welcomed.\nThis paper presents a workstation conceived for the study of photovoltaic solar\nenergy for lighting systems by students of power engineering and civil\nengineering faculty. The proposed system is realized to study the generated\nphotovoltaic solar energy parameters for lighting systems. For an easier way to\nstudy the most relevant parameters virtual instrumentation is implemented.\nNational Instruments LabWindows CVI environment is used as a platform for\nvirtual instrumentation. For future developments remote communication feature\nintends to be added on which currently remote monitoring of solar photovoltaic\nenergy and electric energy parameters are monitored.",
+    "authors": [
+      "Dumitru Cristian",
+      "Gligor Adrian"
+    ],
+    "publication_date": "2010-02-23T13:50:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1002.4331v1",
+    "download_url": "http://arxiv.org/abs/1002.4331v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Metamodel-based importance sampling for the simulation of rare events",
+    "abstract": "In the field of structural reliability, the Monte-Carlo estimator is\nconsidered as the reference probability estimator. However, it is still\nuntractable for real engineering cases since it requires a high number of runs\nof the model. In order to reduce the number of computer experiments, many other\napproaches known as reliability methods have been proposed. A certain approach\nconsists in replacing the original experiment by a surrogate which is much\nfaster to evaluate. Nevertheless, it is often difficult (or even impossible) to\nquantify the error made by this substitution. In this paper an alternative\napproach is developed. It takes advantage of the kriging meta-modeling and\nimportance sampling techniques. The proposed alternative estimator is finally\napplied to a finite element based structural reliability analysis.",
+    "authors": [
+      "V. Dubourg",
+      "F. Deheeger",
+      "B. Sudret"
+    ],
+    "publication_date": "2011-04-18T13:30:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1104.3476v1",
+    "download_url": "http://arxiv.org/abs/1104.3476v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Computational homogenization of non-stationary transport processes in\n  masonry structures",
+    "abstract": "A fully coupled transient heat and moisture transport in a masonry structure\nis examined in this paper. Supported by several successful applications in\ncivil engineering the nonlinear diffusion model proposed by K\\\"{u}nzel is\nadopted in the present study. A strong material heterogeneity together with a\nsignificant dependence of the model parameters on initial conditions as well as\nthe gradients of heat and moisture fields vindicates the use of a hierarchical\nmodeling strategy to solve the problem of this kind. Attention is limited to\nthe classical first order homogenization in a spatial domain developed here in\nthe framework of a two step (meso-macro) multi-scale computational scheme (FE^2\nproblem). Several illustrative examples are presented to investigate the\ninfluence of transient flow at the level of constituents (meso-scale) on the\nmacroscopic response including the effect of macro-scale boundary conditions. A\ntwo-dimensional section of Charles Bridge subjected to actual climatic\nconditions is analyzed next to confirm the suitability of algorithmic format of\nFE^2 scheme for the parallel computing.",
+    "authors": [
+      "J. Sykora",
+      "T. Krejci",
+      "J. Kruis",
+      "M. Sejnoha"
+    ],
+    "publication_date": "2011-10-10T14:34:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1110.2055v1",
+    "download_url": "http://arxiv.org/abs/1110.2055v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Numerical model of elastic laminated glass beams under finite strain",
+    "abstract": "Laminated glass structures are formed by stiff layers of glass connected with\na compliant plastic interlayer. Due to their slenderness and heterogeneity,\nthey exhibit a complex mechanical response that is difficult to capture by\nsingle-layer models even in the elastic range. The purpose of this paper is to\nintroduce an efficient and reliable finite element approach to the simulation\nof the immediate response of laminated glass beams. It proceeds from a refined\nplate theory due to Mau (1973), as we treat each layer independently and\nenforce the compatibility by the Lagrange multipliers. At the layer level, we\nadopt the finite-strain shear deformable formulation of Reissner (1972) and the\nnumerical framework by Ibrahimbegovi\\'{c} and Frey (1993). The resulting system\nis solved by the Newton method with consistent linearization. By comparing the\nmodel predictions against available experimental data, analytical methods and\ntwo-dimensional finite element simulations, we demonstrate that the proposed\nformulation is reliable and provides accuracy comparable to the detailed\ntwo-dimensional finite element analyzes. As such, it offers a convenient basis\nto incorporate more refined constitutive description of the interlayer.",
+    "authors": [
+      "Alena Zemanová",
+      "Jan Zeman",
+      "Michal Šejnoha"
+    ],
+    "publication_date": "2013-03-25T21:12:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1303.6314v2",
+    "download_url": "http://arxiv.org/abs/1303.6314v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Buckling of thin composite plates reinforced with randomly oriented,\n  straight single-walled carbon nanotubes using B3-Spline finite strip method",
+    "abstract": "This paper is devoted to the mechanical buckling analysis of thin composite\nplates under straight single-walled carbon nanotubes reinforcement with uniform\ndistribution and random orientations. In order to develop the fundamental\nequations, the B3-Spline finite strip method along with the classical plate\ntheory is employed and the total potential energy is minimized which leads to\nan eigenvalue problem. For deriving the effective modulus of thin composite\nplates reinforced with carbon nanotubes, the Mori-Tanaka method is used in\nwhich each straight carbon nanotube is modeled as a fiber with transversely\nisotropic elastic properties. The results of our numerical experiments\nincluding the critical buckling loads for rectangular thin composite plates\nreinforced by carbon nanotubes with various boundary conditions and different\nvolume fractions of nanotubes are provided and the positive effect of using\ncarbon nanotubes reinforcement in mechanical buckling of thin plates is\nillustrated.",
+    "authors": [
+      "Hamid Foroughi",
+      "Hamidreza Askarieh Yazdi",
+      "Mojtaba Azhari"
+    ],
+    "publication_date": "2018-03-01T01:51:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.00160v1",
+    "download_url": "http://arxiv.org/abs/1803.00160v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

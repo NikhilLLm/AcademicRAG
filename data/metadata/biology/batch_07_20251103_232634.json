@@ -1,0 +1,781 @@
+[
+  {
+    "title": "A road map for synthesizing the scaling patterns in ecology",
+    "abstract": "Ecology studies biodiversity in its variety and complexity. It describes how\nspecies distribute and perform in response to environmental changes. Ecological\nprocesses and structures are highly complex and adaptive. In order to quantify\nemerging ecological patterns and investigate their hidden mechanisms, we need\nto rely on the simplicity of mathematical language. This becomes especially\napparent when dealing with scaling patterns in ecology. Indeed, nearly all of\necological patterns are scale dependent. Such scale dependence hampers our\npredictive power and creates problems in our inference. This challenge calls\nfor a clear and fundamental understanding of how and why ecological patterns\nchange across scales. As Simon Levin stated in his MacArthur Award lecture, the\nproblem of relating phenomena across scales is the central problem in ecology\nand other natural sciences. It has become clear that there is currently a drive\nin ecology and complexity science to develop new quantitative approaches that\nare suitable for analysing and forecasting patterns of ecological systems. Here\nI provide a road map for future works on synthesizing the scaling patterns in\necology, aiming (i) to collect and sort a diverse array of ecological patterns,\n(ii) to present the dominant parametric forms of how these patterns change\nacross spatial and temporal scales, (iii) to detect the processes and\nmechanisms using mathematical models, and finally (iv) to probe the physical\nmeaning of these scaling patterns. This road map is divided into three parts\nand covers three main concepts of scale in ecology: heterogeneity, hierarchy\nand size. Using scale as a thread, this road map and its following works weave\nthe kaleidoscope of ecological scaling patterns into a cohesive whole.",
+    "authors": [
+      "Cang Hui"
+    ],
+    "publication_date": "2013-10-08T12:20:40Z",
+    "arxiv_id": "http://arxiv.org/abs/1310.2110v1",
+    "download_url": "http://arxiv.org/abs/1310.2110v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Impossible ecologies: Interaction networks and stability of coexistence\n  in ecological communities",
+    "abstract": "Does an ecological community allow stable coexistence? Identifying the\ngeneral principles that determine the answer to this question is a central\nproblem of theoretical ecology. Random matrix theory approaches have uncovered\nthe general trends of the effect of competitive, mutualistic, and predator-prey\ninteractions between species on stability of coexistence. However, an\necological community is determined not only by the counts of these different\ninteraction types, but also by their network arrangement. This cannot be\naccounted for in a direct statistical description that would enable random\nmatrix theory approaches. Here, we therefore develop a different approach, of\nexhaustive analysis of small ecological communities, to show that this\narrangement of interactions can influence stability of coexistence more than\nthese general trends. We analyse all interaction networks of $N\\leqslant 5$\nspecies with Lotka-Volterra dynamics by combining exact results for $N\\leqslant\n3$ species and numerical exploration. Surprisingly, we find that a very small\nsubset of these networks are \"impossible ecologies\", in which stable\ncoexistence is non-trivially impossible. We prove that the possibility of\nstable coexistence in general ecologies is determined by similarly rare\n\"irreducible ecologies\". By random sampling of interaction strengths, we then\nshow that the probability of stable coexistence varies over many orders of\nmagnitude even in ecologies that differ only in the network arrangement of\nidentical ecological interactions. Finally, we demonstrate that our approach\ncan reveal the effect of evolutionary or environmental perturbations of the\ninteraction network. Overall, this work reveals the importance of the full\nstructure of the network of interactions for stability of coexistence in\necological communities.",
+    "authors": [
+      "Yu Meng",
+      "Szabolcs Horvát",
+      "Carl D. Modes",
+      "Pierre A. Haas"
+    ],
+    "publication_date": "2023-09-28T08:54:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.16261v1",
+    "download_url": "http://arxiv.org/abs/2309.16261v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ecological fallacy and covariates: new insights based on multilevel\n  modelling of individual data",
+    "abstract": "This paper deals with the issue of ecological bias in ecological inference.\nWe provide an explicit formulation of the conditions required for the ordinary\necological regression to produce unbiased estimates and argue that, when these\nconditions are violated, any method of ecological inference is going to produce\nbiased estimates. These findings are clarified and supported by empirical\nevidence provided by comparing the results of three main ecological inference\nmethods with those of multilevel logistic regression applied to a unique set of\nindividual data on voting behaviour. The main findings of our study have two\nimportant implications that apply to all situations where the conditions for no\necological bias are violated: (i) only ecological inference methods that allow\nto model the effect of covariates have a chance to produce unbiased estimates;\n(ii) the set of covariates to be included in the model to remove bias is\nlimited to the marginal proportions. Finally, our results suggest that, when\nthe association between two ecological variables is very weak, it is not\npossible to obtain unbiased estimates even by an appropriate model that\naccounts for the effect of relevant covariates.",
+    "authors": [
+      "Michela Gnaldi",
+      "Venera Tomaselli",
+      "Antonio Forcina"
+    ],
+    "publication_date": "2015-09-10T09:04:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1509.03055v1",
+    "download_url": "http://arxiv.org/abs/1509.03055v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An analytically tractable model for community ecology with many species",
+    "abstract": "A fundamental problem in community ecology is to understand how ecological\nprocesses such as selection, drift, and immigration give rise to observed\npatterns in species composition and diversity. Here, we present a simple,\nanalytically tractable, presence-absence (PA) model for community assembly and\nuse it to ask how ecological traits such as the strength of competition, the\namount of diversity, and demographic and environmental stochasticity affect\nspecies composition in a community. In the PA model, species are treated as\nstochastic binary variables that can either be present or absent in a\ncommunity: species can immigrate into the community from a regional species\npool and can go extinct due to competition and stochasticity. Despite its\nsimplicity, the PA model reproduces the qualitative features of more\ncomplicated models of community assembly. In agreement with recent work on\nlarge, competitive Lotka-Volterra systems, the PA model exhibits distinct\necological behaviors organized around a special (\"critical\") point\ncorresponding to Hubbell's neutral theory of biodiversity. These results\nsuggest that the concepts of ecological \"phases\" and phase diagrams can provide\na powerful framework for thinking about community ecology and that the PA model\ncaptures the essential ecological dynamics of community assembly.",
+    "authors": [
+      "Benjamin Dickens",
+      "Charles K. Fisher",
+      "Pankaj Mehta"
+    ],
+    "publication_date": "2015-11-30T05:38:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1511.09166v1",
+    "download_url": "http://arxiv.org/abs/1511.09166v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sustainable restoration of intermittent streams: Integrating ecological\n  design and urban resilience",
+    "abstract": "The sustainable restoration of intermittent streams has become a critical\npriority in contemporary urban planning, particularly as cities confront the\ndual challenges of ecological degradation and climate change. In Tehran,\ndecades of rapid urbanization and poor management practices have confined\nnatural streams into rigid concrete channels, eroding their ecological value\nand disconnecting them from community life. This paper introduces an ecological\nand sustainability-oriented framework for the restoration of the Darband and\nDarabad river valleys, highlighting their potential to function as ecological\ncorridors that support biodiversity, thermal regulation, cultural identity, and\nurban resilience. The study employs a systematic methodology that integrates\necological engineering, landscape design, hydrological modeling, and\nparticipatory planning. Findings suggest that restoring these river valleys\nthrough sustainable strategies, such as the creation of active green networks,\nmultifunctional public spaces, and resilient hydrological systems, can\ntransform them from degraded drainage corridors into life-giving urban\nlandscapes. Moreover, the research emphasizes the necessity of linking\nrestoration with sustainability goals to ensure long-term ecological balance,\nsocial well-being, and climate adaptation. This case study demonstrates that\nsustainable river restoration, when aligned with ecological design and\ncommunity engagement, has the potential to reposition intermittent streams as\nessential infrastructures for sustainable urban development and resilience.",
+    "authors": [
+      "Parinaz Baradaran Anaraki",
+      "Shiva Manshour"
+    ],
+    "publication_date": "2025-09-03T06:31:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.03051v1",
+    "download_url": "http://arxiv.org/abs/2509.03051v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Symbology from set theory applied to ecological systems: Gause's\n  exclusion principle and applications",
+    "abstract": "We introduce a symbolic representation like set theory to consider ecologic\ninteractions between species (ECOSET). The ecologic exclusion principle (Gause)\nis put in a symbolic way and used as operational tool to consider more complex\ncases like interaction with sterile species (SIT technique), two species with\ntwo superposed sources (niche differentiation) and N+P species competing by N\nresources, etc. Displacement (regional or characters) is also considered by\nusing this basic tool. Our symbolic notation gives us an operative and easy way\nto consider elementary process in ecology. Some experimental data (laboratory\nor field) for ecologic process are re-considered under the optic of this\nset-theory.",
+    "authors": [
+      "J. C. Flores"
+    ],
+    "publication_date": "2005-06-28T15:39:51Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0506040v1",
+    "download_url": "http://arxiv.org/abs/q-bio/0506040v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Population genetics in complex ecological communities",
+    "abstract": "Ecological interactions can dramatically alter evolutionary outcomes in\ncomplex communities. Yet, the classic theoretical results of population\ngenetics (e.g., Kimura's fixation formula) largely ignore ecological effects.\nHere, we address this shortcoming by using dynamical mean-field theory to\nintegrate ecology into classical population genetics models. We show that\necological interactions between parents and mutants result in\nfrequency-dependent selection and can be characterized by a single emergent\nparameter that measures the strength of ecological feedbacks. We derive an\nexplicit analytic expression for the fixation probability that generalizes\nKimura's famous result and analyze it in various ecological and evolutionary\nlimits. We find that ecological interactions suppress fixation probabilities\nfor moderately beneficial mutants when compared to Kimura's predictions, with\nthe strength of suppression increasing with larger effective population sizes,\ngreater selective differences between parent and mutant, and for ecosystems\nwith a large number of \"open niches\" (i.e., ecosystems well below the packing\nbound). Frequency-dependent selection also gives rise to prolonged\nparent-mutant coexistence in complex communities, a phenomenon absent in\nclassical population genetics. Our study establishes a framework for\nintegrating ecological interactions into population genetics models and helps\nilluminate how ecology can affect evolutionary outcomes.",
+    "authors": [
+      "Shing Yan Li",
+      "Zhijie Feng",
+      "Akshit Goyal",
+      "Pankaj Mehta"
+    ],
+    "publication_date": "2025-09-28T17:03:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.23977v1",
+    "download_url": "http://arxiv.org/abs/2509.23977v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Rise of Network Ecology: Maps of the topic diversity and scientific\n  collaboration",
+    "abstract": "Network ecologists investigate the structure, function, and evolution of\necological systems using network models and analyses. For example, network\ntechniques have been used to study community interactions (i.e., food-webs,\nmutualisms), gene flow across landscapes, and the sociality of individuals in\npopulations. The work presented here uses a bibliographic and network approach\nto (1) document the rise of Network Ecology, (2) identify the diversity of\ntopics addressed in the field, and (3) map the structure of scientific\ncollaboration among contributing scientists. Our aim is to provide a broad\noverview of this emergent field that highlights its diversity and to provide a\nfoundation for future advances. To do this, we searched the ISI Web of Science\ndatabase for ecology publications between 1900 and 2012 using the search terms\nfor research areas of Environmental Sciences & Ecology and Evolutionary Biology\nand the topic tag ecology. From these records we identified the Network Ecology\npublications using the topic terms network, graph theory, and web while\ncontrolling for the usage of misleading phrases. The resulting corpus entailed\n29,513 publications between 1936 and 2012. We document the rapid rise in\nNetwork Ecology publications per year reaching a magnitude of over 5% of the\necological publications in 2012. Drawing topical information from the\npublication record content (titles, abstracts, keywords) and collaboration\ninformation from author listing, our analysis highlights the diversity and\nclustering of topics addressed within Network Ecology and reveals the highly\ncollaborative approach of scientists publishing in this field. We conclude that\nNetwork Ecology is a large and rapidly growing area of ecology, and we expect\ncontinued growth of this research field.",
+    "authors": [
+      "Stuart R. Borrett",
+      "James Moody",
+      "Achim Edelmann"
+    ],
+    "publication_date": "2013-11-07T19:29:13Z",
+    "arxiv_id": "http://arxiv.org/abs/1311.1785v1",
+    "download_url": "http://arxiv.org/abs/1311.1785v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "AI as a Child of Mother Earth: Regrounding Human-AI Interaction in\n  Ecological Thinking",
+    "abstract": "The anthropocentric cultural idea that humans are active agents exerting\ncontrol over their environments has been largely normalized and inscribed in\npractices, policies, and products of contemporary industrialized societies.\nThis view underlies a human-ecology relationship based on resource and\nknowledge extraction. To create a more sustainable and equitable future, it is\nessential to consider alternative cultural ideas rooted in ecological thinking.\nThis perspective underscores the interconnectedness between humans and\nmore-than-human worlds. We propose a path to reshape the human-ecology\nrelationship by advocating for alternative human-AI interactions. In this\npaper, we undertake a critical comparison between anthropocentrism and\necological thinking, using storytelling to illustrate various human-AI\ninteractions that embody ecological thinking. We also delineate a set of design\nprinciples aimed at guiding AI developments toward fostering a more caring\nhuman-ecology relationship.",
+    "authors": [
+      "Chunchen Xu",
+      "Xiao Ge"
+    ],
+    "publication_date": "2024-03-11T17:30:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.06943v1",
+    "download_url": "http://arxiv.org/abs/2403.06943v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A four-step Bayesian workflow for improving ecological science",
+    "abstract": "Growing anthropogenic pressures have increased the need for robust predictive\nmodels. Meeting this demand requires approaches that can handle bigger data to\nyield forecasts that capture the variability and underlying uncertainty of\necological systems. Bayesian models are especially adept at this and are\ngrowing in use in ecology. Yet many ecologists today are not trained to take\nadvantage of the bigger ecological data needed to generate more flexible robust\nmodels. Here we describe a broadly generalizable workflow for statistical\nanalyses and show how it can enhance training in ecology. Building on the\nincreasingly computational toolkit of many ecologists, this approach leverages\nsimulation to integrate model building and testing for empirical data more\nfully with ecological theory. In turn this workflow can fit models that are\nmore robust and well-suited to provide new ecological insights -- allowing us\nto refine where to put resources for better estimates, better models, and\nbetter forecasts.",
+    "authors": [
+      "EM Wolkovich",
+      "T Jonathan Davies",
+      "William D Pearse",
+      "Michael Betancourt"
+    ],
+    "publication_date": "2024-08-05T16:23:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.02603v1",
+    "download_url": "http://arxiv.org/abs/2408.02603v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Multilayer Nature of Ecological Networks",
+    "abstract": "Although networks provide a powerful approach to study a large variety of\necological systems, their formulation does not typically account for multiple\ninteraction types, interactions that vary in space and time, and interconnected\nsystems such as networks of networks. The emergent field of `multilayer\nnetworks' provides a natural framework for extending analyses of ecological\nsystems to include such multiple layers of complexity, as it specifically\nallows one to differentiate and model `intralayer' and `interlayer'\nconnectivity. The framework provides a set of concepts and tools that can be\nadapted and applied to ecology, facilitating research on high-dimensional,\nheterogeneous systems in nature. Here, we formally define ecological multilayer\nnetworks based on a review of previous and related approaches, illustrate their\napplication and potential with analyses of existing data, and discuss\nlimitations, challenges, and future applications. The integration of multilayer\nnetwork theory into ecology offers largely untapped potential to further\naddress ecological complexity, to ultimately provide new theoretical and\nempirical insights into the architecture and dynamics of ecological systems.",
+    "authors": [
+      "Shai Pilosof",
+      "Mason A. Porter",
+      "Mercedes Pascual",
+      "Sonia Kéfi"
+    ],
+    "publication_date": "2015-11-13T21:00:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1511.04453v3",
+    "download_url": "http://arxiv.org/abs/1511.04453v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Foundations of ecological and evolutionary change",
+    "abstract": "Biological evolution is realised through the same mechanisms of birth and\ndeath that underlie change in population density. The deep interdependence\nbetween ecology and evolution is well-established, and recent models focus on\nintegrating eco-evolutionary dynamics to demonstrate how ecological and\nevolutionary processes interact and feed back upon each other. Nevertheless, a\ngap remains between the logical foundations of ecology and evolution.\nPopulation ecology and evolution have fundamental equations that define how the\nsize of a population (ecology) and the average characteristic within a\npopulation (evolution) change over time. These fundamental equations are a\ncomplete and exact description of change for any closed population, but how\nthey are formally linked remains unclear. We link the fundamental equations of\npopulation ecology and evolution with an equation that sums how individual\ncharacteristics interact with individual fitness in a population. From this\nequation, we derive the fundamental equations of population ecology and\nevolutionary biology (the Price equation). We thereby identify an overlooked\nbridge between ecology and biological evolution. Our unification formally\nrecovers the equivalence between mean population growth rate and evolutionary\nfitness and links this change to ecosystem function. We outline how our\nframework can be used to further develop eco-evolutionary theory.",
+    "authors": [
+      "A. Bradley Duthie",
+      "Victor J. Luque"
+    ],
+    "publication_date": "2024-09-16T22:50:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.10766v6",
+    "download_url": "http://arxiv.org/abs/2409.10766v6",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ecological Succession Model",
+    "abstract": "We introduce a new interacting particle system intended to model an example\nof ecological succession involving two species: the bracken and the european\nbeech. The objective is to exhibit phase transitions by proving that there\nexist three possible evolutions of the system to distinct ecological balances.\nMore precisely, the whole population may die out, the european beech may\nconquer the bracken, and coexistence of both species may occur.",
+    "authors": [
+      "Nicolas Lanchier"
+    ],
+    "publication_date": "2003-06-06T08:58:44Z",
+    "arxiv_id": "http://arxiv.org/abs/math/0306113v1",
+    "download_url": "http://arxiv.org/abs/math/0306113v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Glassy features and complex dynamics in ecological systems",
+    "abstract": "In this report, I will review some of the most used models in theoretical\necology along with appealing reformulations and recent results in terms of\ndiversity, stability, and functioning of large well-mixed ecological\ncommunities.",
+    "authors": [
+      "Ada Altieri"
+    ],
+    "publication_date": "2022-08-31T16:35:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.14956v1",
+    "download_url": "http://arxiv.org/abs/2208.14956v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Balaton Borders: Data Ceramics for Ecological Reflection",
+    "abstract": "Balaton Borders translates ecological data from Lake Balaton into ceramic\ntableware that represents human impact on the landscape, from reedbed reduction\nto shoreline modification and land erosion. Designed for performative dining,\nthe pieces turn shared meals into multisensory encounters where food and data\nceramics spark collective reflection on ecological disruption.",
+    "authors": [
+      "Hajnal Gyeviki",
+      "Mihály Minkó",
+      "Mary Karyda",
+      "Damla Çay"
+    ],
+    "publication_date": "2025-09-02T13:07:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.02284v1",
+    "download_url": "http://arxiv.org/abs/2509.02284v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A phase transition between the niche and neutral regimes in ecology",
+    "abstract": "An ongoing debate in ecology concerns the impacts of ecological drift and\nselection on community assembly. Here, we show that there is a sharp phase\ntransition in diverse ecological communities between a selection dominated\nregime (the niche phase) and a drift dominated regime (the neutral phase).\nSimulations and analytic arguments show that the niche phase is favored in\ncommunities with large population sizes and relatively constant environments,\nwhereas the neutral phase is favored in communities with small population sizes\nand fluctuating environments. Our results demonstrate how apparently neutral\npopulations may arise even in communities inhabited by species with varying\ntraits.",
+    "authors": [
+      "Charles K. Fisher",
+      "Pankaj Mehta"
+    ],
+    "publication_date": "2013-08-13T20:01:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1308.2969v2",
+    "download_url": "http://arxiv.org/abs/1308.2969v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning as Ecology",
+    "abstract": "Machine learning methods have had spectacular success on numerous problems.\nHere we show that a prominent class of learning algorithms - including Support\nVector Machines (SVMs) -- have a natural interpretation in terms of ecological\ndynamics. We use these ideas to design new online SVM algorithms that exploit\necological invasions, and benchmark performance using the MNIST dataset. Our\nwork provides a new ecological lens through which we can view statistical\nlearning and opens the possibility of designing ecosystems for machine\nlearning.\n  Supplemental code is found at https://github.com/owenhowell20/EcoSVM.",
+    "authors": [
+      "Owen Howell",
+      "Cui Wenping",
+      "Robert Marsland III",
+      "Pankaj Mehta"
+    ],
+    "publication_date": "2019-08-02T14:08:17Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.00868v2",
+    "download_url": "http://arxiv.org/abs/1908.00868v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Monotone Ecological Inference",
+    "abstract": "We study monotone ecological inference, a partial identification approach to\necological inference. The approach exploits information about one or both of\nthe following conditional associations: (1) outcome differences between groups\nwithin the same neighborhood, and (2) outcomes differences within the same\ngroup across neighborhoods with different group compositions. We show how\nassumptions about the sign of these conditional associations, whether\nindividually or in relation to one another, can yield informative sharp bounds\nin ecological inference settings. We illustrate our proposed approach using\ncounty-level data to study differences in Covid-19 vaccination rates among\nRepublicans and Democrats in the United States.",
+    "authors": [
+      "Hadi Elzayn",
+      "Jacob Goldin",
+      "Cameron Guage",
+      "Daniel E. Ho",
+      "Claire Morton"
+    ],
+    "publication_date": "2025-04-20T22:25:45Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.14752v1",
+    "download_url": "http://arxiv.org/abs/2504.14752v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Statistical mechanics unifies different ecological patterns",
+    "abstract": "Recently there has been growing interest in the use of Maximum Relative\nEntropy (MaxREnt) as a tool for statistical inference in ecology. In contrast,\nhere we propose MaxREnt as a tool for applying statistical mechanics to\necology. We use MaxREnt to explain and predict species abundance patterns in\necological communities in terms of the most probable behaviour under given\nenvironmental constraints, in the same way that statistical mechanics explains\nand predicts the behaviour of thermodynamic systems. We show that MaxREnt\nunifies a number of different ecological patterns: (i) at relatively local\nscales a unimodal biodiversity-productivity relationship is predicted in good\nagreement with published data on grassland communities, (ii) the predicted\nrelative frequency of rare vs. abundant species is very similar to the\nempirical lognormal distribution, (iii) both neutral and non-neutral species\nabundance patterns are explained, (iv) on larger scales a monotonic\nbiodiversity-productivity relationship is predicted in agreement with the\nspecies-energy law, (v) energetic equivalence and power-law self-thinning\nbehaviour are predicted in resource-rich communities. We identify mathematical\nsimilarities between these ecological patterns and the behaviour of\nthermodynamic systems, and conclude that the explanation of ecological patterns\nis not unique to ecology but rather reflects the generic statistical behaviour\nof complex systems with many degrees of freedom under very general types of\nenvironmental constraints.",
+    "authors": [
+      "Roderick C. Dewar",
+      "Annabel Porte"
+    ],
+    "publication_date": "2007-03-28T08:33:24Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0703061v3",
+    "download_url": "http://arxiv.org/abs/q-bio/0703061v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Five Differences Between Ecological and Economic Networks",
+    "abstract": "Ecological and economic networks have many similarities and are often\ncompared. However, the comparison is often more apt as metaphor than a direct\nequivalence. In this paper, five key differences are explained which should\ninform any analysis which compares the two.",
+    "authors": [
+      "Reginald D. Smith"
+    ],
+    "publication_date": "2011-08-29T14:44:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1108.5580v1",
+    "download_url": "http://arxiv.org/abs/1108.5580v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Thermodynamic Theory of Ecology: Helmholtz Theorem for Lotka-Volterra\n  Equation, Extended Conservation Law, and Stochastic Predator-Prey Dynamics",
+    "abstract": "We carry out mathematical analyses, {\\em \\`{a} la} Helmholtz's and\nBoltzmann's 1884 studies of monocyclic Newtonian dynamics, for the\nLotka-Volterra (LV) equation exhibiting predator-prey oscillations. In doing so\na novel \"thermodynamic theory\" of ecology is introduced. An important feature,\nabsent in the classical mechanics, of ecological systems is a natural\nstochastic population dynamic formulation of which the deterministic equation\n(e.g., the LV equation studied) is the infinite population limit. Invariant\ndensity for the stochastic dynamics plays a central role in the deterministic\nLV dynamics. We show how the conservation law along a single trajectory extends\nto incorporate both variations in a model parameter $\\alpha$ and in initial\nconditions: Helmholtz's theorem establishes a broadly valid conservation law in\na class of ecological dynamics. We analyze the relationships among mean\necological activeness $\\theta$, quantities characterizing dynamic ranges of\npopulations $\\mathcal{A}$ and $\\alpha$, and the ecological force $F_{\\alpha}$.\nThe analyses identify an entire orbit as a stationary ecology, and establish\nthe notion of \"equation of ecological states\". Studies of the stochastic\ndynamics with finite populations show the LV equation as the robust, fast\ncyclic underlying behavior. The mathematical narrative provides a novel way of\ncapturing long-term dynamical behaviors with an emergent {\\em conservative\necology}.",
+    "authors": [
+      "Yi-An Ma",
+      "Hong Qian"
+    ],
+    "publication_date": "2014-05-16T21:24:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1405.4311v2",
+    "download_url": "http://arxiv.org/abs/1405.4311v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bottom-up versus top-down control and the transfer of information in\n  complex model ecosystems",
+    "abstract": "Ecological systems are emergent features of ecological and adaptive dynamics\nof a community of interacting species. By natural selection through the abiotic\nenvironment and by co-adaptation within the community, species evolve, thereby\ngiving rise to the ecological networks we regard as ecosystems. This\nreductionist perspective can be contrasted with the view that as species have\nto fit in the surrounding system, the system itself exerts selection pressure\non the evolutionary pathways of the species. This interplay of bottom-up and\ntop-down control in the development and growth of ecological systems has long\nbeen discussed, however empirical ecosystem data is scarce and a comprehensive\nmathematical framework is lacking. We present a way of quantifying the relative\nweight of natural selection and coadaptation grounded in information theory, to\nassess the relative role of bottom-up and top-down control in the evolution of\necological systems, and analyse the information transfer in an individual based\nstochastic complex systems model, the Tangled Nature Model of evolutionary\necology. We show that ecological communities evolve from mainly bottom-up\ncontrolled early-successional systems to more strongly top-down controlled\nlate-successional systems, as coadaptation progresses. Species which have a\nhigh influence on selection are also generally more abundant. Hence our\nfindings imply that ecological communities are shaped by a dialogue of\nbottom-up and top-down control, where the role of the systemic selection and\nintegrity becomes more pronounced the further the ecosystem is developed.",
+    "authors": [
+      "Katharina Brinck",
+      "Henrik Jeldtoft Jensen"
+    ],
+    "publication_date": "2018-07-02T08:30:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1807.00527v1",
+    "download_url": "http://arxiv.org/abs/1807.00527v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Rewriting results in the language of compatibility",
+    "abstract": "This is a reply to Muff, S. et al. (2022) Rewriting results sections in the\nlanguage of evidence, Trends in Ecology & Evolution 37, 203-210.",
+    "authors": [
+      "Valentin Amrhein",
+      "Sander Greenland"
+    ],
+    "publication_date": "2022-02-21T15:53:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.10328v1",
+    "download_url": "http://arxiv.org/abs/2202.10328v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Multimodal Ecological Civilization Pattern Recommendation Method Based\n  on Large Language Models and Knowledge Graph",
+    "abstract": "The Ecological Civilization Pattern Recommendation System (ECPRS) aims to\nrecommend suitable ecological civilization patterns for target regions,\npromoting sustainable development and reducing regional disparities. However,\nthe current representative recommendation methods are not suitable for\nrecommending ecological civilization patterns in a geographical context. There\nare two reasons for this. Firstly, regions have spatial heterogeneity, and the\n(ECPRS)needs to consider factors like climate, topography, vegetation, etc., to\nrecommend civilization patterns adapted to specific ecological environments,\nensuring the feasibility and practicality of the recommendations. Secondly, the\nabstract features of the ecological civilization patterns in the real world\nhave not been fully utilized., resulting in poor richness in their embedding\nrepresentations and consequently, lower performance of the recommendation\nsystem. Considering these limitations, we propose the ECPR-MML method.\nInitially, based on the novel method UGPIG, we construct a knowledge graph to\nextract regional representations incorporating spatial heterogeneity features.\nFollowing that, inspired by the significant progress made by Large Language\nModels (LLMs) in the field of Natural Language Processing (NLP), we employ\nLarge LLMs to generate multimodal features for ecological civilization patterns\nin the form of text and images. We extract and integrate these multimodal\nfeatures to obtain semantically rich representations of ecological\ncivilization. Through extensive experiments, we validate the performance of our\nECPR-MML model. Our results show that F1@5 is 2.11% higher compared to\nstate-of-the-art models, 2.02% higher than NGCF, and 1.16% higher than UGPIG.\nFurthermore, multimodal data can indeed enhance recommendation performance.\nHowever, the data generated by LLM is not as effective as real data to a\ncertain extent.",
+    "authors": [
+      "Zhihang Yu",
+      "Shu Wang",
+      "Yunqiang Zhu",
+      "Zhiqiang Zou"
+    ],
+    "publication_date": "2023-10-29T09:41:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.18951v1",
+    "download_url": "http://arxiv.org/abs/2310.18951v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ecology, Spatial Structure, and Selection Pressure Induce Strong\n  Signatures in Phylogenetic Structure",
+    "abstract": "Evolutionary dynamics are shaped by a variety of fundamental, generic\ndrivers, including spatial structure, ecology, and selection pressure. These\ndrivers impact the trajectory of evolution, and have been hypothesized to\ninfluence phylogenetic structure. Here, we set out to assess (1) if spatial\nstructure, ecology, and selection pressure leave detectable signatures in\nphylogenetic structure, (2) the extent, in particular, to which ecology can be\ndetected and discerned in the presence of spatial structure, and (3) the extent\nto which these phylogenetic signatures generalize across evolutionary systems.\nTo this end, we analyze phylogenies generated by manipulating spatial\nstructure, ecology, and selection pressure within three computational models of\nvaried scope and sophistication. We find that selection pressure, spatial\nstructure, and ecology have characteristic effects on phylogenetic metrics,\nalthough these effects are complex and not always intuitive. Signatures have\nsome consistency across systems when using equivalent taxonomic unit\ndefinitions (e.g., individual, genotype, species). Further, we find that\nsufficiently strong ecology can be detected in the presence of spatial\nstructure. We also find that, while low-resolution phylogenetic reconstructions\ncan bias some phylogenetic metrics, high-resolution reconstructions\nrecapitulate them faithfully. Although our results suggest potential for\nevolutionary inference of spatial structure, ecology, and selection pressure\nthrough phylogenetic analysis, further methods development is needed to\ndistinguish these drivers' phylometric signatures from each other and to\nappropriately normalize phylogenetic metrics. With such work, phylogenetic\nanalysis could provide a versatile toolkit to study large-scale evolving\npopulations.",
+    "authors": [
+      "Matthew Andres Moreno",
+      "Santiago Rodriguez-Papa",
+      "Emily Dolson"
+    ],
+    "publication_date": "2024-05-12T10:35:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.07245v2",
+    "download_url": "http://arxiv.org/abs/2405.07245v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ecological Complex Systems",
+    "abstract": "Main aim of this topical issue is to report recent advances in noisy\nnonequilibrium processes useful to describe the dynamics of ecological systems\nand to address the mechanisms of spatio-temporal pattern formation in ecology\nboth from the experimental and theoretical points of view. This is in order to\nunderstand the dynamical behaviour of ecological complex systems through the\ninterplay between nonlinearity, noise, random and periodic environmental\ninteractions. Discovering the microscopic rules and the local interactions\nwhich lead to the emergence of specific global patterns or global dynamical\nbehaviour and the noises role in the nonlinear dynamics is an important, key\naspect to understand and then to model ecological complex systems.",
+    "authors": [
+      "Astero Provata",
+      "Igor M. Sokolov",
+      "Bernardo Spagnolo"
+    ],
+    "publication_date": "2008-10-07T15:46:43Z",
+    "arxiv_id": "http://arxiv.org/abs/0810.1223v1",
+    "download_url": "http://arxiv.org/abs/0810.1223v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A null model for testing thermodynamic optimization in ecological\n  systems",
+    "abstract": "Several authors have hypothesized that ecological systems are subject to\nthermodynamic optimization, which, if proven correct, could represent a long\nsought general principle of organization in ecology. Although there have been\nrecent advances, this still remains as an unresolved topic, and ecologists lack\na general method to test thermodynamic optimization hypotheses in specific\nsystems. Here we present a general, novel approach that allows generating a\nnull model for testing thermodynamic optimization on ecological systems. We\nfirst describe the general methodology, which is based in the analysis of a\nparametrized mathematical model of the system and the explicit consideration of\nconstraints. Next we present an application example to an animal population\nusing a general age-structured population model and physiological parameters\nfrom the literature. We finalize discussing the relevance of this work in the\ncontext of the current state of ecology, and implications for the further\ndevelopment of a thermodynamic ecological theory.",
+    "authors": [
+      "Santiago R. Doyle",
+      "Florencia Carusela",
+      "Sebastián Guala",
+      "Fernando Momo"
+    ],
+    "publication_date": "2011-11-08T19:14:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1111.2019v1",
+    "download_url": "http://arxiv.org/abs/1111.2019v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Disentangling the effects of geographic and ecological isolation on\n  genetic differentiation",
+    "abstract": "Populations can be genetically isolated both by geographic distance and by\ndifferences in their ecology or environment that decrease the rate of\nsuccessful migration. Empirical studies often seek to investigate the\nrelationship between genetic differentiation and some ecological variable(s)\nwhile accounting for geographic distance, but common approaches to this problem\n(such as the partial Mantel test) have a number of drawbacks. In this article,\nwe present a Bayesian method that enables users to quantify the relative\ncontributions of geographic distance and ecological distance to genetic\ndifferentiation between sampled populations or individuals. We model the allele\nfrequencies in a set of populations at a set of unlinked loci as spatially\ncorrelated Gaussian processes, in which the covariance structure is a\ndecreasing function of both geographic and ecological distance. Parameters of\nthe model are estimated using a Markov chain Monte Carlo algorithm. We call\nthis method Bayesian Estimation of Differentiation in Alleles by Spatial\nStructure and Local Ecology (BEDASSLE), and have implemented it in a\nuser-friendly format in the statistical platform R. We demonstrate its utility\nwith a simulation study and empirical applications to human and teosinte\ndatasets.",
+    "authors": [
+      "Gideon Bradburd",
+      "Peter Ralph",
+      "Graham Coop"
+    ],
+    "publication_date": "2013-02-13T23:50:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.3274v4",
+    "download_url": "http://arxiv.org/abs/1302.3274v4",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spatially-constrained clustering of ecological networks",
+    "abstract": "Spatial ecological networks are widely used to model interactions between\ngeoreferenced biological entities (e.g., populations or communities). The\nanalysis of such data often leads to a two-step approach where groups\ncontaining similar biological entities are firstly identified and the spatial\ninformation is used afterwards to improve the ecological interpretation. We\ndevelop an integrative approach to retrieve groups of nodes that are\ngeographically close and ecologically similar. Our model-based\nspatially-constrained method embeds the geographical information within a\nregularization framework by adding some constraints to the maximum likelihood\nestimation of parameters. A simulation study and the analysis of real data\ndemonstrate that our approach is able to detect complex spatial patterns that\nare ecologically meaningful. The model-based framework allows us to consider\nexternal information (e.g., geographic proximities, covariates) in the analysis\nof ecological networks and appears to be an appealing alternative to consider\nsuch data.",
+    "authors": [
+      "Vincent Miele",
+      "Franck Picard",
+      "Stéphane Dray"
+    ],
+    "publication_date": "2014-02-21T15:06:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1402.5319v1",
+    "download_url": "http://arxiv.org/abs/1402.5319v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Dynamical Systems Framework for Resilience in Ecology",
+    "abstract": "Rising interest in the resilience of ecological systems has spawned diverse\ninterpretations of the term's precise meaning. This paper classifies and\nexplores definitions of resilience from the ecological literature using a\ndynamical systems framework. A model consisting of ordinary differential\nequations is assumed to represent the ecological system. The question\n\"resilience of what to what?\" posed by Carpenter et al. [2001] informs two\nbroad categories of definitions, based on resilience to state variable\nperturbations and to parameter changes, respectively. Definitions of resilience\nto state variable perturbations include measures of basin size (relevant to\none-time perturbations) and of basin steepness (relevant to repeated\nperturbations). Resilience to parameter changes can be quantified by viewing\nparameters as state variables, but could also take into account reversibility.\nThe dynamical systems viewpoint yields the following key insights: (i) system\nproperties that confer resistance to state variable perturbations can differ\nfrom those that promote recovery from them, (ii) recovery rates, oft deemed the\npurview of \"engineering resilience,\" do matter for ecological resilience, and\n(iii) resilience to repeated state variable perturbations correlates with\nresilience to parameter changes due to the critical slowing down phenomenon.",
+    "authors": [
+      "Katherine Meyer"
+    ],
+    "publication_date": "2015-09-28T02:12:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1509.08175v1",
+    "download_url": "http://arxiv.org/abs/1509.08175v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modelling social-ecological transformations: an adaptive network\n  proposal",
+    "abstract": "Transformations to create more sustainable social-ecological systems are\nurgently needed. Structural change is a feature of transformations of\nsocial-ecological systems that is of critical importance but is little\nunderstood. Here, we propose a framework for conceptualising and modelling\nsustainability transformations based on adaptive networks. Adaptive networks\nfocus attention on the interplay between the structure of a social-ecological\nsystem and the dynamics of individual entities. Adaptive networks could\nprogress transformations research by: 1) focusing research on changes in\nstructure; 2) providing a conceptual framework that clarifies the temporal\ndynamics of social-ecological transformations compared to the most commonly\nused heuristic in resilience studies, the ball-and-cup diagram; 3) providing\nquantitative modelling tools in an area of study dominated by qualitative\nmethods. We illustrate the potential application of adaptive networks to\nsocial-ecological transformations using a case study of illegal fishing in the\nSouthern Ocean and a theoretical model of socially networked resource users.",
+    "authors": [
+      "Steven J. Lade",
+      "Örjan Bodin",
+      "Jonathan F. Donges",
+      "Elin Enfors Kautsky",
+      "Diego Galafassi",
+      "Per Olsson",
+      "Maja Schlüter"
+    ],
+    "publication_date": "2017-04-18T14:27:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1704.06135v1",
+    "download_url": "http://arxiv.org/abs/1704.06135v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Link Prediction Under Imperfect Detection: Collaborative Filtering for\n  Ecological Networks",
+    "abstract": "Matrix completion based collaborative filtering is considered scalable and\neffective for online service link prediction (e.g., movie recommendation) but\ndoes not meet the challenges of link prediction in ecological networks. A\nunique challenge of ecological networks is that the observed data are subject\nto systematic imperfect detection, due to the difficulty of accurate field\nsampling. In this work, we propose a new framework customized for ecological\nbipartite network link prediction. Our approach starts with incorporating the\nPoisson N-mixture model, a widely used framework in statistical ecology for\nmodeling imperfect detection of a single species in field sampling. Despite its\nextensive use for single species analysis, this model has never been considered\nfor link prediction between different species, perhaps because of the complex\nnature of both link prediction and N-mixture model inference. By judiciously\ncombining the Poisson N-mixture model with a probabilistic nonnegative matrix\nfactorization (NMF) model in latent space, we propose an intuitive statistical\nmodel for the problem of interest. We also offer a scalable and\nconvergence-guaranteed optimization algorithm to handle the associated maximum\nlikelihood identification problem. Experimental results on synthetic data and\ntwo real-world ecological networks data are employed to validate our proposed\napproach.",
+    "authors": [
+      "Xiao Fu",
+      "Eugene Seo",
+      "Justin Clarke",
+      "Rebecca A. Hutchinson"
+    ],
+    "publication_date": "2019-10-08T19:38:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.03659v1",
+    "download_url": "http://arxiv.org/abs/1910.03659v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Higher-order social-ecological network as a simplicial complex",
+    "abstract": "A social-ecological network is a formal representation of a corresponding\nsocial-ecological system, and encodes a relation within a given system as an\ninteraction. Conventionally, such networks have been defined as encoding and\nrepresenting pairwise interactions among the fundamental units of the system.\nThis work proposes a combinatorial definition of social-ecological network by\nmeans of its structure as a simplicial complex. The proposed definition is a\ncomprehensive one that takes into account the heterogeneity of interactions\nwithin a given SES, and the higher-order social-ecological network modelled\nusing this definition is able to represent the modelled SES by capturing all\norders of interactions within the system. Such a social-ecological network\nconsequently, is better equipped to capture and represent the structural\ndetails of the real-world SES, and is thus capable of facilitating a deeper\ninsight into the complex behaviour of the represented SES emergent through the\nhigher-order interactions within the system, as compared to the conventional\ngraph-theoretic network that exclusively models pairwise interactions.",
+    "authors": [
+      "Sudeepto Bhattacharya"
+    ],
+    "publication_date": "2021-12-31T06:32:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.15318v2",
+    "download_url": "http://arxiv.org/abs/2112.15318v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Perceptual Study of Sound Ecology in Peripheral Sonification",
+    "abstract": "Based on a case study on 3D printing, we have been experimenting on the\nsonification of multidimensional data for peripheral process monitoring. In a\nprevious paper, we tested the effectiveness of a soundscape which combined\nintentionally incongruous natural and musical sounds. This was based on the\nhypothesis that auditory stimuli could better stand out from one another if\nthey were less ecologically coherent, thus allowing for better reaction rates\nto various notifications. In this paper, we follow up on that hypothesis by\ntesting two new acoustic ecologies, each exclusively consisting of either\nmusical or natural sounds. We then run those ecologies through the same\ndual-task evaluation process as the previous one in order to compare them. The\nresults seem to favor our hypothesis, as the new ecologies were not detected as\naccurately as the original. Though, the set of natural sounds seemed to be\nconsidered less intrusive by testers, and to allow for a better performance at\nan external primary task. We hope to see this work become part of a much larger\ncorpus of studies, which may eventually provide a more definite answer on the\neffect of ecological coherence in peripheral soundscape design.",
+    "authors": [
+      "Maxime Poret",
+      "Catherine Semal",
+      "Myriam Desainte-Catherine"
+    ],
+    "publication_date": "2023-02-08T09:27:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.03957v1",
+    "download_url": "http://arxiv.org/abs/2302.03957v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Identifying and Explaining the Resilience of Ecological Networks",
+    "abstract": "Resilient ecological systems will be better able to maintain their structure\nand function in the emerging Anthropocene. Estimating the resilience of\ndifferent systems will therefore provide valuable insight for conservation\ndecision-makers, and is a priority goal of resilience theory. Current\nestimation methods rely on the accurate parameterisation of ecosystem models,\nor the identification of important motifs in the structure of the ecological\nsystem network. However, both of these methods face significant empirical and\ntheoretical challenges. In this paper, we adapt tools developed for the\nanalysis of biochemical regulatory networks to prove that a form of resilience\n- robust perfect adaptation - is a property of particular ecological networks,\nand to explain the specific process by which the ecosystem maintains its\nresilience. We undertake an exhaustive search for robust perfect adaptation\nacross all possible three-species ecological networks, under a generalised\nLotka-Volterra framework. From over 20,000 possible network structures, we\nidentify 23 network structures that are capable of robust perfect adaptation.\nThe resilient properties of these networks provide important insights into the\npotential mechanisms that could promote resilience in ecosystems, and suggest\nnew avenues for measuring and understanding the property of ecological\nresilience in larger, more realistic socioecological networks.",
+    "authors": [
+      "Cailan Jeynes-Smith",
+      "Michael Bode",
+      "Robyn P. Araujo"
+    ],
+    "publication_date": "2023-06-15T00:44:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.08795v1",
+    "download_url": "http://arxiv.org/abs/2306.08795v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Exploring the Duffing Equation: Numerical Analysis, Discrete\n  Dynamics,and Ecological Modeling",
+    "abstract": "This research paper delves into the dynamics of a novel ecology model that\ndescribes the intricate interplay between radioactivity and cancer cases.\nOrganized into three main sections, the study covers numerical analysis using\nadvanced techniques, the analysis of discrete dynamical systems, and explores\nthe potential applications of the model in the context of cancer research and\necological systems. By conducting a comprehensive bifurcation analysis, we\nunveil the model's sensitivity to external factors, interactive behaviors\nbetween radioactivity and cancer cases, and the emergence of multiple\nattractors. These findings open up new avenues for understanding cancer\ndynamics, ecological systems, and clinical scenarios, where even subtle\nvariations in external factors can lead to significant variations in cancer\nincidence. The insights gained from this study have promising implications for\nboth theoretical and applied research in cancer epidemiology and ecology,\nproviding a deeper understanding of the complex dynamics underlying these\nsystems. In our research, we present a new ecology model that reveals the\nintricate and often nonlinear relationship between radioactivity and cancer\nincidence, offering novel insights into cancer dynamics and environmental\ninfluences.",
+    "authors": [
+      "Rafik Zeraoulia",
+      "Chaima Zeraoulia"
+    ],
+    "publication_date": "2023-11-02T22:15:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.02112v1",
+    "download_url": "http://arxiv.org/abs/2311.02112v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Addressing ecological challenges from a quantum computing perspective",
+    "abstract": "With increased access to data and the advent of computers, the use of\nstatistical tools and numerical simulations is becoming commonplace for\necologists. These approaches help improve our understanding of ecological\nphenomena and their underlying mechanisms in increasingly complex environments.\nHowever, the development of mathematical and computational tools has made it\npossible to study high-dimensional problems up to a certain limit. To overcome\nthis issue, quantum computers could be used to study ecological problems on a\nlarger scale by creating new bridges between fields that at first glance appear\nto be quite different. We introduce the basic concepts needed to understand\nquantum computers, give an overview of their applications, and discuss their\nchallenges and future opportunities in ecology. Quantum computers will have a\nsignificant impact on ecology by improving the power of statistical tools,\nsolve intractable problems in networks, and help understand the dynamics of\nlarge systems of interacting species. This innovative computational perspective\ncould redefine our understanding of species interactions, improve predictive\nmodeling of distributions, and optimize conservation strategies, thereby\nadvancing the field of ecology into a new era of discovery and insight.",
+    "authors": [
+      "Maxime Clenet",
+      "Maxime Dion",
+      "F. Guillaume Blanchet"
+    ],
+    "publication_date": "2025-04-04T18:44:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.03866v1",
+    "download_url": "http://arxiv.org/abs/2504.03866v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Meta-learning ecological priors from large language models explains\n  human learning and decision making",
+    "abstract": "Human cognition is profoundly shaped by the environments in which it unfolds.\nYet, it remains an open question whether learning and decision making can be\nexplained as a principled adaptation to the statistical structure of real-world\ntasks. We introduce ecologically rational analysis, a computational framework\nthat unifies the normative foundations of rational analysis with ecological\ngrounding. Leveraging large language models to generate ecologically valid\ncognitive tasks at scale, and using meta-learning to derive rational models\noptimized for these environments, we develop a new class of learning\nalgorithms: Ecologically Rational Meta-learned Inference (ERMI). ERMI\ninternalizes the statistical regularities of naturalistic problem spaces and\nadapts flexibly to novel situations, without requiring hand-crafted heuristics\nor explicit parameter updates. We show that ERMI captures human behavior across\n15 experiments spanning function learning, category learning, and decision\nmaking, outperforming several established cognitive models in trial-by-trial\nprediction. Our results suggest that much of human cognition may reflect\nadaptive alignment to the ecological structure of the problems we encounter in\neveryday life.",
+    "authors": [
+      "Akshay K. Jagadish",
+      "Mirko Thalmann",
+      "Julian Coda-Forno",
+      "Marcel Binz",
+      "Eric Schulz"
+    ],
+    "publication_date": "2025-08-28T16:07:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.00116v2",
+    "download_url": "http://arxiv.org/abs/2509.00116v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How network temporal dynamics shape a mutualistic system with invasive\n  species?",
+    "abstract": "Ecological networks allow us to study the structure and function of\necosystems and gain insights on species resilience/stability. The study of this\necological networks is usually a snapshop focused in a limited specific range\nof space and time, prevent us to perceive the real dynamics of ecological\nprocesses. By definition, an alien species has some ecological strategies and\ntraits that permit it to compete better than the native species (e.g. absence\nof predators, different bloom period, high grow rate, etc.). Plant-pollinator\nnetworks provide valuable services to whole ecosystems and the introduction of\nan alien species may have different effects on the native network (competitive\nfacilitation, native species extinction, etc.). While scientists acknowledge\nthe significance of network connectivity in driving ecosystem services, the\ninclusion of temporary networks in ecological models is still in its infancy.\nWe propose to use existing data on seasonality to develop a simulation platform\nthat show inference between temporality of networks and invasions traits. Our\nfocus is only to pick up some simple model to show, that theoretically temporal\naspect play a role (different extinction patterns) to encourage ecologist to\nget involved in temporal networks. Moreover, the derived simulations could be\nfurther extended and adjust to other ecological questions.",
+    "authors": [
+      "Andrzej Jarynowski",
+      "Fco. Alejandro Lopez-Nunez",
+      "Han Fan"
+    ],
+    "publication_date": "2014-07-16T15:03:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1407.4334v1",
+    "download_url": "http://arxiv.org/abs/1407.4334v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MELA: Modelling in Ecology with Location Attributes",
+    "abstract": "Ecology studies the interactions between individuals, species and the\nenvironment. The ability to predict the dynamics of ecological systems would\nsupport the design and monitoring of control strategies and would help to\naddress pressing global environmental issues. It is also important to plan for\nefficient use of natural resources and maintenance of critical ecosystem\nservices. The mathematical modelling of ecological systems often includes\nnontrivial specifications of processes that influence the birth, death,\ndevelopment and movement of individuals in the environment, that take into\naccount both biotic and abiotic interactions. To assist in the specification of\nsuch models, we introduce MELA, a process algebra for Modelling in Ecology with\nLocation Attributes. Process algebras allow the modeller to describe concurrent\nsystems in a high-level language. A key feature of concurrent systems is that\nthey are composed of agents that can progress simultaneously but also interact\n- a good match to ecological systems. MELA aims to provide ecologists with a\nstraightforward yet flexible tool for modelling ecological systems, with\nparticular emphasis on the description of space and the environment. Here we\npresent four example MELA models, illustrating the different spatial\narrangements which can be accommodated and demonstrating the use of MELA in\nepidemiological and predator-prey scenarios.",
+    "authors": [
+      "Ludovica Luisa Vissat",
+      "Jane Hillston",
+      "Glenn Marion",
+      "Matthew J. Smith"
+    ],
+    "publication_date": "2016-10-26T05:00:42Z",
+    "arxiv_id": "http://arxiv.org/abs/1610.08171v1",
+    "download_url": "http://arxiv.org/abs/1610.08171v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ecological fallacy and covariates in the estimation of voters\n  transitions",
+    "abstract": "We provide a simple formulation of the conditions under which ecological bias\nshould be expected and argue that the bias will affect any method of ecological\ninference; our claim is supported by formal derivations and several examples\nwhere individual data are available. The conditions which we highlight imply\nthat, when they are violated, ecological bias cannot be avoided unless the a\nsuitable model for the effect of specific covariates is incorporated into\necological inference. We also detect situations where the ecological bias\ncannot be corrected even if the effect of covariates is incorporated into the\nmodel. In particular, when the association in the individual data is rather\nweak and certain transition probabilities are similar functions of a given\ncovariate, ecological inference methods may be unable to disentangle the\nindividual components from their aggregate. In any case, the value of the\ncovariates measured at the level of local units, when these are rather\nextensive, do not provide enough information on the within unit heterogeneity.\nOur findings are applied and tested on several data sets, both real and\nsimulated, where individual observations are available in addition to the\naggregated ones.,.",
+    "authors": [
+      "Antonio Forcina",
+      "Davide Pellegrino"
+    ],
+    "publication_date": "2014-11-17T10:08:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1411.4411v5",
+    "download_url": "http://arxiv.org/abs/1411.4411v5",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evaluation cartographique du niveau de potentialit{é}s {é}cologiques\n  des sites des partenaires (CARPO). Cadre m{é}thodologique V0",
+    "abstract": "The Cartographic Assessment of Ecological Potential (CARPO) allows users to\ncharacterize the ecological context of a group of sites at several scales (its\nperimeter and surrounding area) and on the basis of 4 themes: biodiversity\nzonings, land use (major types of environment, natural character and degree of\npermeability of territories), ecological connectivity (biodiversity reservoirs\nand corridors, non-fragmentation of the sector studied), as well as the\nrichness of the territory in terms of heritage species. It is based on a\nbattery of 8 indicators linked to these themes and a system of evaluation\nthresholds, used to define 3 levels of ecological potential (average, strong\nand very strong) for each indicator and at each scale of study. The level of\npotentiality reflects the importance that an ecological element takes on in a\nstudy area, and therefore the degree of contribution and responsibility of a\nsite in maintaining this element favorable to biodiversity. It also translates\ninto an alert level for biodiversity that needs to be taken into account at a\nsite.The ecological diagnosis is materialized by means of a cartographic atlas\ncontaining a set of commented maps and figures, as well as evaluation grids and\nradars for the various indicators.CARPO is a decision-making tool, as it\nenables users to compare the ecological potential within a site with that of\nits surroundings, in order to define preservation, management or restoration\nactions; and to compare the extent of potential between the different sites in\nthe group, with a goal of prioritizing action.This guide presents the\nmethodological framework for applying CARPO to a group of sites.",
+    "authors": [
+      "Santiago Forero"
+    ],
+    "publication_date": "2024-03-18T10:48:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.12113v1",
+    "download_url": "http://arxiv.org/abs/2403.12113v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The ecological forecast limit revisited: Potential, actual and relative\n  system predictability",
+    "abstract": "Ecological forecasts are model-based statements about currently unknown\necosystem states in time or space. For a model forecast to be useful to inform\ndecision makers, model validation and verification determine adequateness. The\nmeasure of forecast goodness that can be translated into a limit up to which a\nforecast is acceptable is known as the 'forecast limit'. While verification in\nweather forecasting follows strict criteria with established metrics and\nforecast limits, assessments of ecological forecasting models still remain\nexperiment-specific, and forecast limits are rarely reported. As such, users of\necological forecasts remain uninformed of how far into the future statements\ncan be trusted. In this work, we synthesise existing approaches to define\nempirical forecast limits in a unified framework for assessing ecological\npredictability and offer recipes for their computation. We distinguish the\nmodel's potential and absolute forecast limit, and show how a benchmark model\ncan help determine its relative forecast limit. The approaches are demonstrated\nwith three case studies from population, ecosystem, and Earth system research.\nWe found that forecast limits can be computed with three requirements: A\nverification reference, a scoring function, and a predictive error tolerance.\nWithin our framework, forecast limits are defined for practically any\necological forecast and support research on ecological predictability analysis.",
+    "authors": [
+      "Marieke Wesselkamp",
+      "Jakob Albrecht",
+      "Ewan Pinnington",
+      "William J. Castillo",
+      "Florian Pappenberger",
+      "Carsten F. Dormann"
+    ],
+    "publication_date": "2024-12-01T10:14:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.00753v2",
+    "download_url": "http://arxiv.org/abs/2412.00753v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A theory of ecological invasions and its implications for\n  eco-evolutionary dynamics",
+    "abstract": "Predicting the outcomes of species invasions is a central goal of ecology, a\ntask made especially challenging due to ecological feedbacks. To address this,\nwe develop a general theory of ecological invasions applicable to a wide\nvariety of ecological models: including Lotka-Volterra models, consumer\nresource models, and models with cross feeding. Importantly, our framework\nremains valid even when invading evolved (non-random) communities and accounts\nfor invasion-driven species extinctions. We derive analytical expressions\nrelating invasion fitness to invader abundance, shifts in the community, and\nextinction probabilities. These results can be understood through a new\nquantity we term ``dressed invasion fitness'', which augments the traditional\nnotion of invasion fitness by incorporating ecological feedbacks. We apply our\ntheory to analyze short-term evolutionary dynamics through a series of\ninvasions by mutants whose traits are correlated with an existing parent. We\ndemonstrate that, generically, mutants and parents can coexist, often by\ndriving the extinction of low-abundance species. We validate theoretical\npredictions against experimental datasets spanning ecosystems from plants to\nmicrobial protists. Our work highlights the central role of ecological\nfeedbacks in shaping community responses to invasions and mutations, suggesting\nthat parent-mutant coexistence is widespread in eco-evolutionary dynamics.",
+    "authors": [
+      "Zhijie Feng",
+      "Emmy Blumenthal",
+      "Pankaj Mehta",
+      "Akshit Goyal"
+    ],
+    "publication_date": "2025-03-13T20:33:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.10865v2",
+    "download_url": "http://arxiv.org/abs/2503.10865v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "When Simple is Enough, Binary Models Capture Social Complexity in\n  Coupled Human-Environment Systems",
+    "abstract": "Models of coupled human-environment systems often face a tradeoff between\nrealism and tractability. Spectrum opinion models, where social preferences\nvary continuously, offer descriptive richness but are computationally demanding\nand parameter-heavy. Binary formulations, in contrast, are analytically simpler\nbut raise concerns about whether they can capture key socio-ecological\nfeedbacks. Here we systematically compare binary and spectrum social models\nacross four benchmark settings: (i) replicator dynamics coupled to a\nclimate-carbon system, (ii) FJ opinion dynamics coupled to the climate-carbon\nsystem, (iii) replicator dynamics coupled to a forest-grassland ecological\nsystem, and (iv) FJ opinion dynamics coupled to a forest-grassland ecological\nsystem. We employ the relative integrated absolute error (RIAE) to quantify\ndeviations between binary (N=2) and spectrum (N=100) formulations of social\nopinion dynamics in feedback with ecological subsystems. Across systematic\nparameter sweeps of learning rates, reluctance, conformity, susceptibility,\nrunaway amplitudes, and ecological turnover, the binary formulation typically\ntracks its spectrum counterpart to within 15 percent for most parameter\ncombinations. Deviations beyond this arise mainly under very high social\nsusceptibility or near-vanishing ecological turnover, where additional opinion\nmodes and nonlinear feedbacks matter. We therefore present the binary\nformulation as a practical surrogate, not a universal replacement. As a rule of\nthumb, it is adequate when susceptibility is moderate, ecological turnover\nappreciable, and runaway amplitudes not extreme; in high-susceptibility or\nlow-turnover regimes, especially near critical transitions, the full-spectrum\nmodel is preferable. This framing guides readers on when a binary reduction is\nsufficient versus when full-spectrum detail is warranted.",
+    "authors": [
+      "Yazdan Babazadeh Maghsoodlo",
+      "Madhur Anand",
+      "Chris T. Bauch"
+    ],
+    "publication_date": "2025-09-29T17:40:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.25111v1",
+    "download_url": "http://arxiv.org/abs/2509.25111v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Complexity, Collective Effects and Modelling of Ecosystems: formation,\n  function and stability",
+    "abstract": "We discuss the relevance of studying ecology within the framework of\nComplexity Science from a statistical mechanics approach. Ecology is concerned\nwith understanding how systems level properties emerge out of the multitude of\ninteractions amongst large numbers of components, leading to ecosystems that\npossess the prototypical characteristics of complex systems. We argue that\nstatistical mechanics is at present the best methodology available to obtain a\nquantitative description of complex systems, and that ecology is in urgent need\nof ``integrative'' approaches that are quantitative and non-stationary. We\ndescribe examples where combining statistical mechanics and ecology has led to\nimproved ecological modelling and, at the same time, broadened the scope of\nstatistical mechanics.",
+    "authors": [
+      "Henrik Jeldtoft Jensen",
+      "Elsa Arcaute"
+    ],
+    "publication_date": "2007-09-13T08:13:14Z",
+    "arxiv_id": "http://arxiv.org/abs/0709.2015v1",
+    "download_url": "http://arxiv.org/abs/0709.2015v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generalized modeling of empirical social-ecological systems",
+    "abstract": "Modeling social-ecological systems is difficult due to the complexity of\necosystems and of individual and collective human behavior. Key components of\nthe social-ecological system are often over-simplified or omitted. Generalized\nmodeling is a dynamical systems approach that can overcome some of these\nchallenges. It can rigorously analyze qualitative system dynamics such as\nregime shifts despite incomplete knowledge of the model's constituent\nprocesses. Here, we review generalized modeling and use a recent study on the\nBaltic Sea cod fishery's boom and collapse to demonstrate its application to\nmodeling the dynamics of empirical social-ecological systems. These empirical\napplications demand new methods of analysis suited to larger, more complicated\ngeneralized models. Generalized modeling is a promising tool for rapidly\ndeveloping mathematically rigorous, process-based understanding of a\nsocial-ecological system's dynamics despite limited knowledge of the system.",
+    "authors": [
+      "Steven J. Lade",
+      "Susa Niiranen"
+    ],
+    "publication_date": "2015-03-10T10:15:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1503.02846v2",
+    "download_url": "http://arxiv.org/abs/1503.02846v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ecological-economic modelling of interactions between wild and\n  commercial bees and pesticide use",
+    "abstract": "The decline in extent of wild pollinators in recent years has been partly\nassociated with changing farm practices and in particular with increasing\npesticide use. In this paper we combine ecological modelling with economic\nanalysis of a single farm output under the as- sumption that both pollination\nand pest control are essential inputs. We show that the drive to increase farm\noutput can lead to a local decline in the wild bee population. Commercial bees\nare often considered an alternative to wild pollinators, but we show that their\nintro- duction can lead to further decline and finally local extinction of wild\nbees. The transitions between different outcomes are characterised by threshold\nbehaviour and are potentially difficult to predict and detect in advance. Small\nchanges in economic parameters (input prices) and ecological parameters (wild\nbees carrying capacity and effect of pesticides on bees) can move the\neconomic-ecological system beyond the extinction threshold. We also show that\nincreasing the pesticide price or decreasing the commercial bee price might\nlead to re-establishment of wild bees following their local extinction. Thus,\nwe demonstrate the importance of combining ecological modelling with economics\nto study the provision of ecosystem services and to inform sustainable\nmanagement of ecosystem service providers.",
+    "authors": [
+      "Adam Kleczkowski",
+      "Ciaran Ellis",
+      "Dave Goulson",
+      "Nick Hanley"
+    ],
+    "publication_date": "2015-09-12T12:17:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1509.03734v1",
+    "download_url": "http://arxiv.org/abs/1509.03734v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "EcoMem: An R package for quantifying ecological memory",
+    "abstract": "Ecological processes may exhibit memory to past disturbances affecting the\nresilience of ecosystems to future disturbance. Understanding the role of\necological memory in shaping ecosystem responses to disturbance under global\nchange is a critical step toward developing effective adaptive management\nstrategies to maintain ecosystem function and biodiversity. We developed\nEcoMem, an R package for quantifying ecological memory functions using common\nenvironmental time series data (continuous, count, proportional) applying a\nBayesian hierarchical framework. The package estimates memory functions for\ncontinuous and binary (e.g., disturbance chronology) variables making no a\npriori assumption on the form of the functions. EcoMem allows users to quantify\necological memory for a wide range of ecosystem processes and responses. The\nutility of the package to advance understanding of the memory of ecosystems to\nenvironmental drivers is demonstrated using a simulated dataset and a case\nstudy assessing the memory of boreal tree growth to insect defoliation.",
+    "authors": [
+      "Malcolm S. Itter",
+      "Jarno Vanhatalo",
+      "Andrew O. Finley"
+    ],
+    "publication_date": "2019-02-20T18:59:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1902.07706v1",
+    "download_url": "http://arxiv.org/abs/1902.07706v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

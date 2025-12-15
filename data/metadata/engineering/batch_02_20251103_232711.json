@@ -1,0 +1,820 @@
+[
+  {
+    "title": "Multi-Label Classification Framework for Hurricane Damage Assessment",
+    "abstract": "Hurricanes cause widespread destruction, resulting in diverse damage types\nand severities that require timely and accurate assessment for effective\ndisaster response. While traditional single-label classification methods fall\nshort of capturing the complexity of post-hurricane damage, this study\nintroduces a novel multi-label classification framework for assessing damage\nusing aerial imagery. The proposed approach integrates a feature extraction\nmodule based on ResNet and a class-specific attention mechanism to identify\nmultiple damage types within a single image. Using the Rescuenet dataset from\nHurricane Michael, the proposed method achieves a mean average precision of\n90.23%, outperforming existing baseline methods. This framework enhances\npost-hurricane damage assessment, enabling more targeted and efficient disaster\nresponse and contributing to future strategies for disaster mitigation and\nresilience. This paper has been accepted at the ASCE International Conference\non Computing in Civil Engineering (i3CE 2025), and the camera-ready version\nwill appear in the official conference proceedings.",
+    "authors": [
+      "Zhangding Liu",
+      "Neda Mohammadi",
+      "John E. Taylor"
+    ],
+    "publication_date": "2025-07-03T03:15:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.02265v1",
+    "download_url": "http://arxiv.org/abs/2507.02265v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Look into How Machine Learning is Reshaping Engineering Models: the\n  Rise of Analysis Paralysis, Optimal yet Infeasible Solutions, and the\n  Inevitable Rashomon Paradox",
+    "abstract": "The widespread acceptance of empirically derived codal provisions and\nequations in civil engineering stands in stark contrast to the skepticism\nfacing machine learning (ML) models, despite their shared statistical\nfoundations. This paper examines this philosophical tension through the lens of\nstructural engineering and explores how integrating ML challenges traditional\nengineering philosophies and professional identities. Recent efforts have\ndocumented how ML enhances predictive accuracy, optimizes designs, and analyzes\ncomplex behaviors. However, one might also raise concerns about the diminishing\nrole of human intuition and the interpretability of algorithms. To showcase\nthis rarely explored front, this paper presents how ML can be successfully\nintegrated into various engineering problems by means of formulation via\ndeduction, induction, and abduction. Then, this paper identifies three\nprincipal paradoxes that could arise when adopting ML: analysis paralysis\n(increased prediction accuracy leading to a reduced understanding of physical\nmechanisms), infeasible solutions (optimization resulting in unconventional\ndesigns that challenge engineering intuition), and the Rashomon effect (where\ncontradictions in explainability methods and physics arise). This paper\nconcludes by addressing these paradoxes and arguing the need to rethink\nepistemological shifts in engineering and engineering education and\nmethodologies to harmonize traditional principles with ML.",
+    "authors": [
+      "MZ Naser"
+    ],
+    "publication_date": "2025-01-09T00:35:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2501.04894v1",
+    "download_url": "http://arxiv.org/abs/2501.04894v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DesCartes Builder: A Tool to Develop Machine-Learning Based Digital\n  Twins",
+    "abstract": "Digital twins (DTs) are increasingly utilized to monitor, manage, and\noptimize complex systems across various domains, including civil engineering. A\ncore requirement for an effective DT is to act as a fast, accurate, and\nmaintainable surrogate of its physical counterpart, the physical twin (PT). To\nthis end, machine learning (ML) is frequently employed to (i) construct\nreal-time DT prototypes using efficient reduced-order models (ROMs) derived\nfrom high-fidelity simulations of the PT's nominal behavior, and (ii)\nspecialize these prototypes into DT instances by leveraging historical sensor\ndata from the target PT. Despite the broad applicability of ML, its use in DT\nengineering remains largely ad hoc. Indeed, while conventional ML pipelines\noften train a single model for a specific task, DTs typically require multiple,\ntask- and domain-dependent models. Thus, a more structured approach is required\nto design DTs.\n  In this paper, we introduce DesCartes Builder, an open-source tool to enable\nthe systematic engineering of ML-based pipelines for real-time DT prototypes\nand DT instances. The tool leverages an open and flexible visual data flow\nparadigm to facilitate the specification, composition, and reuse of ML models.\nIt also integrates a library of parameterizable core operations and ML\nalgorithms tailored for DT design. We demonstrate the effectiveness and\nusability of DesCartes Builder through a civil engineering use case involving\nthe design of a real-time DT prototype to predict the plastic strain of a\nstructure.",
+    "authors": [
+      "Eduardo de Conto",
+      "Blaise Genest",
+      "Arvind Easwaran",
+      "Nicholas Ng",
+      "Shweta Menon"
+    ],
+    "publication_date": "2025-08-25T12:57:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.17988v1",
+    "download_url": "http://arxiv.org/abs/2508.17988v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generative Adversarial Networks for Labeled Acceleration Data\n  Augmentation for Structural Damage Detection",
+    "abstract": "There has been a major advance in the field of Data Science in the last few\ndecades, and these have been utilized for different engineering disciplines and\napplications. Artificial Intelligence (AI), Machine Learning (ML) and Deep\nLearning (DL) algorithms have been utilized for civil Structural Health\nMonitoring (SHM) especially for damage detection applications using sensor\ndata. Although ML and DL methods show superior learning skills for complex data\nstructures, they require plenty of data for training. However, in SHM, data\ncollection from civil structures can be expensive and time taking; particularly\ngetting useful data (damage associated data) can be challenging. The objective\nof this study is to address the data scarcity problem for damage detection\napplications. This paper employs 1-D Wasserstein Deep Convolutional Generative\nAdversarial Networks using Gradient Penalty (1-D WDCGAN-GP) for synthetic\nlabelled acceleration data generation. Then, the generated data is augmented\nwith varying ratios for the training dataset of a 1-D Deep Convolutional Neural\nNetwork (1-D DCNN) for damage detection application. The damage detection\nresults show that the 1-D WDCGAN-GP can be successfully utilized to tackle data\nscarcity in vibration-based damage detection applications of civil structures.\n  Keywords: Structural Health Monitoring (SHM), Structural Damage Detection,\n1-D Deep Convolutional Neural Networks (1-D DCNN), 1-D Generative Adversarial\nNetworks (1-D GAN), Wasserstein Generative Adversarial Networks with Gradient\nPenalty (WGAN-GP)",
+    "authors": [
+      "Furkan Luleci",
+      "F. Necati Catbas",
+      "Onur Avci"
+    ],
+    "publication_date": "2021-12-07T03:55:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.03478v6",
+    "download_url": "http://arxiv.org/abs/2112.03478v6",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "One-class Damage Detector Using Deeper Fully-Convolutional Data\n  Descriptions for Civil Application",
+    "abstract": "Infrastructure managers must maintain high standards to ensure user\nsatisfaction during the lifecycle of infrastructures. Surveillance cameras and\nvisual inspections have enabled progress in automating the detection of\nanomalous features and assessing the occurrence of deterioration. However,\ncollecting damage data is typically time consuming and requires repeated\ninspections. The one-class damage detection approach has an advantage in that\nnormal images can be used to optimize model parameters. Additionally, visual\nevaluation of heatmaps enables us to understand localized anomalous features.\nThe authors highlight damage vision applications utilized in the robust\nproperty and localized damage explainability. First, we propose a civil-purpose\napplication for automating one-class damage detection reproducing a fully\nconvolutional data description (FCDD) as a baseline model. We have obtained\naccurate and explainable results demonstrating experimental studies on concrete\ndamage and steel corrosion in civil engineering. Additionally, to develop a\nmore robust application, we applied our method to another outdoor domain that\ncontains complex and noisy backgrounds using natural disaster datasets\ncollected using various devices. Furthermore, we propose a valuable solution of\ndeeper FCDDs focusing on other powerful backbones to improve the performance of\ndamage detection and implement ablation studies on disaster datasets. The key\nresults indicate that the deeper FCDDs outperformed the baseline FCDD on\ndatasets representing natural disaster damage caused by hurricanes, typhoons,\nearthquakes, and four-event disasters.",
+    "authors": [
+      "Takato Yasuno",
+      "Masahiro Okano",
+      "Junichiro Fujii"
+    ],
+    "publication_date": "2023-03-03T06:27:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.01732v3",
+    "download_url": "http://arxiv.org/abs/2303.01732v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Information requirements for enterprise systems",
+    "abstract": "In this paper, we discuss an approach to system requirements engineering,\nwhich is based on using models of the responsibilities assigned to agents in a\nmulti-agency system of systems. The responsibility models serve as a basis for\nidentifying the stakeholders that should be considered in establishing the\nrequirements and provide a basis for a structured approach, described here, for\ninformation requirements elicitation. We illustrate this approach using a case\nstudy drawn from civil emergency management.",
+    "authors": [
+      "Ian Sommerville",
+      "Russell Lock",
+      "Tim Storer"
+    ],
+    "publication_date": "2012-09-24T12:36:32Z",
+    "arxiv_id": "http://arxiv.org/abs/1209.5246v1",
+    "download_url": "http://arxiv.org/abs/1209.5246v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Gyratory Shearing Compaction of Granular Materials",
+    "abstract": "In this letter, instead of investigating the compaction of granular materials\nunder tapping or cyclic shearing, we focused more on the gyratory shearing\ncompaction, where particles are subjected to constant pressure and shear rate\ncontinuously. Such a phenomenon is crucial to the compaction of asphalt\nmixtures or soil in civil engineering and can be extended to other areas, such\nas powder processing and pharmaceutical engineering. In this study, we found\nthat the gyratory speed or interstitial fluid viscosity has almost no impact on\nthe compaction behavior, while the pressure plays a more important role.\nAdditionally, it is the inertial time scale which dictates the compaction\nbehavior under gyratory shearing in most cases, whereas the viscous time scale\ncan also have influence in some conditions.",
+    "authors": [
+      "Teng Man"
+    ],
+    "publication_date": "2019-09-29T06:06:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.13206v1",
+    "download_url": "http://arxiv.org/abs/1909.13206v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Causal Analysis of First-Year Course Approval Delays in an Engineering\n  Major Through Inference Techniques",
+    "abstract": "The study addresses the problem of delays in the approval of first-year\ncourses in the Civil Engineering Major at the National University of Tucum\\'an,\nArgentina. Students take an average of 5 years to pass these subjects. Using\nthe DoWhy and Causal Discovery Toolbox tools, we looked to identify the\nunderlying causes of these delays. The analysis revealed that the regulatory\nstructure of the program and the evaluation methods play a crucial role in this\ndelay. Specifically, the accumulation of regular subjects without passing a\nfinal exam was identified as a key factor. These findings can guide\ninterventions to improve student success rates and the effectiveness of the\neducation system in general.",
+    "authors": [
+      "Hugo Roger Paz"
+    ],
+    "publication_date": "2023-08-31T13:17:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.16707v1",
+    "download_url": "http://arxiv.org/abs/2308.16707v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Embedded Decision Support System for Runway Safety and Excursion\n  Avoidance",
+    "abstract": "Runway Safety Assistant Foreseeing Excursions (RUN.S.A.F.E.) is a complete\nembedded system solution that predicts a potential runway overrun during the\ntakeoff and landing of a civil aviation aircraft. The system executes both\nstatic and dynamic calculations, the former being completely dependent, while\nthe latter completely independent to the user's inputs. The solution is adapted\nto a Boeing 737-800 aircraft, with CFM56-7B engines. However, the calculations\nalso apply for similar aicrafts, equipped with a tricycle landing gear and\nturbofan engines. The system is aligned with current regulations and\ncertification specifications, where applicable.",
+    "authors": [
+      "Georgios Alogdianakis",
+      "Ioannis Katsidimas",
+      "Athanasios Kotzakolios",
+      "Anastasios Plioutsias",
+      "Vassilis Kostopoulos"
+    ],
+    "publication_date": "2024-06-14T13:39:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.02504v1",
+    "download_url": "http://arxiv.org/abs/2407.02504v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spatial Conceptual Modeling: Anchoring Knowledge in the Real World",
+    "abstract": "This paper introduces the concept of spatial conceptual modeling, which\nallows anchoring mental world knowledge in the physical world using augmented\nreality technologies. For a first formal characterization, we describe a\nmapping from the spatial information concepts location, field, object, network,\nand event, as used in spatial computing, to conceptual modeling concepts using\nthe FDMM formalism. This allows to identify necessary adaptations at the\nmetamodeling level to make the approach applicable to arbitrary types of\nspatial conceptual modeling languages. Finally, possible application areas of\nspatial conceptual modeling in the medical domain, manufacturing and\nengineering, physical IT architectures and smart homes, supply chain management\nand logistics, civil engineering, and smart cities and cultural heritage are\ndiscussed.",
+    "authors": [
+      "Hans-Georg Fill"
+    ],
+    "publication_date": "2024-07-24T13:21:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.17259v1",
+    "download_url": "http://arxiv.org/abs/2407.17259v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Human factors engineering research on single pilot operations for large\n  commercial aircraft: Status and prospect",
+    "abstract": "The civil aviation community is actively exploring and developing the\nsolutions of single pilot operations SPO for large commercial aircraft. Human\nfactors engineering research for SPO has been launched, and the research mainly\nfocuses on three research solutions: flight deck airborne equipment upgrade,\nflight support from ground stations, and the combined SPO solution of \"flight\ndeck airborne equipment upgrade, flight support from ground stations\". This\npaper reviews and analyzez the progress of human factors engineering research\non SPO. The preliminary research outcome tends to support the combined SPO\nsolution. However, the current human factors engineering research is not\ncomprehensive and cannot provide a complete human factors engineering solution\nfor SPO. For future human factors engineering research, this paper analyzes the\nkey human factors issues on SPO and points out the gaps in the current research\nand the areas for future work. Finally, this paper puts forward an overall\nstrategy and recommendations for future human factors engineering research on\nSPO.",
+    "authors": [
+      "Wei Xu",
+      "Yong Chen",
+      "Wenjun Dong",
+      "Dayong Dong",
+      "Liezhong Ge"
+    ],
+    "publication_date": "2021-10-14T23:35:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.07770v1",
+    "download_url": "http://arxiv.org/abs/2110.07770v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Discussions of gas power cycle performance analysis method in the course\n  of Engineering Thermodynamics",
+    "abstract": "Engineering Thermodynamics has been the core course of many science and\nengineering majors at home and abroad, including energy and power, mechanical\nengineering, civil engineering, aerospace, cryogenic refrigeration, food\nengineering, chemical engineering, and environmental engineering, among which\ngas power cycle is one of the important contents. However, many Engineering\nThermodynamics textbooks at home and abroad focus only on evaluating the\nthermal efficiency of gas power cycle, while the important concept of specific\ncycle net work is ignored. Taking an ideal Otto cycle and an ideal Brayton as\nexamples, the optimum compression ratio (or the pressure ratio) and the maximum\nspecific cycle net work are analyzed and determined. The ideal Otto and the\nideal Brayton cycles, and also other gas power cycles, are concluded that the\noperation under the optimum compression/pressure ratio of the engine, instead\nof under the higher efficiency, is more economic and more reasonable. We\nconcluded that the two very important concepts, i.e., the maximum specific\ncycle net work and the optimum compression (or pressure) ratio for the gas\npower cycles, should be emphasized in the Engineering Thermodynamics teaching\nprocess and the latter revised or the newly edited textbooks, in order to\nbetter guide the engineering applications. In the end, general T-s diagram is\nproposed for the gas power cycles.",
+    "authors": [
+      "Di He",
+      "Zhipeng Duan",
+      "Linbo Yan",
+      "Chaojun Wang",
+      "Boshu He"
+    ],
+    "publication_date": "2019-09-08T12:29:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.03446v2",
+    "download_url": "http://arxiv.org/abs/1909.03446v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Utilizing Online and Open-Source Machine Learning Toolkits to Leverage\n  the Future of Sustainable Engineering",
+    "abstract": "Recently, there has been a national push to use machine learning (ML) and\nartificial intelligence (AI) to advance engineering techniques in all\ndisciplines ranging from advanced fracture mechanics in materials science to\nsoil and water quality testing in the civil and environmental engineering\nfields. Using AI, specifically machine learning, engineers can automate and\ndecrease the processing or human labeling time while maintaining statistical\nrepeatability via trained models and sensors. Edge Impulse has designed an\nopen-source TinyML-enabled Arduino education tool kit for engineering\ndisciplines. This paper discusses the various applications and approaches\nengineering educators have taken to utilize ML toolkits in the classroom. We\nprovide in-depth implementation guides and associated learning outcomes focused\non the Environmental Engineering Classroom. We discuss five specific examples\nof four standard Environmental Engineering courses for freshman and\njunior-level engineering. There are currently few programs in the nation that\nutilize machine learning toolkits to prepare the next generation of ML and\nAI-educated engineers for industry and academic careers. This paper will guide\neducators to design and implement ML/AI into engineering curricula (without a\nspecific AI or ML focus within the course) using simple, cheap, and open-source\ntools and technological aid from an online platform in collaboration with Edge\nImpulse.",
+    "authors": [
+      "Andrew Schulz",
+      "Suzanne Stathatos",
+      "Cassandra Shriver",
+      "Roxanne Moore"
+    ],
+    "publication_date": "2023-04-21T17:50:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.11175v1",
+    "download_url": "http://arxiv.org/abs/2304.11175v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fast Radio Bursts from Extragalactic Light Sails",
+    "abstract": "We examine the possibility that Fast Radio Bursts (FRBs) originate from the\nactivity of extragalactic civilizations. Our analysis shows that beams used for\npowering large light sails could yield parameters that are consistent with\nFRBs. The characteristic diameter of the beam emitter is estimated through a\ncombination of energetic and engineering constraints, and both approaches\nintriguingly yield a similar result which is on the scale of a large rocky\nplanet. Moreover, the optimal frequency for powering the light sail is shown to\nbe similar to the detected FRB frequencies. These `coincidences' lend some\ncredence to the possibility that FRBs might be artificial in origin. Other\nrelevant quantities, such as the characteristic mass of the light sail, and the\nangular velocity of the beam, are also derived. By using the FRB occurrence\nrate, we infer upper bounds on the rate of FRBs from extragalactic\ncivilizations in a typical galaxy. The possibility of detecting fainter signals\nis briefly discussed, and the wait time for an exceptionally bright FRB event\nin the Milky Way is estimated.",
+    "authors": [
+      "Manasvi Lingam",
+      "Abraham Loeb"
+    ],
+    "publication_date": "2017-01-02T19:16:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1701.01109v2",
+    "download_url": "http://arxiv.org/abs/1701.01109v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The MIMA project. Design, construction and performances of a compact\n  hodoscope for muon radiography applications in the context of Archaeology and\n  geophysical prospections",
+    "abstract": "The Muon Imaging for Mining and Archaeology (MIMA) project aims at the\ndevelopment of a non-invasive technique for imaging dense structures or\ncavities, hidden in the underground or anyway surrounded by huge volumes of\nmatter, based on Muon Absorption Radiography. Given its natural\nmultidisciplinary, the final purpose is the validation of this methodology for\napplications in different fields, like Archaeology, Geology, mining, Civil\nEngineering and Civil Protection, in close cooperation with team in these\nfields. In this paper we report on the design, construction and performance of\na compact and lightweight muon telescope designed mainly for archaeological\ninvestigation and geophysical prospections in general. The MIMA detector is\nalso used currently as a test instrument to study different hardware solutions\nto optimize the global performance in these types of applications.",
+    "authors": [
+      "Guglielmo Baccani",
+      "Lorenzo Bonechi",
+      "Roberto Ciaranfi",
+      "Luigi Cimmino",
+      "Vitaliano Ciulli",
+      "Raffaello D'Alessandro",
+      "Barbara Melon",
+      "Pasquale Noli",
+      "Giulio Saracino",
+      "Lorenzo Viliani"
+    ],
+    "publication_date": "2018-06-29T13:16:03Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.11398v4",
+    "download_url": "http://arxiv.org/abs/1806.11398v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sequential Multiple Structural Damage Detection and Localization: A\n  Distributed Approach",
+    "abstract": "As essential components of the modern urban system, the health conditions of\ncivil structures are the foundation of urban system sustainability and need to\nbe continuously monitored. In Structural Health Monitoring (SHM), many existing\nworks will have limited performance in the sequential damage diagnosis process\nbecause 1) the damage events needs to be reported with short delay, 2) multiple\ndamage locations have to be identified simultaneously, and 3) the computational\ncomplexity is intractable in large-scale wireless sensor networks (WSNs). To\naddress these drawbacks, we propose a new damage identification approach that\nutilizes the time-series of damage sensitive features extracted from multiple\nsensors' measurements and the optimal change point detection theory to find\ndamage occurrence time and identify the number of damage locations. As the\nexisting change point detection methods require to centralize the sensor data,\nwhich is impracticable in many applications, we use the probabilistic graphical\nmodel to formulate WSNs and the targeting structure and propose a distributed\nalgorithm for structural damage identification. Validation results show highly\naccurate damage identification in a shake table experiment and American Society\nof Civil Engineers benchmark structure. Also, we demonstrate that the detection\ndelay is reduced significantly by utilizing multiple sensors' data.",
+    "authors": [
+      "Yizheng Liao",
+      "Ram Rajagopal"
+    ],
+    "publication_date": "2018-12-15T00:13:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.06205v1",
+    "download_url": "http://arxiv.org/abs/1812.06205v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "History of Prime Movers and Future Implications",
+    "abstract": "Motive and electrical energy has played a crucial role in human civilization.\nSince Ancient times, motive energy played a primary role in agricultural and\nindustrial production as well as transportation. At that time, motive energy\nwas provided by work of humans and draft animals. Later, work of water and wind\npower was harnessed. During the 19$^{\\text{th}}$ century, steam power became\nthe main source of motive energy in USA and Britain. Modern transportation and\nindustry depend on the work of heat engines that use fossil fuel. A brief\nhistory of different sources of energy is presented in this work. The energy\nconsumptions in pre-industrial and industrial societies are calculated. The\nlost opportunities for the Second Industrial Revolution (such as fast breeder\nreactors and thermonuclear power stations) are discussed. The case that the\nSolar Power will become the main source of energy by the second half of this\ncentury is presented. It is calculated that the Solar Power has the potential\nto bring about the new Industrial Revolution. Based on material and energy\nresources available in the Solar System, it is demonstrated that the Solar\nSystem Civilization supporting a population of 10 Quadrillion with a high\nstandard of living is possible.",
+    "authors": [
+      "Mikhail Shubov"
+    ],
+    "publication_date": "2021-04-19T00:21:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.08981v1",
+    "download_url": "http://arxiv.org/abs/2104.08981v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Power laws in the Roman Empire: a survival analysis",
+    "abstract": "The Roman Empire shaped Western civilization, and many Roman principles are\nembodied in modern institutions. Although its political institutions proved\nboth resilient and adaptable, allowing it to incorporate diverse populations,\nthe Empire suffered from many internal conflicts. Indeed, most emperors died\nviolently, from assassination, suicide, or in battle. These internal conflicts\nproduced patterns in the length of time that can be identified by statistical\nanalysis. In this paper, we study the underlying patterns associated with the\nreign of the Roman emperors by using statistical tools of survival data\nanalysis. We consider all the 175 Roman emperors and propose a new power-law\nmodel with change points to predict the time-to-violent-death of the Roman\nemperors. This model encompasses data in the presence of censoring and\nlong-term survivors, providing more accurate predictions than previous models.\nOur results show that power-law distributions can also occur in survival data,\nas verified in other data types from natural and artificial systems,\nreinforcing the ubiquity of power law distributions. The generality of our\napproach paves the way to further related investigations not only in other\nancient civilizations but also in applications in engineering and medicine.",
+    "authors": [
+      "Pedro L. Ramos",
+      "Luciano da F. Costa",
+      "Francisco Louzada",
+      "Francisco A. Rodrigues"
+    ],
+    "publication_date": "2020-08-21T00:36:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2008.10344v1",
+    "download_url": "http://arxiv.org/abs/2008.10344v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Wireless Sensor Networks anomaly detection using Machine Learning: A\n  Survey",
+    "abstract": "Wireless Sensor Networks (WSNs) have become increasingly valuable in various\ncivil/military applications like industrial process control, civil engineering\napplications such as buildings structural strength monitoring, environmental\nmonitoring, border intrusion, IoT (Internet of Things), and healthcare.\nHowever, the sensed data generated by WSNs is often noisy and unreliable,\nmaking it a challenge to detect and diagnose anomalies. Machine learning (ML)\ntechniques have been widely used to address this problem by detecting and\nidentifying unusual patterns in the sensed data. This survey paper provides an\noverview of the state of the art applications of ML techniques for data anomaly\ndetection in WSN domains. We first introduce the characteristics of WSNs and\nthe challenges of anomaly detection in WSNs. Then, we review various ML\ntechniques such as supervised, unsupervised, and semi-supervised learning that\nhave been applied to WSN data anomaly detection. We also compare different\nML-based approaches and their performance evaluation metrics. Finally, we\ndiscuss open research challenges and future directions for applying ML\ntechniques in WSNs sensed data anomaly detection.",
+    "authors": [
+      "Ahsnaul Haque",
+      "Md Naseef-Ur-Rahman Chowdhury",
+      "Hamdy Soliman",
+      "Mohammad Sahinur Hossen",
+      "Tanjim Fatima",
+      "Imtiaz Ahmed"
+    ],
+    "publication_date": "2023-03-15T15:02:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.08823v1",
+    "download_url": "http://arxiv.org/abs/2303.08823v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Impact of Seismic Activities on the Optical Synchronization System of\n  the European X-ray Free-Electron Laser",
+    "abstract": "This study investigates the influence of seismic activities on the optical\nsynchronization system of the European X-ray Free-Electron Laser. We analyze\nthe controller I/O data of phase-locked-loops in length-stabilized links,\nfocusing on the response to earthquakes, ocean-generated microseism and\ncivilization noise. By comparing the controller data with external data, we\nwere able to identify disturbances and their effects on the control signals.\nOur results show that seismic events influence the stability of the\nphase-locked loops. Even earthquakes that are approximately \\qty{5000}{\\km}\naway cause remarkable fluctuations in the in-loop control signals.\nOcean-generated microseism in particular has an enormous influence on the\nin-loop control signals due to its constant presence. The optical\nsynchronization system is so highly sensitive that it can even identify\nvibrations caused by civilization, such as road traffic or major events like\nconcerts or sport events. The phase-locked loops manages to eliminate more than\n99% of the existing interference.",
+    "authors": [
+      "Arne Grünhagen",
+      "Maximilian Schütte",
+      "Thorsten Lamb",
+      "Sebastian Schulz",
+      "Annika Eichler",
+      "Marina Tropmann-Frick",
+      "Görschwin Fey",
+      "Holger Schlarb"
+    ],
+    "publication_date": "2025-02-04T16:19:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.02453v1",
+    "download_url": "http://arxiv.org/abs/2502.02453v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Less Terrifying Universe? Mundanity as an Explanation for the Fermi\n  Paradox",
+    "abstract": "Applying a principle of \"radical mundanity\", this paper examines explanations\nfor the lack of strong evidence for the presence of technology-using\nextraterrestrial civilizations (ETCs) in the Galaxy - the Fermi paradox. With\nthis principle, the prospect that the Galaxy contains a modest number of\ncivilizations is preferred, where none have achieved technology levels\nsufficient to accomplish large-scale astro-engineering or lack the desire to do\nso. This consideration also leads to the expectation that no ETC will colonize\na large fraction of the Galaxy, even using robotic probes, and that there are\nno long-duration high-power beacons. However, there is a reasonable chance that\nwe may make contact on a short, by historical standards, timescale. This event\nwould be momentous, but could still leave us slightly disappointed. Such a\nUniverse would be less terrifying than either of the two possibilities in the\nquote generally attributed to Arthur C. Clarke on whether we are alone or not.\nAlso, if there is a modest number of ETCs in the Galaxy, that would suggest\nthat there is a large number of planets with some form of life.",
+    "authors": [
+      "Robin H. D. Corbet"
+    ],
+    "publication_date": "2025-09-26T19:50:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.22878v1",
+    "download_url": "http://arxiv.org/abs/2509.22878v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Redesigning Telecommunication Engineering Courses with CDIO geared for\n  Polytechnic Education",
+    "abstract": "Whether in chemical, civil, mechanical, electrical, or their related\nengineering subdisciplines, remaining up-to-date in the subject matter is\ncrucial. However, due to the pace of technological evolution, information and\ncommunications technology (ICT) fields of study are impacted with much higher\nconsequences. Meanwhile, the curricula of higher educational institutes are\nstruggling to catch up to this reality. In order to remain competitive,\nengineering schools ought to offer ICT related courses that are at once modern,\nrelevant and ultimately beneficial for the employability of their graduates. In\nthis spirit, we were recently mandated by our engineering school to develop and\ndesign telecommunication courses with great emphasis on (i) technological\nmodernity, and (ii) experiential learning. To accomplish these objectives, we\nutilized the conceive, design, implement and operate (CDIO) framework, a modern\nengineering education initiative of which Sheridan is a member. In this\narticle, we chronicle the steps we took to streamline and modernize the\ncurriculum by outlining an effective methodology for course design and\ndevelopment with CDIO. We then provide examples of course update and design\nusing the proposed methodology and highlight the lessons learned from this\nsystematic curriculum development endeavor.",
+    "authors": [
+      "Mouhamed Abdulla",
+      "Zohreh Motamedi",
+      "Amjed Majeed"
+    ],
+    "publication_date": "2019-05-08T08:24:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.02951v1",
+    "download_url": "http://arxiv.org/abs/1905.02951v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Interpreting effective energy barriers to membrane permeation in terms\n  of a heterogeneous energy landscape",
+    "abstract": "Major efforts in recent years have been directed towards understanding\nmolecular transport in polymeric membranes, in particular reverse osmosis and\nnanofiltration membranes. Transition-state theory is an increasingly common\napproach to explore mechanisms of transmembrane permeation with molecular\ndetails, but most applications treat all free energy barriers to transport\nwithin the membrane as equal. This assumption neglects the inherent structural\nand chemical heterogeneity in polymeric membranes. In this work, we expand the\ntransition-state theory framework to include distributions of membrane free\nenergy barriers. We show that the highest free energy barriers along the most\npermeable paths, rather than typical paths, provide the largest contributions\nto the experimentally-observed effective free energy barrier. We show that even\nmoderate, random heterogeneity in molecular barriers will significantly impact\nhow we interpret the mechanisms of transport through membranes. Simplified\ninterpretations of experimentally measured barriers can lead to incorrect\nassumptions about the underlying mechanisms governing transport and miss the\nmechanisms most relevant to the overall permeability.",
+    "authors": [
+      "Nathanael S. Schwindt",
+      "Mor Avidar",
+      "Razi Epsztein",
+      "Anthony P. Straub",
+      "Michael R. Shirts"
+    ],
+    "publication_date": "2024-02-12T17:39:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.07830v2",
+    "download_url": "http://arxiv.org/abs/2402.07830v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A new approach to the thermodynamic analysis of gas power cycles",
+    "abstract": "Engineering Thermodynamics has been the core course of many science and\nengineering majors around the world, including energy and power, mechanical\nengineering, civil engineering, aerospace, cryogenic refrigeration, food\nengineering, chemical engineering, and environmental engineering, among which\ngas power cycle is one of the important contents. However, many Engineering\nThermodynamics textbooks focus only on evaluating the thermal efficiency of gas\npower cycle, while the important concept of specific cycle work is ignored.\nBased on the generalized temperature-entropy diagram for the gas power cycles\nproposed by the authors, an ideal Otto cycle and an ideal Miller-Diesel cycle\nare taking as examples for the thermodynamic analyses of gas power cycles. The\noptimum compression ratio (or the pressure ratio) for the maximum specific\ncycle work or the maximum mean effective pressure is analyzed and determined.\nThe ideal Otto and the ideal Miller-Diesel cycles, and also other gas power\ncycles for movable applications, are concluded that the operation under the\nmaximum specific cycle work or the maximum mean effective pressure, instead of\nunder the higher efficiency, is more economic and more reasonable. We concluded\nthat the very important concept, i.e., the optimum compression (or pressure)\nratio for the gas power cycles, should be emphasized in the Engineering\nThermodynamics teaching process and in the latter revised or the newly edited\ntextbooks, in order to better guide the engineering applications.",
+    "authors": [
+      "Di He",
+      "Zhipeng Duan",
+      "Chaojun Wang",
+      "Boshu He"
+    ],
+    "publication_date": "2021-01-18T00:27:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2101.06814v1",
+    "download_url": "http://arxiv.org/abs/2101.06814v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "nn-dependability-kit: Engineering Neural Networks for Safety-Critical\n  Autonomous Driving Systems",
+    "abstract": "Can engineering neural networks be approached in a disciplined way similar to\nhow engineers build software for civil aircraft? We present\nnn-dependability-kit, an open-source toolbox to support safety engineering of\nneural networks for autonomous driving systems. The rationale behind\nnn-dependability-kit is to consider a structured approach (via Goal Structuring\nNotation) to argue the quality of neural networks. In particular, the tool\nrealizes recent scientific results including (a) novel dependability metrics\nfor indicating sufficient elimination of uncertainties in the product life\ncycle, (b) formal reasoning engine for ensuring that the generalization does\nnot lead to undesired behaviors, and (c) runtime monitoring for reasoning\nwhether a decision of a neural network in operation is supported by prior\nsimilarities in the training data. A proprietary version of\nnn-dependability-kit has been used to improve the quality of a level-3\nautonomous driving component developed by Audi for highway maneuvers.",
+    "authors": [
+      "Chih-Hong Cheng",
+      "Chung-Hao Huang",
+      "Georg Nührenberg"
+    ],
+    "publication_date": "2018-11-16T10:48:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.06746v2",
+    "download_url": "http://arxiv.org/abs/1811.06746v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Application-driven engagement with universities, synergies with other\n  funding agencies",
+    "abstract": "In this whitepaper, we argue that nurturing HEP Lab-Engineering cooperation\nthrough established collaboration and support mechanisms will advance the\nscientific mission of the labs significantly, while at the same time giving the\nlaboratories a stronger position in influencing the next generation workforce\nof engineers that will provide their services towards the unique computing and\ntechnology needs of the HEP community. The authors of this whitepaper are\nelectronics and computer engineers and so, naturally, the arguments herein are\nmade from their perspective. However, these arguments are only strengthened by\nthe simple fact that they could also have been made from the perspective of\nmechanical engineers, civil engineers or numerous other technologists. At the\nsame time, this document serves as a summary of discussions that occurred\nduring the Joint Instrumentation Frontier & Community Engagement Frontier\nTownhall meeting on November 10, 2020",
+    "authors": [
+      "Jim Hoff",
+      "Seda Memik"
+    ],
+    "publication_date": "2022-03-22T14:19:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.14706v1",
+    "download_url": "http://arxiv.org/abs/2203.14706v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Diffusion Models Beat GANs on Topology Optimization",
+    "abstract": "Structural topology optimization, which aims to find the optimal physical\nstructure that maximizes mechanical performance, is vital in engineering design\napplications in aerospace, mechanical, and civil engineering. Generative\nadversarial networks (GANs) have recently emerged as a popular alternative to\ntraditional iterative topology optimization methods. However, these models are\noften difficult to train, have limited generalizability, and due to their goal\nof mimicking optimal structures, neglect manufacturability and performance\nobjectives like mechanical compliance. We propose TopoDiff - a conditional\ndiffusion-model-based architecture to perform performance-aware and\nmanufacturability-aware topology optimization that overcomes these issues. Our\nmodel introduces a surrogate model-based guidance strategy that actively favors\nstructures with low compliance and good manufacturability. Our method\nsignificantly outperforms a state-of-art conditional GAN by reducing the\naverage error on physical performance by a factor of eight and by producing\neleven times fewer infeasible samples. By introducing diffusion models to\ntopology optimization, we show that conditional diffusion models have the\nability to outperform GANs in engineering design synthesis applications too.\nOur work also suggests a general framework for engineering optimization\nproblems using diffusion models and external performance with constraint-aware\nguidance. We publicly share the data, code, and trained models here:\nhttps://decode.mit.edu/projects/topodiff/.",
+    "authors": [
+      "François Mazé",
+      "Faez Ahmed"
+    ],
+    "publication_date": "2022-08-20T03:26:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.09591v2",
+    "download_url": "http://arxiv.org/abs/2208.09591v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Assessment of ChatGPT for Engineering Statics Analysis",
+    "abstract": "Large language models (LLMs) such as OpenAI's ChatGPT hold potential for\nautomating engineering analysis, yet their reliability in solving multi-step\nstatics problems remains uncertain. This study evaluates the performance of\nChatGPT-4o and ChatGPT-o1-preview on foundational statics tasks, from simple\ncalculations of Newton's second law of motion to beam and truss analyses and\ncompares their results to first-year engineering students on a typical statics\nexam. To enhance accuracy, we developed a Custom GPT, embedding refined prompts\ndirectly into its instructions. This optimized model achieved an 82% score,\nsurpassing the 75% student average, demonstrating the impact of tailored\nguidance. Despite these improvements, LLMs continued to exhibit errors in\nnuanced or open-ended problems, such as misidentifying tension and compression\nin truss members. These findings highlight both the promise and current\nlimitations of AI in structural analysis, emphasizing the need for improved\nreasoning, multimodal capabilities, and targeted training data for future\nAI-driven automation in civil and mechanical engineering.",
+    "authors": [
+      "Benjamin Hope",
+      "Jayden Bracey",
+      "Sahar Choukir",
+      "Derek Warner"
+    ],
+    "publication_date": "2025-02-01T21:12:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.00562v1",
+    "download_url": "http://arxiv.org/abs/2502.00562v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "What Quality Engineers Need to Know about Degradation Models",
+    "abstract": "Degradation models play a critical role in quality engineering by enabling\nthe assessment and prediction of system reliability based on data. The\nobjective of this paper is to provide an accessible introduction to degradation\nmodels. We explore commonly used degradation data types, including repeated\nmeasures degradation data and accelerated destructive degradation test data,\nand review modeling approaches such as general path models and stochastic\nprocess models. Key inference problems, including reliability estimation and\nprediction, are addressed. Applications across diverse fields, including\nmaterial science, renewable energy, civil engineering, aerospace, and\npharmaceuticals, illustrate the broad impact of degradation models in industry.\nWe also discuss best practices for quality engineers, software implementations,\nand challenges in applying these models. This paper aims to provide quality\nengineers with a foundational understanding of degradation models, equipping\nthem with the knowledge necessary to apply these techniques effectively in\nreal-world scenarios.",
+    "authors": [
+      "Jared M. Clark",
+      "Jie Min",
+      "Mingyang Li",
+      "Richard L. Warr",
+      "Stephanie P. DeHart",
+      "Caleb B. King",
+      "Lu Lu",
+      "Yili Hong"
+    ],
+    "publication_date": "2025-07-19T15:34:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.14666v2",
+    "download_url": "http://arxiv.org/abs/2507.14666v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum effects in the Alcubierre warp drive spacetime",
+    "abstract": "The expectation value of the stress-energy tensor of a free conformally\ninvariant scalar field is computed in a two-dimensional reduction of the\nAlcubierre ``warp drive'' spacetime. The stress-energy is found to diverge if\nthe apparent velocity of the spaceship exceeds the speed of light. If such\nbehavior occurs in four dimensions, then it appears implausible that ``warp\ndrive'' behavior in a spacetime could be engineered, even by an arbitrarily\nadvanced civilization.",
+    "authors": [
+      "William A. Hiscock"
+    ],
+    "publication_date": "1997-07-10T18:29:53Z",
+    "arxiv_id": "http://arxiv.org/abs/gr-qc/9707024v1",
+    "download_url": "http://arxiv.org/abs/gr-qc/9707024v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analytical and numerical aspects on motion of polygonal curves with\n  constant area speed",
+    "abstract": "General area-preserving motion of polygonal curves is formulated as a system\nof ODEs. Solution polygonal curves belong to a prescribed polygonal class,\nwhich is similar to the admissible class used in the crystalline curvature\nflow. The ODEs are discretized implicitly in time keeping a given constant area\nspeed while solution polygonal curves keep belonging to the polygonal class.",
+    "authors": [
+      "Michal Benes",
+      "Masato Kimura",
+      "Shigetoshi Yazaki"
+    ],
+    "publication_date": "2008-02-15T14:24:40Z",
+    "arxiv_id": "http://arxiv.org/abs/0802.2204v3",
+    "download_url": "http://arxiv.org/abs/0802.2204v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Time-frequency analysis of Transitory/Permanent frequency decrease in\n  civil engineering structures during earthquakes",
+    "abstract": "The analysis of strong motion recordings in structures is crucial to\nunderstand the damaging process during earthquakes. A very precise\ntime-frequency representation, the reassigned smoothed pseudo-Wigner-Ville\nmethod, allowed us to follow the variation of the Millikan Library (California)\nand the Grenoble City Hall building (France) resonance frequencies during\nearthquakes. Under strong motions, a quick frequency drop, attributed to damage\nof the soil-structure system, followed by a slower increase is found. However,\nin the case of weak earthquakes, we show that frequency variations come from\nthe ground motion spectrum and cannot be interpreted in terms of change of the\nsoil-structure system.",
+    "authors": [
+      "Clotaire Michel",
+      "Philippe Guéguen"
+    ],
+    "publication_date": "2008-03-12T14:16:18Z",
+    "arxiv_id": "http://arxiv.org/abs/0803.1779v1",
+    "download_url": "http://arxiv.org/abs/0803.1779v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A non-linear hardening model based on two coupled internal hardening\n  variables: formulation and implementation",
+    "abstract": "An elasto-plasticity model with coupled hardening variables of strain type is\npresented. In the theoretical framework of generalized associativity, the\nformulation of this model is based on the introduction of two hardening\nvariables with a coupled evolution. Even if the corresponding hardening rules\nare linear, the stress-strain hardening evolution is non-linear. The numerical\nimplementation by a standard return mapping algorithm is discussed and some\nnumerical simulations of cyclic behaviour in the univariate case are presented.",
+    "authors": [
+      "Nelly Point",
+      "Silvano Erlicher"
+    ],
+    "publication_date": "2009-01-11T15:05:19Z",
+    "arxiv_id": "http://arxiv.org/abs/0901.1449v1",
+    "download_url": "http://arxiv.org/abs/0901.1449v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Transmitting signals over interstellar distances: Three approaches\n  compared in the context of the Drake equation",
+    "abstract": "I compare three methods for transmitting signals over interstellar distances:\nradio transmitters, lasers and artificial transits. The quantitative comparison\nis based on physical quantities depending on energy cost and transmitting time\nL, the last parameter in the Drake equation. With our assumptions, radio\ntransmitters are the most energy-effective, while macro-engineered\nplanetary-sized objects producing artificial transits seem effective on the\nlong term to transmit an attention-getting signal for a time that might be much\nlonger than the lifetime of the civilization that produced the artifact.",
+    "authors": [
+      "Luc Arnold"
+    ],
+    "publication_date": "2013-03-05T17:02:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1303.1100v1",
+    "download_url": "http://arxiv.org/abs/1303.1100v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Time-Triggered Constraint-Based Calculus for Avionic Systems",
+    "abstract": "The Integrated Modular Avionics (IMA) architec- ture and the Time-Triggered\nEthernet (TTEthernet) network have emerged as the key components of a typical\narchitecture model for recent civil aircrafts. We propose a real-time\nconstraint-based calculus targeted at the analysis of such concepts of avionic\nembedded systems. We show our framework at work on the modelisation of both the\n(IMA) architecture and the TTEthernet network, illustrating their behavior by\nthe well-known Flight Management System (FMS).",
+    "authors": [
+      "Sardaouna Hamadou",
+      "Abdelouahed Gherbi",
+      "John Mullins",
+      "Sofiene Beji"
+    ],
+    "publication_date": "2014-10-12T00:18:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1410.3694v1",
+    "download_url": "http://arxiv.org/abs/1410.3694v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Flat lens for seismic waves",
+    "abstract": "A prerequisite for achieving seismic invisibility is to demonstrate the\nability of civil engineers to control seismic waves with artificially\nstructured soils. We carry out large-scale field tests with a structured soil\nmade of a grid consisting of cylindrical and vertical holes in the ground and a\nlow frequency artificial source (< 10 Hz). This allows the identification of a\ndistribution of energy inside the grid, which can be interpreted as the\nconsequence of an effective negative refraction index. Such a flat lens\nreminiscent of what Veselago and Pendry envisioned for light opens avenues in\nseismic metamaterials to counteract the most devastating components of seismic\nsignals.",
+    "authors": [
+      "Stephane Brule",
+      "Stefan Enoch",
+      "Sebastien Guenneau"
+    ],
+    "publication_date": "2016-02-14T19:40:01Z",
+    "arxiv_id": "http://arxiv.org/abs/1602.04492v1",
+    "download_url": "http://arxiv.org/abs/1602.04492v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reliability of Critical Infrastructure Networks: Challenges",
+    "abstract": "Critical infrastructures form a technological skeleton of our world by\nproviding us with water, food, electricity, gas, transportation, communication,\nbanking, and finance. Moreover, as urban population increases, the role of\ninfrastructures become more vital. In this paper, we adopt a network\nperspective and discuss the ever growing need for fundamental interdisciplinary\nstudy of critical infrastructure networks, efficient methods for estimating\ntheir reliability, and cost-effective strategies for enhancing their\nresiliency. We also highlight some of the main challenges arising on this way,\nincluding cascading failures, feedback loops, and cross-sector\ninterdependencies.",
+    "authors": [
+      "Konstantin Zuev",
+      "Michael Beer"
+    ],
+    "publication_date": "2017-01-03T06:29:42Z",
+    "arxiv_id": "http://arxiv.org/abs/1701.00594v1",
+    "download_url": "http://arxiv.org/abs/1701.00594v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Comparison of signal detectors for time domain radio SETI",
+    "abstract": "The radio Search for Extra Terrestrial Intelligence (SETI) aims at\nidentifying intelligent and communicative civilizations in the Universe through\nthe detection of engineered transmissions. In the absence of prior knowledge\nconcerning the expected signal, SETI detection pipelines necessitate high\nsensitivity, versatility, and limited computational complexity to maximize the\nsearch parameter space and minimize the probability of misses. This paper\naddresses the SETI detection problem as a binary hypothesis testing problem,\nand compares four detection schemes exploiting artificial features of the data\ncollected by a single receiver radio telescope. After a theoretical comparison,\nthose detectors are applied to real data collected with the Green Bank\nTelescope in West Virginia (USA).",
+    "authors": [
+      "Gregory Hellbourg",
+      "Andrew Xu"
+    ],
+    "publication_date": "2018-09-10T18:46:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1809.03547v1",
+    "download_url": "http://arxiv.org/abs/1809.03547v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Anomalous Variability of Dyson Megastructures",
+    "abstract": "In the framework of the approach of Dyson megastructures, by assuming that a\nsuper-advanced civilization exists and is capable of constructing a ring-like\nmegastructure around their host star, we have considered the observational\nsignatures of cold (300 K) and hot (4000) K astro-engineering to answer the\nquestion: are the modern facilities capable to detect theoretically predicted\nfingerprints? By implying the spectral resolving power and the radial velocity\nmethods it has been shown that the oscillation of the rings might be detected\nas anomalous variability of the megastructures.",
+    "authors": [
+      "Z. Osmanov",
+      "V. I. Berezhiani"
+    ],
+    "publication_date": "2019-09-19T08:18:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.08851v1",
+    "download_url": "http://arxiv.org/abs/1909.08851v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Resonances in pulsatile channel flow with an elastic wall",
+    "abstract": "Interactions between fluids and elastic solids are ubiquitous in application\nranging from aeronautical and civil engineering to physiological flows. Here we\nstudy the pulsatile flow through a two-dimensional Starling resistor as a\nsimple model for unsteady flow in elastic vessels. We numerically solve the\nequations governing the flow and the large-displacement elasticity and show\nthat the system responds as a forced harmonic oscillator with non-conventional\ndamping. We derive an analytical prediction for the amplitude of the\noscillatory wall deformation, and thus the conditions under which resonances\noccur or vanish.",
+    "authors": [
+      "Duo Xu",
+      "Matthias Heil",
+      "Thomas Seeböck",
+      "Marc Avila"
+    ],
+    "publication_date": "2020-06-24T12:59:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.13695v2",
+    "download_url": "http://arxiv.org/abs/2006.13695v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Use of Computer Applications for Determining the Best Possible Runway\n  Orientation using Wind Rose Diagrams",
+    "abstract": "As technology advances, there are more uses of computer applications in a\nCivil Engineering Projects. To simplify the work, minimize errors, and obviate\ncomputational time required in designing and other structural analysis work,\nsoftware which give accurate results to the given inputs are the need of the\nhour and this paper highlights the simulation of a manual procedure to find out\nthe orientation of a Runway from the Wind Data available. A Computer\napplication in Java on Net beans platform has been used to develop this Wind\nRose Software. This software has been developed using the concepts of Wind Rose\nDiagram Type-II which will calculate the best possible orientation of the\nRunway along with the Coverage.",
+    "authors": [
+      "Manmeet Singh",
+      "Tanuj Chopra"
+    ],
+    "publication_date": "2020-11-23T12:14:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.11354v1",
+    "download_url": "http://arxiv.org/abs/2011.11354v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bayesian Analysis of Extreme Precipitation Events and Forecasting Return\n  Levels",
+    "abstract": "In this study, we examine a Bayesian approach to analyze extreme daily\nrainfall amounts and forecast return-levels. Estimating the probability of\noccurrence and quantiles of future extreme events is important in many\napplications, including civil engineering and the design of public\ninfrastructure. In contrast to traditional analysis, which use point estimates\nto accomplish this goal, the Bayesian method utilizes the complete posterior\ndensity derived from the observations. The Bayesian approach offers the benefit\nof well defined credible (confidence) intervals, improved forecasting, and the\nability to defend rigorous probabilistic assessments. We illustrate the\nBayesian approach using extreme precipitation data from Long Island, NY, USA\nand show that current return levels, or precipitation risk, may be understated.",
+    "authors": [
+      "Douglas E. Johnston"
+    ],
+    "publication_date": "2022-08-25T19:34:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.12316v1",
+    "download_url": "http://arxiv.org/abs/2208.12316v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Drones e Inteligencia Artificial para Investigación y Competición",
+    "abstract": "This work focuses on drones or UAVs (Unmanned Aerial Vehicles) for use in\nindustry in general. These vehicles have a large number of uses and potential\nin the industry, as a tool for civil engineering, medicine, mining, among\nothers. However, this vehicle is limited for use indoors due to the need for\nGPS and it does not work indoors. In this way, this work presents a UAV that\nworks without GPS, thus being able to be used in closed spaces for example and\nhave good precision. The work is based on an approach that uses computer vision\nand GPS.",
+    "authors": [
+      "Victoria Saravia",
+      "William Moraes",
+      "André Kelbouscas",
+      "Ricardo Grando"
+    ],
+    "publication_date": "2022-10-20T12:24:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2210.11199v1",
+    "download_url": "http://arxiv.org/abs/2210.11199v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fluid conductivity in porous media in terms of beta functions",
+    "abstract": "Conductivity of unsaturated porous media to fluids is of theoretical and\napplied interest to mathematicians, physicists, and chemical, petroleum, civil\nand agricultural engineers. We explore the expression of unsaturated relative\nconductivity equations as a regularized incomplete beta function, which implies\na beta distribution of the variable of interest. A generalized solution for\n$n>1$ and $m>0$ is presented. The solution can be implemented without\ndifficulties in most programming languages and simulation software.",
+    "authors": [
+      "Tairone Paiva Leão"
+    ],
+    "publication_date": "2023-06-06T19:32:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.03979v2",
+    "download_url": "http://arxiv.org/abs/2306.03979v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient variance-based reliability sensitivity analysis for Monte\n  Carlo methods",
+    "abstract": "In this paper, a Monte Carlo based approach for the quantification of the\nimportance of the scattering input parameters with respect to the failure\nprobability is presented. Using the basic idea of the alpha-factors of the\nFirst Order Reliability Method, this approach was developed to analyze\ncorrelated input variables as well as arbitrary marginal parameter\ndistributions. Based on an efficient transformation scheme using the importance\nsampling principle, only a single analysis run by a plain or variance-reduced\nMonte Carlo method is required to give a sufficient estimate of the introduced\nparameter sensitivities. Several application examples are presented and\ndiscussed in the paper.",
+    "authors": [
+      "Thomas Most"
+    ],
+    "publication_date": "2024-08-13T06:33:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.06664v1",
+    "download_url": "http://arxiv.org/abs/2408.06664v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Rigidity of Graphs and Frameworks: A Matroid Theoretic Approach",
+    "abstract": "A $d$-dimensional (bar-and-joint) framework $(G,p)$ consists of a graph\n$G=(V,E)$ and a realisation $p:V\\to \\mathbb{R}^d$. It is rigid if every\ncontinuous motion of the vertices which preserves the lengths of the edges is\ninduced by an isometry of $\\mathbb{R}^d$. The study of rigid frameworks has\nincreased rapidly since the 1970s stimulated by numerous applications in areas\nsuch as civil and mechanical engineering, CAD, molecular conformation, sensor\nnetwork localisation and low rank matrix completion. We will describe some of\nthe main results in combinatorial rigidity theory and their applications to\nother areas of combinatorics, putting an emphasis on links to matroid theory.",
+    "authors": [
+      "James Cruickshank",
+      "Bill Jackson",
+      "Tibor Jordán",
+      "Shin-ichi Tanigawa"
+    ],
+    "publication_date": "2025-07-29T19:01:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.11636v1",
+    "download_url": "http://arxiv.org/abs/2508.11636v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DIAPHANE: Muon tomography applied to volcanoes, civil engineering,\n  archaelogy",
+    "abstract": "Muography techniques applied to geological structures greatly improved in the\npast ten years. Recent applications demonstrate the interest of the method not\nonly to perform structural imaging but also to monitor the dynamics of inner\nmovements like magma ascent inside volcanoes or density variations in\nhydrothermal systems. Muography time-resolution has been studied thanks to\ndedicated experiments, e.g. in a water tower tank. This paper presents the\nactivities of the DIAPHANE collaboration between particle- and geo-physicists\nand the most recent results obtained in the field of volcanology, with a focus\non the main target, the Soufri\\`ere of Guadeloupe active volcano. Special\nemphasis is given on the monitoring of the dome's inner volumes opacity\nvariations, that could be inferred to the hydrothermal system dynamics\n(vaporization of inner liquid water in coincidence with the appearance of new\nfumaroles at the summit). I also breifly present results obtained in the fields\nof civil engineering (study of urban underground tunnels) and archaelogy (greek\ntumulus scanning).",
+    "authors": [
+      "Jacques Marteau",
+      "Jean de Bremond d'Ars",
+      "Dominique Gibert",
+      "Kevin Jourde",
+      "Jean-Christophe Ianigro",
+      "Bruno Carlus"
+    ],
+    "publication_date": "2016-12-12T19:52:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1612.03905v1",
+    "download_url": "http://arxiv.org/abs/1612.03905v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Breakthrough Listen Search for Intelligent Life: 1.1-1.9 GHz\n  observations of 692 Nearby Stars",
+    "abstract": "We report on a search for engineered signals from a sample of 692 nearby\nstars using the Robert C. Byrd Green Bank Telescope, undertaken as part of the\n$Breakthrough~Listen~Initiative$ search for extraterrestrial intelligence.\nObservations were made over 1.1$-$1.9 GHz (L band), with three sets of\nfive-minute observations of the 692 primary targets, interspersed with\nfive-minute observations of secondary targets. By comparing the \"ON\" and \"OFF\"\nobservations we are able to identify terrestrial interference and place limits\non the presence of engineered signals from putative extraterrestrial\ncivilizations inhabiting the environs of the target stars. During the analysis,\neleven events passed our thresholding algorithm, but a detailed analysis of\ntheir properties indicates they are consistent with known examples of\nanthropogenic radio frequency interference. We conclude that, at the time of\nour observations, none of the observed systems host high-duty-cycle radio\ntransmitters emitting between 1.1 and 1.9 GHz with an Equivalent Isotropic\nRadiated Power of $\\sim10^{13}$ W, which is readily achievable by our own\ncivilization. Our results suggest that fewer than $\\sim$ 0.1$\\%$ of the stellar\nsystems within 50 pc possess the type of transmitters searched in this survey.",
+    "authors": [
+      "J. Emilio Enriquez",
+      "Andrew Siemion",
+      "Griffin Foster",
+      "Vishal Gajjar",
+      "Greg Hellbourg",
+      "Jack Hickish",
+      "Howard Isaacson",
+      "Danny C. Price",
+      "Steve Croft",
+      "David DeBoer",
+      "Matt Lebofsky",
+      "David MacMahon",
+      "Dan Werthimer"
+    ],
+    "publication_date": "2017-09-11T17:53:04Z",
+    "arxiv_id": "http://arxiv.org/abs/1709.03491v2",
+    "download_url": "http://arxiv.org/abs/1709.03491v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Segmentation and Analysis of a Sketched Truss Frame Using Morphological\n  Image Processing Techniques",
+    "abstract": "Development of computational tools to analyze and assess the building\ncapacities has had a major impact in civil engineering. The interaction with\nthe structural software packages is becoming easier and the modeling tools are\nbecoming smarter by automating the users role during their interaction with the\nsoftware. One of the difficulties and the most time consuming steps involved in\nthe structural modeling is defining the geometry of the structure to provide\nthe analysis. This paper is dedicated to the development of a methodology to\nautomate analysis of a hand sketched or computer generated truss frame drawn on\na piece of paper. First, we focus on the segmentation methodologies for hand\nsketched truss components using the morphological image processing techniques,\nand then we provide a real time analysis of the truss. We visualize and augment\nthe results on the input image to facilitate the public understanding of the\ntruss geometry and internal forces. MATLAB is used as the programming language\nfor the image processing purposes, and the truss is analyzed using Sap2000 API\nto integrate with MATLAB to provide a convenient structural analysis. This\npaper highlights the potential of the automation of the structural analysis\nusing image processing to quickly assess the efficiency of structural systems.\nFurther development of this framework is likely to revolutionize the way that\nstructures are modeled and analyzed.",
+    "authors": [
+      "Mirsalar Kamari",
+      "Oguz Gunes"
+    ],
+    "publication_date": "2020-09-28T08:50:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.13144v1",
+    "download_url": "http://arxiv.org/abs/2009.13144v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The \"Shut the f**k up\" Phenomenon: Characterizing Incivility in Open\n  Source Code Review Discussions",
+    "abstract": "Code review is an important quality assurance activity for software\ndevelopment. Code review discussions among developers and maintainers can be\nheated and sometimes involve personal attacks and unnecessary disrespectful\ncomments, demonstrating, therefore, incivility. Although incivility in public\ndiscussions has received increasing attention from researchers in different\ndomains, the knowledge about the characteristics, causes, and consequences of\nuncivil communication is still very limited in the context of software\ndevelopment, and more specifically, code review. To address this gap in the\nliterature, we leverage the mature social construct of incivility as a lens to\nunderstand confrontational conflicts in open source code review discussions.\nFor that, we conducted a qualitative analysis on 1,545 emails from the Linux\nKernel Mailing List (LKML) that were associated with rejected changes. We found\nthat more than half 66.66% of the non-technical emails included uncivil\nfeatures. Particularly, frustration, name calling, and impatience are the most\nfrequent features in uncivil emails. We also found that there are civil\nalternatives to address arguments, while uncivil comments can potentially be\nmade by any people when discussing any topic. Finally, we identified various\ncauses and consequences of such uncivil communication. Our work serves as the\nfirst study about the phenomenon of in(civility) in open source software\ndevelopment, paving the road for a new field of research about collaboration\nand communication in the context of software engineering activities.",
+    "authors": [
+      "Isabella Ferreira",
+      "Jinghui Cheng",
+      "Bram Adams"
+    ],
+    "publication_date": "2021-08-23T03:05:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.09905v1",
+    "download_url": "http://arxiv.org/abs/2108.09905v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

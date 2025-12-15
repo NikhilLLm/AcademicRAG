@@ -1,0 +1,622 @@
+[
+  {
+    "title": "A Unified Analytical Framework for Trustable Machine Learning and\n  Automation Running with Blockchain",
+    "abstract": "Traditional machine learning algorithms use data from databases that are\nmutable, and therefore the data cannot be fully trusted. Also, the machine\nlearning process is difficult to automate. This paper proposes building a\ntrustable machine learning system by using blockchain technology, which can\nstore data in a permanent and immutable way. In addition, smart contracts are\nused to automate the machine learning process. This paper makes three\ncontributions. First, it establishes a link between machine learning technology\nand blockchain technology. Previously, machine learning and blockchain have\nbeen considered two independent technologies without an obvious link. Second,\nit proposes a unified analytical framework for trustable machine learning by\nusing blockchain technology. This unified framework solves both the\ntrustability and automation issues in machine learning. Third, it enables a\ncomputer to translate core machine learning implementation from a single thread\non a single machine to multiple threads on multiple machines running with\nblockchain by using a unified approach. The paper uses association rule mining\nas an example to demonstrate how trustable machine learning can be implemented\nwith blockchain, and it shows how this approach can be used to analyze opioid\nprescriptions to help combat the opioid crisis.",
+    "authors": [
+      "Tao Wang"
+    ],
+    "publication_date": "2019-03-21T02:17:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1903.08801v1",
+    "download_url": "http://arxiv.org/abs/1903.08801v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Data Pricing in Machine Learning Pipelines",
+    "abstract": "Machine learning is disruptive. At the same time, machine learning can only\nsucceed by collaboration among many parties in multiple steps naturally as\npipelines in an eco-system, such as collecting data for possible machine\nlearning applications, collaboratively training models by multiple parties and\ndelivering machine learning services to end users. Data is critical and\npenetrating in the whole machine learning pipelines. As machine learning\npipelines involve many parties and, in order to be successful, have to form a\nconstructive and dynamic eco-system, marketplaces and data pricing are\nfundamental in connecting and facilitating those many parties. In this article,\nwe survey the principles and the latest research development of data pricing in\nmachine learning pipelines. We start with a brief review of data marketplaces\nand pricing desiderata. Then, we focus on pricing in three important steps in\nmachine learning pipelines. To understand pricing in the step of training data\ncollection, we review pricing raw data sets and data labels. We also\ninvestigate pricing in the step of collaborative training of machine learning\nmodels, and overview pricing machine learning models for end users in the step\nof machine learning deployment. We also discuss a series of possible future\ndirections.",
+    "authors": [
+      "Zicun Cong",
+      "Xuan Luo",
+      "Pei Jian",
+      "Feida Zhu",
+      "Yong Zhang"
+    ],
+    "publication_date": "2021-08-18T00:57:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.07915v1",
+    "download_url": "http://arxiv.org/abs/2108.07915v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MLBench: How Good Are Machine Learning Clouds for Binary Classification\n  Tasks on Structured Data?",
+    "abstract": "We conduct an empirical study of machine learning functionalities provided by\nmajor cloud service providers, which we call machine learning clouds. Machine\nlearning clouds hold the promise of hiding all the sophistication of running\nlarge-scale machine learning: Instead of specifying how to run a machine\nlearning task, users only specify what machine learning task to run and the\ncloud figures out the rest. Raising the level of abstraction, however, rarely\ncomes free - a performance penalty is possible. How good, then, are current\nmachine learning clouds on real-world machine learning workloads?\n  We study this question with a focus on binary classication problems. We\npresent mlbench, a novel benchmark constructed by harvesting datasets from\nKaggle competitions. We then compare the performance of the top winning code\navailable from Kaggle with that of running machine learning clouds from both\nAzure and Amazon on mlbench. Our comparative study reveals the strength and\nweakness of existing machine learning clouds and points out potential future\ndirections for improvement.",
+    "authors": [
+      "Yu Liu",
+      "Hantian Zhang",
+      "Luyuan Zeng",
+      "Wentao Wu",
+      "Ce Zhang"
+    ],
+    "publication_date": "2017-07-29T21:59:18Z",
+    "arxiv_id": "http://arxiv.org/abs/1707.09562v3",
+    "download_url": "http://arxiv.org/abs/1707.09562v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Techniques for Automated Machine Learning",
+    "abstract": "Automated machine learning (AutoML) aims to find optimal machine learning\nsolutions automatically given a machine learning problem. It could release the\nburden of data scientists from the multifarious manual tuning process and\nenable the access of domain experts to the off-the-shelf machine learning\nsolutions without extensive experience. In this paper, we review the current\ndevelopments of AutoML in terms of three categories, automated feature\nengineering (AutoFE), automated model and hyperparameter learning (AutoMHL),\nand automated deep learning (AutoDL). State-of-the-art techniques adopted in\nthe three categories are presented, including Bayesian optimization,\nreinforcement learning, evolutionary algorithm, and gradient-based approaches.\nWe summarize popular AutoML frameworks and conclude with current open\nchallenges of AutoML.",
+    "authors": [
+      "Yi-Wei Chen",
+      "Qingquan Song",
+      "Xia Hu"
+    ],
+    "publication_date": "2019-07-21T04:03:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.08908v1",
+    "download_url": "http://arxiv.org/abs/1907.08908v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Landscape of Modern Machine Learning: A Review of Machine,\n  Distributed and Federated Learning",
+    "abstract": "With the advance of the powerful heterogeneous, parallel and distributed\ncomputing systems and ever increasing immense amount of data, machine learning\nhas become an indispensable part of cutting-edge technology, scientific\nresearch and consumer products. In this study, we present a review of modern\nmachine and deep learning. We provide a high-level overview for the latest\nadvanced machine learning algorithms, applications, and frameworks. Our\ndiscussion encompasses parallel distributed learning, deep learning as well as\nfederated learning. As a result, our work serves as an introductory text to the\nvast field of modern machine learning.",
+    "authors": [
+      "Omer Subasi",
+      "Oceane Bel",
+      "Joseph Manzano",
+      "Kevin Barker"
+    ],
+    "publication_date": "2023-12-05T20:40:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.03120v1",
+    "download_url": "http://arxiv.org/abs/2312.03120v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Parallelization of Machine Learning Algorithms Respectively on Single\n  Machine and Spark",
+    "abstract": "With the rapid development of big data technologies, how to dig out useful\ninformation from massive data becomes an essential problem. However, using\nmachine learning algorithms to analyze large data may be time-consuming and\ninefficient on the traditional single machine. To solve these problems, this\npaper has made some research on the parallelization of several classic machine\nlearning algorithms respectively on the single machine and the big data\nplatform Spark. We compare the runtime and efficiency of traditional machine\nlearning algorithms with parallelized machine learning algorithms respectively\non the single machine and Spark platform. The research results have shown\nsignificant improvement in runtime and efficiency of parallelized machine\nlearning algorithms.",
+    "authors": [
+      "Jiajun Shen"
+    ],
+    "publication_date": "2022-05-08T03:47:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.07090v2",
+    "download_url": "http://arxiv.org/abs/2206.07090v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "AutoCompete: A Framework for Machine Learning Competition",
+    "abstract": "In this paper, we propose AutoCompete, a highly automated machine learning\nframework for tackling machine learning competitions. This framework has been\nlearned by us, validated and improved over a period of more than two years by\nparticipating in online machine learning competitions. It aims at minimizing\nhuman interference required to build a first useful predictive model and to\nassess the practical difficulty of a given machine learning challenge. The\nproposed system helps in identifying data types, choosing a machine learn- ing\nmodel, tuning hyper-parameters, avoiding over-fitting and optimization for a\nprovided evaluation metric. We also observe that the proposed system produces\nbetter (or comparable) results with less runtime as compared to other\napproaches.",
+    "authors": [
+      "Abhishek Thakur",
+      "Artus Krohn-Grimberghe"
+    ],
+    "publication_date": "2015-07-08T15:07:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1507.02188v1",
+    "download_url": "http://arxiv.org/abs/1507.02188v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Joint Training of Deep Boltzmann Machines",
+    "abstract": "We introduce a new method for training deep Boltzmann machines jointly. Prior\nmethods require an initial learning pass that trains the deep Boltzmann machine\ngreedily, one layer at a time, or do not perform well on classifi- cation\ntasks.",
+    "authors": [
+      "Ian Goodfellow",
+      "Aaron Courville",
+      "Yoshua Bengio"
+    ],
+    "publication_date": "2012-12-12T01:59:27Z",
+    "arxiv_id": "http://arxiv.org/abs/1212.2686v1",
+    "download_url": "http://arxiv.org/abs/1212.2686v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Proceedings of the 2016 ICML Workshop on #Data4Good: Machine Learning in\n  Social Good Applications",
+    "abstract": "This is the Proceedings of the ICML Workshop on #Data4Good: Machine Learning\nin Social Good Applications, which was held on June 24, 2016 in New York.",
+    "authors": [
+      "Kush R. Varshney"
+    ],
+    "publication_date": "2016-07-08T16:55:31Z",
+    "arxiv_id": "http://arxiv.org/abs/1607.02450v2",
+    "download_url": "http://arxiv.org/abs/1607.02450v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mathematical Perspective of Machine Learning",
+    "abstract": "We take a closer look at some theoretical challenges of Machine Learning as a\nfunction approximation, gradient descent as the default optimization algorithm,\nlimitations of fixed length and width networks and a different approach to RNNs\nfrom a mathematical perspective.",
+    "authors": [
+      "Yarema Boryshchak"
+    ],
+    "publication_date": "2020-07-03T05:26:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.01503v1",
+    "download_url": "http://arxiv.org/abs/2007.01503v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Private Machine Learning via Randomised Response",
+    "abstract": "We introduce a general learning framework for private machine learning based\non randomised response. Our assumption is that all actors are potentially\nadversarial and as such we trust only to release a single noisy version of an\nindividual's datapoint. We discuss a general approach that forms a consistent\nway to estimate the true underlying machine learning model and demonstrate this\nin the case of logistic regression.",
+    "authors": [
+      "David Barber"
+    ],
+    "publication_date": "2020-01-14T17:56:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2001.04942v2",
+    "download_url": "http://arxiv.org/abs/2001.04942v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey of Optimization Methods from a Machine Learning Perspective",
+    "abstract": "Machine learning develops rapidly, which has made many theoretical\nbreakthroughs and is widely applied in various fields. Optimization, as an\nimportant part of machine learning, has attracted much attention of\nresearchers. With the exponential growth of data amount and the increase of\nmodel complexity, optimization methods in machine learning face more and more\nchallenges. A lot of work on solving optimization problems or improving\noptimization methods in machine learning has been proposed successively. The\nsystematic retrospect and summary of the optimization methods from the\nperspective of machine learning are of great significance, which can offer\nguidance for both developments of optimization and machine learning research.\nIn this paper, we first describe the optimization problems in machine learning.\nThen, we introduce the principles and progresses of commonly used optimization\nmethods. Next, we summarize the applications and developments of optimization\nmethods in some popular machine learning fields. Finally, we explore and give\nsome challenges and open problems for the optimization in machine learning.",
+    "authors": [
+      "Shiliang Sun",
+      "Zehui Cao",
+      "Han Zhu",
+      "Jing Zhao"
+    ],
+    "publication_date": "2019-06-17T02:54:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1906.06821v2",
+    "download_url": "http://arxiv.org/abs/1906.06821v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ten-year Survival Prediction for Breast Cancer Patients",
+    "abstract": "This report assesses different machine learning approaches to 10-year\nsurvival prediction of breast cancer patients.",
+    "authors": [
+      "Changmao Li",
+      "Han He",
+      "Yunze Hao",
+      "Caleb Ziems"
+    ],
+    "publication_date": "2019-11-02T19:53:32Z",
+    "arxiv_id": "http://arxiv.org/abs/1911.00776v1",
+    "download_url": "http://arxiv.org/abs/1911.00776v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Tuning Learning Rates with the Cumulative-Learning Constant",
+    "abstract": "This paper introduces a novel method for optimizing learning rates in machine\nlearning. A previously unrecognized proportionality between learning rates and\ndataset sizes is discovered, providing valuable insights into how dataset scale\ninfluences training dynamics. Additionally, a cumulative learning constant is\nidentified, offering a framework for designing and optimizing advanced learning\nrate schedules. These findings have the potential to enhance training\nefficiency and performance across a wide range of machine learning\napplications.",
+    "authors": [
+      "Nathan Faraj"
+    ],
+    "publication_date": "2025-04-30T00:07:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.13457v1",
+    "download_url": "http://arxiv.org/abs/2505.13457v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "When Machine Learning Meets Privacy: A Survey and Outlook",
+    "abstract": "The newly emerged machine learning (e.g. deep learning) methods have become a\nstrong driving force to revolutionize a wide range of industries, such as smart\nhealthcare, financial technology, and surveillance systems. Meanwhile, privacy\nhas emerged as a big concern in this machine learning-based artificial\nintelligence era. It is important to note that the problem of privacy\npreservation in the context of machine learning is quite different from that in\ntraditional data privacy protection, as machine learning can act as both friend\nand foe. Currently, the work on the preservation of privacy and machine\nlearning (ML) is still in an infancy stage, as most existing solutions only\nfocus on privacy problems during the machine learning process. Therefore, a\ncomprehensive study on the privacy preservation problems and machine learning\nis required. This paper surveys the state of the art in privacy issues and\nsolutions for machine learning. The survey covers three categories of\ninteractions between privacy and machine learning: (i) private machine\nlearning, (ii) machine learning aided privacy protection, and (iii) machine\nlearning-based privacy attack and corresponding protection schemes. The current\nresearch progress in each category is reviewed and the key challenges are\nidentified. Finally, based on our in-depth analysis of the area of privacy and\nmachine learning, we point out future research directions in this field.",
+    "authors": [
+      "Bo Liu",
+      "Ming Ding",
+      "Sina Shaham",
+      "Wenny Rahayu",
+      "Farhad Farokhi",
+      "Zihuai Lin"
+    ],
+    "publication_date": "2020-11-24T00:52:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.11819v1",
+    "download_url": "http://arxiv.org/abs/2011.11819v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Probabilistic Machine Learning for Healthcare",
+    "abstract": "Machine learning can be used to make sense of healthcare data. Probabilistic\nmachine learning models help provide a complete picture of observed data in\nhealthcare. In this review, we examine how probabilistic machine learning can\nadvance healthcare. We consider challenges in the predictive model building\npipeline where probabilistic models can be beneficial including calibration and\nmissing data. Beyond predictive models, we also investigate the utility of\nprobabilistic machine learning models in phenotyping, in generative models for\nclinical use cases, and in reinforcement learning.",
+    "authors": [
+      "Irene Y. Chen",
+      "Shalmali Joshi",
+      "Marzyeh Ghassemi",
+      "Rajesh Ranganath"
+    ],
+    "publication_date": "2020-09-23T12:14:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.11087v1",
+    "download_url": "http://arxiv.org/abs/2009.11087v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evaluation Challenges for Geospatial ML",
+    "abstract": "As geospatial machine learning models and maps derived from their predictions\nare increasingly used for downstream analyses in science and policy, it is\nimperative to evaluate their accuracy and applicability. Geospatial machine\nlearning has key distinctions from other learning paradigms, and as such, the\ncorrect way to measure performance of spatial machine learning outputs has been\na topic of debate. In this paper, I delineate unique challenges of model\nevaluation for geospatial machine learning with global or remotely sensed\ndatasets, culminating in concrete takeaways to improve evaluations of\ngeospatial model performance.",
+    "authors": [
+      "Esther Rolf"
+    ],
+    "publication_date": "2023-03-31T14:24:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.18087v1",
+    "download_url": "http://arxiv.org/abs/2303.18087v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A comprehensive review of Quantum Machine Learning: from NISQ to Fault\n  Tolerance",
+    "abstract": "Quantum machine learning, which involves running machine learning algorithms\non quantum devices, has garnered significant attention in both academic and\nbusiness circles. In this paper, we offer a comprehensive and unbiased review\nof the various concepts that have emerged in the field of quantum machine\nlearning. This includes techniques used in Noisy Intermediate-Scale Quantum\n(NISQ) technologies and approaches for algorithms compatible with\nfault-tolerant quantum computing hardware. Our review covers fundamental\nconcepts, algorithms, and the statistical learning theory pertinent to quantum\nmachine learning.",
+    "authors": [
+      "Yunfei Wang",
+      "Junyu Liu"
+    ],
+    "publication_date": "2024-01-21T00:19:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.11351v2",
+    "download_url": "http://arxiv.org/abs/2401.11351v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Augmented Q Imitation Learning (AQIL)",
+    "abstract": "The study of unsupervised learning can be generally divided into two\ncategories: imitation learning and reinforcement learning. In imitation\nlearning the machine learns by mimicking the behavior of an expert system\nwhereas in reinforcement learning the machine learns via direct environment\nfeedback. Traditional deep reinforcement learning takes a significant time\nbefore the machine starts to converge to an optimal policy. This paper proposes\nAugmented Q-Imitation-Learning, a method by which deep reinforcement learning\nconvergence can be accelerated by applying Q-imitation-learning as the initial\ntraining process in traditional Deep Q-learning.",
+    "authors": [
+      "Xiao Lei Zhang",
+      "Anish Agarwal"
+    ],
+    "publication_date": "2020-03-31T18:08:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.00993v2",
+    "download_url": "http://arxiv.org/abs/2004.00993v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards CRISP-ML(Q): A Machine Learning Process Model with Quality\n  Assurance Methodology",
+    "abstract": "Machine learning is an established and frequently used technique in industry\nand academia but a standard process model to improve success and efficiency of\nmachine learning applications is still missing. Project organizations and\nmachine learning practitioners have a need for guidance throughout the life\ncycle of a machine learning application to meet business expectations. We\ntherefore propose a process model for the development of machine learning\napplications, that covers six phases from defining the scope to maintaining the\ndeployed machine learning application. The first phase combines business and\ndata understanding as data availability oftentimes affects the feasibility of\nthe project. The sixth phase covers state-of-the-art approaches for monitoring\nand maintenance of a machine learning applications, as the risk of model\ndegradation in a changing environment is eminent. With each task of the\nprocess, we propose quality assurance methodology that is suitable to adress\nchallenges in machine learning development that we identify in form of risks.\nThe methodology is drawn from practical experience and scientific literature\nand has proven to be general and stable. The process model expands on CRISP-DM,\na data mining process model that enjoys strong industry support but lacks to\naddress machine learning specific tasks. Our work proposes an industry and\napplication neutral process model tailored for machine learning applications\nwith focus on technical tasks for quality assurance.",
+    "authors": [
+      "Stefan Studer",
+      "Thanh Binh Bui",
+      "Christian Drescher",
+      "Alexander Hanuschkin",
+      "Ludwig Winkler",
+      "Steven Peters",
+      "Klaus-Robert Mueller"
+    ],
+    "publication_date": "2020-03-11T08:25:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.05155v2",
+    "download_url": "http://arxiv.org/abs/2003.05155v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Temporal-related Convolutional-Restricted-Boltzmann-Machine capable of\n  learning relational order via reinforcement learning procedure?",
+    "abstract": "In this article, we extend the conventional framework of\nconvolutional-Restricted-Boltzmann-Machine to learn highly abstract features\namong abitrary number of time related input maps by constructing a layer of\nmultiplicative units, which capture the relations among inputs. In many cases,\nmore than two maps are strongly related, so it is wise to make multiplicative\nunit learn relations among more input maps, in other words, to find the optimal\nrelational-order of each unit. In order to enable our machine to learn\nrelational order, we developed a reinforcement-learning method whose optimality\nis proven to train the network.",
+    "authors": [
+      "Zizhuang Wang"
+    ],
+    "publication_date": "2017-06-24T20:56:27Z",
+    "arxiv_id": "http://arxiv.org/abs/1706.08001v1",
+    "download_url": "http://arxiv.org/abs/1706.08001v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spatial Transfer Learning with Simple MLP",
+    "abstract": "First step to investigate the potential of transfer learning applied to the\nfield of spatial statistics",
+    "authors": [
+      "Hongjian Yang"
+    ],
+    "publication_date": "2024-05-05T20:39:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.03720v1",
+    "download_url": "http://arxiv.org/abs/2405.03720v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Proceedings of the 29th International Conference on Machine Learning\n  (ICML-12)",
+    "abstract": "This is an index to the papers that appear in the Proceedings of the 29th\nInternational Conference on Machine Learning (ICML-12). The conference was held\nin Edinburgh, Scotland, June 27th - July 3rd, 2012.",
+    "authors": [
+      "John Langford",
+      "Joelle Pineau"
+    ],
+    "publication_date": "2012-07-19T14:08:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1207.4676v2",
+    "download_url": "http://arxiv.org/abs/1207.4676v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Distributed Multi-Task Learning with Shared Representation",
+    "abstract": "We study the problem of distributed multi-task learning with shared\nrepresentation, where each machine aims to learn a separate, but related, task\nin an unknown shared low-dimensional subspaces, i.e. when the predictor matrix\nhas low rank. We consider a setting where each task is handled by a different\nmachine, with samples for the task available locally on the machine, and study\ncommunication-efficient methods for exploiting the shared structure.",
+    "authors": [
+      "Jialei Wang",
+      "Mladen Kolar",
+      "Nathan Srebro"
+    ],
+    "publication_date": "2016-03-07T18:11:54Z",
+    "arxiv_id": "http://arxiv.org/abs/1603.02185v1",
+    "download_url": "http://arxiv.org/abs/1603.02185v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Components of Machine Learning: Binding Bits and FLOPS",
+    "abstract": "Many machine learning problems and methods are combinations of three\ncomponents: data, hypothesis space and loss function. Different machine\nlearning methods are obtained as combinations of different choices for the\nrepresentation of data, hypothesis space and loss function. After reviewing the\nmathematical structure of these three components, we discuss intrinsic\ntrade-offs between statistical and computational properties of machine learning\nmethods.",
+    "authors": [
+      "Alexander Jung"
+    ],
+    "publication_date": "2019-10-25T17:33:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.12387v2",
+    "download_url": "http://arxiv.org/abs/1910.12387v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Impact of Legal Requirements on Explainability in Machine Learning",
+    "abstract": "The requirements on explainability imposed by European laws and their\nimplications for machine learning (ML) models are not always clear. In that\nperspective, our research analyzes explanation obligations imposed for private\nand public decision-making, and how they can be implemented by machine learning\ntechniques.",
+    "authors": [
+      "Adrien Bibal",
+      "Michael Lognoul",
+      "Alexandre de Streel",
+      "Benoît Frénay"
+    ],
+    "publication_date": "2020-07-10T16:57:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.05479v1",
+    "download_url": "http://arxiv.org/abs/2007.05479v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning Potential Repository",
+    "abstract": "This paper introduces a machine learning potential repository that includes\nPareto optimal machine learning potentials. It also shows the systematic\ndevelopment of accurate and fast machine learning potentials for a wide range\nof elemental systems. As a result, many Pareto optimal machine learning\npotentials are available in the repository from a website. Therefore, the\nrepository will help many scientists to perform accurate and fast atomistic\nsimulations.",
+    "authors": [
+      "Atsuto Seko"
+    ],
+    "publication_date": "2020-07-27T14:30:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.14206v1",
+    "download_url": "http://arxiv.org/abs/2007.14206v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum memristors for neuromorphic quantum machine learning",
+    "abstract": "Quantum machine learning may permit to realize more efficient machine\nlearning calculations with near-term quantum devices. Among the diverse quantum\nmachine learning paradigms which are currently being considered, quantum\nmemristors are promising as a way of combining, in the same quantum hardware, a\nunitary evolution with the nonlinearity provided by the measurement and\nfeedforward. Thus, an efficient way of deploying neuromorphic quantum computing\nfor quantum machine learning may be enabled.",
+    "authors": [
+      "Lucas Lamata"
+    ],
+    "publication_date": "2024-12-25T20:21:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.18979v1",
+    "download_url": "http://arxiv.org/abs/2412.18979v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning functions, operators and dynamical systems with kernels",
+    "abstract": "This expository article presents the approach to statistical machine learning\nbased on reproducing kernel Hilbert spaces. The basic framework is introduced\nfor scalar-valued learning and then extended to operator learning. Finally,\nlearning dynamical systems is formulated as a suitable operator learning\nproblem, leveraging Koopman operator theory. The manuscript collects the\nsupporting material for the corresponding course taught at the CIME school\n\"Machine Learning: From Data to Mathematical Understanding\" in Cetraro.",
+    "authors": [
+      "Lorenzo Rosasco"
+    ],
+    "publication_date": "2025-09-22T17:53:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.18071v2",
+    "download_url": "http://arxiv.org/abs/2509.18071v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "metric-learn: Metric Learning Algorithms in Python",
+    "abstract": "metric-learn is an open source Python package implementing supervised and\nweakly-supervised distance metric learning algorithms. As part of\nscikit-learn-contrib, it provides a unified interface compatible with\nscikit-learn which allows to easily perform cross-validation, model selection,\nand pipelining with other machine learning estimators. metric-learn is\nthoroughly tested and available on PyPi under the MIT licence.",
+    "authors": [
+      "William de Vazelhes",
+      "CJ Carey",
+      "Yuan Tang",
+      "Nathalie Vauquier",
+      "Aurélien Bellet"
+    ],
+    "publication_date": "2019-08-13T15:52:31Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.04710v3",
+    "download_url": "http://arxiv.org/abs/1908.04710v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Theoretical Models of Learning to Learn",
+    "abstract": "A Machine can only learn if it is biased in some way. Typically the bias is\nsupplied by hand, for example through the choice of an appropriate set of\nfeatures. However, if the learning machine is embedded within an {\\em\nenvironment} of related tasks, then it can {\\em learn} its own bias by learning\nsufficiently many tasks from the environment. In this paper two models of bias\nlearning (or equivalently, learning to learn) are introduced and the main\ntheoretical results presented. The first model is a PAC-type model based on\nempirical process theory, while the second is a hierarchical Bayes model.",
+    "authors": [
+      "Jonathan Baxter"
+    ],
+    "publication_date": "2020-02-27T13:35:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.12364v1",
+    "download_url": "http://arxiv.org/abs/2002.12364v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Aggregate and Iterative Disaggregate Algorithm with Proven Optimality\n  in Machine Learning",
+    "abstract": "We propose a clustering-based iterative algorithm to solve certain\noptimization problems in machine learning, where we start the algorithm by\naggregating the original data, solving the problem on aggregated data, and then\nin subsequent steps gradually disaggregate the aggregated data. We apply the\nalgorithm to common machine learning problems such as the least absolute\ndeviation regression problem, support vector machines, and semi-supervised\nsupport vector machines. We derive model-specific data aggregation and\ndisaggregation procedures. We also show optimality, convergence, and the\noptimality gap of the approximated solution in each iteration. A computational\nstudy is provided.",
+    "authors": [
+      "Young Woong Park",
+      "Diego Klabjan"
+    ],
+    "publication_date": "2016-07-05T20:04:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1607.01400v1",
+    "download_url": "http://arxiv.org/abs/1607.01400v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Human-in-the-loop Machine Learning: A Macro-Micro Perspective",
+    "abstract": "Though technical advance of artificial intelligence and machine learning has\nenabled many promising intelligent systems, many computing tasks are still not\nable to be fully accomplished by machine intelligence. Motivated by the\ncomplementary nature of human and machine intelligence, an emerging trend is to\ninvolve humans in the loop of machine learning and decision-making. In this\npaper, we provide a macro-micro review of human-in-the-loop machine learning.\nWe first describe major machine learning challenges which can be addressed by\nhuman intervention in the loop. Then we examine closely the latest research and\nfindings of introducing humans into each step of the lifecycle of machine\nlearning. Finally, we analyze current research gaps and point out future\nresearch directions.",
+    "authors": [
+      "Jiangtao Wang",
+      "Bin Guo",
+      "Liming Chen"
+    ],
+    "publication_date": "2022-02-21T22:45:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.10564v1",
+    "download_url": "http://arxiv.org/abs/2202.10564v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Can Machines Learn the True Probabilities?",
+    "abstract": "When there exists uncertainty, AI machines are designed to make decisions so\nas to reach the best expected outcomes. Expectations are based on true facts\nabout the objective environment the machines interact with, and those facts can\nbe encoded into AI models in the form of true objective probability functions.\nAccordingly, AI models involve probabilistic machine learning in which the\nprobabilities should be objectively interpreted. We prove under some basic\nassumptions when machines can learn the true objective probabilities, if any,\nand when machines cannot learn them.",
+    "authors": [
+      "Jinsook Kim"
+    ],
+    "publication_date": "2024-07-08T00:19:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.05526v1",
+    "download_url": "http://arxiv.org/abs/2407.05526v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On-the-Fly Learning in a Perpetual Learning Machine",
+    "abstract": "Despite the promise of brain-inspired machine learning, deep neural networks\n(DNN) have frustratingly failed to bridge the deceptively large gap between\nlearning and memory. Here, we introduce a Perpetual Learning Machine; a new\ntype of DNN that is capable of brain-like dynamic 'on the fly' learning because\nit exists in a self-supervised state of Perpetual Stochastic Gradient Descent.\nThus, we provide the means to unify learning and memory within a machine\nlearning framework. We also explore the elegant duality of abstraction and\nsynthesis: the Yin and Yang of deep learning.",
+    "authors": [
+      "Andrew J. R. Simpson"
+    ],
+    "publication_date": "2015-09-03T01:30:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1509.00913v3",
+    "download_url": "http://arxiv.org/abs/1509.00913v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Scientific Machine Learning Benchmarks",
+    "abstract": "The breakthrough in Deep Learning neural networks has transformed the use of\nAI and machine learning technologies for the analysis of very large\nexperimental datasets. These datasets are typically generated by large-scale\nexperimental facilities at national laboratories. In the context of science,\nscientific machine learning focuses on training machines to identify patterns,\ntrends, and anomalies to extract meaningful scientific insights from such\ndatasets. With a new generation of experimental facilities, the rate of data\ngeneration and the scale of data volumes will increasingly require the use of\nmore automated data analysis. At present, identifying the most appropriate\nmachine learning algorithm for the analysis of any given scientific dataset is\nstill a challenge for scientists. This is due to many different machine\nlearning frameworks, computer architectures, and machine learning models.\nHistorically, for modelling and simulation on HPC systems such problems have\nbeen addressed through benchmarking computer applications, algorithms, and\narchitectures. Extending such a benchmarking approach and identifying metrics\nfor the application of machine learning methods to scientific datasets is a new\nchallenge for both scientists and computer scientists. In this paper, we\ndescribe our approach to the development of scientific machine learning\nbenchmarks and review other approaches to benchmarking scientific machine\nlearning.",
+    "authors": [
+      "Jeyan Thiyagalingam",
+      "Mallikarjun Shankar",
+      "Geoffrey Fox",
+      "Tony Hey"
+    ],
+    "publication_date": "2021-10-25T10:05:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.12773v1",
+    "download_url": "http://arxiv.org/abs/2110.12773v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Some Insights into Lifelong Reinforcement Learning Systems",
+    "abstract": "A lifelong reinforcement learning system is a learning system that has the\nability to learn through trail-and-error interaction with the environment over\nits lifetime. In this paper, I give some arguments to show that the traditional\nreinforcement learning paradigm fails to model this type of learning system.\nSome insights into lifelong reinforcement learning are provided, along with a\nsimplistic prototype lifelong reinforcement learning system.",
+    "authors": [
+      "Changjian Li"
+    ],
+    "publication_date": "2020-01-27T07:26:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2001.09608v1",
+    "download_url": "http://arxiv.org/abs/2001.09608v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bayesian Optimization for Machine Learning : A Practical Guidebook",
+    "abstract": "The engineering of machine learning systems is still a nascent field; relying\non a seemingly daunting collection of quickly evolving tools and best\npractices. It is our hope that this guidebook will serve as a useful resource\nfor machine learning practitioners looking to take advantage of Bayesian\noptimization techniques. We outline four example machine learning problems that\ncan be solved using open source machine learning libraries, and highlight the\nbenefits of using Bayesian optimization in the context of these common machine\nlearning applications.",
+    "authors": [
+      "Ian Dewancker",
+      "Michael McCourt",
+      "Scott Clark"
+    ],
+    "publication_date": "2016-12-14T22:04:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1612.04858v1",
+    "download_url": "http://arxiv.org/abs/1612.04858v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards A Rigorous Science of Interpretable Machine Learning",
+    "abstract": "As machine learning systems become ubiquitous, there has been a surge of\ninterest in interpretable machine learning: systems that provide explanation\nfor their outputs. These explanations are often used to qualitatively assess\nother criteria such as safety or non-discrimination. However, despite the\ninterest in interpretability, there is very little consensus on what\ninterpretable machine learning is and how it should be measured. In this\nposition paper, we first define interpretability and describe when\ninterpretability is needed (and when it is not). Next, we suggest a taxonomy\nfor rigorous evaluation and expose open questions towards a more rigorous\nscience of interpretable machine learning.",
+    "authors": [
+      "Finale Doshi-Velez",
+      "Been Kim"
+    ],
+    "publication_date": "2017-02-28T02:19:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1702.08608v2",
+    "download_url": "http://arxiv.org/abs/1702.08608v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Infrastructure for Usable Machine Learning: The Stanford DAWN Project",
+    "abstract": "Despite incredible recent advances in machine learning, building machine\nlearning applications remains prohibitively time-consuming and expensive for\nall but the best-trained, best-funded engineering organizations. This expense\ncomes not from a need for new and improved statistical models but instead from\na lack of systems and tools for supporting end-to-end machine learning\napplication development, from data preparation and labeling to\nproductionization and monitoring. In this document, we outline opportunities\nfor infrastructure supporting usable, end-to-end machine learning applications\nin the context of the nascent DAWN (Data Analytics for What's Next) project at\nStanford.",
+    "authors": [
+      "Peter Bailis",
+      "Kunle Olukotun",
+      "Christopher Re",
+      "Matei Zaharia"
+    ],
+    "publication_date": "2017-05-22T02:28:19Z",
+    "arxiv_id": "http://arxiv.org/abs/1705.07538v2",
+    "download_url": "http://arxiv.org/abs/1705.07538v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

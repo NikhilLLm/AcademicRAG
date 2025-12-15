@@ -1,0 +1,813 @@
+[
+  {
+    "title": "Landauer in the age of synthetic biology: energy consumption and\n  information processing in biochemical networks",
+    "abstract": "A central goal of synthetic biology is to design sophisticated synthetic\ncellular circuits that can perform complex computations and information\nprocessing tasks in response to specific inputs. The tremendous advances in our\nability to understand and manipulate cellular information processing networks\nraises several fundamental physics questions: How do the molecular components\nof cellular circuits exploit energy consumption to improve information\nprocessing? Can one utilize ideas from thermodynamics to improve the design of\nsynthetic cellular circuits and modules? Here, we summarize recent theoretical\nwork addressing these questions. Energy consumption in cellular circuits serves\nfive basic purposes: (1) increasing specificity, (2) manipulating dynamics, (3)\nreducing variability, (4) amplifying signal, and (5) erasing memory. We\ndemonstrate these ideas using several simple examples and discuss the\nimplications of these theoretical ideas for the emerging field of synthetic\nbiology. We conclude by discussing how it may be possible to overcome these\nlimitations using \"post-translational\" synthetic biology that exploits\nreversible protein modification.",
+    "authors": [
+      "Pankaj Mehta",
+      "Alex H. Lang",
+      "David J. Schwab"
+    ],
+    "publication_date": "2015-05-11T03:25:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1505.02474v1",
+    "download_url": "http://arxiv.org/abs/1505.02474v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning Harnesses Molecular Dynamics to Discover New $μ$\n  Opioid Chemotypes",
+    "abstract": "Computational chemists typically assay drug candidates by virtually screening\ncompounds against crystal structures of a protein despite the fact that some\ntargets, like the $\\mu$ Opioid Receptor and other members of the GPCR family,\ntraverse many non-crystallographic states. We discover new conformational\nstates of $\\mu OR$ with molecular dynamics simulation and then machine learn\nligand-structure relationships to predict opioid ligand function. These\nartificial intelligence models identified a novel $\\mu$ opioid chemotype.",
+    "authors": [
+      "Evan N. Feinberg",
+      "Amir Barati Farimani",
+      "Rajendra Uprety",
+      "Amanda Hunkele",
+      "Gavril W. Pasternak",
+      "Susruta Majumdar",
+      "Vijay S. Pande"
+    ],
+    "publication_date": "2018-03-12T19:32:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.04479v1",
+    "download_url": "http://arxiv.org/abs/1803.04479v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Discovery methods for systematic analysis of causal molecular networks\n  in modern omics datasets",
+    "abstract": "With the increasing availability and size of multi-omics datasets,\ninvestigating the casual relationships between molecular phenotypes has become\nan important aspect of exploring underlying biology and genetics. This paper\naims to introduce and review the available methods for building large-scale\ncausal molecular networks that have been developed in the past decade. Existing\nmethods have their own strengths and limitations so there is no one best\napproach, and it is instead down to the discretion of the researcher. This\nreview also aims to discuss some of the current limitations to biological\ninterpretation of these networks, and important factors to consider for future\nstudies on molecular networks.",
+    "authors": [
+      "Jack Kelly",
+      "Carlo Berzuini",
+      "Bernard Keavney",
+      "Maciej Tomaszewski",
+      "Hui Guo"
+    ],
+    "publication_date": "2022-01-28T16:36:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.12229v1",
+    "download_url": "http://arxiv.org/abs/2201.12229v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Graph Theory and Networks in Biology",
+    "abstract": "In this paper, we present a survey of the use of graph theoretical techniques\nin Biology. In particular, we discuss recent work on identifying and modelling\nthe structure of bio-molecular networks, as well as the application of\ncentrality measures to interaction networks and research on the hierarchical\nstructure of such networks and network motifs. Work on the link between\nstructural network properties and dynamics is also described, with emphasis on\nsynchronization and disease propagation.",
+    "authors": [
+      "Oliver Mason",
+      "Mark Verwoerd"
+    ],
+    "publication_date": "2006-04-06T14:55:34Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0604006v1",
+    "download_url": "http://arxiv.org/abs/q-bio/0604006v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Identification and Characterisation of Technological Topics in the Field\n  of Molecular Biology",
+    "abstract": "This paper focuses on methodological approaches for characterising the\nspecific topics within a technological field based on scientific literature\ndata. We introduce a diachronic clustering analysis approach and some\nbibliometric indicators. The results are visualised with the software-tool\nStanalyst [1]. We are applying our methods to the field \"Molecular Biology\".\nThis field has grown a great deal in the last decade.",
+    "authors": [
+      "Ivana Roche",
+      "Dominique Besagni",
+      "Claire François",
+      "Marianne Hörlesberger",
+      "Edgar L Schiebel"
+    ],
+    "publication_date": "2009-10-26T07:24:53Z",
+    "arxiv_id": "http://arxiv.org/abs/0910.4817v1",
+    "download_url": "http://arxiv.org/abs/0910.4817v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A linear elimination framework",
+    "abstract": "Key insights in molecular biology, such as enzyme kinetics, protein allostery\nand gene regulation emerged from quantitative analysis based on time-scale\nseparation, allowing internal complexity to be eliminated and resulting in the\nwell-known formulas of Michaelis-Menten, Monod-Wyman-Changeux and\nAckers-Johnson-Shea. In systems biology, steady-state analysis has yielded\neliminations that reveal emergent properties of multi-component networks. Here\nwe show that these analyses of nonlinear biochemical systems are consequences\nof the same linear framework, consisting of a labelled, directed graph on which\na Laplacian dynamics is defined, whose steady states can be algorithmically\ncalculated. Analyses previously considered distinct are revealed as identical,\nwhile new methods of analysis become feasible.",
+    "authors": [
+      "Jeremy Gunawardena"
+    ],
+    "publication_date": "2011-09-28T15:04:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1109.6231v1",
+    "download_url": "http://arxiv.org/abs/1109.6231v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Introduction to RNA Databases",
+    "abstract": "We present an introduction to RNA databases. The history and technology\nbehind RNA databases is briefly discussed. We examine differing methods of data\ncollection and curation, and discuss their impact on both the scope and\naccuracy of the resulting databases. Finally, we demonstrate these principals\nthrough detailed examination of four leading RNA databases: Noncode, miRBase,\nRfam, and SILVA.",
+    "authors": [
+      "Marc P. Hoeppner",
+      "Lars E. Barquist",
+      "Paul P. Gardner"
+    ],
+    "publication_date": "2012-06-18T21:48:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1206.4084v1",
+    "download_url": "http://arxiv.org/abs/1206.4084v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mol-LLaMA: Towards General Understanding of Molecules in Large Molecular\n  Language Model",
+    "abstract": "Understanding molecules is key to understanding organisms and driving\nadvances in drug discovery, requiring interdisciplinary knowledge across\nchemistry and biology. Although large molecular language models have achieved\nnotable success in task transfer, they often struggle to accurately analyze\nmolecular features due to limited knowledge and reasoning capabilities. To\naddress this issue, we present Mol-LLaMA, a large molecular language model that\ngrasps the general knowledge centered on molecules and exhibits explainability\nand reasoning ability. To this end, we design key data types that encompass the\nfundamental molecular features, taking into account the essential abilities for\nmolecular reasoning. Further, to improve molecular understanding, we propose a\nmodule that integrates complementary information from different molecular\nencoders, leveraging the distinct advantages of molecular representations. Our\nexperimental results demonstrate that Mol-LLaMA is capable of comprehending the\ngeneral features of molecules and providing informative responses, implying its\npotential as a general-purpose assistant for molecular analysis. Our project\npage is at https://mol-llama.github.io/.",
+    "authors": [
+      "Dongki Kim",
+      "Wonbin Lee",
+      "Sung Ju Hwang"
+    ],
+    "publication_date": "2025-02-19T05:49:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.13449v5",
+    "download_url": "http://arxiv.org/abs/2502.13449v5",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reverse Engineering of Molecular Networks from a Common Combinatorial\n  Approach",
+    "abstract": "The understanding of molecular cell biology requires insight into the\nstructure and dynamics of networks that are made up of thousands of interacting\nmolecules of DNA, RNA, proteins, metabolites, and other components. One of the\ncentral goals of systems biology is the unraveling of the as yet poorly\ncharacterized complex web of interactions among these components. This work is\nmade harder by the fact that new species and interactions are continuously\ndiscovered in experimental work, necessitating the development of adaptive and\nfast algorithms for network construction and updating. Thus, the\n\"reverse-engineering\" of networks from data has emerged as one of the central\nconcern of systems biology research.\n  A variety of reverse-engineering methods have been developed, based on tools\nfrom statistics, machine learning, and other mathematical domains. In order to\neffectively use these methods, it is essential to develop an understanding of\nthe fundamental characteristics of these algorithms. With that in mind, this\nchapter is dedicated to the reverse-engineering of biological systems.\n  Specifically, we focus our attention on a particular class of methods for\nreverse-engineering, namely those that rely algorithmically upon the so-called\n\"hitting-set\" problem, which is a classical combinatorial and computer science\nproblem, Each of these methods utilizes a different algorithm in order to\nobtain an exact or an approximate solution of the hitting set problem. We will\nexplore the ultimate impact that the alternative algorithms have on the\ninference of published in silico biological networks.",
+    "authors": [
+      "Bhaskar DasGupta",
+      "Paola Vera-Licona",
+      "Eduardo Sontag"
+    ],
+    "publication_date": "2011-02-24T04:56:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1102.4904v1",
+    "download_url": "http://arxiv.org/abs/1102.4904v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DNA evolved to minimize frameshift mutations",
+    "abstract": "Point mutations can surely be dangerous but what is worst than to lose the\nreading frame?! Does DNA evolved a strategy to try to limit frameshift\nmutations?! Here we investigate if DNA sequences effectively evolved a system\nto minimize frameshift mutations analyzing the transcripts of proteins with\nhigh molecular weights.",
+    "authors": [
+      "Valentina Agoni"
+    ],
+    "publication_date": "2013-09-03T09:59:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1309.1768v1",
+    "download_url": "http://arxiv.org/abs/1309.1768v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Proofs of life: molecular-biology reasoning simulates cell behaviors\n  from first principles",
+    "abstract": "We axiomatize the molecular-biology reasoning style, show compliance of the\nstandard reference: Ptashne, A Genetic Switch, and present proof-theory-induced\ntechnologies to help infer phenotypes and to predict life cycles from\ngenotypes. The key is to note that `reductionist discipline' entails\nconstructive reasoning: any proof of a compound property can be decomposed to\nproofs of constituent properties. Proof theory makes explicit the inner\nstructure of the axiomatized reasoning style and allows the permissible\ndynamics to be presented as a mode of computation that can be executed and\nanalyzed. Constructivity and execution guarantee simulation when working over\ndomain-specific languages. Here, we exhibit phenotype properties for genotype\nreasons: a molecular-biology argument is an open-system concurrent computation\nthat results in compartment changes and is performed among processes of\nphysiology change as determined from the molecular programming of given DNA.\nLife cycles are the possible sequentializations of the processes. A main\nimplication of our construction is that formal correctness provides a\ncomplementary perspective on science that is as fundamental there as for pure\nmathematics. The bulk of the presented work has been verified formally correct\nby computer.",
+    "authors": [
+      "René Vestergaard",
+      "Emmanuel Pietriga"
+    ],
+    "publication_date": "2018-10-30T11:29:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.02478v3",
+    "download_url": "http://arxiv.org/abs/1811.02478v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Molecular Biology at the Quantum Level: Can Modern Density Functional\n  Theory Forge the Path?",
+    "abstract": "Recent years have seen vast improvements in the ability of rigorous\nquantum-mechanical methods to treat systems of interest to molecular biology.\nIn this review article, we survey common computational methods used to study\nsuch large, weakly bound systems, starting from classical simulations and\nreaching to quantum chemistry and density functional theory. We sketch their\nunderlying frameworks and investigate their strengths and weaknesses when\napplied to potentially large biomolecules. In particular, density functional\ntheory---a framework that can treat thousands of atoms on firm theoretical\nground---can now accurately describe systems dominated by weak van der Waals\ninteractions. This newfound ability has rekindled interest in using this\ntried-and-true approach to investigate biological systems of real importance.\nIn this review, we focus on some new methods within density functional theory\nthat allow for accurate inclusion of the weak interactions that dominate\nbinding in biological macromolecules. Recent work utilizing these methods to\nstudy biologically-relevant systems will be highlighted, and a vision for the\nfuture of density functional theory within molecular biology will be discussed.",
+    "authors": [
+      "Brian Kolb",
+      "T. Thonhauser"
+    ],
+    "publication_date": "2012-07-04T18:41:27Z",
+    "arxiv_id": "http://arxiv.org/abs/1207.1075v1",
+    "download_url": "http://arxiv.org/abs/1207.1075v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Macro-trends in research on the central dogma of molecular biology",
+    "abstract": "The central dogma of molecular biology, formulated more than five decades\nago, compartmentalized information exchange in the cell into the DNA, RNA and\nprotein domains. This formalization has served as an implicit thematic\ndistinguisher for cell biological research ever since. However, a clear account\nof the distribution of research across this formalization over time does not\nexist. Abstracts of >3.5 million publications focusing on the cell from 1975 to\n2011 were analyzed for the frequency of 100 single-word DNA-, RNA- and\nprotein-centric search terms and amalgamated to produce domain- and\nsubdomain-specific trends. A preponderance of protein- over DNA- and in turn\nover RNA-centric terms as a percentage of the total word count is evident until\nthe early 1990s, at which point the trends for protein and DNA begin to\ncoalesce while RNA percentages remain relatively unchanged. This term-based\ncensus provides a yearly snapshot of the distribution of research interests\nacross the three domains of the central dogma of molecular biology. A frequency\nchart of the most dominantly-studied elements of the periodic table is provided\nas an addendum.",
+    "authors": [
+      "Sepehr Ehsani"
+    ],
+    "publication_date": "2013-01-11T07:00:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1301.2397v2",
+    "download_url": "http://arxiv.org/abs/1301.2397v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Minimal coarse-grained models for molecular self-organisation in biology",
+    "abstract": "The molecular machinery of life is largely created via self-organisation of\nindividual molecules into functional assemblies. Minimal coarse-grained models,\nwhere a whole macromolecule is represented by a small number of particles, can\nbe of great value in identifying the main driving forces behind\nself-organisation in cell biology. Such models can incorporate data from both\nmolecular and continuum scales, and their results can be directly compared to\nexperiments. Here we review the state of the art of models for studying the\nformation and biological function of macromolecular assemblies in cells. We\noutline the key ingredients of each model and their main findings. We\nillustrate the contribution of this class of simulations to identifying the\nphysical mechanisms behind life and diseases, and discuss their future\ndevelopments.",
+    "authors": [
+      "Anne E. Hafner",
+      "Johannes Krausser",
+      "Anđela Šarić"
+    ],
+    "publication_date": "2019-06-21T22:53:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1906.09349v1",
+    "download_url": "http://arxiv.org/abs/1906.09349v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multi-scale Molecular Simulations on Respiratory Complex I",
+    "abstract": "Complex I (NADH:ubiquinone oxidoreductase) is a redox-driven proton pump that\npowers synthesis of adenosine triphosphate (ATP) and active transport in most\norganisms. This gigantic enzyme reduces quinone (Q) to quinol (QH2) in its\nhydrophilic domain, and transduces the released free energy into pumping of\nprotons across its membrane domain, up to ca. 200 {\\AA} away from its active\nQ-reduction site. Recently resolved molecular structures of complex I from\nseveral species have made it possible for the first time to address the\nenergetics and dynamics of the complete complex I using multi-scale methods of\ncomputational biochemistry. Here it is described how molecular simulations can\nprovide important mechanistic insights into the function of the remarkable\npumping machinery in complex I and stimulate new experiments.",
+    "authors": [
+      "Ville R. I. Kaila"
+    ],
+    "publication_date": "2019-11-25T19:23:05Z",
+    "arxiv_id": "http://arxiv.org/abs/1911.11178v1",
+    "download_url": "http://arxiv.org/abs/1911.11178v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The prospects of quantum computing in computational molecular biology",
+    "abstract": "Quantum computers can in principle solve certain problems exponentially more\nquickly than their classical counterparts. We have not yet reached the advent\nof useful quantum computation, but when we do, it will affect nearly all\nscientific disciplines. In this review, we examine how current quantum\nalgorithms could revolutionize computational biology and bioinformatics. There\nare potential benefits across the entire field, from the ability to process\nvast amounts of information and run machine learning algorithms far more\nefficiently, to algorithms for quantum simulation that are poised to improve\ncomputational calculations in drug discovery, to quantum algorithms for\noptimization that may advance fields from protein structure prediction to\nnetwork analysis. However, these exciting prospects are susceptible to \"hype\",\nand it is also important to recognize the caveats and challenges in this new\ntechnology. Our aim is to introduce the promise and limitations of emerging\nquantum computing technologies in the areas of computational molecular biology\nand bioinformatics.",
+    "authors": [
+      "Carlos Outeiral",
+      "Martin Strahm",
+      "Jiye Shi",
+      "Garrett M. Morris",
+      "Simon C. Benjamin",
+      "Charlotte M. Deane"
+    ],
+    "publication_date": "2020-05-26T15:18:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.12792v1",
+    "download_url": "http://arxiv.org/abs/2005.12792v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ProBio: A Protocol-guided Multimodal Dataset for Molecular Biology Lab",
+    "abstract": "The challenge of replicating research results has posed a significant\nimpediment to the field of molecular biology. The advent of modern intelligent\nsystems has led to notable progress in various domains. Consequently, we\nembarked on an investigation of intelligent monitoring systems as a means of\ntackling the issue of the reproducibility crisis. Specifically, we first curate\na comprehensive multimodal dataset, named ProBio, as an initial step towards\nthis objective. This dataset comprises fine-grained hierarchical annotations\nintended for the purpose of studying activity understanding in BioLab. Next, we\ndevise two challenging benchmarks, transparent solution tracking and multimodal\naction recognition, to emphasize the unique characteristics and difficulties\nassociated with activity understanding in BioLab settings. Finally, we provide\na thorough experimental evaluation of contemporary video understanding models\nand highlight their limitations in this specialized domain to identify\npotential avenues for future research. We hope ProBio with associated\nbenchmarks may garner increased focus on modern AI techniques in the realm of\nmolecular biology.",
+    "authors": [
+      "Jieming Cui",
+      "Ziren Gong",
+      "Baoxiong Jia",
+      "Siyuan Huang",
+      "Zilong Zheng",
+      "Jianzhu Ma",
+      "Yixin Zhu"
+    ],
+    "publication_date": "2023-11-01T14:44:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.00556v1",
+    "download_url": "http://arxiv.org/abs/2311.00556v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Perturbation Biology: inferring signaling networks in cellular systems",
+    "abstract": "We present a new experimental-computational technology of inferring network\nmodels that predict the response of cells to perturbations and that may be\nuseful in the design of combinatorial therapy against cancer. The experiments\nare systematic series of perturbations of cancer cell lines by targeted drugs,\nsingly or in combination. The response to perturbation is measured in terms of\nlevels of proteins and phospho-proteins and of cellular phenotype such as\nviability. Computational network models are derived de novo, i.e., without\nprior knowledge of signaling pathways, and are based on simple non-linear\ndifferential equations. The prohibitively large solution space of all possible\nnetwork models is explored efficiently using a probabilistic algorithm, belief\npropagation, which is three orders of magnitude more efficient than Monte Carlo\nmethods. Explicit executable models are derived for a set of perturbation\nexperiments in Skmel-133 melanoma cell lines, which are resistant to the\ntherapeutically important inhibition of Raf kinase. The resulting network\nmodels reproduce and extend known pathway biology. They can be applied to\ndiscover new molecular interactions and to predict the effect of novel drug\nperturbations, one of which is verified experimentally. The technology is\nsuitable for application to larger systems in diverse areas of molecular\nbiology.",
+    "authors": [
+      "Evan J. Molinelli",
+      "Anil Korkut",
+      "Weiqing Wang",
+      "Martin L. Miller",
+      "Nicholas P. Gauthier",
+      "Xiaohong Jing",
+      "Poorvi Kaushik",
+      "Qin He",
+      "Gordon Mills",
+      "David B. Solit",
+      "Christine A. Pratilas",
+      "Martin Weigt",
+      "Alfredo Braunstein",
+      "Andrea Pagnani",
+      "Riccardo Zecchina",
+      "Chris Sander"
+    ],
+    "publication_date": "2013-08-23T18:08:05Z",
+    "arxiv_id": "http://arxiv.org/abs/1308.5193v1",
+    "download_url": "http://arxiv.org/abs/1308.5193v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Florigens and antiflorigens: a molecular genetic understanding",
+    "abstract": "Florigens, the leaf-derived signals that initiate flowering, have been\ndescribed as mysterious, elusive and the Holy Grail of plant biology.",
+    "authors": [
+      "Ianis G. Matsoukas"
+    ],
+    "publication_date": "2015-09-21T22:33:04Z",
+    "arxiv_id": "http://arxiv.org/abs/1509.06419v1",
+    "download_url": "http://arxiv.org/abs/1509.06419v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A decade of molecular cell atlases",
+    "abstract": "The recent opinion article \"A decade of molecular cell atlases\" by Stephen\nQuake narrates the incredible single-cell genomics technology advances that\nhave taken place over the last decade, and how they have translated to\nincreasingly resolved cell atlases. However the sequence of events described is\ninaccurate and contains several omissions and errors. The errors are corrected\nin this note.",
+    "authors": [
+      "Lior Pachter"
+    ],
+    "publication_date": "2022-04-03T00:49:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.00960v1",
+    "download_url": "http://arxiv.org/abs/2204.00960v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning Potentials: A Roadmap Toward Next-Generation\n  Biomolecular Simulations",
+    "abstract": "Machine learning potentials offer a revolutionary, unifying framework for\nmolecular simulations across scales, from quantum chemistry to coarse-grained\nmodels. Here, I explore their potential to dramatically improve accuracy and\nscalability in simulating complex molecular systems. I discuss key challenges\nthat must be addressed to fully realize their transformative potential in\nchemical biology and related fields.",
+    "authors": [
+      "Gianni De Fabritiis"
+    ],
+    "publication_date": "2024-08-17T07:53:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.12625v1",
+    "download_url": "http://arxiv.org/abs/2408.12625v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A twenty-first century statistical physics of life",
+    "abstract": "The molecular biology revolution of the last seventy five years has\ntransformed our view of living systems. Scientific explanations of biological\nphenomena are now synonymous with the identification of the genes, proteins,\nand signaling molecules involved. The hegemony of the molecular paradigm has\nonly become more pronounced as new technologies allow us to make measurements\nat scale. Combining this wealth of data with new ``artificial intelligence''\ntechniques is viewed as the future of biology. Here, we challenge this emerging\n``common sense'', laying out a roadmap for developing a theoretical\nunderstanding of life. We argue that a twenty-first century theoretical biology\nmust be founded on a new type of statistical physics suited to the living\nworld. Rather than merely constructing statistical models, a statistical theory\nrequires developing ``quantitative abstractions'' for understanding the\ngene-organism-environment triad. This necessitates overcoming four major\nchallenges that distinguish living matter: (1) living systems are composed of a\nlarge number of heterogeneous parts rather than a large number of identical\nobjects; (2) living systems control and manipulate the physical world in a\nmanner that is extremely different from the ways considered in traditional\nstatistical physics; (3) living systems necessarily operate out of equilibrium;\n(4) living systems are evolved objects with a function, resulting in new types\nof constraints that must be imposed on probabilistic ensembles. We conclude by\ndiscussing a few key themes that we view as promising directions for developing\na statistical physics of life: typicality, localized biological control, a\nlinear response of complex systems with non-reciprocal interactions, biological\nresource allocation, and learning and adaptation in overparameterized systems.",
+    "authors": [
+      "Pankaj Mehta"
+    ],
+    "publication_date": "2024-10-27T16:41:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.20506v1",
+    "download_url": "http://arxiv.org/abs/2410.20506v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Advances in Microfluidics and Lab-on-a-Chip Technologies",
+    "abstract": "Advances in molecular biology are enabling rapid and efficient analyses for\neffective intervention in domains such as biology research, infectious disease\nmanagement, food safety, and biodefense. The emergence of microfluidics and\nnanotechnologies has enabled both new capabilities and instrument sizes\npractical for point-of-care. It has also introduced new functionality, enhanced\nsensitivity, and reduced the time and cost involved in conventional molecular\ndiagnostic techniques. This chapter reviews the application of microfluidics\nfor molecular diagnostics methods such as nucleic acid amplification,\nnext-generation sequencing, high resolution melting analysis, cytogenetics,\nprotein detection and analysis, and cell sorting. We also review microfluidic\nsample preparation platforms applied to molecular diagnostics and targeted to\nsample-in, answer-out capabilities.",
+    "authors": [
+      "Harikrishnan Jayamohan",
+      "Valentin Romanov",
+      "Huizhong Li",
+      "Jiyoung Son",
+      "Raheel Samuel",
+      "John Nelson",
+      "Bruce Gale"
+    ],
+    "publication_date": "2017-03-24T19:57:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1703.08583v1",
+    "download_url": "http://arxiv.org/abs/1703.08583v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Molecular recognition of the environment and mechanisms of the origin of\n  species in quantum-like modeling of evolution",
+    "abstract": "A review of the mechanisms of speciation is performed. The mechanisms of the\nevolution of species, taking into account the feedback of the state of the\nenvironment and mechanisms of the emergence of complexity, are considered. It\nis shown that these mechanisms, at the molecular level, cannot work steadily in\nterms of classical mechanics. Quantum mechanisms of changes in the genome,\nbased on the long-range interaction potential between biologically important\nmolecules, are proposed as one of possible explanation. Different variants of\ninteractions of the organism and environment based on molecular recognition and\nleading to new species origins are considered. Experiments to verify the model\nare proposed. This bio-physical study is completed by the general operational\nmodel of based on quantum information theory. The latter is applied to model\nepigenetic evolution.",
+    "authors": [
+      "Alexey V. Melkikh",
+      "Alexey V. Melkikh",
+      "Andrei Khrennikov"
+    ],
+    "publication_date": "2017-05-27T20:42:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1705.09863v1",
+    "download_url": "http://arxiv.org/abs/1705.09863v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Strand displacement: a fundamental mechanism in RNA biology?",
+    "abstract": "DNA and RNA are generally regarded as central molecules in molecular biology.\nRecent advancements in the field of DNA/RNA nanotechnology successfully used\nDNA/RNA as programmable molecules to construct molecular machines and\nnanostructures with predefined shapes and functions. The key mechanism for\ndynamic control of the conformations of these DNA/RNA nanodevices is a reaction\ncalled strand displacement, in which one strand in a formed duplex is replaced\nby a third invading strand. While DNA/RNA strand displacement has mainly been\nused to de-novo design molecular devices, we argue in this review that this\nreaction is also likely to play a key role in multiple cellular events such as\ngene recombination, CRISPR-based genome editing, and RNA cotranscriptional\nfolding. We introduce the general mechanism of strand displacement reaction,\ngive examples of its use in the construction of molecular machines, and finally\nreview natural processes having characteristic which suggest that strand\ndisplacement is occurring.",
+    "authors": [
+      "Fan Hong",
+      "Petr Šulc"
+    ],
+    "publication_date": "2019-03-28T18:05:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1903.12199v1",
+    "download_url": "http://arxiv.org/abs/1903.12199v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Structural characteristics in network control of molecular multiplex\n  networks",
+    "abstract": "Numerous real-world systems can be naturally modeled as multilayer networks,\nenabling an efficient way to characterize those complex systems. Much evidence\nin the context of system biology indicated that the collections between\ndifferent molecular networks can dramatically impact the global network\nfunctions. Here, we focus on the molecular multiplex networks coupled by the\ntranscriptional regulatory network (TRN) and protein-protein interaction (PPI)\nnetwork, exploring the controllability and energy requiring in these types of\nmolecular multiplex networks. We find that the driver nodes tend to avoid\nessential or pathogen-related genes. Yet, imposing the external inputs to these\nessential or pathogen-related genes can remarkably reduce the energy cost,\nimplying their crucial role in network control. Moreover, we find that lower\nminimal driver nodes as well as energy requiring are associated with\ndisassortative coupling between TRN and PPI networks. Our findings in several\nspecies provide comprehensive understanding of genes' roles in biology and\nnetwork control.",
+    "authors": [
+      "Cheng Yuan",
+      "Zu-Yu Qian",
+      "Shi-Ming Chen",
+      "Sen Nie"
+    ],
+    "publication_date": "2021-07-12T14:50:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.05478v1",
+    "download_url": "http://arxiv.org/abs/2107.05478v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "GIT-Mol: A Multi-modal Large Language Model for Molecular Science with\n  Graph, Image, and Text",
+    "abstract": "Large language models have made significant strides in natural language\nprocessing, enabling innovative applications in molecular science by processing\ntextual representations of molecules. However, most existing language models\ncannot capture the rich information with complex molecular structures or\nimages. In this paper, we introduce GIT-Mol, a multi-modal large language model\nthat integrates the Graph, Image, and Text information. To facilitate the\nintegration of multi-modal molecular data, we propose GIT-Former, a novel\narchitecture that is capable of aligning all modalities into a unified latent\nspace. We achieve a 5%-10% accuracy increase in properties prediction and a\n20.2% boost in molecule generation validity compared to the baselines. With the\nany-to-language molecular translation strategy, our model has the potential to\nperform more downstream tasks, such as compound name recognition and chemical\nreaction prediction.",
+    "authors": [
+      "Pengfei Liu",
+      "Yiming Ren",
+      "Jun Tao",
+      "Zhixiang Ren"
+    ],
+    "publication_date": "2023-08-14T03:12:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.06911v3",
+    "download_url": "http://arxiv.org/abs/2308.06911v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Accelerating Inference in Molecular Diffusion Models with Latent\n  Representations of Protein Structure",
+    "abstract": "Diffusion generative models have emerged as a powerful framework for\naddressing problems in structural biology and structure-based drug design.\nThese models operate directly on 3D molecular structures. Due to the\nunfavorable scaling of graph neural networks (GNNs) with graph size as well as\nthe relatively slow inference speeds inherent to diffusion models, many\nexisting molecular diffusion models rely on coarse-grained representations of\nprotein structure to make training and inference feasible. However, such\ncoarse-grained representations discard essential information for modeling\nmolecular interactions and impair the quality of generated structures. In this\nwork, we present a novel GNN-based architecture for learning latent\nrepresentations of molecular structure. When trained end-to-end with a\ndiffusion model for de novo ligand design, our model achieves comparable\nperformance to one with an all-atom protein representation while exhibiting a\n3-fold reduction in inference time.",
+    "authors": [
+      "Ian Dunn",
+      "David Ryan Koes"
+    ],
+    "publication_date": "2023-11-22T15:32:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.13466v2",
+    "download_url": "http://arxiv.org/abs/2311.13466v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Global View of Bionetwork Dynamics: Adaptive Landscape",
+    "abstract": "Quantifying the adaptive landscape in a given dynamical processes has been\none of most important goals in theoretical biology. It can have immediate\nimplications for many dynamical properties, such as robustness and plasticity.\nBased on recent work here I give a nontechnical brief review of this powerful\nquantitative concept in biology. This concept was initially proposed by S\nWright 70 years ago, re-introduced by one of the founders of molecular biology\nand by others in different biological contexts. It was apparently forgotten by\nmainstream modern biologists for many years. Currently, this concept has found\nits increasingly important role in the development of systems biology and the\nmodeling of bionetwork dynamics, from phage lambda genetic switch to endogenous\nnetwork of cancer genesis and progression. It is an ideal quantify to describe\nthe robustness and stability of bionetworks. I will first introduce five\nlandmark proposals in biology on this concept, to demonstrate the important\ncommon thread in its theoretical biology development. Then I will discuss a few\nrecent results, focusing on the work showing the logical consistency of\nadaptive landscape. From the perspective of a working scientist and of what\nneeded for a dynamical theory when confronting empirical data, the adaptive\nlandscape is useful both metaphorically and quantitatively and has captured an\nessential aspect of biological dynamical processes. Still, many important open\nproblems remain to be solved. Having this important problem under control, we\nmay expect that we are on the right road to quantitatively formulate the\nevolutionary dynamics discovered by Darwin and Wallace.",
+    "authors": [
+      "P Ao"
+    ],
+    "publication_date": "2009-02-05T21:25:11Z",
+    "arxiv_id": "http://arxiv.org/abs/0902.0980v1",
+    "download_url": "http://arxiv.org/abs/0902.0980v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Autoregressive fragment-based diffusion for pocket-aware ligand design",
+    "abstract": "In this work, we introduce AutoFragDiff, a fragment-based autoregressive\ndiffusion model for generating 3D molecular structures conditioned on target\nprotein structures. We employ geometric vector perceptrons to predict atom\ntypes and spatial coordinates of new molecular fragments conditioned on\nmolecular scaffolds and protein pockets. Our approach improves the local\ngeometry of the resulting 3D molecules while maintaining high predicted binding\naffinity to protein targets. The model can also perform scaffold extension from\nuser-provided starting molecular scaffold.",
+    "authors": [
+      "Mahdi Ghorbani",
+      "Leo Gendelev",
+      "Paul Beroza",
+      "Michael J. Keiser"
+    ],
+    "publication_date": "2023-12-15T04:03:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.05370v1",
+    "download_url": "http://arxiv.org/abs/2401.05370v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Comparative Study of Interdisciplinarity in Sciences in Brazil, South\n  Korea, Turkey, and USA",
+    "abstract": "A comparative study is done of interdisciplinary citations in 2013 between\nphysics, chemistry, and molecular biology, in Brazil, South Korea, Turkey, and\nUSA. Several surprising conclusions emerge from our tabular and graphical\nanalysis: The cross-science citation rates are in general strikingly similar,\nbetween Brazil, South Korea, Turkey, and USA. One apparent exception is the\ncomparatively more tenuous relation between molecular biology and physics in\nBrazil and USA. Other slight exceptions are the higher amount of citing of\nphysicists by chemists in South Korea, of chemists by molecular biologists in\nTurkey, and of molecular biologists by chemists in Brazil and USA. Chemists\nare, by a sizable margin, the most cross-science citing scientists in this\ngroup of three sciences. Physicist are, again by a sizable margin, the least\ncross-science citing scientists in this group of three sciences. In all four\ncountries, the strongest cross-science citation is from chemistry to physics\nand the weakest cross-science citation is from physics to molecular biology.\nOur findings are consistent with a V-shaped backbone connectivity, as opposed\nto a Delta connectivity, as also found in a previous study of earlier citation\nyears.",
+    "authors": [
+      "Nazli Yurdakul",
+      "A. Nihat Berker"
+    ],
+    "publication_date": "2015-10-30T10:49:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1512.01420v2",
+    "download_url": "http://arxiv.org/abs/1512.01420v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Biology",
+    "abstract": "A critical assessment of the recent developments of molecular biology is\npresented. The thesis that they do not lead to a conceptual understanding of\nlife and biological systems is defended. Maturana and Varela's concept of\nautopoiesis is briefly sketched and its logical circularity avoided by\npostulating the existence of underlying {\\it living processes}, entailing\namplification from the microscopic to the macroscopic scale, with increasing\ncomplexity in the passage from one scale to the other. Following such a line of\nthought, the currently accepted model of condensed matter, which is based on\nelectrostatics and short-ranged forces, is criticized. It is suggested that the\ncorrect interpretation of quantum dispersion forces (van der Waals, hydrogen\nbonding, and so on) as quantum coherence effects hints at the necessity of\nincluding long-ranged forces (or mechanisms for them) in condensed matter\ntheories of biological processes. Some quantum effects in biology are reviewed\nand quantum mechanics is acknowledged as conceptually important to biology\nsince without it most (if not all) of the biological structures and signalling\nprocesses would not even exist. Moreover, it is suggested that long-range\nquantum coherent dynamics, including electron polarization, may be invoked to\nexplain signal amplification process in biological systems in general.",
+    "authors": [
+      "Alessandro Sergi"
+    ],
+    "publication_date": "2009-07-11T15:33:53Z",
+    "arxiv_id": "http://arxiv.org/abs/0907.1968v1",
+    "download_url": "http://arxiv.org/abs/0907.1968v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Systems biology: From the cell to the brain",
+    "abstract": "With the completion of human genome mapping, the focus of scientists seeking\nto explain the biological complexity of living systems is shifting from\nanalyzing the individual components (such as a particular gene or biochemical\nreaction) to understanding the set of interactions amongst the large number of\ncomponents that results in the different functions of the organism. To this\nend, the area of systems biology attempts to achieve a \"systems-level\"\ndescription of biology by focusing on the network of interactions instead of\nthe characteristics of its isolated parts. In this article, we briefly describe\nsome of the emerging themes of research in \"network\" biology, looking at\ndynamical processes occurring at the two different length scales of within the\ncell and between cells, viz., the intra-cellular signaling network and the\nnervous system. We show that focusing on the systems-level aspects of these\nproblems allows one to observe surprising and illuminating common themes\namongst them.",
+    "authors": [
+      "Sitabhra Sinha",
+      "T Jesan",
+      "Nivedita Chatterjee"
+    ],
+    "publication_date": "2010-01-27T03:35:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1001.4845v1",
+    "download_url": "http://arxiv.org/abs/1001.4845v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The EM Algorithm and the Rise of Computational Biology",
+    "abstract": "In the past decade computational biology has grown from a cottage industry\nwith a handful of researchers to an attractive interdisciplinary field,\ncatching the attention and imagination of many quantitatively-minded\nscientists. Of interest to us is the key role played by the EM algorithm during\nthis transformation. We survey the use of the EM algorithm in a few important\ncomputational biology problems surrounding the \"central dogma\"; of molecular\nbiology: from DNA to RNA and then to proteins. Topics of this article include\nsequence motif discovery, protein sequence alignment, population genetics,\nevolutionary models and mRNA expression microarray data analysis.",
+    "authors": [
+      "Xiaodan Fan",
+      "Yuan Yuan",
+      "Jun S. Liu"
+    ],
+    "publication_date": "2011-04-12T12:08:54Z",
+    "arxiv_id": "http://arxiv.org/abs/1104.2180v1",
+    "download_url": "http://arxiv.org/abs/1104.2180v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Cancer systems biology in the genome sequencing era: Part 1, dissecting\n  and modeling of tumor clones and their networks",
+    "abstract": "Recent tumor genome sequencing confirmed that one tumor often consists of\nmultiple cell subpopulations (clones) which bear different, but related,\ngenetic profiles such as mutation and copy number variation profiles. Thus far,\none tumor has been viewed as a whole entity in cancer functional studies. With\nthe advances of genome sequencing and computational analysis, we are able to\nquantify and computationally dissect clones from tumors, and then conduct\nclone-based analysis. Emerging technologies such as single-cell genome\nsequencing and RNA-Seq could profile tumor clones. Thus, we should reconsider\nhow to conduct cancer systems biology studies in the genome sequencing era. We\nwill outline new directions for conducting cancer systems biology by\nconsidering that genome sequencing technology can be used for dissecting,\nquantifying and genetically characterizing clones from tumors. Topics discussed\nin Part 1 of this review include computationally quantifying of tumor\nsubpopulations; clone-based network modeling, cancer hallmark-based networks\nand their high-order rewiring principles and the principles of cell survival\nnetworks of fast-growing clones.",
+    "authors": [
+      "Edwin Wang",
+      "Jinfeng Zou",
+      "Naif Zaman",
+      "Lenore K. Beitel",
+      "Mark Trifiro",
+      "Miltiadis Paliouras"
+    ],
+    "publication_date": "2014-09-06T02:38:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1409.1973v1",
+    "download_url": "http://arxiv.org/abs/1409.1973v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Cancer systems biology in the genome sequencing era: Part 2,\n  evolutionary dynamics of tumor clonal networks and drug resistance",
+    "abstract": "A tumor often consists of multiple cell subpopulations (clones). Current\nchemo-treatments often target one clone of a tumor. Although the drug kills\nthat clone, other clones overtake it and the tumor reoccurs. Genome sequencing\nand computational analysis allows to computational dissection of clones from\ntumors, while singe-cell genome sequencing including RNA-Seq allows to\nprofiling of these clones. This opens a new window for treating a tumor as a\nsystem in which clones are evolving. Future cancer systems biology studies\nshould consider a tumor as an evolving system with multiple clones. Therefore,\ntopics discussed in Part 2 of this review include evolutionary dynamics of\nclonal networks, early-warning signals for formation of fast-growing clones,\ndissecting tumor heterogeneity, and modeling of clone-clone-stroma interactions\nfor drug resistance. The ultimate goal of the future systems biology analysis\nis to obtain a whole-system understanding of a tumor and therefore provides a\nmore efficient and personalized management strategies for cancer patients.",
+    "authors": [
+      "Edwin Wang",
+      "Jinfeng Zou",
+      "Naif Zaman",
+      "Lenore K. Beitel",
+      "Mark Trifiro",
+      "Miltiadis Paliouras"
+    ],
+    "publication_date": "2014-09-06T02:48:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1409.1974v1",
+    "download_url": "http://arxiv.org/abs/1409.1974v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bonds and Bytes: the Odyssey of Structural Biology",
+    "abstract": "Characterizing structural and dynamic properties of proteins and large\nmacromolecular assemblies is crucial to understand the molecular mechanisms\nunderlying biological functions. In the field of Structural Biology, no single\nmethod comprehensively reveals the behavior of biological systems across\nvarious spatio-temporal scales. Instead, we have a versatile toolkit of\ntechniques, each contributing a piece to the overall puzzle. Integrative\nStructural Biology combines different techniques to create accurate and precise\nmulti-scale models that expand our understanding of complex biological systems.\nThis review outlines recent advancements in computational and experimental\nmethods in Structural Biology, with special focus on recent Artificial\nIntelligence techniques, emphasizes integrative approaches that combine\ndifferent types of data for precise spatio-temporal modeling, and provides an\noutlook into future directions of this field.",
+    "authors": [
+      "Samuel Hoff",
+      "Maximilian Zinke",
+      "Nadia Izadi-Pruneyre",
+      "Massimiliano Bonomi"
+    ],
+    "publication_date": "2023-10-03T04:42:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.01792v1",
+    "download_url": "http://arxiv.org/abs/2310.01792v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deciphering Cell Systems: Machine Learning Perspectives And Approaches\n  For The Analysis Of Single-Cell Data",
+    "abstract": "This dissertation explores the application of machine learning in molecular\nbiology, focusing on gene expression regulation and cellular behavior at the\nsingle-cell level. Using modern neural networks, the research addresses key\nchallenges in cell-cell communication, gene function inference, and protein\nexpression analysis, with a special focus on single-cell RNA sequencing\n(scRNA-seq) data. Advanced computational methodologies integrating systems\nbiology and neural network techniques were developed to handle the complexity\nand high-dimensionality of single-cell data, leading to a deeper understanding\nof genotype-phenotype relationships. This work proposes novel solutions to\noptimization problems in manifold learning, explores generative models for gene\nregulatory networks, and simulates gene knockout at single-cell resolution.\nFurthermore, the research enhances the interpretability of black-box neural\nmodels for multimodal data. Key contributions to cellular biology include the\nanalysis of cell-cell interactions and their role in shaping cellular behavior,\ngene function prediction through knockout simulations, and the investigation of\nhow gene expression patterns translate into protein expression. These findings\nhave implications for understanding disease mechanisms and therapeutic\ndevelopment. Overall, this dissertation advances computational biology by\nproviding new tools and insights into single-cell analysis, offering a valuable\nresource for future studies on cellular behavior and potential treatments for\nvarious diseases.",
+    "authors": [
+      "Yongjian Yang"
+    ],
+    "publication_date": "2024-09-28T23:07:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.19482v1",
+    "download_url": "http://arxiv.org/abs/2409.19482v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Nonequilibrium protein complexes as molecular automata",
+    "abstract": "Biology stores information and computes at the molecular scale, yet the ways\nin which it does so are often distinct from human-engineered computers. Mapping\nbiological computation onto architectures familiar to computer science remains\nan outstanding challenge. Here, inspired by Crick's proposal for molecular\nmemory, we analyse a thermodynamically-consistent model of a protein complex\nsubject to driven, nonequilibrium enzymatic reactions. In the strongly driven\nlimit, we find that the system maps onto a stochastic, asynchronous variant of\ncellular automata, where each rule corresponds to a different set of enzymes\nbeing present. We find a broad class of phenomena in these 'molecular automata'\nthat can be exploited for molecular computation, including error-tolerant\nmemory via multistable attractors, and long transients that can be used as\nmolecular stopwatches. By systematically enumerating all possible dynamical\nrules, we identify those that allow molecular automata to implement simple\ncomputational architectures such as finite-state machines. Overall, our results\nprovide a framework for engineering synthetic molecular automata, and offer a\nroute to building protein-based computation in living cells.",
+    "authors": [
+      "Jan Kocka",
+      "Kabir Husain",
+      "Jaime Agudo-Canalejo"
+    ],
+    "publication_date": "2025-08-21T14:26:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.15603v1",
+    "download_url": "http://arxiv.org/abs/2508.15603v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Functional alignment of regulatory networks: A study of temperate phages",
+    "abstract": "The relationship between the design and functionality of molecular networks\nis now a key issue in biology. Comparison of regulatory networks performing\nsimilar tasks can give insights into how network architecture is constrained by\nthe functions it directs. We here discuss methods of network comparison based\non network architecture and signaling logic. Introducing local and global\nsignaling scores for the difference between two networks we quantify\nsimilarities between evolutionary closely and distantly related bacteriophages.\nDespite the large evolutionary separation between phage $\\lambda$ and 186 their\nnetworks are found to be similar when difference is measured in terms of global\nsignaling. We finally discuss how network alignment can be used to to pinpoint\nprotein similarities viewed from the network perspective.",
+    "authors": [
+      "Ala Trusina",
+      "Kim Sneppen",
+      "Ian B. Dodd",
+      "Keith E. Shearwin",
+      "J. Barry Egan"
+    ],
+    "publication_date": "2005-11-28T20:06:27Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0511047v1",
+    "download_url": "http://arxiv.org/abs/q-bio/0511047v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Dynamics of Unperturbed and Noisy Generalized Boolean Networks",
+    "abstract": "For years, we have been building models of gene regulatory networks, where\nrecent advances in molecular biology shed some light on new structural and\ndynamical properties of such highly complex systems. In this work, we propose a\nnovel timing of updates in Random and Scale-Free Boolean Networks, inspired by\nrecent findings in molecular biology. This update sequence is neither fully\nsynchronous nor asynchronous, but rather takes into account the sequence in\nwhich genes affect each other. We have used both Kauffman's original model and\nAldana's extension, which takes into account the structural properties about\nknown parts of actual GRNs, where the degree distribution is right-skewed and\nlong-tailed. The computer simulations of the dynamics of the new model compare\nfavorably to the original ones and show biologically plausible results both in\nterms of attractors number and length. We have complemented this study with a\ncomplete analysis of our systems' stability under transient perturbations,\nwhich is one of biological networks defining attribute. Results are\nencouraging, as our model shows comparable and usually even better behavior\nthan preceding ones without loosing Boolean networks attractive simplicity.",
+    "authors": [
+      "Christian Darabos",
+      "Marco Tomassini",
+      "Mario Giacobini"
+    ],
+    "publication_date": "2009-09-29T10:07:58Z",
+    "arxiv_id": "http://arxiv.org/abs/0909.5297v1",
+    "download_url": "http://arxiv.org/abs/0909.5297v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Biophysics at the coffee shop: lessons learned working with George Oster",
+    "abstract": "Over the past 50 years, the use of mathematical models, derived from physical\nreasoning, to describe molecular and cellular systems has evolved from an art\nof the few to a cornerstone of biological inquiry. George Oster stood out as a\npioneer of this paradigm shift from descriptive to quantitative biology not\nonly through his numerous research accomplishments, but also through the many\nstudents and postdocs he mentored over his long career. Those of us fortunate\nenough to have worked with George agree that his sharp intellect, physical\nintuition and passion for scientific inquiry not only inspired us as scientists\nbut also greatly influenced the way we conduct research. We would like to share\na few important lessons we learned from George in honor of his memory and with\nthe hope that they may inspire future generations of scientists.",
+    "authors": [
+      "Oleg Igoshin",
+      "Jing Chen",
+      "Jianhua Xing",
+      "Jian Liu",
+      "Timothy C. Elston",
+      "Michael Grabe",
+      "Kenneth S. Kim",
+      "Jasmine Nirody",
+      "Padmini Rangamani",
+      "Sean Sun",
+      "Hongyun Wang",
+      "Charles Wolgemuth"
+    ],
+    "publication_date": "2019-02-20T21:45:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1902.07787v2",
+    "download_url": "http://arxiv.org/abs/1902.07787v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Energetic Controls are Essential: New and Notable Note for Biophysical\n  Journal",
+    "abstract": "Mikhail Shapiro's lab investigated a promising new method for non-invasive\ncontrol of calcium currents in individual cells in the nervous system by the\nselective heating of nanoparticles and show that simple physical laws, properly\napplied, explain what is happening, and so can be a foundation for constructing\nimproved methods and techniques. They use custom built instrumentation and\ndetailed quantitative measurement to show that special surface properties are\nnot needed to explain their results. Their work is taken as an example of the\nneed for quantitative measurement in biophysics and biology in general.\nClassical examples are cited and the argument is made that the success of\nstructural and molecular biology has hidden the need for quantitative\nmeasurements and controls. Semiconductor and computational electronics is cited\nas a science even more successful than structural and molecular biology that\ndepends on quantitative measurement, controls, and analysis.",
+    "authors": [
+      "Robert S. Eisenberg"
+    ],
+    "publication_date": "2020-02-01T12:41:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.00200v1",
+    "download_url": "http://arxiv.org/abs/2002.00200v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bioblox 2.5D -- Developing an Educational Game Based on Protein Docking",
+    "abstract": "We present the development process of Bioblox2-5D, an educational biology\ngame aimed at teenagers. The game content refers to protein docking and aims to\nimprove learning about molecular shape complexity, the roles of charges in\nmolecular docking and the scoring function to calculate binding affinity. We\ndeveloped the game as part of a collaboration between the Computing Department\nat Goldsmiths, University of London, and the Structural Bioinformatics group at\nImperial College London. The team at Imperial provided the content requirements\nand validated the technical solution adopted in the game. The team at\nGoldsmiths designed and implemented the content requirements into a fun and\nstimulating educational puzzle game that supports teaching and motivates\nstudents to engage with biology. We illustrate the game design choices, the\ncompromises and solutions that we applied to accomplish the desired learning\noutcomes. This paper aims to illustrate useful insights and inspirations in the\ncontext of educational game development for biology students.",
+    "authors": [
+      "Frederic Fol Leymarie",
+      "William Latham",
+      "Guido Salimbeni",
+      "Suhail A. Islam",
+      "Christopher Reynolds",
+      "Charlie Cook",
+      "Luis Armas Suarez",
+      "Richard Leinfellner",
+      "Michael J. E. Sternberg"
+    ],
+    "publication_date": "2022-04-26T16:36:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.12425v2",
+    "download_url": "http://arxiv.org/abs/2204.12425v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Regulatory patterns in molecular interaction networks",
+    "abstract": "Understanding design principles of molecular interaction networks is an\nimportant goal of molecular systems biology. Some insights have been gained\ninto features of their network topology through the discovery of graph\ntheoretic patterns that constrain network dynamics. This paper contributes to\nthe identification of patterns in the mechanisms that govern network dynamics.\nThe control of nodes in gene regulatory, signaling, and metabolic networks is\ngoverned by a variety of biochemical mechanisms, with inputs from other network\nnodes that act additively or synergistically. This paper focuses on a certain\ntype of logical rule that appears frequently as a regulatory pattern. Within\nthe context of the multistate discrete model paradigm, a rule type is\nintroduced that reduces to the concept of nested canalyzing function in the\nBoolean network case. It is shown that networks that employ this type of\nmultivalued logic exhibit more robust dynamics than random networks, with few\nattractors and short limit cycles. It is also shown that the majority of\nregulatory functions in many published models of gene regulatory and signaling\nnetworks are nested canalyzing.",
+    "authors": [
+      "David Murrugarra",
+      "Reinhard Laubenbacher"
+    ],
+    "publication_date": "2011-02-18T02:42:32Z",
+    "arxiv_id": "http://arxiv.org/abs/1102.3739v3",
+    "download_url": "http://arxiv.org/abs/1102.3739v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modeling Molecular Structures with Intrinsic Diffusion Models",
+    "abstract": "Since its foundations, more than one hundred years ago, the field of\nstructural biology has strived to understand and analyze the properties of\nmolecules and their interactions by studying the structure that they take in 3D\nspace. However, a fundamental challenge with this approach has been the dynamic\nnature of these particles, which forces us to model not a single but a whole\ndistribution of structures for every molecular system. This thesis proposes\nIntrinsic Diffusion Modeling, a novel approach to this problem based on\ncombining diffusion generative models with scientific knowledge about the\nflexibility of biological complexes. The knowledge of these degrees of freedom\nis translated into the definition of a manifold over which the diffusion\nprocess is defined. This manifold significantly reduces the dimensionality and\nincreases the smoothness of the generation space allowing for significantly\nfaster and more accurate generative processes. We demonstrate the effectiveness\nof this approach on two fundamental tasks at the basis of computational\nchemistry and biology: molecular conformer generation and molecular docking. In\nboth tasks, we construct the first deep learning method to outperform\ntraditional computational approaches achieving an unprecedented level of\naccuracy for scalable programs.",
+    "authors": [
+      "Gabriele Corso"
+    ],
+    "publication_date": "2023-02-23T03:26:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.12255v1",
+    "download_url": "http://arxiv.org/abs/2302.12255v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemical Heredity as Group Selection at the Molecular Level",
+    "abstract": "Many examples of cooperation exist in biology. In chemical systems however,\nwhich can sometimes be quite complex, we do not appear to observe intricate\ncooperative interactions. A key question for the origin of life, is then how\ncan molecular cooperation first arise in an abiotic system prior to the\nemergence of biological replication. We postulate that selection at the\nmolecular level is a driving force behind the complexification of chemical\nsystems, particularly during the origins of life. In the theory of multilevel\nselection the two selective forces are: within-group and between-group, where\nthe former tends to favor \"selfish\" replication of individuals and the latter\nfavor cooperation between individuals enhancing the replication of the group as\na whole. These forces can be quantified using the Price equation, which is a\nstandard tool used in evolutionary biology to quantify evolutionary change. Our\ncentral claim is that replication and heredity in chemical systems are subject\nto selection, and quantifiable using the multilevel Price equation. We\ndemonstrate this using the Graded Autocatalysis Replication Domain computer\nmodel, describing simple protocell composed out of molecules and its\nreplication, which respectively analogue to the group and the individuals. In\ncontrast to previous treatments of this model, we treat the lipid molecules\nthemselves as replicating individuals and the protocells they form as groups of\nindividuals. Our goal is to demonstrate how evolutionary biology tools and\nconcepts can be applied in chemistry and we suggest that molecular cooperation\nmay arise as a result of group selection. Further, the biological relation of\nparent-progeny is proposed to be analogue to the reactant-product relation in\nchemistry, thus allowing for tools from evolutionary biology to be applied to\nchemistry and would deepen the connection between chemistry and biology.",
+    "authors": [
+      "Omer Markovitch",
+      "Olaf Witkowski",
+      "Nathaniel Virgo"
+    ],
+    "publication_date": "2018-02-22T13:07:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1802.08024v1",
+    "download_url": "http://arxiv.org/abs/1802.08024v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "NaviCell: a web-based environment for navigation, curation and\n  maintenance of large molecular interaction maps",
+    "abstract": "Molecular biology knowledge can be systematically represented in a\ncomputer-readable form as a comprehensive map of molecular interactions. There\nexist a number of maps of molecular interactions containing detailed\ndescription of various cell mechanisms. It is difficult to explore these large\nmaps, to comment their content and to maintain them. Though there exist several\ntools addressing these problems individually, the scientific community still\nlacks an environment that combines these three capabilities together. NaviCell\nis a web-based environment for exploiting large maps of molecular interactions,\ncreated in CellDesigner, allowing their easy exploration, curation and\nmaintenance. NaviCell combines three features: (1) efficient map browsing based\non Google Maps engine; (2) semantic zooming for viewing different levels of\ndetails or of abstraction of the map and (3) integrated web-based blog for\ncollecting the community feedback. NaviCell can be easily used by experts in\nthe field of molecular biology for studying molecular entities of their\ninterest in the context of signaling pathways and cross-talks between pathways\nwithin a global signaling network. NaviCell allows both exploration of detailed\nmolecular mechanisms represented on the map and a more abstract view of the map\nup to a top-level modular representation. NaviCell facilitates curation,\nmaintenance and updating the comprehensive maps of molecular interactions in an\ninteractive fashion due to an imbedded blogging system. NaviCell provides an\neasy way to explore large-scale maps of molecular interactions, thanks to the\nGoogle Maps and WordPress interfaces, already familiar to many users. Semantic\nzooming used for navigating geographical maps is adopted for molecular maps in\nNaviCell, making any level of visualization meaningful to the user. In\naddition, NaviCell provides a framework for community-based map curation.",
+    "authors": [
+      "Inna Kuperstein",
+      "David PA Cohen",
+      "Stuart Pook",
+      "Laurence Calzone",
+      "Emmanuel Barillot",
+      "Andrei Zinovyev"
+    ],
+    "publication_date": "2013-01-31T14:14:04Z",
+    "arxiv_id": "http://arxiv.org/abs/1301.7618v1",
+    "download_url": "http://arxiv.org/abs/1301.7618v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Living Devices",
+    "abstract": "The physiological tradition of biological research analyzes biological\nsystems using reduced descriptions much as an engineer uses a 'black box'\ndescription of an amplifier. Simple models have been used by physiologists for\na very long time. Physiologists have successfully analyzed a broad range of\nbiological systems using a 'device-oriented' approach similar to the approach\nan engineer would use to investigate her devices. The present generation views\nbiology through the powerful lenses of structural and (molecular) dynamic\nanalysis, understandably enough because of the beauty and power of the\nanalysis, and the ease of using these structures with present freely available\nsoftware. The problem is that these powerful lenses offer such magnification\nthat the engineering approach cannot be seen. High magnification means limited\nfield of view, because the (spatial) dynamic range cannot cover everything. The\nfunction of the structures and molecular dynamics cannot be seen in the work of\nmany biologists, probably because function cannot be immediately seen in the\nstructures and molecular dynamics they compute. It is just as important for\nbiologists to measure the inputs and outputs of their systems as it is to\nmeasure their structures. It seems clear, at least to one physiologist, that\nthis research will be catalyzed by assuming that most biological systems are\ndevices that can be analyzed with the same strategies one would use to analyze\nengineering devices. Thinking today about your biological preparation as a\ndevice tells you what experiments to do tomorrow. An important task for many of\nus is to transmit the physiological tradition to the next generation of\nbiophysicists to help them adapt traditional questions to the new length scales\nand techniques of molecular and atomic biology.",
+    "authors": [
+      "Bob Eisenberg"
+    ],
+    "publication_date": "2012-06-27T21:14:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1206.6490v2",
+    "download_url": "http://arxiv.org/abs/1206.6490v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]
