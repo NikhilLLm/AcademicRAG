@@ -13,11 +13,15 @@ Thumbs.db
 *.env
 #Ignore test files
 .pytest_cache/
-*_test_backend.py
-*_test.md
+*test_backend.py
+*test.md
 # Ignore all PDF files
 *.pdf
 # Ignore all txt files
 *.txt
 # Ignore all png files
 *.png
+
+#Ignore embeddings and vector DBs
+embeddings/chunks/
+
