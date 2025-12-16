@@ -3,9 +3,9 @@ from dotenv import load_dotenv
 from huggingface_hub import InferenceClient
 from transformers import pipeline
 import re
-from langchain_core.prompts import PromptTemplate
+from backend.notes.text.prompts import PASS1_TEXT_PROMPT, PASS2_MERGE_PROMPT
 from backend.notes.text.chunks_embeddings import TextPreprocessor
-
+from backend.notes.Visual.visual_summary import get_summary as get_visual_summary
 
 # ----------------------------------------------------
 # Load environment variables
@@ -14,7 +14,7 @@ load_dotenv("C:/Users/nshej/aisearch/.env")
 
 
 # ====================================================
-# PASS 1: MISTRAL (Reasoning + Structuring)
+# PASS 1: MISTRAL (TEXT CONTENT EXTRACTION)
 # ====================================================
 _mistral_cache = None
 
@@ -36,84 +36,22 @@ def get_mistral_client():
     return _mistral_cache
 
 
-def mistral_llm(prompt: str):
+def mistral_llm(prompt: str, max_tokens: int = 2500):
     client = get_mistral_client()
 
     response = client.chat_completion(
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=2000,
+        max_tokens=max_tokens,
         temperature=0.2
     )
 
     return response.choices[0].message.content
 
 
-# ----------------------------------------------------
-# ✅ IMPROVED PASS-1 PROMPT WITH EXAMPLES
-# ----------------------------------------------------
-PASS1_PROMPT = PromptTemplate(
-    input_variables=["context"],
-    template="""You are creating DETAILED exam notes from an academic paper.
-    You are NOT summarizing.
-You are an examiner extracting marks-bearing points.
 
 
-🚨 CRITICAL RULES:
-1. DO NOT SUMMARIZE. DO NOT SHORTEN. EXTRACT VERBATIM.
-2. Keep ALL technical terms, formulas, dataset names, metrics exactly as written
-3. If you see equations like "J = q μ n E", write them EXACTLY: "J = q μ n E"
-4. If you see values like "accuracy = 94.2%", keep them: "accuracy = 94.2%"
-5. Use 4-6 bullets per section with nested sub-points
-6. Write 5-8 bullets per section. Each bullet should be 2-3 lines long.
-Every bullet must correspond to something that can appear in an exam answer
-- Include numbers, ranges, datasets, metrics, equations
-- If a paragraph contains 3 facts → produce 3 bullets
-- Never generalize (no “framework is flexible”, “scalable”, “robust”)
-- If content is vague, say “Not specified in paper”
-
-EXAMPLE OUTPUT FORMAT (follow this EXACTLY):
-
-### Problem / Motivation 🚗
-- Main problem: Existing AutoML systems require extensive manual hyperparameter tuning
-  - Why it matters: Manual tuning takes 40-60 hours per competition
-  - Existing limitation: Current tools like Hyperopt explore unnecessarily large search spaces
-- Current approaches fail because: They don't exploit competition-specific constraints
-
-### Proposed Method ⚡
-- Main technique: Automated ML pipeline with restricted hyperparameter search
-  - Step 1: Automated feature encoding and scaling
-  - Step 2: Model selection using Random Forest (n_estimators = [100, 200, 500]) and SVM (C = [0.1, 1, 10])
-  - Key equation: Final prediction = argmax(votes from ensemble)
-- Differs from prior work by: Limiting search space to 80% fewer configurations
-
-### Key Contributions 🎯
-- Contribution 1: First end-to-end AutoML framework for Kaggle-style competitions
-  - Technical detail: Achieves competitive leaderboard positions with minimal tuning
-- Contribution 2: Demonstrates that restricted search spaces maintain performance
-
-### Results / Evaluation 📊
-- Datasets used: UCI ML Repository (Iris, Wine, Breast Cancer datasets)
-  - Size: 150-569 samples across datasets
-  - Characteristics: 4-30 features, binary and multi-class tasks
-- Metrics achieved:
-  - F1-score: 0.89 average across 5 tasks
-  - Training time: 12.3 minutes average per task
-  - Accuracy: 92.1% on Iris, 94.5% on Wine
-- Compared to baseline: Outperforms Hyperopt by 12% in speed with 98% of accuracy
-
-### Limitations ⚠️
-- Limitation 1: Restricted to tabular data only (no image/text support)
-- Limitation 2: Limited model diversity (only RF and SVM tested)
-- Future work needed: Extend to deep learning architectures
-
-NOW EXTRACT FROM THIS CONTENT (maintain same detail level as example):
-{context}
-
-IMPORTANT: Your output should be 3-4x LONGER than a typical summary. We want DETAILED notes, not a summary.
-"""
-)
 # ====================================================
-# MULTI-QUERY RETRIEVAL (EXAM-ORIENTED)
+# MULTI-QUERY RETRIEVAL
 # ====================================================
 RETRIEVAL_QUERIES = [
     "Problem definition and motivation",
@@ -124,9 +62,10 @@ RETRIEVAL_QUERIES = [
     "Limitations and future work",
     "Related work and referenced methods"
 ]
+
 def format_docs(docs):
-        text = "\n\n".join(doc.page_content for doc in docs)
-        return text[:8000]  # More context
+    text = "\n\n".join(doc.page_content for doc in docs)
+    return text[:8000]
 
 def collect_multi_query_context(retriever):
     seen = set()
@@ -141,38 +80,34 @@ def collect_multi_query_context(retriever):
 
     return format_docs(all_docs)
 
+def normalize_visual_notes(visual_notes: str):
+    """
+    Convert figures/tables into clean textual facts.
+    No markdown noise, no redundancy.
+    """
+    lines = visual_notes.split("\n")
+    clean = []
 
+    for l in lines:
+        if any(x in l.lower() for x in ["figure", "table", "page"]):
+            clean.append(l.strip())
+        elif ":" in l and len(l) < 300:
+            clean.append(l.strip())
 
-
+    return "\n".join(clean)
 # ====================================================
-# FORMULA PROTECTION (MUST BE BEFORE compress_sections_smart)
+# FORMULA PROTECTION
 # ====================================================
 def protect_formulas(text: str):
-    """
-    Find formula-like patterns and protect them
-    Returns: (protected_text, formula_map)
-    """
     formula_map = {}
     counter = 0
     
-    # ✅ IMPROVED: More comprehensive patterns
     patterns = [
-        # Standard equations: "J = q μ n E"
         r'[A-Za-z_][A-Za-z0-9_]*\s*=\s*[^,\n]{3,60}',
-        
-        # Metrics with hyphens: "F1-score = 0.89"
         r'[A-Za-z][A-Za-z0-9\-_]*\s*[=:]\s*\d+\.?\d*%?',
-        
-        # Parenthetical expressions: "(n + p)"
         r'\([A-Za-z0-9\s+\-*/^√]+\)',
-        
-        # Bracketed equations: "[σ = sqrt(variance)]"
         r'\[[^\]]{5,50}\]',
-        
-        # Greek letters and superscripts: "E = mc²"
         r'[A-Za-z]\s*=\s*[A-Za-z0-9²³⁴]+',
-        
-        # Value ranges: "n = [100, 200, 500]"
         r'\w+\s*=\s*\[[\d\s,\.]+\]',
     ]
     
@@ -181,7 +116,6 @@ def protect_formulas(text: str):
     for pattern in patterns:
         matches = re.findall(pattern, text)
         for match in matches:
-            # Skip if already protected
             if match in formula_map.values():
                 continue
                 
@@ -194,7 +128,6 @@ def protect_formulas(text: str):
 
 
 def restore_formulas(text: str, formula_map: dict):
-    """Restore formulas from placeholders"""
     restored = text
     for placeholder, formula in formula_map.items():
         restored = restored.replace(placeholder, formula)
@@ -202,15 +135,86 @@ def restore_formulas(text: str, formula_map: dict):
 
 
 # ====================================================
-# VALIDATION (BEFORE BART)
+# NOISE FILTER
+# ====================================================
+def apply_noise_filter(text: str):
+    """Remove unrelated URLs, phone numbers, promotional content, hallucinated info"""
+    lines = text.split('\n')
+    filtered_lines = []
+    
+    # Expanded noise patterns
+    noise_patterns = [
+        r'for more information',
+        r'visit.*website',
+        r'call.*on.*\d',  # Phone numbers in sentences
+        r'\d{3,}[-.\s]?\d{3,}[-.\s]?\d{4}',  # Phone formats
+        r'1-800-\d',  # Toll-free numbers
+        r'08457',  # UK numbers
+        r'samaritans',
+        r'suicide prevention',
+        r'confidential support',
+        r'click here',
+        r'subscribe',
+        r'follow us',
+        r'available now on',
+        r'download from',
+        r'google play',
+        r'gofundme',
+        r'for details',
+        r'see www\.',
+        r'visit www\.',
+    ]
+    
+    # URLs to remove (hallucinated or promotional)
+    bad_url_patterns = [
+        r'googleplay\.com',
+        r'gofundme\.com',
+        r'samaritans\.org',
+        r'suicidepreventionlifeline',
+        r'autocompete\.com',
+        r'autocompete\.org',
+        r'blog/\d{4}/',  # Blog URLs
+    ]
+    
+    in_references = False
+    
+    for line in lines:
+        # Track if we're in References section
+        if '### References' in line:
+            in_references = True
+            filtered_lines.append(line)
+            continue
+        
+        # Skip empty lines
+        if not line.strip():
+            filtered_lines.append(line)
+            continue
+        
+        # Check noise patterns
+        is_noise = any(re.search(pattern, line, re.IGNORECASE) for pattern in noise_patterns)
+        
+        # Check for bad URLs (unless in References)
+        if not in_references and 'http' in line:
+            has_bad_url = any(re.search(pattern, line, re.IGNORECASE) for pattern in bad_url_patterns)
+            if has_bad_url:
+                is_noise = True
+        
+        # Keep line if not noise
+        if not is_noise:
+            filtered_lines.append(line)
+    
+    return '\n'.join(filtered_lines)
+
+
+# ====================================================
+# VALIDATION
 # ====================================================
 def validate_extraction(text: str):
-    """Check if extraction has good quality indicators"""
     indicators = {
         'has_formulas': bool(re.search(r'[A-Za-z_]\s*[=:]', text)),
         'has_numbers': bool(re.search(r'\d+\.?\d*%?', text)),
         'has_technical_terms': len(re.findall(r'\b[A-Z]{2,}\b', text)) > 2,
-        'is_detailed': len(text) > 800  # Lowered from 1000 (more realistic)
+        'is_detailed': len(text) > 800
     }
     
     print("\n🔍 Extraction Quality Check:")
@@ -218,7 +222,6 @@ def validate_extraction(text: str):
         status = "✅" if passed else "❌"
         print(f"{status} {check}: {passed}")
     
-    # Show preview if quality is low
     if not all(indicators.values()):
         print("\n⚠️ WARNING: Low quality extraction detected!")
         print("First 300 chars:", text[:300], "...")
@@ -227,7 +230,7 @@ def validate_extraction(text: str):
 
 
 # ====================================================
-# PASS 2: SMART SECTION-WISE COMPRESSION
+# PASS 3: BART COMPRESSION (FINAL POLISH)
 # ====================================================
 _bart_cache = None
 
@@ -235,13 +238,13 @@ def get_bart_summarizer():
     global _bart_cache
 
     if _bart_cache is None:
-        print("Loading local BART Large CNN (Pass 2)...")
+        print("Loading BART Large CNN (Pass 3)...")
 
         _bart_cache = pipeline(
             "summarization",
             model="facebook/bart-large-cnn",
             tokenizer="facebook/bart-large-cnn",
-            device=-1  # CPU (set 0 if GPU available)
+            device=-1
         )
 
     return _bart_cache
@@ -249,53 +252,76 @@ def get_bart_summarizer():
 
 def compress_sections_smart(structured_text: str):
     """
-    ✅ SMART COMPRESSION:
-    1. Split by sections
-    2. Protect formulas in each section
-    3. Compress only prose
-    4. Restore formulas
+    BART compression with formula protection
+    IMPROVEMENT: Skip compression for already concise sections to prevent hallucination
     """
     summarizer = get_bart_summarizer()
     
-    # Split by ### headers
-    sections = re.split(r'(###[^\n]+)', structured_text)
+    sections = re.split(r'(###[^\n]+|####[^\n]+)', structured_text)
     final_notes = []
     
-    for i in range(1, len(sections), 2):  # Headers at odd indices
+    # Sections that should NEVER be compressed
+    SKIP_COMPRESSION = [
+        'Brief Overview',
+        'Key Points',
+        'Abstract',
+        'Limitations',
+        'Future Work',
+        'References'
+    ]
+    
+    for i in range(1, len(sections), 2):
         if i + 1 >= len(sections):
             break
             
         header = sections[i].strip()
         content = sections[i + 1].strip()
         
-        if len(content) < 100:  # Too short to compress
+        # Check if this section should skip compression
+        skip = any(skip_word in header for skip_word in SKIP_COMPRESSION)
+        
+        # Don't compress if:
+        # 1. Section is in skip list
+        # 2. Content is too short (< 400 chars)
+        # 3. Content has too few words (< 80 words)
+        word_count = len(content.split())
+        
+        if skip or len(content) < 400 or word_count < 80:
+            print(f"\n⏭️ Skipping: {header} (too short or protected)")
             final_notes.append(f"{header}\n{content}")
             continue
         
         try:
-            # ✅ STEP 1: Protect formulas
             protected_content, formula_map = protect_formulas(content)
             
-            print(f"\n📝 Processing section: {header}")
+            print(f"\n🔧 Compressing: {header}")
             print(f"   Protected {len(formula_map)} formulas")
+            print(f"   Original: {word_count} words")
             
-            # ✅ STEP 2: Compress (BART never sees formulas)
+            # Adjust compression based on content length
+            if word_count > 200:
+                max_len = 300
+                min_len = 150
+            else:
+                max_len = 200
+                min_len = 100
+            
             compressed = summarizer(
                 protected_content,
-                max_length=300,  # ✅ More generous (was 200)
-                min_length=150,  # ✅ More generous (was 80)
+                max_length=max_len,
+                min_length=min_len,
                 do_sample=False,
                 truncation=True
             )[0]["summary_text"]
             
-            # ✅ STEP 3: Restore formulas
-            restored = restore_formulas(compressed, formula_map)
+            compressed_words = len(compressed.split())
+            print(f"   Compressed: {compressed_words} words")
             
+            restored = restore_formulas(compressed, formula_map)
             final_notes.append(f"{header}\n{restored}")
             
         except Exception as e:
-            print(f"⚠️ Section compression failed: {e}")
-            # Keep original if BART fails
+            print(f"⚠️ Compression failed for {header}: {e}")
             final_notes.append(f"{header}\n{content}")
     
     return "\n\n".join(final_notes)
@@ -308,39 +334,117 @@ def extract_links(text: str):
     urls = sorted(set(re.findall(r'https?://\S+', text)))
     if not urls:
         return ""
-    return "\n\n### References / Related Work 🔗\n" + "\n".join(f"- {u}" for u in urls)
+    return "\n\n### References 🔗\n" + "\n".join(f"- {u}" for u in urls)
+
 
 # ====================================================
-# RAG PIPELINE
+# MAIN PIPELINE (3 PASSES)
 # ====================================================
-def _get_rag_chain(pdf_url: str):
+def _get_integrated_rag_chain(pdf_url: str):
+    """
+    Complete 3-layer pipeline:
+    1. Text extraction (Mistral Pass 1)
+    2. Visual extraction + Merging (Mistral Pass 2)  
+    3. Compression (BART Pass 3)
+    """
     text_preprocessor = TextPreprocessor(pdf_url=pdf_url)
     retriever = text_preprocessor.get_retriever()
 
-    
-
     def rag_call():
-        # -------- MULTI-QUERY CONTEXT --------
+        # ============================================
+        # LAYER 1: TEXT CONTENT EXTRACTION
+        # ============================================
+        print("\n" + "="*60)
+        print("📄 LAYER 1: TEXT EXTRACTION")
+        print("="*60)
+        
         context = collect_multi_query_context(retriever)
-    
-        print("\n🔄 PASS 1: Extracting with Mistral...")
         print(f"📄 Context length: {len(context)} chars")
-    
-        structured = mistral_llm(PASS1_PROMPT.format(context=context))
-    
-        print(f"\n📊 Mistral output length: {len(structured)} chars")
-    
-        quality_ok = validate_extraction(structured)
-        if not quality_ok:
-            print("⚠️ Consider increasing retriever k or context length")
-    
-        print("\n🔄 PASS 2: Smart compression with BART...")
-        final_notes = compress_sections_smart(structured)
-    
-        # -------- REFERENCES --------
-        refs = extract_links(context)
-    
-        return final_notes + refs
+        
+        text_notes = mistral_llm(PASS1_TEXT_PROMPT.format(context=context), max_tokens=2500)
+        print(f"✅ Text notes: {len(text_notes)} chars")
+        
+        validate_extraction(text_notes)
+        
+        # ============================================
+        # LAYER 2: VISUAL CONTENT EXTRACTION
+        # ============================================
+        print("\n" + "="*60)
+        print("🖼️ LAYER 2: VISUAL EXTRACTION")
+        print("="*60)
+        
+        try:
+            visual_notes = get_visual_summary(pdf_url)
+            
+            print(f"✅ Visual notes: {len(visual_notes)} chars")
+        except Exception as e:
+            print(f"⚠️ Visual extraction failed: {e}")
+            visual_notes = "No visual content extracted."
+        text_notes = apply_noise_filter(text_notes)
+        visual_notes = apply_noise_filter(visual_notes)
+        # ============================================
+        # LAYER 2.5: MERGE TEXT + VISUAL
+        # ============================================
+        print("\n" + "="*60)
+        print("🔗 LAYER 2.5: MERGING TEXT + VISUAL")
+        print("="*60)
+        
+        merged_notes = mistral_llm(
+            PASS2_MERGE_PROMPT.format(
+                text_notes=text_notes,
+                visual_notes=visual_notes
+            ),
+            max_tokens=3500
+        )
+        print(f"✅ Merged notes: {len(merged_notes)} chars")
+        
+        # ============================================
+        # LAYER 3: BART COMPRESSION
+        # ============================================
+        print("\n" + "="*60)
+        print("✂️ LAYER 3: BART COMPRESSION")
+        print("="*60)
+        
+        final_notes = compress_sections_smart(merged_notes)
+        refs = extract_links(merged_notes)
+
+        # ============================================
+        # POST-PROCESSING: CLEAN UP
+        # ============================================
+        print("\n" + "="*60)
+        print("🧹 POST-PROCESSING: NOISE REMOVAL & CLEANUP")
+        print("="*60)
+        
+        # Step 1: Apply noise filter
+        
+        
+        # Step 2: Fix empty sections
+        # If Components section is empty, add a note
+        cleaned_notes = re.sub(
+            r'### Components 🔧\s*\n\s*\n\s*###',
+            '### Components 🔧\n- Components not explicitly detailed in paper\n\n###',
+            final_notes
+        )
+        
+        # Step 3: Remove duplicate Reference sections
+        cleaned_notes = re.sub(r'### References 🔗\s*\n\s*\[URLs if any\]\s*\n', '', cleaned_notes)
+        
+        # Step 4: Add actual references
+        
+        
+        # Step 5: Final cleanup - remove multiple blank lines
+        cleaned_notes = re.sub(r'\n{3,}', '\n\n', cleaned_notes)
+        
+        # Step 6: Remove any remaining promotional phrases
+        cleanup_phrases = [
+            r'For confidential support.*?\.',
+            r'In the U\.S\. call.*?\.',
+            r'visit a local.*?branch.*?\.',
+        ]
+        for phrase in cleanup_phrases:
+            cleaned_notes = re.sub(phrase, '', cleaned_notes, flags=re.IGNORECASE | re.DOTALL)
+        
+        return cleaned_notes + refs
 
     return rag_call
 
@@ -350,16 +454,16 @@ def _get_rag_chain(pdf_url: str):
 # ====================================================
 def summarize(pdf_url: str):
     """
-    ✅ TurboLearn-style 2-pass note generation (PRODUCTION VERSION)
+    ✅ TurboLearn-style 3-layer note generation
     
-    Improvements:
-    1. Detailed prompt with examples
-    2. Formula protection before BART
-    3. Validation checks
-    4. Better error handling
+    Pipeline:
+    1. Text extraction (Mistral) → Structured text notes
+    2. Visual extraction (Mistral) → Figure/table insights
+    3. Merging (Mistral) → Combined notes
+    4. Compression (BART) → Final polished notes
     """
     try:
-        rag_chain = _get_rag_chain(pdf_url)
+        rag_chain = _get_integrated_rag_chain(pdf_url)
         result = rag_chain()
         
         print("\n" + "="*60)
@@ -373,80 +477,17 @@ def summarize(pdf_url: str):
         error_msg = f"Error generating notes: {str(e)}"
         print(f"❌ {error_msg}")
         import traceback
-        traceback.print_exc()  # ✅ Show full error for debugging
+        traceback.print_exc()
         return error_msg
 
 
-# ====================================================
-# ✅ OPTIONAL: ADVANCED FEATURES
-# ====================================================
-def summarize_with_bullet_control(pdf_url: str, max_bullets_per_section: int = 5):
-    """
-    Enhanced version with bullet-count control
-    """
-    try:
-        rag_chain = _get_rag_chain(pdf_url)
-        notes = rag_chain()
-        
-        # Post-process to limit bullets per section
-        sections = notes.split("###")
-        controlled = []
-        
-        for sec in sections:
-            if not sec.strip():
-                continue
-            
-            lines = sec.split("\n")
-            header = lines[0] if lines else ""
-            bullets = [l for l in lines[1:] if l.strip().startswith("-")]
-            
-            # Keep only top N bullets
-            limited_bullets = bullets[:max_bullets_per_section]
-            controlled.append(f"### {header}\n" + "\n".join(limited_bullets))
-        
-        return "\n\n".join(controlled)
-    
-    except Exception as e:
-        return f"Error: {str(e)}"
-
-
 def summarize_verbose(pdf_url: str):
-    """
-    Debug version that shows all intermediate outputs
-    """
+    """Debug version showing all steps"""
     print("\n" + "="*60)
-    print("🔬 VERBOSE MODE - SHOWING ALL STEPS")
+    print("🔬 VERBOSE MODE")
     print("="*60)
     
-    text_preprocessor = TextPreprocessor(pdf_url=pdf_url)
-    retriever = text_preprocessor.get_retriever()
-    
-    # Step 1: Retrieval
-    docs = retriever.invoke("Extract detailed technical content")
-    context = "\n\n".join(doc.page_content for doc in docs)[:5000]
-    
-    print("\n📄 STEP 1: RETRIEVED CONTEXT")
-    print("-"*60)
-    print(context[:500], "...\n")
-    
-    # Step 2: Mistral extraction
-    structured = mistral_llm(PASS1_PROMPT.format(context=context))
-    
-    print("\n🧠 STEP 2: MISTRAL EXTRACTION")
-    print("-"*60)
-    print(structured, "\n")
-    
-    # Step 3: Validation
-    print("\n🔍 STEP 3: VALIDATION")
-    print("-"*60)
-    validate_extraction(structured)
-    
-    # Step 4: BART compression
-    final = compress_sections_smart(structured)
-    
-    print("\n📝 STEP 4: FINAL NOTES")
-    print("-"*60)
-    print(final)
-    print("="*60)
-    
-    return final
+    return summarize(pdf_url)
+
+
+#

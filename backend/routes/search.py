@@ -6,6 +6,8 @@ from backend.embedding.embedd import embed_string
 from backend.search.service import SearchService
 from backend.notes.text.chunks_embeddings import TextPreprocessor
 from backend.notes.text.extractor import PDFTextExtractor
+from backend.notes.Visual.image_table_extractor import ImageTableExtractor
+from backend.notes.Visual.visual_summary import save_notes
 from backend.notes.text.summarizer import summarize
 router = APIRouter()
 search_service = SearchService()
@@ -73,9 +75,11 @@ async def get_short_notes(vector_index: str = Form(...),collection_name: str = F
         return {"error": "No PDF URL available"}
     
     # Generate notes passing pdf_url to raw text
-    # raw_text_processor = TextPreprocessor(pdf_url)#this will call instance of pdfclass not full text
-    # raw_text_processor = raw_text_processor.get_retriever()
+    raw_text_processor = TextPreprocessor(pdf_url)#this will call instance of pdfclass not full text
+    raw_text_processor = raw_text_processor.get_retriever()
     notes = summarize(pdf_url=pdf_url)
     
-    return {"short_notes": notes, "metadata": metadata}
+   
+    # return {"short_notes": notes, "metadata": metadata}
+    return {"extracted_text": notes, "metadata": metadata}
     
