@@ -1,0 +1,481 @@
+[
+  {
+    "title": "Long-term Value of Flexibility from Flexible Assets in Building Operation",
+    "abstract": "In this work, we investigate how flexible assets within a residential building influence the long-term impact of operation. We use a measured-peak grid tariff (MPGT) that puts a cost on the highest single-hour peak import over the month. We apply a mathematical model of a Home Energy Management System (HEMS) together with Stochastic Dynamic Programming (SDP), which calculates the long-term impact of operating as a non-linear expected future cost curve (EFCC) from the end of the scheduling period to the start. The proposed model is applied to a case study for a Norwegian building with smart control of a battery energy storage system (BESS), Electric vehicle (EV) charging and space heating (SH). Each of the flexible assets are investigated individually with MPGT and for an energy-based grid tariff. The results showed that EV charging has the highest peak-power impact in the system, decreasing the total electricity cost by 14.6% with MPGT when controllable compared to a reference case with passive charging. It is further shown how the EFCC helps achieve optimal timing and level of the peak demand, where it co-optimizes both real-time pricing and the MPGT.",
+    "authors": [
+      "Kasper Emil Thorvaldsen",
+      "Magnus Korpås",
+      "Hossein Farahmand"
+    ],
+    "publication_date": "2021-05-25T14:03:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.11952v1",
+    "download_url": "https://arxiv.org/abs/2105.11952v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Hybrid Autoencoder-Transformer Model for Robust Day-Ahead Electricity Price Forecasting under Extreme Conditions",
+    "abstract": "Accurate day-ahead electricity price forecasting (DAEPF) is critical for the efficient operation of power systems, but extreme condition and market anomalies pose significant challenges to existing forecasting methods. To overcome these challenges, this paper proposes a novel hybrid deep learning framework that integrates a Distilled Attention Transformer (DAT) model and an Autoencoder Self-regression Model (ASM). The DAT leverages a self-attention mechanism to dynamically assign higher weights to critical segments of historical data, effectively capturing both long-term trends and short-term fluctuations. Concurrently, the ASM employs unsupervised learning to detect and isolate anomalous patterns induced by extreme conditions, such as heavy rain, heat waves, or human festivals. Experiments on datasets sampled from California and Shandong Province demonstrate that our framework significantly outperforms state-of-the-art methods in prediction accuracy, robustness, and computational efficiency. Our framework thus holds promise for enhancing grid resilience and optimizing market operations in future power systems.",
+    "authors": [
+      "Boyan Tang",
+      "Xuanhao Ren",
+      "Peng Xiao",
+      "Shunbo Lei",
+      "Xiaorong Sun",
+      "Jianghua Wu"
+    ],
+    "publication_date": "2025-11-10T09:47:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2511.06898v1",
+    "download_url": "https://arxiv.org/abs/2511.06898v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Port-Hamiltonian Systems Modelling in Electrical Engineering",
+    "abstract": "The port-Hamiltonian modelling framework allows for models that preserve essential physical properties such as energy conservation or dissipative inequalities. If all subsystems are modelled as port-Hamiltonian systems and the inputs are related to the output in a linear manner, the overall system can be modelled as a port-Hamiltonian system (PHS), too, which preserves the properties of the underlying subsystems. If the coupling is given by a skew-symmetric matrix, as usual in many applications, the overall system can be easily derived from the subsystems without the need of introducing dummy variables and therefore artificially increasing the complexity of the system. Hence the PHS framework is especially suitable for modelling multi-physical systems.\n  In this paper, we show that port-Hamiltonian systems are a natural generalization of Hamiltonian systems, define coupled port-Hamiltonian systems as ordinary and differential-algebraic equations. To highlight the suitability for electrical engineering applications, we derive PHS models for MNA network equations, electromagnetic devices and coupled systems thereof.",
+    "authors": [
+      "Andreas Bartel",
+      "Markus Clemens",
+      "Michael Günther",
+      "Birgit Jacob",
+      "Timo Reis"
+    ],
+    "publication_date": "2023-01-05T11:47:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2301.02024v1",
+    "download_url": "https://arxiv.org/abs/2301.02024v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mobility-Aware Smart Charging of Electric Bus Fleets",
+    "abstract": "We study the joint route assignment and charge scheduling problem of a transit system dispatcher operating a fleet of electric buses in order to maximize solar energy integration and reduce energy costs. Specifically, we consider a complex bus transit system with preexisting routes, limited charging infrastructure, limited number of electric buses, and time-varying electricity rates. We present a mixed integer linear program (MILP) that yields the minimal cost daily operation strategy for the fleet (i.e., route assignments and charging schedules using daily solar forecasts). We present numerical results from a real-world case study with Stanford University's Marguerite Shuttle (a large-scale electric bus fleet) to demonstrate the validity of our solution and highlight the significant cost savings compared to the status quo.",
+    "authors": [
+      "Ahmadreza Moradipari",
+      "Nathaniel Tucker",
+      "Tuo Zhang",
+      "Gustavo Cezar",
+      "Mahnoosh Alizadeh"
+    ],
+    "publication_date": "2019-12-11T22:56:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.05681v1",
+    "download_url": "https://arxiv.org/abs/1912.05681v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Data-Driven Control Of Power Converters",
+    "abstract": "The fundamental role of power converters is to efficiently manage and control the flow of electrical energy, ensuring compatibility between power sources and loads. All these applications of power converters need the design of an appropriate control law. Control of power converters is a challenging problem due to the presence of switching devices which are difficult to handle using traditional control approaches. The objective of this paper is to investigate the use of data-driven techniques, in particular the Virtual References Feedback Tuning (VRFT) method, in the context of power converters feedback control. This study considers a buck \\pauline{mode} power converter circuit provided by the OwnTech foundation.",
+    "authors": [
+      "Marwan Soliman",
+      "Pauline Kergus",
+      "Diego Regruto",
+      "Luiz Villa",
+      "Zohra Kader"
+    ],
+    "publication_date": "2025-10-10T11:51:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.09304v1",
+    "download_url": "https://arxiv.org/abs/2510.09304v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Monthly electricity consumption forecasting by the fruit fly optimization algorithm enhanced Holt-Winters smoothing method",
+    "abstract": "The electricity consumption forecasting is a critical component of the intelligent power system. And accurate monthly electricity consumption forecasting, as one of the the medium and long term electricity consumption forecasting problems, plays an important role in dispatching and management for electric power systems. Although there are many studies for this problem, large sample data set is generally required to obtain higher prediction accuracy, and the prediction performance become worse when only a little data is available. However, in practical, mostly we experience the problem of insufficient sample data and how to accurately forecast the monthly electricity consumption with limited sample data is a challenge task. The Holt-Winters exponential smoothing method often used to forecast periodic series due to low demand for training data and high accuracy for forecasting. In this paper, based on Holt-Winters exponential smoothing method, we propose a hybrid forecasting model named FOA-MHW. The main idea is that, we use fruit fly optimization algorithm to select smoothing parameters for Holt-Winters exponential smoothing method. Besides, electricity consumption data of a city in China is used to comprehensively evaluate the forecasting performance of the proposed model. The results indicate that our model can significantly improve the accuracy of monthly electricity consumption forecasting even in the case that only a small number of training data is available.",
+    "authors": [
+      "Weiheng Jiang",
+      "Xiaogang Wu",
+      "Yi Gong",
+      "Wanxin Yu",
+      "Xinhui Zhong"
+    ],
+    "publication_date": "2019-08-14T00:53:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.06836v1",
+    "download_url": "https://arxiv.org/abs/1908.06836v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Thermodynamic engine powered by anisotropic fluctuations",
+    "abstract": "The purpose of this work is to present the concept of an autonomous Stirling-like engine powered by anisotropy of thermodynamic fluctuations. Specifically, simultaneous contact of a thermodynamic system with two heat baths along coupled degrees of freedom generates torque and circulatory currents -- an arrangement referred to as a Brownian gyrator. The embodiment that constitutes the engine includes an inertial wheel to sustain rotary motion and average out the generated fluctuating torque, ultimately delivering power to an external load. We detail an electrical model for such an engine that consists of two resistors in different temperatures and three reactive elements in the form of variable capacitors. The resistors generate Johnson-Nyquist current fluctuations that power the engine, while the capacitors generate driving forces via a coupling of their dielectric material with the inertial wheel. A proof-of-concept is established via stability analysis to ensure the existence of a stable periodic orbit generating sustained power output. We conclude by drawing a connection to the dynamics of a damped pendulum with constant torque and to those of a macroscopic Stirling engine. The sought insights aim at nano-engines and biological processes that are similarly powered by anisotropy in temperature and chemical potentials.",
+    "authors": [
+      "Olga Movilla Miangolarra",
+      "Amirhossein Taghvaei",
+      "Yongxin Chen",
+      "Tryphon T. Georgiou"
+    ],
+    "publication_date": "2022-03-15T00:46:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.07573v2",
+    "download_url": "https://arxiv.org/abs/2203.07573v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Short-term Electric Load Forecasting Using TensorFlow and Deep Auto-Encoders",
+    "abstract": "This paper conducts research on the short-term electric load forecast method under the background of big data. It builds a new electric load forecast model based on Deep Auto-Encoder Networks (DAENs), which takes into account multidimensional load-related data sets including historical load value, temperature, day type, etc. A new distributed short-term load forecast method based on TensorFlow and DAENs is therefore proposed, with an algorithm flowchart designed. This method overcomes the shortcomings of traditional neural network methods, such as over-fitting, slow convergence and local optimum, etc. Case study results show that the proposed method has obvious advantages in prediction accuracy, stability, and expansibility compared with those based on traditional neural networks. Thus, this model can better meet the demands of short-term electric load forecasting under big data scenario.",
+    "authors": [
+      "Xin Shi"
+    ],
+    "publication_date": "2019-07-21T09:31:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.08941v1",
+    "download_url": "https://arxiv.org/abs/1907.08941v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "RISE Controller Tuning and System Identification Through Machine Learning for Human Lower Limb Rehabilitation via Neuromuscular Electrical Stimulation",
+    "abstract": "Neuromuscular electrical stimulation (NMES) has been effectively applied in many rehabilitation treatments of individuals with spinal cord injury (SCI). In this context, we introduce a novel, robust, and intelligent control-based methodology to closed-loop NMES systems. Our approach utilizes a robust control law to guarantee system stability and machine learning tools to optimize both the controller parameters and system identification. Regarding the latter, we introduce the use of past rehabilitation data to build more realistic data-driven identified models. Furthermore, we apply the proposed methodology for the rehabilitation of lower limbs using a control technique named the robust integral of the sign of the error (RISE), an offline improved genetic algorithm optimizer, and neural network models. Although in the literature, the RISE controller presented good results on healthy subjects, without any fine-tuning method, a trial and error approach would quickly lead to muscle fatigue for individuals with SCI. In this paper, for the first time, the RISE controller is evaluated with two paraplegic subjects in one stimulation session and with seven healthy individuals in at least two and at most five sessions. The results showed that the proposed approach provided a better control performance than empirical tuning, which can avoid premature fatigue on NMES-based clinical procedures.",
+    "authors": [
+      "Héber H. Arcolezi",
+      "Willian R. B. M. Nunes",
+      "Rafael A. de Araujo",
+      "Selene Cerna",
+      "Marcelo A. A. Sanches",
+      "Marcelo C. M. Teixeira",
+      "Aparecido A. de Carvalho"
+    ],
+    "publication_date": "2020-06-28T13:42:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.15605v2",
+    "download_url": "https://arxiv.org/abs/2006.15605v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Time Series Analysis of Electricity Price and Demand to Find Cyber-attacks using Stationary Analysis",
+    "abstract": "With developing of computation tools in the last years, data analysis methods to find insightful information are becoming more common among industries and researchers. This paper is the first part of the times series analysis of New England electricity price and demand to find anomaly in the data. In this paper time-series stationary criteria to prepare data for further times-series related analysis is investigated. Three main analysis are conducted in this paper, including moving average, moving standard deviation and augmented Dickey-Fuller test. The data used in this paper is New England big data from 9 different operational zones. For each zone, 4 different variables including day-ahead (DA) electricity demand, price and real-time (RT) electricity demand price are considered.",
+    "authors": [
+      "Mohsen Rakhshandehroo",
+      "Mohammad Rajabdorri"
+    ],
+    "publication_date": "2019-07-23T18:11:05Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.11651v3",
+    "download_url": "https://arxiv.org/abs/1907.11651v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Complementary Training Programme for Electrical and Computer Engineering Students Through an Industrial-Academic Collaboration (Extended Version)",
+    "abstract": "We describe the results of an industrial-academic collaboration among the Graduate Program in Electrical Engineering (PPGEE), the Electronics and Information Research Centre (CETELI), and Samsung Eletrônica da Amazônia Ltda. (Samsung), which aims at training human resources for Samsung's research and development (R&D) areas. Inspired by co-operative education systems, this collaboration offers an academic experience by means of a complementary training programme (CTP), in order to train undergraduates and graduate students in electrical and computer engineering, with especial emphasis on digital television (TV), industrial automation, and mobile devices technologies. In particular, this cooperation has provided scholarships for students and financial support for professors and coordinators in addition to the construction of a new building with new laboratories, classrooms, and staff rooms, to assist all research and development activities. Additionally, the cooperation outcomes led to applications developed for Samsung's mobile devices, digital TV, and production processes, an increase of 37% in CETELI's scientific production (i.e., conference and journal papers) as well as professional training for undergraduates and graduate students.",
+    "authors": [
+      "Felipe R. Monteiro",
+      "Phillipe A. Pereira",
+      "Lucas C. Cordeiro",
+      "Cicero F. F. Costa Filho",
+      "Marly G. F. Costa"
+    ],
+    "publication_date": "2016-07-30T16:43:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1608.00143v1",
+    "download_url": "https://arxiv.org/abs/1608.00143v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The joint optimization of critical interdependent infrastructure of an electricity-water-gas system",
+    "abstract": "Electricity, water, and gas systems are critical infrastructures that are sustaining our daily lives. This paper studies the joint operation of these systems through a proposed optimization model and explores the advantage of considering the system of systems. Individual and joint optimizations are studied and compared. The numerical results show that the total electricity cost for these three systems can be reduced by 9% via joint optimization. Because the water system and gas system intrinsically include the storages in their systems, the power system can use these storages as the regulation capacity to shift load from peak hours to off-peak hours. Since the saving on the power generation cost surpasses the incremental cost in the operation and maintenance (O&M), the overall economic performance is improved by the joint optimization.",
+    "authors": [
+      "Jie Cheng",
+      "Qishuai Liu",
+      "Qing Hui",
+      "Fred Choobineh"
+    ],
+    "publication_date": "2018-03-07T14:53:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.02692v1",
+    "download_url": "https://arxiv.org/abs/1803.02692v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Power transformer faults diagnosis using undestructive methods (Roger and IEC) and artificial neural network for dissolved gas analysis applied on the functional transformer in the Algerian north-eastern: a comparative study",
+    "abstract": "Nowadays, power transformer aging and failures are viewed with great attention in power transmission industry. Dissolved gas analysis (DGA) is classified among the biggest widely used methods used within the context of asset management policy to detect the incipient faults in their earlier stage in power transformers. Up to now, several procedures have been employed for the lecture of DGA results. Among these useful means, we find Key Gases, Rogers Ratios, IEC Ratios, the historical technique less used today Doernenburg Ratios, the two types of Duval Pentagons methods, several versions of the Duval Triangles method and Logarithmic Nomograph. Problem. DGA data extracted from different units in service served to verify the ability and reliability of these methods in assessing the state of health of the power transformer. Aim. An improving the quality of diagnostics of electrical power transformer by artificial neural network tools based on two conventional methods in the case of a functional power transformer at Sétif province in East North of Algeria. Methodology. Design an inelegant tool for power transformer diagnosis using neural networks based on traditional methods IEC and Rogers, which allows to early detection faults, to increase the reliability, of the entire electrical energy system from transport to consumers and improve a continuity and quality of service. Results. The solution of the problem was carried out by using feed-forward back-propagation neural networks implemented in MATLAB-Simulink environment. Four real power transformers working under different environment and climate conditions such as: desert, humid, cold were taken into account. The practical results of the diagnosis of these power transformers by the DGA are presented. Practical value.....",
+    "authors": [
+      "Bouchaoui Lahcene",
+      "Kamel Eddine Hemsas",
+      "Hacene Mellah",
+      "saad eddine benlahneche"
+    ],
+    "publication_date": "2021-08-02T13:09:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.10205v1",
+    "download_url": "https://arxiv.org/abs/2108.10205v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Non-Intrusive Electric Load Monitoring Approach Based on Current Feature Visualization for Smart Energy Management",
+    "abstract": "The state-of-the-art smart city has been calling for an economic but efficient energy management over large-scale network, especially for the electric power system. It is a critical issue to monitor, analyze and control electric loads of all users in system. In this paper, we employ the popular computer vision techniques of AI to design a non-invasive load monitoring method for smart electric energy management. First of all, we utilize both signal transforms (including wavelet transform and discrete Fourier transform) and Gramian Angular Field (GAF) methods to map one-dimensional current signals onto two-dimensional color feature images. Second, we propose to recognize all electric loads from color feature images using a U-shape deep neural network with multi-scale feature extraction and attention mechanism. Third, we design our method as a cloud-based, non-invasive monitoring of all users, thereby saving energy cost during electric power system control. Experimental results on both public and our private datasets have demonstrated our method achieves superior performances than its peers, and thus supports efficient energy management over large-scale Internet of Things (IoT).",
+    "authors": [
+      "Yiwen Xu",
+      "Dengfeng Liu",
+      "Liangtao Huang",
+      "Zhiquan Lin",
+      "Tiesong Zhao",
+      "Sam Kwong"
+    ],
+    "publication_date": "2023-08-08T04:52:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.11627v1",
+    "download_url": "https://arxiv.org/abs/2308.11627v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Literature Review on Mobile Charging Station Technology for Electric Vehicles",
+    "abstract": "While Electric vehicles (EVs) adoption is accelerating in an unprecedented way, lacking EV charging infrastructure hinders the development of the EV market. To compensate for these shortcomings, Mobile Charging Stations (MCS) could play a prominent role to accelerate EV penetration by providing charging services with no restrictions on the location and time of the charging process. This paper disseminates information on other papers and technical reports on MCS in the literature. It also discusses the benefits of MCS, its challenges, and finally introduces the research gaps in this area.",
+    "authors": [
+      "Shahab Afshar",
+      "Pablo Macedo",
+      "Farog Mohamed",
+      "Vahid Disfani"
+    ],
+    "publication_date": "2020-04-02T02:56:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.00783v1",
+    "download_url": "https://arxiv.org/abs/2004.00783v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Coupling Wind Farm with Nuclear Power Plant",
+    "abstract": "Climate change has been identified as one of the greatest challenges facing nations, governments, businesses and citizens of the globe. The threats of climate change demand an increase in the share of renewable energy from the total of energy generation. Meanwhile, there are tremendous efforts to decrease the reliance on fossil fuel energies which opens the venue for increasing the usage of alternative resources such as nuclear energy. Many countries (e.g. Egypt) are planning to meet increasing electricity demands by increasing both renewable (especially wind energy) and nuclear energies contributions in electricity generation. In the planning phase of siting both new Wind Farms (WFs) and Nuclear Power Plants (NPPs), many benefits and challenges exist. An important aspect taken into consideration during the NPP siting is the existence of ultimate heat sink which is sea water in most cases. That is why most NPPs are sited on sea coasts. On the other hand, during WF siting, the main influential aspect is the existence of good wind resources. Many coastal areas around the world fulfill this requirement for WF siting. Coupling both NPPs and WFs in one site or nearby has many benefits and obstacles as well. In this thesis, based on international experience and literature reviews, the benefits and obstacles of this coupling/adjacency are studied and evaluated. Various case studies are carried out to verify the coupling/adjacency concept.",
+    "authors": [
+      "Mohamed Kareem Abdel Rahman AlAshery"
+    ],
+    "publication_date": "2019-09-10T21:10:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.08963v1",
+    "download_url": "https://arxiv.org/abs/1909.08963v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Energy and Information Management of Electric Vehicular Network: A Survey",
+    "abstract": "The connected vehicle paradigm empowers vehicles with the capability to communicate with neighboring vehicles and infrastructure, shifting the role of vehicles from a transportation tool to an intelligent service platform. Meanwhile, the transportation electrification pushes forward the electric vehicle (EV) commercialization to reduce the greenhouse gas emission by petroleum combustion. The unstoppable trends of connected vehicle and EVs transform the traditional vehicular system to an electric vehicular network (EVN), a clean, mobile, and safe system. However, due to the mobility and heterogeneity of the EVN, improper management of the network could result in charging overload and data congestion. Thus, energy and information management of the EVN should be carefully studied. In this paper, we provide a comprehensive survey on the deployment and management of EVN considering all three aspects of energy flow, data communication, and computation. We first introduce the management framework of EVN. Then, research works on the EV aggregator (AG) deployment are reviewed to provide energy and information infrastructure for the EVN. Based on the deployed AGs, we present the research work review on EV scheduling that includes both charging and vehicle-to-grid (V2G) scheduling. Moreover, related works on information communication and computing are surveyed under each scenario. Finally, we discuss open research issues in the EVN.",
+    "authors": [
+      "Nan Chen",
+      "Miao Wang",
+      "Ning Zhang",
+      "Xuemin",
+      "Shen"
+    ],
+    "publication_date": "2020-05-17T21:57:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.08378v1",
+    "download_url": "https://arxiv.org/abs/2005.08378v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Smart Procurement of Naturally Generated Energy (SPONGE) for Plug-in Hybrid Electric Buses",
+    "abstract": "We discuss a recently introduced ECO-driving concept known as SPONGE in the context of Plug-in Hybrid Electric Buses (PHEB)'s.Examples are given to illustrate the benefits of this approach to ECO-driving. Finally, distributed algorithms to realise SPONGE are discussed, paying attention to the privacy implications of the underlying optimisation problems.",
+    "authors": [
+      "Joe Naoum-Sawaya",
+      "Emanuele Crisostomi",
+      "Mingming Liu",
+      "Yingqi Gu",
+      "Robert Shorten"
+    ],
+    "publication_date": "2016-03-06T17:14:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1603.01845v1",
+    "download_url": "https://arxiv.org/abs/1603.01845v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fault Localisation in Infinite-Dimensional Linear Electrical Networks",
+    "abstract": "We present a novel fault localisation methodology for linear time-invariant electrical networks with infinite-dimensional edge dynamics and uncertain fault dynamics. The theory accommodates instability and also bounded propagation delays in the network. The goal is to estimate the location of a fault along a given network edge, using sensors positioned arbitrarily throughout the network. Passive faults of unknown impedance are considered, along with stable faults of known impedance. To illustrate the approach, we tackle a significant use-case: a multi-conductor transmission line, with dynamics modelled by the Telegrapher's equation, subject to a line-to-ground fault. Frequency-domain insights are used to reformulate the general fault localisation problem into a non-convex scalar optimisation problem, of which the true fault location is guaranteed to be a global minimiser. Numerical experiments are run to quantify localisation performance over a range of fault resistances.",
+    "authors": [
+      "Daniel Selvaratnam",
+      "Alessio Moreschini",
+      "Amritam Das",
+      "Thomas Parisini",
+      "Henrik Sandberg"
+    ],
+    "publication_date": "2025-04-07T10:40:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.04910v1",
+    "download_url": "https://arxiv.org/abs/2504.04910v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Pink noise in Electric Current from Amplitude Modulations",
+    "abstract": "We recently proposed that the general origin of 1/f fluctuation, or pink noise, is the amplitude modulation (or beat) of many waves with accumulating frequencies. In this paper, we verify this proposal in the electric current system. We use the classical Langevin equation to describe the electron wave packets flowing in the (semi-)conductor, affected by the back reaction of soft photon emission. If this were amplitude modulation, a demodulation process is needed to extract the fluctuation features. We first square the wave packet, which corresponds to the electric current, and obtain the 1/f fluctuation in this current data. We further speculate that this wave packet, after demodulation by thresholding, triggers the time sequence of the nerve firing. In our model, this also shows 1/f fluctuations, which is quite robust.",
+    "authors": [
+      "Masahiro Morikawa",
+      "Akika Nakamichi"
+    ],
+    "publication_date": "2025-08-15T10:06:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.11369v1",
+    "download_url": "https://arxiv.org/abs/2508.11369v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Padé Approximant Neural Networks for Enhanced Electric Motor Fault Diagnosis Using Vibration and Acoustic Data",
+    "abstract": "Purpose: The primary aim of this study is to enhance fault diagnosis in induction machines by leveraging the Padé Approximant Neuron (PAON) model. While accelerometers and microphones are standard in motor condition monitoring, deep learning models with nonlinear neuron architectures offer promising improvements in diagnostic performance. This research investigates whether Padé Approximant Neural Networks (PadéNets) can outperform conventional Convolutional Neural Networks (CNNs) and Self-Organized Operational Neural Networks (Self-ONNs) in the diagnosis of electrical and mechanical faults from vibration and acoustic data.\n  Methods: We evaluate and compare the diagnostic capabilities of three deep learning architectures: one-dimensional CNNs, Self-ONNs, and PadéNets. These models are tested on the University of Ottawa's publicly available constant-speed induction motor datasets, which include both vibration and acoustic sensor data. The PadéNet model is designed to introduce enhanced nonlinearity and is compatible with unbounded activation functions such as LeakyReLU.\n  Results and Conclusion: PadéNets consistently outperformed the baseline models, achieving diagnostic accuracies of 99.96%, 98.26%, 97.61%, and 98.33% for accelerometers 1, 2, 3, and the acoustic sensor, respectively. The enhanced nonlinearity of PadéNets, together with their compatibility with unbounded activation functions, significantly improves fault diagnosis performance in induction motor condition monitoring.",
+    "authors": [
+      "Sertac Kilickaya",
+      "Levent Eren"
+    ],
+    "publication_date": "2025-07-03T13:21:45Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.02599v2",
+    "download_url": "https://arxiv.org/abs/2507.02599v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Long-range Low-power Wireless Networks and Sampling Strategies in Electricity Metering",
+    "abstract": "This paper studies a specific low-power wireless technology capable of reaching a long range, namely LoRa. Such a technology can be used by different applications in cities involving many transmitting devices while requiring loose communication constrains. We focus on electricity grids, where LoRa end-devices are smart-meters that send the average power demanded by their respective households during a given period. The successfully decoded data by the LoRa gateway are used by an aggregator to reconstruct the daily households' profiles. We show how the interference from concurrent transmissions from both LoRa and non-LoRa devices negatively affect the communication outage probability and the link effective bit-rate. Besides, we use actual electricity consumption data to compare time-based and event-based sampling strategies, showing the advantages of the latter. We then employ this analysis to assess the gateway range that achieves an average outage probability that leads to a signal reconstruction with a given requirement. We also discuss that, although the proposed analysis focuses on electricity metering, it can be easily extended to any other smart city application with similar requirements, like water metering or traffic monitoring.",
+    "authors": [
+      "Mauricio C. Tomé",
+      "Pedro H. J. Nardelli",
+      "Hirley Alves"
+    ],
+    "publication_date": "2018-03-06T10:00:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.02084v1",
+    "download_url": "https://arxiv.org/abs/1803.02084v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Engineering and Validating Cyber-Physical Energy Systems: Needs, Status Quo, and Research Trends",
+    "abstract": "A driving force for the realization of a sustainable energy supply is the integration of renewable energy resources. Due to their stochastic generation behaviour, energy utilities are confronted with a more complex operation of the underlying power grids. Additionally, due to technology developments, controllable loads, integration with other energy sources, changing regulatory rules, and the market liberalization, the systems operation needs adaptation. Proper operational concepts and intelligent automation provide the basis to turn the existing power system into an intelligent entity, a cyber-physical energy system. The electric energy system is therefore moving from a single system to a system of systems. While reaping the benefits with new intelligent behaviors, it is expected that system-level developments, architectural concepts, advanced automation and control as well as the validation and testing will play a significantly larger role in realizing future solutions and technologies. The implementation and deployment of these complex systems of systems are associated with increasing engineering complexity resulting also in increased engineering costs. Proper engineering and validation approaches, concepts, and tools are partly missing until now. Therefore, this paper discusses and summarizes the main needs and requirements as well as the status quo in research and development related to the engineering and validation of cyber-physical energy systems. Also research trends and necessary future activities are outlined.",
+    "authors": [
+      "Thomas I. Strasser",
+      "Filip Pröstl Andrén"
+    ],
+    "publication_date": "2025-02-24T09:26:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.16991v1",
+    "download_url": "https://arxiv.org/abs/2502.16991v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improving Energy Management of Hybrid Electric Vehicles by Considering Battery Electric-Thermal Model",
+    "abstract": "This article proposes an offline Energy Management System (EMS) for Parallel Hybrid Electric Vehicles (PHEVs). Dividing the torque between the Electric Motor (EM) and the Internal Combustion Engine (ICE) requires a suitable EMS. Batteries are vital to HEVs and significantly impact overall vehicle cost and performance. High temperature and high battery State of Charge (SOC) are the main factors that accelerate battery aging. SOC is the most critical state variable in EMS and was usually considered the only dynamic variable in previous studies. For simplicity, the battery temperature was often assumed to be constant, and the effect of EMS on temperature change was neglected. In this paper, we first apply Dynamic Programming (DP) to a PHEV without considering battery temperature variations. Then, the battery model is improved by modeling the cooling system to take into account temperature variations and show how neglecting the thermal dynamics of the battery in EMS is impractical. Finally, by integrating battery temperature as a state variable in the optimization problem, a new EMS is proposed to control battery temperature and SOC variation. Simulation results of the tested vehicle show that the proposed method controls battery charge and temperature. The proposed EMS method prevents uncontrolled fluctuations in battery temperature and reduces its deterioration rate.",
+    "authors": [
+      "Arash Mousaei"
+    ],
+    "publication_date": "2023-02-25T20:55:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.13157v1",
+    "download_url": "https://arxiv.org/abs/2302.13157v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Wind lulls and slews; consequences for the stability of future UK electricity systems",
+    "abstract": "As the United Kingdom wind fleet increases in size, wind lulls and slews will increasingly challenge the stability of its electricity system. The paper describes the use of models based on real time records and including solar slews, to investigate the most extreme wind variations likely to be encountered in future, enabling strategies to be devised to mitigate them. Wind lulls are surprisingly frequent, occasionally lasting a week or more, and are always likely to be beyond the capabilities of stored or imported electrical energy to mitigate them. The models indicate that there will be a continuing need for gas powered generation to mitigate wind lulls. Currently, Combined Cycle Gas Turbines (CCGTs) provide most of the dispatchable generation. However, CCGTs are not sufficiently fast acting to cope with the wind and solar slews anticipated in future. The paper suggests that a range of already proven fast-acting sources of dispatchable generation, including Open Cycle Gas Turbines (OCGTs), Internal Combustion Gas-Fired Reciprocating engines (ICGRs) and stored electrical energy systems, should be capable of coping with the largest wind and solar slews likely to be encountered up to the year 2035. Examples are given of the recent introduction of these fast-acting sources of generation which, it is suggested, will progressively replace CCGTs as the wind and solar fleets increase in size. Moreover, we see the pattern of recent investments, summarised in the paper, as a good indication of likely future investments, with OCGT investments mainly serving the 440 kV grid, and ICGRs and stored electrical energy more local networks.",
+    "authors": [
+      "Anthony D Stephens",
+      "David R Walwyn"
+    ],
+    "publication_date": "2024-09-24T14:16:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.16110v1",
+    "download_url": "https://arxiv.org/abs/2409.16110v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Selection of Most Effective Control Variables for Solving Optimal Power Flow Using Sensitivity Analysis in Particle Swarm Algorithm",
+    "abstract": "Solving the optimal power flow problem is one of the main objectives in electrical power systems analysis and design. The modern optimization algorithms such as the evolutionary algorithms are also adopted to solve this problem, especially when the intermittency nature of generation resources are included, as in wind and solar energy resources, where the models are stochastic and non-linear. This paper uses the particle swarm optimization algorithm for solving the optimal power flow for IEEE-30 bus system. In addition to selection of the most effective control variables based on sensitivity analysis to alleviate the violations and return the system back to its normal state. This adopted strategy would decrease the optimal power flow calculation burden by particle swarm optimization algorithm, especially with large systems.",
+    "authors": [
+      "Mohamed Abuella",
+      "Constantine Hatziadoniu"
+    ],
+    "publication_date": "2016-01-16T10:43:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1601.04150v1",
+    "download_url": "https://arxiv.org/abs/1601.04150v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the Integration of Battery Electric Buses into Urban Bus Networks",
+    "abstract": "Cities all around the world struggle with urban air quality due to transportation related emissions. In public transport networks, replacing internal combustion engine buses by electric buses provides an opportunity to improve air quality. Hence, many bus network operators currently ask for an optimal transformation plan to integrate battery electric buses into their fleet. Ideally, this plan also considers the installation of necessary charging infrastructure to ensure a fleet's operational feasibility. Against this background, we introduce an integrated modeling approach to determine a cost-optimal, long-term, multi-period transformation plan for integrating battery electric buses into urban bus networks. Our model connects central strategic and operational decisions. We minimize total cost of ownership and analyze potential reductions of nitrogen oxide emissions. Our results base on a case study of a real-world bus network and show that a comprehensive integration of battery electric buses is feasible and economically beneficial. By analyzing the impact of battery capacities and charging power on the optimal fleet transformation, we show that medium-power charging facilities combined with medium-capacity batteries are superior to networks with low-power or high-power charging facilities.",
+    "authors": [
+      "Nicolas Dirks",
+      "Maximilian Schiffer",
+      "Grit Walther"
+    ],
+    "publication_date": "2021-03-22T21:42:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.12189v1",
+    "download_url": "https://arxiv.org/abs/2103.12189v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Discomfort Monitoring System for Residential Electrical Water Heater",
+    "abstract": "An approach is described in this work for detecting discomfort moments during electrical water heater daily usage. The approach employs chromatic analyzing sensors signals of electrical water heater systems for producing distinguishable mapping to characterize and identify selected discomfort moments. The preliminary results obtained indicate that it is possible to distinguish such events in a non-intrusive approach. Hot water comfort detection and classification intelligently through human behavior monitoring and analyses plays an important role in both, energy saving and energy management. The focus is on recording the discomfort situations followed by merging system outcomes with efficiency evaluation will be used to provide helpful recommendations for selecting appropriate operating strategy.",
+    "authors": [
+      "Ziyad Almajali"
+    ],
+    "publication_date": "2021-10-07T19:07:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.03751v1",
+    "download_url": "https://arxiv.org/abs/2110.03751v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Rethinking the Nested U-Net Approach: Enhancing Biomarker Segmentation with Attention Mechanisms and Multiscale Feature Fusion",
+    "abstract": "Identifying biomarkers in medical images is vital for a wide range of biotech applications. However, recent Transformer and CNN based methods often struggle with variations in morphology and staining, which limits their feature extraction capabilities. In medical image segmentation, where data samples are often limited, state-of-the-art (SOTA) methods improve accuracy by using pre-trained encoders, while end-to-end approaches typically fall short due to difficulties in transferring multiscale features effectively between encoders and decoders. To handle these challenges, we introduce a nested UNet architecture that captures both local and global context through Multiscale Feature Fusion and Attention Mechanisms. This design improves feature integration from encoders, highlights key channels and regions, and restores spatial details to enhance segmentation performance. Our method surpasses SOTA approaches, as evidenced by experiments across four datasets and detailed ablation studies. Code: https://github.com/saadwazir/ReN-UNet",
+    "authors": [
+      "Saad Wazir",
+      "Daeyoung Kim"
+    ],
+    "publication_date": "2025-04-08T15:53:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.06158v1",
+    "download_url": "https://arxiv.org/abs/2504.06158v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

@@ -1,0 +1,1370 @@
+[
+  {
+    "title": "Insights into the Carbon chemistry of Mon R2",
+    "abstract": "Aiming to learn about the chemistry of the dense PDR around the ultracompact (UC) HII region in Mon R2, we have observed a series of mm-wavelength transitions of C3H2 and C2H. In addition, we have traced the distribution of other molecules, such as H13CO+, SiO, HCO, and HC3N. These data, together with the reactive ions recently detected, have been considered to determine the physical conditions and to model the PDR chemistry. We then identified two kind of molecules. The first group, formed by the reactive ions (CO+, HOC+) and small hydrocarbons (C2H, C3H2), traces the surface layers of the PDR and is presumably exposed to a high UV field (hence we called it as \"high UV\", or HUV). HUV species is expected to dominate for visual absorptions 2 < Av < 5 mag. A second group (less exposed to the UV field, and hence called \"low UV\", or LUV) includes HCO and SiO, and is mainly present at the edges of the PDR (Av > 5 mag). While the abundances of the HUV molecules can be explained by gas phase models, this is not the case for the studied LUV ones. Although some efficient gas-phase reactions might be lacking, grain chemistry sounds like a probable mechanism able to explain the observed enhancement of HCO and SiO. Within this scenario, the interaction of UV photons with grains produces an important effect on the molecular gas chemistry and constitutes the first evidence of an ionization front created by the UC HII region carving its host molecular cloud. The physical conditions and kinematics of the gas layer which surrounds the UC HII region were derived from the HUV molecules. Molecular hydrogen densities > 4 10^6 cm^(-3) are required to reproduce the observations. Such high densities suggest that the HII region could be pressure-confined by the surrounding high density molecular gas.",
+    "authors": [
+      "J. R. Rizzo",
+      "A. Fuente",
+      "S. Garcia-Burillo"
+    ],
+    "publication_date": "2005-08-14T19:01:59Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0508311v1",
+    "download_url": "https://arxiv.org/abs/astro-ph/0508311v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MACE: A Machine learning Approach to Chemistry Emulation",
+    "abstract": "The chemistry of an astrophysical environment is closely coupled to its dynamics, the latter often found to be complex. Hence, to properly model these environments a 3D context is necessary. However, solving chemical kinetics within a 3D hydro simulation is computationally infeasible for a even a modest parameter study. In order to develop a feasible 3D hydro-chemical simulation, the classical chemical approach needs to be replaced by a faster alternative. We present mace, a Machine learning Approach to Chemistry Emulation, as a proof-of-concept work on emulating chemistry in a dynamical environment. Using the context of AGB outflows, we have developed an architecture that combines the use of an autoencoder (to reduce the dimensionality of the chemical network) and a set of latent ordinary differential equations (that are solved to perform the temporal evolution of the reduced features). Training this architecture with an integrated scheme makes it possible to successfully reproduce a full chemical pathway in a dynamical environment. mace outperforms its classical analogue on average by a factor 26. Furthermore, its efficient implementation in PyTorch results in a sub-linear scaling with respect to the number of hydrodynamical simulation particles.",
+    "authors": [
+      "S. Maes",
+      "F. De Ceuster",
+      "M. Van de Sande",
+      "L. Decin"
+    ],
+    "publication_date": "2024-05-06T08:44:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.03274v1",
+    "download_url": "https://arxiv.org/abs/2405.03274v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "OpenChemIE: An Information Extraction Toolkit For Chemistry Literature",
+    "abstract": "Information extraction from chemistry literature is vital for constructing up-to-date reaction databases for data-driven chemistry. Complete extraction requires combining information across text, tables, and figures, whereas prior work has mainly investigated extracting reactions from single modalities. In this paper, we present OpenChemIE to address this complex challenge and enable the extraction of reaction data at the document level. OpenChemIE approaches the problem in two steps: extracting relevant information from individual modalities and then integrating the results to obtain a final list of reactions. For the first step, we employ specialized neural models that each address a specific task for chemistry information extraction, such as parsing molecules or reactions from text or figures. We then integrate the information from these modules using chemistry-informed algorithms, allowing for the extraction of fine-grained reaction data from reaction condition and substrate scope investigations. Our machine learning models attain state-of-the-art performance when evaluated individually, and we meticulously annotate a challenging dataset of reaction schemes with R-groups to evaluate our pipeline as a whole, achieving an F1 score of 69.5%. Additionally, the reaction extraction results of \\ours attain an accuracy score of 64.3% when directly compared against the Reaxys chemical database. We provide OpenChemIE freely to the public as an open-source package, as well as through a web interface.",
+    "authors": [
+      "Vincent Fan",
+      "Yujie Qian",
+      "Alex Wang",
+      "Amber Wang",
+      "Connor W. Coley",
+      "Regina Barzilay"
+    ],
+    "publication_date": "2024-04-01T20:16:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.01462v1",
+    "download_url": "https://arxiv.org/abs/2404.01462v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Homochirality: a prerequisite or consequence of life?",
+    "abstract": "Many of the building blocks of life such as amino acids and nucleotides are chiral, i.e., different from their mirror image. Contemporary life selects and synthesizes only one of two possible handednesses. In an abiotic environment, however, there are usually equally many left- and right-handed molecules. If homochirality was a prerequisite of life, there must have been physical or chemical circumstances that led to the selection of a certain preference. Conversely, if it was a consequence of life, we must identify possible pathways for accomplishing a transition from a racemic to a homochiral chemistry. After a discussion of the observational evidence, I will review ideas where homochirality of any handedness could emerge as a consequence of the first polymerization events of nucleotides in an emerging RNA world. These mechanisms are not limited to nucleotides, but can also occur for peptides, as a precursor to the RNA world. The question of homochirality is, in this sense, intimately tied to the origin of life. Future Mars missions may be able to detect biomolecules of extant or extinct life. We will therefore also discuss possible experimental setups for determining the chirality of primitive life forms in situ on Mars.",
+    "authors": [
+      "Axel Brandenburg"
+    ],
+    "publication_date": "2020-12-15T20:03:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2012.12850v1",
+    "download_url": "https://arxiv.org/abs/2012.12850v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep Learning for Computational Chemistry",
+    "abstract": "The rise and fall of artificial neural networks is well documented in the scientific literature of both computer science and computational chemistry. Yet almost two decades later, we are now seeing a resurgence of interest in deep learning, a machine learning algorithm based on multilayer neural networks. Within the last few years, we have seen the transformative impact of deep learning in many domains, particularly in speech recognition and computer vision, to the extent that the majority of expert practitioners in those field are now regularly eschewing prior established models in favor of deep learning models. In this review, we provide an introductory overview into the theory of deep neural networks and their unique properties that distinguish them from traditional machine learning algorithms used in cheminformatics. By providing an overview of the variety of emerging applications of deep neural networks, we highlight its ubiquity and broad applicability to a wide range of challenges in the field, including QSAR, virtual screening, protein structure prediction, quantum chemistry, materials design and property prediction. In reviewing the performance of deep neural networks, we observed a consistent outperformance against non-neural networks state-of-the-art models across disparate research topics, and deep neural network based models often exceeded the \"glass ceiling\" expectations of their respective tasks. Coupled with the maturity of GPU-accelerated computing for training deep neural networks and the exponential growth of chemical data on which to train these networks on, we anticipate that deep learning algorithms will be a valuable tool for computational chemistry.",
+    "authors": [
+      "Garrett B. Goh",
+      "Nathan O. Hodas",
+      "Abhinav Vishnu"
+    ],
+    "publication_date": "2017-01-17T01:15:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1701.04503v1",
+    "download_url": "https://arxiv.org/abs/1701.04503v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "High-Order Methods for Hypersonic Flows with Strong Shocks and Real Chemistry",
+    "abstract": "We compare high-order methods including spectral difference (SD), flux reconstruction (FR), the entropy-stable discontinuous Galerkin spectral element method (ES-DGSEM), modal discontinuous Galerkin methods, and WENO to select the best candidate to simulate strong shock waves characteristic of hypersonic flows. We consider several benchmarks, including the Leblanc and modified shock-density wave interaction problems that require robust stabilization and positivity-preserving properties for a successful flow realization. We also perform simulations of the three-species Sod problem with simplified chemistry with the chemical reaction source terms introduced in the Euler equations. The ES-DGSEM scheme exhibits the highest stability, negligible numerical oscillations, and requires the least computational effort in resolving reactive flow regimes with strong shock waves. Therefore, we extend the ES-DGSEM to hypersonic Euler equations by deriving a new set of two-point entropy conservative fluxes for a five-species gas model. Stabilization for capturing strong shock waves occurs by blending high-order entropy conservative fluxes with low-order finite volume fluxes constructed using the HLLC Riemann solver. The hypersonic Euler solver is verified using the non-equilibrium chemistry Sod problem. To this end, we adopt the Mutation++ library to compute the reaction source terms, thermodynamic properties, and transport coefficients. We also investigate the effect of real chemistry versus ideal chemistry, and the results demonstrate that the ideal chemistry assumption fails at high temperatures, hence real chemistry must be employed for accurate predictions. Finally, we consider a viscous hypersonic flow problem to verify the transport coefficients and reaction source terms determined by the Mutation++ library.",
+    "authors": [
+      "Ahmad Peyvan",
+      "Khemraj Shukla",
+      "Jesse Chan",
+      "George Karniadakis"
+    ],
+    "publication_date": "2022-11-22T23:45:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.12635v1",
+    "download_url": "https://arxiv.org/abs/2211.12635v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modeling the Impact of Moderate External UV Irradiation on Disk Chemistry",
+    "abstract": "The chemistry within a protoplanetary disk is greatly affected by external radiation from the local stellar environment. Previous work has focused on extreme radiation fields, representative of the center of something like the Orion Nebula Cluster. However, even in such environments, many disks exist at the edges of a cluster where the lower stellar density leads to radiation fields weaker by orders of magnitude compared to the center. We present new chemical models of a T-Tauri disk in the presence of a moderately increased interstellar radiation field (ISRF). Such an environment has a background UV strength of 10 to 100 times higher than the galactic average ISRF. Moderate radiation fields are among the most prevalent disk-harboring environments and have interesting implications for the chemistry of the outer disk radii. We find that the external UV radiation creates an outer ionization front that impacts the cold disk chemistry to varying degrees, depending on outer disk structure. Certain molecules like C$^+$, N$_2$H$^+$, C, and CS are more strongly impacted by the ISRF in their abundance, column density, and observable emission. Other abundant species like HCO$^+$ and CO are less affected by the external UV flux in the outer disk under such moderate UV conditions. Further, we demonstrate that the chemistry occurring in the inner tens of au is relatively unchanged, which suggests that even in moderately externally irradiated disks, the inner disk chemistry may be more similar to isolated disks like those in, e.g., the Taurus and Lupus star-forming regions.",
+    "authors": [
+      "Rachel E. Gross",
+      "L. Ilsedore Cleeves"
+    ],
+    "publication_date": "2025-01-10T18:28:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2501.06156v1",
+    "download_url": "https://arxiv.org/abs/2501.06156v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Training a Scientific Reasoning Model for Chemistry",
+    "abstract": "Reasoning models are large language models that emit a long chain-of-thought before answering, providing both higher accuracy and explicit reasoning for their response. A major question has been whether language model reasoning generalizes beyond mathematics, programming, and logic, where most previous work has focused. We demonstrate that reasoning models can be post-trained for chemistry without additional domain pretraining, and require substantially less data compared to contemporary domain-specific models. We report ether0, a 24B parameter LLM (based on Mistral-Small-24B) that can reason in natural language and respond with chemical structures. This reasoning model was trained with reinforcement learning on 640,730 experimentally-grounded chemistry problems across 375 tasks ranging from synthesizability, to blood-brain barrier permeability, to human receptor activity, to scent. Our model exceeds general-purpose chemistry models, frontier models, and human experts on molecular design tasks. It is also more data efficient relative to specialized models. We anticipate that this method can be applied to train data-efficient language models specialized for tasks across a wide variety of scientific domains.",
+    "authors": [
+      "Siddharth M. Narayanan",
+      "James D. Braza",
+      "Ryan-Rhys Griffiths",
+      "Albert Bou",
+      "Geemi Wellawatte",
+      "Mayk Caldas Ramos",
+      "Ludovico Mitchener",
+      "Samuel G. Rodriques",
+      "Andrew D. White"
+    ],
+    "publication_date": "2025-06-04T17:57:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.17238v2",
+    "download_url": "https://arxiv.org/abs/2506.17238v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemical potential in disordered organic materials",
+    "abstract": "Charge carrier mobility in disordered organic materials is being actively studied, motivated by several applications such as organic light emitting diodes and organic field-effect transistors. It is known that the mobility in disordered organic materials depends on the chemical potential which in turn depends on the carrier concentration. However, the functional dependence of chemical potential on the carrier concentration is not known. In this study, we focus on the chemical potential in organic materials with Gaussian disorder. We identify three cases of non-degenerate, degenerate and saturated regimes. In each regime we calculate analytically the chemical potential as a function of the carrier concentration and the energetic disorder from the first principles.",
+    "authors": [
+      "A. Sharma",
+      "M. Sheinman"
+    ],
+    "publication_date": "2012-06-21T14:17:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1206.4890v1",
+    "download_url": "https://arxiv.org/abs/1206.4890v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Skeletal editing by tip-induced chemistry",
+    "abstract": "Skeletal editing of cyclic molecules has garnered considerable attention in the context of drug discovery and green chemistry, with notable examples in solution-phase synthesis. Here, we extend the scope of skeletal editing to the single-molecule scale. We demonstrate tip-induced oxygen deletion and ring contraction of an oxygen-containing seven-membered ring on bilayer NaCl films to generate molecules containing the perylene skeleton. The products were identified and characterized by atomic force and scanning tunneling microscopies, which provided access to bond-resolved molecular structures and orbital densities. Insights into the reaction mechanisms were obtained by density functional theory calculations. Our work expands the toolbox of tip-induced chemistry for single-molecule synthesis.",
+    "authors": [
+      "Shantanu Mishra",
+      "Valentina Malave",
+      "Rasmus Svensson",
+      "Henrik Grönbeck",
+      "Florian Albrecht",
+      "Diego Peña",
+      "Leo Gross"
+    ],
+    "publication_date": "2025-09-15T20:34:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.12433v1",
+    "download_url": "https://arxiv.org/abs/2509.12433v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Accurate rate coefficients for models of interstellar gas-grain chemistry",
+    "abstract": "The methodology for modeling grain-surface chemistry has been greatly improved by taking into account the grain size and fluctuation effects. However, the reaction rate coefficients currently used in all practical models of gas-grain chemistry are inaccurate by a significant amount. We provide expressions for these crucial rate coefficients that are both accurate and easy to incorporate into gas-grain models.\n  We use exact results obtained in earlier work, where the reaction rate coefficient was defined by a first-passage problem, which was solved using random walk theory.\n  The approximate reaction rate coefficient presented here is easy to include in all models of interstellar gas-grain chemistry. In contrast to the commonly used expression, the results that it provides are in perfect agreement with detailed kinetic Monte Carlo simulations. We also show the rate coefficient for reactions involving multiple species.",
+    "authors": [
+      "Ingo Lohmar",
+      "Joachim Krug",
+      "Ofer Biham"
+    ],
+    "publication_date": "2009-11-02T18:08:43Z",
+    "arxiv_id": "http://arxiv.org/abs/0911.0365v1",
+    "download_url": "https://arxiv.org/abs/0911.0365v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A missing link in the nitrogen-rich organic chain on Titan",
+    "abstract": "Context. The chemical building blocks of life contain a large proportion of nitrogen, an essential element. Titan, the largest moon of Saturn, with its dense atmosphere of molecular nitrogen and methane, offers an exceptional opportunity to explore how this element is incorporated into carbon chains through atmospheric chemistry in our Solar System. A brownish dense haze is consistently produced in the atmosphere and accumulates on the surface on the moon. This solid material is nitrogen-rich and may contain prebiotic molecules carrying nitrogen. Aims. To date, our knowledge of the processes leading to the incorporation of nitrogen into organic chains has been rather limited. In the present work, we investigate the formation of nitrogen-bearing ions in an experiment simulating Titan s upper atmosphere, with strong implications for the incorporation of nitrogen into organic matter on Titan. Methods. By combining experiments and theoretical calculations, we show that the abundant N2+ ion, produced at high altitude by extreme-ultraviolet solar radiation, is able to form nitrogen-rich organic species. Results. An unexpected and important formation of CH3N2+ and CH2N2+ diazo-ions is experimentally observed when exposing a gas mixture composed of molecular nitrogen and methane to extreme-ultraviolet radiation. Our theoretical calculations show that these diazo-ions are mainly produced by the reaction of N2+ with CH3 radicals. These small nitrogen-rich diazo-ions, with a N/C ratio of two, appear to be a missing link that could explain the high nitrogen content in Titan s organic matter. More generally, this work highlights the importance of reactions between ions and radicals, which have rarely been studied thus far, opening up new perspectives in astrochemistry.",
+    "authors": [
+      "N. Carrasco",
+      "J. Bourgalais",
+      "L. Vettier",
+      "P. Pernot",
+      "E. Giner",
+      "R. Spezia"
+    ],
+    "publication_date": "2022-04-24T13:55:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.11281v1",
+    "download_url": "https://arxiv.org/abs/2204.11281v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Exploring the Origins of Deuterium Enrichments in Solar Nebular Organics",
+    "abstract": "Deuterium-to-hydrogen (D/H) enrichments in molecular species provide clues about their original formation environment. The organic materials in primitive solar system bodies have generally higher D/H ratios and show greater D/H variation when compared to D/H in solar system water. We propose this difference arises at least in part due to 1) the availability of additional chemical fractionation pathways for organics beyond that for water, and 2) the higher volatility of key carbon reservoirs compared to oxygen. We test this hypothesis using detailed disk models, including a sophisticated, new disk ionization treatment with a low cosmic ray ionization rate, and find that disk chemistry leads to higher deuterium enrichment in organics compared to water, helped especially by fractionation via the precursors CH$_2$D$^+$/CH$_3^+$. We also find that the D/H ratio in individual species varies significantly depending on their particular formation pathways. For example, from $\\sim20-40$ AU, CH$_4$ can reach $\\rm{D/H\\sim2\\times10^{-3}}$, while D/H in CH$_3$OH remains locally unaltered. Finally, while the global organic D/H in our models can reproduce intermediately elevated D/H in the bulk hydrocarbon reservoir, our models are unable to reproduce the most deuterium-enriched organic materials in the solar system, and thus our model requires some inheritance from the cold interstellar medium from which the Sun formed.",
+    "authors": [
+      "L. Ilsedore Cleeves",
+      "Edwin A. Bergin",
+      "Conel M. O'D. Alexander",
+      "Fujun Du",
+      "Dawn Graninger",
+      "Karin I. Öberg",
+      "Tim J. Harries"
+    ],
+    "publication_date": "2016-01-21T21:00:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1601.07465v1",
+    "download_url": "https://arxiv.org/abs/1601.07465v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry and line emission from evolving Herbig Ae disks",
+    "abstract": "Aims: To calculate chemistry and gas temperature of evolving protoplanetary disks with decreasing mass or dust settling, and to explore the sensitivity of gas-phase tracers.\n  Methods: The density and dust temperature profiles for a range of models of flaring and self-shadowed disks around a typical Herbig Ae star are used together with 2-dimensional ultraviolet (UV) radiative transfer to calculate the chemistry and gas temperature. In each model the line profiles and intensities for the fine structure lines of [O I], [C II] and [C I] and the pure rotational lines of CO, CN, HCN and HCO+ are determined.\n  Results: The chemistry shows a strong correlation with disk mass. Molecules that are easily dissociated, like HCN, require high densities and large extinctions before they can become abundant. The products of photodissociation, like CN and C2H, become abundant in models with lower masses. Dust settling mainly affects the gas temperature, and thus high temperature tracers like the O and C+ fine structure lines. The carbon chemistry is found to be very sensitive to the adopted PAH abundance. The line ratios CO/13CO, CO/HCO+ and [O I] 63 um/146 um can be used to distinguish between disks where dust growth and settling takes place, and disks that undergo overall mass loss.",
+    "authors": [
+      "B. Jonkheid",
+      "C. P. Dullemond",
+      "M. R. Hogerheijde",
+      "E. F. van Dishoeck"
+    ],
+    "publication_date": "2006-11-07T15:42:09Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0611223v1",
+    "download_url": "https://arxiv.org/abs/astro-ph/0611223v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Interplay between Chemistry and Mechanics in the Transduction of a Mechanical Signal into a Biochemical Function",
+    "abstract": "There are many processes in biology in which mechanical forces are generated. Force-bearing networks can transduce locally developed mechanical signals very extensively over different parts of the cell or tissues. In this article we conduct an overview of this kind of mechanical transduction, focusing in particular on the multiple layers of complexity displayed by the mechanisms that control and trigger the conversion of a mechanical signal into a biochemical function. Single molecule methodologies, through their capability to introduce the force in studies of biological processes in which mechanical stresses are developed, are unveiling subtle intertwining mechanisms between chemistry and mechanics and in particular are revealing how chemistry can control mechanics. The possibility that chemistry interplays with mechanics should be always considered in biochemical studies.",
+    "authors": [
+      "Francesco Valle",
+      "Massimo Sandal",
+      "Bruno Samorí"
+    ],
+    "publication_date": "2007-05-18T16:11:02Z",
+    "arxiv_id": "http://arxiv.org/abs/0705.2706v2",
+    "download_url": "https://arxiv.org/abs/0705.2706v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Effects of Molecular Anions on the Chemistry of Dark Clouds",
+    "abstract": "We have investigated the role of molecular anion chemistry in pseudo-time dependent chemical models of dark clouds. With oxygen-rich elemental abundances, the addition of anions results in a slight improvement in the overall agreement between model results and observations of molecular abundances in TMC-1 (CP). More importantly, with the inclusion of anions, we see an enhanced production efficiency of unsaturated carbon-chain neutral molecules, especially in the longer members of the families CnH, CnH2, and HCnN. The use of carbon-rich elemental abundances in models of TMC-1 (CP) with anion chemistry worsens the agreement with observations obtained in the absence of anions.",
+    "authors": [
+      "Catherine Walsh",
+      "Nanase Harada",
+      "Eric Herbst",
+      "T. J. Millar"
+    ],
+    "publication_date": "2009-05-06T10:51:50Z",
+    "arxiv_id": "http://arxiv.org/abs/0905.0800v1",
+    "download_url": "https://arxiv.org/abs/0905.0800v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "QDB: a new database of plasma chemistries and reactions",
+    "abstract": "One of the most challenging and recurring problems when modelling plasmas is the lack of data on key atomic and molecular reactions that drive plasma processes. Even when there are data for some reactions, complete and validated datasets of chemistries are rarely available. This hinders research on plasma processes and curbs development of industrial applications. The QDB project aims to address this problem by providing a platform for provision, exchange, and validation of chemistry datasets. A new data model developed for QDB is presented. QDB collates published data on both electron scattering and heavy-particle reactions. These data are formed into reaction sets, which are then validated against experimental data where possible. This process produces both complete chemistry sets and identifies key reactions that are currently unreported in the literature. Gaps in the datasets can be filled using established theoretical methods. Initial validated chemistry sets for SF$_6$/CF$_4$/O$_2$ and SF$_6$/CF$_4$/N$_2$/H$_2$ are presented as examples.",
+    "authors": [
+      "Jonathan Tennyson",
+      "Sara Rahimi",
+      "Christian Hill",
+      "Lisa Tse",
+      "Anuradha Vibhakar",
+      "Dolica Akello-Egwel",
+      "Daniel B. Brown",
+      "Anna Dzarasova",
+      "James R. Hamilton",
+      "Dagmar Jaksch",
+      "Sebastian Mohr",
+      "Keir Wren-Little",
+      "Johannes Bruckmeier",
+      "Ankur Agarwal",
+      "Klaus Bartschat",
+      "Annemie Bogaerts",
+      "Jean-Paul Booth",
+      "Matthew J. Goeckner",
+      "Khaled Hassouni",
+      "Yukikazu Itikawa",
+      "Bastiaan J Braams",
+      "E. Krishnakumar",
+      "Annarita Laricchiuta",
+      "Nigel J. Mason",
+      "Sumeet Pandey",
+      "Zoran Lj. Petrovic",
+      "Yi-Kang Pu",
+      "Alok Ranjan",
+      "Shahid Rauf",
+      "Julian Schulze",
+      "Miles M. Turner",
+      "Peter Ventzek",
+      "J. Christopher Whitehead",
+      "Jung-Sik Yoon"
+    ],
+    "publication_date": "2017-04-13T12:34:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1704.04088v1",
+    "download_url": "https://arxiv.org/abs/1704.04088v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Recent advances in solid-state organic lasers",
+    "abstract": "Organic solid-state lasers are reviewed, with a special emphasis on works published during the last decade. Referring originally to dyes in solid-state polymeric matrices, organic lasers also include the rich family of organic semiconductors, paced by the rapid development of organic light emitting diodes. Organic lasers are broadly tunable coherent sources are potentially compact, convenient and manufactured at low-costs. In this review, we describe the basic photophysics of the materials used as gain media in organic lasers with a specific look at the distinctive feature of dyes and semiconductors. We also outline the laser architectures used in state-of-the-art organic lasers and the performances of these devices with regard to output power, lifetime, and beam quality. A survey of the recent trends in the field is given, highlighting the latest developments in terms of wavelength coverage, wavelength agility, efficiency and compactness, or towards integrated low-cost sources, with a special focus on the great challenges remaining for achieving direct electrical pumping. Finally, we discuss the very recent demonstration of new kinds of organic lasers based on polaritons or surface plasmons, which open new and very promising routes in the field of organic nanophotonics.",
+    "authors": [
+      "Sébastien Chenais",
+      "Sebastien Forget"
+    ],
+    "publication_date": "2011-11-24T07:54:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1111.5688v1",
+    "download_url": "https://arxiv.org/abs/1111.5688v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Water formation on bare grains: When the chemistry on dust impacts interstellar gas",
+    "abstract": "Context. Water together with O2 are important gas phase ingredients to cool dense gas in order to form stars. On dust grains, H2 O is an important constituent of the icy mantle in which a complex chemistry is taking place, as revealed by hot core observations. The formation of water can occur on dust grain surfaces, and can impact gas phase composition. Aims. The formation of molecules such as OH, H2 O, HO2, H2 O2, as well as their deuterated forms and O2 and O3 is studied in order to assess how the chemistry varies in different astrophysical environments, and how the gas phase is affected by grain surface chemistry. Methods. We use Monte Carlo simulations to follow the formation of molecules on bare grains as well as the fraction of molecules released into the gas phase. We consider a surface reaction network, based on gas phase reactions, as well as UV photo-dissociation of the chemical species. Results. We show that grain surface chemistry has a strong impact on gas phase chemistry, and that this chemistry is very different for different dust grain temperatures. Low temperatures favor hydrogenation, while higher temperatures favor oxygenation. Also, UV photons dissociate the molecules on the surface, that can reform subsequently. The formation-destruction cycle increases the amount of species released into the gas phase. We also determine the time scales to form ices in diffuse and dense clouds, and show that ices are formed only in shielded environments, as supported by observations.",
+    "authors": [
+      "S. Cazaux",
+      "V. Cobut",
+      "M. Marseille",
+      "M. Spaans",
+      "P. Caselli"
+    ],
+    "publication_date": "2010-07-07T06:40:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1007.1061v1",
+    "download_url": "https://arxiv.org/abs/1007.1061v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Phosphorous chemistry in the shocked region L1157 B1",
+    "abstract": "We study the evolution of phosphorous-bearing species in one-dimensional C-shock models. We find that the abundances of P-bearing species depend sensitively on the elemental abundance of P in the gas phase and on the abundance of N atoms in the pre-shock gas. The observed abundance of PN and the non-detection of PO towards L1157 B1 are reproduced in C-shock models with shock velocity v=20km s-1 and pre-shock density n(H2) =10^4 - 10^5, if the elemental abundance of P in the gas phase is 10^-9 and the N-atom abundance is n(N)/nH - 10^-5 in the pre-shock gas. We also find that P-chemistry is sensitive to O- and N-chemistry, because N atoms are destroyed mainly by OH and NO. We identify the reactions of O-bearing and N-bearing species that significantly affect P chemistry.",
+    "authors": [
+      "Takuhiro Aota",
+      "Yuri Aikawa"
+    ],
+    "publication_date": "2012-10-30T04:05:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1210.7900v1",
+    "download_url": "https://arxiv.org/abs/1210.7900v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Interstellar water chemistry: from laboratory to observations",
+    "abstract": "Water is observed throughout the universe, from diffuse interstellar clouds to protoplanetary disks around young stars, and from comets in our own solar system and exoplanetary atmospheres to galaxies at high redshifts. This review summarizes the spectroscopy and excitation of water in interstellar space as well as the basic chemical processes that form and destroy water under interstellar conditions. Three major routes to water formation are identified: low temperature ion-molecule chemistry, high-temperature neutral-neutral chemistry and gas-ice chemistry. The rate coefficients of several important processes entering the networks are discussed in detail; several of them have been determined only in the last decade through laboratory experiments and theoretical calculations. Astronomical examples of each of the different chemical routes are presented using data from powerful new telescopes, in particular the Herschel Space Observatory. Basic chemical physics studies remain critically important to analyze astronomical data.",
+    "authors": [
+      "Ewine F. van Dishoeck",
+      "Eric Herbst",
+      "David A. Neufeld"
+    ],
+    "publication_date": "2013-12-17T08:21:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1312.4684v1",
+    "download_url": "https://arxiv.org/abs/1312.4684v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Effects of Langmuir Turbulence on Upper Ocean Carbonate Chemistry",
+    "abstract": "Effects of wave-driven Langmuir turbulence on the air-sea flux of carbon dioxide (CO$_2$) are examined using large eddy simulations featuring actively reacting carbonate chemistry in the ocean mixed layer at small scales. Four strengths of Langmuir turbulence are examined with three types of carbonate chemistry: time-dependent, instantaneous equilibrium chemistry, and no reactions. The time-dependent model is obtained by reducing a detailed eight-species chemical mechanism using computational singular perturbation analysis, resulting in a quasi-steady-state approximation for hydrogen ion (H$^+$), i.e., fixed pH. The reduced mechanism is then integrated in two half-time steps before and after the advection solve using a Runge--Kutta--Chebyshev scheme that is robust for stiff systems of differential equations. The simulations show that, as the strength of Langmuir turbulence increases, CO$_2$ fluxes are enhanced by rapid overturning of the near-surface layer, which rivals the removal rate of CO$_2$ by time-dependent reactions. Equilibrium chemistry and non-reactive models are found to bring more and less carbon, respectively, into the ocean as compared to the more realistic time-dependent model. These results have implications for Earth system models that either neglect Langmuir turbulence or use equilibrium, instead of time-dependent, chemical mechanisms.",
+    "authors": [
+      "Katherine M. Smith",
+      "Peter E. Hamlington",
+      "Kyle E. Niemeyer",
+      "Baylor Fox-Kemper",
+      "Nicole S. Lovenduski"
+    ],
+    "publication_date": "2018-09-07T14:32:30Z",
+    "arxiv_id": "http://arxiv.org/abs/1809.02509v1",
+    "download_url": "https://arxiv.org/abs/1809.02509v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Black Hole Chemistry: the first 15 years",
+    "abstract": "The introduction of thermodynamics into gravitational physics began 5 decades ago with the discovery that black holes behave like thermodynamic systems once semiclassical quantum effects are taken into account. Notions of temperature, entropy, work, and phase changes that were introduced into gravitational physics and originally applied to black holes, were later extended to cosmological horizons and other settings as well. A major development occurred 15 years ago with the introduction of pressure in the form of a cosmological constant. By extending the thermodynamic phase space to include this term, along with its conjugate volume, black holes were found to exhibit a broad variety of phase transitions that resembled phenomena seen in chemistry labs. Black hole thermodynamics has become Black Hole Chemistry, which has led to a wealth of insights into the nature of black holes, introducing concepts such as Van der Waals fluids, reentrant phase transitions, and triple points into gravitational physics. I discuss the origins of Black Hole Chemistry and its basic features covered in an earlier review [1], and then go on to describe developments in the subject that have taken place since then. Examples include multicritical behaviour, polymeric transitions, superfluid transitions, scalar hair, heat engines, NUT-charge, acceleration thermodynamics, the Joule-Thompson expansion, holography, complexity, central charge criticality, microstructure, thermodynamic tension, phase dynamics, and thermodynamic topology. This wealth of new phenomena suggest that we likely still have a lot to learn from Black Hole Chemistry.",
+    "authors": [
+      "Robert B. Mann"
+    ],
+    "publication_date": "2025-08-03T16:32:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.01830v1",
+    "download_url": "https://arxiv.org/abs/2508.01830v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Non-Spatial Hash Chemistry as a Minimalistic Open-Ended Evolutionary System",
+    "abstract": "There is an increasing level of interest in open-endedness in the recent literature of Artificial Life and Artificial Intelligence. We previously proposed the cardinality leap of possibility spaces as a promising mechanism to facilitate open-endedness in artificial evolutionary systems, and demonstrated its effectiveness using Hash Chemistry, an artificial chemistry model that used a hash function as a universal fitness evaluator. However, the spatial nature of Hash Chemistry came with extensive computational costs involved in its simulation, and the particle density limit imposed to prevent explosion of computational costs prevented unbounded growth in complexity of higher-order entities. To address these limitations, here we propose a simpler non-spatial variant of Hash Chemistry in which spatial proximity of particles are represented explicitly in the form of multisets. This model modification achieved a significant reduction of computational costs in simulating the model. Results of numerical simulations showed much more significant unbounded growth in both maximal and average sizes of replicating higher-order entities than the original model, demonstrating the effectiveness of this non-spatial model as a minimalistic example of open-ended evolutionary systems.",
+    "authors": [
+      "Hiroki Sayama"
+    ],
+    "publication_date": "2024-04-27T23:29:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.18027v1",
+    "download_url": "https://arxiv.org/abs/2404.18027v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimized random chemistry",
+    "abstract": "The random chemistry algorithm of Kauffman can be used to determine an unknown subset S of a fixed set V. The algorithm proceeds by zeroing in on S through a succession of nested subsets V=V_0,V_1,...,V_m=S. In Kauffman's original algorithm, the size of each V_i is chosen to be half the size of V_{i-1}. In this paper we determine the optimal sequence of sizes so as to minimize the expected run time of the algorithm.",
+    "authors": [
+      "Jeffrey S. Buzas",
+      "Gregory S. Warrington"
+    ],
+    "publication_date": "2013-02-12T19:32:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.2895v2",
+    "download_url": "https://arxiv.org/abs/1302.2895v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry of a light impurity in a Bose-Einstein condensate",
+    "abstract": "In ultracold atomic gases, a unique interplay arises between phenomena known from condensed matter physics, few-body physics and chemistry. Similar to an electron in a solid, an impurity in an ultracold gas can get dressed by excitations from the medium, forming a quasiparticle called the polaron. We study how dressing of an impurity leads to a modification of its chemical reactivity. Using a Gaussian state variational method in the frame of the impurity, we demonstrate that three-body correlations lead to an instability of the polaron. This instability is connected to an Efimov resonance, but shifted to smaller interactions by many-body effects, showing that polaron formation stimulates Efimov physics and the associated chemistry.",
+    "authors": [
+      "Arthur Christianen",
+      "J. Ignacio Cirac",
+      "Richard Schmidt"
+    ],
+    "publication_date": "2021-08-06T15:43:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.03174v1",
+    "download_url": "https://arxiv.org/abs/2108.03174v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Visible-Light Photoionization of Aromatic Molecules in Water-Ice: Organic Chemistry across the Universe with Less Energy",
+    "abstract": "Ionization of gas-phase organic molecules such as polycyclic aromatic hydrocarbons (PAHs) requires vacuum ultraviolet photons at wavelengths shorter than 200 nm (~6-9 eV). We present here for the first time that visible photons - accessible through sunlight - can cause photoionization of trapped PAHs in cryogenic water-ice, accounting for 4.4 eV less ionization energy than in the gas phase. This finding opens up new reaction pathways involving low-energy ionization in many environments where water and organic matter coexist. This include the interstellar medium, molecular clouds, protoplanetary disks, and planetary surfaces and atmospheres (including Earth).",
+    "authors": [
+      "Antti Lignell",
+      "Laura I. Tanalenda-Ossorio",
+      "Murthy S. Gudipati"
+    ],
+    "publication_date": "2021-06-08T18:22:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.04623v1",
+    "download_url": "https://arxiv.org/abs/2106.04623v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Monte Carlo Simulation of Carrier Diffusion in Organic Thin Films with Morphological Inhomogeneity",
+    "abstract": "Monte Carlo simulation was carried out to understand the influence of morphological inhomogeneity on carrier diffusion in organic thin films. The morphological inhomogeneity was considered in the simulation by incorporating the regions of low energetic disorder in a host lattice of high energetic disorder which decreases the overall energetic disorder of the system. For the homogeneous films, the carrier diffusion was found to decrease upon decreasing the energetic disorder. In contrast to this, in the case of inhomogeneous films the carrier diffusion enhanced upon decreasing the overall energetic disorder, up to an optimum value and beyond which the carrier diffusion decreased. Through our simulation, we observed that the behavior of carrier diffusion in the inhomogeneous case is due to the morphology dependent carrier spreading, which acts in addition to the thermal and non-thermal field assisted diffusion mechanisms. This morphological dependence of carrier spreading arises due to the generation of packets of carriers with different jump rates, which is after effect of slow relaxation of the carriers generated in the less disordered regions of inhomogeneous system. Our simulation of morphology dependent carrier spreading and its influence on the basic diffusion process provide deeper insight into the charge transport mechanisms in organic thin films.",
+    "authors": [
+      "S. Raj Mohan",
+      "Manoranjan P. Singh",
+      "M. P. Joshi",
+      "L. M. Kukreja"
+    ],
+    "publication_date": "2013-08-07T04:34:50Z",
+    "arxiv_id": "http://arxiv.org/abs/1308.1476v2",
+    "download_url": "https://arxiv.org/abs/1308.1476v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Lightning Chemistry on Earth-like Exoplanets",
+    "abstract": "We present a model for lightning shock induced chemistry that can be applied to atmospheres of arbitrary H/C/N/O chemistry, hence for extrasolar planets and brown dwarfs. The model couples hydrodynamics and the STAND2015 kinetic gas-phase chemistry. For an exoplanet analogue to the contemporary Earth, our model predicts NO and NO2 yields in agreement with observation. We predict height-dependent mixing ratios during a storm soon after a lightning shock of NO ~ 1e-3 at 40 km and NO2 ~ 1e-4 below 40 km, with O3 reduced to trace quantities (<< 1e-10). For an Earth-like exoplanet with a CO2/N2 dominated atmosphere and with an extremely intense lightning storm over its entire surface, we predict significant changes in the amount of NO, NO2, O3, H2O, H2, and predict significant abundance of C2N. We find that, for the Early Earth, O2 is formed in large quantities by lightning but is rapidly processed by the photochemistry, consistent with previous work on lightning. The effect of persistent global lightning storms are predicted to be significant, primarily due to NO2, with the largest spectral features present at ~3.4 μm and ~6.2 μm. The features within the transmission spectrum are on the order of 1 ppm and therefore are not likely detectable with JWST. Depending on its spectral properties, C2N could be a key tracer for lightning on Earth-like exoplanets with a N2/CO2 bulk atmosphere, unless destroyed by yet unknown chemical reactions.",
+    "authors": [
+      "Aleksandra Ardaseva",
+      "Paul B. Rimmer",
+      "Ingo Waldmann",
+      "Marco Rocchetto",
+      "Sergei N. Yurchenko",
+      "Christiane Helling",
+      "Jonathan Tennyson"
+    ],
+    "publication_date": "2017-04-25T21:52:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1704.07917v1",
+    "download_url": "https://arxiv.org/abs/1704.07917v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Interpretable and Explainable Machine Learning for Materials Science and Chemistry",
+    "abstract": "While the uptake of data-driven approaches for materials science and chemistry is at an exciting, early stage, to realise the true potential of machine learning models for successful scientific discovery, they must have qualities beyond purely predictive power. The predictions and inner workings of models should provide a certain degree of explainability by human experts, permitting the identification of potential model issues or limitations, building trust on model predictions and unveiling unexpected correlations that may lead to scientific insights. In this work, we summarize applications of interpretability and explainability techniques for materials science and chemistry and discuss how these techniques can improve the outcome of scientific studies. We discuss various challenges for interpretable machine learning in materials science and, more broadly, in scientific settings. In particular, we emphasize the risks of inferring causation or reaching generalization by purely interpreting machine learning models and the need of uncertainty estimates for model explanations. Finally, we showcase a number of exciting developments in other fields that could benefit interpretability in material science and chemistry problems.",
+    "authors": [
+      "Felipe Oviedo",
+      "Juan Lavista Ferres",
+      "Tonio Buonassisi",
+      "Keith Butler"
+    ],
+    "publication_date": "2021-11-01T15:40:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.01037v2",
+    "download_url": "https://arxiv.org/abs/2111.01037v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Resistive Switching Behaviour of Organic Molecules",
+    "abstract": "Organic electronics is very promising due to the flexibility, modifiability as well as variety of the available organic molecules. Efforts are going on to use organic materials for the realization of memory devices. In this regard resistive switching devices surely will play a key role. In this paper an effort has been made to illustrate the general information about resistive switching devices as well as switching mechanisms involving organic materials. As a whole a general overview of the emerging topic resistive switching has been given.",
+    "authors": [
+      "Bapi Dey",
+      "Surajit Sarkar",
+      "Hritinava Banik",
+      "Syed Arshad Hussain"
+    ],
+    "publication_date": "2020-05-03T09:53:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.01033v1",
+    "download_url": "https://arxiv.org/abs/2005.01033v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Assessment of dynamic adaptive chemistry with tabulated reactions for the simulation of unsteady multiregime combustion phenomena",
+    "abstract": "Solving chemistry is an integral part of reacting flow simulations, usually dominating the computational cost. Among the different strategies to accelerate the solution of chemistry and to achieve realizable simulations, the use of Dynamic Adaptive Chemistry (DAC) stands out among other methods. DAC methods are based on the use of reduced mechanisms generated from local conditions. The reduction process is computationally expensive and strategies for reducing the frequency of reduction and the re-utilization of the generated reduced mechanisms are key in making DAC methods computationally affordable. In this study, a new method hereby referred as Tabulated Reactions for Adaptive Chemistry (TRAC) is proposed to correlate chemical states with their reduced mechanisms in order to reduce both the frequency of reduction and to allow for re-utilization of reduced chemical schemes. TRAC introduces a mechanism tabulation strategy based on the use of a low-dimensional space that defines the thermo-chemical conditions for which specific reduced reaction mechanisms are stored. Chemistry reduction is achieved by the use of Path Flux Analysis (PFA) with a reaction rate-sensitivity method to achieve further reduction in the reaction mechanisms. The new TRAC proposal is applied to various canonical transient problems and the results are compared with reference solutions obtained from detailed chemistry calculations. A speedup of about 4x was achieved with TRAC while maintaining an error under 3 % in the prediction of the major and minor species, flame structure, and flame propagation.",
+    "authors": [
+      "Anurag Surapaneni",
+      "Daniel Mira Martinez"
+    ],
+    "publication_date": "2023-03-17T15:09:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.10040v1",
+    "download_url": "https://arxiv.org/abs/2303.10040v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Polyhedra in physics, chemistry and geometry",
+    "abstract": "In this article we review some problems in physics, chemistry and mathematics that lead naturally to a class of polyhedra which include the Platonic solids. Examples include the study of electrons on a sphere, cages of carbon atoms, central configurations of gravitating point particles, rare gas microclusters, soliton models of nuclei, magnetic monopole scattering and geometrical problems concerning point particles.",
+    "authors": [
+      "Michael Atiyah",
+      "Paul Sutcliffe"
+    ],
+    "publication_date": "2003-03-31T10:02:12Z",
+    "arxiv_id": "http://arxiv.org/abs/math-ph/0303071v1",
+    "download_url": "https://arxiv.org/abs/math-ph/0303071v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry and High Temperature Superconductivity",
+    "abstract": "Seven distinct families of superconductors with critical temperatures at ambient pressure that equal or surpass the historic 23 K limit for Nb3Ge have been discovered in the last 25 years. Each family is reviewed briefly and their common chemical features are discussed. High temperature superconductors are distinguished by having a high (\\geq 50%) content of nonmetallic elements and fall into two broad classes. 'Metal-nonmetal' superconductors require a specific combination of elements such as Cu-O and Fe-As which give rise to the highest known Tc's, probably through a magnetic pairing mechanism. 'Nonmetal-bonded' materials contain covalently-bonded nonmetal anion networks and are BCS-like superconductors. Fitting an extreme value function to the distribution of Tc values for the known high-Tc families suggests that the probability of a newly discovered superconductor family having maximum Tc > 100 K is ~0.1-1%, decreasing to ~0.02-0.2% for room temperature superconductivity.",
+    "authors": [
+      "J. Paul Attfield"
+    ],
+    "publication_date": "2010-12-08T14:26:17Z",
+    "arxiv_id": "http://arxiv.org/abs/1012.1771v1",
+    "download_url": "https://arxiv.org/abs/1012.1771v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "El Agente: An Autonomous Agent for Quantum Chemistry",
+    "abstract": "Computational chemistry tools are widely used to study the behaviour of chemical phenomena. Yet, the complexity of these tools can make them inaccessible to non-specialists and challenging even for experts. In this work, we introduce El Agente Q, an LLM-based multi-agent system that dynamically generates and executes quantum chemistry workflows from natural language user prompts. The system is built on a novel cognitive architecture featuring a hierarchical memory framework that enables flexible task decomposition, adaptive tool selection, post-analysis, and autonomous file handling and submission. El Agente Q is benchmarked on six university-level course exercises and two case studies, demonstrating robust problem-solving performance (averaging >87% task success) and adaptive error handling through in situ debugging. It also supports longer-term, multi-step task execution for more complex workflows, while maintaining transparency through detailed action trace logs. Together, these capabilities lay the foundation for increasingly autonomous and accessible quantum chemistry.",
+    "authors": [
+      "Yunheng Zou",
+      "Austin H. Cheng",
+      "Abdulrahman Aldossary",
+      "Jiaru Bai",
+      "Shi Xuan Leong",
+      "Jorge Arturo Campos-Gonzalez-Angulo",
+      "Changhyeok Choi",
+      "Cher Tian Ser",
+      "Gary Tom",
+      "Andrew Wang",
+      "Zijian Zhang",
+      "Ilya Yakavets",
+      "Han Hao",
+      "Chris Crebolder",
+      "Varinia Bernales",
+      "Alán Aspuru-Guzik"
+    ],
+    "publication_date": "2025-05-05T09:07:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.02484v2",
+    "download_url": "https://arxiv.org/abs/2505.02484v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Gini means and its applications in polymer chemistry",
+    "abstract": "We consider Gini means with short biographical information and propose a new proof of the main inequality for these means. Also some applications of Gini and other means are considered to polymer chemistry.",
+    "authors": [
+      "A. B. Pevnyi",
+      "S. M. Sitnik"
+    ],
+    "publication_date": "2016-09-05T17:48:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1609.01236v1",
+    "download_url": "https://arxiv.org/abs/1609.01236v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Glycol-Water Interactions and co-existing phases and Temperature Dependent Solubility. An Example Of Carbon-Hydrogen Chemistry In Water",
+    "abstract": "Recently there has been great interest in Glycol-Water chemistry and solubility and temperature dependent phase dynamics. The Glycol-Water biochemistry of interactions is present in plant biology and chemistry, is of great interest to chemical engineers and biochemists as it is a paradigm of Carbon-Hydrogen Water organic chemistry. There is an interest moreover in formulating a simpler theory and computation model for the Glycol-Water interaction and phase dynamics, that is not fully quantum mechanical yet has the high accuracy available from a fully quantum mechanical theory of phase transitions of fluids and Fermi systems. Along these lines of research interest we have derived a Lennard-Jones -like theory of interacting molecules-Water in a dissolved adducts of Glycol-Water system interacting by Hydrogen bonds whose validity is supported at the scale of interactions by other independent molecular dynamics investigations that utilize force fields dependent on their experimental fittings to the Lennard-Jones potential and where we have relaxed or generalized the potential to arbitrary and possibly fractional powers. The theory then is a semi-classical theory as the repulsion of particles is incorporated in the Lennard-Jones -like potential's energy required to bring two molecules together, a repulsion of sorts. We derive distributions for the molecular species that are exactly solved, and are derived from maximum entropy, here the semi-classical analogue of the Hamiltonian superposition of quantum phase theory of fluids. We also derive the similar statistics from the microscopic SDEs stochastic differential dynamics equations, verifying the macroscopic state function entropic-thermodynamic derivation.",
+    "authors": [
+      "Fredrick Michael"
+    ],
+    "publication_date": "2010-10-26T12:42:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1010.5381v1",
+    "download_url": "https://arxiv.org/abs/1010.5381v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Fast, Parallelized, GPU-Accelerated Photochemical Model, XODIAC, with Built-in Equilibrium Chemistry and Multiple Chemical Networks for Exoplanetary Atmospheres",
+    "abstract": "The launch of the James Webb Space Telescope (JWST) has delivered high-quality atmospheric observations and expanded the known chemical inventory of exoplanetary atmospheres, opening new avenues for atmospheric chemistry modeling to interpret these data. Here, we present XODIAC, a fast, GPU-accelerated, one-dimensional photochemical model with a built-in equilibrium chemistry solver, an updated thermochemical database, and three chemical reaction networks. This framework enables comparative atmospheric chemistry studies, including the newly developed XODIAC-2025 network, a state-of-the-art C-H-O-N-P-S-Metals network, linking 594 species through 7,720 reactions. The other two are existing, publicly available C-H-O-N-S and C-H-O-N-S-Metals networks, from the established photochemical models VULCAN and ARGO, respectively, which are commonly used in the community. The XODIAC model has been rigorously benchmarked on the well-studied hot Jupiter HD 189733 b, with results compared against these two models. Benchmarking shows excellent agreement and demonstrates that, when the same chemical network and initial conditions are used, the numerical scheme for solving atmospheric chemistry does not significantly affect the results. We also revisited the atmospheric chemistry of HD 189733 b and performed a comparative analysis across the three networks. Sulfur chemistry shows the least variation across networks, carbon chemistry shows slightly more, and phosphorus chemistry varies the most, primarily due to the introduction of unique PHO and PN pathways comprising 390 reactions in the XODIAC-2025 network. These findings highlight XODIAC's capability to advance exoplanetary atmospheric chemistry and provide a robust framework for comparative exoplanetology.",
+    "authors": [
+      "Priyankush Ghosh",
+      "Sambit Mishra",
+      "Shubham Dey",
+      "Debayan Das",
+      "Paul B. Rimmer",
+      "Liton Majumdar"
+    ],
+    "publication_date": "2025-12-07T08:50:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.06729v1",
+    "download_url": "https://arxiv.org/abs/2512.06729v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "QREChem: Quantum Resource Estimation Software for Chemistry Applications",
+    "abstract": "As quantum hardware continues to improve, more and more application scientists have entered the field of quantum computing. However, even with the rapid improvements in the last few years, quantum devices, especially for quantum chemistry applications, still struggle to perform calculations that classical computers could not calculate. In lieu of being able to perform specific calculations, it is important have a systematic way of estimating the resources necessary to tackle specific problems. Standard arguments about computational complexity provide hope that quantum computers will be useful for problems in quantum chemistry but obscure the true impact of many algorithmic overheads. These overheads will ultimately determine the precise point when quantum computers will perform better than classical computers. We have developed QREChem to provide logical resource estimates for ground state energy estimation in quantum chemistry through a Trotter-based quantum phase estimation approach. QREChem provides resource estimates which include the specific overheads inherent to problems in quantum chemistry by including heuristic estimates of the number of Trotter steps and number of necessary ancilla, allowing for more accurate estimates of the total number of gates. We utilize QREChem to provide logical resource estimates for a variety of small molecules in various basis sets, obtaining estimates in the range of $10^7-10^{15}$ for total number of T gates. We also determine estimates for the FeMoco molecule and compare all estimates to other resource estimation tools.",
+    "authors": [
+      "Matthew Otten",
+      "Byeol Kang",
+      "Dmitry Fedorov",
+      "Anouar Benali",
+      "Salman Habib",
+      "Yuri Alexeev",
+      "Stephen K. Gray"
+    ],
+    "publication_date": "2024-04-25T06:08:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.16351v1",
+    "download_url": "https://arxiv.org/abs/2404.16351v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry Along Accretion Streams in a Viscously-Evolving Protoplanetary Disk",
+    "abstract": "The composition of a protoplanetary disk is set by a combination of interstellar inheritance and gas and grain surface chemical reactions within the disk. The survival of inherited molecules, as well as the disk in situ chemistry depends on the local temperature, density and irradiation environment, which can change over time due to stellar and disk evolution, as well as transport in the disk. We address one aspect of this coupling between the physical and chemical evolution in disks by following accretion streamlines of gas and small grains in the disk midplane, while simultaneously taking the evolving star into account. This approach is computationally efficient and enables us to take into account changing physical conditions without reducing the chemical network. We find that many species are enhanced in the inner disk midplane in the dynamic model due to inward transport of cosmic-ray driven chemical products, resulting in, e.g., orders-of magnitude hydrocarbon enhancements at 1 au, compared to a static disk. For several other chemical families, there is no difference between the static and dynamic models, indicative of a robust chemical reset, while yet others show differences between static and dynamic models that depend on complex interactions between physics and chemistry during the inward track. The importance of coupling dynamics and chemistry when modeling the chemical evolution of protoplanetary disks is thus depends on what chemistry is of interest.",
+    "authors": [
+      "Ellen M. Price",
+      "L. Ilsedore Cleeves",
+      "Karin I. Öberg"
+    ],
+    "publication_date": "2020-02-11T19:58:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.04651v1",
+    "download_url": "https://arxiv.org/abs/2002.04651v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evolution of Chemistry in the envelope of Hot Corinos (ECHOS). I. Extremely young sulphur chemistry in the isolated Class 0 object B335",
+    "abstract": "Within the project Evolution of Chemistry in the envelope of HOt corinoS (ECHOS), we present a study of sulphur chemistry in the envelope of the Class 0 source B335 through observations in the spectral range 7, 3, and 2 mm. We have modelled observations assuming LTE and LVG approximation. We have also used the code Nautilus to study the time evolution of sulphur species. We have detected 20 sulphur species with a total gas-phase S abundance similar to that found in the envelopes of other Class 0 objects, but with significant differences in the abundances between sulphur carbon chains and sulphur molecules containing oxygen and nitrogen. Our results highlight the nature of B335 as a source especially rich in sulphur carbon chains unlike other Class 0 sources. The low presence or absence of some molecules, such as SO and SO+, suggests a chemistry not particularly influenced by shocks. We, however, detect a large presence of HCS+ that, together with the low rotational temperatures obtained for all the S species (<15 K), reveals the moderate or low density of the envelope of B335. We also find that observations are better reproduced by models with a sulphur depletion factor of 10 with respect to the sulphur cosmic elemental abundance. The comparison between our model and observational results for B335 reveals an age of 10$^4$$<$t$<$10$^5$ yr, which highlights the particularly early evolutionary stage of this source. B335 presents a different chemistry compared to other young protostars that have formed in dense molecular clouds, which could be the result of accretion of surrounding material from the diffuse cloud onto the protostellar envelope of B335. In addition, the analysis of the SO2/C2S, SO/CS, and HCS+/CS ratios within a sample of prestellar cores and Class 0 objects show that they could be used as good chemical evolutionary indicators of the prestellar to protostellar transition.",
+    "authors": [
+      "G. Esplugues",
+      "M. Rodríguez-Baras",
+      "D. San Andrés",
+      "D. Navarro-Almaida",
+      "A. Fuente",
+      "P. Rivière-Marichalar",
+      "Á. Sánchez-Monge",
+      "M. N. Drozdovskaya",
+      "S. Spezzano",
+      "P. Caselli"
+    ],
+    "publication_date": "2023-09-04T16:51:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.01713v1",
+    "download_url": "https://arxiv.org/abs/2309.01713v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hydrogen Atoms on Zigzag Graphene Nanoribbons: Chemistry and Magnetism Meet at the Edge",
+    "abstract": "Although the unconventional $π$-magnetism at the zigzag edges of graphene holds promise for a wide array of applications, whether and to what degree it plays a role in their chemistry remains poorly understood. Here, we investigate the addition of a hydrogen atom $-$ the simplest yet the most experimentally relevant adsorbate $-$ to zigzag graphene nanoribbons (ZGNRs). We show that the $π$-magnetism governs the chemistry of ZGNRs, giving rise to a site-dependent reactivity of the carbon atoms and driving the hydrogenation process to the nanoribbon edges. Conversely, the chemisorbed hydrogen atom governs the $π$-magnetism of ZGNRs, acting as a spin-$\\frac{1}{2}$ paramagnetic center in the otherwise antiferromagnetic ground state and spin-polarizing the charge carriers at the band extrema. Our findings establish a comprehensive picture of the peculiar interplay between chemistry and magnetism that emerges at the zigzag edges of graphene.",
+    "authors": [
+      "Michele Pizzochero",
+      "Efthimios Kaxiras"
+    ],
+    "publication_date": "2022-01-25T17:25:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.10482v1",
+    "download_url": "https://arxiv.org/abs/2201.10482v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Exploring refractory organics in extraterrestrial particles",
+    "abstract": "The origin of organic compounds detected in meteorites and comets, some of which could serve as precursors of life on Earth, still remains an open question. The aim of the present study is to make one more step in revealing the nature and composition of organic materials of extraterrestrial particles by comparing infrared spectra of laboratory-made refractory organic residues to the spectra of cometary particles returned by the Stardust mission, interplanetary dust particles, and meteorites. Our results reinforce the idea of a pathway for the formation of refractory organics through energetic and thermal processing of molecular ices in the solar nebula. There is also the possibility that some of the organic material formed already in the parental molecular cloud before it entered the solar nebula. The majority of the IR \"organic\" bands of the studied extraterrestrial particles can be reproduced in the spectra of the laboratory organic residues. We confirm the detection of water, nitriles, hydrocarbons, and carbonates in extraterrestrial particles and link it to the formation location of the particles in the outer regions of the solar nebula. To clarify the genesis of the species, high-sensitivity observations in combination with laboratory measurements like those presented in this paper are needed. Thus, this study presents one more piece of the puzzle of the origin of water and organic compounds on Earth and motivation for future collaborative laboratory and observational projects.",
+    "authors": [
+      "Alexey Potapov",
+      "Maria Elisabetta Palumbo",
+      "Zelia Dionnet",
+      "Andrea Longobardo",
+      "Cornelia Jäger",
+      "Giuseppe Baratta",
+      "Alessandra Rotundi",
+      "Thomas Henning"
+    ],
+    "publication_date": "2022-07-06T09:35:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.02537v1",
+    "download_url": "https://arxiv.org/abs/2207.02537v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Measurement for Quantum Chemistry on a Quantum Computer",
+    "abstract": "Quantum chemistry is among the most promising applications of quantum computing, offering the potential to solve complex electronic structure problems more efficiently than classical approaches. A critical component of any quantum algorithm is the measurement step, where the desired properties are extracted from a quantum computer. This review focuses on recent advancements in quantum measurement techniques tailored for quantum chemistry, particularly within the second quantized framework suitable for current and near-term quantum hardware. We provide a comprehensive overview of measurement strategies developed primarily for the Variational Quantum Eigensolver (VQE) and its derivatives. These strategies address the inherent challenges posed by complexity of the electronic Hamiltonian operator. Additionally, we examine methods for estimating excited states and one- and two-electron properties, extending the applicability of quantum algorithms to broader chemical phenomena. Key aspects of the review include approaches for constructing measurement operators with reduced classical preprocessing and quantum implementation costs, techniques to minimize the number of measurements required for a given accuracy, and error mitigation strategies that leverage symmetries and other properties of the measurement operators. Furthermore, we explore measurement schemes rooted in Quantum Phase Estimation (QPE), which are expected to become viable with the advent of fault-tolerant quantum computing. This review emphasizes foundational concepts and methodologies rather than numerical benchmarks, serving as a resource for researchers aiming to enhance the efficiency and accuracy of quantum measurements in quantum chemistry.",
+    "authors": [
+      "Smik Patel",
+      "Praveen Jayakumar",
+      "Tzu-Ching Yen",
+      "Artur F. Izmaylov"
+    ],
+    "publication_date": "2025-01-24T23:06:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2501.14968v2",
+    "download_url": "https://arxiv.org/abs/2501.14968v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A new look at sulphur chemistry in hot cores and corinos",
+    "abstract": "Sulphur-bearing species are often used to probe the evolution of hot cores since their abundances are particularly sensitive to physical and chemical variations. However, the chemistry of sulphur is not well understood in these regions, notably because observations of several hot cores displayed a large variety of sulphur compositions, and because the reservoir of sulphur in dense clouds, in which hot cores form, is still poorly constrained. In order to help disentangled its complexity, we present a fresh comprehensive review of sulphur chemistry in hot cores along with a study of its sensibility to temperature and pre-collapse chemical composition. In parallel, we analyse the discrepencies that result from the use of two different types of models (static and dynamic) to highlight the sensitivity to the choice of model to be used in astrochemical studies. Our results show that the pre-collapse chemical composition is a critical parameter for sulphur chemistry in hot cores and could explain the different sulphur compositions observed. We also report that differences in abundances for a given species between the static and dynamic models can reach six orders of magnitude in the hot core, which reveals the key role of the choice of model in astrochemical studies.",
+    "authors": [
+      "Thomas H. G. Vidal",
+      "Valentine Wakelam"
+    ],
+    "publication_date": "2017-11-30T14:09:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1711.11406v1",
+    "download_url": "https://arxiv.org/abs/1711.11406v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The $GW$ Approximation: A Quantum Chemistry Perspective",
+    "abstract": "We provide an in-depth examination of the $GW$ approximation of Green's function many-body perturbation theory by detailing both its theoretical and practical aspects in the realm of quantum chemistry. First, the quasiparticle context is introduced before delving into the derivation of Hedin's equations. From these, we explain how to derive the well-known $GW$ approximation of the self-energy. In a second time, we meticulously explain each step involved in a $GW$ calculation and what type of physical quantities can be computed. To illustrate its versatility, we consider two contrasting systems: the water molecule, a weakly correlated system, and the carbon dimer, a strongly correlated system. Each stage of the process is thoroughly detailed and explained alongside numerical results and illustrative plots. We hope that the contribution will facilitate the dissemination and democratization of Green's function-based formalisms within the computational and theoretical quantum chemistry community.",
+    "authors": [
+      "Antoine Marie",
+      "Abdallah Ammar",
+      "Pierre-François Loos"
+    ],
+    "publication_date": "2023-11-09T13:21:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.05351v2",
+    "download_url": "https://arxiv.org/abs/2311.05351v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Contact-free probing of interfacial charging and Debye-like charge screening in SiO$_2$/PDI8-CN$_2$ systems by optical second harmonic generation",
+    "abstract": "Investigation of the interfacial electronic properties of N,N'-bis(n-octyl)-(1,7&1,6)-dicyanoperylene-3,4:9,10-bisdicarboximide (PDI8-CN2) organic semiconductor films grown on silicon dioxide is performed by polarization-resolved second harmonic generation optical spectroscopy, pointing out a spatial region where charge carriers distribution in the semiconductor lacks inversion symmetry. By developing a model for nonlinear susceptibility in the framework of Debye-Huckel screening theory, we show that the experimental findings can be interpreted as resulting from the presence of a net charge localized at the silicon dioxide, accompanied by a non-uniform charge distribution in the organic semiconductor. Photoluminescence analysis further reinforces this scenario. Reduction-oxidation reactions involving PDI8-CN2 and water molecules are invoked as physical origin of the localized charge. The work outlines a sensitive tool to probe the total charge localized at buried semiconductor/dielectric interfaces in organic thin-film transistors without resorting to invasive contact-based analyses.",
+    "authors": [
+      "Francesca Ciccullo",
+      "Antonio Cassinese",
+      "Emanuele Orabona",
+      "Luigi Santamaria",
+      "Pasquale Maddalena",
+      "Stefano Lettieri"
+    ],
+    "publication_date": "2013-06-30T19:33:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1307.0233v1",
+    "download_url": "https://arxiv.org/abs/1307.0233v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Molecular Chemistry for Dark Matter III: DarkKROME",
+    "abstract": "Dark matter that is dissipative may cool sufficiently to form compact objects, including black holes. Determining the abundance and mass spectrum of those objects requires an accurate model of the chemistry relevant for the cooling of the dark matter gas. Here we introduce a chemistry tool for dark matter, DarkKROME, an extension of the KROME software package. DarkKROME is designed to include all atomic and molecular processes relevant for dark matter with two unequal-mass fundamental fermions, interacting via a massless-photon mediated $U(1)$ force. We use DarkKROME to perform one-zone collapse simulations and study the evolution of temperature-density phase diagrams for various dark-sector parameters.",
+    "authors": [
+      "Michael Ryan",
+      "Sarah Shandera",
+      "James Gurian",
+      "Donghui Jeong"
+    ],
+    "publication_date": "2021-10-22T18:00:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.11971v2",
+    "download_url": "https://arxiv.org/abs/2110.11971v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Black Hole Chemistry",
+    "abstract": "The mass of a black hole has traditionally been identified with its energy. We describe a new perspective on black hole thermodynamics, one that identifies the mass of a black hole with chemical enthalpy, and the cosmological constant as thermodynamic pressure. This leads to an understanding of black holes from the viewpoint of chemistry, in terms of concepts such as Van der Waals fluids, reentrant phase transitions, and triple points. Both charged and rotating black holes exhibit novel chemical-type phase behaviour, hitherto unseen.",
+    "authors": [
+      "David Kubiznak",
+      "Robert B. Mann"
+    ],
+    "publication_date": "2014-04-08T13:43:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1404.2126v1",
+    "download_url": "https://arxiv.org/abs/1404.2126v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Investigations of Metal-Organic structures for applications in Organic Spin Valve devices",
+    "abstract": "Organic spintronics has drawn the interest of the science community due to various applications in spin-valve devices. But to date, an efficient room-temperature Organic Spin Valve device has not been experimentally realized due to the complicated spin transport at the metal-organic interfaces. These studies are always challenging due to the complicated spin-polarized charge transfer at the metal-organic interfaces. The present study focuses on a comprehensive understanding of the interfacial properties that are essential for advancing device performance and functionality. The Ferromagnetic metals and half-metallic electrodes such as Co, Co2FeAl, etc., and fullerene (C60) bilayer samples are prepared and studied via different structural and magnetic characterizations. Due to the mechanical softness of C60, deep penetration of ferromagnetic metal atoms is observed inside the C60 film. In-situ MOKE measurements reveal the origin of the 23 Å thick magnetic dead layer at the interface, which is attributed to the diffused ferromagnetic clusters exhibiting superparamagnetic behavior. In contrast to the inorganic substrates, magnetic anisotropy tends to develop at 40 Å thick Co film deposited on C60 which enhances with increasing thickness. The XRD measurements confirm the presence of in-plane compressive strain and texturing along the hcp (002) phase in the Co film. The anomaly observed in the hard axis of magnetization is due to high dispersion in the local magnetic anisotropy. The variation of the magnetic anisotropy axis is observed in the Co2FeAlwedge deposited in the proximity of C60. These findings provide valuable insights into the complex interplay between ferromagnetic materials and organic semiconductors offering potential avenues for tailoring magnetoresistance effects and fundamental understanding of organic spintronic devices.",
+    "authors": [
+      "Sonia Kaushik",
+      "Manisha Priyadarsini",
+      "Avinash G. Khanderao",
+      "Dileep Kumar"
+    ],
+    "publication_date": "2025-03-06T07:58:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.04185v1",
+    "download_url": "https://arxiv.org/abs/2503.04185v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Unusual chemistry of the C-H-N-O system under pressure and implications for giant planets",
+    "abstract": "C-H-N-O system is central for organic chemistry and biochemistry, and plays a major role in planetary science (dominating the composition of \"ice giants\" Uranus and Neptune). The inexhaustible chemical diversity of this system at normal conditions explains it as the basis of all known life, but the chemistry of this system at high pressures and temperatures of planetary interiors is poorly known. Using ab initio evolutionary algorithm USPEX, we performed an extensive study of the phase diagram of the C-H-N-O system at pressures of 50, 200, and 400 GPa and temperatures up to 3000 K. Eight novel thermodynamically stable phases were predicted, including quaternary polymeric crystal C2H2N2O2 and several new N-O and H-N-O compounds. We describe the main patterns of changes in the chemistry of the C-H-N-O system under pressure and confirm that diamond should be formed at conditions of the middle-ice layers of Uranus and Neptune. We also provide the detailed CH4-NH3-H2O phase diagrams at high pressures, which are important for a further improvement of the models of ice giants - and point out that current models are clearly deficient. In particular, in existing models Uranus and Neptune are presented to have identical composition, nearly identical pressure-temperature profiles, and a single convecting middle layer (\"mantle\") made of a mixture H2O : CH4 : NH3 = 56.5 : 32.5 : 11. Here we provide new insights shedding light into the difference of heat flows from Uranus and Neptune, which require them to have different compositions, pressure-temperature conditions, and a more complex internal structure.",
+    "authors": [
+      "Anastasia S. Naumova",
+      "Sergey V. Lepeshkin",
+      "Pavel V. Bushlanov",
+      "Artem R. Oganov"
+    ],
+    "publication_date": "2020-11-25T15:05:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.12803v2",
+    "download_url": "https://arxiv.org/abs/2011.12803v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Crystal chemistry of light metal borohydrides",
+    "abstract": "Crystal chemistry of M(BH4)n, where M is a 2nd-4th period element, is reviewed. It is shown that except certain cases, the BH4 group has a nearly ideal tetrahedral geometry. Corrections of the experimentally determined H-positions, accounting for the displacement of the electron cloud relative to an average nuclear position and for a libration of the BH4 group, are considered. Recent studies of structural evolution with temperature and pressure are reviewed. Some borohydrides involving less electropositive metals (e.g. Mg and Zn) reveal porous structures and dense interpenetrated frameworks, thus resembling metal-organic frameworks (MOFs). Analysis of phase transitions, and the related changes of the coordination geometries for M atoms and BH4 groups, suggests that the directional BH4...M interaction is at the origin of the structural complexity of borohydrides. The ways to influence their stability by chemical modification are discussed.",
+    "authors": [
+      "Yaroslav Filinchuk",
+      "Dmitry Chernyshov",
+      "Vladimir Dmitriev"
+    ],
+    "publication_date": "2010-03-28T16:19:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1003.5378v1",
+    "download_url": "https://arxiv.org/abs/1003.5378v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Investigating Sulfur Chemistry in the HD 163296 disk",
+    "abstract": "Sulfur chemistry in the formation process of low-mass stars and planets remains poorly understood. The protoplanetary disks (PPDs) are the birthplace of planets and its distinctive environment provides an intriguing platform for investigating models of sulfur chemistry. We analyzed the ALMA observations of CS 7-6 transitions in the HD 163296 disk and perform astrochemical modeling to explore its sulfur chemistry. We simulated the distribution of sulfur-containing molecules and compared it with observationally deduced fractional column densities. We have found that the simulated column density of CS is consistent with the observationally deduced fractional column densities, while the simulated column density of C$_2$S is lower than the observationally deduced upper limits on column densities. This results indicate that we have a good understanding of the chemical properties of CS and C$_2$S in the disk. We also investigated the influence of the C/O ratio on sulfur-containing molecules and found that the column densities of SO, SO$_2$, and H$_2$S near the central star are dependent on the C/O ratio. Additionally, we found that the $N$[CS]/$N$[SO] ratio can serve as a promising indicator of the disk's C/O ratio in the HD 163296. Overall, the disk of HD 163296 provides a favorable environment for the detection of sulfur-containing molecules.",
+    "authors": [
+      "Rong Ma",
+      "Donghui Quan",
+      "Yan Zhou",
+      "Jarken Esimbek",
+      "Dalei Li",
+      "Xiaohu Li",
+      "Xia Zhang",
+      "Juan Tuo",
+      "Yanan Feng"
+    ],
+    "publication_date": "2024-06-12T06:01:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.07896v1",
+    "download_url": "https://arxiv.org/abs/2406.07896v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The chemistry of disks around T Tauri and Herbig Ae/Be stars",
+    "abstract": "Infrared and (sub-)mm observations of disks around T Tauri and Herbig Ae/Be stars point to a chemical differentiation between both types of disks, with a lower detection rate of molecules in disks around hotter stars. To investigate the potential underlying causes we perform a comparative study of the chemistry of T Tauri and Herbig Ae/Be disks, using a model that pays special attention to photochemistry. The warmer disk temperatures and higher ultraviolet flux of Herbig stars compared to T Tauri stars induce some differences in the disk chemistry. In the hot inner regions, H2O, and simple organic molecules like C2H2, HCN, and CH4 are predicted to be very abundant in T Tauri disks and even more in Herbig Ae/Be disks, in contrast with infrared observations that find a much lower detection rate of water and simple organics toward disks around hotter stars. In the outer regions, the model indicates that the molecules typically observed in disks, like HCN, CN, C2H, H2CO, CS, SO, and HCO+, do not have drastic abundance differences between T Tauri and Herbig Ae disks. Some species produced under the action of photochemistry, like C2H and CN, are predicted to have slightly lower abundances around Herbig Ae stars due to a narrowing of the photochemically active layer. Observations indeed suggest that these radicals are somewhat less abundant in Herbig Ae disks, although in any case the inferred abundance differences are small, of a factor of a few at most. A clear chemical differentiation between both types of disks concerns ices, which are expected to be more abundant in Herbig Ae disks. The global chemical behavior of T Tauri and Herbig Ae/Be disks is quite similar. The main differences are driven by the warmer temperatures of the latter, which result in a larger reservoir or water and simple organics in the inner regions and a lower mass of ices in the outer disk.",
+    "authors": [
+      "Marcelino Agundez",
+      "Evelyne Roueff",
+      "Franck Le Petit",
+      "Jacques Le Bourlot"
+    ],
+    "publication_date": "2018-03-26T07:44:01Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.09450v1",
+    "download_url": "https://arxiv.org/abs/1803.09450v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "XDR Chemistry in the Circumnuclear Disk of NGC 1068",
+    "abstract": "We have studied the feedback influence that the central engine of the Seyfert 2 galaxy NGC 1068 may have on the chemistry of the 200 pc circumnuclear gas disk (CND). With this purpose, we have conducted a multi-species/multi-transition survey of molecular gas in the CND of NGC 1068 using the IRAM 30m telescope. Abundances of several molecular species have been estimated, including HCN, CN, CS, HCO+, SiO and HOC+. We report on the detection of significant SiO emission in this galaxy, as well as on the first extragalactic detection of the active radical HOC+. We conclude that the chemistry of the molecular gas reservoir in the CND can be best explained in the framework of X-rays Dominated Regions (XDR) models.",
+    "authors": [
+      "A. Usero",
+      "S. Garcia-Burillo",
+      "A. Fuente",
+      "J. Martin-Pintado"
+    ],
+    "publication_date": "2003-10-28T10:01:01Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0310783v1",
+    "download_url": "https://arxiv.org/abs/astro-ph/0310783v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "From transistor to trapped-ion computers for quantum chemistry",
+    "abstract": "Over the last few decades, quantum chemistry has progressed through the development of computational methods based on modern digital computers. However, these methods can hardly fulfill the exponentially-growing resource requirements when applied to large quantum systems. As pointed out by Feynman, this restriction is intrinsic to all computational models based on classical physics. Recently, the rapid advancement of trapped-ion technologies has opened new possibilities for quantum control and quantum simulations. Here, we present an efficient toolkit that exploits both the internal and motional degrees of freedom of trapped ions for solving problems in quantum chemistry, including molecular electronic structure, molecular dynamics, and vibronic coupling. We focus on applications that go beyond the capacity of classical computers, but may be realizable on state-of-the-art trapped-ion systems. These results allow us to envision a new paradigm of quantum chemistry that shifts from the current transistor to a near-future trapped-ion-based technology.",
+    "authors": [
+      "M. -H. Yung",
+      "J. Casanova",
+      "A. Mezzacapo",
+      "J. McClean",
+      "L. Lamata",
+      "A. Aspuru-Guzik",
+      "E. Solano"
+    ],
+    "publication_date": "2013-07-16T16:14:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1307.4326v1",
+    "download_url": "https://arxiv.org/abs/1307.4326v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Nitrogen chemistry and depletion in starless cores",
+    "abstract": "We investigated the chemistry of nitrogen--containing species, principally isotopomers of CN, HCN, and HNC, in a sample of pre-protostellar cores. We used the IRAM 30 m telescope to measure the emission in rotational and hyperfine transitions of CN, HCN, 13CN, H13CN, HN13C, and HC15N, in L 1544, L 183, Oph D, L 1517B, L 310. The observations were made along axial cuts through the dust emission peak, at a number of regularly--spaced offset positions. The observations were reduced and analyzed to obtain the column densities, using the measurements of the less abundant isotopic variants in order to minimize the consequences of finite optical depths in the lines. The observations were compared with the predictions of a free--fall gravitational collapse model, which incorporates a non-equilibrium treatment of the relevant chemistry. We found that CN, HCN, and HNC remain present in the gas phase at densities well above that at which CO depletes on to grains. The CN:HCN and the HNC:HCN abundance ratios are larger than unity in all the objects of our sample. Furthermore, there is no observational evidence for large variations of these ratios with increasing offset from the dust emission peak and hence with density. Whilst the differential freeze--out of CN and CO can be understood in terms of the current chemistry, the behaviour of the CN:HCN ratio is more difficult to explain. Models suggest that most nitrogen is not in the gas phase but may be locked in ices. Unambiguous conclusions require measurements of the rate coefficients of the key neutral--neutral reactions at low temperatures.",
+    "authors": [
+      "Pierre Hily-Blant",
+      "Malcolm Walmsley",
+      "G. Pineau Des forêts",
+      "David Flower"
+    ],
+    "publication_date": "2010-01-22T07:44:50Z",
+    "arxiv_id": "http://arxiv.org/abs/1001.3930v1",
+    "download_url": "https://arxiv.org/abs/1001.3930v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset",
+    "abstract": "Chemistry plays a crucial role in many domains, such as drug discovery and material science. While large language models (LLMs) such as GPT-4 exhibit remarkable capabilities on natural language processing tasks, existing research indicates that their performance on chemistry tasks is discouragingly low. In this paper, however, we demonstrate that our developed LLMs can achieve very strong results on a comprehensive set of chemistry tasks, outperforming the most advanced GPT-4 and Claude 3 Opus by a substantial margin. To accomplish this, we propose SMolInstruct, a large-scale, comprehensive, and high-quality dataset for instruction tuning. It contains 14 selected chemistry tasks and over three million samples, laying a solid foundation for training and evaluating LLMs for chemistry. Using SMolInstruct, we fine-tune a set of open-source LLMs, among which, we find that Mistral serves as the best base model for chemistry tasks. Our analysis further demonstrates the critical role of the proposed dataset in driving the performance improvements.",
+    "authors": [
+      "Botao Yu",
+      "Frazier N. Baker",
+      "Ziqi Chen",
+      "Xia Ning",
+      "Huan Sun"
+    ],
+    "publication_date": "2024-02-14T18:42:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.09391v4",
+    "download_url": "https://arxiv.org/abs/2402.09391v4",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Impact of External Radiation on the Inner Disk Chemistry of Planet Formation",
+    "abstract": "The vast majority of young stars hosting planet-forming disks exist within clustered environments, like the Orion Nebula, implying that seemingly `extreme' UV environments (10^4 G_0 and above) are not so atypical in the context of planet formation. Using thermo-chemical modeling, we explore how the temperature and chemistry within a protoplanetary disk around a T Tauri star is impacted by the surrounding UV environment. The disk becomes hotter due to heating by photodissociation of molecules, photoelectric heating, H_2, and atomic processes and as a result the area in which molecules exist in the ice-phase shrinks, being pushed both downward and inward. Beyond 1AU the chemistry changes most significantly in a UV-rich background; the atmosphere becomes more H2O, OH, and atomic-rich. Hydrocarbons, however, reside primarily well within 1AU of the disk, thus their abundance and distribution is not impacted by the UV field, up to a 10^6 G0. The products of photodissociation and photochemistry are formed deeper into the disk with increasing UV background field strength beyond 1AU, impacting the chemistry near the midplane. Effectively a `reset' chemistry takes place, with an enhancement of atoms, simple molecules, and molecules in the gas-phase. Planets that form in highly irradiated regions will be exposed to a different chemical reservoir in the gas and ice-phases than that in an isolated disk, and the impact from the UV background should only be detectable in highly irradiated disks (~10^6 G_0).",
+    "authors": [
+      "Jenny K. Calahan",
+      "Karin Öberg",
+      "Alice Booth"
+    ],
+    "publication_date": "2025-08-08T18:00:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.06613v1",
+    "download_url": "https://arxiv.org/abs/2508.06613v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A roadmap toward the theory of vibrational polariton chemistry",
+    "abstract": "The field of vibrational polariton chemistry was firmly established in 2016 when a chemical reaction rate at room temperature was modified within a resonantly tuned infrared cavity without externally driving the system. Despite intense efforts by scientists around the world to understand why the reaction rate changes, no convincing theoretical explanation exists. In this perspective, first, we briefly review this seminal experiment, as well as relevant experiments that have since followed that have hinted at the roles of reactant concentration, cavity frequency, and symmetry. Then, we analyze the relevance of leading theories, such as quantum electrodynamics-modified transition rate theories, the photonic solvent cage effect, the impact of dissipation from dark states, bond strengthening via intramolecular vibrational energy redistribution, and collectively enhanced local molecular properties. Finally, we construct a roadmap toward the theory of vibrational polariton chemistry by suggesting experiments to test theories and new paths for theorists. We believe that understanding the importance of the onset of the strong coupling regime, designing experiments to capture changes in reaction pathways, and further developing the theories of cavity-modified intramolecular vibrational energy redistribution and collectively enhanced local molecular properties are crucial next steps. We hope this perspective will be a valuable resource for guiding research in the field of vibrational polariton chemistry.",
+    "authors": [
+      "Derek S Wang",
+      "Susanne F Yelin"
+    ],
+    "publication_date": "2021-07-09T18:02:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.09026v1",
+    "download_url": "https://arxiv.org/abs/2107.09026v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The connection between warm carbon chain chemistry and interstellar irradiation of star-forming cores",
+    "abstract": "Some observations of warm carbon chain chemistry (WCCC) cores indicate that they are often located near the edges of molecular clouds. This finding may suggest that WCCC is promoted in star-forming cores exposed to radiation from the interstellar medium. We aim to investigate the chemistry of carbon chains in such a core. A chemical simulation of a gas parcel in a low-mass star-forming core with a full level of irradiation by interstellar photons and cosmic rays was compared to a simulation of a core receiving only one-tenth of such irradiation. In the full irradiation model, the abundances of carbon chains were found to be higher by a factor of few to few hundred, compared to the model with low irradiation. Higher carbon-chain abundances in the prestellar stage and, presumably, in the extended circumstellar envelope, arise because of irradiation of gas and dust by interstellar photons and cosmic rays. A full standard rate of cosmic-ray induced ionization is essential for a high carbon-chain abundance peak to occur in the circumstellar envelope, which is heated by the protostar (the \"true\" WCCC phenomenon). The full irradiation model has lower abundances of complex organic molecules than the low-irradiation model. We conclude that WCCC can be caused by exposure of a star-forming core to interstellar radiation, or even just to cosmic rays. The Appendix describes an updated accurate approach for calculating the rate of cosmic-ray induced desorption.",
+    "authors": [
+      "Juris Kalvans"
+    ],
+    "publication_date": "2021-02-04T15:22:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2102.02681v1",
+    "download_url": "https://arxiv.org/abs/2102.02681v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "oMeBench: Towards Robust Benchmarking of LLMs in Organic Mechanism Elucidation and Reasoning",
+    "abstract": "Organic reaction mechanisms are the stepwise elementary reactions by which reactants form intermediates and products, and are fundamental to understanding chemical reactivity and designing new molecules and reactions. Although large language models (LLMs) have shown promise in understanding chemical tasks such as synthesis design, it is unclear to what extent this reflects genuine chemical reasoning capabilities, i.e., the ability to generate valid intermediates, maintain chemical consistency, and follow logically coherent multi-step pathways. We address this by introducing oMeBench, the first large-scale, expert-curated benchmark for organic mechanism reasoning in organic chemistry. It comprises over 10,000 annotated mechanistic steps with intermediates, type labels, and difficulty ratings. Furthermore, to evaluate LLM capability more precisely and enable fine-grained scoring, we propose oMeS, a dynamic evaluation framework that combines step-level logic and chemical similarity. We analyze the performance of state-of-the-art LLMs, and our results show that although current models display promising chemical intuition, they struggle with correct and consistent multi-step reasoning. Notably, we find that using prompting strategy and fine-tuning a specialist model on our proposed dataset increases performance by 50% over the leading closed-source model. We hope that oMeBench will serve as a rigorous foundation for advancing AI systems toward genuine chemical reasoning.",
+    "authors": [
+      "Ruiling Xu",
+      "Yifan Zhang",
+      "Qingyun Wang",
+      "Carl Edwards",
+      "Heng Ji"
+    ],
+    "publication_date": "2025-10-09T03:13:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.07731v2",
+    "download_url": "https://arxiv.org/abs/2510.07731v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Young frames for quantum chemistry",
+    "abstract": "Quantum chemistry often considers atoms and molecules with non-zero spin. In such cases, the need for proper spin functions results in the theory of configuration state functions. Here, we consider the construction of such wavefunctions using the symmetric group and more specifically Young projectors. We discuss the formalism and detail an example to illustrate the theory. Additionally, we consider the pros and cons of specific implementations of spin symmetry in quantum simulation.",
+    "authors": [
+      "Sahil Gulania",
+      "James Daniel Whitfield"
+    ],
+    "publication_date": "2019-04-23T18:00:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.10469v1",
+    "download_url": "https://arxiv.org/abs/1904.10469v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Geometry of quantum hydrodynamics in theoretical chemistry",
+    "abstract": "This thesis investigates geometric approaches to quantum hydrodynamics (QHD) in order to develop applications in theoretical quantum chemistry.\n  Based upon the momentum map geometric structure of QHD and the associated Lie-Poisson and Euler-Poincaré equations, alternative geometric approaches to the classical limit in QHD are presented. These include a new regularised Lagrangian which allows for singular solutions called 'Bohmions' as well as a 'cold fluid' classical closure quantum mixed states.\n  The momentum map approach to QHD is then applied to the nuclear dynamics in a chemistry model known as exact factorization. The geometric treatment extends existing approaches to include unitary electronic evolution in the frame of the nuclear flow, with the resulting dynamics carrying both Euler-Poincaré and Lie-Poisson structures. A new mixed quantum-classical model is then derived by considering a generalised factorisation ansatz at the level of the molecular density matrix.\n  A new alternative geometric formulation of QHD is then constructed. Introducing a $\\mathfrak{u}(1)$ connection as the new fundamental variable provides a new method for incorporating holonomy in QHD, which follows from its constant non-zero curvature. The fluid flow is no longer irrotational and carries a non-trivial circulation theorem, allowing for vortex filament solutions.\n  Finally, non-Abelian connections are then considered in quantum mechanics. The dynamics of the spin vector in the Pauli equation allows for the introduction of an $\\mathfrak{so}(3)$ connection whilst a more general $\\mathfrak{u}(\\mathscr{H})$ connection is introduced from the unitary evolution of a quantum system. This is used to provide a new geometric picture for the Berry connection and quantum geometric tensor, whilst relevant applications to quantum chemistry are then considered.",
+    "authors": [
+      "Michael S. Foskett"
+    ],
+    "publication_date": "2020-09-28T19:58:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.13601v1",
+    "download_url": "https://arxiv.org/abs/2009.13601v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Eigenvector Continuation for Chemistry Applications",
+    "abstract": "A typical task for classical and quantum computing in chemistry is finding a potential energy surface (PES) along a reaction coordinate, which involves solving the quantum chemistry problem for many points along the reaction path. Developing algorithms to accomplish this task on quantum computers has been an active area of development, yet finding all the relevant eigenstates along the reaction coordinate remains a difficult problem, and determining PESs is thus a costly proposal. In this paper, we demonstrate the use of a eigenvector continuation -- a subspace expansion that uses a few eigenstates as a basis -- as a tool for rapidly exploring potential energy surfaces. We apply this to determining the binding PES or torsion PES for several molecules of varying complexity. In all cases, we show that the PES can be captured using relatively few basis states; suggesting that a significant amount of (quantum) computational effort can be saved by making use of already calculated ground states in this manner.",
+    "authors": [
+      "Carlos Mejuto-Zaera",
+      "Alexander F. Kemper"
+    ],
+    "publication_date": "2023-04-28T19:22:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.00060v2",
+    "download_url": "https://arxiv.org/abs/2305.00060v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Gas Phase Chemistry of Cool Exoplanet Atmospheres: Insight from Laboratory Simulations",
+    "abstract": "Photochemistry induced by stellar UV flux should produce haze particles in exoplanet atmospheres. Recent observations indicate that haze and/or cloud layers exist in the atmospheres of exoplanets. However, photochemical processes in exoplanetary atmospheres remain largely unknown. We performed laboratory experiments with the PHAZER chamber to simulate haze formation in a range of exoplanet atmospheres (hydrogen-rich, water-rich, and carbon dioxide-rich at 300, 400, and 600 K), and observed the gas phase compositional change (the destruction of the initial gas and the formation of new gas species) during these experiments with mass spectrometer. The mass spectra reveal that distinct chemical processes happen in the experiments as a function of different initial gas mixture and different energy sources (plasma or UV photons). We find that organic gas products and O2 are photochemically generated in the experiments, demonstrating that photochemical production is one of the abiotic sources for these potential biosignatures. Multiple simulated atmospheres produce organics and O2 simultaneously, which suggests that even the co-presence of organics and O2 could be false positive biosignature. From the gas phase composition changes, we identify potential precursors (C2H2, HCN, CH2NH, HCHO, etc.) for haze formation, among which complex reactions can take place and produce larger molecules. Our laboratory results indicate that complex atmospheric photochemistry can happen in diverse exoplanet atmospheres and lead to the formation of new gas products and haze particles, including compounds (O2 and organics) that could be falsely identified as biosignatures.",
+    "authors": [
+      "Chao He",
+      "Sarah M. Hörst",
+      "Nikole K. Lewis",
+      "Julianne I. Moses",
+      "Eliza M. -R. Kempton",
+      "Mark S. Marley",
+      "Caroline V. Morley",
+      "Jeff A. Valenti",
+      "Véronique Vuitton"
+    ],
+    "publication_date": "2018-12-17T18:58:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.06957v1",
+    "download_url": "https://arxiv.org/abs/1812.06957v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Black Hole Chemistry Knows Extra Dimensions",
+    "abstract": ": In this note, we study an extra dimension effect on the black hole chemistry in the 8-dimensional Einstein-Yang-Mills-Maxwell theory. The base spacetime contains 4- dimensional compact manifolds and an instanton on top of those. We demonstrate how the extra dimensions affect the phase transition and viable black hole sizes in the 4-dimensional Einstein frame through the black hole chemistry. We focus on asymptotically anti-de Sitter spacetimes for the effective 4-dimensional model obtained by a dimensional reduction. The extra-dimension size determines thermodynamic pressure, and the thermodynamic volume is roughly the horizon size of black holes. Thus, the extra dimension and black hole sizes are related as a conjugate pair of thermodynamic variables.",
+    "authors": [
+      "Kyung Kiu Kim",
+      "Jeongwon Ho",
+      "Seungjoon Hyun",
+      "Taehyeon Song"
+    ],
+    "publication_date": "2025-02-18T09:48:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.12687v3",
+    "download_url": "https://arxiv.org/abs/2502.12687v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Polar distortions in hydrogen bonded organic ferroelectrics",
+    "abstract": "Although ferroelectric compounds containing hydrogen bonds were among the first to be discovered, organic ferroelectrics are relatively rare. The discovery of high polarization at room temperature in croconic acid [Nature \\textbf{463}, 789 (2010)] has led to a renewed interest in organic ferroelectrics. We present an ab-initio study of two ferroelectric organic molecular crystals, 1-cyclobutene-1,2-dicarboxylic acid (CBDC) and 2-phenylmalondialdehyde (PhMDA). By using a distortion-mode analysis we shed light on the microscopic mechanisms contributing to the polarization, which we find to be as large as 14.3 and 7.0\\,$μ$C/cm$^{2}$ for CBDC and PhMDA respectively. These results suggest that it may be fruitful to search among known but poorly characterized organic compounds for organic ferroelectrics with enhanced polar properties suitable for device applications.",
+    "authors": [
+      "Alessandro Stroppa",
+      "Domenico Di Sante",
+      "Sachio Horiuchi",
+      "Yoshinori Tokura",
+      "David Vanderbilt",
+      "Silvia Picozzi"
+    ],
+    "publication_date": "2011-05-04T08:50:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1105.0766v1",
+    "download_url": "https://arxiv.org/abs/1105.0766v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Complex organic molecules in organic-poor massive young stellar objects",
+    "abstract": "Massive young stellar objects (MYSOs) with hot cores are classic sources of complex organic molecules. The origins of these molecules in such sources, as well as the small- and large-scale differentiation between nitrogen- and oxygen-bearing complex species, are poorly understood.\n  We aim to use complex molecule abundances toward a chemically less explored class of MYSOs with weak hot organic emission lines to constrain the impact of hot molecular cores and initial ice conditions on the chemical composition toward MYSOs.\n  We use the IRAM 30m and the Submillimeter Array to search for complex organic molecules over 8-16 GHz in the 1~mm atmospheric window toward three MYSOs with known ice abundances, but without luminous molecular hot cores.\n  Complex molecules are detected toward all three sources at comparable abundances with respect to CH$_3$OH to classical hot core sources. The relative importance of CH$_3$CHO, CH$_3$CCH, CH$_3$OCH$_3$, CH$_3$CN, and HNCO differ between the organic-poor MYSOs and hot cores, however. Furthermore, the N-bearing molecules are generally concentrated toward the source centers, while most O- and C-bearing molecules are present both in the center and in the colder envelope. Gas-phase HNCO/CH$_3$OH ratios are tentatively correlated with the ratios of NH$_3$ ice over CH$_3$OH ice in the same lines of sight, which is consistent with new gas-grain model predictions.\n  Hot cores are not required to form complex organic molecules, and source temperature and initial ice composition both seem to affect complex organic distributions toward MYSOs. To quantify the relative impact of temperature and initial conditions requires, however, a larger spatially resolved survey of MYSOs with ice detections.",
+    "authors": [
+      "Edith C. Fayolle",
+      "Karin I. Öberg",
+      "Robin T. Garrod",
+      "Ewine F. van Dishoeck",
+      "Suzanne E. Bisschop"
+    ],
+    "publication_date": "2015-01-13T21:02:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1501.03168v1",
+    "download_url": "https://arxiv.org/abs/1501.03168v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Cross-Linking of Doped Organic Semiconductor Interlayers for Organic Solar Cells: Potential and Challenges",
+    "abstract": "Solution-processable interlayers are an important building block for the commercialization of organic electronic devices such as organic solar cells. Here, the potential of cross-linking to provide an insoluble, stable and versatile charge transport layer based on soluble organic semiconductors is studied. For this purpose, a photo-reactive tris-azide cross-linker is synthesized. The capability of the small molecular cross-linker is illustrated by applying it to a p-doped polymer used as a hole transport layer in organic solar cells. High cross-linking efficiency and excellent charge extraction properties of the cross-linked doped hole transport layer are demonstrated. However, at high doping levels in the interlayer, the solar cell efficiency is found to deteriorate. Based on charge extraction measurements and numerical device simulations, it is shown that this is due to diffusion of dopants into the active layer of the solar cell. Thus, in the development of future cross-linker materials, care must be taken to ensure that they immobilize not only the host, but also the dopants.",
+    "authors": [
+      "Staffan Dahlström",
+      "Sebastian Wilken",
+      "Yadong Zhang",
+      "Christian Ahläng",
+      "Stephen Barlow",
+      "Mathias Nyman",
+      "Seth R. Marder",
+      "Ronald Österbacka"
+    ],
+    "publication_date": "2021-07-30T10:26:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.14533v1",
+    "download_url": "https://arxiv.org/abs/2107.14533v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Application of Superhalogens in the Design of Organic Superconductors",
+    "abstract": "Bechgaard salts, (TMTSF)2X (TMTSF = tetramethyl tetraselenafulvalene and X = complex anion), form the most popular series of organic superconductors. In these salts, TMTSF molecules act as super-electron donor and X as acceptor. We computationally examine the electronic structure and properties of X in commonly used (TMTSF)2X (X = NO3, BF4, ClO4, PF6) superconductors and notice that they belong to the class of superhalogens due to their higher vertical detachment energy than halogen anions. This prompted us to choose other superhalogens such as X = BO2, BH4, B2F7, AuF6 and study their (TMTSF)2X complexes. Our findings suggest that these complexes behave more or less similar to those of established (TMTSF)2X superconductors, particularly for X = BO2 and B2F7. We, therefore, believe that the concept of superhalogen can be successfully applied in the design of novel organic superconductors.",
+    "authors": [
+      "Ambrish K. Srivastava",
+      "Abhishek Kumar",
+      "Sugriva N. Tiwari",
+      "Neeraj Misra"
+    ],
+    "publication_date": "2017-07-30T10:41:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1707.09606v1",
+    "download_url": "https://arxiv.org/abs/1707.09606v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Introduction to Quantum Algorithms for Physics and Chemistry",
+    "abstract": "In this introductory review, we focus on applications of quantum computation to problems of interest in physics and chemistry. We describe quantum simulation algorithms that have been developed for electronic-structure problems, thermal-state preparation, simulation of time dynamics, adiabatic quantum simulation, and density functional theory.",
+    "authors": [
+      "Man-Hong Yung",
+      "James D. Whitfield",
+      "Sergio Boixo",
+      "David G. Tempel",
+      "Alán Aspuru-Guzik"
+    ],
+    "publication_date": "2012-03-06T21:08:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1203.1331v1",
+    "download_url": "https://arxiv.org/abs/1203.1331v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Benchmarking spin-state chemistry in starless core models",
+    "abstract": "Aims. We aim to present simulated chemical abundance profiles for a variety of important species, with special attention given to spin-state chemistry, in order to provide reference results against which present and future models can be compared. Methods. We employ gas-phase and gas-grain models to investigate chemical abundances in physical conditions corresponding to starless cores. To this end, we have developed new chemical reaction sets for both gas-phase and grain-surface chemistry, including the deuterated forms of species with up to six atoms and the spin-state chemistry of light ions and of the species involved in the ammonia and water formation networks. The physical model is kept simple in order to facilitate straightforward benchmarking of other models against the results of this paper. Results. We find that the ortho/para ratios of ammonia and water are similar in both gas-phase and gas-grain models, at late times in particular, implying that the ratios are determined by gas-phase processes. We derive late-time ortho/para ratios of ~0.5 and ~1.6 for ammonia and water, respectively. We find that including or excluding deuterium in the calculations has little effect on the abundances of non-deuterated species and on the ortho/para ratios of ammonia and water, especially in gas-phase models where deuteration is naturally hindered owing to the presence of abundant heavy elements. Although we study a rather narrow temperature range (10-20 K), we find strong temperature dependence in, e.g., deuteration and nitrogen chemistry. For example, the depletion timescale of ammonia is significantly reduced when the temperature is increased from 10 to 20 K; this is because the increase in temperature translates into increased accretion rates, while the very high binding energy of ammonia prevents it from being desorbed at 20 K.",
+    "authors": [
+      "O. Sipilä",
+      "P. Caselli",
+      "J. Harju"
+    ],
+    "publication_date": "2015-01-20T14:40:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1501.04825v1",
+    "download_url": "https://arxiv.org/abs/1501.04825v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Review of Large Language Models and Autonomous Agents in Chemistry",
+    "abstract": "Large language models (LLMs) have emerged as powerful tools in chemistry, significantly impacting molecule design, property prediction, and synthesis optimization. This review highlights LLM capabilities in these domains and their potential to accelerate scientific discovery through automation. We also review LLM-based autonomous agents: LLMs with a broader set of tools to interact with their surrounding environment. These agents perform diverse tasks such as paper scraping, interfacing with automated laboratories, and synthesis planning. As agents are an emerging topic, we extend the scope of our review of agents beyond chemistry and discuss across any scientific domains. This review covers the recent history, current capabilities, and design of LLMs and autonomous agents, addressing specific challenges, opportunities, and future directions in chemistry. Key challenges include data quality and integration, model interpretability, and the need for standard benchmarks, while future directions point towards more sophisticated multi-modal agents and enhanced collaboration between agents and experimental methods. Due to the quick pace of this field, a repository has been built to keep track of the latest studies: https://github.com/ur-whitelab/LLMs-in-science.",
+    "authors": [
+      "Mayk Caldas Ramos",
+      "Christopher J. Collison",
+      "Andrew D. White"
+    ],
+    "publication_date": "2024-06-26T17:33:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.01603v3",
+    "download_url": "https://arxiv.org/abs/2407.01603v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Relativistic quantum chemistry on quantum computers",
+    "abstract": "Last years witnessed a remarkable interest in application of quantum computing for solving problems in quantum chemistry more efficiently than classical computers allow. Very recently, even first proof-of-principle experimental realizations have been reported. However, so far only the non-relativistic regime (i.e. Schroedinger equation) has been explored, while it is well known that relativistic effects can be very important in chemistry. In this letter we present the first quantum algorithm for relativistic computations of molecular energies. We show how to efficiently solve the eigenproblem of the Dirac-Coulomb Hamiltonian on a quantum computer and demonstrate the functionality of the proposed procedure by numerical simulations of computations of the spin-orbit splitting in the SbH molecule. Finally, we propose quantum circuits with 3 qubits and 9 or 10 CNOTs, which implement a proof-of-principle relativistic quantum chemical calculation for this molecule and might be suitable for an experimental realization.",
+    "authors": [
+      "Libor Veis",
+      "Jakub Višňák",
+      "Timo Fleig",
+      "Stefan Knecht",
+      "Trond Saue",
+      "Lucas Visscher",
+      "Jiří Pittner"
+    ],
+    "publication_date": "2011-11-15T10:22:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1111.3490v2",
+    "download_url": "https://arxiv.org/abs/1111.3490v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Lightning-induced chemistry on tidally-locked Earth-like exoplanets",
+    "abstract": "Determining the habitability and interpreting atmospheric spectra of exoplanets requires understanding their atmospheric physics and chemistry. We use a 3-D Coupled Climate-Chemistry Model, the Met Office Unified Model with the UK Chemistry and Aerosols framework, to study the emergence of lightning and its chemical impact on tidally-locked Earth-like exoplanets. We simulate the atmosphere of Proxima Centauri b orbiting in the Habitable Zone of its M-dwarf star, but the results apply to similar M-dwarf orbiting planets. Our chemical network includes the Chapman ozone reactions and hydrogen oxide (HO$_{\\mathrm{x}}$=H+OH+HO$_2$) and nitrogen oxide (NO$_{\\mathrm{x}}$=NO+NO$_2$) catalytic cycles. We find that photochemistry driven by stellar radiation (177-850 nm) supports a global ozone layer between 20-50 km. We parameterise lightning flashes as a function of cloud-top height and the resulting production of nitric oxide (NO) from the thermal decomposition of N$_2$ and O$_2$. Rapid dayside convection over and around the substellar point results in lightning flash rates of up to 0.16 flashes km$^{-2}$yr$^{-1}$, enriching the dayside atmosphere below altitudes of 20 km in NO$_{\\mathrm{x}}$. Changes in dayside ozone are determined mainly by UV irradiance and the HO$_{\\mathrm{x}}$ catalytic cycle. ~45% of the planetary dayside surface remains at habitable temperatures (T$_{\\mathrm{surf}}$>273.15 K) and the ozone layer reduces surface UV radiation levels to 15%. Dayside-nightside thermal gradients result in strong winds that subsequently advect NO$_{\\mathrm{x}}$ towards the nightside, where the absence of photochemistry allows NO$_{\\mathrm{x}}$ chemistry to involve reservoir species. Our study also emphasizes the need for accurate UV stellar spectra to understand the atmospheric chemistry of exoplanets.",
+    "authors": [
+      "Marrick Braam",
+      "Paul I. Palmer",
+      "Leen Decin",
+      "Robert J. Ridgway",
+      "Maria Zamyatina",
+      "Nathan J. Mayne",
+      "Denis E. Sergeev",
+      "N. Luke Abraham"
+    ],
+    "publication_date": "2022-09-26T08:20:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.12502v1",
+    "download_url": "https://arxiv.org/abs/2209.12502v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ChemRxivQuest: A Curated Chemistry Question-Answer Database Extracted from ChemRxiv Preprints",
+    "abstract": "The rapid expansion of chemistry literature poses significant challenges for researchers seeking to efficiently access domain-specific knowledge. To support advancements in chemistry-focused natural language processing (NLP), we present ChemRxivQuest, a curated dataset of 970 high-quality question-answer (QA) pairs derived from 155 ChemRxiv preprints across 17 subfields of chemistry. Each QA pair is explicitly linked to its source text segment to ensure traceability and contextual accuracy. ChemRxivQuest was constructed using an automated pipeline that combines optical character recognition (OCR), GPT-4o-based QA generation, and a fuzzy matching technique for answer verification. The dataset emphasizes conceptual, mechanistic, applied, and experimental questions, enabling applications in retrieval-based QA systems, search engine development, and fine-tuning of domain-adapted large language models. We analyze the dataset's structure, coverage, and limitations, and outline future directions for expansion and expert validation. ChemRxivQuest provides a foundational resource for chemistry NLP research, education, and tool development.",
+    "authors": [
+      "Mahmoud Amiri",
+      "Thomas Bocklitz"
+    ],
+    "publication_date": "2025-05-08T13:26:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.05232v2",
+    "download_url": "https://arxiv.org/abs/2505.05232v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Simple model for efficient search of high-mobility organic semiconductors",
+    "abstract": "High charge mobility in active layers of organic electronic devices is often necessary for their efficient operation. As a result, search for high-mobility materials among the plethora of synthesizable organic semiconductors is of paramount importance for organic electronics. However, a model for rapid but reliable prediction of charge mobility in various organic semiconductors is still lacking. To solve this issue, we propose a simple analytical model that considers the most essential factors governing the charge transport in these materials: intermolecular electronic coupling, charge delocalization, electron-phonon interaction, and static and dynamic disorder. The suggested model efficiently predicts charge mobility for organic semiconductors of various chemical structures and sizes, and significantly outperforms another approach usually used for screening of organic semiconductors, - Marcus model, - which overlooks high-mobility materials possessing small conjugated cores. We thus anticipate that the suggested model is an efficient tool for the search of the high-mobility organic semiconductors, and its possible integration with crystal structure prediction can boost the development of organic electronics.",
+    "authors": [
+      "Andrey Yu. Sosorev"
+    ],
+    "publication_date": "2019-09-16T17:01:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.07332v1",
+    "download_url": "https://arxiv.org/abs/1909.07332v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

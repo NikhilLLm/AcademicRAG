@@ -1,0 +1,780 @@
+[
+  {
+    "title": "COSIMA-Rosetta calibration for in-situ characterization of 67P/Churyumov-Gerasimenko cometary inorganic compounds",
+    "abstract": "COSIMA (COmetary Secondary Ion Mass Analyser) is a time-of-flight secondary ion mass spectrometer (TOF-SIMS) on board the Rosetta space mission. COSIMA has been designed to measure the composition of cometary dust grains. It has a mass resolution m/Δm of 1400 at mass 100 u, thus enabling the discrimination of inorganic mass peaks from organic ones in the mass spectra. We have evaluated the identification capabilities of the reference model of COSIMA for inorganic compounds using a suite of terrestrial minerals that are relevant for cometary science. Ground calibration demonstrated that the performances of the flight model were similar to that of the reference model. The list of minerals used in this study was chosen based on the mineralogy of meteorites, interplanetary dust particles and Stardust samples. It contains anhydrous and hydrous ferromagnesian silicates, refractory silicates and oxides (present in meteoritic Ca-Al-rich inclusions), carbonates, and Fe-Ni sulfides. From the analyses of these minerals, we have calculated relative sensitivity factors for a suite of major and minor elements in order to provide a basis for element quantification for the possible identification of major mineral classes present in the cometary grains.",
+    "authors": [
+      "Harald Krüger",
+      "Thomas Stephan",
+      "Cécile Engrand",
+      "Christelle Briois",
+      "Sandra Siljeström",
+      "Sihane Merouane",
+      "Donia Baklouti",
+      "Henning Fischer",
+      "Nicolas Fray",
+      "Klaus Hornung",
+      "Harry Lehto",
+      "François-Régis Orthous-Daunay",
+      "Jouni Rynö",
+      "Rita Schulz",
+      "Johan Silen",
+      "Laurent Thirkell",
+      "Mario Trieloff",
+      "Martin Hilchenbach"
+    ],
+    "publication_date": "2015-01-04T20:26:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1501.00716v1",
+    "download_url": "https://arxiv.org/abs/1501.00716v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Accelerated identification of equilibrium structures of multicomponent inorganic crystals using machine learning potentials",
+    "abstract": "The discovery of new multicomponent inorganic compounds can provide direct solutions to many scientific and engineering challenges, yet the vast size of the uncharted material space dwarfs current synthesis throughput. While the computational crystal structure prediction is expected to mitigate this frustration, the NP-hardness and steep costs of density functional theory (DFT) calculations prohibit material exploration at scale. Herein, we introduce SPINNER, a highly efficient and reliable structure-prediction framework based on exhaustive random searches and evolutionary algorithms, which is completely free from empiricism. Empowered by accurate neural network potentials, the program can navigate the configuration space faster than DFT by more than 10$^{2}$-fold. In blind tests on 60 ternary compositions diversely selected from the experimental database, SPINNER successfully identifies experimental (or theoretically more stable) phases for ~80% of materials within 5000 generations, entailing up to half a million structure evaluations for each composition. When benchmarked against previous data mining or DFT-based evolutionary predictions, SPINNER identifies more stable phases in the majority of cases. By developing a reliable and fast structure-prediction framework, this work opens the door to large-scale, unbounded computational exploration of undiscovered inorganic crystals.",
+    "authors": [
+      "Sungwoo Kang",
+      "Wonseok Jeong",
+      "Changho Hong",
+      "Seungwoo Hwang",
+      "Youngchae Yoon",
+      "Seungwu Han"
+    ],
+    "publication_date": "2021-07-06T13:09:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.02594v2",
+    "download_url": "https://arxiv.org/abs/2107.02594v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MatterGen: a generative model for inorganic materials design",
+    "abstract": "The design of functional materials with desired properties is essential in driving technological advances in areas like energy storage, catalysis, and carbon capture. Generative models provide a new paradigm for materials design by directly generating entirely novel materials given desired property constraints. Despite recent progress, current generative models have low success rate in proposing stable crystals, or can only satisfy a very limited set of property constraints. Here, we present MatterGen, a model that generates stable, diverse inorganic materials across the periodic table and can further be fine-tuned to steer the generation towards a broad range of property constraints. To enable this, we introduce a new diffusion-based generative process that produces crystalline structures by gradually refining atom types, coordinates, and the periodic lattice. We further introduce adapter modules to enable fine-tuning towards any given property constraints with a labeled dataset. Compared to prior generative models, structures produced by MatterGen are more than twice as likely to be novel and stable, and more than 15 times closer to the local energy minimum. After fine-tuning, MatterGen successfully generates stable, novel materials with desired chemistry, symmetry, as well as mechanical, electronic and magnetic properties. Finally, we demonstrate multi-property materials design capabilities by proposing structures that have both high magnetic density and a chemical composition with low supply-chain risk. We believe that the quality of generated materials and the breadth of MatterGen's capabilities represent a major advancement towards creating a universal generative model for materials design.",
+    "authors": [
+      "Claudio Zeni",
+      "Robert Pinsler",
+      "Daniel Zügner",
+      "Andrew Fowler",
+      "Matthew Horton",
+      "Xiang Fu",
+      "Sasha Shysheya",
+      "Jonathan Crabbé",
+      "Lixin Sun",
+      "Jake Smith",
+      "Bichlien Nguyen",
+      "Hannes Schulz",
+      "Sarah Lewis",
+      "Chin-Wei Huang",
+      "Ziheng Lu",
+      "Yichi Zhou",
+      "Han Yang",
+      "Hongxia Hao",
+      "Jielan Li",
+      "Ryota Tomioka",
+      "Tian Xie"
+    ],
+    "publication_date": "2023-12-06T18:52:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.03687v2",
+    "download_url": "https://arxiv.org/abs/2312.03687v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MaPBI3 and 2D hybrid organic inorganic perovskite based microcavities employing periodic, aperiodic and disordered photonic structures and with the possibility of light-induced tuning",
+    "abstract": "Inorganic-organic perovskites semiconductors are becoming increasingly interesting due to their remarkable optical properties, such as a high photoluminescence quantum yield and the possibility to show optical gain in a broad range of wavelengths. We have here simulated microcavities that embed MaPBI3 and 2D hybrid organic inorganic perovskite semiconductors by sandwiching such active layers between periodic, aperiodic and disordered photonic structures. We have carefully considered the refractive index dispersion of all the materials employed, such silicon dioxide, titanium dioxide and the perovskite layers. Moreover, by employing a photochromatic polymer, namely the diarylethene-based polyester pDTE, we have designed a microcavity with light-induced tuning of the cavity modes is possible.",
+    "authors": [
+      "Michele Bellingeri",
+      "Francesco Scotognella"
+    ],
+    "publication_date": "2021-03-28T16:35:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.15169v1",
+    "download_url": "https://arxiv.org/abs/2103.15169v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Microscopic origin of entropy-driven polymorphism in hybrid organic-inorganic perovskite materials",
+    "abstract": "Entropy is a critical, but often overlooked, factor in determining the relative stabilities of crystal phases. The importance of entropy is most pronounced in softer materials, where small changes in free energy can drive phase transitions, which has recently been demonstrated in the case of organic-inorganic hybrid-formate perovskites. In this study we demonstrate the interplay between composition and crystal-structure that is responsible for the particularly pronounced role of entropy in determining polymorphism in hybrid organic-inorganic materials. Using ab initio based lattice dynamics we probe the origins and effects of vibrational entropy of four archetype perovskite (ABX$_3$) structures. We consider a fully inorganic material (SrTiO$_3$), an A-site hybrid halide material (CH$_3$NH$_3$PbI$_3$), an X-site hybrid material (KSr(BH$_4$)$_3$) and a mixed A- and X-site hybrid-formate material (N$_2$H$_5$Zn(HCO$_2$)$_3$), comparing the differences in entropy between two common polymorphs. The results demonstrate the importance of low-frequency inter-molecular modes in determining phase stability in these materials. The understanding gained allows us to propose a general principle for the relative stability of different polymorphs of hybrid materials as temperature is increased.",
+    "authors": [
+      "Keith T. Butler",
+      "Gregor Kieslich",
+      "Katrine Svane",
+      "Anthony K. Cheetham",
+      "Aron Walsh"
+    ],
+    "publication_date": "2016-08-31T09:05:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1608.08775v3",
+    "download_url": "https://arxiv.org/abs/1608.08775v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Disentangling the soil and atmospheric stress on carbon sequestration in a Mediterranean pine forest",
+    "abstract": "Sequestration of atmospheric CO$_2$ in a Mediterranean semi-arid Aleppo Pine Forest (Pinus halepensis) close to the border of the semi-arid timberline was characterized and quantified under field conditions. Measurements of organic and inorganic CO$_2$ sequestration with gas exchange and stock counting approaches were made in both rainfed control (approximately 12$\\%$ average annual soil moisture) and summer irrigated plots (approximately 24$\\%$ annual average soil moisture), providing the opportunity to separate the effects of atmospheric water demand from soil water stress on the atmospheric CO$_2$ sequestration responses. Measurements yield an organic carbon sequestration (OCS) rate of approximately 550 g CO$_2$ m$^{-2}$ yr$^{-1}$, two-thirds in soil and one-third in biomass. In addition, measurements yield an inorganic carbon sequestration (ICS) rate of approximately 216 g CO$_2$ m$^{-2}$ yr$^{-1}$; via calcite (CaCO$_3$) precipitation in the soil due to root exhalation of CO$_2$ (60$\\%$) and microbial activity (40$\\%$). The drip irrigated plot showed approximately 3 times higher organic CO$_2$ sequestration than the control plot. The organic sequestration is divided equally between the soil and the biomass. For the irrigated plot, the inorganic CO$_2$ was approximately 1.8 times higher than that of the control plot. However, for inorganic CO$_2$ sequestration, the soil moisture would need to be maintained lower than that of the study plot to preclude dissolving precipitated calcite. For many drylands, irrigation could be achieved by using fossil water reserves. These measured values demonstrate the relatively high potential carbon sequestration in Mediterranean drylands forests under irrigated and non-irrigated conditions.",
+    "authors": [
+      "Rafat Qubaja",
+      "Murray Moinester",
+      "Joel Kronfeld"
+    ],
+    "publication_date": "2025-11-27T19:05:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2511.22720v1",
+    "download_url": "https://arxiv.org/abs/2511.22720v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Structural and optoelectronic properties of the inorganic perovskites AGeX3 (A = Cs, Rb; X = I, Br, Cl) for solar cell application",
+    "abstract": "We predict the structural, electronic and optic properties of the inorganic Ge-based halide perovskites AGeX3 (A = Cs, Rb; X = I, Br, Cl) by using first-principles method. In particular, absolute electronic energy band levels are calculated using two different surface terminations of each compound, reproducing the experimental band alignment.",
+    "authors": [
+      "Un-Gi Jonga",
+      "Chol-Jun Yu",
+      "Yun-Hyok Kye",
+      "Yong-Guk Choe",
+      "Hao Wei",
+      "Shuzhou Li"
+    ],
+    "publication_date": "2018-10-05T07:02:05Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.02543v1",
+    "download_url": "https://arxiv.org/abs/1810.02543v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Revealing the Compositional Control of Electrical, Mechanical, Optical, and Physical Properties of Inorganic Glasses",
+    "abstract": "Inorganic glasses, produced by the melt-quenching of a concoction of minerals, compounds, and elements, can possess unique optical and elastic properties along with excellent chemical, and thermal durability. Despite the ubiquitous use of glasses for critical applications such as touchscreen panels, windshields, bioactive implants, optical fibers and sensors, kitchen and laboratory glassware, thermal insulators, nuclear waste immobilization, optical lenses, and solid electrolytes, their composition-structure-property relationships remain poorly understood. Here, exploiting largescale experimental data on inorganic glasses and explainable machine learning algorithms, we develop composition-property models for twenty-five properties, which are in agreement with experimental observations. These models are further interpreted using a game-theoretic concept namely, Shapley additive explanations, to understand the role of glass components in controlling the final property. The analysis reveals that the components present in the glass, such as network formers, modifiers, and the intermediates, play distinct roles in governing each of the optical, physical, electrical, and mechanical properties of glasses. Additionally, these components exhibit interdependence, the magnitude of which is different for different properties. While the physical origins of some of these interdependencies could be attributed to known phenomena such as \"boron anomaly\", \"mixed modifier effect\", and the \"Loewenstein rule\", the majority of the remaining ones requires further experimental and computational analysis of the glass structure. Thus, our work paves the way for decoding the \"glass genome\", which can provide the recipe for discovery of novel glasses, while also shedding light into the fundamental factors governing the composition-structure-property relationships.",
+    "authors": [
+      "R. Ravinder",
+      "Suresh Bishnoi",
+      "Mohd Zaki",
+      "N. M. Anoop Krishnan"
+    ],
+    "publication_date": "2021-03-22T17:51:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.12050v2",
+    "download_url": "https://arxiv.org/abs/2103.12050v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning",
+    "abstract": "Accelerated materials discovery is an urgent demand to drive advancements in fields such as energy conversion, storage, and catalysis. Property-directed generative design has emerged as a transformative approach for rapidly discovering new functional inorganic materials with multiple desired properties within vast and complex search spaces. However, this approach faces two primary challenges: data scarcity for functional properties and the multi-objective optimization required to balance competing tasks. Here, we present a multi-property-directed generative framework designed to overcome these limitations and enhance site symmetry-compliant crystal generation beyond P1 (translational) symmetry. By incorporating Wyckoff-position-based data augmentation and transfer learning, our framework effectively handles sparse and small functional datasets, enabling the generation of new stable materials simultaneously conditioned on targeted space group, band gap, and formation energy. Using this approach, we identified previously unknown thermodynamically and lattice-dynamically stable semiconductors in tetragonal, trigonal, and cubic systems, with bandgaps ranging from 0.13 to 2.20 eV, as validated by density functional theory (DFT) calculations. Additionally, we assessed their thermoelectric descriptors using DFT, indicating their potential suitability for thermoelectric applications. We believe our integrated framework represents a significant step forward in generative design of inorganic materials.",
+    "authors": [
+      "Shuya Yamazaki",
+      "Wei Nong",
+      "Ruiming Zhu",
+      "Kostya S. Novoselov",
+      "Andrey Ustyuzhanin",
+      "Kedar Hippalgaonkar"
+    ],
+    "publication_date": "2025-03-21T01:41:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.16784v1",
+    "download_url": "https://arxiv.org/abs/2503.16784v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Influence of Disorder and Anharmonic Fluctuations on the Dynamical Rashba Effect in Purely Inorganic Lead-Halide Perovskites",
+    "abstract": "Doping organic metal-halide perovskites with cesium could be the best solution to stabilize highly-efficient perovskite solar cells. The understanding of the respective roles of the organic molecule, on one hand, and the inorganic lattice, on the other, is thus crucial in order to be able to optimize the physical properties of the mixed-cation structures. In particular, the study of the recombination mechanisms is thought to be one of the key challenges towards full comprehension of their working principles. Using molecular dynamics and frozen phonons, we evidence sub-picosecond anharmonic fluctuations in the fully inorganic $CsPbI_3$ perovskite. We reveal the effect of these fluctuations, combined with spin-orbit coupling, on the electronic band structure, evidencing a dynamical Rashba effect. Our study show that under certain conditions space disorder can quench the Rashba effect. As for time disorder, we evidence a dynamical Rashba effect which is similar to what was found for $MAPbI_3$ and which is still sizable despite temperature disorder, the large investigated supercell, and the absence of the organic cations' motion. We show that the spin texture associated to the Rashba splitting cannot be deemed responsible for a consistent reduction of recombination rates, although the spin mismatch between valence and conduction band increases with the ferroelectric distortion causing the Rashba splitting.",
+    "authors": [
+      "Arthur Marronnier",
+      "Guido Roma",
+      "Marcelo Carignano",
+      "Yvan Bonnassieux",
+      "Claudine Katan",
+      "Jacky Even",
+      "Edoardo Mosconi",
+      "Filippo De Angelis"
+    ],
+    "publication_date": "2018-10-26T14:51:54Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.11354v3",
+    "download_url": "https://arxiv.org/abs/1810.11354v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Data-Driven Design-Test-Make-Analyze Paradigm for Inorganic Crystals: Ultrafast Synthesis of Ternary Oxides",
+    "abstract": "Data-driven methodologies hold the promise of revolutionizing inorganic materials discovery, but they often face challenges due to discrepancies between theoretical predictions and experimental validation. In this work, we present an end-to-end discovery framework that leverages synthesizability, oxidation state probability, and reaction pathway calculations to guide the exploration of transition metal oxide spaces. Two previously unsynthesized target compositions, ZnVO3 and YMoO3, passed preliminary computational evaluation and were considered for ultrafast synthesis. Comprehensive structural and compositional analysis confirmed the successful synthesis ZnVO3 in a partially disordered spinel structure, validated via Density Functional Theory (DFT). Exploration of YMoO3 led to YMoO3-x with elemental composition close to 1:1:3; the structure was subsequently identified to be Y4Mo4O11 through micro-electron diffraction (microED) analysis. Our framework effectively integrates multi-aspect physics-based filtration with in-depth characterization, demonstrating the feasibility of designing, testing, synthesizing, and analyzing (DTMA) novel material candidates, marking a significant advancement towards inorganic materials by design.",
+    "authors": [
+      "Haiwen Dai",
+      "Matthew J. McDermott",
+      "Andy Paul Chen",
+      "Jose Recatala-Gomez",
+      "Wei Nong",
+      "Ruiming Zhu",
+      "Maung Thway",
+      "Samuel Morris",
+      "Christian Schürmann",
+      "Shreyas Dinesh Pethe",
+      "Chenguang Zhang",
+      "Wuan Geok Saw",
+      "Bich Ngoc Tran",
+      "Pritish Mishra",
+      "Fengxia Wei",
+      "Albertus Denny Handoko",
+      "Sabrine Hachmioune",
+      "Haipei Shao",
+      "Ming Lin",
+      "Chong Wai Liew",
+      "Kristin A. Persson",
+      "Kedar Hippalgaonkar"
+    ],
+    "publication_date": "2025-06-23T11:53:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.18542v1",
+    "download_url": "https://arxiv.org/abs/2506.18542v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Out-of-Plane Mechanical Properties of 2D Hybrid Organic-Inorganic Perovskites by Nanoindentation",
+    "abstract": "2D layered hybrid organic-inorganic perovskites (HOIPs) have demonstrated improved stability and promising photovoltaic performance. The mechanical properties of such functional materials are both fundamentally and practically important to achieve both high performance and mechanical stable (flexible) devices. Here we report the mechanical properties of a series of 2D layered lead iodide HOIPs and investigate the role of structural sub-units (e.g., variation of the length of the organic spacer molecules -R and the number of inorganic layer -n) on the mechanical properties. While 2D HOIPs have much lower nominal elastic moduli and hardness than 3D HOIPs, larger n number and shorter R lead to stiffer materials. DFT simulations showed a similar trend to the experimental results. We compared these findings with other 2D layered crystals and shed light on routes to further tune the out-of-plane mechanical properties of 2D layered HOIPs.",
+    "authors": [
+      "Qing Tu",
+      "Ioannis Spanopoulos",
+      "Shiqiang Hao",
+      "Christopher Wolverton",
+      "Mercouri G. Kanatzidis",
+      "Gajendra S. Shekhawat",
+      "Vinayak P. Dravid"
+    ],
+    "publication_date": "2018-03-29T22:45:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.11277v2",
+    "download_url": "https://arxiv.org/abs/1803.11277v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chiral nanoparticle chains on inorganic nanotube templates",
+    "abstract": "Fabrication of chiral assemblies of plasmonic nanoparticles is a highly attractive and challenging task with promising applications in light emission, detection, and sensing. So far, primarily organic chiral templates have been used for chirality inscription. However, this significantly limits the variety of nanoparticle preparation techniques to an in-pot approach at very low synthesis temperatures. Here, we demonstrate utilization of seemingly achiral inorganic nanotubes as templates for the chiral assembly of nanoparticles. We show that both metallic and dielectric nanoparticles can be attached to scroll-like chiral edges propagating on the surfaces of WS2 nanotubes. Due to relatively high temperature stability of these nanotubes, such assembly can be performed at temperatures as high as 550 °C. This large temperature range significantly widens the portfolio of usable nanoparticle fabrication techniques, allowing us to demonstrate a variety of chiral nanoparticle assemblies, ranging from metals (Au, Ga) and semiconductors (Ge) to oxides (WO3).",
+    "authors": [
+      "Lukáš Kachtík",
+      "Daniel Citterberg",
+      "Kristýna Bukvišová",
+      "Lukáš Kejík",
+      "Filip Ligmajer",
+      "Martin Kovařík",
+      "Tomáš Musálek",
+      "Manjunath Krishnappa",
+      "Tomáš Šikola",
+      "Miroslav Kolíbal"
+    ],
+    "publication_date": "2023-03-29T05:18:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.16460v1",
+    "download_url": "https://arxiv.org/abs/2303.16460v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Complex Organic and Inorganic Compounds in Shells of Lithium-rich K Giant Stars",
+    "abstract": "Hydrocarbon organic material, as found in the interstellar medium, exists in complex mixtures of aromatic and aliphatic forms. It is considered to be originated from carbon enriched giant stars during their final stages of evolution, when very strong mass loss occurs in a few thousand years on their way to become planetary nebulae. We show here that the same organic compounds appear to be formed in previous stages of the evolution of giant stars. More specifically, during the first ascending giant branch K-type stars. According to our model this happens only when these stars are being abruptly enriched with lithium together with the formation of a circumstellar shell with a strong mass loss during just a few thousand years. This sudden mass loss is, on an average, a thousand times larger than that of normal Li-poor K giant stars. This shell would later be detached, specially when the star stops its Li enrichment and a rapid photospheric Li depletion occurs. In order to gain extra carbon-based material to form the organic hydrocarbons, and also to explain the presence of complex inorganic compounds in these stars, we propose an interaction of these strong winds with remaining asteroidal/cometary disks that already existed around these stars since they were dwarf A-type stars. The mechanism of interaction presented here is successful to explain the presence of inorganic compounds, however it is unable to produce new carbon free atoms to form the organic hydrocarbon compounds. Finally, we discuss some suggestions and speculations that can eventually help solving the long-standing puzzle of Li-rich giants.",
+    "authors": [
+      "Ramiro de la Reza",
+      "Natalia A. Drake",
+      "Isa Oliveira",
+      "Sridharan Rengaswamy"
+    ],
+    "publication_date": "2015-04-22T20:47:43Z",
+    "arxiv_id": "http://arxiv.org/abs/1504.05983v1",
+    "download_url": "https://arxiv.org/abs/1504.05983v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analysis of the behavior of singlet pairs in inorganic crystal XOCl(X=Ti,Bi)",
+    "abstract": "This article explore the behavior of singlet pairs in Inorganic crystals and take the Ti-Ti and Bi-Bi dimer for example, including the transition in critical temperture by directly or indirectly. Through the analysis, It is proposed that with the decrease of temperature, the strength of spin-orbit coupling (SOC) increases and the phase difference also increases. In the one-dimensional spin 1/2 chain system of TiOCl and BiOCl crystals, the possibility of reversible parameter modulation is proposed by the calculation of the first principle analyzing the process and analysis of the structural phase transition process. It's shown that the different sturcture transition is relate to the difference of the dimer structure and the fluctuation of orbital order through the comparative study of TiOCl and BiOCl.",
+    "authors": [
+      "Chen-Huan Wu"
+    ],
+    "publication_date": "2017-07-27T20:22:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1707.09033v1",
+    "download_url": "https://arxiv.org/abs/1707.09033v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Atomic-level description of thermal fluctuations in inorganic lead halide perovskites",
+    "abstract": "The potential of lead-halide perovskites for realistic applications is currently hindered by their limited long-term stability under functional activation. While the role of lattice flexibility in the thermal response of perovskites has become increasingly evident, the description of thermally-induced distortions is still unclear. In this work, we provide a unified picture of thermal activation in CsPbBr3 across length scales, showing that lattice symmetry does not increase at high temperatures. We combine temperature-dependent XRD, Br K-edge XANES, ab initio MD simulations, and calculations of the XANES spectra by first-principles, accounting for both thermal fluctuations and core hole final state effects. We find that the octahedral tilting of the Pb-Br inorganic framework statistically adopts multiple local configurations over time - in the short-range. In turn, the stochastic nature of the local thermal fluctuations uplifts the longer-range periodic octahedral tilting characterizing the low temperature structure, with the statistical mean of the local configurations resulting in a cubic-like time-averaged lattice. These observations can be rationalized in terms of displacive thermal phase transitions through the soft mode model, in which the phonon anharmonicity of the flexible inorganic framework causes the excess free energy surface to change as a function of temperature. Our work demonstrates that the effect of thermal dynamics on the XANES spectra can be effectively described for largely anharmonic systems, provided ab initio MD simulations are performed to determine the dynamically fluctuating structures, and core hole final state effects are included in order to retrieve an accurate XANES line shape. Moreover, it shows that the soft mode model, previously invoked to describe displacive thermal phase transitions in oxide perovskites, carries a more general validity.",
+    "authors": [
+      "Oliviero Cannelli",
+      "Julia Wiktor",
+      "Nicola Colonna",
+      "Ludmila Leroy",
+      "Michele Puppin",
+      "Camila Bacellar",
+      "Ilia Sadykov",
+      "Franziska Krieg",
+      "Grigory Smolentsev",
+      "Maksym V. Kovalenko",
+      "Alfredo Pasquarello",
+      "Majed Chergui",
+      "Giulia F. Mancini"
+    ],
+    "publication_date": "2021-10-05T17:09:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.02179v1",
+    "download_url": "https://arxiv.org/abs/2110.02179v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Phase Stability Network of all Inorganic Materials",
+    "abstract": "One of the holy grails of materials science, unlocking structure-property relationships, has largely been pursued via bottom-up investigations of how the arrangement of atoms and interatomic bonding in a material determine its macroscopic behavior. Here we consider a complementary approach, a top-down study of the organizational structure of networks of materials, based on the interaction between materials themselves. We unravel the complete \"phase stability network of all inorganic materials\" as a densely-connected complex network of 21,000 thermodynamically stable compounds (nodes) interlinked by 41 million tie-lines (edges) defining their two-phase equilibria, as computed by high-throughput density functional theory. We find that the node connectivity in the materials network has a lognormal distribution, and the connectivity decreases with the number of elemental constituents in a material. Analyzing the topology of this network of materials has the potential to uncover new knowledge inaccessible from traditional atoms-to-materials paradigms. Using the connectivity of nodes in the phase stability network, we derive a rational, data-driven metric for material reactivity, the \"nobility index\", and quantitatively identify the noblest materials in nature.",
+    "authors": [
+      "Vinay I. Hegde",
+      "Muratahan Aykol",
+      "Scott Kirklin",
+      "Chris Wolverton"
+    ],
+    "publication_date": "2018-08-31T17:53:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1808.10869v2",
+    "download_url": "https://arxiv.org/abs/1808.10869v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Exciton-Dominated Core-Level Absorption Spectra of Hybrid Organic-Inorganic Lead Halide Perovskites",
+    "abstract": "In a combined theoretical and experimental work, we investigate X-ray Absorption Near-Edge Structure (XANES) spectroscopy of the I $L_3$ and the Pb $M_5$ edges of the methylammonium lead iodide ($\\textrm{MAPbI}_3$) hybrid inorganic-organic perovskite and its binary phase $\\textrm{PbI}_2$. The absorption onsets are dominated by bound excitons with sizable binding energies of a few hundred meV and pronounced anisotropy. The spectra of both materials exhibit remarkable similarities, suggesting that the fingerprints of core excitations in $\\textrm{MAPbI}_3$ are essentially given by its inorganic component, with negligible influence from the organic groups. The theoretical analysis complementing experimental observations provides the conceptual insights required for a full characterization of this complex material.",
+    "authors": [
+      "Christian Vorwerk",
+      "Claudia Hartmann",
+      "Caterina Cocchi",
+      "Golnaz Sadoughi",
+      "Severin N. Habisreutinger",
+      "Roberto Félix",
+      "Regan G. Wilks",
+      "Henry J. Snaith",
+      "Marcus Bär",
+      "Claudia Draxl"
+    ],
+    "publication_date": "2018-04-18T10:04:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1804.06627v1",
+    "download_url": "https://arxiv.org/abs/1804.06627v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Inorganic Graphenylene: A Porous Two-Dimensional Material With Tunable Band Gap",
+    "abstract": "By means of ab initio calculations we investigate the possibility of existence of a boron nitride (BN) porous two-dimensional nanosheet which is geometrically similar to the carbon allotrope known as biphenylene carbon. The proposed structure, which we called Inorganic Graphenylene (IGP), is formed spontaneously after selective dehydrogenation of the porous Boron Nitride (BN) structure proposed by Ding et al. We study the structural and electronic properties of both porous BN and IGP and it is shown that, by selective substitution of B and N atoms with carbon atoms in these structures, the band gap can be significantly reduced, changing their behavior from insulators to semiconductors, thus opening the possibility of band gap engineering for this class of two-dimensional materials.",
+    "authors": [
+      "Eric Perim",
+      "Ricardo Paupitz",
+      "Pedro Alves da Silva Atreto",
+      "Douglas Galvão"
+    ],
+    "publication_date": "2014-10-01T02:12:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1410.0090v1",
+    "download_url": "https://arxiv.org/abs/1410.0090v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hybrid improper ferroelectricity in a Multiferroic and Magnetoelectric hybrid organic-inorganic perosvkite",
+    "abstract": "There is great interest in hybrid organic-inorganic materials such as metal-organic frameworks (MOFs). The compounds [C(NH$_{2}$)$_{3}$]M(HCOO)$_{3}$, where M=Cu$^{2+}$ or Cr$^{2+}$ are Jahn-Teller (JT) active ions, are MOF with perovskite topology which crystallizes in polar space group Pna2$_{1}$. In inorganic compounds, octahedral tilting and Jahn-Teller structural distortions are usually non-polar distortions. However, in this MOF cooperative interactions between the antiferro-distortive distortions of the framework and the C(NH2)$_{3}$ organic cation via hydrogen bonding breaks the inversion symmetry and induces a ferroelectric polarization.[Angew. Chem. Int. Ed. 50, 5847, 2011] Our ab-initio study supports the picture of an orbital-order-induced ferroelectricity, a rare example of dipolar ordering caused by electronic degrees of freedom. The switching of polarization direction implies the reversal of the weak ferromagnetic component. The microscopic mechanism in this JT-based MOF with ABX$_{3}$ perovskite structure displays a Hybrid Improper Ferroelectric (HIF) state, arising from a trilinear coupling between different structural deformations that comprise tilting, rotations and Jahn-Teller distortions of both the BX$_{3}$ framework and the organic cation at the A sites. Since these distortion modes in perovskite-inorganic compounds usually freeze-in at elevated temperatures, the trilinear coupling in MOF compounds may provide an interesting route towards high-temperature multiferroicity. These results offer an important starting point for tailoring multiferroic properties in this emerging class of materials for various technological applications. In particular, the high tunability of the ferroelectric polarization by means of the modification of the organic A cation has been recently shown[J. Am. Chem. Soc. 135 18126 (2013)]",
+    "authors": [
+      "Alessandro Stroppa",
+      "Paolo Barone",
+      "Prashant Jain",
+      "Jean Manuel Perez-Mato",
+      "Silvia Picozzi"
+    ],
+    "publication_date": "2014-03-26T12:21:54Z",
+    "arxiv_id": "http://arxiv.org/abs/1403.6648v1",
+    "download_url": "https://arxiv.org/abs/1403.6648v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Strong Raman Optical Activity and Chiral Phonons in Chiral Hybrid Organic-Inorganic Perovskites",
+    "abstract": "Hybrid organic-inorganic perovskites with chiral organic cations are very interesting for optoelectronic applications because of their intrinsically chiral light-matter interactions. Chiral distortions in these materials lead to circular dichroism, circular birefringence, and circularly polarized luminescence in the band transitions of the inorganic sublattice. Raman-active vibrational modes in these crystals are governed by crystal symmetry and therefore are also strongly impacted by the nature and magnitude of the chiral distortions. Here, we report low-frequency Raman modes that are sensitive to circularly polarized excitation in chiral hybrid organic-inorganic perovskites (CHOIPs) across a wide range of structures and compositions. The circularly polarized Raman spectra from enantiomers of CHOIP single crystals exhibit sharp modes below 150 cm-1, corresponding to vibrations of the lead iodide octahedra. These modes exhibit strong differences in intensities (Raman optical activity, ROA) depending on the handedness of the excitation, with high degree of polarization for several modes. Calculations reveal the presence of several chiral phonon modes with opposite phonon angular momenta. The strong ROA and the chiral phonon modes are a direct consequence of chirality transfer from the chiral organic linker to the lead iodide octahedra in the CHOIP structure, resulting in a strong chiroptical response in the phonon modes.",
+    "authors": [
+      "Evan W. Muller",
+      "Aleksey Ruditskiy",
+      "Jie Jiang",
+      "Thuc T. Mai",
+      "Katherine Burzynski",
+      "Ruth Pachter",
+      "Michael F. Durstock",
+      "W. Joshua Kennedy",
+      "Rahul Rao"
+    ],
+    "publication_date": "2025-08-28T01:10:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.20338v1",
+    "download_url": "https://arxiv.org/abs/2508.20338v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Calculation of the biexciton shift in nanocrystals of inorganic perovskites",
+    "abstract": "We calculate the shift in emission frequency of the trion and biexciton (relative to that of the single exciton) for nanocrystals (NCs) of inorganic perovskites CsPbBr3 and CsPbI3. The calculations use an envelope-function k.p model combined with self-consistent Hartree-Fock and a treatment of the intercarrier correlation energy in the lowest (second) order of many-body perturbation theory. The carriers in the trion and biexciton are assumed to have relaxed nonradiatively to the ground state at the band edge before emission occurs. The theoretical trion shifts for both CsPbBr3 and CsPbI3 are found to be in fair agreement with available experimental data, which include low-temperature single-dot measurements, though are perhaps systematically small by a factor of order 1.5, which can plausibly be explained by a combination of a slightly overestimated dielectric constant and omitted third- and higher-order terms in the correlation energy. Taking this level of agreement into account, we estimate that the ground-state biexciton shift for CsPbBr3 is a redshift of order 10-20 meV for NCs with an edge-length of 12 nm. This value is intermediate among the numerous high-temperature measurements on NCs of CsPbBr3, which vary from large redshifts of order 100 meV to blueshifts of several meV.",
+    "authors": [
+      "T. P. T. Nguyen",
+      "S. A. Blundell",
+      "C. Guet"
+    ],
+    "publication_date": "2020-02-18T15:21:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.07636v1",
+    "download_url": "https://arxiv.org/abs/2002.07636v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Measurement of the non-linearity in the gamma-ray response of the GAGG:Ce inorganic scintillator",
+    "abstract": "A characteristic of every inorganic scintillator crystal is its light yield, i.e., the amount of emitted scintillation photons per unit of energy deposited in the crystal. Light yield is known to be usually non-linear with energy, which impacts the spectroscopic properties of the scintillator. Cerium-doped gadolinium-aluminium-gallium garnet (GAGG:Ce) is a recently developed scintillator with several interesting properties, which make it very promising for space-based gamma-ray detectors, such as in the HERMES nanosatellite mission. In this paper we report an accurate measurement of the GAGG:Ce non-linearity in the 20-662 keV gamma-ray energy interval, using a setup composed of three samples of GAGG:Ce crystals read out by Silicon Drift Detectors (SDDs).",
+    "authors": [
+      "R. Campana",
+      "C. Evola",
+      "C. Labanti",
+      "L. Ferro",
+      "M. Moita",
+      "E. Virgilli",
+      "E. J. Marchesini",
+      "F. Frontera",
+      "P. Rosati"
+    ],
+    "publication_date": "2023-08-13T12:41:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.06759v1",
+    "download_url": "https://arxiv.org/abs/2308.06759v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Low dimensional fragment-based descriptors for property predictions in inorganic materials with machine learning",
+    "abstract": "In recent times, the use of machine learning in materials design and discovery has aided to accelerate the discovery of innovative materials with extraordinary properties, which otherwise would have been driven by a laborious and time-consuming trial-and-error process. In this study, a simple yet powerful fragment-based descriptor, Low Dimensional Fragment Descriptors (LDFD), is proposed to work in conjunction with machine learning models to predict important properties of a wide range of inorganic materials such as perovskite oxides, metal halide perovskites, alloys, semiconductor, and other materials system and can also be extended to work with interfaces. To predict properties, the generation of descriptors requires only the structural formula of the materials and, in presence of identical structure in the dataset, additional system properties as input. And the generation of descriptors involves few steps, encoding the formula in binary space and reduction of dimensionality, allowing easy implementation and prediction. To evaluate descriptor performance, six known datasets with up to eight components were compared. The method was applied to properties such as band gaps of perovskites and semiconductors, lattice constant of magnetic alloys, bulk/shear modulus of superhard alloys, critical temperature of superconductors, formation enthalpy and energy above hull convex of perovskite oxides. An advanced python-based data mining tool matminer was utilized for the collection of data. The prediction accuracies are equivalent to the quality of the training data and show comparable effectiveness as previous studies. This method should be extendable to any inorganic material systems which can be subdivided into layers or crystal structures with more than one atom site, and with the progress of data mining the performance should get better with larger and unbiased datasets.",
+    "authors": [
+      "Md Mohaiminul Islam"
+    ],
+    "publication_date": "2024-07-30T19:19:45Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.21146v1",
+    "download_url": "https://arxiv.org/abs/2407.21146v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Writing on Nanocrystals: Patterning Colloidal Inorganic Nanocrystal Films through Irradiation-Induced Chemical Transformations of Surface Ligands",
+    "abstract": "In the past couple of decades, colloidal inorganic nanocrystals and, more specifically, semiconductor quantum dots have emerged as crucial materials for the development of nanoscience and nanotechnology, with applications in very diverse areas such as optoelectronics and biotechnology. Films made of inorganic NCs deposited on a substrate can be patterned by e-beam lithography, altering the structure of their capping ligands and thus allowing exposed areas to remain on the substrate while non-exposed areas are redispersed in a solvent, as in a standard lift-off process. This methodology can be described as a direct lithography process, since the exposure is performed directly on the material of interest, in contrast with conventional lithography which uses a polymeric resist as a mask for subsequent material deposition or etching. A few reports from the late 1990 and early 2000 used such direct lithography to fabricate electrical wires from metallic NCs. However, the poor conductivity obtained through this process hindered the widespread use of the technique. In the early 2010, the same method was used to define fluorescent patterns on QD films, allowing for further applications in biosensing. For the past 2 ,3 years, direct lithography on NC films with e-beams and X rays has gone through an important development as it has been demonstrated that it can tune further transformations on the NCs, leading to more complex patternings and opening a whole new set of possible applications.",
+    "authors": [
+      "Francisco Palazon",
+      "Mirko Prato",
+      "Liberato Manna"
+    ],
+    "publication_date": "2018-01-05T14:04:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1801.01756v1",
+    "download_url": "https://arxiv.org/abs/1801.01756v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hybrid nano-domain structures of organic-inorganic perovskites from molecule-cage coupling effects",
+    "abstract": "In hybrid perovskites, the organic molecules and inorganic frameworks exhibit distinct static and dynamic characteristics. Their coupling will lead to unprecedented phenomena, which have attracted wide research interests. In this paper, we employed Deep Potential molecular dynamics (DPMD), a large-scale MD simulation scheme with DFT accuracy, to study $\\mathrm{FA/MAPbI_3}$ hybrid perovskites. A spontaneous hybrid nano-domain behavior, namely multiple molecular rotation nano-domains embedded into a single $\\mathrm{[PbI_6]^{4-}}$ octahedra rotation domain, was firstly discovered at low temperatures. The behavior originates from the interplay between the long range order of molecular rotation and local lattice deformation, and clarifies the puzzling diffraction patterns of $\\mathrm{FAPbI_3}$ at low temperatures. Our work provides new insights into the structural characteristics and stability of hybrid perovskite, as well as new ideas for the structural characterization of organic-inorganic coupled systems.",
+    "authors": [
+      "Ping Tuo",
+      "Lei Li",
+      "Xiaoxu Wang",
+      "Bo Xu",
+      "Jianhui Chen",
+      "Zhicheng Zhong",
+      "Fu-Zhi Dai"
+    ],
+    "publication_date": "2022-09-26T06:25:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.12445v2",
+    "download_url": "https://arxiv.org/abs/2209.12445v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The rule of four: anomalous stoichiometries of inorganic compounds",
+    "abstract": "Why are materials with specific characteristics more abundant than others? This is a fundamental question in materials science and one that is traditionally difficult to tackle, given the vastness of compositional and configurational space. We highlight here the anomalous abundance of inorganic compounds whose primitive unit cell contains a number of atoms that is a multiple of four. This occurrence - named here the 'rule of four' - has to our knowledge not previously been reported or studied. Here, we first highlight the rule's existence, especially notable when restricting oneself to experimentally known compounds, and explore its possible relationship with established descriptors of crystal structures, from symmetries to energies. We then investigate this relative abundance by looking at structural descriptors, both of global (packing configurations) and local (the smooth overlap of atomic positions) nature. Contrary to intuition, the overabundance does not correlate with low-energy or high-symmetry structures; in fact, structures which obey the 'rule of four' are characterized by low symmetries and loosely packed arrangements maximizing the free volume. We are able to correlate this abundance with local structural symmetries, and visualize the results using a hybrid supervised-unsupervised machine learning method.",
+    "authors": [
+      "Elena Gazzarrini",
+      "Rose K. Cersonsky",
+      "Marnik Bercx",
+      "Carl S. Adorf",
+      "Nicola Marzari"
+    ],
+    "publication_date": "2023-07-27T09:56:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.14742v1",
+    "download_url": "https://arxiv.org/abs/2307.14742v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Achieving Different Stoichiometries and Morphologies in Vapor Phase Deposition of Inorganic Halide Perovskites: Single or Dual Precursor Sources?",
+    "abstract": "Inorganic halide perovskites have become attractive for many optoelectronic applications due to their outstanding properties. While chemical synthesis techniques have been successful in producing high-quality perovskite crystals, scaling up to wafer-scale thin films remains challenging. Vapor deposition methods, particularly physical vapor deposition and chemical vapor deposition, have emerged as potential solutions for large-scale thin film fabrication. However, the control of phase purity during deposition remains problematic. Here, we investigate single-source (CsPbBr3) and dual-source (CsBr and PbBr2) vapor deposition techniques to achieve phase-pure CsPbBr3 thin films. Utilizing Knudsen Effusion Mass Spectrometry, we demonstrate that while the single-source CsPbBr3 evaporation is partially congruent, it leads to compositional changes in the evaporant over time. The dual-source evaporation, with a precise control of the PbBr2/CsBr flux ratio, can improve phase purity, particularly at elevated substrate temperatures at excess PbBr2 conditions. Our results give direct evidence that the growth is CsBr-limited. Overall, our findings provide critical insights into the vapor phase deposition processes, highlighting the importance of evaporation conditions in achieving the desired inorganic perovskite stoichiometry and morphology.",
+    "authors": [
+      "Tomáš Musálek",
+      "Petr Liška",
+      "Amedeo Morsa",
+      "Jon Ander Arregi",
+      "Matouš Kratochvíl",
+      "Dmitry Sergeev",
+      "Michael Müller",
+      "Tomáš Šikola",
+      "Miroslav Kolíbal"
+    ],
+    "publication_date": "2024-09-26T21:04:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.18294v1",
+    "download_url": "https://arxiv.org/abs/2409.18294v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Roadmap for electronic structure, anharmonicity, and electron-phonon calculations in locally disordered inorganic and hybrid halide perovskites",
+    "abstract": "The role of data in modern materials science becomes more valuable and accurate when effects such as electron-phonon coupling and anharmonicity are included, providing a more realistic representation of finite-temperature material behavior. Furthermore, positional polymorphism, characterized by correlated local atomic disorder usually not reported by standard diffraction techniques, is a critical yet underexplored factor in understanding the electronic structure and transport properties of energy-efficient materials, like halide perovskites. In this manuscript, we present a first-principles methodology for locally disordered (polymorphous) cubic inorganic and hybrid halide perovskites, rooted in the special displacement method, that offers a systematic and alternative approach to molecular dynamics for exploring finite-temperature properties. By enabling a unified and efficient treatment of anharmonic lattice dynamics, electron-phonon coupling, and positional polymorphism, our approach generates essential data to predict temperature-dependent phonon properties, free energies, band gaps, and effective masses. Designed with a high-throughput spirit, this framework has been applied across a range of inorganic and hybrid halide perovskites: CsPbI3, CsPbBr3, CsSnI3, CsPbCl3, MAPbI3, MAPbBr3, MASnI3, MAPbCl3, FAPbI3, FAPbBr3, FASnI3, and FAPbCl3. We provide a comprehensive comparison between theoretical and experimental results and we systematically uncover trends and insights into their electronic and thermal behavior. For all compounds, we demonstrate strong and consistent correlations between local structural disorder, band gap openings, and effective mass enhancements.",
+    "authors": [
+      "Marios Zacharias",
+      "George Volonakis",
+      "Laurent Pedesseau",
+      "Claudine Katan",
+      "Feliciano Giustino",
+      "Jacky Even"
+    ],
+    "publication_date": "2025-06-12T06:52:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.10402v1",
+    "download_url": "https://arxiv.org/abs/2506.10402v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multichannel SiPM test readout system for gamma-ray measurements with monolithic inorganic CeBr_{3}",
+    "abstract": "Energy resolution and the detection efficiency for gamma quanta are fundamental properties in the construction of detectors for ionizing radiation. In this study, a SiPM-based photodetector coupled to a monolithic inorganic CeBr_{3} crystal is exposed to gamma rays in order to study the performance of the CeBr_{3} crystal. Measurements are made using three different radioactive sources - ^{137}Cs, ^{22}Na, and ^{60}Co. For each source, the measurements are conducted at several SiPM bias voltages. Furthermore, two CeBr_{3} crystals with different thicknesses are used in order to study how detector efficiency is affected by crystal dimensions. A preliminary analysis of the data is presented.",
+    "authors": [
+      "Veronika Asova",
+      "Galin Bistrev",
+      "Valentin Buchakchiev",
+      "Venelin Kozhuharov"
+    ],
+    "publication_date": "2025-12-12T10:48:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.11456v1",
+    "download_url": "https://arxiv.org/abs/2512.11456v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Two-Dimensional Organic-Inorganic Room-Temperature Multiferroic",
+    "abstract": "Organic-inorganic multiferroics are promising for the next generation of electronic devices. To date, dozens of organic-inorganic multiferroics have been reported; however, most of them show magnetic Curie temperature much lower than room temperature, which drastically hampers their application. Here, by performing first-principle calculations and building effective model Hamiltonians, we reveal a molecular orbital-mediated magnetic coupling mechanism in two-dimensional Cr(pyz)2 (pyz=pyrazine), and the role that the valence state of the molecule plays in determining the magnetic coupling type between metal ions. Based on these, we demonstrate that a two-dimensional organic-inorganic room-temperature multiferroic, Cr(h-fpyz)2 (h-fpyz= half-fluoropyrazine), can be rationally designed by introducing ferroelectricity in Cr(pyz)2 while keeping the valence state of the molecule unchanged. Our work not only reveals the origin of magnetic coupling in 2D organic-inorganic systems, but also provides a way to design room temperature multiferroic materials rationally.",
+    "authors": [
+      "Yali Yang",
+      "Junyi Ji",
+      "Junsheng Feng",
+      "Shiyou Chen",
+      "Laurent Bellaiche",
+      "Hongjun Xiang"
+    ],
+    "publication_date": "2022-08-01T03:34:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.00591v1",
+    "download_url": "https://arxiv.org/abs/2208.00591v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Phonon-pump electronic-probe study of methylammonium lead iodide reveals electronically decoupled organic and inorganic sublattices",
+    "abstract": "Organic-inorganic hybrid perovskites such as methylammonium lead iodide (CH3NH3PbI3) are game-changing semiconductors for solar cells and light-emitting devices owing to their exceptionally long carrier lifetime and diffusion length. Determining whether the large dipole moment of the organic cation and dynamic disorder benefit the optoelectronic properties of CH3NH3PbI3 has been an outstanding challenge. Herein, via transient absorption measurements employing an infrared pump pulse tuned to a methylammonium vibration, we observe slow, nanosecond-long thermal dissipation from the selectively excited organic mode to the entire lattice. Resulting transient electronic signatures, during the period of thermal-nonequilibrium when the induced thermal motions are mostly concentrated on the organic sublattice, reveal that induced motions of the organic cations do not alter absorption or photoluminescence response of CH3NH3PbI3, beyond thermal effects. Our results suggest that the attractive optoelectronic properties of CH3NH3PbI3 mainly derive from the inorganic lead-halide framework.",
+    "authors": [
+      "Peijun Guo",
+      "Arun Mannodi-Kanakkithodi",
+      "Jue Gong",
+      "Yi Xia",
+      "Constantinos C. Stoumpos",
+      "Duyen H. Cao",
+      "Benjamin T. Diroll",
+      "John B. Ketterson",
+      "Gary P. Wiederrecht",
+      "Tao Xu",
+      "Maria K. Y. Chan",
+      "Mercouri G. Kanatzidis",
+      "Richard D. Schaller"
+    ],
+    "publication_date": "2018-10-25T15:10:40Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.10919v1",
+    "download_url": "https://arxiv.org/abs/1810.10919v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fluid-crystal coexistence for proteins and inorganic nanocolloids: dependence on ionic strength",
+    "abstract": "We investigate theoretically the fluid-crystal coexistence of solutions of globular charged nanoparticles like proteins and inorganic colloids. The thermodynamic properties of the fluid phase are computed via the optimized Baxter model. This is done specifically for lysozyme and silicotungstates for which the bare adhesion parameters are evaluated via the experimental second virial coefficients. The electrostatic free energy of the crystal is approximated by supposing the cavities in the interstitial phase between the particles are spherical in form. In the salt-free case a Poisson-Boltzmann equation is solved to calculate the effective charge on a particle and a Donnan approximation is used to derive the chemical potential and osmotic pressure in the presence of salt. The coexistence data of lysozyme and silicotungstates are analyzed within this scheme, especially with regard to the ionic-strength dependence of the chemical potentials. The latter agree within the two phases provided some upward adjustment of the effective charge is allowed for.",
+    "authors": [
+      "Peter Prinsen",
+      "Theo Odijk"
+    ],
+    "publication_date": "2006-04-11T12:37:52Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0604275v1",
+    "download_url": "https://arxiv.org/abs/cond-mat/0604275v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ultra-broadband bright light emission from a one-dimensional inorganic van der Waals material",
+    "abstract": "One-dimensional (1D) van der Waals materials have emerged as an intriguing playground to explore novel electronic and optical effects. We report on inorganic one-dimensional SbPS4 nanotubes bundles obtained via mechanical exfoliation from bulk crystals. The ability to mechanically exfoliate SbPS4 nanobundles offers the possibility of applying modern 2D material fabrication techniques to create mixed-dimensional van der Waals heterostructures. We find that SbPS4 can readily be exfoliated to yield long (> 10 μm) nanobundles with thicknesses that range from of 1.3 - 200 nm. We investigated the optical response of semiconducting SbPS4 nanobundles and discovered that upon excitation with blue light, they emit bright and ultra-broadband red light with a quantum yield similar to that of hBN-encapsulated MoSe2. We discovered that the ultra-broadband red light emission is a result of a large ~1 eV exciton binding energy and a ~200 meV exciton self-trapping energy, unprecedented in previous material studies. Due to the bright and ultra-broadband light emission, we believe that this class of inorganic 1D van der Waals semiconductors has numerous potential applications including on-chip tunable nanolasers, and applications that require ultra-violet to visible light conversion such as lighting and sensing. Overall, our findings open avenues for harnessing the unique characteristics of these nanomaterials, advancing both fundamental research and practical optoelectronic applications.",
+    "authors": [
+      "Fateme Mahdikhany",
+      "Sean Driskill",
+      "Jeremy G. Philbrick",
+      "Davoud Adinehloo",
+      "Michael R. Koehler",
+      "David G. Mandrus",
+      "Takashi Taniguchi",
+      "Kenji Watanabe",
+      "Brian J. LeRoy",
+      "Oliver L. A. Monti",
+      "Vasili Perebeinos",
+      "Tai Kong",
+      "John R. Schaibley"
+    ],
+    "publication_date": "2023-12-12T14:42:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.07326v1",
+    "download_url": "https://arxiv.org/abs/2312.07326v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Over 800% Efficiency Enhancement of Solution-Processed All-Inorganic Quantum-Dot Light Emitting Diodes with an Ultrathin Alumina Passivating Layer",
+    "abstract": "The use of robust, inorganic charge-transport materials is always desired in quantum-dot light emitting diodes (QLEDs) because they are expected to allow higher stability and less cost than that of organic counterparts. Here we report an all-inorganic QLED with excellent efficiency by modifying the solution-processed NiO (s-NiO) surface with an ultrathin Al2O3 passivating layer. The localized electric field induced by nickel oxyhydroxide (NiOOH) is estimated to be ~ 70 MV/cm at a distance of 6 nm from the surface of s-NiO layer. Both transient resolution photoluminescence (TRPL) and X-Ray photoelectron spectroscopy (XPS) measurements demonstrate that the Al2O3 passivating layer can effectively passivate the NiOOH on the s-NiO surface, hence suppressing the exciton quenching. As a result, over 800% efficiency enhancement up to 34.1 cd/A (8.1%) for the current efficiency (external quantum efficiency, EQE) of the QLEDs is achieved. To the best of our knowledge, this is the best-performing all-inorganic QLED so far.",
+    "authors": [
+      "Wenyu Ji",
+      "Huaibin Shen",
+      "Han Zhang",
+      "Zhihui Kang",
+      "Hanzhuang Zhang"
+    ],
+    "publication_date": "2018-03-07T01:43:03Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.02497v2",
+    "download_url": "https://arxiv.org/abs/1803.02497v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "II-VI Organic-Inorganic Hybrid Nanostructures with Greatly Enhanced Optoelectronic Properties, Perfectly Ordered Structures, and Over 15-Year Shelf Stability",
+    "abstract": "Organic-inorganic hybrids may offer material properties not available from their inorganic components. However, they are typically less stable and disordered. Long-term stability study of the hybrid materials, over the anticipated lifespan of a real-world electronic device, is practically nonexistent. Disordering, prevalent in most nanostructure assemblies, is a prominent adversary to quantum coherence. A family of perfectly ordered II-VI based hybrid nanostructures has been shown to possess a number of unusual properties and potential applications. Here, using a prototype structure ZnTe(en)0.5 - a hybrid superlattice, and applying an array of optical, structural, surface, thermal, and electrical characterization techniques in conjunction with density-functional theory calculations, we have performed a comprehensive and correlative study of the crystalline quality, structural degradation, electronic, optical, and transport properties on samples from over 15-years old to the recently synthesized. The findings show that not only do they exhibit an exceptionally high level of crystallinity in both macroscopic and microscopic scale, comparable to high-quality binary semiconductors; and greatly enhanced material properties, compared to those of the inorganic constituents; but also, some of them over 15-years old remain as good in structure and property as freshly made ones. This study reveals (1) what level of structural perfectness is achievable in a complex organic-inorganic hybrid structure or a man-made superlattice, suggesting a non-traditional strategy to make periodically stacked heterostructures with abrupt interfaces; and (2) how the stability of a hybrid material is affected differently by its intrinsic attributes, primarily formation energy, and extrinsic factors, such as surface and defects.",
+    "authors": [
+      "Tang Ye",
+      "Margaret Kocherga",
+      "Yi-Yang Sun",
+      "Andrei Nesmelov",
+      "Fan Zhang",
+      "Wanseok Oh",
+      "Xiao-Ying Huang",
+      "Jing Li",
+      "Damian Beasock",
+      "Daniel S. Jones",
+      "Thomas A. Schmedake",
+      "Yong Zhang"
+    ],
+    "publication_date": "2020-05-30T20:12:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.00349v3",
+    "download_url": "https://arxiv.org/abs/2006.00349v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ARPES Line Shapes in FL and non-FL Quasi-Low-Dimensional Inorganic Metals",
+    "abstract": "Quasi-low-dimensional (quasi-low-D) inorganic materials are not only ideally suited for angle resolved photoemission spectroscopy (ARPES) but also they offer a rich ground for studying key concepts for the emerging paradigm of non-Fermi liquid (non-FL) physics. In this article, we discuss the ARPES technique applied to three quasi-low-D inorganic metals: a paradigm Fermi liquid (FL) material TiTe$_{2}$, a well-known quasi-1D charge density wave (CDW) material K$_{0.3}$MoO$_{3}$ and a quasi-1D non-CDW material Li$_{0.9}$Mo$_{6}$O$_{17}$. With TiTe$_2$, we establish that a many body theoretical interpretation of the ARPES line shape is possible. We also address the fundamental question of how to accurately determine the {\\bf k}$_F$ value from ARPES. Both K$_{0.3}$MoO$_{3}$ and Li$_{0.9}$Mo$_{6}$O$_{17}$ show quasi-1D electronic structures with non-FL line shapes. A CDW gap opening is observed for K$_{0.3}$MoO$_{3}$, whereas no gap is observed for Li$_{0.9}$Mo$_{6}$O$_{17}$. We show, however, that the standard CDW theory, even with strong fluctuations, is not sufficient to describe the non-FL line shapes of K$_{0.3}$MoO$_{3}$. We argue that a Luttinger liquid (LL) model is relevant for both bronzes, but also point out difficulties encountered in comparing data with theory. We interpret this situation to mean that a more complete and realistic theory is necessary to understand these data.",
+    "authors": [
+      "G. -H. Gweon",
+      "J. D. Denlinger",
+      "J. W. Allen",
+      "R. Claessen",
+      "C. G. Olson",
+      "H. Hoechst",
+      "J. Marcus",
+      "C. Schlenker",
+      "L. F. Schneemeyer"
+    ],
+    "publication_date": "2001-03-22T20:41:58Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0103470v1",
+    "download_url": "https://arxiv.org/abs/cond-mat/0103470v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine learning-driven elasticity prediction in advanced inorganic materials via convolutional neural networks",
+    "abstract": "Inorganic crystal materials have broad application potential due to excellent physical and chemical properties, with elastic properties (shear modulus, bulk modulus) crucial for predicting materials' electrical conductivity, thermal conductivity and mechanical properties. Traditional experimental measurement suffers from high cost and low efficiency, while theoretical simulation and graph neural network-based machine learning methods--especially crystal graph convolutional neural networks (CGCNNs)--have become effective alternatives, achieving remarkable results in predicting material elastic properties. This study trained two CGCNN models using shear modulus and bulk modulus data of 10987 materials from the Matbench v0.1 dataset, which exhibit high accuracy (mean absolute error <13, coefficient of determination R-squared close to 1) and good generalization ability. Materials were screened to retain those with band gaps between 0.1-3.0 eV and exclude radioactive element-containing compounds. The final predicted dataset comprises two parts: 54359 crystal structures from the Materials Project database and 26305 crystal structures discovered by Merchant et al. (2023 Nature 624 80). Ultimately, this study completed the prediction of shear modulus and bulk modulus for 80664 inorganic crystals. This work enriches existing material elastic data resources and provides robust support for material design, with all data openly available at https://doi.org/10.57760/sciencedb.j00213.00104.",
+    "authors": [
+      "Yujie Liu",
+      "Zhenyu Wang",
+      "Hang Lei",
+      "Guoyu Zhang",
+      "Jiawei Xian",
+      "Zhibin Gao",
+      "Jun Sun",
+      "Haifeng Song",
+      "Xiangdong Ding"
+    ],
+    "publication_date": "2025-11-06T15:42:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2511.04468v1",
+    "download_url": "https://arxiv.org/abs/2511.04468v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

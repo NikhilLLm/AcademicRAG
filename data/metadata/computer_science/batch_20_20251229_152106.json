@@ -1,0 +1,1819 @@
+[
+  {
+    "title": "WiCV 2019: The Sixth Women In Computer Vision Workshop",
+    "abstract": "In this paper we present the Women in Computer Vision Workshop - WiCV 2019, organized in conjunction with CVPR 2019. This event is meant for increasing the visibility and inclusion of women researchers in the computer vision field. Computer vision and machine learning have made incredible progress over the past years, but the number of female researchers is still low both in academia and in industry. WiCV is organized especially for the following reason: to raise visibility of female researchers, to increase collaborations between them, and to provide mentorship to female junior researchers in the field. In this paper, we present a report of trends over the past years, along with a summary of statistics regarding presenters, attendees, and sponsorship for the current workshop.",
+    "authors": [
+      "Irene Amerini",
+      "Elena Balashova",
+      "Sayna Ebrahimi",
+      "Kathryn Leonard",
+      "Arsha Nagrani",
+      "Amaia Salvador"
+    ],
+    "publication_date": "2019-09-23T08:52:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.10225v1",
+    "download_url": "https://arxiv.org/abs/1909.10225v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+    "abstract": "Insects are the most important global pollinator of crops and play a key role in maintaining the sustainability of natural ecosystems. Insect pollination monitoring and management are therefore essential for improving crop production and food security. Computer vision facilitated pollinator monitoring can intensify data collection over what is feasible using manual approaches. The new data it generates may provide a detailed understanding of insect distributions and facilitate fine-grained analysis sufficient to predict their pollination efficacy and underpin precision pollination. Current computer vision facilitated insect tracking in complex outdoor environments is restricted in spatial coverage and often constrained to a single insect species. This limits its relevance to agriculture. Therefore, in this article we introduce a novel system to facilitate markerless data capture for insect counting, insect motion tracking, behaviour analysis and pollination prediction across large agricultural areas. Our system is comprised of edge computing multi-point video recording, offline automated multispecies insect counting, tracking and behavioural analysis. We implement and test our system on a commercial berry farm to demonstrate its capabilities. Our system successfully tracked four insect varieties, at nine monitoring stations within polytunnels, obtaining an F-score above 0.8 for each variety. The system enabled calculation of key metrics to assess the relative pollination impact of each insect variety. With this technological advancement, detailed, ongoing data collection for precision pollination becomes achievable. This is important to inform growers and apiarists managing crop pollination, as it allows data-driven decisions to be made to improve food production and food security.",
+    "authors": [
+      "Malika Nisal Ratnayake",
+      "Don Chathurika Amarathunga",
+      "Asaduz Zaman",
+      "Adrian G. Dyer",
+      "Alan Dorin"
+    ],
+    "publication_date": "2022-05-10T05:11:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.04675v2",
+    "download_url": "https://arxiv.org/abs/2205.04675v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Global Adaptive Filtering Layer for Computer Vision",
+    "abstract": "We devise a universal adaptive neural layer to \"learn\" optimal frequency filter for each image together with the weights of the base neural network that performs some computer vision task. The proposed approach takes the source image in the spatial domain, automatically selects the best frequencies from the frequency domain, and transmits the inverse-transform image to the main neural network. Remarkably, such a simple add-on layer dramatically improves the performance of the main network regardless of its design. We observe that the light networks gain a noticeable boost in the performance metrics; whereas, the training of the heavy ones converges faster when our adaptive layer is allowed to \"learn\" alongside the main architecture. We validate the idea in four classical computer vision tasks: classification, segmentation, denoising, and erasing, considering popular natural and medical data benchmarks.",
+    "authors": [
+      "Viktor Shipitsin",
+      "Iaroslav Bespalov",
+      "Dmitry V. Dylov"
+    ],
+    "publication_date": "2020-10-02T19:43:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.01177v4",
+    "download_url": "https://arxiv.org/abs/2010.01177v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?",
+    "abstract": "A core objective of the TERRA-REF project was to generate an open-access reference dataset for the evaluation of sensing technologies to study plants under field conditions. The TERRA-REF program deployed a suite of high-resolution, cutting edge technology sensors on a gantry system with the aim of scanning 1 hectare (10$^4$) at around 1 mm$^2$ spatial resolution multiple times per week. The system contains co-located sensors including a stereo-pair RGB camera, a thermal imager, a laser scanner to capture 3D structure, and two hyperspectral cameras covering wavelengths of 300-2500nm. This sensor data is provided alongside over sixty types of traditional plant phenotype measurements that can be used to train new machine learning models. Associated weather and environmental measurements, information about agronomic management and experimental design, and the genomic sequences of hundreds of plant varieties have been collected and are available alongside the sensor and plant phenotype data.\n  Over the course of four years and ten growing seasons, the TERRA-REF system generated over 1 PB of sensor data and almost 45 million files. The subset that has been released to the public domain accounts for two seasons and about half of the total data volume. This provides an unprecedented opportunity for investigations far beyond the core biological scope of the project.\n  The focus of this paper is to provide the Computer Vision and Machine Learning communities an overview of the available data and some potential applications of this one of a kind data.",
+    "authors": [
+      "David LeBauer",
+      "Max Burnette",
+      "Noah Fahlgren",
+      "Rob Kooper",
+      "Kenton McHenry",
+      "Abby Stylianou"
+    ],
+    "publication_date": "2021-07-29T15:01:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.14072v2",
+    "download_url": "https://arxiv.org/abs/2107.14072v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models",
+    "abstract": "Computer vision is hard because of a large variability in lighting, shape, and texture; in addition the image signal is non-additive due to occlusion. Generative models promised to account for this variability by accurately modelling the image formation process as a function of latent variables with prior beliefs. Bayesian posterior inference could then, in principle, explain the observation. While intuitively appealing, generative models for computer vision have largely failed to deliver on that promise due to the difficulty of posterior inference. As a result the community has favoured efficient discriminative approaches. We still believe in the usefulness of generative models in computer vision, but argue that we need to leverage existing discriminative or even heuristic computer vision methods. We implement this idea in a principled way with an \"informed sampler\" and in careful experiments demonstrate it on challenging generative models which contain renderer programs as their components. We concentrate on the problem of inverting an existing graphics rendering engine, an approach that can be understood as \"Inverse Graphics\". The informed sampler, using simple discriminative proposals based on existing computer vision technology, achieves significant improvements of inference.",
+    "authors": [
+      "Varun Jampani",
+      "Sebastian Nowozin",
+      "Matthew Loper",
+      "Peter V. Gehler"
+    ],
+    "publication_date": "2014-02-04T20:52:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1402.0859v3",
+    "download_url": "https://arxiv.org/abs/1402.0859v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Novel Convolution Kernels for Computer Vision and Shape Analysis based on Electromagnetism",
+    "abstract": "Computer vision is a growing field with a lot of new applications in automation and robotics, since it allows the analysis of images and shapes for the generation of numerical or analytical information. One of the most used method of information extraction is image filtering through convolution kernels, with each kernel specialized for specific applications. The objective of this paper is to present a novel convolution kernels, based on principles of electromagnetic potentials and fields, for a general use in computer vision and to demonstrate its usage for shape and stroke analysis. Such filtering possesses unique geometrical properties that can be interpreted using well understood physics theorems. Therefore, this paper focuses on the development of the electromagnetic kernels and on their application on images for shape and stroke analysis. It also presents several interesting features of electromagnetic kernels, such as resolution, size and orientation independence, robustness to noise and deformation, long distance stroke interaction and ability to work with 3D images",
+    "authors": [
+      "Dominique Beaini",
+      "Sofiane Achiche",
+      "Yann-Seing Law-Kam Cio",
+      "Maxime Raison"
+    ],
+    "publication_date": "2018-06-20T21:31:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.07996v1",
+    "download_url": "https://arxiv.org/abs/1806.07996v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Vision Based Game Development Using Human Computer Interaction",
+    "abstract": "A Human Computer Interface (HCI) System for playing games is designed here for more natural communication with the machines. The system presented here is a vision-based system for detection of long voluntary eye blinks and interpretation of blink patterns for communication between man and machine. This system replaces the mouse with the human face as a new way to interact with the computer. Facial features (nose tip and eyes) are detected and tracked in realtime to use their actions as mouse events. The coordinates and movement of the nose tip in the live video feed are translated to become the coordinates and movement of the mouse pointer on the application. The left or right eye blinks fire left or right mouse click events. The system works with inexpensive USB cameras and runs at a frame rate of 30 frames per second.",
+    "authors": [
+      "S. Sumathi",
+      "S. K. Srivatsa",
+      "M. Uma Maheswari"
+    ],
+    "publication_date": "2010-02-10T19:46:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1002.2191v1",
+    "download_url": "https://arxiv.org/abs/1002.2191v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Crowdsourcing in Computer Vision",
+    "abstract": "Computer vision systems require large amounts of manually annotated data to properly learn challenging visual concepts. Crowdsourcing platforms offer an inexpensive method to capture human knowledge and understanding, for a vast number of visual perception tasks. In this survey, we describe the types of annotations computer vision researchers have collected using crowdsourcing, and how they have ensured that this data is of high quality while annotation effort is minimized. We begin by discussing data collection on both classic (e.g., object recognition) and recent (e.g., visual story-telling) vision tasks. We then summarize key design decisions for creating effective data collection interfaces and workflows, and present strategies for intelligently selecting the most important data instances to annotate. Finally, we conclude with some thoughts on the future of crowdsourcing in computer vision.",
+    "authors": [
+      "Adriana Kovashka",
+      "Olga Russakovsky",
+      "Li Fei-Fei",
+      "Kristen Grauman"
+    ],
+    "publication_date": "2016-11-07T16:11:19Z",
+    "arxiv_id": "http://arxiv.org/abs/1611.02145v1",
+    "download_url": "https://arxiv.org/abs/1611.02145v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "FedCV: A Federated Learning Framework for Diverse Computer Vision Tasks",
+    "abstract": "Federated Learning (FL) is a distributed learning paradigm that can learn a global or personalized model from decentralized datasets on edge devices. However, in the computer vision domain, model performance in FL is far behind centralized training due to the lack of exploration in diverse tasks with a unified FL framework. FL has rarely been demonstrated effectively in advanced computer vision tasks such as object detection and image segmentation. To bridge the gap and facilitate the development of FL for computer vision tasks, in this work, we propose a federated learning library and benchmarking framework, named FedCV, to evaluate FL on the three most representative computer vision tasks: image classification, image segmentation, and object detection. We provide non-I.I.D. benchmarking datasets, models, and various reference FL algorithms. Our benchmark study suggests that there are multiple challenges that deserve future exploration: centralized training tricks may not be directly applied to FL; the non-I.I.D. dataset actually downgrades the model accuracy to some degree in different tasks; improving the system efficiency of federated training is challenging given the huge number of parameters and the per-client memory cost. We believe that such a library and benchmark, along with comparable evaluation settings, is necessary to make meaningful progress in FL on computer vision tasks. FedCV is publicly available: https://github.com/FedML-AI/FedCV.",
+    "authors": [
+      "Chaoyang He",
+      "Alay Dilipbhai Shah",
+      "Zhenheng Tang",
+      "Di Fan1Adarshan Naiynar Sivashunmugam",
+      "Keerti Bhogaraju",
+      "Mita Shimpi",
+      "Li Shen",
+      "Xiaowen Chu",
+      "Mahdi Soltanolkotabi",
+      "Salman Avestimehr"
+    ],
+    "publication_date": "2021-11-22T09:26:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.11066v1",
+    "download_url": "https://arxiv.org/abs/2111.11066v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Evolution of First Person Vision Methods: A Survey",
+    "abstract": "The emergence of new wearable technologies such as action cameras and smart-glasses has increased the interest of computer vision scientists in the First Person perspective. Nowadays, this field is attracting attention and investments of companies aiming to develop commercial devices with First Person Vision recording capabilities. Due to this interest, an increasing demand of methods to process these videos, possibly in real-time, is expected. Current approaches present a particular combinations of different image features and quantitative methods to accomplish specific objectives like object detection, activity recognition, user machine interaction and so on. This paper summarizes the evolution of the state of the art in First Person Vision video analysis between 1997 and 2014, highlighting, among others, most commonly used features, methods, challenges and opportunities within the field.",
+    "authors": [
+      "Alejandro Betancourt",
+      "Pietro Morerio",
+      "Carlo S. Regazzoni",
+      "Matthias Rauterberg"
+    ],
+    "publication_date": "2014-09-04T16:38:43Z",
+    "arxiv_id": "http://arxiv.org/abs/1409.1484v3",
+    "download_url": "https://arxiv.org/abs/1409.1484v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Comparative Study of Graph Matching Algorithms in Computer Vision",
+    "abstract": "The graph matching optimization problem is an essential component for many tasks in computer vision, such as bringing two deformable objects in correspondence. Naturally, a wide range of applicable algorithms have been proposed in the last decades. Since a common standard benchmark has not been developed, their performance claims are often hard to verify as evaluation on differing problem instances and criteria make the results incomparable. To address these shortcomings, we present a comparative study of graph matching algorithms. We create a uniform benchmark where we collect and categorize a large set of existing and publicly available computer vision graph matching problems in a common format. At the same time we collect and categorize the most popular open-source implementations of graph matching algorithms. Their performance is evaluated in a way that is in line with the best practices for comparing optimization algorithms. The study is designed to be reproducible and extensible to serve as a valuable resource in the future.\n  Our study provides three notable insights:\n  1.) popular problem instances are exactly solvable in substantially less than 1 second and, therefore, are insufficient for future empirical evaluations;\n  2.) the most popular baseline methods are highly inferior to the best available methods;\n  3.) despite the NP-hardness of the problem, instances coming from vision applications are often solvable in a few seconds even for graphs with more than 500 vertices.",
+    "authors": [
+      "Stefan Haller",
+      "Lorenz Feineis",
+      "Lisa Hutschenreiter",
+      "Florian Bernard",
+      "Carsten Rother",
+      "Dagmar Kainmüller",
+      "Paul Swoboda",
+      "Bogdan Savchynskyy"
+    ],
+    "publication_date": "2022-07-01T09:37:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.00291v2",
+    "download_url": "https://arxiv.org/abs/2207.00291v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Food for thought: Ethical considerations of user trust in computer vision",
+    "abstract": "In computer vision research, especially when novel applications of tools are developed, ethical implications around user perceptions of trust in the underlying technology should be considered and supported. Here, we describe an example of the incorporation of such considerations within the long-term care sector for tracking resident food and fluid intake. We highlight our recent user study conducted to develop a Goldilocks quality horizontal prototype designed to support trust cues in which perceived trust in our horizontal prototype was higher than the existing system in place. We discuss the importance and need for user engagement as part of ongoing computer vision-driven technology development and describe several important factors related to trust that are relevant to developing decision-making tools.",
+    "authors": [
+      "Kaylen J. Pfisterer",
+      "Jennifer Boger",
+      "Alexander Wong"
+    ],
+    "publication_date": "2019-05-29T14:25:43Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.12487v1",
+    "download_url": "https://arxiv.org/abs/1905.12487v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Computer Vision Systems in Road Vehicles: A Review",
+    "abstract": "The number of road vehicles significantly increased in recent decades. This trend accompanied a build-up of road infrastructure and development of various control systems to increase road traffic safety, road capacity and travel comfort. In traffic safety significant development has been made and today's systems more and more include cameras and computer vision methods. Cameras are used as part of the road infrastructure or in vehicles. In this paper a review on computer vision systems in vehicles from the stand point of traffic engineering is given. Safety problems of road vehicles are presented, current state of the art in-vehicle vision systems is described and open problems with future research directions are discussed.",
+    "authors": [
+      "Kristian Kovačić",
+      "Edouard Ivanjko",
+      "Hrvoje Gold"
+    ],
+    "publication_date": "2013-10-01T14:19:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1310.0315v1",
+    "download_url": "https://arxiv.org/abs/1310.0315v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Review of Pulse-Coupled Neural Network Applications in Computer Vision and Image Processing",
+    "abstract": "Research in neural models inspired by mammal's visual cortex has led to many spiking neural networks such as pulse-coupled neural networks (PCNNs). These models are oscillating, spatio-temporal models stimulated with images to produce several time-based responses. This paper reviews PCNN's state of the art, covering its mathematical formulation, variants, and other simplifications found in the literature. We present several applications in which PCNN architectures have successfully addressed some fundamental image processing and computer vision challenges, including image segmentation, edge detection, medical imaging, image fusion, image compression, object recognition, and remote sensing. Results achieved in these applications suggest that the PCNN architecture generates useful perceptual information relevant to a wide variety of computer vision tasks.",
+    "authors": [
+      "Nurul Rafi",
+      "Pablo Rivas"
+    ],
+    "publication_date": "2024-06-01T00:10:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.00239v1",
+    "download_url": "https://arxiv.org/abs/2406.00239v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ice Core Science Meets Computer Vision: Challenges and Perspectives",
+    "abstract": "Polar ice cores play a central role in studies of the earth's climate system through natural archives. A pressing issue is the analysis of the oldest, highly thinned ice core sections, where the identification of paleoclimate signals is particularly challenging. For this, state-of-the-art imaging by laser-ablation inductively-coupled plasma mass spectrometry (LA-ICP-MS) has the potential to be revolutionary due to its combination of micron-scale 2D chemical information with visual features. However, the quantitative study of record preservation in chemical images raises new questions that call for the expertise of the computer vision community. To illustrate this new inter-disciplinary frontier, we describe a selected set of key questions. One critical task is to assess the paleoclimate significance of single line profiles along the main core axis, which we show is a scale-dependent problem for which advanced image analysis methods are critical. Another important issue is the evaluation of post-depositional layer changes, for which the chemical images provide rich information. Accordingly, the time is ripe to begin an intensified exchange among the two scientific communities of computer vision and ice core science. The collaborative building of a new framework for investigating high-resolution chemical images with automated image analysis techniques will also benefit the already wide-spread application of LA-ICP-MS chemical imaging in the geosciences.",
+    "authors": [
+      "P. Bohleber",
+      "M. Roman",
+      "C. Barbante",
+      "S. Vascon",
+      "K. Siddiqi",
+      "M. Pelillo"
+    ],
+    "publication_date": "2021-04-09T15:27:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.04430v1",
+    "download_url": "https://arxiv.org/abs/2104.04430v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Robust Fitting in Computer Vision: Easy or Hard?",
+    "abstract": "Robust model fitting plays a vital role in computer vision, and research into algorithms for robust fitting continues to be active. Arguably the most popular paradigm for robust fitting in computer vision is consensus maximisation, which strives to find the model parameters that maximise the number of inliers. Despite the significant developments in algorithms for consensus maximisation, there has been a lack of fundamental analysis of the problem in the computer vision literature. In particular, whether consensus maximisation is \"tractable\" remains a question that has not been rigorously dealt with, thus making it difficult to assess and compare the performance of proposed algorithms, relative to what is theoretically achievable. To shed light on these issues, we present several computational hardness results for consensus maximisation. Our results underline the fundamental intractability of the problem, and resolve several ambiguities existing in the literature.",
+    "authors": [
+      "Tat-Jun Chin",
+      "Zhipeng Cai",
+      "Frank Neumann"
+    ],
+    "publication_date": "2018-02-18T22:54:50Z",
+    "arxiv_id": "http://arxiv.org/abs/1802.06464v3",
+    "download_url": "https://arxiv.org/abs/1802.06464v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sim4CV: A Photo-Realistic Simulator for Computer Vision Applications",
+    "abstract": "We present a photo-realistic training and evaluation simulator (Sim4CV) with extensive applications across various fields of computer vision. Built on top of the Unreal Engine, the simulator integrates full featured physics based cars, unmanned aerial vehicles (UAVs), and animated human actors in diverse urban and suburban 3D environments. We demonstrate the versatility of the simulator with two case studies: autonomous UAV-based tracking of moving objects and autonomous driving using supervised learning. The simulator fully integrates both several state-of-the-art tracking algorithms with a benchmark evaluation tool and a deep neural network (DNN) architecture for training vehicles to drive autonomously. It generates synthetic photo-realistic datasets with automatic ground truth annotations to easily extend existing real-world datasets and provides extensive synthetic data variety through its ability to reconfigure synthetic worlds on the fly using an automatic world generation tool. The supplementary video can be viewed a https://youtu.be/SqAxzsQ7qUU",
+    "authors": [
+      "Matthias Müller",
+      "Vincent Casser",
+      "Jean Lahoud",
+      "Neil Smith",
+      "Bernard Ghanem"
+    ],
+    "publication_date": "2017-08-19T16:09:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1708.05869v2",
+    "download_url": "https://arxiv.org/abs/1708.05869v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The 2nd Workshop on Maritime Computer Vision (MaCVi) 2024",
+    "abstract": "The 2nd Workshop on Maritime Computer Vision (MaCVi) 2024 addresses maritime computer vision for Unmanned Aerial Vehicles (UAV) and Unmanned Surface Vehicles (USV). Three challenges categories are considered: (i) UAV-based Maritime Object Tracking with Re-identification, (ii) USV-based Maritime Obstacle Segmentation and Detection, (iii) USV-based Maritime Boat Tracking. The USV-based Maritime Obstacle Segmentation and Detection features three sub-challenges, including a new embedded challenge addressing efficicent inference on real-world embedded devices. This report offers a comprehensive overview of the findings from the challenges. We provide both statistical and qualitative analyses, evaluating trends from over 195 submissions. All datasets, evaluation code, and the leaderboard are available to the public at https://macvi.org/workshop/macvi24.",
+    "authors": [
+      "Benjamin Kiefer",
+      "Lojze Žust",
+      "Matej Kristan",
+      "Janez Perš",
+      "Matija Teršek",
+      "Arnold Wiliem",
+      "Martin Messmer",
+      "Cheng-Yen Yang",
+      "Hsiang-Wei Huang",
+      "Zhongyu Jiang",
+      "Heng-Cheng Kuo",
+      "Jie Mei",
+      "Jenq-Neng Hwang",
+      "Daniel Stadler",
+      "Lars Sommer",
+      "Kaer Huang",
+      "Aiguo Zheng",
+      "Weitu Chong",
+      "Kanokphan Lertniphonphan",
+      "Jun Xie",
+      "Feng Chen",
+      "Jian Li",
+      "Zhepeng Wang",
+      "Luca Zedda",
+      "Andrea Loddo",
+      "Cecilia Di Ruberto",
+      "Tuan-Anh Vu",
+      "Hai Nguyen-Truong",
+      "Tan-Sang Ha",
+      "Quan-Dung Pham",
+      "Sai-Kit Yeung",
+      "Yuan Feng",
+      "Nguyen Thanh Thien",
+      "Lixin Tian",
+      "Sheng-Yao Kuan",
+      "Yuan-Hao Ho",
+      "Angel Bueno Rodriguez",
+      "Borja Carrillo-Perez",
+      "Alexander Klein",
+      "Antje Alex",
+      "Yannik Steiniger",
+      "Felix Sattler",
+      "Edgardo Solano-Carrillo",
+      "Matej Fabijanić",
+      "Magdalena Šumunec",
+      "Nadir Kapetanović",
+      "Andreas Michel",
+      "Wolfgang Gross",
+      "Martin Weinmann"
+    ],
+    "publication_date": "2023-11-23T21:01:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.14762v1",
+    "download_url": "https://arxiv.org/abs/2311.14762v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spike-based Neuromorphic Computing for Next-Generation Computer Vision",
+    "abstract": "Neuromorphic Computing promises orders of magnitude improvement in energy efficiency compared to traditional von Neumann computing paradigm. The goal is to develop an adaptive, fault-tolerant, low-footprint, fast, low-energy intelligent system by learning and emulating brain functionality which can be realized through innovation in different abstraction layers including material, device, circuit, architecture and algorithm. As the energy consumption in complex vision tasks keep increasing exponentially due to larger data set and resource-constrained edge devices become increasingly ubiquitous, spike-based neuromorphic computing approaches can be viable alternative to deep convolutional neural network that is dominating the vision field today. In this book chapter, we introduce neuromorphic computing, outline a few representative examples from different layers of the design stack (devices, circuits and algorithms) and conclude with a few exciting applications and future research directions that seem promising for computer vision in the near future.",
+    "authors": [
+      "Md Sakib Hasan",
+      "Catherine D. Schuman",
+      "Zhongyang Zhang",
+      "Tauhidur Rahman",
+      "Garrett S. Rose"
+    ],
+    "publication_date": "2023-10-15T01:05:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.09692v2",
+    "download_url": "https://arxiv.org/abs/2310.09692v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Minimalist Vision with Freeform Pixels",
+    "abstract": "A minimalist vision system uses the smallest number of pixels needed to solve a vision task. While traditional cameras use a large grid of square pixels, a minimalist camera uses freeform pixels that can take on arbitrary shapes to increase their information content. We show that the hardware of a minimalist camera can be modeled as the first layer of a neural network, where the subsequent layers are used for inference. Training the network for any given task yields the shapes of the camera's freeform pixels, each of which is implemented using a photodetector and an optical mask. We have designed minimalist cameras for monitoring indoor spaces (with 8 pixels), measuring room lighting (with 8 pixels), and estimating traffic flow (with 8 pixels). The performance demonstrated by these systems is on par with a traditional camera with orders of magnitude more pixels. Minimalist vision has two major advantages. First, it naturally tends to preserve the privacy of individuals in the scene since the captured information is inadequate for extracting visual details. Second, since the number of measurements made by a minimalist camera is very small, we show that it can be fully self-powered, i.e., function without an external power supply or a battery.",
+    "authors": [
+      "Jeremy Klotz",
+      "Shree K. Nayar"
+    ],
+    "publication_date": "2024-12-30T21:27:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2501.00142v1",
+    "download_url": "https://arxiv.org/abs/2501.00142v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards a Better Understanding of the Computer Vision Research Community in Africa",
+    "abstract": "Computer vision is a broad field of study that encompasses different tasks (e.g., object detection). Although computer vision is relevant to the African communities in various applications, yet computer vision research is under-explored in the continent and constructs only 0.06% of top-tier publications in the last ten years. In this paper, our goal is to have a better understanding of the computer vision research conducted in Africa and provide pointers on whether there is equity in research or not. We do this through an empirical analysis of the African computer vision publications that are Scopus indexed, where we collect around 63,000 publications over the period 2012-2022. We first study the opportunities available for African institutions to publish in top-tier computer vision venues. We show that African publishing trends in top-tier venues over the years do not exhibit consistent growth, unlike other continents such as North America or Asia. Moreover, we study all computer vision publications beyond top-tier venues in different African regions to find that mainly Northern and Southern Africa are publishing in computer vision with 68.5% and 15.9% of publications, resp. Nonetheless, we highlight that both Eastern and Western Africa are exhibiting a promising increase with the last two years closing the gap with Southern Africa. Additionally, we study the collaboration patterns in these publications to find that most of these exhibit international collaborations rather than African ones. We also show that most of these publications include an African author that is a key contributor as the first or last author. Finally, we present the most recurring keywords in computer vision publications per African region.",
+    "authors": [
+      "Abdul-Hakeem Omotayo",
+      "Mai Gamal",
+      "Eman Ehab",
+      "Gbetondji Dovonon",
+      "Zainab Akinjobi",
+      "Ismaila Lukman",
+      "Houcemeddine Turki",
+      "Mahmod Abdien",
+      "Idriss Tondji",
+      "Abigail Oppong",
+      "Yvan Pimi",
+      "Karim Gamal",
+      "Ro'ya-CV4Africa",
+      "Mennatullah Siam"
+    ],
+    "publication_date": "2023-05-11T12:54:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.06773v4",
+    "download_url": "https://arxiv.org/abs/2305.06773v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sparse models for Computer Vision",
+    "abstract": "The representation of images in the brain is known to be sparse. That is, as neural activity is recorded in a visual area ---for instance the primary visual cortex of primates--- only a few neurons are active at a given time with respect to the whole population. It is believed that such a property reflects the efficient match of the representation with the statistics of natural scenes. Applying such a paradigm to computer vision therefore seems a promising approach towards more biomimetic algorithms. Herein, we will describe a biologically-inspired approach to this problem. First, we will describe an unsupervised learning paradigm which is particularly adapted to the efficient coding of image patches. Then, we will outline a complete multi-scale framework ---SparseLets--- implementing a biologically inspired sparse representation of natural images. Finally, we will propose novel methods for integrating prior information into these algorithms and provide some preliminary experimental results. We will conclude by giving some perspective on applying such algorithms to computer vision. More specifically, we will propose that bio-inspired approaches may be applied to computer vision using predictive coding schemes, sparse models being one simple and efficient instance of such schemes.",
+    "authors": [
+      "Laurent Perrinet"
+    ],
+    "publication_date": "2017-01-24T13:20:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1701.06859v1",
+    "download_url": "https://arxiv.org/abs/1701.06859v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Real-Time Uncertainty Estimation in Computer Vision via Uncertainty-Aware Distribution Distillation",
+    "abstract": "Calibrated estimates of uncertainty are critical for many real-world computer vision applications of deep learning. While there are several widely-used uncertainty estimation methods, dropout inference stands out for its simplicity and efficacy. This technique, however, requires multiple forward passes through the network during inference and therefore can be too resource-intensive to be deployed in real-time applications. We propose a simple, easy-to-optimize distillation method for learning the conditional predictive distribution of a pre-trained dropout model for fast, sample-free uncertainty estimation in computer vision tasks. We empirically test the effectiveness of the proposed method on both semantic segmentation and depth estimation tasks and demonstrate our method can significantly reduce the inference time, enabling real-time uncertainty quantification, while achieving improved quality of both the uncertainty estimates and predictive performance over the regular dropout model.",
+    "authors": [
+      "Yichen Shen",
+      "Zhilu Zhang",
+      "Mert R. Sabuncu",
+      "Lin Sun"
+    ],
+    "publication_date": "2020-07-31T05:40:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.15857v2",
+    "download_url": "https://arxiv.org/abs/2007.15857v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Semantic bottleneck for computer vision tasks",
+    "abstract": "This paper introduces a novel method for the representation of images that is semantic by nature, addressing the question of computation intelligibility in computer vision tasks. More specifically, our proposition is to introduce what we call a semantic bottleneck in the processing pipeline, which is a crossing point in which the representation of the image is entirely expressed with natural language , while retaining the efficiency of numerical representations. We show that our approach is able to generate semantic representations that give state-of-the-art results on semantic content-based image retrieval and also perform very well on image classification tasks. Intelligibility is evaluated through user centered experiments for failure detection.",
+    "authors": [
+      "Maxime Bucher",
+      "Stéphane Herbin",
+      "Frédéric Jurie"
+    ],
+    "publication_date": "2018-11-06T09:01:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.02234v1",
+    "download_url": "https://arxiv.org/abs/1811.02234v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DiagViB-6: A Diagnostic Benchmark Suite for Vision Models in the Presence of Shortcut and Generalization Opportunities",
+    "abstract": "Common deep neural networks (DNNs) for image classification have been shown to rely on shortcut opportunities (SO) in the form of predictive and easy-to-represent visual factors. This is known as shortcut learning and leads to impaired generalization. In this work, we show that common DNNs also suffer from shortcut learning when predicting only basic visual object factors of variation (FoV) such as shape, color, or texture. We argue that besides shortcut opportunities, generalization opportunities (GO) are also an inherent part of real-world vision data and arise from partial independence between predicted classes and FoVs. We also argue that it is necessary for DNNs to exploit GO to overcome shortcut learning. Our core contribution is to introduce the Diagnostic Vision Benchmark suite DiagViB-6, which includes datasets and metrics to study a network's shortcut vulnerability and generalization capability for six independent FoV. In particular, DiagViB-6 allows controlling the type and degree of SO and GO in a dataset. We benchmark a wide range of popular vision architectures and show that they can exploit GO only to a limited extent.",
+    "authors": [
+      "Elias Eulig",
+      "Piyapat Saranrittichai",
+      "Chaithanya Kumar Mummadi",
+      "Kilian Rambach",
+      "William Beluch",
+      "Xiahan Shi",
+      "Volker Fischer"
+    ],
+    "publication_date": "2021-08-12T14:43:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.05779v2",
+    "download_url": "https://arxiv.org/abs/2108.05779v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Wisdom for the Crowd: Discoursive Power in Annotation Instructions for Computer Vision",
+    "abstract": "Developers of computer vision algorithms outsource some of the labor involved in annotating training data through business process outsourcing companies and crowdsourcing platforms. Many data annotators are situated in the Global South and are considered independent contractors. This paper focuses on the experiences of Argentinian and Venezuelan annotation workers. Through qualitative methods, we explore the discourses encoded in the task instructions that these workers follow to annotate computer vision datasets. Our preliminary findings indicate that annotation instructions reflect worldviews imposed on workers and, through their labor, on datasets. Moreover, we observe that for-profit goals drive task instructions and that managers and algorithms make sure annotations are done according to requesters' commands. This configuration presents a form of commodified labor that perpetuates power asymmetries while reinforcing social inequalities and is compelled to reproduce them into datasets and, subsequently, in computer vision systems.",
+    "authors": [
+      "Milagros Miceli",
+      "Julian Posada"
+    ],
+    "publication_date": "2021-05-23T18:20:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.10990v1",
+    "download_url": "https://arxiv.org/abs/2105.10990v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ScVLM: Enhancing Vision-Language Model for Safety-Critical Event Understanding",
+    "abstract": "Accurately identifying, understanding and describing traffic safety-critical events (SCEs), including crashes, tire strikes, and near-crashes, is crucial for advanced driver assistance systems, automated driving systems, and traffic safety. As SCEs are rare events, most general vision-language models (VLMs) have not been trained sufficiently to link SCE videos and narratives, which could lead to hallucinations and missing key safety characteristics. Here, we introduce ScVLM, a novel hybrid methodology that integrates supervised and contrastive learning techniques to classify the severity and types of SCEs, as well as to generate narrative descriptions of SCEs. This approach utilizes classification to enhance VLMs' comprehension of driving videos and improve the rationality of event descriptions. The proposed approach is trained on and evaluated by more than 8,600 SCEs from the Second Strategic Highway Research Program Naturalistic Driving Study dataset, the largest publicly accessible driving dataset with videos and SCE annotations. The results demonstrate the superiority of the proposed approach in generating contextually accurate event descriptions and mitigating VLM hallucinations. The code will be available at https://github.com/datadrivenwheels/ScVLM.",
+    "authors": [
+      "Liang Shi",
+      "Boyu Jiang",
+      "Tong Zeng",
+      "Feng Guo"
+    ],
+    "publication_date": "2024-10-01T18:10:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.00982v2",
+    "download_url": "https://arxiv.org/abs/2410.00982v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Benchmark and Evaluation of Non-Rigid Structure from Motion",
+    "abstract": "Non-Rigid structure from motion (NRSfM), is a long standing and central problem in computer vision and its solution is necessary for obtaining 3D information from multiple images when the scene is dynamic. A main issue regarding the further development of this important computer vision topic, is the lack of high quality data sets. We here address this issue by presenting a data set created for this purpose, which is made publicly available, and considerably larger than the previous state of the art. To validate the applicability of this data set, and provide an investigation into the state of the art of NRSfM, including potential directions forward, we here present a benchmark and a scrupulous evaluation using this data set. This benchmark evaluates 18 different methods with available code that reasonably spans the state of the art in sparse NRSfM. This new public data set and evaluation protocol will provide benchmark tools for further development in this challenging field.",
+    "authors": [
+      "Sebastian Hoppe Nesgaard Jensen",
+      "Mads Emil Brix Doest",
+      "Henrik Aanaes",
+      "Alessio Del Bue"
+    ],
+    "publication_date": "2018-01-25T12:59:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1801.08388v3",
+    "download_url": "https://arxiv.org/abs/1801.08388v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Use of Computer Vision to Detect Tangles in Tangled Objects",
+    "abstract": "Untangling of structures like ropes and wires by autonomous robots can be useful in areas such as personal robotics, industries and electrical wiring & repairing by robots. This problem can be tackled by using computer vision system in robot. This paper proposes a computer vision based method for analyzing visual data acquired from camera for perceiving the overlap of wires, ropes, hoses i.e. detecting tangles. Information obtained after processing image according to the proposed method comprises of position of tangles in tangled object and which wire passes over which wire. This information can then be used to guide robot to untangle wire/s. Given an image, preprocessing is done to remove noise. Then edges of wire are detected. After that, the image is divided into smaller blocks and each block is checked for wire overlap/s and finding other relevant information. TANGLED-100 dataset was introduced, which consists of images of tangled linear deformable objects. Method discussed in here was tested on the TANGLED-100 dataset. Accuracy achieved during experiments was found to be 74.9%. Robotic simulations were carried out to demonstrate the use of the proposed method in applications of robot. Proposed method is a general method that can be used by robots working in different situations.",
+    "authors": [
+      "Paritosh Parmar"
+    ],
+    "publication_date": "2014-05-19T16:51:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1405.4802v2",
+    "download_url": "https://arxiv.org/abs/1405.4802v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Computing the Spatial Probability of Inclusion inside Partial Contours for Computer Vision Applications",
+    "abstract": "In Computer Vision, edge detection is one of the favored approaches for feature and object detection in images since it provides information about their objects boundaries. Other region-based approaches use probabilistic analysis such as clustering and Markov random fields, but those methods cannot be used to analyze edges and their interaction. In fact, only image segmentation can produce regions based on edges, but it requires thresholding by simply separating the regions into binary in-out information. Hence, there is currently a gap between edge-based and region-based algorithms, since edges cannot be used to study the properties of a region and vice versa. The objective of this paper is to present a novel spatial probability analysis that allows determining the probability of inclusion inside a set of partial contours (strokes). To answer this objective, we developed a new approach that uses electromagnetic convolutions and repulsion optimization to compute the required probabilities. Hence, it becomes possible to generate a continuous space of probability based only on the edge information, thus bridging the gap between the edge-based methods and the region-based methods. The developed method is consistent with the fundamental properties of inclusion probabilities and its results are validated by comparing an image with the probability-based estimation given by our algorithm. The method can also be generalized to take into consideration the intensity of the edges or to be used for 3D shapes. This is the first documented method that allows computing a space of probability based on interacting edges, which opens the path to broader applications such as image segmentation and contour completion.",
+    "authors": [
+      "Dominique Beaini",
+      "Sofiane Achiche",
+      "Fabrice Nonez",
+      "Maxime Raison"
+    ],
+    "publication_date": "2018-06-04T19:26:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.01339v2",
+    "download_url": "https://arxiv.org/abs/1806.01339v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Vision Generalist Model: A Survey",
+    "abstract": "Recently, we have witnessed the great success of the generalist model in natural language processing. The generalist model is a general framework trained with massive data and is able to process various downstream tasks simultaneously. Encouraged by their impressive performance, an increasing number of researchers are venturing into the realm of applying these models to computer vision tasks. However, the inputs and outputs of vision tasks are more diverse, and it is difficult to summarize them as a unified representation. In this paper, we provide a comprehensive overview of the vision generalist models, delving into their characteristics and capabilities within the field. First, we review the background, including the datasets, tasks, and benchmarks. Then, we dig into the design of frameworks that have been proposed in existing research, while also introducing the techniques employed to enhance their performance. To better help the researchers comprehend the area, we take a brief excursion into related domains, shedding light on their interconnections and potential synergies. To conclude, we provide some real-world application scenarios, undertake a thorough examination of the persistent challenges, and offer insights into possible directions for future research endeavors.",
+    "authors": [
+      "Ziyi Wang",
+      "Yongming Rao",
+      "Shuofeng Sun",
+      "Xinrun Liu",
+      "Yi Wei",
+      "Xumin Yu",
+      "Zuyan Liu",
+      "Yanbo Wang",
+      "Hongmin Liu",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "publication_date": "2025-06-11T17:23:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.09954v1",
+    "download_url": "https://arxiv.org/abs/2506.09954v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Universal Object Detection with Large Vision Model",
+    "abstract": "Over the past few years, there has been growing interest in developing a broad, universal, and general-purpose computer vision system. Such systems have the potential to address a wide range of vision tasks simultaneously, without being limited to specific problems or data domains. This universality is crucial for practical, real-world computer vision applications. In this study, our focus is on a specific challenge: the large-scale, multi-domain universal object detection problem, which contributes to the broader goal of achieving a universal vision system. This problem presents several intricate challenges, including cross-dataset category label duplication, label conflicts, and the necessity to handle hierarchical taxonomies. To address these challenges, we introduce our approach to label handling, hierarchy-aware loss design, and resource-efficient model training utilizing a pre-trained large vision model. Our method has demonstrated remarkable performance, securing a prestigious second-place ranking in the object detection track of the Robust Vision Challenge 2022 (RVC 2022) on a million-scale cross-dataset object detection benchmark. We believe that our comprehensive study will serve as a valuable reference and offer an alternative approach for addressing similar challenges within the computer vision community. The source code for our work is openly available at https://github.com/linfeng93/Large-UniDet.",
+    "authors": [
+      "Feng Lin",
+      "Wenze Hu",
+      "Yaowei Wang",
+      "Yonghong Tian",
+      "Guangming Lu",
+      "Fanglin Chen",
+      "Yong Xu",
+      "Xiaoyu Wang"
+    ],
+    "publication_date": "2022-12-19T12:40:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.09408v3",
+    "download_url": "https://arxiv.org/abs/2212.09408v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Out-of-Distribution Detection for Adaptive Computer Vision",
+    "abstract": "It is well known that computer vision can be unreliable when faced with previously unseen imaging conditions. This paper proposes a method to adapt camera parameters according to a normalizing flow-based out-of-distibution detector. A small-scale study is conducted which shows that adapting camera parameters according to this out-of-distibution detector leads to an average increase of 3 to 4 percentage points in mAP, mAR and F1 performance metrics of a YOLOv4 object detector. As a secondary result, this paper also shows that it is possible to train a normalizing flow model for out-of-distribution detection on the COCO dataset, which is larger and more diverse than most benchmarks for out-of-distibution detectors.",
+    "authors": [
+      "Simon Kristoffersson Lind",
+      "Rudolph Triebel",
+      "Luigi Nardi",
+      "Volker Krueger"
+    ],
+    "publication_date": "2023-05-16T09:01:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.09293v1",
+    "download_url": "https://arxiv.org/abs/2305.09293v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "TinyGiantVLM: A Lightweight Vision-Language Architecture for Spatial Reasoning under Resource Constraints",
+    "abstract": "Reasoning about fine-grained spatial relationships in warehouse-scale environments poses a significant challenge for existing vision-language models (VLMs), which often struggle to comprehend 3D layouts, object arrangements, and multimodal cues in real-world industrial settings. In this paper, we present TinyGiantVLM, a lightweight and modular two-stage framework designed for physical spatial reasoning, distinguishing itself from traditional geographic reasoning in complex logistics scenes. Our approach encodes both global and region-level features from RGB and depth modalities using pretrained visual backbones. To effectively handle the complexity of high-modality inputs and diverse question types, we incorporate a Mixture-of-Experts (MoE) fusion module, which dynamically combines spatial representations to support downstream reasoning tasks and improve convergence. Training is conducted in a two-phase strategy: the first phase focuses on generating free-form answers to enhance spatial reasoning ability, while the second phase uses normalized answers for evaluation. Evaluated on Track 3 of the AI City Challenge 2025, our 64M-parameter base model achieved 5th place on the leaderboard with a score of 66.8861, demonstrating strong performance in bridging visual perception and spatial understanding in industrial environments. We further present an 80M-parameter variant with expanded MoE capacity, which demonstrates improved performance on spatial reasoning tasks.",
+    "authors": [
+      "Vinh-Thuan Ly",
+      "Hoang M. Truong",
+      "Xuan-Huong Nguyen"
+    ],
+    "publication_date": "2025-08-25T01:36:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.17595v1",
+    "download_url": "https://arxiv.org/abs/2508.17595v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "PatchDropout: Economizing Vision Transformers Using Patch Dropout",
+    "abstract": "Vision transformers have demonstrated the potential to outperform CNNs in a variety of vision tasks. But the computational and memory requirements of these models prohibit their use in many applications, especially those that depend on high-resolution images, such as medical image classification. Efforts to train ViTs more efficiently are overly complicated, necessitating architectural changes or intricate training schemes. In this work, we show that standard ViT models can be efficiently trained at high resolution by randomly dropping input image patches. This simple approach, PatchDropout, reduces FLOPs and memory by at least 50% in standard natural image datasets such as ImageNet, and those savings only increase with image size. On CSAW, a high-resolution medical dataset, we observe a 5 times savings in computation and memory using PatchDropout, along with a boost in performance. For practitioners with a fixed computational or memory budget, PatchDropout makes it possible to choose image resolution, hyperparameters, or model size to get the most performance out of their model.",
+    "authors": [
+      "Yue Liu",
+      "Christos Matsoukas",
+      "Fredrik Strand",
+      "Hossein Azizpour",
+      "Kevin Smith"
+    ],
+    "publication_date": "2022-08-10T14:08:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.07220v2",
+    "download_url": "https://arxiv.org/abs/2208.07220v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards Better User Studies in Computer Graphics and Vision",
+    "abstract": "Online crowdsourcing platforms have made it increasingly easy to perform evaluations of algorithm outputs with survey questions like \"which image is better, A or B?\", leading to their proliferation in vision and graphics research papers. Results of these studies are often used as quantitative evidence in support of a paper's contributions. On the one hand we argue that, when conducted hastily as an afterthought, such studies lead to an increase of uninformative, and, potentially, misleading conclusions. On the other hand, in these same communities, user research is underutilized in driving project direction and forecasting user needs and reception. We call for increased attention to both the design and reporting of user studies in computer vision and graphics papers towards (1) improved replicability and (2) improved project direction. Together with this call, we offer an overview of methodologies from user experience research (UXR), human-computer interaction (HCI), and applied perception to increase exposure to the available methodologies and best practices. We discuss foundational user research methods (e.g., needfinding) that are presently underutilized in computer vision and graphics research, but can provide valuable project direction. We provide further pointers to the literature for readers interested in exploring other UXR methodologies. Finally, we describe broader open issues and recommendations for the research community.",
+    "authors": [
+      "Zoya Bylinskii",
+      "Laura Herman",
+      "Aaron Hertzmann",
+      "Stefanie Hutka",
+      "Yile Zhang"
+    ],
+    "publication_date": "2022-06-23T02:44:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.11461v3",
+    "download_url": "https://arxiv.org/abs/2206.11461v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Total Variation Applications in Computer Vision",
+    "abstract": "The objectives of this chapter are: (i) to introduce a concise overview of regularization; (ii) to define and to explain the role of a particular type of regularization called total variation norm (TV-norm) in computer vision tasks; (iii) to set up a brief discussion on the mathematical background of TV methods; and (iv) to establish a relationship between models and a few existing methods to solve problems cast as TV-norm. For the most part, image-processing algorithms blur the edges of the estimated images, however TV regularization preserves the edges with no prior information on the observed and the original images. The regularization scalar parameter λ controls the amount of regularization allowed and it is an essential to obtain a high-quality regularized output. A wide-ranging review of several ways to put into practice TV regularization as well as its advantages and limitations are discussed.",
+    "authors": [
+      "Vania V. Estrela",
+      "Hermes Aguiar Magalhaes",
+      "Osamu Saotome"
+    ],
+    "publication_date": "2016-03-31T14:08:53Z",
+    "arxiv_id": "http://arxiv.org/abs/1603.09599v1",
+    "download_url": "https://arxiv.org/abs/1603.09599v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Combining Photogrammetric Computer Vision and Semantic Segmentation for Fine-grained Understanding of Coral Reef Growth under Climate Change",
+    "abstract": "Corals are the primary habitat-building life-form on reefs that support a quarter of the species in the ocean. A coral reef ecosystem usually consists of reefs, each of which is like a tall building in any city. These reef-building corals secrete hard calcareous exoskeletons that give them structural rigidity, and are also a prerequisite for our accurate 3D modeling and semantic mapping using advanced photogrammetric computer vision and machine learning. Underwater videography as a modern underwater remote sensing tool is a high-resolution coral habitat survey and mapping technique. In this paper, detailed 3D mesh models, digital surface models and orthophotos of the coral habitat are generated from the collected coral images and underwater control points. Meanwhile, a novel pixel-wise semantic segmentation approach of orthophotos is performed by advanced deep learning. Finally, the semantic map is mapped into 3D space. For the first time, 3D fine-grained semantic modeling and rugosity evaluation of coral reefs have been completed at millimeter (mm) accuracy. This provides a new and powerful method for understanding the processes and characteristics of coral reef change at high spatial and temporal resolution under climate change.",
+    "authors": [
+      "Jiageng Zhong",
+      "Ming Li",
+      "Hanqi Zhang",
+      "Jiangying Qin"
+    ],
+    "publication_date": "2022-12-08T08:09:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.04132v1",
+    "download_url": "https://arxiv.org/abs/2212.04132v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Simple and Robust Framework for Cross-Modality Medical Image Segmentation applied to Vision Transformers",
+    "abstract": "When it comes to clinical images, automatic segmentation has a wide variety of applications and a considerable diversity of input domains, such as different types of Magnetic Resonance Images (MRIs) and Computerized Tomography (CT) scans. This heterogeneity is a challenge for cross-modality algorithms that should equally perform independently of the input image type fed to them. Often, segmentation models are trained using a single modality, preventing generalization to other types of input data without resorting to transfer learning techniques. Furthermore, the multi-modal or cross-modality architectures proposed in the literature frequently require registered images, which are not easy to collect in clinical environments, or need additional processing steps, such as synthetic image generation. In this work, we propose a simple framework to achieve fair image segmentation of multiple modalities using a single conditional model that adapts its normalization layers based on the input type, trained with non-registered interleaved mixed data. We show that our framework outperforms other cross-modality segmentation methods, when applied to the same 3D UNet baseline model, on the Multi-Modality Whole Heart Segmentation Challenge. Furthermore, we define the Conditional Vision Transformer (C-ViT) encoder, based on the proposed cross-modality framework, and we show that it brings significant improvements to the resulting segmentation, up to 6.87\\% of Dice accuracy, with respect to its baseline reference. The code to reproduce our experiments and the trained model weights are available at https://github.com/matteo-bastico/MI-Seg.",
+    "authors": [
+      "Matteo Bastico",
+      "David Ryckelynck",
+      "Laurent Corté",
+      "Yannick Tillier",
+      "Etienne Decencière"
+    ],
+    "publication_date": "2023-10-09T09:51:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.05572v1",
+    "download_url": "https://arxiv.org/abs/2310.05572v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Stellar Imager (SI) Vision Mission",
+    "abstract": "The Stellar Imager (SI) is a UV-Optical, Space-Based Interferometer designed to enable 0.1 milli-arcsecond (mas) spectral imaging of stellar surfaces and of the Universe in general and asteroseismic imaging of stellar interiors. SI is identified as a \"Flagship and Landmark Discovery Mission\" in the 2005 Sun Solar System Connection (SSSC) Roadmap and as a candidate for a \"Pathways to Life Observatory\" in the Exploration of the Universe Division (EUD) Roadmap (May, 2005). SI will revolutionize our view of many dynamic astrophysical processes: its resolution will transform point sources into extended sources, and snapshots into evolving views. SI's science focuses on the role of magnetism in the Universe, particularly on magnetic activity on the surfaces of stars like the Sun. SI's prime goal is to enable long-term forecasting of solar activity and the space weather that it drives. SI will also revolutionize our understanding of the formation of planetary systems, of the habitability and climatology of distant planets, and of many magneto-hydrodynamically controlled processes in the Universe. The results of the SI \"Vision Mission\" Study are presented in this paper. Additional information on the SI mission concept and related technology development can be found at URL: http://hires.gsfc.nasa.gov/si/.",
+    "authors": [
+      "Kenneth G. Carpenter",
+      "Carolus J. Schrijver",
+      "Margarita Karovska",
+      "SI Vision Mission Team"
+    ],
+    "publication_date": "2006-06-16T19:05:51Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0606411v1",
+    "download_url": "https://arxiv.org/abs/astro-ph/0606411v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "FairViT: Fair Vision Transformer via Adaptive Masking",
+    "abstract": "Vision Transformer (ViT) has achieved excellent performance and demonstrated its promising potential in various computer vision tasks. The wide deployment of ViT in real-world tasks requires a thorough understanding of the societal impact of the model. However, most ViT-based works do not take fairness into account and it is unclear whether directly applying CNN-oriented debiased algorithm to ViT is feasible. Moreover, previous works typically sacrifice accuracy for fairness. Therefore, we aim to develop an algorithm that improves accuracy without sacrificing fairness. In this paper, we propose FairViT, a novel accurate and fair ViT framework. To this end, we introduce a novel distance loss and deploy adaptive fairness-aware masks on attention layers updating with model parameters. Experimental results show \\sys can achieve accuracy better than other alternatives, even with competitive computational efficiency. Furthermore, \\sys achieves appreciable fairness results.",
+    "authors": [
+      "Bowei Tian",
+      "Ruijie Du",
+      "Yanning Shen"
+    ],
+    "publication_date": "2024-07-20T08:10:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.14799v1",
+    "download_url": "https://arxiv.org/abs/2407.14799v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Masking Strategies for Background Bias Removal in Computer Vision Models",
+    "abstract": "Models for fine-grained image classification tasks, where the difference between some classes can be extremely subtle and the number of samples per class tends to be low, are particularly prone to picking up background-related biases and demand robust methods to handle potential examples with out-of-distribution (OOD) backgrounds. To gain deeper insights into this critical problem, our research investigates the impact of background-induced bias on fine-grained image classification, evaluating standard backbone models such as Convolutional Neural Network (CNN) and Vision Transformers (ViT). We explore two masking strategies to mitigate background-induced bias: Early masking, which removes background information at the (input) image level, and late masking, which selectively masks high-level spatial features corresponding to the background. Extensive experiments assess the behavior of CNN and ViT models under different masking strategies, with a focus on their generalization to OOD backgrounds. The obtained findings demonstrate that both proposed strategies enhance OOD performance compared to the baseline models, with early masking consistently exhibiting the best OOD performance. Notably, a ViT variant employing GAP-Pooled Patch token-based classification combined with early masking achieves the highest OOD robustness.",
+    "authors": [
+      "Ananthu Aniraj",
+      "Cassio F. Dantas",
+      "Dino Ienco",
+      "Diego Marcos"
+    ],
+    "publication_date": "2023-08-23T13:33:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.12127v1",
+    "download_url": "https://arxiv.org/abs/2308.12127v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Diffusion-Enhanced Test-time Adaptation with Text and Image Augmentation",
+    "abstract": "Existing test-time prompt tuning (TPT) methods focus on single-modality data, primarily enhancing images and using confidence ratings to filter out inaccurate images. However, while image generation models can produce visually diverse images, single-modality data enhancement techniques still fail to capture the comprehensive knowledge provided by different modalities. Additionally, we note that the performance of TPT-based methods drops significantly when the number of augmented images is limited, which is not unusual given the computational expense of generative augmentation. To address these issues, we introduce IT3A, a novel test-time adaptation method that utilizes a pre-trained generative model for multi-modal augmentation of each test sample from unknown new domains. By combining augmented data from pre-trained vision and language models, we enhance the ability of the model to adapt to unknown new test data. Additionally, to ensure that key semantics are accurately retained when generating various visual and text enhancements, we employ cosine similarity filtering between the logits of the enhanced images and text with the original test data. This process allows us to filter out some spurious augmentation and inadequate combinations. To leverage the diverse enhancements provided by the generation model across different modals, we have replaced prompt tuning with an adapter for greater flexibility in utilizing text templates. Our experiments on the test datasets with distribution shifts and domain gaps show that in a zero-shot setting, IT3A outperforms state-of-the-art test-time prompt tuning methods with a 5.50% increase in accuracy.",
+    "authors": [
+      "Chun-Mei Feng",
+      "Yuanyang He",
+      "Jian Zou",
+      "Salman Khan",
+      "Huan Xiong",
+      "Zhen Li",
+      "Wangmeng Zuo",
+      "Rick Siow Mong Goh",
+      "Yong Liu"
+    ],
+    "publication_date": "2024-12-12T20:01:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.09706v2",
+    "download_url": "https://arxiv.org/abs/2412.09706v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Super Vision Transformer",
+    "abstract": "We attempt to reduce the computational costs in vision transformers (ViTs), which increase quadratically in the token number. We present a novel training paradigm that trains only one ViT model at a time, but is capable of providing improved image recognition performance with various computational costs. Here, the trained ViT model, termed super vision transformer (SuperViT), is empowered with the versatile ability to solve incoming patches of multiple sizes as well as preserve informative tokens with multiple keeping rates (the ratio of keeping tokens) to achieve good hardware efficiency for inference, given that the available hardware resources often change from time to time. Experimental results on ImageNet demonstrate that our SuperViT can considerably reduce the computational costs of ViT models with even performance increase. For example, we reduce 2x FLOPs of DeiT-S while increasing the Top-1 accuracy by 0.2% and 0.7% for 1.5x reduction. Also, our SuperViT significantly outperforms existing studies on efficient vision transformers. For example, when consuming the same amount of FLOPs, our SuperViT surpasses the recent state-of-the-art (SOTA) EViT by 1.1% when using DeiT-S as their backbones. The project of this work is made publicly available at https://github.com/lmbxmu/SuperViT.",
+    "authors": [
+      "Mingbao Lin",
+      "Mengzhao Chen",
+      "Yuxin Zhang",
+      "Chunhua Shen",
+      "Rongrong Ji",
+      "Liujuan Cao"
+    ],
+    "publication_date": "2022-05-23T15:42:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.11397v5",
+    "download_url": "https://arxiv.org/abs/2205.11397v5",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs",
+    "abstract": "Vision graph neural networks (ViG) offer a new avenue for exploration in computer vision. A major bottleneck in ViGs is the inefficient k-nearest neighbor (KNN) operation used for graph construction. To solve this issue, we propose a new method for designing ViGs, Dynamic Axial Graph Construction (DAGC), which is more efficient than KNN as it limits the number of considered graph connections made within an image. Additionally, we propose a novel CNN-GNN architecture, GreedyViG, which uses DAGC. Extensive experiments show that GreedyViG beats existing ViG, CNN, and ViT architectures in terms of accuracy, GMACs, and parameters on image classification, object detection, instance segmentation, and semantic segmentation tasks. Our smallest model, GreedyViG-S, achieves 81.1% top-1 accuracy on ImageNet-1K, 2.9% higher than Vision GNN and 2.2% higher than Vision HyperGraph Neural Network (ViHGNN), with less GMACs and a similar number of parameters. Our largest model, GreedyViG-B obtains 83.9% top-1 accuracy, 0.2% higher than Vision GNN, with a 66.6% decrease in parameters and a 69% decrease in GMACs. GreedyViG-B also obtains the same accuracy as ViHGNN with a 67.3% decrease in parameters and a 71.3% decrease in GMACs. Our work shows that hybrid CNN-GNN architectures not only provide a new avenue for designing efficient models, but that they can also exceed the performance of current state-of-the-art models.",
+    "authors": [
+      "Mustafa Munir",
+      "William Avery",
+      "Md Mostafijur Rahman",
+      "Radu Marculescu"
+    ],
+    "publication_date": "2024-05-10T23:21:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.06849v1",
+    "download_url": "https://arxiv.org/abs/2405.06849v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Perspectives and Prospects on Transformer Architecture for Cross-Modal Tasks with Language and Vision",
+    "abstract": "Transformer architectures have brought about fundamental changes to computational linguistic field, which had been dominated by recurrent neural networks for many years. Its success also implies drastic changes in cross-modal tasks with language and vision, and many researchers have already tackled the issue. In this paper, we review some of the most critical milestones in the field, as well as overall trends on how transformer architecture has been incorporated into visuolinguistic cross-modal tasks. Furthermore, we discuss its current limitations and speculate upon some of the prospects that we find imminent.",
+    "authors": [
+      "Andrew Shin",
+      "Masato Ishii",
+      "Takuya Narihira"
+    ],
+    "publication_date": "2021-03-06T05:44:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.04037v2",
+    "download_url": "https://arxiv.org/abs/2103.04037v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Does Explainable Machine Learning Uncover the Black Box in Vision Applications?",
+    "abstract": "Machine learning (ML) in general and deep learning (DL) in particular has become an extremely popular tool in several vision applications (like object detection, super resolution, segmentation, object tracking etc.). Almost in parallel, the issue of explainability in ML (i.e. the ability to explain/elaborate the way a trained ML model arrived at its decision) in vision has also received fairly significant attention from various quarters. However, we argue that the current philosophy behind explainable ML suffers from certain limitations, and the resulting explanations may not meaningfully uncover black box ML models. To elaborate our assertion, we first raise a few fundamental questions which have not been adequately discussed in the corresponding literature. We also provide perspectives on how explainablity in ML can benefit by relying on more rigorous principles in the related areas.",
+    "authors": [
+      "Manish Narwaria"
+    ],
+    "publication_date": "2021-12-18T10:37:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.09898v1",
+    "download_url": "https://arxiv.org/abs/2112.09898v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey on Computer Vision based Human Analysis in the COVID-19 Era",
+    "abstract": "The emergence of COVID-19 has had a global and profound impact, not only on society as a whole, but also on the lives of individuals. Various prevention measures were introduced around the world to limit the transmission of the disease, including face masks, mandates for social distancing and regular disinfection in public spaces, and the use of screening applications. These developments also triggered the need for novel and improved computer vision techniques capable of (i) providing support to the prevention measures through an automated analysis of visual data, on the one hand, and (ii) facilitating normal operation of existing vision-based services, such as biometric authentication schemes, on the other. Especially important here, are computer vision techniques that focus on the analysis of people and faces in visual data and have been affected the most by the partial occlusions introduced by the mandates for facial masks. Such computer vision based human analysis techniques include face and face-mask detection approaches, face recognition techniques, crowd counting solutions, age and expression estimation procedures, models for detecting face-hand interactions and many others, and have seen considerable attention over recent years. The goal of this survey is to provide an introduction to the problems induced by COVID-19 into such research and to present a comprehensive review of the work done in the computer vision based human analysis field. Particular attention is paid to the impact of facial masks on the performance of various methods and recent solutions to mitigate this problem. Additionally, a detailed review of existing datasets useful for the development and evaluation of methods for COVID-19 related applications is also provided. Finally, to help advance the field further, a discussion on the main open challenges and future research direction is given.",
+    "authors": [
+      "Fevziye Irem Eyiokur",
+      "Alperen Kantarcı",
+      "Mustafa Ekrem Erakın",
+      "Naser Damer",
+      "Ferda Ofli",
+      "Muhammad Imran",
+      "Janez Križaj",
+      "Albert Ali Salah",
+      "Alexander Waibel",
+      "Vitomir Štruc",
+      "Hazım Kemal Ekenel"
+    ],
+    "publication_date": "2022-11-07T17:20:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.03705v1",
+    "download_url": "https://arxiv.org/abs/2211.03705v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey on Dynamic Neural Networks: from Computer Vision to Multi-modal Sensor Fusion",
+    "abstract": "Model compression is essential in the deployment of large Computer Vision models on embedded devices. However, static optimization techniques (e.g. pruning, quantization, etc.) neglect the fact that different inputs have different complexities, thus requiring different amount of computations. Dynamic Neural Networks allow to condition the number of computations to the specific input. The current literature on the topic is very extensive and fragmented. We present a comprehensive survey that synthesizes and unifies existing Dynamic Neural Networks research in the context of Computer Vision. Additionally, we provide a logical taxonomy based on which component of the network is adaptive: the output, the computation graph or the input. Furthermore, we argue that Dynamic Neural Networks are particularly beneficial in the context of Sensor Fusion for better adaptivity, noise reduction and information prioritization. We present preliminary works in this direction. We complement this survey with a curated repository listing all the surveyed papers, each with a brief summary of the solution and the code base when available: https://github.com/DTU-PAS/awesome-dynn-for-cv .",
+    "authors": [
+      "Fabio Montello",
+      "Ronja Güldenring",
+      "Simone Scardapane",
+      "Lazaros Nalpantidis"
+    ],
+    "publication_date": "2025-01-13T16:24:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2501.07451v2",
+    "download_url": "https://arxiv.org/abs/2501.07451v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Monocular Human Pose Estimation: A Survey of Deep Learning-based Methods",
+    "abstract": "Vision-based monocular human pose estimation, as one of the most fundamental and challenging problems in computer vision, aims to obtain posture of the human body from input images or video sequences. The recent developments of deep learning techniques have been brought significant progress and remarkable breakthroughs in the field of human pose estimation. This survey extensively reviews the recent deep learning-based 2D and 3D human pose estimation methods published since 2014. This paper summarizes the challenges, main frameworks, benchmark datasets, evaluation metrics, performance comparison, and discusses some promising future research directions.",
+    "authors": [
+      "Yucheng Chen",
+      "Yingli Tian",
+      "Mingyi He"
+    ],
+    "publication_date": "2020-06-02T07:07:45Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.01423v1",
+    "download_url": "https://arxiv.org/abs/2006.01423v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "NITEC: Versatile Hand-Annotated Eye Contact Dataset for Ego-Vision Interaction",
+    "abstract": "Eye contact is a crucial non-verbal interaction modality and plays an important role in our everyday social life. While humans are very sensitive to eye contact, the capabilities of machines to capture a person's gaze are still mediocre. We tackle this challenge and present NITEC, a hand-annotated eye contact dataset for ego-vision interaction. NITEC exceeds existing datasets for ego-vision eye contact in size and variety of demographics, social contexts, and lighting conditions, making it a valuable resource for advancing ego-vision-based eye contact research. Our extensive evaluations on NITEC demonstrate strong cross-dataset performance, emphasizing its effectiveness and adaptability in various scenarios, that allows seamless utilization to the fields of computer vision, human-computer interaction, and social robotics. We make our NITEC dataset publicly available to foster reproducibility and further exploration in the field of ego-vision interaction. https://github.com/thohemp/nitec",
+    "authors": [
+      "Thorsten Hempel",
+      "Magnus Jung",
+      "Ahmed A. Abdelrahman",
+      "Ayoub Al-Hamadi"
+    ],
+    "publication_date": "2023-11-08T07:42:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.04505v1",
+    "download_url": "https://arxiv.org/abs/2311.04505v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Vision Guided 3D Medical Image Compression for Efficient Transmission and Accurate Segmentation in the Clouds",
+    "abstract": "Cloud based medical image analysis has become popular recently due to the high computation complexities of various deep neural network (DNN) based frameworks and the increasingly large volume of medical images that need to be processed. It has been demonstrated that for medical images the transmission from local to clouds is much more expensive than the computation in the clouds itself. Towards this, 3D image compression techniques have been widely applied to reduce the data traffic. However, most of the existing image compression techniques are developed around human vision, i.e., they are designed to minimize distortions that can be perceived by human eyes. In this paper we will use deep learning based medical image segmentation as a vehicle and demonstrate that interestingly, machine and human view the compression quality differently. Medical images compressed with good quality w.r.t. human vision may result in inferior segmentation accuracy. We then design a machine vision oriented 3D image compression framework tailored for segmentation using DNNs. Our method automatically extracts and retains image features that are most important to the segmentation. Comprehensive experiments on widely adopted segmentation frameworks with HVSMR 2016 challenge dataset show that our method can achieve significantly higher segmentation accuracy at the same compression rate, or much better compression rate under the same segmentation accuracy, when compared with the existing JPEG 2000 method. To the best of the authors' knowledge, this is the first machine vision guided medical image compression framework for segmentation in the clouds.",
+    "authors": [
+      "Zihao Liu",
+      "Xiaowei Xu",
+      "Tao Liu",
+      "Qi Liu",
+      "Yanzhi Wang",
+      "Yiyu Shi",
+      "Wujie Wen",
+      "Meiping Huang",
+      "Haiyun Yuan",
+      "Jian Zhuang"
+    ],
+    "publication_date": "2019-04-09T13:34:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.08487v1",
+    "download_url": "https://arxiv.org/abs/1904.08487v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DeepliteRT: Computer Vision at the Edge",
+    "abstract": "The proliferation of edge devices has unlocked unprecedented opportunities for deep learning model deployment in computer vision applications. However, these complex models require considerable power, memory and compute resources that are typically not available on edge platforms. Ultra low-bit quantization presents an attractive solution to this problem by scaling down the model weights and activations from 32-bit to less than 8-bit. We implement highly optimized ultra low-bit convolution operators for ARM-based targets that outperform existing methods by up to 4.34x. Our operator is implemented within Deeplite Runtime (DeepliteRT), an end-to-end solution for the compilation, tuning, and inference of ultra low-bit models on ARM devices. Compiler passes in DeepliteRT automatically convert a fake-quantized model in full precision to a compact ultra low-bit representation, easing the process of quantized model deployment on commodity hardware. We analyze the performance of DeepliteRT on classification and detection models against optimized 32-bit floating-point, 8-bit integer, and 2-bit baselines, achieving significant speedups of up to 2.20x, 2.33x and 2.17x, respectively.",
+    "authors": [
+      "Saad Ashfaq",
+      "Alexander Hoffman",
+      "Saptarshi Mitra",
+      "Sudhakar Sah",
+      "MohammadHossein AskariHemmat",
+      "Ehsan Saboori"
+    ],
+    "publication_date": "2023-09-19T18:58:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.10878v1",
+    "download_url": "https://arxiv.org/abs/2309.10878v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Predicting the Future from First Person (Egocentric) Vision: A Survey",
+    "abstract": "Egocentric videos can bring a lot of information about how humans perceive the world and interact with the environment, which can be beneficial for the analysis of human behaviour. The research in egocentric video analysis is developing rapidly thanks to the increasing availability of wearable devices and the opportunities offered by new large-scale egocentric datasets. As computer vision techniques continue to develop at an increasing pace, the tasks related to the prediction of future are starting to evolve from the need of understanding the present. Predicting future human activities, trajectories and interactions with objects is crucial in applications such as human-robot interaction, assistive wearable technologies for both industrial and daily living scenarios, entertainment and virtual or augmented reality. This survey summarises the evolution of studies in the context of future prediction from egocentric vision making an overview of applications, devices, existing problems, commonly used datasets, models and input modalities. Our analysis highlights that methods for future prediction from egocentric vision can have a significant impact in a range of applications and that further research efforts should be devoted to the standardisation of tasks and the proposal of datasets considering real-world scenarios such as the ones with an industrial vocation.",
+    "authors": [
+      "Ivan Rodin",
+      "Antonino Furnari",
+      "Dimitrios Mavroedis",
+      "Giovanni Maria Farinella"
+    ],
+    "publication_date": "2021-07-28T14:58:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.13411v1",
+    "download_url": "https://arxiv.org/abs/2107.13411v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation",
+    "abstract": "In computer vision, one is often confronted with problems of domain shifts, which occur when one applies a classifier trained on a source dataset to target data sharing similar characteristics (e.g. same classes), but also different latent data structures (e.g. different acquisition conditions). In such a situation, the model will perform poorly on the new data, since the classifier is specialized to recognize visual cues specific to the source domain. In this work we explore a solution, named DeepJDOT, to tackle this problem: through a measure of discrepancy on joint deep representations/labels based on optimal transport, we not only learn new data representations aligned between the source and target domain, but also simultaneously preserve the discriminative information used by the classifier. We applied DeepJDOT to a series of visual recognition tasks, where it compares favorably against state-of-the-art deep domain adaptation methods.",
+    "authors": [
+      "Bharath Bhushan Damodaran",
+      "Benjamin Kellenberger",
+      "Rémi Flamary",
+      "Devis Tuia",
+      "Nicolas Courty"
+    ],
+    "publication_date": "2018-03-27T13:54:05Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.10081v3",
+    "download_url": "https://arxiv.org/abs/1803.10081v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "AdaptViG: Adaptive Vision GNN with Exponential Decay Gating",
+    "abstract": "Vision Graph Neural Networks (ViGs) offer a new direction for advancements in vision architectures. While powerful, ViGs often face substantial computational challenges stemming from their graph construction phase, which can hinder their efficiency. To address this issue we propose AdaptViG, an efficient and powerful hybrid Vision GNN that introduces a novel graph construction mechanism called Adaptive Graph Convolution. This mechanism builds upon a highly efficient static axial scaffold and a dynamic, content-aware gating strategy called Exponential Decay Gating. This gating mechanism selectively weighs long-range connections based on feature similarity. Furthermore, AdaptViG employs a hybrid strategy, utilizing our efficient gating mechanism in the early stages and a full Global Attention block in the final stage for maximum feature aggregation. Our method achieves a new state-of-the-art trade-off between accuracy and efficiency among Vision GNNs. For instance, our AdaptViG-M achieves 82.6% top-1 accuracy, outperforming ViG-B by 0.3% while using 80% fewer parameters and 84% fewer GMACs. On downstream tasks, AdaptViG-M obtains 45.8 mIoU, 44.8 APbox, and 41.1 APmask, surpassing the much larger EfficientFormer-L7 by 0.7 mIoU, 2.2 APbox, and 2.1 APmask, respectively, with 78% fewer parameters.",
+    "authors": [
+      "Mustafa Munir",
+      "Md Mostafijur Rahman",
+      "Radu Marculescu"
+    ],
+    "publication_date": "2025-11-13T04:16:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2511.09942v1",
+    "download_url": "https://arxiv.org/abs/2511.09942v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Granite Vision: a lightweight, open-source multimodal model for enterprise Intelligence",
+    "abstract": "We introduce Granite Vision, a lightweight large language model with vision capabilities, specifically designed to excel in enterprise use cases, particularly in visual document understanding. Our model is trained on a comprehensive instruction-following dataset, including document-related tasks, such as content extraction from tables, charts, diagrams, sketches, and infographics, as well as general image tasks. The architecture of Granite Vision is centered around visual modality alignment with a decoder-only, 2 billion parameter Granite large language model. Additionally, we introduce a dedicated safety classification approach in test-time that leverages a sparse set of attention vectors to identify potential harmful inputs. Despite its lightweight architecture, Granite Vision achieves strong results in standard benchmarks related to visual document understanding, as well as on the LiveXiv benchmark, which is designed to avoid test set contamination by using a constantly updated corpus of recently published Arxiv papers. We are releasing the model under the Apache-2 license, allowing for both research and commercial use, while offering complete visibility into the training data and other relevant details. See https://huggingface.co/ibm-granite/ for model weights.",
+    "authors": [
+      "Granite Vision Team",
+      "Leonid Karlinsky",
+      "Assaf Arbelle",
+      "Abraham Daniels",
+      "Ahmed Nassar",
+      "Amit Alfassi",
+      "Bo Wu",
+      "Eli Schwartz",
+      "Dhiraj Joshi",
+      "Jovana Kondic",
+      "Nimrod Shabtay",
+      "Pengyuan Li",
+      "Roei Herzig",
+      "Shafiq Abedin",
+      "Shaked Perek",
+      "Sivan Harary",
+      "Udi Barzelay",
+      "Adi Raz Goldfarb",
+      "Aude Oliva",
+      "Ben Wieles",
+      "Bishwaranjan Bhattacharjee",
+      "Brandon Huang",
+      "Christoph Auer",
+      "Dan Gutfreund",
+      "David Beymer",
+      "David Wood",
+      "Hilde Kuehne",
+      "Jacob Hansen",
+      "Joseph Shtok",
+      "Ken Wong",
+      "Luis Angel Bathen",
+      "Mayank Mishra",
+      "Maksym Lysak",
+      "Michele Dolfi",
+      "Mikhail Yurochkin",
+      "Nikolaos Livathinos",
+      "Nimrod Harel",
+      "Ophir Azulai",
+      "Oshri Naparstek",
+      "Rafael Teixeira de Lima",
+      "Rameswar Panda",
+      "Sivan Doveh",
+      "Shubham Gupta",
+      "Subhro Das",
+      "Syed Zawad",
+      "Yusik Kim",
+      "Zexue He",
+      "Alexander Brooks",
+      "Gabe Goodhart",
+      "Anita Govindjee",
+      "Derek Leist",
+      "Ibrahim Ibrahim",
+      "Aya Soffer",
+      "David Cox",
+      "Kate Soule",
+      "Luis Lastras",
+      "Nirmit Desai",
+      "Shila Ofek-koifman",
+      "Sriram Raghavan",
+      "Tanveer Syeda-Mahmood",
+      "Peter Staar",
+      "Tal Drory",
+      "Rogerio Feris"
+    ],
+    "publication_date": "2025-02-14T05:36:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.09927v1",
+    "download_url": "https://arxiv.org/abs/2502.09927v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "PDiscoFormer: Relaxing Part Discovery Constraints with Vision Transformers",
+    "abstract": "Computer vision methods that explicitly detect object parts and reason on them are a step towards inherently interpretable models. Existing approaches that perform part discovery driven by a fine-grained classification task make very restrictive assumptions on the geometric properties of the discovered parts; they should be small and compact. Although this prior is useful in some cases, in this paper we show that pre-trained transformer-based vision models, such as self-supervised DINOv2 ViT, enable the relaxation of these constraints. In particular, we find that a total variation (TV) prior, which allows for multiple connected components of any size, substantially outperforms previous work. We test our approach on three fine-grained classification benchmarks: CUB, PartImageNet and Oxford Flowers, and compare our results to previously published methods as well as a re-implementation of the state-of-the-art method PDiscoNet with a transformer-based backbone. We consistently obtain substantial improvements across the board, both on part discovery metrics and the downstream classification task, showing that the strong inductive biases in self-supervised ViT models require to rethink the geometric priors that can be used for unsupervised part discovery.",
+    "authors": [
+      "Ananthu Aniraj",
+      "Cassio F. Dantas",
+      "Dino Ienco",
+      "Diego Marcos"
+    ],
+    "publication_date": "2024-07-05T14:24:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.04538v3",
+    "download_url": "https://arxiv.org/abs/2407.04538v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "iMatching: Imperative Correspondence Learning",
+    "abstract": "Learning feature correspondence is a foundational task in computer vision, holding immense importance for downstream applications such as visual odometry and 3D reconstruction. Despite recent progress in data-driven models, feature correspondence learning is still limited by the lack of accurate per-pixel correspondence labels. To overcome this difficulty, we introduce a new self-supervised scheme, imperative learning (IL), for training feature correspondence. It enables correspondence learning on arbitrary uninterrupted videos without any camera pose or depth labels, heralding a new era for self-supervised correspondence learning. Specifically, we formulated the problem of correspondence learning as a bilevel optimization, which takes the reprojection error from bundle adjustment as a supervisory signal for the model. To avoid large memory and computation overhead, we leverage the stationary point to effectively back-propagate the implicit gradients through bundle adjustment. Through extensive experiments, we demonstrate superior performance on tasks including feature matching and pose estimation, in which we obtained an average of 30% accuracy gain over the state-of-the-art matching models.",
+    "authors": [
+      "Zitong Zhan",
+      "Dasong Gao",
+      "Yun-Jou Lin",
+      "Youjie Xia",
+      "Chen Wang"
+    ],
+    "publication_date": "2023-12-04T18:58:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.02141v3",
+    "download_url": "https://arxiv.org/abs/2312.02141v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "New Algorithms for Computing Field of Vision over 2D Grids",
+    "abstract": "The aim of this paper is to propose new algorithms for Field of Vision (FOV) computation which improve on existing work at high resolutions. FOV refers to the set of locations that are visible from a specific position in a scene of a computer game.\n  We summarize existing algorithms for FOV computation, describe their limitations, and present new algorithms which aim to address these limitations. We first present an algorithm which makes use of spatial data structures in a way which is new for FOV calculation. We then present a novel technique which updates a previously calculated FOV, rather than re-calculating an FOV from scratch.\n  We compare our algorithms to existing FOV algorithms and show they provide substantial improvements to running time. Our algorithms provide the largest improvement over existing FOV algorithms at large grid sizes, thus allowing the possibility of the design of high resolution FOV-based video games.",
+    "authors": [
+      "Evan R. M. Debenham",
+      "Roberto Solis-Oba"
+    ],
+    "publication_date": "2021-01-26T20:38:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2101.11002v1",
+    "download_url": "https://arxiv.org/abs/2101.11002v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "For a semiotic AI: Bridging computer vision and visual semiotics for computational observation of large scale facial image archives",
+    "abstract": "Social networks are creating a digital world in which the cognitive, emotional, and pragmatic value of the imagery of human faces and bodies is arguably changing. However, researchers in the digital humanities are often ill-equipped to study these phenomena at scale. This work presents FRESCO (Face Representation in E-Societies through Computational Observation), a framework designed to explore the socio-cultural implications of images on social media platforms at scale. FRESCO deconstructs images into numerical and categorical variables using state-of-the-art computer vision techniques, aligning with the principles of visual semiotics. The framework analyzes images across three levels: the plastic level, encompassing fundamental visual features like lines and colors; the figurative level, representing specific entities or concepts; and the enunciation level, which focuses particularly on constructing the point of view of the spectator and observer. These levels are analyzed to discern deeper narrative layers within the imagery. Experimental validation confirms the reliability and utility of FRESCO, and we assess its consistency and precision across two public datasets. Subsequently, we introduce the FRESCO score, a metric derived from the framework's output that serves as a reliable measure of similarity in image content.",
+    "authors": [
+      "Lia Morra",
+      "Antonio Santangelo",
+      "Pietro Basci",
+      "Luca Piano",
+      "Fabio Garcea",
+      "Fabrizio Lamberti",
+      "Massimo Leone"
+    ],
+    "publication_date": "2024-07-03T16:57:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.03268v2",
+    "download_url": "https://arxiv.org/abs/2407.03268v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modeling Visual Information Processing in Brain: A Computer Vision Point of View and Approach",
+    "abstract": "We live in the Information Age, and information has become a critically important component of our life. The success of the Internet made huge amounts of it easily available and accessible to everyone. To keep the flow of this information manageable, means for its faultless circulation and effective handling have become urgently required. Considerable research efforts are dedicated today to address this necessity, but they are seriously hampered by the lack of a common agreement about \"What is information?\" In particular, what is \"visual information\" - human's primary input from the surrounding world. The problem is further aggravated by a long-lasting stance borrowed from the biological vision research that assumes human-like information processing as an enigmatic mix of perceptual and cognitive vision faculties. I am trying to find a remedy for this bizarre situation. Relying on a new definition of \"information\", which can be derived from Kolmogorov's compexity theory and Chaitin's notion of algorithmic information, I propose a unifying framework for visual information processing, which explicitly accounts for the perceptual and cognitive image processing peculiarities. I believe that this framework will be useful to overcome the difficulties that are impeding our attempts to develop the right model of human-like intelligent image processing.",
+    "authors": [
+      "Emanuel Diamant"
+    ],
+    "publication_date": "2007-08-07T11:16:15Z",
+    "arxiv_id": "http://arxiv.org/abs/0708.0927v1",
+    "download_url": "https://arxiv.org/abs/0708.0927v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Robustness Tokens: Towards Adversarial Robustness of Transformers",
+    "abstract": "Recently, large pre-trained foundation models have become widely adopted by machine learning practitioners for a multitude of tasks. Given that such models are publicly available, relying on their use as backbone models for downstream tasks might result in high vulnerability to adversarial attacks crafted with the same public model. In this work, we propose Robustness Tokens, a novel approach specific to the transformer architecture that fine-tunes a few additional private tokens with low computational requirements instead of tuning model parameters as done in traditional adversarial training. We show that Robustness Tokens make Vision Transformer models significantly more robust to white-box adversarial attacks while also retaining the original downstream performances.",
+    "authors": [
+      "Brian Pulfer",
+      "Yury Belousov",
+      "Slava Voloshynovskiy"
+    ],
+    "publication_date": "2025-03-13T09:26:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.10191v1",
+    "download_url": "https://arxiv.org/abs/2503.10191v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evaluating how interactive visualizations can assist in finding samples where and how computer vision models make mistakes",
+    "abstract": "Creating Computer Vision (CV) models remains a complex practice, despite their ubiquity. Access to data, the requirement for ML expertise, and model opacity are just a few points of complexity that limit the ability of end-users to build, inspect, and improve these models. Interactive ML perspectives have helped address some of these issues by considering a teacher in the loop where planning, teaching, and evaluating tasks take place. We present and evaluate two interactive visualizations in the context of Sprite, a system for creating CV classification and detection models for images originating from videos. We study how these visualizations help Sprite's users identify (evaluate) and select (plan) images where a model is struggling and can lead to improved performance, compared to a baseline condition where users used a query language. We found that users who had used the visualizations found more images across a wider set of potential types of model errors.",
+    "authors": [
+      "Hayeong Song",
+      "Gonzalo Ramos",
+      "Peter Bodik"
+    ],
+    "publication_date": "2023-05-19T14:43:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.11927v2",
+    "download_url": "https://arxiv.org/abs/2305.11927v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Coordinated Robustness Evaluation Framework for Vision-Language Models",
+    "abstract": "Vision-language models, which integrate computer vision and natural language processing capabilities, have demonstrated significant advancements in tasks such as image captioning and visual question and answering. However, similar to traditional models, they are susceptible to small perturbations, posing a challenge to their robustness, particularly in deployment scenarios. Evaluating the robustness of these models requires perturbations in both the vision and language modalities to learn their inter-modal dependencies. In this work, we train a generic surrogate model that can take both image and text as input and generate joint representation which is further used to generate adversarial perturbations for both the text and image modalities. This coordinated attack strategy is evaluated on the visual question and answering and visual reasoning datasets using various state-of-the-art vision-language models. Our results indicate that the proposed strategy outperforms other multi-modal attacks and single-modality attacks from the recent literature. Our results demonstrate their effectiveness in compromising the robustness of several state-of-the-art pre-trained multi-modal models such as instruct-BLIP, ViLT and others.",
+    "authors": [
+      "Ashwin Ramesh Babu",
+      "Sajad Mousavi",
+      "Vineet Gundecha",
+      "Sahand Ghorbanpour",
+      "Avisek Naug",
+      "Antonio Guillen",
+      "Ricardo Luna Gutierrez",
+      "Soumyendu Sarkar"
+    ],
+    "publication_date": "2025-06-05T08:09:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.05429v1",
+    "download_url": "https://arxiv.org/abs/2506.05429v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sparse Modeling for Image and Vision Processing",
+    "abstract": "In recent years, a large amount of multi-disciplinary research has been conducted on sparse models and their applications. In statistics and machine learning, the sparsity principle is used to perform model selection---that is, automatically selecting a simple model among a large collection of them. In signal processing, sparse coding consists of representing data with linear combinations of a few dictionary elements. Subsequently, the corresponding tools have been widely adopted by several scientific communities such as neuroscience, bioinformatics, or computer vision. The goal of this monograph is to offer a self-contained view of sparse modeling for visual recognition and image processing. More specifically, we focus on applications where the dictionary is learned and adapted to data, yielding a compact representation that has been successful in various contexts.",
+    "authors": [
+      "Julien Mairal",
+      "Francis Bach",
+      "Jean Ponce"
+    ],
+    "publication_date": "2014-11-12T16:33:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1411.3230v2",
+    "download_url": "https://arxiv.org/abs/1411.3230v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Events-to-Video: Bringing Modern Computer Vision to Event Cameras",
+    "abstract": "Event cameras are novel sensors that report brightness changes in the form of asynchronous \"events\" instead of intensity frames. They have significant advantages over conventional cameras: high temporal resolution, high dynamic range, and no motion blur. Since the output of event cameras is fundamentally different from conventional cameras, it is commonly accepted that they require the development of specialized algorithms to accommodate the particular nature of events. In this work, we take a different view and propose to apply existing, mature computer vision techniques to videos reconstructed from event data. We propose a novel recurrent network to reconstruct videos from a stream of events, and train it on a large amount of simulated event data. Our experiments show that our approach surpasses state-of-the-art reconstruction methods by a large margin (> 20%) in terms of image quality. We further apply off-the-shelf computer vision algorithms to videos reconstructed from event data on tasks such as object classification and visual-inertial odometry, and show that this strategy consistently outperforms algorithms that were specifically designed for event data. We believe that our approach opens the door to bringing the outstanding properties of event cameras to an entirely new range of tasks. A video of the experiments is available at https://youtu.be/IdYrC4cUO0I",
+    "authors": [
+      "Henri Rebecq",
+      "René Ranftl",
+      "Vladlen Koltun",
+      "Davide Scaramuzza"
+    ],
+    "publication_date": "2019-04-17T14:54:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.08298v1",
+    "download_url": "https://arxiv.org/abs/1904.08298v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "From truth to computability I",
+    "abstract": "The recently initiated approach called computability logic is a formal theory of interactive computation. See a comprehensive online source on the subject at http://www.cis.upenn.edu/~giorgi/cl.html . The present paper contains a soundness and completeness proof for the deductive system CL3 which axiomatizes the most basic first-order fragment of computability logic called the finite-depth, elementary-base fragment. Among the potential application areas for this result are the theory of interactive computation, constructive applied theories, knowledgebase systems, systems for resource-bound planning and action. This paper is self-contained as it reintroduces all relevant definitions as well as main motivations.",
+    "authors": [
+      "Giorgi Japaridze"
+    ],
+    "publication_date": "2004-07-21T03:58:22Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0407054v2",
+    "download_url": "https://arxiv.org/abs/cs/0407054v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks",
+    "abstract": "Multimodal foundation models, such as GPT-4o, have recently made remarkable progress, but it is not clear where exactly these models stand in terms of understanding vision. In this paper, we benchmark the performance of popular multimodal foundation models (GPT-4o, o4-mini, Gemini 1.5 Pro and Gemini 2.0 Flash, Claude 3.5 Sonnet, Qwen2-VL, Llama 3.2) on standard computer vision tasks (semantic segmentation, object detection, image classification, depth and surface normal prediction) using established datasets (e.g., COCO, ImageNet and its variants, etc).\n  The main challenges to performing this are: 1) most models are trained to output text and cannot natively express versatile domains, such as segments or 3D geometry, and 2) many leading models are proprietary and accessible only at an API level, i.e., there is no weight access to adapt them. We address these challenges by translating standard vision tasks into equivalent text-promptable and API-compatible tasks via prompt chaining to create a standardized benchmarking framework.\n  We observe that 1) the models are not close to the state-of-the-art specialist models at any task. However, 2) they are respectable generalists; this is remarkable as they are presumably trained on primarily image-text-based tasks. 3) They perform semantic tasks notably better than geometric ones. 4) While the prompt-chaining techniques affect performance, better models exhibit less sensitivity to prompt variations. 5) GPT-4o performs the best among non-reasoning models, securing the top position in 4 out of 6 tasks, 6) reasoning models, e.g. o3, show improvements in geometric tasks, and 7) a preliminary analysis of models with native image generation, like the latest GPT-4o, shows they exhibit quirks like hallucinations and spatial misalignments.",
+    "authors": [
+      "Rahul Ramachandran",
+      "Ali Garjani",
+      "Roman Bachmann",
+      "Andrei Atanov",
+      "Oğuzhan Fatih Kar",
+      "Amir Zamir"
+    ],
+    "publication_date": "2025-07-02T17:59:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.01955v2",
+    "download_url": "https://arxiv.org/abs/2507.01955v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "OOSTraj: Out-of-Sight Trajectory Prediction With Vision-Positioning Denoising",
+    "abstract": "Trajectory prediction is fundamental in computer vision and autonomous driving, particularly for understanding pedestrian behavior and enabling proactive decision-making. Existing approaches in this field often assume precise and complete observational data, neglecting the challenges associated with out-of-view objects and the noise inherent in sensor data due to limited camera range, physical obstructions, and the absence of ground truth for denoised sensor data. Such oversights are critical safety concerns, as they can result in missing essential, non-visible objects. To bridge this gap, we present a novel method for out-of-sight trajectory prediction that leverages a vision-positioning technique. Our approach denoises noisy sensor observations in an unsupervised manner and precisely maps sensor-based trajectories of out-of-sight objects into visual trajectories. This method has demonstrated state-of-the-art performance in out-of-sight noisy sensor trajectory denoising and prediction on the Vi-Fi and JRDB datasets. By enhancing trajectory prediction accuracy and addressing the challenges of out-of-sight objects, our work significantly contributes to improving the safety and reliability of autonomous driving in complex environments. Our work represents the first initiative towards Out-Of-Sight Trajectory prediction (OOSTraj), setting a new benchmark for future research. The code is available at \\url{https://github.com/Hai-chao-Zhang/OOSTraj}.",
+    "authors": [
+      "Haichao Zhang",
+      "Yi Xu",
+      "Hongsheng Lu",
+      "Takayuki Shimizu",
+      "Yun Fu"
+    ],
+    "publication_date": "2024-04-02T18:30:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.02227v1",
+    "download_url": "https://arxiv.org/abs/2404.02227v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Cloud Chaser: Real Time Deep Learning Computer Vision on Low Computing Power Devices",
+    "abstract": "Internet of Things(IoT) devices, mobile phones, and robotic systems are often denied the power of deep learning algorithms due to their limited computing power. However, to provide time-critical services such as emergency response, home assistance, surveillance, etc, these devices often need real-time analysis of their camera data. This paper strives to offer a viable approach to integrate high-performance deep learning-based computer vision algorithms with low-resource and low-power devices by leveraging the computing power of the cloud. By offloading the computation work to the cloud, no dedicated hardware is needed to enable deep neural networks on existing low computing power devices. A Raspberry Pi based robot, Cloud Chaser, is built to demonstrate the power of using cloud computing to perform real-time vision tasks. Furthermore, to reduce latency and improve real-time performance, compression algorithms are proposed and evaluated for streaming real-time video frames to the cloud.",
+    "authors": [
+      "Zhengyi Luo",
+      "Austin Small",
+      "Liam Dugan",
+      "Stephen Lane"
+    ],
+    "publication_date": "2018-10-02T05:08:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.01069v2",
+    "download_url": "https://arxiv.org/abs/1810.01069v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications",
+    "abstract": "Traditionally, convolutional neural networks (CNN) and vision transformers (ViT) have dominated computer vision. However, recently proposed vision graph neural networks (ViG) provide a new avenue for exploration. Unfortunately, for mobile applications, ViGs are computationally expensive due to the overhead of representing images as graph structures. In this work, we propose a new graph-based sparse attention mechanism, Sparse Vision Graph Attention (SVGA), that is designed for ViGs running on mobile devices. Additionally, we propose the first hybrid CNN-GNN architecture for vision tasks on mobile devices, MobileViG, which uses SVGA. Extensive experiments show that MobileViG beats existing ViG models and existing mobile CNN and ViT architectures in terms of accuracy and/or speed on image classification, object detection, and instance segmentation tasks. Our fastest model, MobileViG-Ti, achieves 75.7% top-1 accuracy on ImageNet-1K with 0.78 ms inference latency on iPhone 13 Mini NPU (compiled with CoreML), which is faster than MobileNetV2x1.4 (1.02 ms, 74.7% top-1) and MobileNetV2x1.0 (0.81 ms, 71.8% top-1). Our largest model, MobileViG-B obtains 82.6% top-1 accuracy with only 2.30 ms latency, which is faster and more accurate than the similarly sized EfficientFormer-L3 model (2.77 ms, 82.4%). Our work proves that well designed hybrid CNN-GNN architectures can be a new avenue of exploration for designing models that are extremely fast and accurate on mobile devices. Our code is publicly available at https://github.com/SLDGroup/MobileViG.",
+    "authors": [
+      "Mustafa Munir",
+      "William Avery",
+      "Radu Marculescu"
+    ],
+    "publication_date": "2023-07-01T17:49:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.00395v1",
+    "download_url": "https://arxiv.org/abs/2307.00395v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Distilling Large Vision-Language Model with Out-of-Distribution Generalizability",
+    "abstract": "Large vision-language models have achieved outstanding performance, but their size and computational requirements make their deployment on resource-constrained devices and time-sensitive tasks impractical. Model distillation, the process of creating smaller, faster models that maintain the performance of larger models, is a promising direction towards the solution. This paper investigates the distillation of visual representations in large teacher vision-language models into lightweight student models using a small- or mid-scale dataset. Notably, this study focuses on open-vocabulary out-of-distribution (OOD) generalization, a challenging problem that has been overlooked in previous model distillation literature. We propose two principles from vision and language modality perspectives to enhance student's OOD generalization: (1) by better imitating teacher's visual representation space, and carefully promoting better coherence in vision-language alignment with the teacher; (2) by enriching the teacher's language representations with informative and finegrained semantic attributes to effectively distinguish between different labels. We propose several metrics and conduct extensive experiments to investigate their techniques. The results demonstrate significant improvements in zero-shot and few-shot student performance on open-vocabulary out-of-distribution classification, highlighting the effectiveness of our proposed approaches. Poster: https://xuanlinli17.github.io/pdfs/iccv23_large_vlm_distillation_poster.pdf Code: https://github.com/xuanlinli17/large_vlm_distillation_ood",
+    "authors": [
+      "Xuanlin Li",
+      "Yunhao Fang",
+      "Minghua Liu",
+      "Zhan Ling",
+      "Zhuowen Tu",
+      "Hao Su"
+    ],
+    "publication_date": "2023-07-06T17:05:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.03135v3",
+    "download_url": "https://arxiv.org/abs/2307.03135v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Changing Neighbors k Secure Sum Protocol for Secure Multi Party Computation",
+    "abstract": "Secure sum computation of private data inputs is an important component of Secure Multi party Computation (SMC).In this paper we provide a protocol to compute the sum of individual data inputs with zero probability of data leakage. In our proposed protocol we break input of each party into number of segments and change the arrangement of the parties such that in each round of the computation the neighbors are changed. In this protocol it becomes impossible for semi honest parties to know the private data of some other party.",
+    "authors": [
+      "Rashid Sheikh",
+      "Beerendra Kumar",
+      "Durgesh Kumar Mishra"
+    ],
+    "publication_date": "2010-02-11T19:58:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1002.2409v1",
+    "download_url": "https://arxiv.org/abs/1002.2409v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Vicinity Vision Transformer",
+    "abstract": "Vision transformers have shown great success on numerous computer vision tasks. However, its central component, softmax attention, prohibits vision transformers from scaling up to high-resolution images, due to both the computational complexity and memory footprint being quadratic. Although linear attention was introduced in natural language processing (NLP) tasks to mitigate a similar issue, directly applying existing linear attention to vision transformers may not lead to satisfactory results. We investigate this problem and find that computer vision tasks focus more on local information compared with NLP tasks. Based on this observation, we present a Vicinity Attention that introduces a locality bias to vision transformers with linear complexity. Specifically, for each image patch, we adjust its attention weight based on its 2D Manhattan distance measured by its neighbouring patches. In this case, the neighbouring patches will receive stronger attention than far-away patches. Moreover, since our Vicinity Attention requires the token length to be much larger than the feature dimension to show its efficiency advantages, we further propose a new Vicinity Vision Transformer (VVT) structure to reduce the feature dimension without degenerating the accuracy. We perform extensive experiments on the CIFAR100, ImageNet1K, and ADE20K datasets to validate the effectiveness of our method. Our method has a slower growth rate of GFlops than previous transformer-based and convolution-based networks when the input resolution increases. In particular, our approach achieves state-of-the-art image classification accuracy with 50% fewer parameters than previous methods.",
+    "authors": [
+      "Weixuan Sun",
+      "Zhen Qin",
+      "Hui Deng",
+      "Jianyuan Wang",
+      "Yi Zhang",
+      "Kaihao Zhang",
+      "Nick Barnes",
+      "Stan Birchfield",
+      "Lingpeng Kong",
+      "Yiran Zhong"
+    ],
+    "publication_date": "2022-06-21T17:33:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.10552v2",
+    "download_url": "https://arxiv.org/abs/2206.10552v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Computational Algorithm based on Empirical Analysis, that Composes Sanskrit Poetry",
+    "abstract": "Poetry-writing in Sanskrit is riddled with problems for even those who know the language well. This is so because the rules that govern Sanskrit prosody are numerous and stringent. We propose a computational algorithm that converts prose given as E-text into poetry in accordance with the metrical rules of Sanskrit prosody, simultaneously taking care to ensure that sandhi or euphonic conjunction, which is compulsory in verse, is handled. The algorithm is considerably speeded up by a novel method of reducing the target search database. The algorithm further gives suggestions to the poet in case what he/she has given as the input prose is impossible to fit into any allowed metrical format. There is also an interactive component of the algorithm by which the algorithm interacts with the poet to resolve ambiguities. In addition, this unique work, which provides a solution to a problem that has never been addressed before, provides a simple yet effective speech recognition interface that would help the visually impaired dictate words in E-text, which is in turn versified by our Poetry Composer Engine.",
+    "authors": [
+      "Rama N.",
+      "Meenakshi Lakshmanan"
+    ],
+    "publication_date": "2010-03-07T11:28:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1003.1455v1",
+    "download_url": "https://arxiv.org/abs/1003.1455v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "FreeLabel: A Publicly Available Annotation Tool based on Freehand Traces",
+    "abstract": "Large-scale annotation of image segmentation datasets is often prohibitively expensive, as it usually requires a huge number of worker hours to obtain high-quality results. Abundant and reliable data has been, however, crucial for the advances on image understanding tasks achieved by deep learning models. In this paper, we introduce FreeLabel, an intuitive open-source web interface that allows users to obtain high-quality segmentation masks with just a few freehand scribbles, in a matter of seconds. The efficacy of FreeLabel is quantitatively demonstrated by experimental results on the PASCAL dataset as well as on a dataset from the agricultural domain. Designed to benefit the computer vision community, FreeLabel can be used for both crowdsourced or private annotation and has a modular structure that can be easily adapted for any image dataset.",
+    "authors": [
+      "Philipe A. Dias",
+      "Zhou Shen",
+      "Amy Tabb",
+      "Henry Medeiros"
+    ],
+    "publication_date": "2019-02-18T21:47:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1902.06806v2",
+    "download_url": "https://arxiv.org/abs/1902.06806v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improving Generalization of Synthetically Trained Sonar Image Descriptors for Underwater Place Recognition",
+    "abstract": "Autonomous navigation in underwater environments presents challenges due to factors such as light absorption and water turbidity, limiting the effectiveness of optical sensors. Sonar systems are commonly used for perception in underwater operations as they are unaffected by these limitations. Traditional computer vision algorithms are less effective when applied to sonar-generated acoustic images, while convolutional neural networks (CNNs) typically require large amounts of labeled training data that are often unavailable or difficult to acquire. To this end, we propose a novel compact deep sonar descriptor pipeline that can generalize to real scenarios while being trained exclusively on synthetic data. Our architecture is based on a ResNet18 back-end and a properly parameterized random Gaussian projection layer, whereas input sonar data is enhanced with standard ad-hoc normalization/prefiltering techniques. A customized synthetic data generation procedure is also presented. The proposed method has been evaluated extensively using both synthetic and publicly available real data, demonstrating its effectiveness compared to state-of-the-art methods.",
+    "authors": [
+      "Ivano Donadi",
+      "Emilio Olivastri",
+      "Daniel Fusaro",
+      "Wanmeng Li",
+      "Daniele Evangelista",
+      "Alberto Pretto"
+    ],
+    "publication_date": "2023-08-02T10:10:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.01058v2",
+    "download_url": "https://arxiv.org/abs/2308.01058v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multi-criteria Token Fusion with One-step-ahead Attention for Efficient Vision Transformers",
+    "abstract": "Vision Transformer (ViT) has emerged as a prominent backbone for computer vision. For more efficient ViTs, recent works lessen the quadratic cost of the self-attention layer by pruning or fusing the redundant tokens. However, these works faced the speed-accuracy trade-off caused by the loss of information. Here, we argue that token fusion needs to consider diverse relations between tokens to minimize information loss. In this paper, we propose a Multi-criteria Token Fusion (MCTF), that gradually fuses the tokens based on multi-criteria (e.g., similarity, informativeness, and size of fused tokens). Further, we utilize the one-step-ahead attention, which is the improved approach to capture the informativeness of the tokens. By training the model equipped with MCTF using a token reduction consistency, we achieve the best speed-accuracy trade-off in the image classification (ImageNet1K). Experimental results prove that MCTF consistently surpasses the previous reduction methods with and without training. Specifically, DeiT-T and DeiT-S with MCTF reduce FLOPs by about 44% while improving the performance (+0.5%, and +0.3%) over the base model, respectively. We also demonstrate the applicability of MCTF in various Vision Transformers (e.g., T2T-ViT, LV-ViT), achieving at least 31% speedup without performance degradation. Code is available at https://github.com/mlvlab/MCTF.",
+    "authors": [
+      "Sanghyeok Lee",
+      "Joonmyung Choi",
+      "Hyunwoo J. Kim"
+    ],
+    "publication_date": "2024-03-15T05:30:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.10030v3",
+    "download_url": "https://arxiv.org/abs/2403.10030v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Robust Fitting on a Gate Quantum Computer",
+    "abstract": "Gate quantum computers generate significant interest due to their potential to solve certain difficult problems such as prime factorization in polynomial time. Computer vision researchers have long been attracted to the power of quantum computers. Robust fitting, which is fundamentally important to many computer vision pipelines, has recently been shown to be amenable to gate quantum computing. The previous proposed solution was to compute Boolean influence as a measure of outlyingness using the Bernstein-Vazirani quantum circuit. However, the method assumed a quantum implementation of an $\\ell_\\infty$ feasibility test, which has not been demonstrated. In this paper, we take a big stride towards quantum robust fitting: we propose a quantum circuit to solve the $\\ell_\\infty$ feasibility test in the 1D case, which allows to demonstrate for the first time quantum robust fitting on a real gate quantum computer, the IonQ Aria. We also show how 1D Boolean influences can be accumulated to compute Boolean influences for higher-dimensional non-linear models, which we experimentally validate on real benchmark datasets.",
+    "authors": [
+      "Frances Fengyi Yang",
+      "Michele Sasdelli",
+      "Tat-Jun Chin"
+    ],
+    "publication_date": "2024-09-03T15:54:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.02006v1",
+    "download_url": "https://arxiv.org/abs/2409.02006v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey on RGB-D Datasets",
+    "abstract": "RGB-D data is essential for solving many problems in computer vision. Hundreds of public RGB-D datasets containing various scenes, such as indoor, outdoor, aerial, driving, and medical, have been proposed. These datasets are useful for different applications and are fundamental for addressing classic computer vision tasks, such as monocular depth estimation. This paper reviewed and categorized image datasets that include depth information. We gathered 203 datasets that contain accessible data and grouped them into three categories: scene/objects, body, and medical. We also provided an overview of the different types of sensors, depth applications, and we examined trends and future directions of the usage and creation of datasets containing depth data, and how they can be applied to investigate the development of generalizable machine learning models in the monocular depth estimation field.",
+    "authors": [
+      "Alexandre Lopes",
+      "Roberto Souza",
+      "Helio Pedrini"
+    ],
+    "publication_date": "2022-01-15T05:35:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.05761v2",
+    "download_url": "https://arxiv.org/abs/2201.05761v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bootstrapping Vision-language Models for Self-supervised Remote Physiological Measurement",
+    "abstract": "Facial video-based remote physiological measurement is a promising research area for detecting human vital signs (e.g., heart rate, respiration frequency) in a non-contact way. Conventional approaches are mostly supervised learning, requiring extensive collections of facial videos and synchronously recorded photoplethysmography (PPG) signals. To tackle it, self-supervised learning has recently gained attentions; due to the lack of ground truth PPG signals, its performance is however limited. In this paper, we propose a novel self-supervised framework that successfully integrates the popular vision-language models (VLMs) into the remote physiological measurement task. Given a facial video, we first augment its positive and negative video samples with varying rPPG signal frequencies. Next, we introduce a frequency-oriented vision-text pair generation method by carefully creating contrastive spatio-temporal maps from positive and negative samples and designing proper text prompts to describe their relative ratios of signal frequencies. A pre-trained VLM is employed to extract features for these formed vision-text pairs and estimate rPPG signals thereafter. We develop a series of generative and contrastive learning mechanisms to optimize the VLM, including the text-guided visual map reconstruction task, the vision-text contrastive learning task, and the frequency contrastive and ranking task. Overall, our method for the first time adapts VLMs to digest and align the frequency-related knowledge in vision and text modalities. Extensive experiments on four benchmark datasets demonstrate that it significantly outperforms state of the art self-supervised methods.",
+    "authors": [
+      "Zijie Yue",
+      "Miaojing Shi",
+      "Hanli Wang",
+      "Shuai Ding",
+      "Qijun Chen",
+      "Shanlin Yang"
+    ],
+    "publication_date": "2024-07-11T13:45:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.08507v2",
+    "download_url": "https://arxiv.org/abs/2407.08507v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion",
+    "abstract": "While many works focus on 3D reconstruction from images, in this paper, we focus on 3D shape reconstruction and completion from a variety of 3D inputs, which are deficient in some respect: low and high resolution voxels, sparse and dense point clouds, complete or incomplete. Processing of such 3D inputs is an increasingly important problem as they are the output of 3D scanners, which are becoming more accessible, and are the intermediate output of 3D computer vision algorithms. Recently, learned implicit functions have shown great promise as they produce continuous reconstructions. However, we identified two limitations in reconstruction from 3D inputs: 1) details present in the input data are not retained, and 2) poor reconstruction of articulated humans. To solve this, we propose Implicit Feature Networks (IF-Nets), which deliver continuous outputs, can handle multiple topologies, and complete shapes for missing or sparse input data retaining the nice properties of recent learned implicit functions, but critically they can also retain detail when it is present in the input data, and can reconstruct articulated humans. Our work differs from prior work in two crucial aspects. First, instead of using a single vector to encode a 3D shape, we extract a learnable 3-dimensional multi-scale tensor of deep features, which is aligned with the original Euclidean space embedding the shape. Second, instead of classifying x-y-z point coordinates directly, we classify deep features extracted from the tensor at a continuous query point. We show that this forces our model to make decisions based on global and local shape structure, as opposed to point coordinates, which are arbitrary under Euclidean transformations. Experiments demonstrate that IF-Nets clearly outperform prior work in 3D object reconstruction in ShapeNet, and obtain significantly more accurate 3D human reconstructions.",
+    "authors": [
+      "Julian Chibane",
+      "Thiemo Alldieck",
+      "Gerard Pons-Moll"
+    ],
+    "publication_date": "2020-03-03T11:14:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.01456v2",
+    "download_url": "https://arxiv.org/abs/2003.01456v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Play and Learn: Using Video Games to Train Computer Vision Models",
+    "abstract": "Video games are a compelling source of annotated data as they can readily provide fine-grained groundtruth for diverse tasks. However, it is not clear whether the synthetically generated data has enough resemblance to the real-world images to improve the performance of computer vision models in practice. We present experiments assessing the effectiveness on real-world data of systems trained on synthetic RGB images that are extracted from a video game. We collected over 60000 synthetic samples from a modern video game with similar conditions to the real-world CamVid and Cityscapes datasets. We provide several experiments to demonstrate that the synthetically generated RGB images can be used to improve the performance of deep neural networks on both image segmentation and depth estimation. These results show that a convolutional network trained on synthetic data achieves a similar test error to a network that is trained on real-world data for dense image classification. Furthermore, the synthetically generated RGB images can provide similar or better results compared to the real-world datasets if a simple domain adaptation technique is applied. Our results suggest that collaboration with game developers for an accessible interface to gather data is potentially a fruitful direction for future work in computer vision.",
+    "authors": [
+      "Alireza Shafaei",
+      "James J. Little",
+      "Mark Schmidt"
+    ],
+    "publication_date": "2016-08-05T03:16:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1608.01745v2",
+    "download_url": "https://arxiv.org/abs/1608.01745v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Computer Vision System to Localize and Classify Wastes on the Streets",
+    "abstract": "Littering quantification is an important step for improving cleanliness of cities. When human interpretation is too cumbersome or in some cases impossible, an objective index of cleanliness could reduce the littering by awareness actions. In this paper, we present a fully automated computer vision application for littering quantification based on images taken from the streets and sidewalks. We have employed a deep learning based framework to localize and classify different types of wastes. Since there was no waste dataset available, we built our acquisition system mounted on a vehicle. Collected images containing different types of wastes. These images are then annotated for training and benchmarking the developed system. Our results on real case scenarios show accurate detection of littering on variant backgrounds.",
+    "authors": [
+      "Mohammad Saeed Rad",
+      "Andreas von Kaenel",
+      "Andre Droux",
+      "Francois Tieche",
+      "Nabil Ouerhani",
+      "Hazim Kemal Ekenel",
+      "Jean-Philippe Thiran"
+    ],
+    "publication_date": "2017-10-31T08:57:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1710.11374v1",
+    "download_url": "https://arxiv.org/abs/1710.11374v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Facial Affect Estimation in the Wild Using Deep Residual and Convolutional Networks",
+    "abstract": "Automated affective computing in the wild is a challenging task in the field of computer vision. This paper presents three neural network-based methods proposed for the task of facial affect estimation submitted to the First Affect-in-the-Wild challenge. These methods are based on Inception-ResNet modules redesigned specifically for the task of facial affect estimation. These methods are: Shallow Inception-ResNet, Deep Inception-ResNet, and Inception-ResNet with LSTMs. These networks extract facial features in different scales and simultaneously estimate both the valence and arousal in each frame. Root Mean Square Error (RMSE) rates of 0.4 and 0.3 are achieved for the valence and arousal respectively with corresponding Concordance Correlation Coefficient (CCC) rates of 0.04 and 0.29 using Deep Inception-ResNet method.",
+    "authors": [
+      "Behzad Hasani",
+      "Mohammad H. Mahoor"
+    ],
+    "publication_date": "2017-05-22T17:59:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1705.07884v1",
+    "download_url": "https://arxiv.org/abs/1705.07884v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Vision-LSTM: xLSTM as Generic Vision Backbone",
+    "abstract": "Transformers are widely used as generic backbones in computer vision, despite initially introduced for natural language processing. Recently, the Long Short-Term Memory (LSTM) has been extended to a scalable and performant architecture - the xLSTM - which overcomes long-standing LSTM limitations via exponential gating and parallelizable matrix memory structure. In this report, we introduce Vision-LSTM (ViL), an adaption of the xLSTM building blocks to computer vision. ViL comprises a stack of xLSTM blocks where odd blocks process the sequence of patch tokens from top to bottom while even blocks go from bottom to top. Experiments show that ViL holds promise to be further deployed as new generic backbone for computer vision architectures.",
+    "authors": [
+      "Benedikt Alkin",
+      "Maximilian Beck",
+      "Korbinian Pöppel",
+      "Sepp Hochreiter",
+      "Johannes Brandstetter"
+    ],
+    "publication_date": "2024-06-06T17:49:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.04303v3",
+    "download_url": "https://arxiv.org/abs/2406.04303v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Vim4Path: Self-Supervised Vision Mamba for Histopathology Images",
+    "abstract": "Representation learning from Gigapixel Whole Slide Images (WSI) poses a significant challenge in computational pathology due to the complicated nature of tissue structures and the scarcity of labeled data. Multi-instance learning methods have addressed this challenge, leveraging image patches to classify slides utilizing pretrained models using Self-Supervised Learning (SSL) approaches. The performance of both SSL and MIL methods relies on the architecture of the feature encoder. This paper proposes leveraging the Vision Mamba (Vim) architecture, inspired by state space models, within the DINO framework for representation learning in computational pathology. We evaluate the performance of Vim against Vision Transformers (ViT) on the Camelyon16 dataset for both patch-level and slide-level classification. Our findings highlight Vim's enhanced performance compared to ViT, particularly at smaller scales, where Vim achieves an 8.21 increase in ROC AUC for models of similar size. An explainability analysis further highlights Vim's capabilities, which reveals that Vim uniquely emulates the pathologist workflow-unlike ViT. This alignment with human expert analysis highlights Vim's potential in practical diagnostic settings and contributes significantly to developing effective representation-learning algorithms in computational pathology. We release the codes and pretrained weights at \\url{https://github.com/AtlasAnalyticsLab/Vim4Path}.",
+    "authors": [
+      "Ali Nasiri-Sarvi",
+      "Vincent Quoc-Huy Trinh",
+      "Hassan Rivaz",
+      "Mahdi S. Hosseini"
+    ],
+    "publication_date": "2024-04-20T00:44:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.13222v2",
+    "download_url": "https://arxiv.org/abs/2404.13222v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "BinaryViT: Pushing Binary Vision Transformers Towards Convolutional Models",
+    "abstract": "With the increasing popularity and the increasing size of vision transformers (ViTs), there has been an increasing interest in making them more efficient and less computationally costly for deployment on edge devices with limited computing resources. Binarization can be used to help reduce the size of ViT models and their computational cost significantly, using popcount operations when the weights and the activations are in binary. However, ViTs suffer a larger performance drop when directly applying convolutional neural network (CNN) binarization methods or existing binarization methods to binarize ViTs compared to CNNs on datasets with a large number of classes such as ImageNet-1k. With extensive analysis, we find that binary vanilla ViTs such as DeiT miss out on a lot of key architectural properties that CNNs have that allow binary CNNs to have much higher representational capability than binary vanilla ViT. Therefore, we propose BinaryViT, in which inspired by the CNN architecture, we include operations from the CNN architecture into a pure ViT architecture to enrich the representational capability of a binary ViT without introducing convolutions. These include an average pooling layer instead of a token pooling layer, a block that contains multiple average pooling branches, an affine transformation right before the addition of each main residual connection, and a pyramid structure. Experimental results on the ImageNet-1k dataset show the effectiveness of these operations that allow a binary pure ViT model to be competitive with previous state-of-the-art (SOTA) binary CNN models.",
+    "authors": [
+      "Phuoc-Hoan Charles Le",
+      "Xinlin Li"
+    ],
+    "publication_date": "2023-06-29T04:48:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.16678v1",
+    "download_url": "https://arxiv.org/abs/2306.16678v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Integrating Vision Foundation Models with Reinforcement Learning for Enhanced Object Interaction",
+    "abstract": "This paper presents a novel approach that integrates vision foundation models with reinforcement learning to enhance object interaction capabilities in simulated environments. By combining the Segment Anything Model (SAM) and YOLOv5 with a Proximal Policy Optimization (PPO) agent operating in the AI2-THOR simulation environment, we enable the agent to perceive and interact with objects more effectively. Our comprehensive experiments, conducted across four diverse indoor kitchen settings, demonstrate significant improvements in object interaction success rates and navigation efficiency compared to a baseline agent without advanced perception. The results show a 68% increase in average cumulative reward, a 52.5% improvement in object interaction success rate, and a 33% increase in navigation efficiency. These findings highlight the potential of integrating foundation models with reinforcement learning for complex robotic tasks, paving the way for more sophisticated and capable autonomous agents.",
+    "authors": [
+      "Ahmad Farooq",
+      "Kamran Iqbal"
+    ],
+    "publication_date": "2025-08-07T20:29:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.05838v1",
+    "download_url": "https://arxiv.org/abs/2508.05838v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "EasyARC: Evaluating Vision Language Models on True Visual Reasoning",
+    "abstract": "Building on recent advances in language-based reasoning models, we explore multimodal reasoning that integrates vision and text. Existing multimodal benchmarks primarily test visual extraction combined with text-based reasoning, lacking true visual reasoning with more complex interactions between vision and language. Inspired by the ARC challenge, we introduce EasyARC, a vision-language benchmark requiring multi-image, multi-step reasoning, and self-correction. EasyARC is procedurally generated, fully verifiable, and scalable, making it ideal for reinforcement learning (RL) pipelines. The generators incorporate progressive difficulty levels, enabling structured evaluation across task types and complexities. We benchmark state-of-the-art vision-language models and analyze their failure modes. We argue that EasyARC sets a new standard for evaluating true reasoning and test-time scaling capabilities in vision-language models. We open-source our benchmark dataset and evaluation code.",
+    "authors": [
+      "Mert Unsal",
+      "Aylin Akkus"
+    ],
+    "publication_date": "2025-06-13T09:03:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.11595v1",
+    "download_url": "https://arxiv.org/abs/2506.11595v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Preliminary study on artificial intelligence methods for cybersecurity threat detection in computer networks based on raw data packets",
+    "abstract": "Most of the intrusion detection methods in computer networks are based on traffic flow characteristics. However, this approach may not fully exploit the potential of deep learning algorithms to directly extract features and patterns from raw packets. Moreover, it impedes real-time monitoring due to the necessity of waiting for the processing pipeline to complete and introduces dependencies on additional software components.\n  In this paper, we investigate deep learning methodologies capable of detecting attacks in real-time directly from raw packet data within network traffic. We propose a novel approach where packets are stacked into windows and separately recognised, with a 2D image representation suitable for processing with computer vision models. Our investigation utilizes the CIC IDS-2017 dataset, which includes both benign traffic and prevalent real-world attacks, providing a comprehensive foundation for our research.",
+    "authors": [
+      "Aleksander Ogonowski",
+      "Michał Żebrowski",
+      "Arkadiusz Ćwiek",
+      "Tobiasz Jarosiewicz",
+      "Konrad Klimaszewski",
+      "Adam Padee",
+      "Piotr Wasiuk",
+      "Michał Wójcik"
+    ],
+    "publication_date": "2024-07-24T15:04:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.17339v2",
+    "download_url": "https://arxiv.org/abs/2407.17339v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the Application of Egocentric Computer Vision to Industrial Scenarios",
+    "abstract": "Egocentric vision aims to capture and analyse the world from the first-person perspective. We explore the possibilities for egocentric wearable devices to improve and enhance industrial use cases w.r.t. data collection, annotation, labelling and downstream applications. This would contribute to easier data collection and allow users to provide additional context. We envision that this approach could serve as a supplement to the traditional industrial Machine Vision workflow. Code, Dataset and related resources will be available at: https://github.com/Vivek9Chavan/EgoVis24",
+    "authors": [
+      "Vivek Chavan",
+      "Oliver Heimann",
+      "Jörg Krüger"
+    ],
+    "publication_date": "2024-06-11T21:48:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.07738v1",
+    "download_url": "https://arxiv.org/abs/2406.07738v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Instant Motion Tracking and Its Applications to Augmented Reality",
+    "abstract": "Augmented Reality (AR) brings immersive experiences to users. With recent advances in computer vision and mobile computing, AR has scaled across platforms, and has increased adoption in major products. One of the key challenges in enabling AR features is proper anchoring of the virtual content to the real world, a process referred to as tracking. In this paper, we present a system for motion tracking, which is capable of robustly tracking planar targets and performing relative-scale 6DoF tracking without calibration. Our system runs in real-time on mobile phones and has been deployed in multiple major products on hundreds of millions of devices.",
+    "authors": [
+      "Jianing Wei",
+      "Genzhi Ye",
+      "Tyler Mullen",
+      "Matthias Grundmann",
+      "Adel Ahmadyan",
+      "Tingbo Hou"
+    ],
+    "publication_date": "2019-07-16T00:13:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.06796v1",
+    "download_url": "https://arxiv.org/abs/1907.06796v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality",
+    "abstract": "For the deployment of neural networks in resource-constrained environments, prior works have built lightweight architectures with convolution and attention for capturing local and global dependencies, respectively. Recently, the state space model (SSM) has emerged as an effective operation for global interaction with its favorable linear computational cost in the number of tokens. To harness the efficacy of SSM, we introduce Efficient Vision Mamba (EfficientViM), a novel architecture built on hidden state mixer-based state space duality (HSM-SSD) that efficiently captures global dependencies with further reduced computational cost. With the observation that the runtime of the SSD layer is driven by the linear projections on the input sequences, we redesign the original SSD layer to perform the channel mixing operation within compressed hidden states in the HSM-SSD layer. Additionally, we propose multi-stage hidden state fusion to reinforce the representation power of hidden states and provide the design to alleviate the bottleneck caused by the memory-bound operations. As a result, the EfficientViM family achieves a new state-of-the-art speed-accuracy trade-off on ImageNet-1k, offering up to a 0.7% performance improvement over the second-best model SHViT with faster speed. Further, we observe significant improvements in throughput and accuracy compared to prior works, when scaling images or employing distillation training. Code is available at https://github.com/mlvlab/EfficientViM.",
+    "authors": [
+      "Sanghyeok Lee",
+      "Joonmyung Choi",
+      "Hyunwoo J. Kim"
+    ],
+    "publication_date": "2024-11-22T02:02:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.15241v2",
+    "download_url": "https://arxiv.org/abs/2411.15241v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multi-Exit Vision Transformer for Dynamic Inference",
+    "abstract": "Deep neural networks can be converted to multi-exit architectures by inserting early exit branches after some of their intermediate layers. This allows their inference process to become dynamic, which is useful for time critical IoT applications with stringent latency requirements, but with time-variant communication and computation resources. In particular, in edge computing systems and IoT networks where the exact computation time budget is variable and not known beforehand. Vision Transformer is a recently proposed architecture which has since found many applications across various domains of computer vision. In this work, we propose seven different architectures for early exit branches that can be used for dynamic inference in Vision Transformer backbones. Through extensive experiments involving both classification and regression problems, we show that each one of our proposed architectures could prove useful in the trade-off between accuracy and speed.",
+    "authors": [
+      "Arian Bakhtiarnia",
+      "Qi Zhang",
+      "Alexandros Iosifidis"
+    ],
+    "publication_date": "2021-06-29T09:01:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.15183v3",
+    "download_url": "https://arxiv.org/abs/2106.15183v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hand-Priming in Object Localization for Assistive Egocentric Vision",
+    "abstract": "Egocentric vision holds great promises for increasing access to visual information and improving the quality of life for people with visual impairments, with object recognition being one of the daily challenges for this population. While we strive to improve recognition performance, it remains difficult to identify which object is of interest to the user; the object may not even be included in the frame due to challenges in camera aiming without visual feedback. Also, gaze information, commonly used to infer the area of interest in egocentric vision, is often not dependable. However, blind users often tend to include their hand either interacting with the object that they wish to recognize or simply placing it in proximity for better camera aiming. We propose localization models that leverage the presence of the hand as the contextual information for priming the center area of the object of interest. In our approach, hand segmentation is fed to either the entire localization network or its last convolutional layers. Using egocentric datasets from sighted and blind individuals, we show that the hand-priming achieves higher precision than other approaches, such as fine-tuning, multi-class, and multi-task learning, which also encode hand-object interactions in localization.",
+    "authors": [
+      "Kyungjun Lee",
+      "Abhinav Shrivastava",
+      "Hernisa Kacorri"
+    ],
+    "publication_date": "2020-02-28T05:32:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.12557v1",
+    "download_url": "https://arxiv.org/abs/2002.12557v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Adversarial Vision Challenge",
+    "abstract": "The NIPS 2018 Adversarial Vision Challenge is a competition to facilitate measurable progress towards robust machine vision models and more generally applicable adversarial attacks. This document is an updated version of our competition proposal that was accepted in the competition track of 32nd Conference on Neural Information Processing Systems (NIPS 2018).",
+    "authors": [
+      "Wieland Brendel",
+      "Jonas Rauber",
+      "Alexey Kurakin",
+      "Nicolas Papernot",
+      "Behar Veliqi",
+      "Marcel Salathé",
+      "Sharada P. Mohanty",
+      "Matthias Bethge"
+    ],
+    "publication_date": "2018-08-06T16:13:43Z",
+    "arxiv_id": "http://arxiv.org/abs/1808.01976v2",
+    "download_url": "https://arxiv.org/abs/1808.01976v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

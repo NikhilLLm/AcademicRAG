@@ -1,0 +1,1727 @@
+[
+  {
+    "title": "MolecularWebXR: Multiuser discussions about chemistry and biology in immersive and inclusive VR",
+    "abstract": "MolecularWebXR is our new website for education, science communication and scientific peer discussion in chemistry and biology built on WebXR. It democratizes multi-user, inclusive virtual reality (VR) experiences that are deeply immersive for users wearing high-end headsets, yet allow participation by users with consumer devices such as smartphones, possibly inserted into cardboard goggles for immersivity, or even computers or tablets. With no installs as it is all web-served, MolecularWebXR enables multiple users to simultaneously explore, communicate and discuss chemistry and biology concepts in immersive 3D environments, manipulating objects with their bare hands, either present in the same real space or scattered throughout the globe thanks to built-in audio features. A series of preset rooms cover educational material on chemistry and structural biology, and an empty room can be populated with material prepared ad hoc using moleculARweb's VMD-based PDB2AR tool. We verified ease of use and versatility by users aged 12-80 in entirely virtual sessions or mixed real-virtual sessions at science outreach events, student instruction, scientific collaborations, and conference lectures. MolecularWebXR is available for free use without registration at https://molecularwebxr.org, and a blog post version of this preprint with embedded videos is available at https://go.epfl.ch/molecularwebxr-blog-post.",
+    "authors": [
+      "Fabio J. Cortes Rodriguez",
+      "Gianfranco Frattini",
+      "Fernando Teixeira Pinto Meireles",
+      "Danae A. Terrien",
+      "Sergio Cruz-Leon",
+      "Matteo Dal Peraro",
+      "Eva Schier",
+      "Diego M. Moreno",
+      "Luciano A. Abriata"
+    ],
+    "publication_date": "2023-11-01T09:22:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.00385v1",
+    "download_url": "https://arxiv.org/abs/2311.00385v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry in Disks. IV. Benchmarking gas-grain chemical models with surface reactions",
+    "abstract": "Abridged: We detail and benchmark two sophisticated chemical models developed by the Heidelberg and Bordeaux astrochemistry groups. The main goal of this study is to elaborate on a few well-described tests for state-of-the-art astrochemical codes covering a range of physical conditions and chemical processes, in particular those aimed at constraining current and future interferometric observations of protoplanetary disks. We consider three physical models: a cold molecular cloud core, a hot core, and an outer region of a T Tauri disk. Our chemical network (for both models) is based on the original gas-phase osu_03_2008 ratefile and includes gas-grain interactions and a set of surface reactions for the H-, O-, C-, S-, and N-bearing molecules. The benchmarking is performed with the increasing complexity of the considered processes: (1) the pure gas-phase chemistry, (2) the gas-phase chemistry with accretion and desorption, and (3) the full gas-grain model with surface reactions. Using atomic initial abundances with heavily depleted metals and hydrogen in its molecular form, the chemical evolution is modeled within 10^9 years. The time-dependent abundances calculated with the two chemical models are essentially the same for all considered physical cases and for all species, including the most complex polyatomic ions and organic molecules. This result however required a lot of efforts to make all necessary details consistent through the model runs, e.g. definition of the gas particle density, density of grain surface sites, the strength and shape of the UV radiation field, etc. The reference models and the benchmark setup, along with the two chemical codes and resulting time-dependent abundances are made publicly available in the Internet: http://www.mpia.de/homes/semenov/Chemistry_benchmark/home.html",
+    "authors": [
+      "D. Semenov",
+      "F. Hersant",
+      "V. Wakelam",
+      "A. Dutrey",
+      "E. Chapillon",
+      "St. Guilloteau",
+      "Th. Henning",
+      "R. Launhardt",
+      "V. Pietu",
+      "K. Schreyer"
+    ],
+    "publication_date": "2010-07-14T11:49:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1007.2302v1",
+    "download_url": "https://arxiv.org/abs/1007.2302v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "CRANE: A MOOSE-based Open Source Tool for Plasma Chemistry Applications",
+    "abstract": "Numerical simulation of plasma discharges is often performed by models developed in-house and coupling externally and separately written codes. The MOOSE (Multiphysics Object Oriented Simulation Environment) framework provides tools for quickly developing and coupling together software in a scalable framework, making it well-suited for plasma simulations. A new MOOSE application, CRANE (Chemical ReAction NEtwork), was developed in order to add an independent chemical kinetics application to the framework. In this work the capabilities of CRANE are detailed, including its use as a standalone solver for global plasma chemistry models. The capability of fully coupling applications in the MOOSE framework is also shown by compiling CRANE directly into the MOOSE-based plasma transport software Zapdos, showing the possibility to solve fully coupled drift-diffusion-reaction plasma chemistry problems. The code is open-source and available at the following url, https://github.com/lcpp-org/crane.",
+    "authors": [
+      "Shane Keniley",
+      "Davide Curreli"
+    ],
+    "publication_date": "2019-05-24T02:37:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.10004v1",
+    "download_url": "https://arxiv.org/abs/1905.10004v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generative artificial intelligence for computational chemistry: a roadmap to predicting emergent phenomena",
+    "abstract": "The recent surge in Generative Artificial Intelligence (AI) has introduced exciting possibilities for computational chemistry. Generative AI methods have made significant progress in sampling molecular structures across chemical species, developing force fields, and speeding up simulations. This Perspective offers a structured overview, beginning with the fundamental theoretical concepts in both Generative AI and computational chemistry. It then covers widely used Generative AI methods, including autoencoders, generative adversarial networks, reinforcement learning, flow models and language models, and highlights their selected applications in diverse areas including force field development, and protein/RNA structure prediction. A key focus is on the challenges these methods face before they become truly predictive, particularly in predicting emergent chemical phenomena. We believe that the ultimate goal of a simulation method or theory is to predict phenomena not seen before, and that Generative AI should be subject to these same standards before it is deemed useful for chemistry. We suggest that to overcome these challenges, future AI models need to integrate core chemical principles, especially from statistical mechanics.",
+    "authors": [
+      "Pratyush Tiwary",
+      "Lukas Herron",
+      "Richard John",
+      "Suemin Lee",
+      "Disha Sanwal",
+      "Ruiyu Wang"
+    ],
+    "publication_date": "2024-09-04T23:02:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.03118v1",
+    "download_url": "https://arxiv.org/abs/2409.03118v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine learning-accelerated chemistry modeling of protoplanetary disks",
+    "abstract": "Aims. With the large amount of molecular emission data from (sub)millimeter observatories and incoming James Webb Space Telescope infrared spectroscopy, access to fast forward models of the chemical composition of protoplanetary disks is of paramount importance.\n  Methods. We used a thermo-chemical modeling code to generate a diverse population of protoplanetary disk models. We trained a K-nearest neighbors (KNN) regressor to instantly predict the chemistry of other disk models.\n  Results. We show that it is possible to accurately reproduce chemistry using just a small subset of physical conditions, thanks to correlations between the local physical conditions in adopted protoplanetary disk models. We discuss the uncertainties and limitations of this method.\n  Conclusions. The proposed method can be used for Bayesian fitting of the line emission data to retrieve disk properties from observations. We present a pipeline for reproducing the same approach on other disk chemical model sets.",
+    "authors": [
+      "Grigorii V. Smirnov-Pinchukov",
+      "Tamara Molyarova",
+      "Dmitry A. Semenov",
+      "Vitaly V. Akimkin",
+      "Sierk van Terwisga",
+      "Riccardo Francheschi",
+      "Thomas Henning"
+    ],
+    "publication_date": "2022-09-27T12:42:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.13336v1",
+    "download_url": "https://arxiv.org/abs/2209.13336v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Rocky Planetesimal Formation Aided by Organics",
+    "abstract": "The poor stickiness of silicate dust grains is a major obstacle to the formation of rocky planetesimals. In this study, we examine the possibility that silicate grains with an organic mantle, which we call Organic-Mantled Grains (OMGs), form planetesimals through direct coagulation. Organic mantles are commonly found in interplanetary dust particles, and laboratory experiments show that they are softer than silicates, in particular in warm environments. This, combined with the theory of particle adhesion, implies that OMGs are stickier than bare silicate grains. Because organic mantles can survive up to 400 K, silicate grains inside the water snow line in protoplanetary disks can in principle hold such mantles. We construct a simple grain adhesion model to estimate the threshold collision velocity below which aggregates of OMGs can grow. The model shows that aggregates of 0.1 \\micron-sized OMGs can overcome the fragmentation barrier in protoplanetary disks if the mantles are as thick as those in interplanetary dust particles and if the temperature is above $\\sim$ 200 K. We use this adhesion model to simulate the global evolution of OMG aggregates in the inner part of a protoplanetary disk, demonstrating that OMG aggregates can indeed grow into planetesimals under favorable conditions. Because organic matter is unstable at excessively high temperatures, rocky planetesimal formation by the direct sticking of OMGs is expected to occur in a disk annulus corresponding to the temperature range $ \\sim$ 200--400 K. The organic-rich planetesimals may grow into carbon-poor rocky planetesimals by accreting a large amount of carbon-poor chondrules.",
+    "authors": [
+      "Kazuaki Homma",
+      "Satoshi Okuzumi",
+      "Taishi Nakamoto",
+      "Yuta Ueda"
+    ],
+    "publication_date": "2019-05-08T12:27:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.03029v1",
+    "download_url": "https://arxiv.org/abs/1905.03029v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evaluation of the MACE Force Field Architecture: from Medicinal Chemistry to Materials Science",
+    "abstract": "The MACE architecture represents the state of the art in the field of machine learning force fields for a variety of in-domain, extrapolation and low-data regime tasks. In this paper, we further evaluate MACE by fitting models for published benchmark datasets. We show that MACE generally outperforms alternatives for a wide range of systems from amorphous carbon, universal materials modelling, and general small molecule organic chemistry to large molecules and liquid water. We demonstrate the capabilities of the model on tasks ranging from constrained geometry optimisation to molecular dynamics simulations and find excellent performance across all tested domains. We show that MACE is very data efficient, and can reproduce experimental molecular vibrational spectra when trained on as few as 50 randomly selected reference configurations. We further demonstrate that the strictly local atom-centered model is sufficient for such tasks even in the case of large molecules and weakly interacting molecular assemblies.",
+    "authors": [
+      "David Peter Kovacs",
+      "Ilyes Batatia",
+      "Eszter Sara Arany",
+      "Gabor Csanyi"
+    ],
+    "publication_date": "2023-05-23T17:01:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.14247v2",
+    "download_url": "https://arxiv.org/abs/2305.14247v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Stress Focusing in Descriptive Chemistry",
+    "abstract": "We show that several important concepts of descriptive chemistry, such as atomic shells, bonding electron pairs and lone electron pairs, may be described in terms of {\\it quantum stress focusing}, i.e. the spontaneous formation of high-pressure regions in an electron gas. This description subsumes previous mathematical constructions, such as the Laplacian of the density and the electron localization function, and provides a new tool for visualizing chemical structure. We also show that the full stress tensor, defined as the derivative of the energy with respect to a local deformation, can be easily calculated from density functional theory.",
+    "authors": [
+      "Jianmin Tao",
+      "Giovanni Vignale",
+      "I. V. Tokatly"
+    ],
+    "publication_date": "2008-01-14T17:10:23Z",
+    "arxiv_id": "http://arxiv.org/abs/0801.2117v1",
+    "download_url": "https://arxiv.org/abs/0801.2117v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry Lab Automation via Constrained Task and Motion Planning",
+    "abstract": "Chemists need to perform many laborious and time-consuming experiments in the lab to discover and understand the properties of new materials. To support and accelerate this process, we propose a robot framework for manipulation that autonomously performs chemistry experiments. Our framework receives high-level abstract descriptions of chemistry experiments, perceives the lab workspace, and autonomously plans multi-step actions and motions. The robot interacts with a wide range of lab equipment and executes the generated plans. A key component of our method is constrained task and motion planning using PDDLStream solvers. Preventing collisions and spillage is done by introducing a constrained motion planner. Our planning framework can conduct different experiments employing implemented actions and lab tools. We demonstrate the utility of our framework on pouring skills for various materials and two fundamental chemical experiments for materials synthesis: solubility and recrystallization.",
+    "authors": [
+      "Naruki Yoshikawa",
+      "Andrew Zou Li",
+      "Kourosh Darvish",
+      "Yuchi Zhao",
+      "Haoping Xu",
+      "Artur Kuramshin",
+      "Alán Aspuru-Guzik",
+      "Animesh Garg",
+      "Florian Shkurti"
+    ],
+    "publication_date": "2022-12-19T17:59:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.09672v2",
+    "download_url": "https://arxiv.org/abs/2212.09672v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modeling of Organic Metal-Insulator-Semiconductor Capacitor",
+    "abstract": "In this paper, we demonstrate the principle of operation of a metal-insulator-semiconductor (MIS) capacitor based on undoped organic semiconductor. In spite of low charge concentration within the semiconductor, this device exhibits a capacitance variation with respect to applied gate voltage $V_g$, resembling the capacitance-voltage $C$-$V$ characteristics of a traditional doped semiconductor based MIS capacitor. A physics based model is developed to derive charge concentration, surface potential $ψ_s$ and the capacitance of organic MIS capacitor. The model is validated with TCAD simulation results and is further verified with experimental results obtained from fabricated organic MIS capacitor consisting of poly(4-vinylphenol) and poly(3-hexylthiophene-2,5-diyl) as insulator and semiconductor, respectively.",
+    "authors": [
+      "Prashanth Kumar Manda",
+      "Logesh Karunakaran",
+      "Sandeep Thirumala",
+      "Anjan Chakravorty",
+      "Soumya Dutta"
+    ],
+    "publication_date": "2018-10-26T16:25:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.12120v1",
+    "download_url": "https://arxiv.org/abs/1810.12120v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Orbital entanglement in quantum chemistry",
+    "abstract": "The basic concepts of orbital entanglement and its application to chemistry are briefly reviewed. The calculation of orbital entanglement measures from correlated wavefunctions is discussed in terms of reduced $n$-particle density matrices. Possible simplifications in their evaluation are highlighted in case of seniority-zero wavefunctions. Specifically, orbital entanglement allows us to dissect electron correlation effects in its strong and weak contributions, to determine bond orders, to assess the quality and stability of active space calculations, to monitor chemical reactions, and to identify points along the reaction coordinate where electronic wavefunctions change drastically. Thus, orbital entanglement represents a useful and intuitive tool to interpret complex electronic wavefunctions and to facilitate a qualitative understanding of electronic structure and how it changes in chemical processes.",
+    "authors": [
+      "Katharina Boguslawski",
+      "Paweł Tecmer"
+    ],
+    "publication_date": "2014-09-29T08:03:43Z",
+    "arxiv_id": "http://arxiv.org/abs/1409.8017v2",
+    "download_url": "https://arxiv.org/abs/1409.8017v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Enhancing Chemistry Learning with ChatGPT, Bing Chat, Bard, and Claude as Agents-to-Think-With: A Comparative Case Study",
+    "abstract": "This research delves into the comparative advantages of Generative AI chatbots (GenAIbots) -- ChatGPT, Bing Chat, Bard, and Claude -- in the context of Chemistry education, framed within a constructivist perspective. Our primary objective was to identify which of these four AI tools is more effective for enhancing Chemistry learning. Employing a single-case study approach, we scrutinised interaction logs between the AI systems and a simulated student persona during Chemistry learning simulations, incorporating Content Analysis methodology to delve deeper into the discourse. Our findings underscore these tools' potential as \"agents-to-think-with\", enhancing critical thinking, problem-solving, comprehension, creativity, and tailored learning. Especially noteworthy is their ability to stimulate learners through Socratic-like questioning, aligning with constructionist principles. The research emphasises the pivotal role of prompt crafting to coax desired responses from GenAIbots, engendering iterative reflections. It also highlights the need for robust educator training to infuse these technologies into educational settings. Conclusively, while ChatGPT, Bing Chat, Bard, and Claude are poised to enrich Chemistry education by fostering dynamic, inclusive learning experiences, ChatGPT stood out, decisively surpassing Bing Chat in its performance. Bard and Claude trailed closely, with all three showcasing a more in-depth, precise, and nuanced understanding, underscoring ChatGPT's adeptness at contextual comprehension.",
+    "authors": [
+      "Renato P. dos Santos"
+    ],
+    "publication_date": "2023-10-23T12:33:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.00709v1",
+    "download_url": "https://arxiv.org/abs/2311.00709v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Non-Thermal Chemistry in Diffuse Clouds with Low Molecular Abundances",
+    "abstract": "High quality archival spectra of interstellar absorption from C I toward 9 stars, taken with the Goddard High Resolution Spectrograph on the Hubble Space Telescope, were analyzed. Our sample was supplemented by two sight lines, 23 Ori and B1 Sco, for which the C I measurements of Federman, Welty, & Cardelli were used. Directions with known CH+ absorption, but only upper limits on absorption from C2 and CN, were considered for our study. This restriction allows us to focus on regions where CH+ chemistry dominates the production of carbon-bearing molecules. Profile synthesis of several multiplets yielded column densities and Doppler parameters for the C I fine structure levels. Equilibrium excitation analyses, using the measured column densities as well as the temperature from H2 excitation, led to values for gas density. These densities, in conjunction with measurements of CH, CH+, C2, and CN column densities, provided estimates for the amount of CH associated with CH+ production, which in turn set up constraints on the present theories for CH+ formation in this environment. We found for our sample of interstellar clouds that on average, 30--40 % of the CH originates from CH+ chemistry, and in some cases it can be as high as 90 %. A simple chemical model for gas containing non-equilibrium production of CH+ was developed for the purpose of predicting column densities for CH, CO, HCO+, CH2+, and CH3+ generated from large abundances of CH+. Again, our results suggest that non-thermal chemistry is necessary to account for the observed abundance of CH and probably that of CO in these clouds.",
+    "authors": [
+      "J. Zsargo",
+      "S. R. Federman"
+    ],
+    "publication_date": "2003-02-06T21:23:38Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0302133v1",
+    "download_url": "https://arxiv.org/abs/astro-ph/0302133v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The origin of organic emission in NGC 2071",
+    "abstract": "Context: The physical origin behind organic emission in embedded low-mass star formation has been fiercely debated in the last two decades. A multitude of scenarios have been proposed, from a hot corino to PDRs on cavity walls to shock excitation.\n  Aims: The aim of this paper is to determine the location and the corresponding physical conditions of the gas responsible for organics emission lines. The outflows around the small protocluster NGC 2071 are an ideal testbed to differentiate between various scenarios.\n  Methods: Using Herschel-HIFI and the SMA, observations of CH3OH, H2CO and CH3CN emission lines over a wide range of excitation energies were obtained. Comparisons to a grid of radiative transfer models provide constraints on the physical conditions. Comparison to H2O line shape is able to trace gas-phase synthesis versus a sputtered origin.\n  Results: Emission of organics originates in three spots: the continuum sources IRS 1 ('B') and IRS 3 ('A') as well as a outflow position ('F'). Densities are above 10$^7$ cm$^{-3}$ and temperatures between 100 to 200 K. CH3OH emission observed with HIFI originates in all three regions and cannot be associated with a single region. Very little organic emission originates outside of these regions.\n  Conclusions: Although the three regions are small (<1,500 AU), gas-phase organics likely originate from sputtering of ices due to outflow activity. The derived high densities (>10$^7$ cm$^{-3}$) are likely a requirement for organic molecules to survive from being destroyed by shock products. The lack of spatially extended emission confirms that organic molecules cannot (re)form through gas-phase synthesis, as opposed to H2O, which shows strong line wing emission. The lack of CH3CN emission at 'F' is evidence for a different history of ice processing due to the absence of a protostar at that location and recent ice mantle evaporation.",
+    "authors": [
+      "T. A. van Kempen",
+      "C. McCoey",
+      "S. Tisi",
+      "D. Johnstone",
+      "M. Fich"
+    ],
+    "publication_date": "2014-07-09T10:35:17Z",
+    "arxiv_id": "http://arxiv.org/abs/1407.2426v1",
+    "download_url": "https://arxiv.org/abs/1407.2426v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Exoplanetary Atmospheres - Chemistry, Formation Conditions, and Habitability",
+    "abstract": "Characterizing the atmospheres of extrasolar planets is the new frontier in exoplanetary science. The last two decades of exoplanet discoveries have revealed that exoplanets are very common and extremely diverse in their orbital and bulk properties. We now enter a new era as we begin to investigate the chemical diversity of exoplanets, their atmospheric and interior processes, and their formation conditions. Recent developments in the field have led to unprecedented advancements in our understanding of atmospheric chemistry of exoplanets and the implications for their formation conditions. We review these developments in the present work. We review in detail the theory of atmospheric chemistry in all classes of exoplanets discovered to date, from highly irradiated gas giants, ice giants, and super-Earths, to directly imaged giant planets at large orbital separations. We then review the observational detections of chemical species in exoplanetary atmospheres of these various types using different methods, including transit spectroscopy, doppler spectroscopy, and direct imaging. In addition to chemical detections, we discuss the advances in determining chemical abundances in these atmospheres and how such abundances are being used to constrain exoplanetary formation conditions and migration mechanisms. Finally, we review recent theoretical work on the atmospheres of habitable exoplanets, followed by a discussion of future outlook of the field.",
+    "authors": [
+      "Nikku Madhusudhan",
+      "Marcelino Agúndez",
+      "Julianne I. Moses",
+      "Yongyun Hu"
+    ],
+    "publication_date": "2016-04-20T20:00:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1604.06092v1",
+    "download_url": "https://arxiv.org/abs/1604.06092v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Tunable Frohlich Polarons in Organic Single-Crystal Transistors",
+    "abstract": "In organic field effect transistors (FETs), charges move near the surface of an organic semiconductor, at the interface with a dielectric. In the past, the nature of the microscopic motion of charge carriers -that determines the device performance- has been related to the quality of the organic semiconductor. Recently, it has been appreciated that also the nearby dielectric has an unexpectedly strong influence. The mechanisms responsible for this influence are not understood. To investigate these mechanisms we have studied transport through organic single crystal FETs with different gate insulators. We find that the temperature dependence of the mobility evolves from metallic-like to insulating-like with increasing the dielectric constant of the insulator. The phenomenon is accounted for by a two-dimensional Frohlich polaron model that quantitatively describes our observations and shows that increasing the dielectric polarizability results in a crossover from the weak to the strong polaronic coupling regime.",
+    "authors": [
+      "I. N. Hulea",
+      "S. Fratini",
+      "H. Xie",
+      "C. L. Mulder",
+      "N. N. Iossad",
+      "G. Rastelli",
+      "S. Ciuchi",
+      "A. F. Morpurgo"
+    ],
+    "publication_date": "2006-12-04T14:38:39Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0612084v1",
+    "download_url": "https://arxiv.org/abs/cond-mat/0612084v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Band Structure Engineering in Highly Crystalline Organic Semiconductors",
+    "abstract": "Blending of semiconductors for controlling the energy levels (band structure engineering) is an important technique, in particular, for optoelectronic applications. The underlying physics is the delocalized Bloch states, which average over the potential landscape of the blend. For organic semiconductors, it has been shown that two quite different effects, the dielectric constant and electrostatic interaction between molecules, can be used to tune the energy gap and ionization energy of disordered and weakly crystalline organic semiconductor blends. It is so far not known whether the electronic delocalization in organic crystals with large bandwidths can contribute to the energy structure engineering of the blend in a way similar to that in inorganic semiconductors. Here, we investigate the growth of highly ordered organic thin-film blends with a similar chemical structure and show the effect of band structure engineering by spectroscopic methods. We rationalize the experimental results with comprehensive theoretical simulations, showing that the delocalization is a significant effect. Our work paves the way for engineering the band structure of highly ordered organic semiconductor thin films that can be tailored for the desired optoelectronic device application.",
+    "authors": [
+      "Shu-Jen Wang",
+      "Sebastian Hutsch",
+      "Felix Talnack",
+      "Marielle Deconinck",
+      "Shiyu Huang",
+      "Zongbao Zhang",
+      "Hans Kleemann",
+      "Yana Vaynzof",
+      "Stefan C. B. Mannsfeld",
+      "Frank Ortmann",
+      "Karl Leo"
+    ],
+    "publication_date": "2024-04-17T11:47:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.13086v1",
+    "download_url": "https://arxiv.org/abs/2404.13086v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bardeen black hole chemistry",
+    "abstract": "In the present paper we try to connect the Bardeen black hole with the concept of the recently proposed black hole chemistry. We study thermodynamic properties of the regular black hole with an anti-deSitter background. The negative cosmological constant $Λ$ plays the role of the positive thermodynamic pressure of the system. After studying the thermodynamic variables, we derive the corresponding equation of state and we show that a neutral Bardeen-anti-deSitter black hole has similar phenomenology to the chemical Van der Waals fluid. This is equivalent to saying that the system exhibits criticality and a first order small/large black hole phase transition reminiscent of the liquid/gas coexistence.",
+    "authors": [
+      "Athanasios G. Tzikas"
+    ],
+    "publication_date": "2018-11-02T21:54:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.01104v2",
+    "download_url": "https://arxiv.org/abs/1811.01104v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Neural Network Potentials for Chemistry: Concepts, Applications and Prospects",
+    "abstract": "Artificial Neural Networks (ANN) are already heavily involved in methods and applications for frequent tasks in the field of computational chemistry such as representation of potential energy surfaces (PES) and spectroscopic predictions. This perspective provides an overview of the foundations of neural network-based full-dimensional potential energy surfaces, their architectures, underlying concepts, their representation and applications to chemical systems. Methods for data generation and training procedures for PES construction are discussed and means for error assessment and refinement through transfer learning are presented. A selection of recent results illustrates the latest improvements regarding accuracy of PES representations and system size limitations in dynamics simulations, but also NN application enabling direct prediction of physical results without dynamics simulations. The aim is to provide an overview for the current state-of-the-art NN approaches in computational chemistry and also to point out the current challenges in enhancing reliability and applicability of NN methods on larger scale.",
+    "authors": [
+      "Silvan Käser",
+      "Luis Itza Vazquez-Salazar",
+      "Markus Meuwly",
+      "Kai Töpfer"
+    ],
+    "publication_date": "2022-09-23T13:19:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.11581v3",
+    "download_url": "https://arxiv.org/abs/2209.11581v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Geometric quantum adiabatic methods for quantum chemistry",
+    "abstract": "Existing quantum algorithms for quantum chemistry work well near the equilibrium geometry of molecules, but the results can become unstable when the chemical bonds are broken at large atomic distances. For any adiabatic approach, this usually leads to serious problems, such as level crossing and/or energy gap closing along the adiabatic evolution path. In this work, we propose a quantum algorithm based on adiabatic evolution to obtain molecular eigenstates and eigenenergies in quantum chemistry, which exploits a smooth geometric deformation by changing bond lengths and bond angles. Even with a simple uniform stretching of chemical bonds, this algorithm performs more stably and achieves better accuracy than our previous adiabatic method [Phys. Rev. Research 3, 013104 (2021)]. It solves the problems related to energy gap closing and level crossing along the adiabatic evolution path at large atomic distances. We demonstrate its utility in several examples, including H${}_2$O, CH${}_2$, and a chemical reaction of H${}_2$+D${}_2\\rightarrow$ 2HD. Furthermore, our fidelity analysis demonstrates that even with finite bond length changes, our algorithm still achieves high fidelity with the ground state.",
+    "authors": [
+      "Hongye Yu",
+      "Deyu Lu",
+      "Qin Wu",
+      "Tzu-Chieh Wei"
+    ],
+    "publication_date": "2021-12-30T19:31:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.15186v1",
+    "download_url": "https://arxiv.org/abs/2112.15186v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Metal-free magnetism in chemically doped covalent organic frameworks",
+    "abstract": "Organic and molecule-based magnets are not easily attainable, because to introduce stable paramagnetic centers to pure organic systems is challenging. Crystalline covalent organic frameworks (COFs) with high designability and chemical diversity constitute ideal platforms to access intriguing magnetic phenomena of organic materials. In this work, we proposed a general approach to attain unpaired electron spin and metal-free magnetism in narrow-band COFs by chemical doping. By using density functional theory calculations, we found that dopants with energy-matched frontier orbitals to COFs not only inject charges to them but also further localize the charges through orbital hybridization and formation of supramolecular charge-transfer complex. The localized states enable stable paramagnetic centers introduced to nonmagnetic COFs. Based on this discovery, we designed two new COFs with narrow valence band, which show prospective magnetism after doping with iodine. Further, we unraveled magnetic anisotropy in two-dimensional COFs and showed that both spin-conduction and magnetic interactions can be modulated by manipulating the building blocks of COFs. Our work highlights a practical scenario to attain magnetism in COFs and other organic materials, which hold great promise for applications in organic spintronic devices.",
+    "authors": [
+      "Hongde Yu",
+      "Dong Wang"
+    ],
+    "publication_date": "2020-02-24T13:07:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.10216v2",
+    "download_url": "https://arxiv.org/abs/2002.10216v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Using Baryonic Charge Balance Functions to Resolve Questions about the Baryo-Chemistry of the QGP",
+    "abstract": "Baryon annihilations during the hadronic stage of heavy-ion collisions affects final-state baryon and antibaryon yields and final-state correlations of baryons and antibaryons. Understanding annihilation is important for addressing questions about the chemistry at the beginning of the hadronic stage, and for interpreting charge-balance correlations involving baryons. Here, charge balance functions, using protons and antiprotons binned by relative momentum, rapidity and azimuthal angle, are shown to clarify the amount of annihilation in the hadronic stage. This enables a more accurate extraction of the baryo-chemistry at the beginning of the hadronic stage. Understanding annihilation is also crucial if charge balance correlations are to be used to infer the chemistry of the earliest stages of a heavy-ion collision. Calculations are presented based on microscopic simulations of the hadronic stage coupled to a hydrodynamic description of the earlier stage, along with a detailed modeling of correlations of protons and antiprotons, known as charge-balance functions.",
+    "authors": [
+      "Scott Pratt",
+      "Dmytro Oliinychenko",
+      "Chris Plumberg"
+    ],
+    "publication_date": "2022-10-08T02:06:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2210.03877v2",
+    "download_url": "https://arxiv.org/abs/2210.03877v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How Quantum is the Resonance Behavior in Vibrational Polariton Chemistry?",
+    "abstract": "Recent experiments in polariton chemistry have demonstrated that reaction rates can be modified by vibrational strong coupling to an optical cavity mode. Importantly, this modification only occurs when the frequency of the cavity mode is tuned to closely match a molecular vibrational frequency. This sharp resonance behavior has proved difficult to capture theoretically. Only recently, Lindoy et al. reported the first instance of a sharp resonant effect in the cavity-modified rate simulated in a model system using exact quantum dynamics. We investigate the same model system with a different method, ring-polymer molecular dynamics (RPMD), which captures quantum statistics but treats dynamics classically. We find that RPMD does not reproduce this sharp resonant feature at the well frequency, and we discuss the implications of this finding for future studies in vibrational polariton chemistry.",
+    "authors": [
+      "Marit R. Fiechter",
+      "Johan E. Runeson",
+      "Joseph E. Lawrence",
+      "Jeremy O. Richardson"
+    ],
+    "publication_date": "2023-05-12T08:00:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.07296v1",
+    "download_url": "https://arxiv.org/abs/2305.07296v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry in Evaporating Ices: Unexplored Territory",
+    "abstract": "We suggest that three-body chemistry may occur in warm high density gas evaporating in transient co\\textendash desorption events on interstellar ices. Using a highly idealised computational model we explore the chemical conversion from simple species of the ice to more complex species containing several heavy atoms, as a function of density and of adopted three body rate coefficients. We predict that there is a wide range of densities and rate coefficients in which a significant chemical conversion may occur. We discuss the implications of this idea for the astrochemistry of hot cores.",
+    "authors": [
+      "Cesare Cecchi-Pestellini",
+      "Jonathan M. C. Rawlings",
+      "Serena Viti",
+      "David A. Williams"
+    ],
+    "publication_date": "2010-11-11T15:13:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1011.2678v1",
+    "download_url": "https://arxiv.org/abs/1011.2678v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "U-Net Convolutional Network for Recognition of Vessels and Materials in Chemistry Lab",
+    "abstract": "Convolutional networks have been widely applied for computer vision system. Encouraged by these results, a U-Net convolutional network was applied to recognition of vessels and materials in chemistry lab using the recent Vector-LabPics dataset, which contains 2187 images of materials within mostly transparent vessels in a chemistry lab and other general settings, labeled with 13 classes. By optimizing hyperparameters including learning rates and learning rate decays, 87% accuracy in vessel recognition was achieved. In the case of relatively small training and test sets (relatively rare materials states, the number of training set samples less than 500 and the number of test set samples less than 100), a comprehensive improvement over 18% in IoU and 19% in accuracy for the best model were achieved. Further improvements may be achievable by incorporating improved convolutional network structure into our models.",
+    "authors": [
+      "Zhihao Shang",
+      "Di Bo"
+    ],
+    "publication_date": "2021-09-12T18:54:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.05585v2",
+    "download_url": "https://arxiv.org/abs/2109.05585v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Chemistry Calculations using Energy Derivatives on Quantum Computers",
+    "abstract": "Quantum chemistry calculations such as the prediction of molecular properties and modeling of chemical reactions are a few of the critical areas where near-term quantum computers can showcase quantum advantage. We present a method to calculate energy derivatives for both ground state and excited state energies with respect to the parameters of a chemical system based on the framework of the variational quantum eigensolver (VQE). A low-depth implementation of quantum circuits within the hybrid variational paradigm is designed, and their computational costs are analyzed. We showcase the effectiveness of our method by incorporating it in some key quantum chemistry applications of energy derivatives, such as to perform minimum energy configuration search and estimate molecular response properties estimation of H$_2$ molecule, and also to find the transition state of H$_2$ + H $\\leftrightarrow$ H + H$_2$ reaction. The obtained results are shown to be in complete agreement with their respective full configuration interaction (FCI) values.",
+    "authors": [
+      "Utkarsh Azad",
+      "Harjinder Singh"
+    ],
+    "publication_date": "2021-06-10T14:57:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.06463v1",
+    "download_url": "https://arxiv.org/abs/2106.06463v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modelling lattices of organic polaritons",
+    "abstract": "Microcavity-polaritons in two-dimensional lattice geometries have been used to study a wide range of interesting physics. Meanwhile, organic materials have shown great promise on the road towards polaritonic devices, as the strong binding energy of their Frenkel excitons permits room temperature condensation and lasing. Whilst there are theoretical treatments of the condensation processes in planar organic microcavities, models of lattice geometries are lacking. Here, we introduce a model for describing the dynamics of lattices of zero-dimensional organic microcavities, where the dominant condensation mechanism involves the emission of a vibrational phonon. The vibronic resonance provides a tool for targeted condensation in a particular eigenmode of the system, which we highlight by examining a dimer and a dimerised chain. For the dimer, we observe a double resonance in the condensation efficiency that arises from tuning the condensate-reservoir detuning in to resonance with either the symmetric or antisymmetric mode. This selective condensation was also exploited in the dimerised chain, to condense the system into the topological edge states under homogeneous pumping of all cavities. We also showed an interesting signature of nonreciprocal transport when pumping a single cavity in the chain, where the direction of propagation depends on the sublattice being pumped.",
+    "authors": [
+      "Thomas Jebb Sturges",
+      "Magdalena Stobińska"
+    ],
+    "publication_date": "2021-06-13T14:24:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.07004v1",
+    "download_url": "https://arxiv.org/abs/2106.07004v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry-Inspired Pattern Formation with Robotic Swarms",
+    "abstract": "Self-organized emergent patterns can be widely seen in particle interactions producing complex structures such as chemical elements and molecules. Inspired by these interactions, this work presents a novel stochastic approach that allows a swarm of heterogeneous robots to create emergent patterns in a completely decentralized fashion and relying only on local information. Our approach consists of modeling the swarm configuration as a dynamic Gibbs Random Field (GRF) and setting constraints on the neighborhood system inspired by chemistry rules that dictate binding polarity between particles. Using the GRF model, we determine velocities for each robot, resulting in behaviors that lead to the creation of patterns or shapes. Simulated experiments show the versatility of the approach in producing a variety of patterns, and experiments with a group of physical robots show the feasibility in potential applications.",
+    "authors": [
+      "Paulo Rezeck",
+      "Luiz Chaimowicz"
+    ],
+    "publication_date": "2022-06-07T15:31:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.03388v1",
+    "download_url": "https://arxiv.org/abs/2206.03388v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Disk Imaging Survey of Chemistry with SMA (DISCS): I. Taurus Protoplanetary Disk Data",
+    "abstract": "Chemistry plays an important role in the structure and evolution of protoplanetary disks, with implications for the composition of comets and planets. This is the first of a series of papers based on data from DISCS, a Submillimeter Array survey of the chemical composition of protoplanetary disks. The six Taurus sources in the program (DM Tau, AA Tau, LkCa 15, GM Aur, CQ Tau and MWC 480) range in stellar spectral type from M1 to A4 and offer an opportunity to test the effects of stellar luminosity on the disk chemistry. The disks were observed in 10 different lines at ~3\" resolution and an rms of ~100 mJy beam-1 at ~0.5 km s-1. The four brightest lines are CO 2-1, HCO+ 3-2, CN 2_3-1_2 and HCN 3-2 and these are detected toward all sources (except for HCN toward CQ Tau). The weaker lines of CN 2_2-1_1, DCO+ 3-2, N2H+ 3-2, H2CO 3_03-2_02 and 4_14-3_13 are detected toward two to three disks each, and DCN 3-2 only toward LkCa 15. CH3OH 4_21-3_12 and c-C3H2 are not detected. There is no obvious difference between the T Tauri and Herbig Ae sources with regard to CN and HCN intensities. In contrast, DCO+, DCN, N2H+ and H2CO are detected only toward the T Tauri stars, suggesting that the disks around Herbig Ae stars lack cold regions for long enough timescales to allow for efficient deuterium chemistry, CO freeze-out, and grain chemistry.",
+    "authors": [
+      "Karin I. Oberg",
+      "Chunhua Qi",
+      "Jeffrey K. J. Fogel",
+      "Edwin A. Bergin",
+      "Sean M. Andrews",
+      "Catherine Espaillat",
+      "Tim A. van Kempen",
+      "David J. Wilner"
+    ],
+    "publication_date": "2010-07-08T21:50:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1007.1476v1",
+    "download_url": "https://arxiv.org/abs/1007.1476v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient algorithms for quantum chemistry on modular quantum processors",
+    "abstract": "Quantum chemistry is a promising application of future quantum computers, but the requirements on qubit count and other resources suggest that modular computing architectures will be required. We introduce an implementation of a quantum chemistry algorithm that is distributed across several computational modules: the distributed unitary selective coupled cluster (dUSCC). We design a packing scheme using the pseudo-commutativity of Trotterization to maximize the parallelism while optimizing the scheduling of all inter-module gates around the buffering of inter-module Bell pairs. We demonstrate dUSCC on a 3-cluster (H$_4$)$_3$ chain and show that it naturally utilizes the molecule's structure to reduce inter-module latency. We show that the run time of dUSCC is unchanged with inter-module latency up to $\\sim$20$\\times$ slower than intra-module gates in the (H$_4$)$_3$ while maintaining chemical accuracy. dUSCC should be \"free\" in the weakly entangled systems, and the existence of \"free\" dUSCC can be found efficiently using classical algorithms. This new compilation scheme both leverages pseudo-commutativity and considers inter-module gate scheduling, and potentially provides an efficient distributed compilation of other Trotterized algorithms.",
+    "authors": [
+      "Tian Xue",
+      "Jacob P. Covey",
+      "Matthew Otten"
+    ],
+    "publication_date": "2025-06-16T10:22:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.13332v1",
+    "download_url": "https://arxiv.org/abs/2506.13332v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Organic Priors in Non-Rigid Structure from Motion",
+    "abstract": "This paper advocates the use of organic priors in classical non-rigid structure from motion (NRSfM). By organic priors, we mean invaluable intermediate prior information intrinsic to the NRSfM matrix factorization theory. It is shown that such priors reside in the factorized matrices, and quite surprisingly, existing methods generally disregard them. The paper's main contribution is to put forward a simple, methodical, and practical method that can effectively exploit such organic priors to solve NRSfM. The proposed method does not make assumptions other than the popular one on the low-rank shape and offers a reliable solution to NRSfM under orthographic projection. Our work reveals that the accessibility of organic priors is independent of the camera motion and shape deformation type. Besides that, the paper provides insights into the NRSfM factorization -- both in terms of shape and motion -- and is the first approach to show the benefit of single rotation averaging for NRSfM. Furthermore, we outline how to effectively recover motion and non-rigid 3D shape using the proposed organic prior based approach and demonstrate results that outperform prior-free NRSfM performance by a significant margin. Finally, we present the benefits of our method via extensive experiments and evaluations on several benchmark datasets.",
+    "authors": [
+      "Suryansh Kumar",
+      "Luc Van Gool"
+    ],
+    "publication_date": "2022-07-13T15:07:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.06262v3",
+    "download_url": "https://arxiv.org/abs/2207.06262v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ChatGPT Chemistry Assistant for Text Mining and Prediction of MOF Synthesis",
+    "abstract": "We use prompt engineering to guide ChatGPT in the automation of text mining of metal-organic frameworks (MOFs) synthesis conditions from diverse formats and styles of the scientific literature. This effectively mitigates ChatGPT's tendency to hallucinate information -- an issue that previously made the use of Large Language Models (LLMs) in scientific fields challenging. Our approach involves the development of a workflow implementing three different processes for text mining, programmed by ChatGPT itself. All of them enable parsing, searching, filtering, classification, summarization, and data unification with different tradeoffs between labor, speed, and accuracy. We deploy this system to extract 26,257 distinct synthesis parameters pertaining to approximately 800 MOFs sourced from peer-reviewed research articles. This process incorporates our ChemPrompt Engineering strategy to instruct ChatGPT in text mining, resulting in impressive precision, recall, and F1 scores of 90-99%. Furthermore, with the dataset built by text mining, we constructed a machine-learning model with over 86% accuracy in predicting MOF experimental crystallization outcomes and preliminarily identifying important factors in MOF crystallization. We also developed a reliable data-grounded MOF chatbot to answer questions on chemical reactions and synthesis procedures. Given that the process of using ChatGPT reliably mines and tabulates diverse MOF synthesis information in a unified format, while using only narrative language requiring no coding expertise, we anticipate that our ChatGPT Chemistry Assistant will be very useful across various other chemistry sub-disciplines.",
+    "authors": [
+      "Zhiling Zheng",
+      "Oufan Zhang",
+      "Christian Borgs",
+      "Jennifer T. Chayes",
+      "Omar M. Yaghi"
+    ],
+    "publication_date": "2023-06-20T05:20:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.11296v2",
+    "download_url": "https://arxiv.org/abs/2306.11296v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Coherent Phonons in Antimony: an Undergraduate Physical Chemistry Solid-State Ultrafast Laser Spectroscopy Experiment",
+    "abstract": "Ultrafast laser pump-probe spectroscopy is an important and growing field of physical chemistry that allows the measurement of chemical dynamics on their natural timescales, but undergraduate laboratory courses lack examples of such spectroscopy and the interpretation of the dynamics that occur. Here we develop and implement an ultrafast pump probe spectroscopy experiment for the undergraduate physical chemistry laboratory course at the University of California Berkeley. The goal of the experiment is to expose students to concepts in solid-state chemistry and ultrafast spectroscopy via classic coherent phonon dynamics principles developed by researchers over multiple decades. The experiment utilizes a modern high-repetition-rate 800 nm femtosecond Ti:Sapphire laser, split pulses with a variable time delay, and sensitive detection of transient reflectivity signals using the lock-in technique. The experiment involves minimal intervention from students and is therefore easy and safe to implement in the laboratory. Students first perform an intensity autocorrelation measurement on the femtosecond laser pulses to obtain their temporal duration. Then, students measure the pump-probe reflectivity of a single-crystal antimony sample to determine the period of coherent phonon oscillations initiated by an ultrafast pulse excitation, which is analyzed by fitting to a sine wave. Students who completed the experiment in-person obtained good experimental results, and students who took the course remotely due to the COVID-19 pandemic were provided with the data they would have obtained during the experiment to analyze. Evaluation of student written and oral reports reveals that the learning goals were met, and that students gained an appreciation for the field of ultrafast laser-induced chemistry.",
+    "authors": [
+      "Ilana J Porter",
+      "Michael W. Zuerch",
+      "Anne M. Baranger",
+      "Stephen R. Leone"
+    ],
+    "publication_date": "2021-10-21T18:45:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.11423v2",
+    "download_url": "https://arxiv.org/abs/2110.11423v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Machine Learning for Chemistry and Physics",
+    "abstract": "Machine learning (ML) has emerged into formidable force for identifying hidden but pertinent patterns within a given data set with the objective of subsequent generation of automated predictive behavior. In the recent years, it is safe to conclude that ML and its close cousin deep learning (DL) have ushered unprecedented developments in all areas of physical sciences especially chemistry. Not only the classical variants of ML , even those trainable on near-term quantum hardwares have been developed with promising outcomes. Such algorithms have revolutionzed material design and performance of photo-voltaics, electronic structure calculations of ground and excited states of correlated matter, computation of force-fields and potential energy surfaces informing chemical reaction dynamics, reactivity inspired rational strategies of drug designing and even classification of phases of matter with accurate identification of emergent criticality. In this review we shall explicate a subset of such topics and delineate the contributions made by both classical and quantum computing enhanced machine learning algorithms over the past few years. We shall not only present a brief overview of the well-known techniques but also highlight their learning strategies using statistical physical insight. The objective of the review is to not only to foster exposition to the aforesaid techniques but also to empower and promote cross-pollination among future-research in all areas of chemistry which can benefit from ML and in turn can potentially accelerate the growth of such algorithms.",
+    "authors": [
+      "Manas Sajjan",
+      "Junxu Li",
+      "Raja Selvarajan",
+      "Shree Hari Sureshbabu",
+      "Sumit Suresh Kale",
+      "Rishabh Gupta",
+      "Vinit Singh",
+      "Sabre Kais"
+    ],
+    "publication_date": "2021-11-01T11:38:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.00851v2",
+    "download_url": "https://arxiv.org/abs/2111.00851v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mesoscopic simulations at the physics-chemistry-biology interface",
+    "abstract": "We discuss the Lattice Boltzmann-Particle Dynamics (LBPD) multiscale paradigm for the simulation of complex states of flowing matter at the interface between Physics, Chemistry and Biology. In particular, we describe current large-scale LBPD simulations of biopolymer translocation across cellular membranes, molecular transport in ion channels and amyloid aggregation in cells. We also provide prospects for future LBPD explorations in the direction of cellular organization, the direct simulation of full biological organelles, all the way to up to physiological scales of potential relevance to future precision-medicine applications, such as the accurate description of homeostatic processes. It is argued that, with the advent of Exascale computing, the mesoscale physics approach advocated in this paper, may come to age in the next decade and open up new exciting perspectives for physics-based computational medicine.",
+    "authors": [
+      "Massimo Bernaschi",
+      "Simone Melchionna",
+      "Sauro Succi"
+    ],
+    "publication_date": "2019-05-06T21:05:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.02261v1",
+    "download_url": "https://arxiv.org/abs/1905.02261v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Interaction of Organic Surfaces with Active Species in the High-Vacuum Environment",
+    "abstract": "Using single-crystal organic field-effect transistors with the conduction channel exposed to environmental agents we have observed generation of electronic defects at the organic surface in the high-vacuum environment. Rapid decrease of the source-drain current of an operating device is observed upon exposure of the channel to the species generated by high-vacuum gauges. We attribute this effect to interaction of the organic surface with electrically neutral free radicals produced in the process of hydrocarbon cracking on hot filaments with a relatively low activation energy Ea ~ 2.5 eV (240 kJ/mol). The reported results might be important for optimizing the high-vacuum processes of fabrication and characterization of a wide range of organic and molecular electronic devices.",
+    "authors": [
+      "V. Podzorov",
+      "E. Menard",
+      "S. Pereversev",
+      "B. Yakshinsky",
+      "T. Madey",
+      "J. A. Rogers",
+      "M. E. Gershenson"
+    ],
+    "publication_date": "2005-05-15T19:14:36Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0505370v1",
+    "download_url": "https://arxiv.org/abs/cond-mat/0505370v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Complementarity Between Paid and Organic Installs in Mobile App Advertising",
+    "abstract": "Prior spending shutoff experiments in search advertising have found that paid ads cannibalize organic traffic. But it is unclear whether the same is true for other high volume advertising channels like mobile display advertising. We therefore analyzed a large-scale spending shutoff experiment by a US-based mobile game developer, GameSpace. Contrary to previous findings, we found that paid advertising boosts organic installs rather than cannibalizing them. Specifically, every $100 spent on ads is associated with 37 paid and 3 organic installs. The complementarity between paid ads and organic installs is corroborated by evidence of temporal and cross-platform spillover effects: ad spending today is associated with additional paid and organic installs tomorrow and impressions on one platform lead to clicks on other platforms. Our findings demonstrate that mobile app install advertising is about 7.5% more effective than indicated by paid install metrics alone due to spillover effects, suggesting that mobile app developers are under-investing in marketing.",
+    "authors": [
+      "Harang Ju",
+      "Michael Zhao",
+      "Sinan Aral"
+    ],
+    "publication_date": "2025-04-22T16:03:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.16151v1",
+    "download_url": "https://arxiv.org/abs/2504.16151v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemical Oscillation in Ultracold Chemistry",
+    "abstract": "We demonstrate the occurrence of oscillatory reactions in the ultra-cold chemistry of atom-molecular Bose-Einstein condensate. Nonlinear oscillations in the mean-field dynamics occur for a specific range of elliptic modulus, giving rise to both in- and out-phase modulations in the atom-molecule population density. The reaction front velocity is found to be controlled by photoassociation, which also regulates the condensate density. Two distinct pair of in-phase bright localized gap solitons are found as exact solutions, existence of one of which necessarily requires a background. Cnoidal atomic density-waves in a plane wave molecular background are observed in both attractive and repulsive domains. Role of intra- and inter-species interactions on both existence and stability is explicated in the presence of photoassociation.",
+    "authors": [
+      "Subhrajit Modak",
+      "Priyam Das",
+      "Challenger Mishra",
+      "Prasanta K. Panigrahi"
+    ],
+    "publication_date": "2018-06-04T17:46:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.01255v1",
+    "download_url": "https://arxiv.org/abs/1806.01255v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Thermally Induced Chemistry of Meteoritic Complex Organic Molecules: A New Heat-Diffusion Model for the Atmospheric Entry of Meteorites",
+    "abstract": "Research over the past four decades has shown a rich variety of complex organic molecular content in some meteorites. This current study is an attempt to gain a better insight into the thermal conditions experienced by these molecules inside meteorites during atmospheric entry. In particular, we wish to understand possible chemical processes that can occur during entry and that might have had an effect on complex organic or prebiotic species that were delivered in this way to the early Earth. A simulation was written in Fortran to model heating by the shock generated during entry and the subsequent thermal diffusion inside the body of a meteorite. Experimental data was used for the thermal parameters of several types of meteorites, including iron-nickel and several classes of chondrites. A Sutton-Graves model of stagnation-point heating was used to calculate peak surface temperatures and an explicit difference formula was used to generate thermal diffusion profiles for both chondrites and iron-nickel type meteorites. Results from the simulation show pyrolytic temperature penetration to a depth of ca. 0.5 to 1 cm. Non-dissociative warming of meteorite interiors penetrates further to ca. 4 cm. These results support the findings that extraterrestrial delivery is a viable option for prebiotic molecular \"seeding\" of a planet.",
+    "authors": [
+      "Christopher N. Shingledecker"
+    ],
+    "publication_date": "2014-12-16T19:32:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1412.5134v3",
+    "download_url": "https://arxiv.org/abs/1412.5134v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization",
+    "abstract": "Chemistry experiments can be resource- and labor-intensive, often requiring manual tasks like polishing electrodes in electrochemistry. Traditional lab automation infrastructure faces challenges adapting to new experiments. To address this, we introduce ORGANA, an assistive robotic system that automates diverse chemistry experiments using decision-making and perception tools. It makes decisions with chemists in the loop to control robots and lab devices. ORGANA interacts with chemists using Large Language Models (LLMs) to derive experiment goals, handle disambiguation, and provide experiment logs. ORGANA plans and executes complex tasks with visual feedback, while supporting scheduling and parallel task execution. We demonstrate ORGANA's capabilities in solubility, pH measurement, recrystallization, and electrochemistry experiments. In electrochemistry, it executes a 19-step plan in parallel to characterize quinone derivatives for flow batteries. Our user study shows ORGANA reduces frustration and physical demand by over 50%, with users saving an average of 80.3% of their time when using it.",
+    "authors": [
+      "Kourosh Darvish",
+      "Marta Skreta",
+      "Yuchi Zhao",
+      "Naruki Yoshikawa",
+      "Sagnik Som",
+      "Miroslav Bogdanovic",
+      "Yang Cao",
+      "Han Hao",
+      "Haoping Xu",
+      "Alán Aspuru-Guzik",
+      "Animesh Garg",
+      "Florian Shkurti"
+    ],
+    "publication_date": "2024-01-13T02:03:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.06949v2",
+    "download_url": "https://arxiv.org/abs/2401.06949v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Lookup tables to compute high energy cosmic ray induced atmospheric ionization and changes in atmospheric chemistry",
+    "abstract": "A variety of events such as gamma-ray bursts and supernovae may expose the Earth to an increased flux of high-energy cosmic rays, with potentially important effects on the biosphere. Existing atmospheric chemistry software does not have the capability of incorporating the effects of substantial cosmic ray flux above 10 GeV . An atmospheric code, the NASA-Goddard Space Flight Center two-dimensional (latitude, altitude) time-dependent atmospheric model (NGSFC), is used to study atmospheric chemistry changes. Using CORSIKA, we have created tables that can be used to compute high energy cosmic ray (10 GeV - 1 PeV) induced atmospheric ionization and also, with the use of the NGSFC code, can be used to simulate the resulting atmospheric chemistry changes. We discuss the tables, their uses, weaknesses, and strengths.",
+    "authors": [
+      "Dimitra Atri",
+      "Adrian L. Melott",
+      "Brian C. Thomas"
+    ],
+    "publication_date": "2008-04-20T17:25:03Z",
+    "arxiv_id": "http://arxiv.org/abs/0804.3207v4",
+    "download_url": "https://arxiv.org/abs/0804.3207v4",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Charge carrier coherence and Hall effect in organic semiconductors",
+    "abstract": "Hall effect measurements are important for elucidating the fundamental charge transport mechanisms and intrinsic mobility in organic semiconductors. However, Hall effect studies frequently reveal an unconventional behavior that cannot be readily explained with the simple band-semiconductor Hall effect model. Here, we develop an analytical model of Hall effect in organic field-effect transistors in a regime of coexisting band and hopping carriers. The model, which is supported by the experiments, is based on a partial Hall voltage compensation effect, occurring because hopping carriers respond to the transverse Hall electric field and drift in the direction opposite to the Lorentz force acting on band carriers. We show that this can lead in particular to an underdeveloped Hall effect observed in organic semiconductors with substantial off-diagonal thermal disorder. Our model explains the main features of Hall effect in a variety of organic semiconductors and provides an analytical description of Hall mobility, carrier density and carrier coherence factor.",
+    "authors": [
+      "H. T. Yi",
+      "Y. Gartstein",
+      "V. Podzorov"
+    ],
+    "publication_date": "2016-01-22T00:42:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1601.05849v1",
+    "download_url": "https://arxiv.org/abs/1601.05849v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Galactic Distribution of Chirality Sources of Organic Molecules",
+    "abstract": "Conceptualizing planetary habitability depends on understanding how living organisms originated and what features of environments are essential to foster abiogenesis. Estimates of the abundance of life's building blocks are confounded by incomplete knowledge of the role of chirality and racemization in organic compounds in the origination of living organisms. Chirality is an essential feature of enzymes as well as many lock-and-key type structures. There are four known processes that can act on complex organic molecules to promote racemization for abiogenesis: quantum-tunneling effects; selection via interaction with circularly polarized light (CPL); templating processes; and interactions with electrical and magnetic (EM) fields. These occur in different places, respectively: cold interstellar space; regions of space with energetic photons, dust and/or magnetic fields; and mineral surfaces (for both templating and EM fields). Chirality as a feature of terrestrial life suggests neither a special place for local development of homochirality nor for extra-terrestrial enrichment and delivery. The presence of these molecules in three competing scenarios for life's origin - chemical gardens, geothermal fields, and ice substrates - relies on a framework of hypothesis and estimation. An easily-modified worksheet is included in the supplemental material that allows a user to generate different scenarios and data related to the distribution of chiral organic molecules as building blocks for living organisms within the galaxy. A simple hypothetical mechanism for planetary magnetic field reversals, based on a high-density plasma inner core, is also presented as a means to aid in estimating field polarity and hence the orientation of racemization processes based on planetary magnetic fields.",
+    "authors": [
+      "Daniel S. Helman"
+    ],
+    "publication_date": "2016-12-19T04:07:13Z",
+    "arxiv_id": "http://arxiv.org/abs/1612.06720v3",
+    "download_url": "https://arxiv.org/abs/1612.06720v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Effects of Cosmic Rays on the Chemistry of Dense Cores",
+    "abstract": "Cosmic rays are crucial for the chemistry of molecular clouds and their evolution. They provide essential ionizations, dissociations, heating and energy to the cold, dense cores. As cosmic rays pierce through the clouds they are attenuated and lose energy, which leads to a dependency on the column density of a system. The detailed effects these particles have on the central regions still needs to be fully understood. Here, we revisit how cosmic rays are treated in the UCLCHEM chemical modeling code by including both ionization rate and H2 dissociation rate dependencies alongside the production of cosmic ray induced excited species and we study in detail the effects of these treatments on the chemistry of pre-stellar cores. We find that these treatments can have significant effects on chemical abundances, up to several orders of magnitude, depending on physical conditions. The ionization dependency is the most significant treatment, influencing chemical abundances through increased presence of ionized species, grain desorptions and enhanced chemical reactions. Comparisons to chemical abundances derived from observations show the new treatments reproduce these observations better than the standard handling. It is clear that more advanced treatments of cosmic rays are essential to chemical models and that including this type of dependency provides more accurate chemical representations.",
+    "authors": [
+      "Ross O'Donoghue",
+      "Serena Viti",
+      "Marco Padovani",
+      "Tomas James"
+    ],
+    "publication_date": "2022-06-22T15:19:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.11167v2",
+    "download_url": "https://arxiv.org/abs/2206.11167v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Simulating quantum chemistry in the seniority-zero space on qubit-based quantum computers",
+    "abstract": "Accurate quantum chemistry simulations remain challenging on classical computers for problems of industrially relevant sizes and there is reason for hope that quantum computing may help push the boundaries of what is technically feasible. While variational quantum eigensolver (VQE) algorithms may already turn noisy intermediate scale quantum (NISQ) devices into useful machines, one has to make all efforts to use the scarce quantum resources as efficiently as possible. We combine the so-called seniority-zero, or paired-electron, approximation of computational quantum chemistry with techniques for simulating molecular chemistry on gate-based quantum computers and obtain a very resource efficient quantum simulation algorithm. While some accuracy is lost through the paired-electron approximation, we show that using the freed-up quantum resources for increasing the basis set can lead to more accurate results and reductions in the necessary number of quantum computing runs by several orders of magnitude, already for a simple system like lithium hydride. We also discuss an error mitigation scheme based on post-selection which shows an attractive scaling when the given Hamiltonian format is considered, increasing the viability of its NISQ implementation.",
+    "authors": [
+      "Vincent E. Elfving",
+      "Marta Millaruelo",
+      "José A. Gámez",
+      "Christian Gogolin"
+    ],
+    "publication_date": "2020-01-31T19:44:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.00035v2",
+    "download_url": "https://arxiv.org/abs/2002.00035v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spin current generation in organic antiferromagnets",
+    "abstract": "Spin current--a flow of electron spins without a charge current--is an ideal information carrier free from Joule heating for electronic devices. The celebrated spin Hall effect, which arises from the relativistic spin-orbit coupling, enables us to generate and detect spin currents in inorganic materials and semiconductors, taking advantage of their constituent heavy atoms. In contrast, organic materials consisting of molecules with light elements have been believed to be unsuited for spin current generation. Here we show that a class of organic antiferromagnets with checker-plate type molecular arrangements can serve as a spin current generator by applying a thermal gradient or an electric field, even with vanishing spin-orbit coupling. Our findings provide another route to create a spin current distinct from the conventional spin Hall effect and open a new field of spintronics based on organic magnets having advantages of small spin scattering and long lifetime.",
+    "authors": [
+      "Makoto Naka",
+      "Satoru Hayami",
+      "Hiroaki Kusunose",
+      "Yuki Yanagi",
+      "Yukitoshi Motome",
+      "Hitoshi Seo"
+    ],
+    "publication_date": "2019-02-07T07:41:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1902.02506v1",
+    "download_url": "https://arxiv.org/abs/1902.02506v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Organic single-photon switch",
+    "abstract": "The recent progress in nanotechnology [1,2] and single-molecule spectroscopy [3-5] paves the way for cost-effective organic quantum optical technologies emergent with a promise to real-life devices operating at ambient conditions. In this letter, we harness $π$-conjugated segments of an organic ladder-type polymer strongly coupled to a microcavity forming correlated collective dressed states of light, so-called of exciton-polariton condensates. We explore an efficient way for all-optical ultra-fast control over the macroscopic condensate wavefunction via a single photon. Obeying Bose statistics, exciton-polaritons exhibit an extreme nonlinearity undergoing bosonic stimulation [6] which we have managed to trigger at the single-photon level. Relying on the nature of organic matter to sustain stable excitons dressed with high energy molecular vibrations we have developed a principle that allows for single-photon nonlinearity operation at ambient conditions opening the door for practical implementations like sub-picosecond switching, amplification and all-optical logic at the fundamental limit of single light quanta.",
+    "authors": [
+      "Anton Zasedatelev",
+      "Anton V. Baranikov",
+      "Denis Sannikov",
+      "Darius Urbonas",
+      "Fabio Scafirimuto",
+      "Vladislav Yu. Shishkov",
+      "Evgeny S. Andrianov",
+      "Yurii E. Lozovik",
+      "Ullrich Scherf",
+      "Thilo Stöferle",
+      "Rainer F. Mahrt",
+      "Pavlos G. Lagoudakis"
+    ],
+    "publication_date": "2020-05-12T14:23:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.05811v2",
+    "download_url": "https://arxiv.org/abs/2005.05811v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Thermal Resistances of Thin-Films of Small Molecule Organic Semiconductors",
+    "abstract": "We have measured the thermal resistances of thin films of the small molecule organic semiconductors bis(triisopropylsilylethynyl) pentacene (TIPS-pn), bis(triethylsilylethynyl) anthradithiophene (TES-ADT) and difluoro bis(triethylsilylethynyl) anthradithiophene (diF-TES-ADT). For each material, several films of different thicknesses have been measured to separate the effects of intrinsic thermal conductivity from interface thermal resistance. For non-crystalline films of all three materials, with thicknesses ranging from < 100 nm to > 4 microns, the thermal conductivities are similar to that of polymers and over an order of magnitude smaller than that of the crystals, reflecting the large reduction in phonon mean-free path in the films. Thin (< 205 nm) crystalline films of TES-ADT, prepared by vapor-annealing spin-cast films, have also been measured, but for these the thermal resistances are dominated by interface scattering.",
+    "authors": [
+      "Y. Yao",
+      "Maryam Shahi",
+      "Marcia M. Payne",
+      "J. E. Anthony",
+      "J. W. Brill"
+    ],
+    "publication_date": "2016-07-06T17:25:27Z",
+    "arxiv_id": "http://arxiv.org/abs/1607.01712v2",
+    "download_url": "https://arxiv.org/abs/1607.01712v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Leveraging the Super Instruction Architecture to Develop Massively Parallel Computational and Environmental Chemistry Applications",
+    "abstract": "The task of developing high performing parallel software must be made easier and more cost effective in order to fully exploit existing and emerging large scale computer systems for the advancement of science. The Super Instruction Architecture is a parallel programming platform geared towards applications that need to manage large amounts of data stored in potentially sparse multidimensional arrays during calculations. The SIA platform was originally designed for the Quantum Chemistry software package ACESIII. More recently, the SIA was reimplemented to overcome limitations in the original ACESIII program. It has now been successfully employed in the new Aces4 Quantum Chemistry software package and the development of the atmospheric transport application MATLOC, thus demonstrating the versatility of the SIA approach. MATLOC calculates transport and dispersion of mass over regions in the range of 100-1000s of square kilometers and is a significant improvement over existing community codes. This paper describes results from both the transport and dispersion application as well as some difficult Quantum Chemistry open shell coupled cluster benchmark calculations using Aces4.",
+    "authors": [
+      "Jason N. Byrd",
+      "Stephen E. Masters",
+      "Douglas S. Burns",
+      "Victor F. Lotrich",
+      "Beverly A Sanders"
+    ],
+    "publication_date": "2020-03-03T18:13:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.01688v1",
+    "download_url": "https://arxiv.org/abs/2003.01688v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Signatures of X-ray dominated chemistry in the spectra of exoplanetary atmospheres",
+    "abstract": "High-energy radiation from stars impacts planetary atmospheres deeply affecting their chemistry, providing departures from chemical equilibrium. While the upper atmospheric layers are dominated by ionizations induced by extreme ultraviolet radiation, deeper into the atmosphere molecular abundances are controlled by a characteristic X-ray dominated chemistry, mainly driven by an energetic secondary electron cascade. In this work, we aim at identifying molecular photochemically induced fingerprints in the transmission spectra of a giant planet atmosphere. We have developed a numerical code capable of synthesizing transmission spectra with arbitrary spectral resolution, exploiting updated infrared photoabsorption cross sections. Chemical mixing ratios are computed using a photochemical model, tailored to investigate high energy ionization processes. We find that in case of high levels of stellar activity, synthetic spectra in both low and high resolutions show significant, potentially observable out-of-equilibrium signatures arising mainly from CO, CH$_4$, C$_2$H$_2$, and HCN.",
+    "authors": [
+      "Daniele Locci",
+      "Giambattista Aresu",
+      "Antonino Petralia",
+      "Giuseppina Micela",
+      "Antonio Maggio",
+      "Cesare Cecchi-Pestellini"
+    ],
+    "publication_date": "2024-02-07T09:27:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.04688v1",
+    "download_url": "https://arxiv.org/abs/2402.04688v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The inner wind of IRC+10216 revisited: New exotic chemistry and diagnostic for dust condensation in carbon stars",
+    "abstract": "Aims. We model the chemistry of the inner wind of the carbon star IRC+10216 and consider the effect of periodic shocks induced by the stellar pulsation on the gas to follow the non-equilibrium chemistry in the shocked gas layers. We consider a very complete set of chemical families, including hydrocarbons and aromatics, hydrides, halogens and phosphorous-bearing species. Derived abundances are compared to the latest observational data from large surveys and Herschel. Results. The shocks induce a non-equilibrium chemistry in the dust formation zone of IRC+10216 where the collision destruction of CO in the post-shock gas triggers the formation of O-bearing species (H2O, SiO). Most of the modelled abundances agree very well with the latest values derived from Herschel data on IRC+10216. Hydrides form a family of abundant species that are expelled into the intermediate envelope. In particular, HF traps all the atomic fluorine in the dust formation zone. Halogens are also abundant and their chemistry is independent of the C/O ratio of the star. Therefore, HCl and other Cl-bearing species should also be present in the inner wind of O-rich AGB or supergiant stars. We identify a specific region ranging from 2.5 R* to 4 R*, where polycyclic aromatic hydrocarbons form and grow. The estimated carbon dust-to-gas mass ratio derived from the mass of aromatics ranges from 1.2 x 10^(-3) to 5.8 x 10^{-3} and agrees well with existing observational values. The aromatic formation region is located outside hot layers where SiC2 is produced as a bi-product of silicon carbide dust synthesis. Finally, we predict that some molecular lines will show flux variation with pulsation phase and time (e.g., H2O) while other species will not (e.g., CO). These variations merely reflect the non-equilibrium chemistry that destroys and reforms molecules over a pulsation period in the shocked gas of the dust formation zone.",
+    "authors": [
+      "Isabelle Cherchneff"
+    ],
+    "publication_date": "2011-11-29T13:35:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1111.6809v2",
+    "download_url": "https://arxiv.org/abs/1111.6809v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the nature of filamentary superconductivity in metal-doped hydrocarbon organic materials",
+    "abstract": "High temperature superconductivity in K-doped 1,2:8,9-dibenzenopentacene (C30H18) has been recently reported [1] with Tc = 33 K, the highest among organic superconductors at ambient pressure. Here we report on our search for superconductivity in K, Ba, and Ca-doped hydrocarbon organic materials. We find that Ba-anthracene (C14H10) and K-Picene (C22H14) show features characteristics of superconducting state, although very weak. The data suggests that Ba-anthracene might be a new organic superconductor with Tc ~ 35 K.",
+    "authors": [
+      "Daniel Hillesheim",
+      "Kris Gofryk",
+      "Athena S. Sefat"
+    ],
+    "publication_date": "2015-05-05T16:46:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1505.01077v1",
+    "download_url": "https://arxiv.org/abs/1505.01077v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The 3D thermal, dynamical and chemical structure of the atmosphere of HD 189733b: implications of wind-driven chemistry for the emission phase curve",
+    "abstract": "In this paper we present three-dimensional atmospheric simulations of the hot Jupiter HD~189733b under two different scenarios: local chemical equilibrium and including advection of the chemistry by the resolved wind. Our model consistently couples the treatment of dynamics, radiative transfer and chemistry, completing the feedback cycle between these three important processes. The effect of wind--driven advection on the chemical composition is qualitatively similar to our previous results for the warmer atmosphere of HD~209458b, found using the same model. However, we find more significant alterations to both the thermal and dynamical structure for the cooler atmosphere of HD~189733b, with changes in both the temperature and wind velocities reaching $\\sim10\\%$. We also present the contribution function, diagnosed from our simulations, and show that wind--driven chemistry has a significant impact on its three--dimensional structure, particularly for regions where methane is an important absorber. Finally, we present emission phase curves from our simulations and show the significant effect of wind--driven chemistry on the thermal emission, particularly within the 3.6 \\textmu m Spitzer/IRAC channel.",
+    "authors": [
+      "Benjamin Drummond",
+      "Nathan J. Mayne",
+      "James Manners",
+      "Isabelle Baraffe",
+      "Jayesh Goyal",
+      "Pascal Tremblin",
+      "David K. Sing",
+      "Krisztian Kohary"
+    ],
+    "publication_date": "2018-10-23T08:42:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.09724v1",
+    "download_url": "https://arxiv.org/abs/1810.09724v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "TenCirChem: An Efficient Quantum Computational Chemistry Package for the NISQ Era",
+    "abstract": "TenCirChem is an open-source Python library for simulating variational quantum algorithms for quantum computational chemistry. TenCirChem shows high performance on the simulation of unitary coupled-cluster circuits, using compact representations of quantum states and excitation operators. Additionally, TenCirChem supports noisy circuit simulation and provides algorithms for variational quantum dynamics. TenCirChem's capabilities are demonstrated through various examples, such as the calculation of the potential energy curve of $\\textrm{H}_2\\textrm{O}$ with a 6-31G(d) basis set using a 34-qubit quantum circuit, the examination of the impact of quantum gate errors on the variational energy of the $\\textrm{H}_2$ molecule, and the exploration of the Marcus inverted region for charge transfer rate based on variational quantum dynamics. Furthermore, TenCirChem is capable of running real quantum hardware experiments, making it a versatile tool for both simulation and experimentation in the field of quantum computational chemistry.",
+    "authors": [
+      "Weitang Li",
+      "Jonathan Allcock",
+      "Lixue Cheng",
+      "Shi-Xin Zhang",
+      "Yu-Qin Chen",
+      "Jonathan P. Mailoa",
+      "Zhigang Shuai",
+      "Shengyu Zhang"
+    ],
+    "publication_date": "2023-03-20T01:47:45Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.10825v2",
+    "download_url": "https://arxiv.org/abs/2303.10825v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Organic single crystal phototransistors: Recent approaches and achievements",
+    "abstract": "Organic phototransistors (OPTs), compared to traditional inorganic counterparts, have attracted a great deal of interest because of their inherent flexibility, light-weight, easy and low-cost fabrication, and are considered as potential candidates for next-generation wearable electronics. Currently, significant advances have been made in OPTs with the development of new organic semiconductors and optimization of device fabrication protocols. Among various types of OPTs, small molecule organic single crystal phototransistors (OSCPTs) standout because of their exciting features, such as long exciton diffusion length and high charge carrier mobility relative to organic thinfilm phototransistors. In this review, a brief introduction to device architectures, working mechanisms and figure of merits for OPTs is presented. We then overview recent approaches employed and achievements made for the development of OSCPTs. Finally, we spotlight potential future directions to tackle the existing challenges in this field and accelerate the advancement of OSCPTs towards practical applications.",
+    "authors": [
+      "Changbin Zhao",
+      "Muhammad Umair Ali",
+      "Jiaoyi Ning",
+      "Hong Meng"
+    ],
+    "publication_date": "2021-03-03T03:04:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.02149v1",
+    "download_url": "https://arxiv.org/abs/2103.02149v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum chemistry for solids made simple on the Clifford torus",
+    "abstract": "We present a general theory to treat periodic solids with quantum-chemistry methods. It relies on two main developments: 1) the modeling of a solid as a Clifford torus which is a torus that is both periodic and flat and 2) the introduction of a periodic gaussian basis set that is compatible with the topology of the Clifford torus. We illustrate our approach by calculating the ground-state energy of a periodic chain of hydrogen atoms within both Hartree-Fock and coupled cluster theory. We demonstrate that our approach yields the correct ground-state energy in the thermodynamic limit by comparing it to the ground-state energy of a ring of hydrogen atoms in the same limit. Since equivalent ring-like calculations for three-dimensional solids are impossible, our approach is an excellent alternative to perform quantum-chemistry calculations of solids. Our Clifford formalism can be seamlessly combined with current implementations of quantum-chemistry methods designed for atoms and molecules to make them applicable to solids.",
+    "authors": [
+      "Amer Alrakik",
+      "Gian Luigi Bendazzoli",
+      "Stefano Evangelisti",
+      "J. Arjan Berger"
+    ],
+    "publication_date": "2025-08-05T21:07:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.03917v2",
+    "download_url": "https://arxiv.org/abs/2508.03917v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantization of exciton charging in organic semiconductor",
+    "abstract": "Excitons are widely found in semiconductors. In contrast to inorganic-based semiconductors, where the presence of excitons may need special morphonology, like low-dimensional layer structure, the excitons prevailingly exist in molecular organic semiconductors in a three-dimension solid state. The excitons can undergo a charging process to yield another kind of quasiparticles originating from the coupling of excitons and free charges. Herein, we investigated the interaction between excitons and free charges in a representative arylamine-derivative organic semiconductor(NPB), by the time-of-flight method. Distinctly different dynamics were observed for the NPB device with different free charge densities. It was proposed that it is the exciton charging that leads to the unique dynamic property of the device with electro-injected hole current. It was also observed that the exciton charging occurs in a quantized manner, which is dependent on the magnitude of the background stationary current. This work may suggest that the exciton charging effect is universally present in organic optoelectronic devices, however, it is only easily observed under certain dynamic conditions.",
+    "authors": [
+      "Dongcheng Chen",
+      "Yanfei Lu",
+      "Qiaobo Wang",
+      "Shi-Jian Su"
+    ],
+    "publication_date": "2022-08-25T03:04:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.11842v1",
+    "download_url": "https://arxiv.org/abs/2208.11842v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Interaction of Polar and Nonpolar Organic Pollutants with Soil Organic Matter: Sorption Experiments and Molecular Dynamics Simulation",
+    "abstract": "The fate of organic pollutants in the environment is influenced by several factors including the type and strength of their interactions with soil components especially SOM. However, a molecular level answer to the question How organic pollutants interact with SOM? is lacking. In order to explore mechanisms of this interaction, we have developed a new SOM model followed by carrying out molecular dynamics (MD) simulations in parallel with sorption experiments. The new SOM model comprises free SOM functional groups (carboxylic acid and naphthalene) as well as SOM cavities (with two different sizes), representing the soil voids, containing the same SOM functional groups. To examine the effect of the hydrophobicity on the interaction, the organic pollutants hexachlorobenzene (HCB, non-polar) and sulfanilamide (SAA, polar) were considered. The experimental and the theoretical outcomes explored four major points regarding sorption of SAA and HCB on soil. 1. The interaction depends on the SOM chemical composition more than the SOM content. 2. The interaction causes a site-specific adsorption on the soil surfaces. 3. Sorption hysteresis occurs, which can be explained by inclusion of these pollutants inside soil voids. 4. It was observed that the hydrophobic HCB is adsorbed on soil stronger than the hydrophilic SAA. Moreover, the theoretical results showed that HCB forms stable complexes with all SOM models in the aqueous solution while most of SAA complexes are accompanied by dissociation. The SOM-cavity modeling showed a significant effect on binding of organic pollutants to SOM.",
+    "authors": [
+      "Ashour A. Ahmed",
+      "Sören Thiele-Bruhn",
+      "Saadullah G. Aziz",
+      "Rifaat H. Hilal",
+      "Shaaban A. Elroby",
+      "Abdulrahman O. Al-Youbi",
+      "Peter Leinweber",
+      "Oliver Kühn"
+    ],
+    "publication_date": "2014-10-08T17:00:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1410.2192v1",
+    "download_url": "https://arxiv.org/abs/1410.2192v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "SUPERChem: A Multimodal Reasoning Benchmark in Chemistry",
+    "abstract": "Current benchmarks for evaluating the chemical reasoning capabilities of Large Language Models (LLMs) are limited by oversimplified tasks, lack of process-level evaluation, and misalignment with expert-level chemistry skills. To address these issues, we introduce SUPERChem, a benchmark of 500 expert-curated reasoning-intensive chemistry problems, covering diverse subfields and provided in both multimodal and text-only formats. Original content and an iterative curation pipeline eliminate flawed items and mitigate data contamination. Each problem is paired with an expert-authored solution path, enabling Reasoning Path Fidelity (RPF) scoring to evaluate reasoning quality beyond final-answer accuracy. Evaluations against a human baseline of 40.3% accuracy show that even the best-performing model, GPT-5 (High), reaches only 38.5%, followed closely by Gemini 2.5 Pro (37.9%) and DeepSeek-V3.1-Think (37.3%). SUPERChem elicits multi-step, multimodal reasoning, reveals model-dependent effects of visual information, and distinguishes high-fidelity reasoners from heuristic ones. By providing a challenging benchmark and a reliable evaluation framework, SUPERChem aims to facilitate the advancement of LLMs toward expert-level chemical intelligence. The dataset of the benchmark is available at https://huggingface.co/datasets/ZehuaZhao/SUPERChem.",
+    "authors": [
+      "Zehua Zhao",
+      "Zhixian Huang",
+      "Junren Li",
+      "Siyu Lin",
+      "Junting Zhou",
+      "Fengqi Cao",
+      "Kun Zhou",
+      "Rui Ge",
+      "Tingting Long",
+      "Yuexiang Zhu",
+      "Yan Liu",
+      "Jie Zheng",
+      "Junnian Wei",
+      "Rong Zhu",
+      "Peng Zou",
+      "Wenyu Li",
+      "Zekai Cheng",
+      "Tian Ding",
+      "Yaxuan Wang",
+      "Yizhao Yan",
+      "Tingru Wei",
+      "Haowei Ming",
+      "Weijie Mao",
+      "Chen Sun",
+      "Yiming Liu",
+      "Zichen Wang",
+      "Zuo Zhang",
+      "Tong Yang",
+      "Hao Ma",
+      "Zhen Gao",
+      "Jian Pei"
+    ],
+    "publication_date": "2025-12-01T04:46:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.01274v1",
+    "download_url": "https://arxiv.org/abs/2512.01274v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hessian QM9: A quantum chemistry database of molecular Hessians in implicit solvents",
+    "abstract": "A significant challenge in computational chemistry is developing approximations that accelerate \\emph{ab initio} methods while preserving accuracy. Machine learning interatomic potentials (MLIPs) have emerged as a promising solution for constructing atomistic potentials that can be transferred across different molecular and crystalline systems. Most MLIPs are trained only on energies and forces in vacuum, while an improved description of the potential energy surface could be achieved by including the curvature of the potential energy surface. We present Hessian QM9, the first database of equilibrium configurations and numerical Hessian matrices, consisting of 41,645 molecules from the QM9 dataset at the $ω$B97x/6-31G* level. Molecular Hessians were calculated in vacuum, as well as water, tetrahydrofuran, and toluene using an implicit solvation model. To demonstrate the utility of this dataset, we show that incorporating second derivatives of the potential energy surface into the loss function of a MLIP significantly improves the prediction of vibrational frequencies in all solvent environments, thus making this dataset extremely useful for studying organic molecules in realistic solvent environments for experimental characterization.",
+    "authors": [
+      "Nicholas J. Williams",
+      "Lara Kabalan",
+      "Ljiljana Stojanovic",
+      "Viktor Zolyomi",
+      "Edward O. Pyzer-Knapp"
+    ],
+    "publication_date": "2024-08-15T08:16:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.08006v1",
+    "download_url": "https://arxiv.org/abs/2408.08006v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sensitivity Analysis of Aromatic Chemistry to Gas-Phase Kinetics in a Dark Molecular Cloud Model",
+    "abstract": "The increasingly large number of complex organic molecules detected in the interstellar medium necessitates robust kinetic models that can be relied upon for investigating the involved chemical processes. Such models require rate constants for each of the thousands of reactions; the values of these are often estimated or extrapolated, leading to large uncertainties that are rarely quantified. We have performed a global Monte Carlo and a more local one-at-a-time sensitivity analysis on the gas-phase rate coefficients in a 3-phase dark cloud model. Time-dependent sensitivities have been calculated using four metrics to determine key reactions for the overall network as well as for the cyanonaphthalene molecule in particular, an important interstellar species that is severely under-produced by current models. All four metrics find that reactions involving small, reactive species that initiate hydrocarbon growth have large effects on the overall network. Cyanonaphthalene is most sensitive to a number of these reactions as well as ring-formation of the phenyl cation (C6H5+) and aromatic growth from benzene to naphthalene. Future efforts should prioritize constraining rate coefficients of key reactions and expanding the network surrounding these processes. These results highlight the strength of sensitivity analysis techniques to identify critical processes in complex chemical networks, such as those often used in astrochemical modeling.",
+    "authors": [
+      "Alex N. Byrne",
+      "Ci Xue",
+      "Troy Van Voorhis",
+      "Brett A. McGuire"
+    ],
+    "publication_date": "2024-10-11T19:34:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.09212v1",
+    "download_url": "https://arxiv.org/abs/2410.09212v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The effects of local stellar radiation and dust depletion on non-equilibrium interstellar chemistry",
+    "abstract": "Interstellar chemistry is important for galaxy formation, as it determines the rate at which gas can cool, and enables us to make predictions for observable spectroscopic lines from ions and molecules. We explore two central aspects of modelling the chemistry of the interstellar medium (ISM): (1) the effects of local stellar radiation, which ionises and heats the gas, and (2) the depletion of metals onto dust grains, which reduces the abundance of metals in the gas phase. We run high-resolution (400 M$_\\odot$ per baryonic particle) simulations of isolated disc galaxies, from dwarfs to Milky Way-mass, using the FIRE galaxy formation models together with the CHIMES non-equilibrium chemistry and cooling module. In our fiducial model, we couple the chemistry to the stellar fluxes calculated from star particles using an approximate radiative transfer scheme, and we implement an empirical density-dependent prescription for metal depletion. For comparison, we also run simulations with a spatially uniform radiation field, and without metal depletion. Our fiducial model broadly reproduces observed trends in HI and H2 mass with stellar mass, and in line luminosity versus star formation rate for [CII] 158$μ$m, [OI] 63$μ$m, [OIII] 88$μ$m, [NII] 122$μ$m and H$α$ 6563A. Our simulations with a uniform radiation field predict fainter luminosities, by up to an order of magnitude for [OIII] 88$μ$m and H$α$ 6563A, while ignoring metal depletion increases the luminosity of carbon and oxygen lines by a factor $\\approx$2. However, the overall evolution of the galaxy is not strongly affected by local stellar fluxes or metal depletion, except in dwarf galaxies where the inclusion of local fluxes leads to weaker outflows and hence higher gas fractions.",
+    "authors": [
+      "Alexander J. Richings",
+      "Claude-Andre Faucher-Giguere",
+      "Alexander B. Gurvich",
+      "Joop Schaye",
+      "Christopher C. Hayward"
+    ],
+    "publication_date": "2022-08-03T18:13:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.02288v2",
+    "download_url": "https://arxiv.org/abs/2208.02288v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Organic Superconductors: when correlations and magnetism walk in",
+    "abstract": "This survey provides a brief account for the start of organic superconductivity motivated by the quest for high Tc superconductors and its development since the eighties'. Besides superconductivity found in 1D organics in 1980, progresses in this field of research have contributed to better understand the physics of low dimensional conductors highlighted by the wealth of new remarkable properties. Correlations conspire to govern the low temperature properties of the metallic phase. The contribution of antiferromagnetic fluctuations to the interchain Cooper pairing proposed by the theory is borne out by experimental investigations and supports supercondutivity emerging from a non Fermi liquid background. Quasi one dimensional organic superconductors can therefore be considered as simple prototype systems for the more complex high Tc materials.",
+    "authors": [
+      "Denis Jerome"
+    ],
+    "publication_date": "2012-01-27T15:24:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1201.5796v2",
+    "download_url": "https://arxiv.org/abs/1201.5796v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Prequestioning Enhances Undergraduate Students Learning in an Environmental Chemistry Course",
+    "abstract": "Prequestioning is an instructional strategy that involves taking practice tests on to-be-learned information followed by studying the correct answers. Despite promising results in laboratory studies, it has rarely been examined in authentic educational settings. The current study investigated the pedagogical benefits of prequestioning as a learning intervention in an undergraduate environmental chemistry course. In each of 10 lecture sessions, the course lecturer administered four prequestions targeting concepts that were to be taught in the very next lecture session, then presented the correct answers. On assessments occurring during the next lecture session, there was evidence of a prequestioning effect, that is, better performance on questions targeting prequestioned concepts versus non-prequestioned concepts, in most cases. That benefit of prequestioning, which was relatively large (across all lecture sessions, an overall effect size of Cohens d = 2.04, p < .001), highlights the utility of prequestioning as a promising approach for enhancing learning in undergraduate chemistry and similar courses.",
+    "authors": [
+      "Steven C. Pan",
+      "Jia Yi Han",
+      "Fun Man Fung"
+    ],
+    "publication_date": "2024-03-05T09:00:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.02788v1",
+    "download_url": "https://arxiv.org/abs/2403.02788v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Exoplanet Chemistry",
+    "abstract": "The terrestrial and gas-giant planets in our solar system may represent some prototypes for planets around other stars; the exoplanets because most stars have similar overall elemental abundances as our sun. The solar system  planets represent at least four chemical planet types, depending on the phases that make them: Terrestrial-like planets made of rock (metal plus silicates), Plutonian planets made of rock and ice, Neptunian giant planets of rocky, icy with low H and He contents, and  Jovian gas-giant planets of rocky, icy planets with near-solar H and He contents. The planetary compositions are linked to the chemical fractionation in the planetary accretion disks. Chemical tracers of these fractionations are described. Many known exoplanets are gas-giant planets with up to several Jupiter-masses and their atmospheric chemistry is compared to that of brown dwarfs. Exoplanets in close orbits around their host stars may resemble hot brown dwarfs (L-dwarfs). Planets receiving less radiation form their host may compare more to the methane-rich T dwarfs. The cloud layers resulting from condensation of oxides, metal, sulfides, and salts in these hot and cool gas giant planets and their chemical tracers are described.",
+    "authors": [
+      "Katharina Lodders"
+    ],
+    "publication_date": "2009-10-05T17:40:08Z",
+    "arxiv_id": "http://arxiv.org/abs/0910.0811v2",
+    "download_url": "https://arxiv.org/abs/0910.0811v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Submillimeter Survey of CS Excitation in Protoplanetary Disks: Evidence of X-ray-Driven Sulfur Chemistry",
+    "abstract": "The sulfur chemistry in protoplanetary disks influences the properties of nascent planets, including potential habitability. Although the inventory of sulfur molecules in disks has gradually increased over the last decade, CS is still the most commonly-observed sulfur-bearing species and it is expected to be the dominant gas-phase sulfur carrier beyond the water snowline. Despite this, few dedicated multi-line observations exist, and thus the typical disk CS chemistry is not well constrained. Moreover, it is unclear how that chemistry - and in turn, the bulk volatile sulfur reservoir - varies with stellar and disk properties. Here, we present the largest survey of CS to date, combining both new and archival observations from ALMA, SMA, and NOEMA of 12 planet-forming disks, covering a range of stellar spectral types and dust morphologies. Using these data, we derived disk-integrated CS gas excitation conditions in each source. Overall, CS chemistry appears similar across our sample with rotational temperatures of ${\\approx}$10-40 K and column densities between 10$^{12}$-10$^{13}$ cm$^{-2}$. CS column densities do not show strong trends with most source properties, which broadly suggests that CS chemistry is not highly sensitive to disk structure or stellar characteristics. We do, however, identify a positive correlation between stellar X-ray luminosity and CS column density, which indicates that the dominant CS formation pathway is likely via ion-neutral reactions in the upper disk layers, where X-ray-enhanced S$^+$ and C$^+$ drive abundant CS production. Thus, using CS as a tracer of gas-phase sulfur abundance requires a nuanced approach that accounts for its emitting region and dependence on X-ray luminosity.",
+    "authors": [
+      "Charles J. Law",
+      "Romane Le Gal",
+      "Karin I. Öberg",
+      "Ke Zhang",
+      "Yuri Aikawa",
+      "Sean M. Andrews",
+      "Jaehan Bae",
+      "Alice S. Booth",
+      "Gianni Cataldi",
+      "L. Ilsedore Cleeves",
+      "Feng Long",
+      "François Ménard",
+      "Chunhua Qi",
+      "Richard Teague",
+      "David J. Wilner"
+    ],
+    "publication_date": "2025-11-12T19:00:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2511.09628v1",
+    "download_url": "https://arxiv.org/abs/2511.09628v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Detection of Hot Cores and Complex Organic Molecules in the Large Magellanic Cloud",
+    "abstract": "We report the first extragalactic detection of the complex organic molecules (COMs) dimethyl ether (CH$_3$OCH$_3$) and methyl formate (CH$_3$OCHO) with the Atacama Large Millimeter/submillimeter Array (ALMA). These COMs together with their parent species methanol (CH$_3$OH), were detected toward two 1.3 mm continuum sources in the N 113 star-forming region in the low-metallicity Large Magellanic Cloud (LMC). Rotational temperatures ($T_{\\rm rot}\\sim130$ K) and total column densities ($N_{\\rm rot}\\sim10^{16}$ cm$^{-2}$) have been calculated for each source based on multiple transitions of CH$_3$OH. We present the ALMA molecular emission maps for COMs and measured abundances for all detected species. The physical and chemical properties of two sources with COMs detection, and the association with H$_2$O and OH maser emission indicate that they are hot cores. The fractional abundances of COMs scaled by a factor of 2.5 to account for the lower metallicity in the LMC are comparable to those found at the lower end of the range in Galactic hot cores. Our results have important implications for studies of organic chemistry at higher redshift.",
+    "authors": [
+      "Marta Sewilo",
+      "Remy Indebetouw",
+      "Steven B. Charnley",
+      "Sarolta Zahorecz",
+      "Joana M. Oliveira",
+      "Jacco Th. van Loon",
+      "Jacob L. Ward",
+      "C. -H. Rosie Chen",
+      "Jennifer Wiseman",
+      "Yasuo Fukui",
+      "Akiko Kawamura",
+      "Margaret Meixner",
+      "Toshikazu Onishi",
+      "Peter Schilke"
+    ],
+    "publication_date": "2018-01-31T02:04:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1801.10275v1",
+    "download_url": "https://arxiv.org/abs/1801.10275v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Using Dopants as Agents to Probe Key Electronic Properties of Organic Semiconductors",
+    "abstract": "In organic electronics, conductivity doping is used primarily to eliminate charge injection barriers in organic light-emitting diodes, organic photovoltaics and other electronic devices. Therefore, research on conductivity doping is primarily focused on understanding and enhancing the properties of these doped layers. In contrast, this work shifts the focus from optimizing doped layers to leveraging the doping process as a tool for investigating fundamental material properties. Specifically, the dopant is used as an \"agent\" to enable the measurement of three critical parameters: ionization potential (IP), electron affinity (EA), and Coulomb interaction energy (VC) - that govern dopant ionization and play central roles in organic electronic devices in general. While these parameters can be measured experimentally, conventional approaches often involve intricate or indirect methods, such as spectral deconvolution, which may introduce ambiguities or fail to represent bulk properties. Here it is shown how consolidating the experimental data and simulations on the dopant ionization fraction and doped-induced conductivity can be used to estimate the mean IP or EA of the embedded organic molecule, and VC of the embedded charge-transfer complex. These results illustrate how measuring and simulating doped materials can provide access to the fundamental design parameters of organic electronic devices",
+    "authors": [
+      "Artem Fediai",
+      "Franz Symalla",
+      "Tobias Neumann",
+      "Wolfgang Wenzel"
+    ],
+    "publication_date": "2025-05-14T14:34:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.09431v1",
+    "download_url": "https://arxiv.org/abs/2505.09431v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Combinatory Chemistry: Towards a Simple Model of Emergent Evolution",
+    "abstract": "An explanatory model for the emergence of evolvable units must display emerging structures that (1) preserve themselves in time (2) self-reproduce and (3) tolerate a certain amount of variation when reproducing. To tackle this challenge, here we introduce Combinatory Chemistry, an Algorithmic Artificial Chemistry based on a minimalistic computational paradigm named Combinatory Logic. The dynamics of this system comprise very few rules, it is initialised with an elementary tabula rasa state, and features conservation laws replicating natural resource constraints. Our experiments show that a single run of this dynamical system with no external intervention discovers a wide range of emergent patterns. All these structures rely on acquiring basic constituents from the environment and decomposing them in a process that is remarkably similar to biological metabolisms. These patterns include autopoietic structures that maintain their organisation, recursive ones that grow in linear chains or binary-branching trees, and most notably, patterns able to reproduce themselves, duplicating their number at each generation.",
+    "authors": [
+      "Germán Kruszewski",
+      "Tomas Mikolov"
+    ],
+    "publication_date": "2020-03-17T19:55:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.07916v2",
+    "download_url": "https://arxiv.org/abs/2003.07916v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Molecular Gas Chemistry in AGN I. The IRAM Survey of NGC1068",
+    "abstract": "There is observational evidence that nuclear winds and X-rays can heavily influence the physical conditions and chemical abundances of molecular gas in the circumnuclear disks (CND) of Active Galactic Nuclei (AGN). In this paper we probe the chemical status of molecular gas in the CND of NGC1068, a prototypical Seyfert 2 galaxy. Precedent claims that the chemistry of molecular gas in the nucleus of NGC1068 is abnormal by galactic standards were based on the high HCN/CO luminosity ratio measured in the CND. Results from new observations obtained in this survey have served to derive abundances of molecular species such as SiO, CN, HCO+, HOC+, H13CO+ and HCO. These estimates are complemented by a re-evaluation of molecular abundances for HCN, CS and CO, based on previously published single-dish and interferometer observations of NGC1068. We report on the first detection of SiO emission in the CND of NGC1068. The estimated large abundance of SiO in the CND, X(SiO)~5-10x10^{-9}, cannot be attributed to shocks related to star formation, as there is little evidence of a recent starburst in the nucleus of NGC1068. Alternatively, we propose that silicon chemistry is driven by intense X-ray processing of molecular gas. We also report on the first extragalactic detection of the reactive ion HOC+. Most remarkably, the estimated HCO+/HOC+ abundance ratio in the nucleus of NGC1068, ~30-80, is the smallest ever measured in molecular gas. The abundances derived for all molecules that have been the subject of this survey are compared with the predictions of models invoking either oxygen-depletion or X-ray chemistry in molecular gas. Our conclusions favour an overall scenario where the CND of NGC1068 has become a giant X-ray Dominated Region (XDR).",
+    "authors": [
+      "A. Usero",
+      "S. Garcia-Burillo",
+      "A. Fuente",
+      "J. Martin-Pintado",
+      "N. J. Rodriguez-Fernandez"
+    ],
+    "publication_date": "2004-02-24T13:06:24Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0402556v1",
+    "download_url": "https://arxiv.org/abs/astro-ph/0402556v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the interface polaron formation in organic field-effect transistors",
+    "abstract": "A model describing the low density carrier state in an organic single crystal FET with high-$κ$ gate dielectrics is studied. The interplay between  charge carrier coupling  with inter-molecular vibrations in the bulk of the organic material and the long-range interaction induced at the interface with a polar dielectric is investigated. This interplay is responsible for the stabilization of a polaronic state with an internal structure extending on few lattice sites, at much lower coupling strengths than expected from the polar interaction alone. This effect could give rise to polaron self-trapping in high-$κ$ organic FET's without invoking unphysically large values of the carrier interface interaction.",
+    "authors": [
+      "G. De Filippis",
+      "V. Cataudella",
+      "S. Fratini",
+      "S. Ciuchi"
+    ],
+    "publication_date": "2010-05-14T08:29:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1005.2476v1",
+    "download_url": "https://arxiv.org/abs/1005.2476v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "BLOB : A Probabilistic Model for Recommendation that Combines Organic and Bandit Signals",
+    "abstract": "A common task for recommender systems is to build a pro le of the interests of a user from items in their browsing history and later to recommend items to the user from the same catalog. The users' behavior consists of two parts: the sequence of items that they viewed without intervention (the organic part) and the sequences of items recommended to them and their outcome (the bandit part). In this paper, we propose Bayesian Latent Organic Bandit model (BLOB), a probabilistic approach to combine the 'or-ganic' and 'bandit' signals in order to improve the estimation of recommendation quality. The bandit signal is valuable as it gives direct feedback of recommendation performance, but the signal quality is very uneven, as it is highly concentrated on the recommendations deemed optimal by the past version of the recom-mender system. In contrast, the organic signal is typically strong and covers most items, but is not always relevant to the recommendation task. In order to leverage the organic signal to e ciently learn the bandit signal in a Bayesian model we identify three fundamental types of distances, namely action-history, action-action and history-history distances. We implement a scalable approximation of the full model using variational auto-encoders and the local re-paramerization trick. We show using extensive simulation studies that our method out-performs or matches the value of both state-of-the-art organic-based recommendation algorithms, and of bandit-based methods (both value and policy-based) both in organic and bandit-rich environments.",
+    "authors": [
+      "Otmane Sakhi",
+      "Stephen Bonner",
+      "David Rohde",
+      "Flavian Vasile"
+    ],
+    "publication_date": "2020-08-28T06:57:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2008.12504v1",
+    "download_url": "https://arxiv.org/abs/2008.12504v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ChemSafetyBench: Benchmarking LLM Safety on Chemistry Domain",
+    "abstract": "The advancement and extensive application of large language models (LLMs) have been remarkable, including their use in scientific research assistance. However, these models often generate scientifically incorrect or unsafe responses, and in some cases, they may encourage users to engage in dangerous behavior. To address this issue in the field of chemistry, we introduce ChemSafetyBench, a benchmark designed to evaluate the accuracy and safety of LLM responses. ChemSafetyBench encompasses three key tasks: querying chemical properties, assessing the legality of chemical uses, and describing synthesis methods, each requiring increasingly deeper chemical knowledge. Our dataset has more than 30K samples across various chemical materials. We incorporate handcrafted templates and advanced jailbreaking scenarios to enhance task diversity. Our automated evaluation framework thoroughly assesses the safety, accuracy, and appropriateness of LLM responses. Extensive experiments with state-of-the-art LLMs reveal notable strengths and critical vulnerabilities, underscoring the need for robust safety measures. ChemSafetyBench aims to be a pivotal tool in developing safer AI technologies in chemistry. Our code and dataset are available at https://github.com/HaochenZhao/SafeAgent4Chem. Warning: this paper contains discussions on the synthesis of controlled chemicals using AI models.",
+    "authors": [
+      "Haochen Zhao",
+      "Xiangru Tang",
+      "Ziran Yang",
+      "Xiao Han",
+      "Xuanzhi Feng",
+      "Yueqing Fan",
+      "Senhao Cheng",
+      "Di Jin",
+      "Yilun Zhao",
+      "Arman Cohan",
+      "Mark Gerstein"
+    ],
+    "publication_date": "2024-11-23T12:50:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.16736v1",
+    "download_url": "https://arxiv.org/abs/2411.16736v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Band Representations and Topological Quantum Chemistry",
+    "abstract": "In this article, we provide a pedagogical review of the theory of topological quantum chemistry and topological crystalline insulators. We begin with an overview of the properties of crystal symmetry groups in position and momentum space. Next, we introduce the concept of a band representation, which quantifies the symmetry of topologically trivial band structures. By combining band representations with symmetry constraints on the connectivity of bands in momentum space, we show how topologically nontrivial bands can be catalogued and classified. We present several examples of new topological phases discovered using this paradigm, and conclude with an outlook towards future developments.",
+    "authors": [
+      "Jennifer Cano",
+      "Barry Bradlyn"
+    ],
+    "publication_date": "2020-06-08T19:21:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.04890v1",
+    "download_url": "https://arxiv.org/abs/2006.04890v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evolution of Morphological and Physical Properties of Laboratory Interstellar Organic Residues with Ultraviolet Irradiation",
+    "abstract": "Refractory organic compounds formed in molecular clouds are among the building blocks of the solar system objects and could be the precursors of organic matter found in primitive meteorites and cometary materials. However, little is known about the evolutionary pathways of molecular cloud organics from dense molecular clouds to planetary systems. In this study, we focus on the evolution of the morphological and viscoelastic properties of molecular cloud refractory organic matter. We found that the organic residue, experimentally synthesized at about 10 K from UV-irradiated H2O-CH3OH-NH3 ice, changed significantly in terms of its nanometer- to micrometer-scale morphology and viscoelastic properties after UV irradiation at room temperature. The dose of this irradiation was equivalent to that experienced after short residence in diffuse clouds (equal or less than 10,000 years) or irradiation in outer protoplanetary disks. The irradiated organic residues became highly porous and more rigid and formed amorphous nanospherules. These nanospherules are morphologically similar to organic nanoglobules observed in the least-altered chondrites, chondritic porous interplanetary dust particles, and cometary samples, suggesting that irradiation of refractory organics could be a possible formation pathway for such nanoglobules. The storage modulus (elasticity) of photo-irradiated organic residues is about 100 MPa irrespective of vibrational frequency, a value that is lower than the storage moduli of minerals and ice. Dust grains coated with such irradiated organics would therefore stick together efficiently, but growth to larger grains might be suppressed due to an increase in aggregate brittleness caused by the strong connections between grains.",
+    "authors": [
+      "Laurette Piani",
+      "Shogo Tachibana",
+      "Tetsuya Hama",
+      "Hidekazu Tanaka",
+      "Yukiko Endo",
+      "Iyo Sugawara",
+      "Lucile Dessimoulie",
+      "Yuki Kimura",
+      "Akira Miyake",
+      "Junya Matsuno",
+      "Akira Tsuchiyama",
+      "Kazuyuki Fujita",
+      "Shunichi Nakatsubo",
+      "Hiroki Fukushi",
+      "Shoichi Mori",
+      "Takeshi Chigai",
+      "Hisayoshi Yurimoto",
+      "Akira Kouchi"
+    ],
+    "publication_date": "2017-03-02T04:29:32Z",
+    "arxiv_id": "http://arxiv.org/abs/1703.00613v1",
+    "download_url": "https://arxiv.org/abs/1703.00613v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Search for Active and Inactive Ion Insertion Sites in Organic Crystalline Materials",
+    "abstract": "The position of mobile active and inactive ions, specifically ion insertion sites, within organic crystals, significantly affects the properties of organic materials used for energy storage and ionic transport. Identifying the positions of these atom (and ion) sites in an organic crystal is difficult, especially when the element has a low X-ray scattering power, such as lithium (Li) and hydrogen, which are difficult to detect with powder X-ray diffraction (XRD) methods. First-principles calculations, exemplified by density functional theory (DFT), are very effective for confirming the relative stability of ion positions in materials. However, the lack of effective strategies to identify ion sites in these organic crystalline frameworks renders this task extremely challenging. This work presents two algorithms: (i) Efficient Location of Ion Insertion Sites from Extrema in electrostatic local potential and charge density (ELIISE), and (ii) ElectRostatic InsertioN (ERIN), which leverage charge density and electrostatic potential fields accessed from first-principles calculations, combined with the Simultaneous Ion Insertion and Evaluation (SIIE) workflow -- that inserts all ions simultaneously -- to determine ion positions in organic crystals. We demonstrate that these methods accurately reproduce known ion positions in 16 organic materials and also identify previously overlooked low-energy sites in tetralithium 2,6-naphthalenedicarboxylate (Li$_4$NDC), an organic electrode material, highlighting the importance of inserting all ions simultaneously as done in the SIIE workflow.",
+    "authors": [
+      "Harshan Reddy Gopidi",
+      "Alae Eddine Lakraychi",
+      "Abhishek A. Panchal",
+      "Yiming Chen",
+      "V. S. Chaitanya Kolluru",
+      "Jiaqi Wang",
+      "Ying Chen",
+      "Liu Jue",
+      "Kamila Wiaderek",
+      "Maria K. Y. Chan",
+      "Yan Yao",
+      "Pieremanuele Canepa"
+    ],
+    "publication_date": "2025-09-30T20:56:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.00278v1",
+    "download_url": "https://arxiv.org/abs/2510.00278v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electronic structure tunability by periodic meta-ligand spacing in one-dimensional organic semiconductors",
+    "abstract": "Designing molecular organic semiconductors with distinct frontier orbitals is key for the development of devices with desirable properties. Generating defined organic nanostructures with atomic precision can be accomplished by on-surface synthesis. We use this dry chemistry to introduce topological variations in a conjugated poly-para-phenylene chain in the form of meta-junctions. As evidenced by STM and LEED, we produce a macroscopically ordered, monolayer thin zigzag chain film on a vicinal silver crystal. These cross-conjugated nanostructures are expected to display altered electronic properties, which are now unravelled by highly complementary experimental techniques (ARPES and STS) and theoretical calculations (DFT and EPWE). We find that meta-junctions dominate the weakly dispersive band structure, while the bandgap is tunable by altering the linear segment's length. These periodic topology effects induce significant loss of the electronic coupling between neighboring linear segments leading to partial electron confinement in the form of weakly coupled Quantum Dots. Such periodic quantum interference effects determine the overall semiconducting character and functionality of the chains.",
+    "authors": [
+      "Ignacio Piquero-Zulaica",
+      "Aran Garcia-Lekue",
+      "Luciano Colazzo",
+      "Claudio K. Krug",
+      "Mohammed S. G. Mohammed",
+      "Zakaria M. Abd El-Fattah",
+      "J. Michael Gottfried",
+      "Dimas G. de Oteyza",
+      "J. Enrique Ortega",
+      "Jorge Lobo-Checa"
+    ],
+    "publication_date": "2020-03-05T11:07:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.02530v2",
+    "download_url": "https://arxiv.org/abs/2003.02530v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Metal/organic/metal bistable memory devices",
+    "abstract": "We report a bistable organic memory made of a single organic layer embedded between two electrodes, we compare to the organic/metal nanoparticle/organic tri-layers device [L.P. Ma, J. Liu, and Y. Yang, Appl. Phys. Lett. 80, 2997 (2002)]. We demonstrate that the two devices exhibit similar temperature-dependent behaviors, a thermally-activated behavior in their low conductive state (off-state) and a slightly \"metallic\" behavior in their high conductive state (on-state). This feature emphasizes a similar origin for the memory effect. Owing to their similar behavior, the one layer memory is advantageous in terms of fabrication cost and simplicity.",
+    "authors": [
+      "Dominique Vuillaume",
+      "Kamal Lmimouni",
+      "Denis Tondelier",
+      "Christophe Fery",
+      "Gunther Haas"
+    ],
+    "publication_date": "2004-09-30T08:35:57Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0409758v1",
+    "download_url": "https://arxiv.org/abs/cond-mat/0409758v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "HIVQE: Handover Iterative Variational Quantum Eigensolver for Efficient Quantum Chemistry Calculations",
+    "abstract": "A novel hybrid quantum-classical approach has been developed to efficiently address the multireference quantum chemistry problem. The Handover Iterative Variational Quantum Eigensolver (HiVQE) is designed to accurately estimate ground-state wavefunctions by leveraging both quantum and classical computing resources. In this framework, noisy intermediate-scale quantum (NISQ) hardwares efficiently explore electron configurations, while classical computers compute the corresponding wavefunction without the effect of noise of NISQ computer, ensuring both accuracy and computational efficiency. By generating compact yet chemically accurate wavefunctions, HiVQE advances quantum chemistry simulations and facilitates the discovery of novel materials. This approach demonstrates significant potential for overcoming the limitations of classical methods in strongly correlated electronic systems.",
+    "authors": [
+      "Aidan Pellow-Jarman",
+      "Shane McFarthing",
+      "Doo Hyung Kang",
+      "Pilsun Yoo",
+      "Eyuel Eshetu Elala",
+      "Rowan Pellow-Jarman",
+      "P. Mai Nakliang",
+      "Jaewan Kim",
+      "June-Koo Kevin Rhee"
+    ],
+    "publication_date": "2025-03-08T17:50:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.06292v2",
+    "download_url": "https://arxiv.org/abs/2503.06292v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Polaritonic Chemistry using the Density Matrix Renormalization Group Method",
+    "abstract": "The emerging field of polaritonic chemistry explores the behavior of molecules under strong coupling with cavity modes. Despite recent developments in ab initio polaritonic methods for simulating polaritonic chemistry under electronic strong coupling, their capabilities are limited, especially in cases where the molecule also features strong electronic correlation. To bridge this gap, we have developed a novel method for cavity QED calculations utilizing the Density Matrix Renormalization Group (DMRG) algorithm in conjunction with the Pauli-Fierz Hamiltonian. Our approach is applied to investigate the effect of the cavity on the S0 -S1 transition of n-oligoacenes, with n ranging from 2 to 5, encompassing 22 fully correlated π orbitals in the largest pentacene molecule. Our findings indicate that the influence of the cavity intensifies with larger acenes. Additionally, we demonstrate that, unlike the full determinantal representation, DMRG efficiently optimizes and eliminates excess photonic degrees of freedom, resulting in an asymptotically constant computational cost as the photonic basis increases.",
+    "authors": [
+      "Mikuláš Matoušek",
+      "Nam Vu",
+      "Niranjan Govind",
+      "Jonathan J. Foley",
+      "Libor Veis"
+    ],
+    "publication_date": "2024-07-01T15:32:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.01381v1",
+    "download_url": "https://arxiv.org/abs/2407.01381v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Dynamical Approach to Predicting the Optical Pumping Threshold for Lasing in Organic Materials",
+    "abstract": "We present a quantum dynamic study on organic lasing phenomena, which is a challenging issue in organic optoelectronics. Previously, phenomenological method has achieved success in describing experimental observation. However, it cannot directly bridge the laser threshold with molecular electronic structure parameters and cavity parameters. Quantum dynamics method for describing organic lasing and obtaining laser threshold is highly expected. In this Letter, we first propose a microscopic model suitable for describing the lasing dynamics of organic molecular system and we apply the time-dependent wave-packet diffusion (TDWPD) to reveal the microscopic quantum dynamical process for the optical pumped lasing behavior. Lasing threshold is obtained from the onset of output as a function of optical input pumping. We predict that the lasing threshold has an optimal value as function of the cavity volume and depends linearly on the intracavity photon leakage rate. The structure-property relationships between molecular electronic structure parameters (including the energy of molecular excited state, the transition dipole and the organization energy) and the laser threshold obtained through numerical calculations are in qualitative agreement the experimental results, which also confirms the reliability of our approach. This work is beneficial to understanding the mechanism of organic laser and optimizing the design of organic laser materials. TOC",
+    "authors": [
+      "Bin Zhang",
+      "Zhigang Shuai"
+    ],
+    "publication_date": "2023-08-04T16:17:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.02447v1",
+    "download_url": "https://arxiv.org/abs/2308.02447v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum buckling in metal-organic framework materials",
+    "abstract": "Metal organic frameworks are porous materials composed of metal ions or clusters coordinated by organic molecules. As a response to applied uniaxial pressure, molecules of straight shape in the framework start to buckle. Under sufficiently low temperatures, this buckling is of quantum nature, described by a superposition of degenerate buckling states. Buckling states of adjacent molecules couple in a transverse Ising type behavior. On the example of the metal organic framework topology MOF-5 we derive the phase diagram under applied strain, showing a normal, a parabuckling, and a ferrobuckling phase. At zero temperature, quantum phase transitions between the three phases can be induced by strain. This novel type of order opens a new path towards strain induced quantum phases.",
+    "authors": [
+      "R. Matthias Geilhufe"
+    ],
+    "publication_date": "2021-12-02T08:25:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.01052v1",
+    "download_url": "https://arxiv.org/abs/2112.01052v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Protoplanetary disk chemistry and structure",
+    "abstract": "Knowledge of the composition of material that will form planets is crucial to understand planetary diversity and the occurrence of potentially habitable planets. Ultimately, it is the chemistry in circumstellar disks that determines the global make up of planetary systems, as the dust in these disks grows into giant planet cores and rocky planets, the gas becomes incorporated in giant planet atmospheres, and the ices can be delivered to rocky planets by comets and meteorites. With the advent of ALMA a decade ago and the recent launch of JWST, the composition of the disk gas and ice can now be studied in great detail. This review will provide an overview of our current knowledge of the disk chemical structure, focusing on the six elements essential to life on Earth: carbon (C), hydrogen (H), nitrogen (N), oxygen (O), phosphorus (P) and sulfur (S).",
+    "authors": [
+      "Merel L. R. van 't Hoff",
+      "Jennifer B. Bergner"
+    ],
+    "publication_date": "2024-10-30T17:23:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.23235v1",
+    "download_url": "https://arxiv.org/abs/2410.23235v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Organic Solvent Based Synthesis of Gold Nanoparticle - Semiconducting 2H-MoS2 Hybrid Nanosheets",
+    "abstract": "The development of simple, versatile strategies for the synthesis of gold nanoparticles (AuNPs) on semiconducting transition metal dichalcogenides (TMDC) layers is of increasing scientific and technological interest in photocatalysis, optical sensing, and optoelectronics sectors, but challenges exist on the nucleation and hybridization of AuNPs with the TMDC basal plane. At present, the widely used aqueous solution approaches suffer from poor dispersion of produced hybrids as well as from limited growth and coverage of the AuNPs on the TMDC semiconducting plane, since Au nanoclusters nucleate preferentially at the electron rich defect edges, which act as reducing agents and not on the defect free basal plane. Here, we report for the first time, the controlled synthesis of AuNPs on the basal plane of semiconducting molybdenum disulfide nanosheets (2H-MoS2 NSs) via a N,N-dimethylformamide (DMF)-based hot-injection synthesis route. This organic solvent-based synthesis route eliminates problems of poor dispersion of AuNPs@2H-MoS2 NS hybrids, whereas at the same time maintains the semiconducting crystalline quality of the pristine 2H-MoS2 NSs. In addition, the study establishes the important role of trisodium citrate, on enhancing the nucleation and improving the hybridization of AuNPs on 2H-MoS2 NSs as evidenced by the induced p-type doping. This organic solvent synthesis approach can be adopted for other hybrid systems opening the way for controlled hybridization of semiconducting layers with metal nanoparticles.",
+    "authors": [
+      "Abhijit Ganguly",
+      "Olga Trovato",
+      "Shanmughasundaram Duraisamy",
+      "John Benson",
+      "Yisong Han",
+      "Cristina Satriano",
+      "Pagona Papakonstantinou"
+    ],
+    "publication_date": "2019-04-12T21:08:53Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.06419v1",
+    "download_url": "https://arxiv.org/abs/1904.06419v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Small gap semiconducting organic charge-transfer interfaces",
+    "abstract": "We investigated transport properties of organic heterointerfaces formed by single-crystals of two organic donor-acceptor molecules, tetramethyltetraselenafulvalene (TMTSF) and 7,7,8,8-tetracyanoquinodimethane (TCNQ). Whereas the individual crystals have un-measurably high resistance, the interface exhibits a resistivity of few tens of MegaOhm with a temperature dependence characteristic of a small gap semiconductor. We analyze the transport properties based on a simple band-diagram that naturally accounts for our observations in terms of charge transfer between two crystals. Together with the recently discovered tetrathiafulvalene (TTF)-TCNQ interfaces, these results indicate that single-crystal organic heterostructures create new electronic systems with properties relevant to both fundamental and applied fields.",
+    "authors": [
+      "M. Nakano",
+      "H. Alves",
+      "A. S. Molinari",
+      "S. Ono",
+      "N. Minder",
+      "A. F. Morpurgo"
+    ],
+    "publication_date": "2010-04-22T14:16:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1004.3927v1",
+    "download_url": "https://arxiv.org/abs/1004.3927v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hadron Chemistry at High-PT with Identified Particles",
+    "abstract": "We discuss mechanisms that change the hadron chemistry for high momentum particles emitted in high energy nuclear collisions. We argue that particle ratios naturally tend to be different from jets in the vacuum. We show results of computations in a model that propagates leading particles through a quark gluon plasma and permits elastic flavor changing processes. We predict less suppression for kaons compared to pions in central collision. We also discuss elliptic flow resulting from flavor changing processes.",
+    "authors": [
+      "R. J. Fries"
+    ],
+    "publication_date": "2009-12-21T20:33:40Z",
+    "arxiv_id": "http://arxiv.org/abs/0912.4250v1",
+    "download_url": "https://arxiv.org/abs/0912.4250v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Influence of Chemistry and Topography on the Wettability of Copper",
+    "abstract": "To understand the complex interplay of topography and surface chemistry in wetting, fundamental studies investigating both parameters are needed. Due to the sensitivity of wetting to miniscule changes in one of the parameters it is imperative to precisely control the experimental approach. A profound understanding of their influence on wetting facilitates a tailored design of surfaces with unique functionality. We present a multi-step study: The influence of surface chemistry is analyzed by determining the adsorption of volatile carbonous species (A) and by sputter deposition of metallic copper and copper oxides on flat copper substrates (B). A precise surface topography is created by laser processing. Isotropic topography is created by ps laser processing (C), and hierarchical anisotropic line patterns are produced by direct laser interference patterning (DLIP) with different pulse durations (D). Our results reveal that the long-term wetting response of polished copper surfaces stabilizes with time despite ongoing accumulation of hydrocarbons and is dominated by this adsorption layer over the oxide state of the substrate (Cu, CuO, Cu2O). The surfaces' wetting response can be precisely tuned by tailoring the topography via laser processing. The sub-pattern morphology of primary line-like patterns showed great impact on the static contact angle, wetting anisotropy, and water adhesion. An increased roughness inside the pattern valleys combined with a minor roughness on the peaks favors air-inclusions, isotropic hydrophobicity, and low water adhesion. Increasing the aspect ratio showed to enhance air-inclusions and hydrophobicity despite increased peak roughness while time dependent wetting transitions were observed.",
+    "authors": [
+      "Sarah Marie Lößlein",
+      "Rolf Merz",
+      "Yerila Rodríguez-Martínez",
+      "Florian Schäfer",
+      "Philipp Grützmacher",
+      "David Horwat",
+      "Michael Kopnarski",
+      "Frank Mücklich"
+    ],
+    "publication_date": "2025-02-26T08:42:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.18938v1",
+    "download_url": "https://arxiv.org/abs/2502.18938v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sulfur chemistry: 1D modeling in massive dense cores",
+    "abstract": "The main sulfur-bearing molecules OCS, H2S, SO, SO2, and CS have been observed in four high mass dense cores (W43-MM1, IRAS 18264, IRAS 05358, and IRAS 18162). Our goal is to put some constraints on the relative evolutionary stage of these sources by comparing these observations with time-dependent chemical modeling. We used the chemical model Nahoon, which computes the gas-phase chemistry and gas-grain interactions of depletion and evaporation. Mixing of the different chemical compositions shells in a 1D structure through protostellar envelope has been included since observed lines suggest nonthermal supersonic broadening. Observed radial profiles of the temperature and density are used to compute the chemistry as a function of time. With our model, we underproduce CS by several orders of magnitude compared to the other S-bearing molecules, which seems to contradict observations, although some uncertainties in the CS abundance observed at high temperature remain. The OCS/SO2, SO/SO2, and H2S/SO2 abundance ratios could in theory be used to trace the age of these massive protostars since they show a strong dependence with time, but the sources are too close in age compared to the accuracy of chemical models and observations. Our comparison between observations and modeling may, however, indicate that W43-MM1 could be chemically younger than the three other sources. Turbulent diffusivity through the protostellar envelopes has to be less efficient than 2e14 cm2s-1. Otherwise, it would have smoothed out the abundance profiles, and this would have been observed. The sulfur chemistry depends strongly on the 1D physical conditions. In our case, no conclusion can be given on the relative age of IRAS 18264, IRAS 18162 and IRAS 05358 except that they are very close. W43-MM1 seems younger than the other sources.",
+    "authors": [
+      "V. Wakelam",
+      "F. Hersant",
+      "F. Herpin"
+    ],
+    "publication_date": "2011-03-15T09:18:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1103.2860v1",
+    "download_url": "https://arxiv.org/abs/1103.2860v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Enhancing Chemistry Learning with ChatGPT and Bing Chat as Agents to Think With: A Comparative Case Study",
+    "abstract": "This study explores the potential of Generative AI chatbots (GenAIbots) such as ChatGPT and Bing Chat, in Chemistry education, within a constructionist theoretical framework. A single-case study methodology was used to analyse extensive interaction logs between students and both AI systems in simulated Chemistry learning experiences. The results highlight the ability of ChatGPT and Bing Chat to act as 'agents-to-think-with', fostering critical thinking, problem-solving, concept comprehension, creativity, and personalised learning experiences. By employing a Socratic-like questioning approach, GenAIbots nurture students' curiosity and promote active learning. The study emphasises the significance of prompt crafting, a technique to elicit desired responses from GenAIbots, fostering iterative reflections and interactions. It underlines the need for comprehensive educator training to effectively integrate these tools into classrooms. The study concludes that while ChatGPT and Bing Chat as agents-to-think-with offer promising avenues to revolutionise STEM education through a constructionist lens, fostering a more interactive, inclusive learning environment and promoting deeper comprehension and critical thinking in students across diverse Chemistry topics, ChatGPT consistently outperformed Bing Chat, providing more comprehensive, detailed, and accurate responses and skillfully addressing nuances and context.",
+    "authors": [
+      "Renato P. dos Santos"
+    ],
+    "publication_date": "2023-05-12T09:27:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.11890v1",
+    "download_url": "https://arxiv.org/abs/2305.11890v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A quantum chemistry approach to linear vibro-polaritonic IR spectra with perturbative electron-photon correlation",
+    "abstract": "In the vibrational strong coupling (VSC) regime, molecular vibrations and resonant low-frequency cavity modes form light-matter hybrid states, named vibrational polaritons, with characteristic IR spectroscopic signatures. Here, we introduce a quantum chemistry based computational scheme for linear IR spectra of vibrational polaritons in polyatomic molecules, which perturbatively accounts for nonresonant electron-photon interactions under VSC. Specifically, we formulate a cavity Born- Oppenheimer perturbation theory (CBO-PT) linear response approach, which provides an approximate but systematic description of such electron-photon correlation effects in VSC scenarios, while relying on molecular ab initio quantum chemistry methods. We identify relevant electron-photon correlation effects at second-order of CBO-PT, which manifest as static polarizability-dependent Hessian corrections and an emerging polarizability-dependent cavity intensity component providing access to transmission spectra commonly measured in vibro-polaritonic chemistry. Illustratively, we address electron-photon correlation effects perturbatively in IR spectra of CO$_2$ and Fe(CO)$_5$ vibropolaritonic models qualitatively in sound agreement with non-perturbative CBO linear response theory.",
+    "authors": [
+      "Eric W. Fischer",
+      "Jan A. Syska",
+      "Peter Saalfrank"
+    ],
+    "publication_date": "2024-01-04T10:42:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.02188v1",
+    "download_url": "https://arxiv.org/abs/2401.02188v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Donor and acceptor levels of organic photovoltaic compounds from first principles",
+    "abstract": "Accurate and efficient approaches to predict the optical properties of organic semiconducting compounds could accelerate the search for efficient organic photovoltaic materials. Nevertheless, predicting the optical properties of organic semiconductors has been plagued by the inaccuracy or computational cost of conventional first-principles calculations. In this work, we demonstrate that orbital-dependent density-functional theory based upon Koopmans' condition [Phys. Rev. B 82, 115121 (2010)] is apt at describing donor and acceptor levels for a wide variety of organic molecules, clusters, and oligomers within a few tenths of an electron-volt relative to experiment, which is comparable to the predictive performance of many-body perturbation theory methods at a fraction of the computational cost.",
+    "authors": [
+      "Ismaila Dabo",
+      "Andrea Ferretti",
+      "Cheol-Hwan Park",
+      "Nicolas Poilvert",
+      "Yanli Li",
+      "Matteo Cococcioni",
+      "Nicola Marzari"
+    ],
+    "publication_date": "2012-10-30T11:59:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1210.7973v3",
+    "download_url": "https://arxiv.org/abs/1210.7973v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Composition and Chemistry of Titan's Atmosphere",
+    "abstract": "In this article I summarize the current state of knowledge about the composition of Titan's atmosphere, and our current understanding of the suggested chemistry that leads to that observed composition. I begin with our present knowledge of the atmospheric composition, garnered from a variety of measurements including Cassini-Huygens, the Atacama Large Millimeter/submillimeter Array (ALMA), and other ground and space-based telescopes. This review focuses on the typical vertical profiles of gases at low latitudes, rather than global and temporal variations. The main body of the paper presents a chemical description of how complex molecules are believed to arise from simpler species, considering all known 'stable' molecules - those that have been uniquely identified in the neutral atmosphere. The last section of the paper is devoted to the gaps in our present knowledge of Titan's chemical composition and how further work may fill those gaps.",
+    "authors": [
+      "Conor A. Nixon"
+    ],
+    "publication_date": "2024-02-27T01:24:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.17116v2",
+    "download_url": "https://arxiv.org/abs/2402.17116v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Overview of complex organic molecule observations in protostellar systems",
+    "abstract": "Complex organic molecules (COMs) have been detected abundantly at various stages of star formation, particularly in the warm protostellar phase. The progress in gas-phase measurements has been accelerated by the advent of the Atacama Large Millimeter/submillimeter Array and in ice measurements by the James Webb Space Telescope. Particularly, the community has moved from single-source studies of COMs to statistical analyses because of these powerful instruments. In this article, I review surveys that consider COMs in the gas and ice. The two takeaways from this review include; 1. Gas-phase abundance ratios for some COMs show a small difference across many objects and the ice abundance ratios show similar or higher values to the gas, both pointing to the importance of ice chemistry in COM formation, 2. Some COM ratios show larger differences across many objects which could be due to either chemical or physical effects, thus both factors need to be considered when interpreting the data.",
+    "authors": [
+      "P. Nazari"
+    ],
+    "publication_date": "2025-08-21T17:59:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.15771v2",
+    "download_url": "https://arxiv.org/abs/2508.15771v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Massively parallel quantum chemistry: PFAS on over 1 million cloud vCPUs",
+    "abstract": "Accurate solutions to the electronic Schrödinger equation can provide valuable insight for electron interactions within molecular systems, accelerating the molecular design and discovery processes in many different applications. However, the availability of such accurate solutions are limited to small molecular systems due to both the extremely high computational complexity and the challenge of operating and executing these workloads on high-performance compute clusters. This work presents a massively scalable cloud-based quantum chemistry platform by implementing a highly parallelizable quantum chemistry method that provides a polynomial-scaling approximation to full configuration interaction (FCI). Our platform orchestrates more than one million virtual CPUs on the cloud to analyze the bond-breaking behaviour of carbon-fluoride bonds of per- and polyfluoroalkyl substances (PFAS) with near-exact accuracy within the chosen basis set. This is the first quantum chemistry calculation utilizing more than one million virtual CPUs on the cloud and is the most accurate electronic structure computation of PFAS bond breaking to date.",
+    "authors": [
+      "Alan E. Rask",
+      "Lee Huntington",
+      "SungYeon Kim",
+      "David Walker",
+      "Andrew Wildman",
+      "Rodrigo Wang",
+      "Nicole Hazel",
+      "Alan Judi",
+      "James T. Pegg",
+      "Punit K. Jha",
+      "Zara Mayimfor",
+      "Carl Dukatz",
+      "Hassan Naseri",
+      "Ilan Gleiser",
+      "Maxime R. Hugues",
+      "Paul M. Zimmerman",
+      "Arman Zaribafiyan",
+      "Rudi Plesch",
+      "Takeshi Yamazaki"
+    ],
+    "publication_date": "2023-07-20T07:55:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.10675v1",
+    "download_url": "https://arxiv.org/abs/2307.10675v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "title": "The electromagnetic \"memory\" of a dc-conducting resistor: a relativity argument and the electrical circuits",
+    "abstract": "A circuit-field problem is considered. A resistor conducting a constant current is argued to be associated with electromagnetic energy accumulated in the surrounded space, though contrary to the case of an inductor or a capacitor, this energy is always associated with both magnetic and electrical fields. The circuit-theory point of view saying that a resistor has no electromagnetic memory is accepted, but the necessarily involved (in view of the field argument) capacitance and inductiveness are argued then also not be associated with any memory. The mutually completing circuit and physical arguments are presented as a dialog between a physicist and an electrical engineer. How can you call \"parasitic\" the elements that represent the fields due to which your resistor at all receives the energy?! -- asks the physicist finally.",
+    "authors": [
+      "Emanuel Gluskin"
+    ],
+    "publication_date": "2010-05-06T13:45:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1005.0997v6",
+    "download_url": "https://arxiv.org/abs/1005.0997v6",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mechanomyography based closed-loop Functional Electrical Stimulation cycling system",
+    "abstract": "Functional Electrical Stimulation (FES) systems are successful in restoring motor function and supporting paralyzed users. Commercially available FES products are open loop, meaning that the system is unable to adapt to changing conditions with the user and their muscles which results in muscle fatigue and poor stimulation protocols. This is because it is difficult to close the loop between stimulation and monitoring of muscle contraction using adaptive stimulation. FES causes electrical artefacts which make it challenging to monitor muscle contractions with traditional methods such as electromyography (EMG). We look to overcome this limitation by combining FES with novel mechanomyographic (MMG) sensors to be able to monitor muscle activity during stimulation in real time. To provide a meaningful task we built an FES cycling rig with a software interface that enabled us to perform adaptive recording and stimulation, and then combine this with sensors to record forces applied to the pedals using force sensitive resistors (FSRs), crank angle position using a magnetic incremental encoder and inputs from the user using switches and a potentiometer. We illustrated this with a closed-loop stimulation algorithm that used the inputs from the sensors to control the output of a programmable RehaStim 1 FES stimulator (Hasomed) in real-time. This recumbent bicycle rig was used as a testing platform for FES cycling. The algorithm was designed to respond to a change in requested speed (RPM) from the user and change the stimulation power (% of maximum current mA) until this speed was achieved and then maintain it.",
+    "authors": [
+      "Billy Woods",
+      "Mahendran Subramanian",
+      "Ali Shafti",
+      "A. Aldo Faisal"
+    ],
+    "publication_date": "2018-07-30T08:59:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1807.11241v1",
+    "download_url": "https://arxiv.org/abs/1807.11241v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Charging Games in Networks of Electrical Vehicles",
+    "abstract": "In this paper, a static non-cooperative game formulation of the problem of distributed charging in electrical vehicle (EV) networks is proposed. This formulation allows one to model the interaction between several EV which are connected to a common residential distribution transformer. Each EV aims at choosing the time at which it starts charging its battery in order to minimize an individual cost which is mainly related to the total power delivered by the transformer, the location of the time interval over which the charging operation is performed, and the charging duration needed for the considered EV to have its battery fully recharged. As individual cost functions are assumed to be memoryless, it is possible to show that the game of interest is always an ordinal potential game. More precisely, both an atomic and nonatomic versions of the charging game are considered. In both cases, equilibrium analysis is conducted. In particular, important issues such as equilibrium uniqueness and efficiency are tackled. Interestingly, both analytical and numerical results show that the efficiency loss due to decentralization (e.g., when cost functions such as distribution network Joule losses or life of residential distribution transformers when no thermal inertia is assumed) induced by charging is small and the corresponding \"efficiency\", a notion close to the Price of Anarchy, tends to one when the number of EV increases.",
+    "authors": [
+      "Olivier Beaude",
+      "Samson Lasaulce",
+      "Martin Hennebel"
+    ],
+    "publication_date": "2015-09-24T13:03:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1509.07349v1",
+    "download_url": "https://arxiv.org/abs/1509.07349v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Adjoint Variable Method for Transient Nonlinear Electroquasistatic Problems",
+    "abstract": "Many optimization problems in electrical engineering consider a large number of design parameters. A sensitivity analysis identifies the design parameters with the strongest influence on the problem of interest. This paper introduces the adjoint variable method as an efficient approach to study sensitivities of nonlinear electroquasistatic problems in time domain. In contrast to the more common direct sensitivity method, the adjoint variable method has a computational cost nearly independent of the number of parameters. The method is applied to study the sensitivity of the field grading material parameters on the performance of a 320 kV cable joint specimen, which is modeled as a Finite Element nonlinear transient electroquasistatic problem. Special attention is paid to the treatment of quantities of interest, which are evaluated at specific points in time or space. It is shown that shown that the method is a valuable tool to study this strongly nonlinear and highly transient technical example.",
+    "authors": [
+      "M. Greta Ruppert",
+      "Yvonne Späck-Leigsnering",
+      "Julian Buschbaum",
+      "Herbert De Gersem"
+    ],
+    "publication_date": "2022-11-15T13:12:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.08117v2",
+    "download_url": "https://arxiv.org/abs/2211.08117v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electrical impedance tomography-based pressure-sensing using conductive membrane",
+    "abstract": "This paper presents a mathematical framework for a flexible pressure-sensor model using electrical impedance tomography (EIT). When pressure is applied to a conductive membrane patch with clamped boundary, the pressure-induced surface deformation results in a change in the conductivity distribution. This change can be detected in the current-voltage data ({\\it i.e.,} EIT data) measured on the boundary of the membrane patch. Hence, the corresponding inverse problem is to reconstruct the pressure distribution from the data. The 2D apparent conductivity (in terms of EIT data) corresponding to the surface deformation is anisotropic. Thus, we consider a constrained inverse problem by restricting the coefficient tensor to the range of the map from pressure to 2D-apparent conductivity. This paper provides theoretical grounds for the mathematical model of the inverse problem. We develop a reconstruction algorithm based on a careful sensitivity analysis. We demonstrate the performance of the reconstruction algorithm through numerical simulations to validate its feasibility for future experimental studies.",
+    "authors": [
+      "Habib Ammari",
+      "Kyungkeun Kang",
+      "Kyounghun Lee",
+      "Jin Keun Seo"
+    ],
+    "publication_date": "2014-09-12T05:38:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1409.3650v1",
+    "download_url": "https://arxiv.org/abs/1409.3650v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Design and Fabrication of Novel Digital Transcranial Electrical Stimulator for Medical and Psychiatry Applications",
+    "abstract": "In this article, we design a novel Transcranial Electrical Stimulator for medical applications, which is very cheap and can produce the desired signals very accurately. Our fabricated stimulator generates all current signals related to Transcranial Electrical Stimulation (TES) methods, i.e. Transcranial Direct Current Stimulation (tDCS), Transcranial Pulsed Current Stimulation (tPCS), Cranial Electrotherapy Stimulation (CES), and Microcurrent Electrical Therapy (MET). The proposed device has been constructed of an advanced digital controller which makes it tunable. One of the major advantages of the device is its ability to generate Burst pulses.",
+    "authors": [
+      "HoseinAli Jafari",
+      "Mohammad Bagher Heydari",
+      "Niloofar Jafari",
+      "Hamid Mirhosseini"
+    ],
+    "publication_date": "2020-09-09T16:37:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.04411v1",
+    "download_url": "https://arxiv.org/abs/2009.04411v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Data Set Description: Identifying the Physics Behind an Electric Motor -- Data-Driven Learning of the Electrical Behavior (Part I)",
+    "abstract": "Two of the most important aspects of electric vehicles are their efficiency or achievable range. In order to achieve high efficiency and thus a long range, it is essential to avoid over-dimensioning the drive train. Therefore, the drive train has to be kept as lightweight as possible while at the same time being utilized to the best possible extent. This can only be achieved if the dynamic behavior of the drive train is accurately known by the controller. The task of the controller is to achieve a desired torque at the wheels of the car by controlling the currents of the electric motor. With machine learning modeling techniques, accurate models describing the behavior can be extracted from measurement data and then used by the controller. For the comparison of the different modeling approaches, a data set consisting of about 40 million data points was recorded at a test bench for electric drive trains. The data set is published on Kaggle, an online community of data scientists.",
+    "authors": [
+      "Sören Hanke",
+      "Oliver Wallscheid",
+      "Joachim Böcker"
+    ],
+    "publication_date": "2020-03-16T15:31:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.07273v3",
+    "download_url": "https://arxiv.org/abs/2003.07273v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Pioneering Roadmap for ML-Driven Algorithmic Advancements in Electrical Networks",
+    "abstract": "Advanced control, operation, and planning tools of electrical networks with ML are not straightforward. 110 experts were surveyed to show where and how ML algorithms could advance. This paper assesses this survey and research environment. Then, it develops an innovation roadmap that helps align our research community with a goal-oriented realisation of the opportunities that AI upholds. This paper finds that the R&D environment of system operators (and the surrounding research ecosystem) needs adaptation to enable faster developments with AI while maintaining high testing quality and safety. This roadmap serves system operators, academics, and labs advancing next-generation electrical network tools.",
+    "authors": [
+      "Jochen L. Cremer",
+      "Adrian Kelly",
+      "Ricardo J. Bessa",
+      "Milos Subasic",
+      "Panagiotis N. Papadopoulos",
+      "Samuel Young",
+      "Amar Sagar",
+      "Antoine Marot"
+    ],
+    "publication_date": "2024-05-27T14:05:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.17184v3",
+    "download_url": "https://arxiv.org/abs/2405.17184v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A physics-informed Bayesian optimization method for rapid development of electrical machines",
+    "abstract": "Advanced slot and winding designs are imperative to create future high performance electrical machines (EM). As a result, the development of methods to design and improve slot filling factor (SFF) has attracted considerable research. Recent developments in manufacturing processes, such as additive manufacturing and alternative materials, has also highlighted a need for novel high-fidelity design techniques to develop high performance complex geometries and topologies. This study therefore introduces a novel physics-informed machine learning (PIML) design optimization process for improving SFF in traction electrical machines used in electric vehicles. A maximum entropy sampling algorithm (MESA) is used to seed a physics-informed Bayesian optimization (PIBO) algorithm, where the target function and its approximations are produced by Gaussian processes (GP)s. The proposed PIBO-MESA is coupled with a 2D finite element model (FEM) to perform a GP-based surrogate and provide the first demonstration of the optimal combination of complex design variables for an electrical machine. Significant computational gains were achieved using the new PIBO-MESA approach, which is 45% faster than existing stochastic methods, such as the non-dominated sorting genetic algorithm II (NSGA-II). The FEM results confirm that the new design optimization process and keystone shaped wires lead to a higher SFF (i.e. by 20%) and electromagnetic improvements (e.g. maximum torque by 12%) with similar resistivity. The newly developed PIBO-MESA design optimization process therefore presents significant benefits in the design of high-performance electric machines, with reduced development time and costs.",
+    "authors": [
+      "Pedram Asef",
+      "Christopher Vagg"
+    ],
+    "publication_date": "2025-03-01T09:43:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.00420v1",
+    "download_url": "https://arxiv.org/abs/2503.00420v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "From Electric Circuits to Chemical Networks",
+    "abstract": "Electric circuits manipulate electric charge and magnetic flux via a small set of discrete components to implement useful functionality over continuous time-varying signals represented by currents and voltages. Much of the same functionality is useful to biological organisms, where it is implemented by a completely different set of discrete components (typically proteins) and signal representations (typically via concentrations). We describe how to take a linear electric circuit and systematically convert it to a chemical reaction network of the same functionality, as a dynamical system. Both the structure and the components of the electric circuit are dissolved in the process, but the resulting chemical network is intelligible. This approach provides access to a large library of well-studied devices, from analog electronics, whose chemical network realization can be compared to natural biochemical networks, or used to engineer synthetic biochemical networks.",
+    "authors": [
+      "Luca Cardelli",
+      "Mirco Tribastone",
+      "Max Tschaikowski"
+    ],
+    "publication_date": "2018-12-08T12:20:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.03308v1",
+    "download_url": "https://arxiv.org/abs/1812.03308v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An electrical engineering perspective on naturality in computational physics",
+    "abstract": "We look at computational physics from an electrical engineering perspective and suggest that several concepts of mathematics, not so well-established in computational physics literature, present themselves as opportunities in the field. We discuss elliptic complexes and highlight the category theoretical background and its role as a unifying language between algebraic topology, differential geometry, and modelling software design. In particular, the ubiquitous concept of naturality is central. Natural differential operators have functorial analogues on the cochains of triangulated manifolds. In order to establish this correspondence, we derive formulas involving simplices and barycentric coordinates, defining discrete vector fields and a discrete Lie derivative as a result of a discrete analogue of Cartan's magic formula. This theorem is the main mathematical result of the paper.",
+    "authors": [
+      "P. Robert Kotiuga",
+      "Valtteri Lahtinen"
+    ],
+    "publication_date": "2018-08-30T16:35:19Z",
+    "arxiv_id": "http://arxiv.org/abs/1809.01002v3",
+    "download_url": "https://arxiv.org/abs/1809.01002v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Asymptotic Directions for the Zero Sets of the Components of an Electrical Field from a Finite Number of Point Charges on the Plane Part II",
+    "abstract": "We study the structure of the zero set of a nontrivial finite point charge electrical field $F = (X,Y)$ in the plane $\\mathbb R^2$. We establish equations satisfied by the possible directions for the zero sets \\{X = 0\\} and $\\{Y = 0\\}$ separately, and we show that there are only finitely many possible asymptotic directions for both of these zero sets. We suspect that the set of asymptotic directions for \\{X = 0\\} and the set of asymptotic directions for $\\{Y = 0\\}$ are (essentially) distinct.",
+    "authors": [
+      "Tamas Erdelyi",
+      "Joseph Rosenblatt",
+      "Rebecca Rosenblatt"
+    ],
+    "publication_date": "2022-08-26T20:15:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.12857v1",
+    "download_url": "https://arxiv.org/abs/2208.12857v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Estimating electricity saving-potential in small offices using adaptive thermal comfort",
+    "abstract": "The smart control informed by IoT sensors and enabled by remotely controlled devices can optimize the building operation to minimize unnecessary energy consumption and improve indoor thermal comfort. This paper quantifies the potential for electricity savings in small office buildings from smart thermostat control and occupancy-informed smart plug control. This is done by simulating the effect of adaptive setpoint temperature, occupancy-based HVAC control, and night-purge free cooling on small office buildings across all major climate zones in the United States. Adopting these smart control measures can achieve 8.9% to 20.4% of savings in total electricity consumption of small office buildings, or equivalent to annual reductions between 12.2 kWh/m2 and 30.4 kWh/m2 in electricity usage intensity. Among all climate zones, the hot and dry climates benefit the most from proposed smart controls and achieve the highest percentages of electricity savings",
+    "authors": [
+      "Yujiao Chen",
+      "Rongxin Yin"
+    ],
+    "publication_date": "2022-05-12T16:25:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.10324v1",
+    "download_url": "https://arxiv.org/abs/2205.10324v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generalized Optimal Current Patterns and Electrical Safety in EIT",
+    "abstract": "There are a number of constraints which limit the current and voltages which can be applied on a multiple drive electrical imaging system. One obvious constraint is to limit the maximum Ohmic power dissipated in the body. Current patterns optimising distinguishability with respect to this constraint are singular functions of the difference of transconductance matrices with respect to the power norm. (the optimal currents of Isaacson). If one constrains the total current ($L^1$ norm) the optimal patterns are pair drives. On the other hand if one constrains the maximum current on each drive electrode (an $L^\\infty$ norm), the optimal patterns have each drive channel set to the maximum source or sink current value. In this paper we consider appropriate safety constraints and discuss how to find the optimal current patterns with those constraints.",
+    "authors": [
+      "William R. B. Lionheart",
+      "Jari Kaipio",
+      "Christopher N. McLeod"
+    ],
+    "publication_date": "2000-03-29T15:46:02Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/0003094v3",
+    "download_url": "https://arxiv.org/abs/physics/0003094v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sensitivity analysis of a mean-value exergy-based internal combustion engine model",
+    "abstract": "In this work, we conduct a sensitivity analysis of the mean-value internal combustion engine exergy-based model, recently developed by the authors, with respect to different driving cycles, ambient temperatures, and exhaust gas recirculation rates. Such an analysis allows to assess how driving conditions and environment affect the exergetic behavior of the engine, providing insights on the system's inefficiency. Specifically, the work is carried out for a military series hybrid electric vehicle.",
+    "authors": [
+      "Gabriele Pozzato",
+      "Denise Rizzo",
+      "Simona Onori"
+    ],
+    "publication_date": "2022-01-18T18:43:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.07190v1",
+    "download_url": "https://arxiv.org/abs/2201.07190v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "EEE-Bench: A Comprehensive Multimodal Electrical And Electronics Engineering Benchmark",
+    "abstract": "Recent studies on large language models (LLMs) and large multimodal models (LMMs) have demonstrated promising skills in various domains including science and mathematics. However, their capability in more challenging and real-world related scenarios like engineering has not been systematically studied. To bridge this gap, we propose EEE-Bench, a multimodal benchmark aimed at assessing LMMs' capabilities in solving practical engineering tasks, using electrical and electronics engineering (EEE) as the testbed. Our benchmark consists of 2860 carefully curated problems spanning 10 essential subdomains such as analog circuits, control systems, etc. Compared to benchmarks in other domains, engineering problems are intrinsically 1) more visually complex and versatile and 2) less deterministic in solutions. Successful solutions to these problems often demand more-than-usual rigorous integration of visual and textual information as models need to understand intricate images like abstract circuits and system diagrams while taking professional instructions, making them excellent candidates for LMM evaluations. Alongside EEE-Bench, we provide extensive quantitative evaluations and fine-grained analysis of 17 widely-used open and closed-sourced LLMs and LMMs. Our results demonstrate notable deficiencies of current foundation models in EEE, with an average performance ranging from 19.48% to 46.78%. Finally, we reveal and explore a critical shortcoming in LMMs which we term laziness: the tendency to take shortcuts by relying on the text while overlooking the visual context when reasoning for technical image problems. In summary, we believe EEE-Bench not only reveals some noteworthy limitations of LMMs but also provides a valuable resource for advancing research on their application in practical engineering tasks, driving future improvements in their capability to handle complex, real-world scenarios.",
+    "authors": [
+      "Ming Li",
+      "Jike Zhong",
+      "Tianle Chen",
+      "Yuxiang Lai",
+      "Konstantinos Psounis"
+    ],
+    "publication_date": "2024-11-03T09:17:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.01492v2",
+    "download_url": "https://arxiv.org/abs/2411.01492v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Novel Combined Data-Driven Approach for Electricity Theft Detection",
+    "abstract": "The two-way flow of information and energy is an important feature of the Energy Internet. Data analytics is a powerful tool in the information flow that aims to solve practical problems using data mining techniques. As the problem of electricity thefts via tampering with smart meters continues to increase, the abnormal behaviors of thefts become more diversified and more difficult to detect. Thus, a data analytics method for detecting various types of electricity thefts is required. However, the existing methods either require a labeled dataset or additional system information which is difficult to obtain in reality or have poor detection accuracy. In this paper, we combine two novel data mining techniques to solve the problem. One technique is the Maximum Information Coefficient (MIC), which can find the correlations between the non-technical loss (NTL) and a certain electricity behavior of the consumer. MIC can be used to precisely detect thefts that appear normal in shapes. The other technique is the clustering technique by fast search and find of density peaks (CFSFDP). CFSFDP finds the abnormal users among thousands of load profiles, making it quite suitable for detecting electricity thefts with arbitrary shapes. Next, a framework for combining the advantages of the two techniques is proposed. Numerical experiments on the Irish smart meter dataset are conducted to show the good performance of the combined method.",
+    "authors": [
+      "Kedi Zheng",
+      "Qixin Chen",
+      "Yi Wang",
+      "Chongqing Kang",
+      "Qing Xia"
+    ],
+    "publication_date": "2024-11-11T01:30:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.06649v1",
+    "download_url": "https://arxiv.org/abs/2411.06649v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

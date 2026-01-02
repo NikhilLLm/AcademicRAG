@@ -1,0 +1,1260 @@
+[
+  {
+    "title": "An inorganic ABX3 perovskite materials dataset for target property prediction and classification using machine learning",
+    "abstract": "The reliability with Machine Learning (ML) techniques in novel materials discovery often depend on the quality of the dataset, in addition to the relevant features used in describing the material. In this regard, the current study presents and validates a newly processed materials dataset that can be utilized for benchmark ML analysis, as it relates to the prediction and classification of deterministic target properties. Originally, the dataset was extracted from the Open Quantum Materials Database (OQMD) and contains a robust 16,323 samples of ABX3 inorganic perovskite structures. The dataset is tabular in form and is preprocessed to include sixty-one generalized input features that broadly describes the physicochemical, stability/geometrical, and Density Functional Theory (DFT) target properties associated with the elemental ionic sites in a three-dimensional ABX3 polyhedral. For validation, four different ML models are employed to predict three distinctive target properties, namely: formation energy, energy band gap, and crystal system. On experimentation, the best accuracy measurements are reported at 0.013 eV/atom MAE, 0.216 eV MAE, and 85% F1, corresponding to the formation energy prediction, band gap prediction and crystal system multi-classification, respectively. Moreover, the realized results are compared with previous literature and as such, affirms the resourcefulness of the current dataset for future benchmark materials analysis via ML techniques. The preprocessed dataset and source codes are openly available to download from github.com/chenebuah/ML_abx3_dataset.",
+    "authors": [
+      "Ericsson Tetteh Chenebuah",
+      "David Tetteh Chenebuah"
+    ],
+    "publication_date": "2023-12-18T16:41:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.11335v1",
+    "download_url": "https://arxiv.org/abs/2312.11335v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sum-frequency generation through a unique Feynman diagram formalism: the case of bipartite organic/inorganic complexes",
+    "abstract": "In quantum electrodynamics, optical processes are theoretically described by double-sided Feynman diagrams. This formalism is powerful in the case of molecules but proves inappropriate to account for light-matter interactions within complex hybrid systems constituted of organic and inorganic matter. The double-sided Feynman diagrams do not easily enable to implement the coupling between the electronic properties of the former and the vibrational response of the latter. Here we present a new general method bridging optics and condensed matter physics in order to properly account for the underlying fundamental process thanks to the classical Feynman diagrams dedicated to solid state physics, instead of the double-sided diagrams commonly used in nonlinear optics. In a manner both rigorous and pedagogical, we especially show how Feynman diagrams can be used to analytically derive the quantum expressions of second-order optical response functions which prove to be in complete agreement with previously established experimental results.",
+    "authors": [
+      "T. Noblet",
+      "C. Humbert"
+    ],
+    "publication_date": "2019-06-07T16:06:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1906.03197v1",
+    "download_url": "https://arxiv.org/abs/1906.03197v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Carrier Transport in 2D Hybrid Organic-Inorganic Perovskites: the role of spacer molecules",
+    "abstract": "Two-dimensional organic-inorganic hybrid perovskites (2D HOIPs) have been widely used for various optoelectronics owing to the excellent photoelectric properties. Recently, a great deal of studies have focused on engineering the organic spacer cation in 2D HOIPs to enhance the carrier transport and improve the performance of devices. However, the selection of organic spacer cations is mostly qualitative without a quantitative guidance. Meanwhile, the fundamental mechanism of the carrier transport across the organic spacer layer is still unclear. Here, by using the first-principle non-adiabatic molecular dynamics (NAMD) method, we have studied the transport process of excited carriers between 2D HOIPs separated by the spacer cation layer. Various types of spacer cations of 2D HOIPs are investigated, where the carrier transport processes are simulated in real-time at atomic levels. We find that the excited electrons and holes can transfer from single-inorganic-layer 2D HOIP to bi-inorganic-layer 2D HOIP on a sub-picosecond scale, and different types of spacer cations can influence the carrier transfer rate significantly. Meanwhile, Dion-Jacobson (DJ) phase 2D HOIP leads to a more conductive carrier transport compared to the Ruddlesden-Popper (RP) phase, which is related to the different electron-phonon coupling strengths of these two phases. Moreover, we have developed a new method to capture the electron-hole interaction in the frame of NAMD. This work provides a promising direction to design new materials towards high performance optoelectronics.",
+    "authors": [
+      "Caihong Zheng",
+      "Fan Zheng"
+    ],
+    "publication_date": "2023-11-30T02:43:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.18204v1",
+    "download_url": "https://arxiv.org/abs/2311.18204v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient Modelling of Ion Structure and Dynamics in Inorganic Metal Halide Perovskites",
+    "abstract": "Metal halide perovskites (MHPs) are nowadays one of the most studied semiconductors due to their exceptional performance as active layers in solar cells. Although MHPs are excellent solid-state semiconductors, they are also ionic compounds, where ion migration plays a decisive role in their formation, their photovoltaic performance and their long-term stability. Given the above-mentioned complexity, molecular dynamics simulations based on classical force fields are especially suited to study MHP properties, such as lattice dynamics and ion migration. In particular, the possibility to model mixed compositions is important since they are the most relevant to optimize the optical band gap and the stability. With this intention, we employ DFT calculations and a genetic algorithm to develop a fully transferable classical force field valid for the benchmark inorganic perovskite compositional set CsPb(Br_xI_(1-x))_3 (x = 0,1/3,2/3,1). The resulting force field reproduces correctly, with a common set of parameters valid for all compositions, the experimental lattice parameter as a function of bromide/iodide ratio, the ion-ion distances and the XRD spectra of the pure and mixed structures. The simulated thermal conductivities and ion migration activation energies of the pure compounds are also in good agreement with experimental trends. Our molecular dynamics simulations make it possible to predict the compositional dependence of the ionic diffusion coefficient on bromide/iodide ratio and vacancy concentration. For vacancy concentrations of around 9 10^21 cm^-3, we obtained ionic diffusion coefficients at ambient temperature of 10^-11 and 10^-13 cm2/s for CsPbBr3 and CsPbI3, respectively. Interestingly, in comparison with the pure compounds, we predict a significantly lower activation energy for vacancy migration and faster diffusion for the mixed perovskites.",
+    "authors": [
+      "Salvador Rodriguez-Gomez Balestra",
+      "Jose Manuel Vicent-Luna",
+      "Sofia Calero",
+      "Shuxia Tao",
+      "Juan A. Anta"
+    ],
+    "publication_date": "2020-03-20T16:29:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.09360v1",
+    "download_url": "https://arxiv.org/abs/2003.09360v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Localized holes and delocalized electrons in photoexcited inorganic perovskites: Watching each atomic actor by picosecond X-ray absorption spectroscopy",
+    "abstract": "We report on an element-selective study of the fate of charge carriers in photoexcited inorganic CsPbBr3 and CsPb(ClBr)3 perovskite nanocrystals (NCs) in toluene solutions using time-resolved X-ray absorption spectroscopy with 80 ps time resolution. Probing the Br K-edge, the Pb L3-edge and the Cs L2-edge, we find that holes in the valence band are localized at Br atoms, forming small polarons, while electrons appear as delocalized in the conduction band. No signature of either electronic or structural changes are observed at the Cs L2-edge. The results at the Br and Pb edges suggest the existence of a weakly localized exciton, while the absence of signatures at the Cs edge indicates that the Cs+ cation plays no role in the charge transport, at least beyond 80 ps. These results can explain the rather modest charge carrier mobilities in these materials.",
+    "authors": [
+      "Fabio G. Santomauro",
+      "Jakob Grilj",
+      "Lars Mewes",
+      "Georgian Nedelcu",
+      "Sergii Yakunin",
+      "Thomas Rossi",
+      "Gloria Capano",
+      "André Al Haddad",
+      "James Budarz",
+      "Dominik Kinschel",
+      "Dario S. Ferreira",
+      "Giacomo Rossi",
+      "Mario Gutierrez Tovar",
+      "Daniel Grolimund",
+      "Valerie Samson",
+      "Maarten Nachtegaal",
+      "Grigory Smolentsev",
+      "Maksym V. Kovalenko",
+      "Majed Chergui"
+    ],
+    "publication_date": "2016-10-07T11:36:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1610.02231v1",
+    "download_url": "https://arxiv.org/abs/1610.02231v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electron Photodetachment from Aqueous Anions. I. Quantum Yields for Generation of Hydrated Electron by 193 and 248 nm Laser Photoexcitation of Miscellaneous Inorganic Anions",
+    "abstract": "Time resolved transient absorption spectroscopy has been used to determine quantum yields for electron photodetachment in 193 nm and (where possible) 248 nm laser excitation of miscellaneous aqueous anions, including hexacyanoferrate(II), sulfate, sulfite, halide anions (Cl-, Br-, and I-), pseudohalide anions (OH-, HS-, CNS-), and several common inorganic anions for which no quantum yields have been reported heretofore: SO3=, NO2-, NO3-, ClO3- and ClO4-. Molar extinction coefficients for these anions and photoproducts of electron detachment from these anions at the excitation wavelengths were also determined. These results are discussed in the context of recent ultrafast kinetic studies and compared with the previous data obtained by product analyses. We suggest using electron photodetachment from the aqueous halide and pseudohalide anions as actinometric standard for time-resolved studies of aqueous photosystems in the UV.",
+    "authors": [
+      "Myran C. Sauer",
+      "R. A. Crowell",
+      "Ilya A. Shkrob"
+    ],
+    "publication_date": "2004-01-16T23:00:54Z",
+    "arxiv_id": "http://arxiv.org/abs/physics/0401080v1",
+    "download_url": "https://arxiv.org/abs/physics/0401080v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep-blue light emitting diode based on defect variations of a 2D hybrid organic-inorganic low dimensional perovskite semiconductor",
+    "abstract": "2D hybrid organic-inorganic semiconductors (HOIS) are low-cost, self-assembled semiconductors that have proven to be vital for novel optoelectronic devices due to their inherent stable excitons even at room temperature. 2D HOIS are chemically stable with respect to the 3D analogues, but their inherent anisotropy complicates their implementation in devices, including electroluminescence (EL) devices. We report on the synthesis, characterization, cathodoluminescence and EL of a new 2D HOIS, (4-fluoro phenethylamine-H)2PbBr4, and its defect variations (DVs). The latter, in contrast to the pristine material, allow for the first time the simple fabrication of a prototype blue EL device by coating DVs on a conducting anode substrate and using a Ga/In droplet cathode. DVs' optimization can lead to improved light emitting devices (LEDs) and the work here is expected to provide the incentive for utilizing HOIS DVs, as these are compatible with industrial scale synthesis. In contrast to the pristine iodine analogue, whose thin films readily provide EL, only the DVs or mixtures with MoS2 nano-sized platelets provide EL, after careful deposition. These exhibit defects that disrupt the planar non-conductive nature of the micrometric 2D HOIS platelets, usually aligned parallel to the substrate, thus, providing mechanisms for current flow. Finally, the choice of the fluorine-modified amine enhances the functionality of the DVs as LED materials compared to using unmodified amine due to the repulsion among the amine tails, leading to stable decorated 2D inorganic sheets that are weakly bound.",
+    "authors": [
+      "Ioanna Vareli",
+      "Anastasia Vassilakopoulou",
+      "Ioannis Koutselas"
+    ],
+    "publication_date": "2018-03-02T14:27:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.00863v1",
+    "download_url": "https://arxiv.org/abs/1803.00863v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Comparative study of the binding energy in a thin and ultra-thin organic-inorganic perovskite within dielectric mismatches effects",
+    "abstract": "The multi-quantum well (MQW) organic-inorganic perovskite offer an approach of tuning the exciton binding energy based on the well-barrier dielectric mismatch effect, which called the image charge effect. The exfoliation from MQW organic-inorganic perovskite forms a twodimensional (2D) nano-sheet. As with other 2D materials, like graphene or transition metal dichalcogenides (TMDs), the ultra-thin perovskites layers are highly sensitive to the dielectric environment. We investigate the ultrathin crystalline 2D van-der-Waals (vdW) layers of organic-inorganic perovskite crystals close to a surface of the substrate. We show that binding exciton energy is strongly influenced by the surrounding dielectric environment. We find that the Keldysh model somehow estimates the strong dependence of the exciton binding energies on environmental screening. We compare our binding energies results with experimental results in the (C6H13NH3)2PbI4 perovskite, and we estimate the binding energy values of (C4H9NH3)2PbBr4.",
+    "authors": [
+      "Haitham Zahra",
+      "Aïda Hichri",
+      "Sihem Jaziri"
+    ],
+    "publication_date": "2017-03-21T19:51:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1703.07407v1",
+    "download_url": "https://arxiv.org/abs/1703.07407v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Emergence of Unconventional Plasmons Driven by Correlated Electron Interaction in B-site of 2D Hybrid Organic-Inorganic Perovskites",
+    "abstract": "Hybrid organic-inorganic perovskites (HOIPs) have emerged to the forefront of optoelectronic materials advancement in the past few years. Due to the nature of organic compounds within the perovskite structure, its optoelectronic properties are affected by complex interaction and correlation effects between the organic and inorganic ions. Using spectroscopic ellipsometry, we observe two broad plasmonic excitation from the calculated loss function (LF) -Im[\\varepislon^{-1} (ω)], peak A' and B' at 3.28 eV and 4.26 eV, respectively.The presence of these two asymmetric peaks in the spectroscopic ellipsometry (SE) spectra indicates the existence of unconventional plasmons at room temperature. This is inferred due to the absence of the zero-crossing in the real part of dielectric function \\varepsilon_1 (ω). Through combined Near-Edge X-ray Absorption Fine Structure (NEXAFS) and Resonant Photoemission Spectroscopies (ResPES), we observe resonance enhancement peak close to 15 eV in the C K-edge region that unravels a charge transfer event due to the opening of an extra autoionization channel. Additionally, photoluminescence (PL) spectrum confirms the presence of broadband emission originating from the self-trapped emission excitons at 2.38 eV due to the soft 2D-HOIPs crystal structure. We believe that these phenomena directly impact the correlation strength in 2D-HOIPs. Our results have confirmed the existence of unconventional plasmons of 2D-HOIPs at room temperature. Such studies in the emission and plasmonic behavior of perovskites will pave the way for the efficient light emitting devices or lasers with minimal integrations of the materials.",
+    "authors": [
+      "Muhammad Avicenna Naradipa",
+      "Aozhen Xie",
+      "Arramel",
+      "Xinmao Yin",
+      "Chi Sin Tang",
+      "Muhammad Fauzi Sahdan",
+      "Teguh Citra Asmara",
+      "Cuong Dang",
+      "Muhammad Danang Birowosuto",
+      "Andrew Thye Shen Wee",
+      "Andrivo Rusydi"
+    ],
+    "publication_date": "2019-12-09T09:14:05Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.03909v2",
+    "download_url": "https://arxiv.org/abs/1912.03909v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Approximations for modelling CO chemistry in GMCs: a comparison of approaches",
+    "abstract": "We examine several different simplified approaches for modelling the chemistry of CO in three-dimensional numerical simulations of turbulent molecular clouds. We compare the different models both by looking at the behaviour of integrated quantities such as the mean CO fraction or the cloud-averaged CO-to-H2 conversion factor, and also by studying the detailed distribution of CO as a function of gas density and visual extinction. In addition, we examine the extent to which the density and temperature distributions depend on our choice of chemical model.\n  We find that all of the models predict the same density PDF and also agree very well on the form of the temperature PDF for temperatures T > 30 K, although at lower temperatures, some differences become apparent. All of the models also predict the same CO-to-H2 conversion factor, to within a factor of a few. However, when we look more closely at the details of the CO distribution, we find larger differences. The more complex models tend to produce less CO and more atomic carbon than the simpler models, suggesting that the C/CO ratio may be a useful observational tool for determining which model best fits the observational data. Nevertheless, the fact that these chemical differences do not appear to have a strong effect on the density or temperature distributions of the gas suggests that the dynamical behaviour of the molecular clouds on large scales is not particularly sensitive to how accurately the small-scale chemistry is modelled.",
+    "authors": [
+      "S. C. O. Glover",
+      "P. C. Clark"
+    ],
+    "publication_date": "2011-02-03T12:56:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1102.0670v2",
+    "download_url": "https://arxiv.org/abs/1102.0670v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum State Preparation Of Multiconfigurational States For Quantum Chemistry",
+    "abstract": "The ability to prepare states for quantum chemistry is a promising feature of quantum computers, and efficient techniques for chemical state preparation is an active area of research. In this paper, we implement and investigate two methods of quantum circuit preparation for multiconfigurational states for quantum chemical applications. It has previously been shown that controlled Givens rotations are universal for quantum chemistry. To prepare a selected linear combination of Slater determinants (represented as occupation number configurations) using Givens rotations, the gates that rotate between the reference and excited determinants need to be controlled on qubits outside the excitation (external controls), in general. We implement a method to automatically find the external controls required for utilizing Givens rotations to prepare multiconfigurational states on a quantum circuit. We compare this approach to an alternative technique that exploits the sparsity of the chemical state vector and find that the latter can outperform the method of externally controlled Givens rotations; highly reduced circuits can be obtained by taking advantage of the sparse nature (where the number of basis states is significantly less than 2$^{n_q}$ for $n_q$ qubits) of chemical wavefunctions. We demonstrate the benefits of these techniques in a range of applications, including the ground states of a strongly correlated molecule, matrix elements of the Q-SCEOM algorithm for excited states, as well as correlated initial states for a quantum subspace method based on quantum computed moments and quantum phase estimation.",
+    "authors": [
+      "Gabriel Greene-Diniz",
+      "Georgia Prokopiou",
+      "David Zsolt Manrique",
+      "David Muñoz Ramo"
+    ],
+    "publication_date": "2025-08-07T13:40:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.05390v1",
+    "download_url": "https://arxiv.org/abs/2508.05390v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+    "abstract": "Atomistic simulations are essential tools in chemistry and materials science, accelerating the discovery of novel catalysts, energy storage materials, and pharmaceuticals. However, running these simulations remains challenging due to the wide range of computational methods, diverse software ecosystems, and the need for expert knowledge and manual effort for the setup, execution, and validation stages. In this work, we present ChemGraph, an agentic framework powered by artificial intelligence and state-of-the-art simulation tools to streamline and automate computational chemistry and materials science workflows. ChemGraph leverages graph neural network-based foundation models for accurate yet computationally efficient calculations and large language models (LLMs) for natural language understanding, task planning, and scientific reasoning to provide an intuitive and interactive interface. Users can perform tasks such as molecular structure generation, single-point energy, geometry optimization, vibrational analysis, and thermochemistry calculations with methods ranging from tight-binding and machine learning interatomic potentials to density functional theory or wave function theory-based methods. We evaluate ChemGraph across 13 benchmark tasks and demonstrate that smaller LLMs (GPT-4o-mini, Claude-3.5-haiku, Qwen2.5-14B) perform well on simple workflows, while more complex tasks benefit from using larger models like GPT-4o. Importantly, we show that decomposing complex tasks into smaller subtasks through a multi-agent framework enables smaller LLM models to match or exceed GPT-4o's performance in specific scenarios.",
+    "authors": [
+      "Thang D. Pham",
+      "Aditya Tanikanti",
+      "Murat Keçeli"
+    ],
+    "publication_date": "2025-06-03T21:11:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.06363v1",
+    "download_url": "https://arxiv.org/abs/2506.06363v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Effects of Taxes on Wealth Inequality in Artificial Chemistry Models of Economic Activity",
+    "abstract": "We consider a number of Artificial Chemistry models for economic activity and what consequences they have for the formation of economic inequality. We are particularly interested in what tax measures are effective in dampening economic inequality. By starting from well-known kinetic exchange models, we examine different scenarios for reducing the tendency of economic activity models to form unequal wealth distribution in equilibrium.",
+    "authors": [
+      "Wolfgang Banzhaf"
+    ],
+    "publication_date": "2020-07-03T18:00:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.02934v1",
+    "download_url": "https://arxiv.org/abs/2007.02934v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Gate count estimates for performing quantum chemistry on small quantum computers",
+    "abstract": "As quantum computing technology improves and quantum computers with a small but non-trivial number of N > 100 qubits appear feasible in the near future the question of possible applications of small quantum computers gains importance. One frequently mentioned application is Feynman's original proposal of simulating quantum systems, and in particular the electronic structure of molecules and materials. In this paper, we analyze the computational requirements for one of the standard algorithms to perform quantum chemistry on a quantum computer. We focus on the quantum resources required to find the ground state of a molecule twice as large as what current classical computers can solve exactly. We find that while such a problem requires about a ten-fold increase in the number of qubits over current technology, the required increase in the number of gates that can be coherently executed is many orders of magnitude larger. This suggests that for quantum computation to become useful for quantum chemistry problems, drastic algorithmic improvements will be needed.",
+    "authors": [
+      "Dave Wecker",
+      "Bela Bauer",
+      "Bryan K. Clark",
+      "Matthew B. Hastings",
+      "Matthias Troyer"
+    ],
+    "publication_date": "2013-12-05T21:00:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1312.1695v3",
+    "download_url": "https://arxiv.org/abs/1312.1695v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Review of important reactions for the nitrogen chemistry in the interstellar medium",
+    "abstract": "Predictions of astrochemical models depend strongly on the reaction rate coefficients used in the simulations. We reviewed a number of key reactions for the chemistry of nitrogen-bearing species in the dense interstellar medium and proposed new reaction rate coefficients for those reactions. The details of the reviews are given in the form of a datasheet associated with each reaction. The new recommended rate coefficients are given with an uncertainty and a temperature range of validity and will be included in KIDA (http://kida.obs.u-bordeaux1.fr).",
+    "authors": [
+      "V. Wakelam",
+      "I. W. M. Smith",
+      "J. -C. Loison",
+      "D. Talbi",
+      "S. J. Klippenstein",
+      "A. Bergeat",
+      "W. D. Geppert",
+      "K. M. Hickson"
+    ],
+    "publication_date": "2013-10-16T12:35:53Z",
+    "arxiv_id": "http://arxiv.org/abs/1310.4350v1",
+    "download_url": "https://arxiv.org/abs/1310.4350v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry in Quantum Cavities: Exact Results, the Impact of Thermal Velocities and Modified Dissociation",
+    "abstract": "In recent years tremendous progress in the field of light-matter interactions has unveiled that strong coupling to the modes of an optical cavity can alter chemistry even at room temperature. Despite these impressive advances, many fundamental questions of chemistry in cavities remain unanswered. This is also due to a lack of exact results that can be used to validate and benchmark approximate approaches. In this work we provide such reference calculations from exact diagonalisation of the Pauli-Fierz Hamiltonian in the long-wavelength limit with an effective cavity mode. This allows us to investigate the reliability of the ubiquitous Jaynes-Cummings model not only for electronic but also for the case of ro-vibrational transitions. We demonstrate how the commonly ignored thermal velocity of charged molecular systems can influence chemical properties, while leaving the spectra invariant. Furthermore, we show the emergence of new bound polaritonic states beyond the dissociation energy limit.",
+    "authors": [
+      "Dominik Sidler",
+      "Michael Ruggenthaler",
+      "Heiko Appel",
+      "Angel Rubio"
+    ],
+    "publication_date": "2020-05-19T12:23:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.09385v1",
+    "download_url": "https://arxiv.org/abs/2005.09385v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Coupling of surface chemistry and electric double layer at TiO$_2$ electrochemical interfaces",
+    "abstract": "Surfaces of metal oxides at working conditions are usually electrified due to the acid-base chemistry. The charged interface compensated with counterions forms the so-called electric double layer. The coupling of surface chemistry and electric double layer is considered to be crucial but poorly understood because of lacking the information at the atomistic scale. Here, we used the latest development in density functional theory based finite-field molecular dynamics simulation to investigate pH-dependence of the Helmholtz capacitance at electrified rutile TiO$_2$ (110)-NaCl electrolyte interfaces. It is found that, due to competing forces from surface adsorption and from electric double layer, water molecules have a stronger structural fluctuation at high pH and this leads to a much larger capacitance. It is also seen that, interfacial proton transfers at low pH increase significantly the capacitance value. These findings elucidate the microscopic origin for the same trend observed in titration experiments.",
+    "authors": [
+      "Chao Zhang",
+      "Jürg Hutter",
+      "Michiel Sprik"
+    ],
+    "publication_date": "2019-02-02T21:53:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1902.00802v3",
+    "download_url": "https://arxiv.org/abs/1902.00802v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Symmetrical Graph Neural Network for Quantum Chemistry, with Dual R/K Space",
+    "abstract": "Most of current neural network models in quantum chemistry (QC) exclude the molecular symmetry, separate the well-correlated real space (R space), and momenta space (K space) into two individuals, which lack the essential physics in molecular chemistry. In this work, by endorsing the molecular symmetry and elementals of group theory, we propose a comprehensive method to apply symmetry in the graph neural network (SY-GNN), which extends the property-predicting coverage to all the orbital symmetry for both ground and excited states. SY-GNN shows excellent performance in predicting both the absolute and relative of R and K spaces quantities. Besides the numerical properties, SY-GNN also can predict the orbitals distributions in real space, providing the active regions of chemical reactions. We believe the symmetry endorsed deep learning scheme covers the significant physics inside and is essential for the application of neural networks in QC and many other research fields in the future.",
+    "authors": [
+      "Shuqian Ye",
+      "Jiechun Liang",
+      "Rulin Liu",
+      "Xi Zhu"
+    ],
+    "publication_date": "2019-12-16T09:27:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.07256v1",
+    "download_url": "https://arxiv.org/abs/1912.07256v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the reservoir of sulphur in dark clouds : chemistry and elemental abundance reconciled",
+    "abstract": "Sulphur-bearing species are often used to probe the physical structure of star forming regions of the interstellar medium, but the chemistry of sulphur in these regions is still poorly understood. In dark clouds, sulphur is supposed to be depleted under a form which is still unknown despite numerous observations and chemical modeling studies that have been performed. In order to improve the modeling of sulphur chemistry, we propose an enhancement of the sulphur chemical network using experimental and theoretical literature. We test the effect of the updated network on the outputs of a three phases gas-grain chemical model for dark cloud conditions using different elemental sulphur abundances. More particularly, we focus our study on the main sulphur reservoirs as well as on the agreement between model predictions and the abundances observed in the dark cloud TMC-1 (CP). Our results show that depending on the age of the observed cloud, the reservoir of sulphur could either be atomic sulphur in the gas-phase or HS and H2S in icy grain bulks. We also report the first chemical model able to reproduce the abundances of observed S-bearing species in TMC-1 (CP) using as elemental abundance of sulphur its cosmic value.",
+    "authors": [
+      "Thomas H. G. Vidal",
+      "Jean-Christophe Loison",
+      "Adam Yassin Jaziri",
+      "Maxime Ruaud",
+      "Pierre Gratier",
+      "Valentine Wakelam"
+    ],
+    "publication_date": "2017-04-05T13:22:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1704.01404v1",
+    "download_url": "https://arxiv.org/abs/1704.01404v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the effects of UV photons/X-rays on the chemistry of the Sgr B2 cloud",
+    "abstract": "The lines of HOC$^+$, HCO and CO$^+$ are considered good tracers of photon-dominated regions (PDRs) and X-ray dominated regions. We study these tracers towards regions of the Sgr B2 cloud selected to be affected by different heating mechanisms. We find the lowest values of the column density ratios of HCO$^+$ versus HOC$^+$, HCO and CO$^+$ in dense HII gas, where UV photons dominate the heating and chemistry of gas. HOC$^+$, HCO and CO$^+$ abundances and the above ratios are compared with those of chemical modeling, finding that high temperature chemistry, a cosmic-ray ionization rate of 10$^{-16}$ s$^{-1}$ and timescales $>$10$^{5.0}$ years explain well the HOC$^+$ abundances in quiescent Sgr B2 regions, while shocks are also needed to explain the highest HCO abundances derived for these regions. CO$^+$ is mainly formed in PDRs since the highest CO$^+$ abundances of $\\sim$(6-10)$\\times$10$^{-10}$ are found in HII regions with electron densities $>$540 cm$^{-3}$ and that CO$^+$ emission is undetected in quiescent gas. Between the ratios, the HCO$^+$/HCO ratio is sensitive to the electron density as it shows different values in dense and diffuse HII regions. We compare SiO J=2-1 emission maps of Sgr B2 with X-ray maps from 2004 and 2012. One known spot shown on the 2012 X-ray map is likely associated with molecular gas at velocities of 15-25 km s$^{-1}$. We also derive the X-ray ionization rate of $\\sim$10$^{-19}$ s$^{-1}$ for Sgr B2 regions pervaded by X-rays in 2004, which is quite low to affect the chemistry of the molecular gas.",
+    "authors": [
+      "J. Armijos-Abendaño",
+      "J. Martín-Pintado",
+      "E. López",
+      "M. Llerena",
+      "N. Harada",
+      "M. A. Requena-Torres",
+      "S. Martín",
+      "V. M. Rivilla",
+      "D. Riquelme",
+      "F. Aldas"
+    ],
+    "publication_date": "2020-04-27T16:01:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.12900v1",
+    "download_url": "https://arxiv.org/abs/2004.12900v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemical Kinetics Simulations of Ice Chemistry on Porous Versus Non-Porous Dust Grains",
+    "abstract": "The degree of porosity in interstellar dust-grain material is poorly defined, although recent work has suggested that the grains could be highly porous. Aside from influencing the optical properties of the dust, porosity has the potential to affect the chemistry occurring on dust-grain surfaces, via increased surface area, enhanced local binding energies, and the possibility of trapping of molecules within the pores as ice mantles build up on the grains. Through computational kinetics simulations, we investigate how interstellar grain-surface chemistry and ice composition are affected by the porosity of the underlying dust-grain material. Using a simple routine, idealized three-dimensional dust-grains are constructed, atom by atom, with varying degrees of porosity. Diffusive chemistry is then simulated on these surfaces using the off-lattice microscopic Monte Carlo chemical kinetics model, MIMICK, assuming physical conditions appropriate to dark interstellar clouds. On the porous grain surface, the build-up of ice mantles, mostly composed of water, leads to the covering over of the pores, leaving empty pockets. Once the pores are completely covered, the chemical and structural behavior is similar to non-porous grains of the same size. The most prominent chemical effect of the presence of grain porosity is the trapping of molecular hydrogen, formed on the grain surfaces, within the ices and voids inside the grain pores. Trapping of H2 in this way may indicate that other volatiles, such as inert gases not included in these models, could be trapped within dust-grain porous structures when ices begin to form.",
+    "authors": [
+      "Drew A. Christianson",
+      "Robin T. Garrod"
+    ],
+    "publication_date": "2021-04-27T02:14:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.12943v1",
+    "download_url": "https://arxiv.org/abs/2104.12943v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Investigating the asymmetric chemistry in the disk around the young star HD 142527",
+    "abstract": "The atmospheric composition of planets is determined by the chemistry of the disks in which they form. Studying the gas-phase molecular composition of disks thus allows us to infer what the atmospheric composition of forming planets might be. Recent observations of the IRS 48 disk have shown that (asymmetric) dust traps can directly impact the observable chemistry, through radial and vertical transport, and the sublimation of ices. The asymmetric HD 142527 disk provides another good opportunity to investigate the role of dust traps in setting the disk's chemical composition. In this work, we use archival ALMA observations of the HD 142527 disk to obtain an as large as possible molecular inventory, which allows us to investigate the possible influence of the asymmetric dust trap on the disk's chemistry. We present the first ALMA detections of [C I], 13C18O, DCO+, H2CO and additional transition of HCO+ and CS in this disk. In addition, we have acquired upper limits for non-detected species such as SO and CH3OH. For the majority of the observed molecules, a decrement in the emission at the location of the dust trap is found. For the main CO isotopologues continuum over-subtraction likely causes the observed asymmetry, while for CS and HCN we propose that the observed asymmetries are likely due to shadows cast by the misaligned inner disk. As the emission of the observed molecules is not co-spatial with the dust trap and no SO or CH3OH are found, thermal sublimation of icy mantles does not appear to play a major role in changing the gas-phase composition of the outer disk in HD 142527 disk. Using our observations of 13C18O and DCO+ and a RADMC-3D model, we determine the CO snowline to be located beyond the dust traps, favouring cold gas-phase formation of H2CO, rather than the hydrogenation of CO-ice and subsequent sublimation.",
+    "authors": [
+      "Milou Temmink",
+      "Alice S. Booth",
+      "Nienke van der Marel",
+      "Ewine F. van Dishoeck"
+    ],
+    "publication_date": "2023-04-13T10:32:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.06382v1",
+    "download_url": "https://arxiv.org/abs/2304.06382v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry-Inspired Diffusion with Non-Differentiable Guidance",
+    "abstract": "Recent advances in diffusion models have shown remarkable potential in the conditional generation of novel molecules. These models can be guided in two ways: (i) explicitly, through additional features representing the condition, or (ii) implicitly, using a property predictor. However, training property predictors or conditional diffusion models requires an abundance of labeled data and is inherently challenging in real-world applications. We propose a novel approach that attenuates the limitations of acquiring large labeled datasets by leveraging domain knowledge from quantum chemistry as a non-differentiable oracle to guide an unconditional diffusion model. Instead of relying on neural networks, the oracle provides accurate guidance in the form of estimated gradients, allowing the diffusion process to sample from a conditional distribution specified by quantum chemistry. We show that this results in more precise conditional generation of novel and stable molecular structures. Our experiments demonstrate that our method: (1) significantly reduces atomic forces, enhancing the validity of generated molecules when used for stability optimization; (2) is compatible with both explicit and implicit guidance in diffusion models, enabling joint optimization of molecular properties and stability; and (3) generalizes effectively to molecular optimization tasks beyond stability optimization.",
+    "authors": [
+      "Yuchen Shen",
+      "Chenhao Zhang",
+      "Sijie Fu",
+      "Chenghui Zhou",
+      "Newell Washburn",
+      "Barnabás Póczos"
+    ],
+    "publication_date": "2024-10-09T03:10:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.06502v2",
+    "download_url": "https://arxiv.org/abs/2410.06502v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spin-Based Quantum Computers made by Chemistry: Hows and Whys",
+    "abstract": "This introductory review discusses the main problems facing the attempt to build quantum information processing systems (like quantum computers) from spin-based qubits. We emphasize 'bottom-up' attempts using methods from chemistry. The essentials of quantum computing are explained, along with a description of the qubits and their interactions in terms of physical spin qubits. The main problem to be overcome is decoherence - how this works is described, along with ways to suppress contributions from spin bath and oscillator bath environments, and from dipolar interactions. Finally we discuss various strategies for making chemistry-based spin qubits, using both magnetic molecules and magnetic ions.",
+    "authors": [
+      "Philip C. E. Stamp",
+      "Alejandro Gaita-Ariño"
+    ],
+    "publication_date": "2008-07-12T16:29:16Z",
+    "arxiv_id": "http://arxiv.org/abs/0807.1986v2",
+    "download_url": "https://arxiv.org/abs/0807.1986v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MC3D: The Materials Cloud computational database of experimentally known stoichiometric inorganics",
+    "abstract": "DFT is a widely used method to compute properties of materials, which are often collected in databases and serve as valuable starting points for further studies. In this article, we present the Materials Cloud Three-Dimensional Structure Database (MC3D), an online database of computed three-dimensional (3D) inorganic crystal structures. Close to a million experimentally reported structures were imported from the COD, ICSD and MPDS databases; these were parsed and filtered to yield a collection of 72589 unique and stoichiometric structures, of which 95% are, to date, classified as experimentally known. The geometries of structures with up to 64 atoms were then optimized using density-functional theory (DFT) with automated workflows and curated input protocols. The procedure was repeated for different functionals (and computational protocols), with the latest version (MC3D PBEsol-v2) comprising 32013 unique structures. All versions of the MC3D are made available on the Materials Cloud portal, which provides a graphical interface to explore and download the data. The database includes the full provenance graph of all the calculations driven by the automated workflows, thus establishing full reproducibility of the results and more-than-FAIR procedures.",
+    "authors": [
+      "Sebastiaan P. Huber",
+      "Michail Minotakis",
+      "Marnik Bercx",
+      "Timo Reents",
+      "Kristjan Eimre",
+      "Nataliya Paulish",
+      "Nicolas Hörmann",
+      "Martin Uhrin",
+      "Nicola Marzari",
+      "Giovanni Pizzi"
+    ],
+    "publication_date": "2025-08-26T17:39:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.19223v1",
+    "download_url": "https://arxiv.org/abs/2508.19223v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "First-Principles Studies of Second-Order Nonlinear Optical Properties of Organic-Inorganic Hybrid Halide Perovskites",
+    "abstract": "Organic-inorganic hybrid halide perovskites have ignited tremendous interests for photovoltaic applications. However, their nonlinear optical response has not been studied although many of these structures lack the centrosymmetry and exhibit ferroelectricity. In this work, we employ our developed large-scale parallel, first-principles simulation tool (ArchNLO) to explore second-order nonlinear optical properties of a typical family of organic-inorganic hybrid halide perovskites, CH3NH3MX3 (M= Ge, Sn, Pb; X=Cl, Br, I). We find that these hybrid perovskites exhibit second harmonic generation and linear electro-optic effect. The nonlinear optical effects are strongly influenced by the types and positions of cations/anions and corresponding band gaps. Particularly, the distorted cubic phase, which is essentially triclinic, of CH3NH3SnI3 shows significant second harmonic generation and electro-optic effect, which are comparable with those widely used materials, such as GaAs. These second-order optical properties of organic-inorganic hybrid halide perovskites and their low-temperature, solution-based fabrication pave the way for achieving and implementing nonlinear optical devices with low cost.",
+    "authors": [
+      "Wenshen Song",
+      "Guang-Yu Guo",
+      "Su Huang",
+      "Lan Yang",
+      "Li Yang"
+    ],
+    "publication_date": "2020-02-12T20:20:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.05216v1",
+    "download_url": "https://arxiv.org/abs/2002.05216v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Chemistry Beyond the Scale of Exact Diagonalization on a Quantum-Centric Supercomputer",
+    "abstract": "A universal quantum computer can simulate diverse quantum systems, with electronic structure for chemistry offering challenging problems for practical use cases around the hundred-qubit mark. While current quantum processors have reached this size, deep circuits and large number of measurements lead to prohibitive runtimes for quantum computers in isolation. Here, we demonstrate the use of classical distributed computing to offload all but an intrinsically quantum component of a workflow for electronic structure simulations. Using a Heron superconducting processor and the supercomputer Fugaku, we simulate the ground-state dissociation of N$_2$ and the [2Fe-2S] and [4Fe-4S] clusters, with circuits up to 77 qubits and 10,570 gates. The proposed algorithm processes quantum samples to produce upper bounds for the ground-state energy and sparse approximations to the ground-state wavefunctions. Our results suggest that, for current error rates, a quantum-centric supercomputing architecture can tackle challenging chemistry problems beyond sizes amenable to exact diagonalization.",
+    "authors": [
+      "Javier Robledo-Moreno",
+      "Mario Motta",
+      "Holger Haas",
+      "Ali Javadi-Abhari",
+      "Petar Jurcevic",
+      "William Kirby",
+      "Simon Martiel",
+      "Kunal Sharma",
+      "Sandeep Sharma",
+      "Tomonori Shirakawa",
+      "Iskandar Sitdikov",
+      "Rong-Yang Sun",
+      "Kevin J. Sung",
+      "Maika Takita",
+      "Minh C. Tran",
+      "Seiji Yunoki",
+      "Antonio Mezzacapo"
+    ],
+    "publication_date": "2024-05-08T14:08:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.05068v3",
+    "download_url": "https://arxiv.org/abs/2405.05068v3",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sulfidic Anion Concentrations on Early Earth for Surficial Origins-of-Life Chemistry",
+    "abstract": "A key challenge in origin-of-life studies is understanding the environmental conditions on early Earth under which abiogenesis occurred. While some constraints do exist (e.g., zircon evidence for surface liquid water), relatively few constraints exist on the abundances of trace chemical species, which are relevant to assessing the plausibility and guiding the development of postulated prebiotic chemical pathways which depend on these species. In this work, we combine literature photochemistry models with simple equilibrium chemistry calculations to place constraints on the plausible range of concentrations of sulfidic anions (HS$^-$, HSO$_3^{-}$, SO$_3^{2-}$) available in surficial aquatic reservoirs on early Earth due to outgassing of SO$_2$ and H$_2$S and their dissolution into small shallow surface water reservoirs like lakes. We find that this mechanism could have supplied prebiotically relevant levels of SO$_2$-derived anions, but not H$_2$S-derived anions. Radiative transfer modelling suggests UV light would have remained abundant on the planet surface for all but the largest volcanic explosions. We apply our results to the case study of the proposed prebiotic reaction network of Patel et al. (2015), and discuss the implications for improving its prebiotic plausibility. In general, epochs of moderately high volcanism could have been especially conducive to cyanosulfidic prebiotic chemistry. Our work can be similarly applied to assess and improve the prebiotic plausibility of other postulated surficial prebiotic chemistries that are sensitive to sulfidic anions, and our methods adapted to study other atmospherically-derived trace species.",
+    "authors": [
+      "Sukrit Ranjan",
+      "Zoe R. Todd",
+      "John D. Sutherland",
+      "Dimitar D. Sasselov"
+    ],
+    "publication_date": "2018-01-23T19:00:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1801.07725v1",
+    "download_url": "https://arxiv.org/abs/1801.07725v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Development and validation of a parameter-free model chemistry for the computation of reliable reaction rates",
+    "abstract": "A recently developed model chemistry (jun-Cheap) has been slightly modified and proposed as an effective, reliable and parameter-free scheme for the computation of accurate reaction rates with special reference to astrochemical and atmospheric processes. Benchmarks with different sets of state-of-the-art energy barriers spanning a wide range of values show that, in the absence of strong multi-reference contributions, the proposed model outperforms the most well-known model chemistries, reaching a sub-chemical accuracy without any empirical parameter and with affordable computer times. Some test cases show that geometries, energy barriers, zero point energies and thermal contributions computed at this level can be used in the framework of the master equation approach based on ab-initio transition state theory (AITSTME) for obtaining accurate reaction rates.",
+    "authors": [
+      "Vincenzo Barone",
+      "Jacopo Lupi",
+      "Zoi Salta",
+      "Nicola Tasinato"
+    ],
+    "publication_date": "2021-06-24T13:18:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.12999v1",
+    "download_url": "https://arxiv.org/abs/2106.12999v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning for Chemistry Reduction in N$_2$-H$_2$ Low-Temperature Plasmas",
+    "abstract": "Low-temperature plasmas are partially ionized gases, where ions and neutrals coexist in a highly reactive environment. This creates a rich chemistry, which is often difficult to understand in its full complexity. In this work, we develop a machine learning model to identify the most important reactions in a given chemical scheme. The training data are an initial distribution of species and a final distribution of species, which can be obtained from either experiments or simulations. The model is trained to provide a set of reaction weights, which become the basis for reducing the chemical scheme. The approach is applied to N$_2$-H$_2$ plasmas, created by an electric discharge at low pressure, where the main goal is to produce NH$_3$. The interplay of multiple species, as well as of volume and surface reactions, make this chemistry especially challenging to understand. Reducing the chemical scheme via the proposed model helps identify the main chemical pathways.",
+    "authors": [
+      "Diogo R. Ferreira",
+      "Alexandre Lança",
+      "Luís Lemos Alves"
+    ],
+    "publication_date": "2024-09-07T13:32:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.05914v2",
+    "download_url": "https://arxiv.org/abs/2409.05914v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Dielectric continuum methods for quantum chemistry",
+    "abstract": "This review describes the theory and implementation of implicit solvation models based on continuum electrostatics. Within quantum chemistry this formalism is sometimes synonymous with the polarizable continuum model, a particular boundary-element approach to the problem defined by the Poisson or Poisson-Boltzmann equation, but that moniker belies the diversity of available methods. This work reviews the current state-of-the art, with emphasis on theory and methods rather than applications. The basics of continuum electrostatics are described, including the nonequilibrium polarization response upon excitation or ionization of the solute. Nonelectrostatic interactions, which must be included in the model in order to obtain accurate solvation energies, are described as well. Numerical techniques for implementing the equations are discussed, including linear-scaling algorithms that can be used in classical or mixed quantum/classical biomolecular electrostatics calculations. Anisotropic models that can describe interfacial solvation are briefly described.",
+    "authors": [
+      "John M. Herbert"
+    ],
+    "publication_date": "2022-03-14T04:19:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.06846v1",
+    "download_url": "https://arxiv.org/abs/2203.06846v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Understanding LiOH Chemistry in a Ruthenium Catalyzed Li-O2 Battery",
+    "abstract": "Non-aqueous Li-O2 batteries are promising for next generation energy storage. New battery chemistries based on LiOH, rather than Li2O2, have recently been reported in systems with added water, one using a soluble additive LiI and the other using solid Ru catalysts. Here, we focus on the mechanism of Ru-catalyzed LiOH chemistry. Using nuclear magnetic resonance, operando electrochemical pressure measurements and mass spectrometry, we show that on discharging LiOH forms via a 4 e- oxygen reduction reaction, the H in LiOH coming solely from added H2O and the O from both O2 and H2O. On charging, quantitative LiOH oxidation occurs at 3.1 V, with O being trapped in a form of dimethyl sulfone in the electrolyte. Compared to Li2O2, LiOH formation over Ru incurs hardly any side reactions, a critical advantage for developing a long-lived battery. An optimized metal catalyst-electrolyte couple needs to be sought that aids LiOH oxidation and is able stable towards attack by hydroxyl radicals.",
+    "authors": [
+      "Tao Liu",
+      "Zigeng Liu",
+      "Gunwoo Kim",
+      "James T. Frith",
+      "Nuria Garcia-Araez",
+      "Clare P. Grey"
+    ],
+    "publication_date": "2018-05-08T20:27:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1805.03268v1",
+    "download_url": "https://arxiv.org/abs/1805.03268v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spin-state chemistry of deuterated ammonia",
+    "abstract": "Aims. We aim to develop a chemical model that contains a consistent description of spin-state chemistry in reactions involving chemical species with multiple deuterons. We apply the model to the specific case of deuterated ammonia, to derive values for the various spin-state ratios.\n  Methods. We apply symmetry rules in the complete scrambling assumption to calculate branching ratio tables for reactions between chemical species that include multiple protons and/or deuterons. Reaction sets for both gas-phase and grain-surface chemistry are generated using an automated routine that forms all possible spin-state variants of any given reaction with up to six H/D atoms. Single-point and modified Bonnor-Ebert models are used to study the density and temperature dependence of ammonia and its isotopologs, and the associated spin-state ratios.\n  Results. We find that the spin-state ratios of the ammonia isotopologs are, at late times, very different from their statistical values. The ratios are rather insensitive to variations in the density, but present strong temperature dependence. We derive high peak values ($\\sim$ 0.1) for the deuterium fraction in ammonia, in agreement with previous (gas-phase) models. The deuterium fractionation is strongest at high density, corresponding to a high degree of depletion, and also presents temperature dependence. We find that in the temperature range 5 to 20 K, the deuterium fractionation peaks at $\\sim$ 15 K while most of the ortho/para (and meta/para for $\\rm ND_3$) ratios present a minimum at 10 K (ortho/para $\\rm NH_2D$ has instead a maximum at this temperature).\n  Conclusions. Owing to the density and temperature dependence found in the abundances and spin-state ratios of ammonia and its isotopologs, it is evident that observations of ammonia and its deuterated forms can provide important constraints on the physical structure of molecular clouds.",
+    "authors": [
+      "O. Sipilä",
+      "J. Harju",
+      "P. Caselli",
+      "S. Schlemmer"
+    ],
+    "publication_date": "2015-07-10T11:22:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1507.02856v1",
+    "download_url": "https://arxiv.org/abs/1507.02856v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Enhancing PySCF-based Quantum Chemistry Simulations with Modern Hardware, Algorithms, and Python Tools",
+    "abstract": "The PySCF package has emerged as a powerful and flexible open-source platform for quantum chemistry simulations. However, the efficiency of electronic structure calculations can vary significantly depending on the choice of computational techniques and hardware utilization. In this paper, we explore strategies to enhance research productivity and computational performance in PySCF-based simulations. First, we discuss GPU acceleration for selected PySCF modules. Second, we demonstrate algorithmic optimizations for particular computational tasks, such as the initial guess manipulation, the second-order self-consistent field (SOSCF) methods, multigrid integration, and density fitting approximation, to improve convergence rates and computational efficiency. Finally, we explore the use of modern Python tools, including just-in-time (JIT) compilation and automatic differentiation to accelerate code development and execution. These approaches present a practical guide for enhancing the use of PySCF's capabilities in quantum chemistry research.",
+    "authors": [
+      "Zhichen Pu",
+      "Qiming Sun"
+    ],
+    "publication_date": "2025-06-07T04:51:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.06661v1",
+    "download_url": "https://arxiv.org/abs/2506.06661v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The impact of stellar companion UV photons on the chemistry of the circumstellar environments of AGB stars",
+    "abstract": "Spherical asymmetries are prevalent within the outflows of AGB stars. Since binary interaction with a stellar or planetary companion is thought to be the underlying mechanism behind large-scale structures, we included the effects of UV radiation originating from a stellar companion in our chemical kinetics model. The one-dimensional model provides a first approximation of its effects on the chemistry throughout the outflow. The presence of a close-by stellar companion can strongly influence the chemistry within the entire outflow. Its impact depends on the intensity of the radiation (set by the stellar radius and blackbody temperature) and on the extinction the UV radiation experiences (set by the outflow density, density structure, and assumed radius of dust formation). Parent species can be photodissociated by the companion, initiating a rich photon-driven chemistry in the inner parts of the outflow. The outcome depends on the balance between two-body reactions and photoreactions. If two-body reactions dominate, chemical complexity within the outflow increases. This can make the abundance profiles of daughters appear like those of parents, with a larger inner abundance and a gaussian decline. If photoreactions dominate, the outflow can appear molecule-poor. We model three stellar companions. The impact of a red dwarf companion is limited. Solar-like companions show the largest effect, followed by a white dwarf. A stellar companion can also lead to the formation of unexpected species. The outflow's molecular content, especially combined with abundance profiles, can indicate a stellar companion's presence. Our results pave the way for further outflow-specific (three-dimensional) model development.",
+    "authors": [
+      "M. Van de Sande",
+      "T. J. Millar"
+    ],
+    "publication_date": "2021-11-09T11:09:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.05053v2",
+    "download_url": "https://arxiv.org/abs/2111.05053v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hierarchical Clifford transformations to reduce entanglement in quantum chemistry wavefunctions",
+    "abstract": "The performance of computational methods for many-body physics and chemistry is strongly dependent on the choice of basis used to cast the problem; hence, the search for better bases and similarity transformations is important for progress in the field. So far, tools from theoretical quantum information have been not thoroughly explored for this task. Here we take a step in this direction by presenting efficiently computable Clifford similarity transformations for quantum chemistry Hamiltonians, which expose bases with reduced entanglement in the corresponding molecular ground states. These transformations are constructed via block diagonalization of a hierarchy of truncated molecular Hamiltonians, preserving the full spectrum of the original problem. We show that the bases introduced here allow for more efficient classical and quantum computation of ground state properties. First, we find a systematic reduction of bipartite entanglement in molecular ground states as compared to standard problem representations. This entanglement reduction has implications in classical numerical methods such as ones based on the density matrix renormalization group. Then, we develop variational quantum algorithms that exploit the structure in the new bases, showing again improved results when the hierarchical Clifford transformations are used.",
+    "authors": [
+      "Ryan V. Mishmash",
+      "Tanvi P. Gujarati",
+      "Mario Motta",
+      "Huanchen Zhai",
+      "Garnet Kin-Lic Chan",
+      "Antonio Mezzacapo"
+    ],
+    "publication_date": "2023-01-18T19:00:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2301.07726v1",
+    "download_url": "https://arxiv.org/abs/2301.07726v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The mechano-chemistry of cytoskeletal force generation",
+    "abstract": "In this communication, we propose a model to study the non-equilibrium process by which actin stress fibers develop force in contractile cells. The emphasis here is on the non-equilibrium thermodynamics, which is necessary to address the mechanics as well as the chemistry of dynamic cell contractility. In this setting we are able to develop a framework that relates (a) the dynamics of force generation within the cell and (b) the cell response to external stimuli to the chemical processes occurring within the cell, as well as to the mechanics of linkage between the stress fibers, focal adhesions and extra-cellular matrix.",
+    "authors": [
+      "Mirko Maraldi",
+      "Krishna Garikipati"
+    ],
+    "publication_date": "2014-04-01T20:08:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1404.0389v2",
+    "download_url": "https://arxiv.org/abs/1404.0389v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep variational quantum eigensolver for excited states and its application to quantum chemistry calculation of periodic materials",
+    "abstract": "A programmable quantum device that has a large number of qubits without fault-tolerance has emerged recently. Variational Quantum Eigensolver (VQE) is one of the most promising ways to utilize the computational power of such devices to solve problems in condensed matter physics and quantum chemistry. As the size of the current quantum devices is still not large for rivaling classical computers at solving practical problems, Fujii et al. proposed a method called \"Deep VQE\" which can provide the ground state of a given quantum system with the smaller number of qubits by combining the VQE and the technique of coarse-graining [K. Fujii, et al, arXiv:2007.10917]. In this paper, we extend the original proposal of Deep VQE to obtain the excited states and apply it to quantum chemistry calculation of a periodic material, which is one of the most impactful applications of the VQE. We first propose a modified scheme to construct quantum states for coarse-graining in Deep VQE to obtain the excited states. We also present a method to avoid a problem of meaningless eigenvalues in the original Deep VQE without restricting variational quantum states. Finally, we classically simulate our modified Deep VQE for quantum chemistry calculation of a periodic hydrogen chain as a typical periodic material. Our method reproduces the ground-state energy and the first-excited-state energy with the errors up to O(1)% despite the decrease in the number of qubits required for the calculation by two or four compared with the naive VQE. Our result will serve as a beacon for tackling quantum chemistry problems with classically-intractable sizes by smaller quantum devices in the near future.",
+    "authors": [
+      "Kaoru Mizuta",
+      "Mikiya Fujii",
+      "Shigeki Fujii",
+      "Kazuhide Ichikawa",
+      "Yutaka Imamura",
+      "Yukihiro Okuno",
+      "Yuya O. Nakagawa"
+    ],
+    "publication_date": "2021-04-02T02:19:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.00855v2",
+    "download_url": "https://arxiv.org/abs/2104.00855v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reverse chemistry of iron in the deep Earth",
+    "abstract": "In this work, we demonstrate a remarkable change of chemical trend of Iron under high pressure that is of great importance for understanding the distribution of elements in the Earth's mantle and core. Using first principles crystal structure search method, we conduct a systematic study of the propensity of p block elements to chemically bind with iron under high pressures ranging from ambient conditions to that of Earth's core. We show that under increasing pressure, iron tends to reverse its chemical nature, changing from an electron donor (reductant) to an electron acceptor, and oxidizes p-block elements in many compounds. Such reverse chemistry has a significant impact on the stoichiometries, bond types and strengths, structures and properties of iron compounds under deep planetary conditions.",
+    "authors": [
+      "Xiaoli Wang",
+      "Xiaolei Feng",
+      "Jianfu Li",
+      "Dalar Khodagholian",
+      "Jiani Lin",
+      "Matthew G. Jackson",
+      "Frank J. Spera",
+      "Simon A. T. Redfern",
+      "Maosheng Miao"
+    ],
+    "publication_date": "2019-08-19T02:55:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.06569v1",
+    "download_url": "https://arxiv.org/abs/1908.06569v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "More than just smoke and mirrors: Gas-phase polaritons for optical control of chemistry",
+    "abstract": "Gas-phase molecules are a promising platform through which to elucidate the mechanisms of action and scope of polaritons for optical control of chemistry. Polaritons arise from the strong coupling of a dipole-allowed molecular transition with the photonic mode of an optical cavity. There is mounting evidence of modified reactivity under polaritonic conditions; however, the complex condensed-phase environment of most experimental demonstrations impedes mechanistic understanding of this phenomenon. While the gas phase was the playground of early efforts in atomic cavity quantum electrodynamics, we have only recently demonstrated the formation of molecular polaritons under these conditions. Studying the reactivity of isolated gas-phase molecules under strong coupling would eliminate solvent interactions and enable quantum state resolution of reaction progress. In this Perspective, we contextualize recent gas-phase efforts in the field of polariton chemistry and offer a practical guide for experiment design moving forward.",
+    "authors": [
+      "Jane C. Nelson",
+      "Marissa L. Weichman"
+    ],
+    "publication_date": "2024-05-21T13:23:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.12772v2",
+    "download_url": "https://arxiv.org/abs/2405.12772v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Astrochemical Bistability: Autocatalysis in Oxygen Chemistry",
+    "abstract": "The origin of bistable solutions in the kinetic equations describing the chemistry of dense interstellar clouds is explained as being due to the autocatalysis and feedback of oxygen nuclei from the oxygen dimer (O2). We identify four autocatalytic processes that can operate in dense molecular clouds, driven respectively by reactions of H+, He+, C+, and S+ with O2. We show that these processes can produce the bistable solutions found in previous studies, as well as the dependence on various model parameters such as the helium ionization rate, the sulfur depletion and the {H}3+ electron recombination rate. We also show that ion-grain neutralizations are unlikely to affect the occurrence of bistability in dense clouds. It is pointed out that many chemical models of astronomical sources should have the potential to show bistable solutions.",
+    "authors": [
+      "G. Dufour",
+      "S. B. Charnley"
+    ],
+    "publication_date": "2020-10-22T19:49:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.12005v1",
+    "download_url": "https://arxiv.org/abs/2010.12005v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Cosmic ray dissociation of molecular hydrogen and dense cloud chemistry",
+    "abstract": "Dissociation of molecular hydrogen by secondary electrons produced by cosmic ray or X-ray ionization plays a crucial role in the chemistry of the densest part of molecular clouds. Here we study the effect of the mean kinetic energy of secondary electrons on this process. We compare predictions using a range of secondary electron energies and predictions of the cross-sections with the values in the UMIST database. We find that the predicted column densities change by nearly one dex.",
+    "authors": [
+      "Gargi Shaw",
+      "G. J. Ferland",
+      "S. Ploeckinger"
+    ],
+    "publication_date": "2020-10-19T13:06:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.13703v2",
+    "download_url": "https://arxiv.org/abs/2010.13703v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "HCN production in Titan's Atmosphere: Coupling quantum chemistry and disequilibrium atmospheric modeling",
+    "abstract": "Hydrogen cyanide (HCN) is a critical reactive source of nitrogen for building key biomolecules relevant for the origin of life. Still, many HCN reactions remain uncharacterized by experiments and theory, and the complete picture of HCN production in planetary atmospheres is not fully understood. To improve this situation, we develop a novel technique making use of computational quantum chemistry, experimental data, and atmospheric numerical simulations. First, we use quantum chemistry simulations to explore the entire field of possible reactions for a list of primary species in N2-, CH4-, and H2-dominated atmospheres. In this process, we discover 33 new reactions with no previously known rate coefficients. From here, we develop a consistent reduced atmospheric hybrid chemical network (CRAHCN) containing experimental values when available, and our calculated rate coefficients otherwise. Next, we couple CRAHCN to a 1D chemical kinetic model (ChemKM) to compute the HCN abundance as a function of atmospheric depth on Titan. Our simulated atmospheric HCN profile agrees very well with the Cassini observations. CRAHCN contains 104 reactions however nearly all of the simulated atmospheric HCN profile can be obtained using a scaled down network of only 19 dominant reactions. From here, we form a complete picture of HCN chemistry in Titan's atmosphere, from the dissociation of the main atmospheric species, down to the direct production of HCN along 4 major channels. One of these channels was first discovered and characterized in Pearce et al. (2019) and this work.",
+    "authors": [
+      "Ben K. D. Pearce",
+      "Karan Molaverdikhani",
+      "Ralph E. Pudritz",
+      "Thomas Henning",
+      "Eric Hébrard"
+    ],
+    "publication_date": "2020-08-10T18:00:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2008.04312v1",
+    "download_url": "https://arxiv.org/abs/2008.04312v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "NSF-UKRI Bilateral Workshop: Quantum Information Science in Chemistry",
+    "abstract": "This document summarizes the context and main outcomes of the discussions that took place during the NSF-UKRI bilateral workshop on Quantum Information Science in Chemistry, held on 12-13 February 2024, in Alexandria, Virginia (US). The workshop was jointly funded by the National Science Foundation (NSF) and UK Research and Innovation (UKRI) through the Engineering and Physical Sciences Research Council (EPSRC). It brought together scientific delegations from the United States of America (US) and the United Kingdom (UK).",
+    "authors": [
+      "Gregory D Scholes",
+      "Alexandra Olaya-Castro",
+      "Shaul Mukamel",
+      "Adam Kirrander",
+      "Kang-Kuen Ni",
+      "Gordon Hedley",
+      "Natia Frank"
+    ],
+    "publication_date": "2024-09-06T13:23:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.04264v1",
+    "download_url": "https://arxiv.org/abs/2409.04264v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spin-coupled molecular orbitals: chemical intuition meets quantum chemistry",
+    "abstract": "Molecular orbital theory is powerful both as a conceptual tool for understanding chemical bonding, and as a theoretical framework for ab initio quantum chemistry. Despite its undoubted success, MO theory has well documented shortcomings, most notably that it fails to correctly describe diradical states and homolytic bond fission. In this contribution, we introduce a generalised MO theory that includes spin-coupled radical states. We show through archetypical examples that when bonds break, the electronic state transitions between a small number of valence configurations, characterised by occupation of both delocalised molecular orbitals and spin-coupled localised orbitals. Our theory provides a model for chemical bonding that is both chemically intuitive and qualitatively accurate when combined with ab initio theory. Although exploitation of our theory presents significant challenges for classical computing, the predictable structure of spin-coupled states is ideally suited to algorithms that exploit quantum computers. Our approach provides a systematic route to overcoming the initial state overlap problem and unlocking the potential of quantum computational chemistry.",
+    "authors": [
+      "Daniel Marti-Dafcik",
+      "Nicholas Lee",
+      "Hugh G. A. Burton",
+      "David P. Tew"
+    ],
+    "publication_date": "2024-02-13T23:57:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.08858v1",
+    "download_url": "https://arxiv.org/abs/2402.08858v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Orbital-rotated Fermi-Hubbard model as a benchmarking problem for quantum chemistry with the exact solution",
+    "abstract": "Quantum chemistry is a key target for quantum computing, but benchmarking quantum algorithms for large molecular systems remains challenging due to the lack of exactly solvable yet structurally realistic models. In particular, molecular Hamiltonians typically contain $O(N^4)$ Pauli terms, significantly increasing the cost of quantum simulations, while many exactly solvable models, such as the one-dimensional Fermi-Hubbard (1D FH) model, contain only $O(N)$ terms. In this work, we introduce the orbital-rotated Fermi-Hubbard (ORFH) model as a scalable and exactly solvable benchmarking problem for quantum chemistry algorithms. Starting from the 1D FH model, we apply a spin-involved orbital rotation to construct a Hamiltonian that retains the exact ground-state energy but exhibits a Pauli term count scaling as $O(N^4)$, similar to real molecular systems. We analyze the ORFH Hamiltonian from multiple perspectives, including operator norm and electronic correlation. We benchmark variational quantum eigensolver (VQE) optimizers and Pauli term grouping methods, and compare their performance with those for hydrogen chains. Furthermore, we show that the ORFH Hamiltonian increases the computational difficulty for classical methods such as the density matrix renormalization group (DMRG), offering a nontrivial benchmark beyond quantum algorithms. Our results demonstrate that the ORFH model provides a versatile and scalable testbed for benchmarking quantum chemistry algorithms under realistic structural conditions, while maintaining exact solvability even at large system sizes.",
+    "authors": [
+      "Ryota Kojima",
+      "Masahiko Kamoshita",
+      "Keita Kanno"
+    ],
+    "publication_date": "2024-02-19T06:24:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.11869v2",
+    "download_url": "https://arxiv.org/abs/2402.11869v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Solid-state chemistry of glassy antimony oxides",
+    "abstract": "The amorphous phases of antimony oxide at three different oxidation levels have been investigated by {\\it ab initio} molecular-dynamics calculations using a simulated `melt-quench' approach. The atomic and electronic structure of the amorphous phases are analyzed and compared to their crystalline counterparts. The amorphous structure of the trioxide ({\\it a\\,}--Sb$_2$O$_3$) resembles the $β$-phase of the crystalline form (valentinite), in agreement with previous observations. In the relaxed athermal structure, however, more senarmontite-like structural features are apparent. The phase diagram of the amorphous phases with respect to oxygen chemical potential has been calculated within the framework of {\\it ab initio} thermodynamics. At elevated oxidation levels, the resulting tetraoxide and pentoxide materials show distinct variation in electronic structure compared to the trioxide, with the electronic density of states indicating a narrowing of the electronic gap with increasing oxidation level.",
+    "authors": [
+      "Chang-Eun Kim",
+      "Jonathan M. Skelton",
+      "Aron Walsh",
+      "Aloysius Soon"
+    ],
+    "publication_date": "2015-09-28T04:38:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1509.08192v1",
+    "download_url": "https://arxiv.org/abs/1509.08192v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hydrodynamics with gas-grain chemistry and radiative transfer: comparing dynamical and static models",
+    "abstract": "We quantify if the chemical abundance gradients given by a dynamical model of core collapse including time-dependent changes in density and temperature differ greatly from abundances derived from static models, where the density and temperature structures of the core are kept fixed as the chemistry evolves. For this study we developed a new one-dimensional spherically symmetric hydrodynamics code that couples the hydrodynamics equations with a comprehensive time-dependent gas-grain chemical model, including deuterium and spin-state chemistry, and radiative transfer calculations to derive self-consistent time-dependent chemical abundance gradients. We applied the code to model the collapse of a starless core up to the point when the infall flow becomes supersonic.\n  The abundances predicted by the dynamical and static models are almost identical during the quiescent phase of core evolution, but the results start to diverge after the onset of core collapse, where the static model underestimates abundances at high medium density (inner core) and underestimates them at low density (outer core), and this is clearly reflected in simulated lines. The static model generally overestimates deuteration, which is increasingly evident the more D atoms are substituted in the molecule. We also find that using a limited chemical network, or a limited set of cooling molecules, may lead to an overestimate of the collapse timescale, and in some cases may prevent the collapse altogether. In our model, most of the line cooling near the center of the core is due to HCN, CO, and NO. In conclusion, the use of a static physical model is not a reliable method of simulating chemical abundances in starless cores after the onset of gravitational collapse. The adoption of complex chemistry and a comprehensive set of cooling molecules is necessary to model the collapse adequately.",
+    "authors": [
+      "O. Sipilä",
+      "P. Caselli"
+    ],
+    "publication_date": "2018-01-24T14:44:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1801.08004v1",
+    "download_url": "https://arxiv.org/abs/1801.08004v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Non-equilibrium CO chemistry in the solar atmosphere",
+    "abstract": "Investigating the reliability of the assumption of instantaneous chemical equilibrium (ICE) for calculating the CO number density in the solar atmosphere is of crucial importance for the resolution of the long-standing controversy over the existence of `cool clouds' in the chromosphere, and for determining whether the cool gas owes its existence to CO radiative cooling or to a hydrodynamical process. Here we report the first results of such an investigation in which we have carried out time-dependent gas-phase chemistry calculations in radiation hydrodynamical simulations of solar chromospheric dynamics. We show that while the ICE approximation turns out to be suitable for modeling the observed infrared CO lines at the solar disk center, it may substantially overestimate the `heights of formation' of strong CO lines synthesized close to the edge of the solar disk, especially concerning vigorous dynamic cases resulting from relatively strong photospheric disturbances. This happens because during the cool phases of the hydrodynamical simulations the CO number density in the outer atmospheric regions is smaller than what is stipulated by the ICE approximation, resulting in decreased CO opacity in the solar chromosphere. As a result, the cool CO-bearing gas which produces the observed molecular lines must be located at atmospheric heights not greater than 700 km, approximately. We conclude that taking into account the non-equilibrium chemistry improves the agreement with the available on-disk and off-limb observations, but that the hydrodynamical simulation model has to be even cooler than anticipated by the ICE approximation, and this has to be the case at the `new' (i.e. deeper) formation regions of the rovibrational CO lines.",
+    "authors": [
+      "A. Asensio Ramos",
+      "J. Trujillo Bueno",
+      "M. Carlsson",
+      "J. Cernicharo"
+    ],
+    "publication_date": "2003-03-20T12:21:06Z",
+    "arxiv_id": "http://arxiv.org/abs/astro-ph/0303460v1",
+    "download_url": "https://arxiv.org/abs/astro-ph/0303460v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Tensorized orbitals for computational chemistry",
+    "abstract": "Choosing a basis set is the first step of a quantum chemistry calculation and it sets its maximum accuracy. This choice of orbitals is limited by strong technical constraints as one must be able to compute a large number of six dimensional Coulomb integrals from these orbitals. Here we use tensor network techniques to construct representations of orbitals that essentially lift these technical constraints. We show that a large class of orbitals can be put into ``tensorized'' form including the Gaussian orbitals, Slater orbitals, linear combination thereof as well as new orbitals beyond the above. Our method provides a path for building more accurate and more compact basis sets beyond what has been accessible with previous technology. As an illustration, we construct optimized tensorized orbitals and obtain a 85\\% reduction of the error on the energy of the $H_2$ molecules with respect to a reference double zeta calculation (cc-pvDz) of the same size.",
+    "authors": [
+      "Nicolas Jolly",
+      "Yuriel Núñez Fernández",
+      "Xavier Waintal"
+    ],
+    "publication_date": "2023-08-07T12:03:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.03508v2",
+    "download_url": "https://arxiv.org/abs/2308.03508v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Data-driven and constrained optimization of semi-local exchange and non-local correlation functionals for materials and surface chemistry",
+    "abstract": "Reliable predictions of surface chemical reaction energetics require an accurate description of both chemisorption and physisorption. Here, we present an empirical approach to simultaneously optimize semi-local exchange and non-local correlation of a density functional approximation to improve these energetics. A combination of reference data for solid bulk, surface, and gas-phase chemistry and physical exchange-correlation model constraints leads to the VCML-rVV10 exchange-correlation functional. Owing to the variety of training data, the applicability of VCML-rVV10 extends beyond surface chemistry simulations. It provides optimized gas phase reaction energetics and an accurate description of bulk lattice constants and elastic properties.",
+    "authors": [
+      "Kai Trepte",
+      "Johannes Voss"
+    ],
+    "publication_date": "2022-01-26T18:31:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.11106v2",
+    "download_url": "https://arxiv.org/abs/2201.11106v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "First foot prints of chemistry on the shore of the Island of Superheavy Elements",
+    "abstract": "Chemistry has arrived on the shore of the Island of Stability with the first chemical investigation of the superheavy elements Cn, 113, and 114. The results of three experimental series leading to first measured thermodynamic data and qualitatively evaluated chemical properties for these elements are described. An interesting volatile compound class has been observed in the on-line experiments for the elements Bi and Po. Hence, an exciting chemical study of their heavier transactinide homologues, elements 115 and 116 is suggested.",
+    "authors": [
+      "Robert Eichler"
+    ],
+    "publication_date": "2012-12-18T10:22:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1212.4292v1",
+    "download_url": "https://arxiv.org/abs/1212.4292v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The TensorMol-0.1 Model Chemistry: a Neural Network Augmented with Long-Range Physics",
+    "abstract": "Traditional force-fields cannot model chemical reactivity, and suffer from low generality without re-fitting. Neural network potentials promise to address these problems, offering energies and forces with near ab-initio accuracy at low cost. However a data-driven approach is naturally inefficient for long-range interatomic forces that have simple physical formulas. In this manuscript we construct a hybrid model chemistry consisting of a nearsighted Neural-Network potential with screened long-range electrostatic and Van-Der-Waals physics. This trained potential, simply dubbed \"TensorMol-0.1\", is offered in an open-source python package capable of many of the simulation types commonly used to study chemistry: Geometry optimizations, harmonic spectra, and open or periodic molecular dynamics, Monte Carlo, and nudged elastic band calculations. We describe the robustness and speed of the package, demonstrating millihartree accuracy and scalability to tens-of-thousands of atoms on ordinary laptops. We demonstrate the performance of the model by reproducing vibrational spectra, and simulating molecular dynamics of a protein. Our comparisons with electronic structure theory and experiment demonstrate that neural network molecular dynamics is poised to become an important tool for molecular simulation, lowering the resource barrier to simulate chemistry.",
+    "authors": [
+      "Kun Yao",
+      "John E. Herr",
+      "David W. Toth",
+      "Ryker Mcintyre",
+      "John Parkhill"
+    ],
+    "publication_date": "2017-11-17T03:28:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1711.06385v2",
+    "download_url": "https://arxiv.org/abs/1711.06385v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Perspective on Quantum Computing Applications in Quantum Chemistry using 25--100 Logical Qubits",
+    "abstract": "The intersection of quantum computing and quantum chemistry represents a promising frontier for achieving quantum utility in domains of both scientific and societal relevance. Owing to the exponential growth of classical resource requirements for simulating quantum systems, quantum chemistry has long been recognized as a natural candidate for quantum computation. This perspective focuses on identifying scientifically meaningful use cases where early fault-tolerant quantum computers, which are considered to be equipped with approximately 25--100 logical qubits, could deliver tangible impact. While recent advances in classical computing have pushed the boundaries of tractable simulations to unprecedented scales, this logical-qubit regime represents the first window where quantum devices can pursue qualitatively distinct strategies, such as polynomial-scaling phase estimation, direct simulation of quantum dynamics, and active-space embedding, that remain challenging for classical solvers, for instance, multireference charge-transfer and conical-intersection states central to photochemistry and materials design. We highlight near-term opportunities in algorithm and software design, discuss representative chemical problems suited for quantum acceleration, and propose strategic roadmaps and collaborative pathways for advancing practical quantum utility in quantum chemistry.",
+    "authors": [
+      "Yuri Alexeev",
+      "Victor S. Batista",
+      "Nicholas Bauman",
+      "Luke Bertels",
+      "Daniel Claudino",
+      "Rishab Dutta",
+      "Laura Gagliardi",
+      "Scott Godwin",
+      "Niranjan Govind",
+      "Martin Head-Gordon",
+      "Matthew Hermes",
+      "Karol Kowalski",
+      "Ang Li",
+      "Chenxu Liu",
+      "Junyu Liu",
+      "Ping Liu",
+      "Juan M. Garcia-Lustra",
+      "Daniel Mejia-Rodriguez",
+      "Karl Mueller",
+      "Matthew Otten",
+      "Bo Peng",
+      "Mark Raugus",
+      "Markus Reiher",
+      "Paul Rigor",
+      "Wendy Shaw",
+      "Mark van Schilfgaarde",
+      "Tejs Vegge",
+      "Yu Zhang",
+      "Muqing Zheng",
+      "Linghua Zhu"
+    ],
+    "publication_date": "2025-06-24T06:02:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.19337v2",
+    "download_url": "https://arxiv.org/abs/2506.19337v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Detection of interstellar HCS and its metastable isomer HSC: new pieces in the puzzle of sulfur chemistry",
+    "abstract": "We present the first identification in interstellar space of the thioformyl radical (HCS) and its metastable isomer HSC. These species were detected toward the molecular cloud L483 thanks to observations carried out with the IRAM 30m telescope in the 3 mm band. We derive beam-averaged column densities of 7e12 cm-2 for HCS and 1.8e11 cm-2 for HSC, which translate to fractional abundances relative to H2 of 2e-10 and 6e-12, respectively. Although the amount of sulfur locked by these radicals is low, their detection allows to put interesting constraints on the chemistry of sulfur in dark clouds. Interestingly, the H2CS/HCS abundance ratio is found to be quite low, around 1, in contrast with the oxygen analogue case, in which the H2CO/HCO abundance ratio is around 10 in dark clouds. Moreover, the radical HCS is found to be more abundant than its oxygen analogue, HCO. The metastable species HOC, the oxygen analogue of HSC, has not been yet observed in space. These observational constraints are confronted with the outcome of a recent model of the chemistry of sulfur in dark clouds. The model underestimates the fractional abundance of HCS by at least one order of magnitude, overestimates the H2CS/HCS abundance ratio, and does not provide an abundance prediction for the metastable isomer HSC. These observations should prompt a revision of the chemistry of sulfur in interstellar clouds.",
+    "authors": [
+      "M. Agundez",
+      "N. Marcelino",
+      "J. Cernicharo",
+      "M. Tafalla"
+    ],
+    "publication_date": "2018-02-26T15:29:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1802.09401v1",
+    "download_url": "https://arxiv.org/abs/1802.09401v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Theoretical insights on structural, electronic and thermoelectric properties of inorganic biphenylene: non-benzenoid Boron nitride",
+    "abstract": "The first-principles calculations predict a stable biphenylene carbon network (BPN) like the Boron-nitride structure named inorganic biphenylene network (I-BPN). A comparison has been done between BPN and I-BPN to examine the stability of the I-BPN monolayer. We calculate the formation energy, phonon dispersion and mechanical parameters: young modulus and Poisson ratio for mechanical stability. It has been found that the stability of I-BPN is comparable with the BPN. The lattice transport properties reveal that the phonon thermal conductivity of I-BPN is 10th order low than the BPN. The electronic band structure reveals that I-BPN is a semiconductor with an indirect bandgap of 1.88 eV with valence band maximum (VBM) at Y and conduction band maximum (CBM) at the X high symmetry point. In addition, the thermoelectric parameters, such as the seebeck coefficient, show the highest peak value of 0.00292 V/K at 324K. Electronic transport properties reveal that I-BPN is highly anisotropic along the x and y-axes. Furthermore, the thermoelectric power factor as a function of chemical potential shows a peak value of 0.0056 W/mK2 (900K) along the x-axis in the p-type doping region. An electronic figure of merit shows an amplified peak approach to 1. The total figure of merit (including lattice transport parameters) shows peak values of 0.378 (0.21) for p-type and 0.24 (0.198) n-type regions along the x(y) direction. It is notice that the obtain ZT peaks values are higher than any B-N compositions.",
+    "authors": [
+      "Ajay Kumar",
+      "Parbati Senapati",
+      "Prakash parida"
+    ],
+    "publication_date": "2023-04-03T10:44:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.00868v2",
+    "download_url": "https://arxiv.org/abs/2304.00868v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Zero-Dimensional Organic-Inorganic Hybrid Material with Ultra-Narrow-Red Emission at Room Temperature",
+    "abstract": "Recently, low-dimensional organic-inorganic hybrid halide compounds have aroused great attention in the optoelectronic field, due to the unique topology and optical properties. Herein, we report an Mn4+ doped [N(CH3)4]2TiF6 zero-dimensional organic-inorganic hybrid phosphor, which could not only exhibit very narrow and pure red emission, but also maintain efficient emission intensity at room temperature. The crystal structure, photoluminescence properties and temperature sensing application are discussed. The excellent temperature dependent luminescent properties are attributed to the rigid structure and isolated MnF62- octahedra in the total crystal framework. These results will help design suitable materials and devices in both warm white light emitting diodes and optical sensors.",
+    "authors": [
+      "Peiqing Cai",
+      "Song Wang",
+      "Tianmou Xu",
+      "Ying Tang",
+      "Xiaolin Yuan",
+      "Mingjie Wan",
+      "Qi Ai",
+      "Junjie Si",
+      "Xin Yao",
+      "Yonggang Cao",
+      "Maxim K. Rabchinskii",
+      "Pavel N. Brunkov",
+      "Zugang Liu"
+    ],
+    "publication_date": "2020-07-22T07:01:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.11231v1",
+    "download_url": "https://arxiv.org/abs/2007.11231v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Enhancing GPU-acceleration in the Python-based Simulations of Chemistry Framework",
+    "abstract": "We describe our contribution as industrial stakeholders to the existing open-source GPU4PySCF project (https: //github.com/pyscf/gpu4pyscf), a GPU-accelerated Python quantum chemistry package. We have integrated GPU acceleration into other PySCF functionality including Density Functional Theory (DFT), geometry optimization, frequency analysis, solvent models, and density fitting technique. Through these contributions, GPU4PySCF v1.0 can now be regarded as a fully functional and industrially relevant platform which we demonstrate in this work through a range of tests. When performing DFT calculations on modern GPU platforms, GPU4PySCF delivers 30 times speedup over a 32-core CPU node, resulting in approximately 90% cost savings for most DFT tasks. The performance advantages and productivity improvements have been found in multiple industrial applications, such as generating potential energy surfaces, analyzing molecular properties, calculating solvation free energy, identifying chemical reactions in lithium-ion batteries, and accelerating neural-network methods. With the improved design that makes it easy to integrate with the Python and PySCF ecosystem, GPU4PySCF is natural choice that we can now recommend for many industrial quantum chemistry applications.",
+    "authors": [
+      "Xiaojie Wu",
+      "Qiming Sun",
+      "Zhichen Pu",
+      "Tianze Zheng",
+      "Wenzhi Ma",
+      "Wen Yan",
+      "Xia Yu",
+      "Zhengxiao Wu",
+      "Mian Huo",
+      "Xiang Li",
+      "Weiluo Ren",
+      "Sheng Gong",
+      "Yumin Zhang",
+      "Weihao Gao"
+    ],
+    "publication_date": "2024-04-15T04:35:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.09452v2",
+    "download_url": "https://arxiv.org/abs/2404.09452v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Perspective: Plasmon antennas for nanoscale chiral chemistry",
+    "abstract": "Plasmon nanoantennas are extensively used with molecular systems for the chemical and biological ultra-sensing, for boosting the molecular emissive and energy transfer properties, for the nanoscale catalysis, and for building advanced hybrid nanoarchitectures. In this Perspective we focus on the latest developments of using plasmon nanoantennas for the nanoscale chiral chemistry and for advancing the molecular magnetism. We overview the decisive role nanoplasmonics and nano-optics can play in achieving the chirally-selective molecular synthesis and separation, and in the way such processes might be precisely controlled by potentially merging chirality and magnetism at the molecular level. We give our view on how these insights might lead to the emergence of exciting new fundamental concepts in the nanoscale materials science.",
+    "authors": [
+      "Esteban Pedrueza-Villalmanzo",
+      "Francesco Pineider",
+      "Alexandre Dmitriev"
+    ],
+    "publication_date": "2019-10-14T12:40:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.06102v1",
+    "download_url": "https://arxiv.org/abs/1910.06102v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Atomic-scale structure and chemistry of YIG/GGG Interface",
+    "abstract": "Y3Fe5O12 (YIG) is a promising candidate for spin wave devices. In the thin film devices, the interface between YIG and substrate may play important roles in determining the device properties. Here, we use spherical aberration-corrected scanning electron microscopy and spectroscopy to study the atomic arrangement, chemistry and electronic structure of the YIG/Gd3Ga5O12 (GGG) interface. We find that the chemical bonding of the interface is FeO-GdGaO and the interface remains sharp in both atomic and electronic structures. These results provide necessary information for understanding the properties of interface and also for atomistic calculation.",
+    "authors": [
+      "Mengchao Liu",
+      "Lichuan Jin",
+      "Jingmin Zhang",
+      "Qinghui Yang",
+      "Huaiwu Zhang",
+      "Peng Gao",
+      "Dapeng Yu"
+    ],
+    "publication_date": "2018-03-10T12:31:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.03799v1",
+    "download_url": "https://arxiv.org/abs/1803.03799v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Building a Planet Atmosphere: Fundamental Physics and Chemistry",
+    "abstract": "This chapter provides an overview of the basic concepts foundational to atmospheric physics and chemistry. We discuss the retention of atmospheres against thermal evaporation and the global energy balance of planets. We present simple derivations of the vertical profile of an atmosphere, which may be shaped by convective and radiative transport. We then briefly touch upon the three-dimensional atmospheric structure, as shaped by circulation patterns. We describe how the abundances of chemical species in the atmosphere are determined, starting with the assumption of chemical equilibrium and then expanding to various disequilibrium effects. We introduce the particles that can be important components of atmospheres (clouds and hazes) and sketch out some of their complexity. Finally, we review some of the differences between atmospheres of terrestrial and gaseous worlds.",
+    "authors": [
+      "Emily Rauscher"
+    ],
+    "publication_date": "2024-10-24T17:31:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.18943v1",
+    "download_url": "https://arxiv.org/abs/2410.18943v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the adapted math. course for hight scool students interested in chemistry",
+    "abstract": "The paper describes methodology of math education for students interested in chemistry. Suppose we have mathematical circle 2 hours per week. What can be done? We can not provide any systematic study, but we can choose one subject and show that mathematical beauty and sense corresponds to physical sense and this provide new understanding. This sample provide right view on mathematics which can be fruitful for students future carrier. Person gets an impression how to deal with mathematics.",
+    "authors": [
+      "A. J. Belov",
+      "G. O. Shnider"
+    ],
+    "publication_date": "2015-04-25T08:03:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1504.06698v1",
+    "download_url": "https://arxiv.org/abs/1504.06698v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multireference error mitigation for quantum computation of chemistry",
+    "abstract": "Quantum error mitigation (QEM) strategies are essential for improving the precision and reliability of quantum chemistry algorithms on noisy intermediate-scale quantum devices. Reference-state error mitigation (REM) is a cost-effective chemistry-inspired QEM method that performs exceptionally well for weakly correlated problems. However, the effectiveness of REM is often limited when applied to strongly correlated systems. Here, we introduce multireference-state error mitigation (MREM), an extension of REM that systematically captures quantum hardware noise in strongly correlated ground states by utilizing multireference states. A pivotal aspect of MREM is using Givens rotations to efficiently construct quantum circuits to generate multireference states. To strike a balance between circuit expressivity and noise sensitivity, we employ compact wavefunctions composed a few dominant Slater determinants. These truncated multireference states, engineered to exhibit substantial overlap with the target ground state, can effectively enhance error mitigation in variational quantum eigensolver experiments. We demonstrate the effectiveness of MREM through comprehensive simulations of molecular systems $\\mathrm{H_2O, ~N_2, ~and ~F_2}$, underscoring its ability to realize significant improvements in computational accuracy compared to the original REM method. MREM broadens the scope of error mitigation to encompass a wider variety of molecular systems, including those exhibiting pronounced electron correlation.",
+    "authors": [
+      "Hang Zou",
+      "Erika Magnusson",
+      "Hampus Brunander",
+      "Werner Dobrautz",
+      "Martin Rahm"
+    ],
+    "publication_date": "2025-05-13T07:11:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.08291v1",
+    "download_url": "https://arxiv.org/abs/2505.08291v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Star formation at very low metallicity. I: Chemistry and cooling at low densities",
+    "abstract": "We present a simplified chemical and thermal model designed to allow computationally efficient study of the thermal evolution of metal-poor gas within large numerical simulations. Our main simplification is the neglect of the molecular chemistry of the heavy elements. The only molecular chemistry retained within the model is the formation and destruction of molecular hydrogen. Despite this major simplification, the model allows for accurate treatment of the thermal evolution of the gas within a large volume of parameter space. It is valid for temperatures 50 < T < 10000 K and metallicities 0 < Z < 0.1 Z_solar. In gas with a metallicity Z = 0.1 Z_solar, and in the absence of an incident ultraviolet radiation field, it is valid for hydrogen number densities n_H < 500 / t_char cm^-3, where t_char is the size in Myr of the characteristic physical timescale of interest in the problem. If Z << 0.1 Z_solar, or if a strong ultraviolet radiation field is present, then the model remains accurate up to significantly higher densities. We also discuss some possible applications of this model.",
+    "authors": [
+      "S. C. O. Glover",
+      "A. -K. Jappsen"
+    ],
+    "publication_date": "2007-05-01T21:50:52Z",
+    "arxiv_id": "http://arxiv.org/abs/0705.0182v2",
+    "download_url": "https://arxiv.org/abs/0705.0182v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A simple model for molecular hydrogen chemistry coupled to radiation hydrodynamics",
+    "abstract": "We introduce non-equilibrium molecular hydrogen chemistry into the radiation hydrodynamics code Ramses-RT. This is an adaptive mesh refinement grid code with radiation hydrodynamics that couples the thermal chemistry of hydrogen and helium to moment-based radiative transfer with the Eddington tensor closure model. The H2 physics that we include are formation on dust grains, gas phase formation, formation by three-body collisions, collisional destruction, photodissociation, photoionization, cosmic ray ionization, and self-shielding. In particular, we implement the first model for H2 self-shielding that is tied locally to moment-based radiative transfer by enhancing photodestruction. This self-shielding from Lyman-Werner line overlap is critical to H2 formation and gas cooling. We can now track the non-equilibrium evolution of molecular, atomic, and ionized hydrogen species with their corresponding dissociating and ionizing photon groups. Over a series of tests we show that our model works well compared to specialized photodissociation region codes. We successfully reproduce the transition depth between molecular and atomic hydrogen, molecular cooling of the gas, and a realistic Stromgren sphere embedded in a molecular medium. In this paper we focus on test cases to demonstrate the validity of our model on small scales. Our ultimate goal is to implement this in large-scale galactic simulations.",
+    "authors": [
+      "Sarah Nickerson",
+      "Romain Teyssier",
+      "Joakim Rosdahl"
+    ],
+    "publication_date": "2018-02-01T19:00:01Z",
+    "arxiv_id": "http://arxiv.org/abs/1802.00445v2",
+    "download_url": "https://arxiv.org/abs/1802.00445v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Methanol emission tracing ice chemistry and dust evolution in the TW Hya protoplanetary disk",
+    "abstract": "Methanol (CH$_{3}$OH) ice is abundant in space and is a key feedstock for seeding chemical complexity in interstellar and circumstellar environments. Despite its ubiquity, gas-phase methanol has only been detected in one disk around a Solar-type star to date, TW Hya. Here we present new high sensitivity (~1 mJy/beam) observations of TW Hya with ALMA that detect four individual transitions of gas-phase methanol spanning upper level energies from 17 to 38 K. We confirm the presence of gas-phase methanol in the luke-warm molecular layer of the disk ($35.9^{+25.9}_{-10.6}$ K) and with a disk-integrated column density of $1.8^{+1.3}_{-0.5}\\times 10^{12}$ cm$^{-2}$. A radially-resolved analysis suggests that the gas-phase methanol is centrally compact, peaking within the spatial extent of the mm-sized dust grains ($\\lesssim 80$ au). Static gas-grain chemical disk models confirm photodesorption as an important mechanism releasing methanol into the gas phase, with the column density further boosted by the inclusion of grain-surface chemistry, reactive desorption, and an increase in dust-grain surface area assuming fractal grains. However, no model can fully reproduce the observed column density nor the radial distribution, and we suggest that the inclusion of dynamic processes such as vertical mixing and radial drift would be required to do so. Our results demonstrate that the abundance and distribution of the precursors for complex chemistry in the planet-forming regions around Solar-type stars is ultimately controlled by the interplay of grain surface chemistry coupled with the evolution of dust in their disks.",
+    "authors": [
+      "John D. Ilee",
+      "Catherine Walsh",
+      "Jenny C. Calahan"
+    ],
+    "publication_date": "2025-10-05T09:12:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.04106v1",
+    "download_url": "https://arxiv.org/abs/2510.04106v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Probabilistic performance estimators for computational chemistry methods: Systematic Improvement Probability and Ranking Probability Matrix. II. Applications",
+    "abstract": "In the first part of this study (Paper I), we introduced the systematic improvement probability (SIP) as a tool to assess the level of improvement on absolute errors to be expected when switching between two computational chemistry methods. We developed also two indicators based on robust statistics to address the uncertainty of ranking in computational chemistry benchmarks: Pinv , the inversion probability between two values of a statistic, and Pr , the ranking probability matrix. In this second part, these indicators are applied to nine data sets extracted from the recent benchmarking literature. We illustrate also how the correlation between the error sets might contain useful information on the benchmark dataset quality, notably when experimental data are used as reference.",
+    "authors": [
+      "Pascal Pernot",
+      "Andreas Savin"
+    ],
+    "publication_date": "2020-03-03T15:08:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.01572v1",
+    "download_url": "https://arxiv.org/abs/2003.01572v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Chemistry Simulation of Dibenzothiophene for Asphalt Aging Analysis",
+    "abstract": "This paper presents the execution and analysis of a comprehensive quantum chemistry pipeline for gathering actionable insight into asphalt aging mechanisms through the study of dibenzothiophene (DBT), a key sulfur-containing compound in asphalt binders. Using advanced quantum algorithms, specifically Variational Quantum Eigensolver (VQE) with k-UpCCGSD and ADAPT-VQE ansatze, we achieved ground state energy calculations with accuracies reaching -864.69 Ha. Our implementation demonstrates quantum advantages in handling strongly correlated electron systems while providing actionable insights for designing oxidation-resistant asphalt formulations. The work also establishes a scalable framework for quantum-enhanced materials design.",
+    "authors": [
+      "Om Tailor"
+    ],
+    "publication_date": "2025-12-03T23:14:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.04322v1",
+    "download_url": "https://arxiv.org/abs/2512.04322v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Matryoshka: Optimization of Dynamic Diverse Quantum Chemistry Systems via Elastic Parallelism Transformation",
+    "abstract": "AI infrastructures, predominantly GPUs, have delivered remarkable performance gains for deep learning. Conversely, scientific computing, exemplified by quantum chemistry systems, suffers from dynamic diversity, where computational patterns are more diverse and vary dynamically, posing a significant challenge to sponge acceleration off GPUs.\n  In this paper, we propose Matryoshka, a novel elastically-parallel technique for the efficient execution of quantum chemistry system with dynamic diversity on GPU. Matryoshka capitalizes on Elastic Parallelism Transformation, a property prevalent in scientific systems yet underexplored for dynamic diversity, to elastically realign parallel patterns with GPU architecture. Structured around three transformation primitives (Permutation, Deconstruction, and Combination), Matryoshka encompasses three core components. The Block Constructor serves as the central orchestrator, which reformulates data structures accommodating dynamic inputs and constructs fine-grained GPU-efficient compute blocks. Within each compute block, the Graph Compiler operates offline, generating high-performance code with clear computational path through an automated compilation process. The Workload Allocator dynamically schedules workloads with varying operational intensities to threads online. It achieves highly efficient parallelism for compute-intensive operations and facilitates fusion with neighboring memory-intensive operations automatically. Extensive evaluation shows that Matryoshka effectively addresses dynamic diversity, yielding acceleration improvements of up to 13.86x (average 9.41x) over prevailing state-of-the-art approaches on 13 quantum chemistry systems.",
+    "authors": [
+      "Tuowei Wang",
+      "Kun Li",
+      "Donglin Bai",
+      "Fusong Ju",
+      "Leo Xia",
+      "Ting Cao",
+      "Ju Ren",
+      "Yaoxue Zhang",
+      "Mao Yang"
+    ],
+    "publication_date": "2024-12-03T06:34:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.13203v2",
+    "download_url": "https://arxiv.org/abs/2412.13203v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Tuning Bandgap and Energy Stability of Organic-Inorganic Halide Perovskites through Surface Engineering",
+    "abstract": "Organohalide perovskite with a variety of surface structures and morphologies have shown promising potential owing to the choice of the type of heterostructure dependent stability. We systematically investigate and discuss the impact of 2-dimensional molybdenum-disulphide (MoS2), molybdenum-diselenide (MoSe2), tungsten-disulphide (WS2), tungsten-diselenide (WSe2), boron- nitiride (BN) and graphene monolayers on band-gap and energy stability of organic-inorganic halide perovskites. We found that MAPbI3ML deposited on BN-ML shows room temperature stability (-25 meV~300K) with an optimal bandgap of ~1.6 eV. The calculated absorption coefficient also lies in the visible-light range with a maximum of 4.9 x 104 cm-1 achieved at 2.8 eV photon energy. On the basis of our calculations, we suggest that the encapsulation of an organic-inorganic halide perovskite monolayers by semiconducting monolayers potentially provides greater flexibility for tuning the energy stability and the bandgap.",
+    "authors": [
+      "Rahul Singh",
+      "Prashant Singh",
+      "Ganesh Balasubramanian"
+    ],
+    "publication_date": "2018-10-16T22:24:50Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.07297v1",
+    "download_url": "https://arxiv.org/abs/1810.07297v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

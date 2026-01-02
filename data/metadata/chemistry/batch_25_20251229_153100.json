@@ -1,0 +1,209 @@
+[
+  {
+    "title": "Analyzing Research Trends in Inorganic Materials Literature Using NLP",
+    "abstract": "In the field of inorganic materials science, there is a growing demand to extract knowledge such as physical properties and synthesis processes of materials by machine-reading a large number of papers. This is because materials researchers refer to many papers in order to come up with promising terms of experiments for material synthesis. However, there are only a few systems that can extract material names and their properties. This study proposes a large-scale natural language processing (NLP) pipeline for extracting material names and properties from materials science literature to enable the search and retrieval of results in materials science. Therefore, we propose a label definition for extracting material names and properties and accordingly build a corpus containing 836 annotated paragraphs extracted from 301 papers for training a named entity recognition (NER) model. Experimental results demonstrate the utility of this NER model; it achieves successful extraction with a micro-F1 score of 78.1%. To demonstrate the efficacy of our approach, we present a thorough evaluation on a real-world automatically annotated corpus by applying our trained NER model to 12,895 materials science papers. We analyze the trend in materials science by visualizing the outputs of the NLP pipeline. For example, the country-by-year analysis indicates that in recent years, the number of papers on \"MoS2,\" a material used in perovskite solar cells, has been increasing rapidly in China but decreasing in the United States. Further, according to the conditions-by-year analysis, the processing temperature of the catalyst material \"PEDOT:PSS\" is shifting below 200 degree, and the number of reports with a processing time exceeding 5 h is increasing slightly.",
+    "authors": [
+      "Fusataka Kuniyoshi",
+      "Jun Ozawa",
+      "Makoto Miwa"
+    ],
+    "publication_date": "2021-06-27T06:29:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.14157v1",
+    "download_url": "https://arxiv.org/abs/2106.14157v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Novel organic-inorganic layered oxide with spin ladder structure",
+    "abstract": "Structural analysis of a layered manganese tungstate diaminoalkane hybrid series suggests that this compound forms a spin-5/2 spin-ladder structure. We use X-ray diffraction, electron microscopy and x-ray absorption spectroscopy results to infer the structure. DC magnetization of the manganese compound and a possible copper analogue appear to show that the manganese system behaves like 1-dimensional antiferromagnetic Heisenberg chains (i.e. $J_{\\parallel} \\gg J_{\\perp})$ while the copper system is fitted well by a $S = {1/2}$ spin ladder model, giving the parameters $g = 1.920 \\pm 0.008$, $J_{\\parallel}/k_B = -0.3 \\pm 1.4$K; $J_{\\perp}/k_B = 213.6 \\pm 1.1$K. The ability to tune adjacent inorganic layers of the hybrid materials by altering the length of the organic `spacer' molecules gives enormous promise for the use of these materials, especially when doped, to provide a greater understanding of spin ladder systems.",
+    "authors": [
+      "B. Ingham",
+      "J. L. Tallon",
+      "S. V. Chong",
+      "R. -S. Liu",
+      "L. -Y. Jang"
+    ],
+    "publication_date": "2005-05-10T00:51:31Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0505224v1",
+    "download_url": "https://arxiv.org/abs/cond-mat/0505224v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reproducibility in Computational Materials Science: Lessons from 'A General-Purpose Machine Learning Framework for Predicting Properties of Inorganic Materials'",
+    "abstract": "The integration of machine learning techniques in materials discovery has become prominent in materials science research and has been accompanied by an increasing trend towards open-source data and tools to propel the field. Despite the increasing usefulness and capabilities of these tools, developers neglecting to follow reproducible practices creates a significant barrier for researchers looking to use or build upon their work. In this study, we investigate the challenges encountered while attempting to reproduce a section of the results presented in \"A general-purpose machine learning framework for predicting properties of inorganic materials.\" Our analysis identifies four major categories of challenges: (1) reporting computational dependencies, (2) recording and sharing version logs, (3) sequential code organization, and (4) clarifying code references within the manuscript. The result is a proposed set of tangible action items for those aiming to make code accessible to, and useful for the community.",
+    "authors": [
+      "Daniel Persaud",
+      "Logan Ward",
+      "Jason Hattrick-Simpers"
+    ],
+    "publication_date": "2023-10-10T22:13:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.07044v1",
+    "download_url": "https://arxiv.org/abs/2310.07044v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials",
+    "abstract": "Crystal structure generation is a foundational challenge in materials discovery, particularly in designing functional inorganic crystalline materials with desired properties. Most existing diffusion-based generative models for crystals rely on complex, hand-crafted priors and modular architectures to separately model atom types, atomic positions, and lattice parameters. These methods often require customized diffusion processes and conditional denoising, which can introduce additional model complexities and inconsistencies. Here we introduce DiffCrysGen, a fully data-driven, score-based diffusion model that jointly learns the distribution of all structural components in crystalline materials. With crystal structure representation as unified 2D matrices, DiffCrysGen bypasses the need for task-specific priors or decoupled modules, enabling end-to-end generation of atom types, fractional coordinates, and lattice parameters within a single framework. Our model learns crystallographic symmetry and chemical validity directly from large-scale datasets, allowing it to scale to complex materials discovery tasks. As a demonstration, we applied DiffCrysGen to the design of rare-earth-free magnetic materials with high saturation magnetization, showing its effectiveness in generating stable, diverse, and property-aligned candidates for sustainable magnet applications.",
+    "authors": [
+      "Sourav Mal",
+      "Subhankar Mishra",
+      "Prasenjit Sen"
+    ],
+    "publication_date": "2025-05-12T11:07:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.07442v1",
+    "download_url": "https://arxiv.org/abs/2505.07442v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Role of polyhedron unit in distinct photodynamics of zero-dimensional organic-inorganic hybrid tin halide compounds",
+    "abstract": "The zero-dimensional (0D) metal halides comprise periodically distributed and isolated metal-halide polyhedra, which act as the smallest inorganic quantum systems and can accommodate quasi-localized Frenkel excitons. These excitons exhibit unique photophysics including broadband photon emission, huge Stokes shift, and long decay lifetime. The polyhedra can have different symmetries due to the coordination degree of the metal ions. Little is known about how the polyhedron type affects the characteristics of the 0D metal halide crystals. We synthesize and comparatively study three novel kinds of 0D organic-inorganic hybrid tin halide compounds. They are efficient light emitters with a highest quantum yield of 92.3%. Although they have the same compositional organic group, the most stable phases are composed of octahedra for the bromide and iodide but disphenoids (see-saw structures) for the chloride. They separately exhibit biexponential and monoexponential luminescence decays due to different symmetries (Ci group for octahedra and C2 group for disphenoids) and corresponding different electronic structures. The chloride has the largest absorption photon energy among the three halides, but it has the smallest emission photon energy. A model regarding the unoccupied energy band degeneracy is proposed based on the experiments and density functional theory calculations, which explains well the experimental phenomena and reveals the crucial role of polyhedron type in determining the optical properties of the 0D tin halide compounds.",
+    "authors": [
+      "Xiaoyu Liu",
+      "Yuanyuan Li",
+      "Tianyuan Liang",
+      "Jiyang Fan"
+    ],
+    "publication_date": "2021-04-10T04:05:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.04677v2",
+    "download_url": "https://arxiv.org/abs/2104.04677v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Absolute Reference Energy to Realign the Band-edges of Inorganic Semiconductors Using First-principles Calculations",
+    "abstract": "The challenge of finding an absolute reference energy from first-principles simulations to realigning semiconductor's valence band-top and conduction band-bottom, a theoretical methodology is proposed based on plane-wave calculations as implemented within state-of-art density functional theory. We have studied some of inorganic binary semiconductors, including both oxides and non-oxides, as for example rutile- and anatase TiO2, wurtzite ZnO, rutile SnO2, blende phase of GaP, GaAs, InP, ZnTe, CdS, CdSe, and SiC, those are well known and qualitatively important for photoelectrochemical, optoelectronic device applications in their standalone and/or heterostructure morphologies. The calculated band-edges of these well known semiconductors are realigned with respect to our proposed absolute vacuum reference energy, which is defined with our proposed corrections and compared to their available experimental values from flat-band measurement. The prediction is reasonably well agreed with known experimental flat-band measured data. Our estimated mean absolute error bar for these set of eleven compounds is ~ 0.17 eV, closer to the known experimental limit 0.10-0.20 eV.",
+    "authors": [
+      "Tilak Das",
+      "Xavier Rocquefelte",
+      "Stèphane Jobic"
+    ],
+    "publication_date": "2018-12-04T09:35:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.01293v2",
+    "download_url": "https://arxiv.org/abs/1812.01293v2",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Atomic structure, electronic structure and optical absorption of inorganic perovskite compounds Cs2SnI6-nXn (X=F, Cl, Br; n= 0~6): A first-principles study",
+    "abstract": "As a possible alternative to organic-inorganic hybrid perovskite halide, inorganic Cs2SnI6 has drawn more and more research attention recently. In order to find more Cs2SnI6 derivatives as the potential solar cell absorber materials, I- ions in Cs2SnI6 are replaced by other halogen ions and forms the Cs2SnI6-nXn (X=F, Cl, Br; n=1~6) compounds, whose atomic structures, electronic structures and optical absorption are investigated by first principles calculation. When the alloying level n increases, the mean lattice constants, the weighted Sn-X and Cs-X bond lengths all decreases linearly; the bond length of each Sn-X diminishes slightly inside the octahedral structure; Eg of Cs2SnI6-nXn increases nonlinearly. Eleven Cs2SnI6-nXn compounds have an Eg between 1.0 eV and 2.0 eV and so can be potentially used as the light absorption layer of solar cells. Their partial DOS demonstrate that as the alloying level n increases, I 5p orbital in VBM and CBM is gradually substituted by Br 4p, or Cl 3p, or F 2p orbital. The eleven Cs2SnI6-nXn alloys all have a direct bandgap although the lattice distortion induced by the alloyed X- ion.",
+    "authors": [
+      "Wang Xuan",
+      "Tang Yehua",
+      "Nairui Xiao",
+      "Wang Ke-Fan"
+    ],
+    "publication_date": "2021-08-08T09:52:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.03597v1",
+    "download_url": "https://arxiv.org/abs/2108.03597v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Development of a multi-channel power supply for silicon photo-multipliers used with inorganic scintillators",
+    "abstract": "The motivation of the current R&D project is based upon the requirements of the JEDI international collaboration aiming to measure Electric Dipole Moments (EDMs) of charged particles in storage rings. One of the most important elements of such an experiment will be a specially designed polarimeter with the detection system based on a modular inorganic scintillator (LYSO crystal) calorimeter. The calorimeter modules are read out by Silicon Photo Multipliers (SiPMs). This paper describes the development of a multi-channel power supply for the polarimeter modules, providing very stable and clean bias voltages for SiPMs. In order to ensure the best possible performance of SiPMs in conjunction with the crystal-based calorimeter modules and to guarantee the required level of calorimeter stability, several quality requirements have to be met by the power supply. Additionally, it is required to provide features including remote control via the network, ramping of the output voltage, measuring and sending the information about its output voltages and currents, etc. The obtained results demonstrate that the goals for the JEDI polarimeter are met. The developed hardware will be useful in other fields of fundamental and applied research, medical diagnostic techniques and industry, where SiPMs are used.",
+    "authors": [
+      "Otari Javakhishvili",
+      "Irakli Keshelashvili",
+      "David Mchedlishvili",
+      "Mikael Gagoshidze",
+      "Tanja Hahnraths",
+      "Andro Kacharava",
+      "Zaza Metreveli",
+      "Fabian Mueller",
+      "Thomas Sefzick",
+      "Dimitri ShergelaShvili",
+      "Helmut Soltner",
+      "Hans Stroeher"
+    ],
+    "publication_date": "2020-02-05T10:02:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.01700v1",
+    "download_url": "https://arxiv.org/abs/2002.01700v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Intrinsic doping limitations in inorganic lead halide perovskites",
+    "abstract": "Inorganic Halide perovskites (HP's) of the CsPbX3 (X=I, Br, Cl) type have reached prominence in photovoltaic solar cell efficiencies. Peculiarly, they have shown, however, an asymmetry in their ability to be doped by holes rather than by electrons. Indeed, both structural defect-induced doping as well as extrinsic impurity-induced doping strangely result in a unipolar doping (dominantly p-type) with low free carriers concentration. This raises the question whether such doping limitations presents just a temporary setback due to insufficient optimization of the doping process, or perhaps this represents an intrinsic, physically-mandated bottleneck. In this paper we study three fundamental Design Principles (DP's) for ideal doping, applying them via density functional doping theory to these HP's, thus identifying the violated DP that explains the doping limitations and asymmetry in these HP's. Here, the target DP are: (i) requires that the thermodynamic transition level induced by the dopants must ideally be energetically shallow both for donors (n-type) or acceptors (p-type); DP-(ii) requires that the 'Fermi level pinning energies' for electrons and holes (being the limiting values of the Fermi level before a structural defect that compensate the doping forms spontaneously) should ideally be located inside the conduction band for n-type doping and inside the valence band for p-type doping. DP-(iii) requires that the doping-induced equilibrium Fermi energy shifts towards the conduction band for n-type doping (shift towards the valence band, for p-type doping) to be sufficiently large. We find that, even though in HP's based on Br and Cl there are numerous shallow level dopants that satisfy DP-(i), in contrast DP-(ii) is satisfied only for holes and DP-(iii) fail for both holes and electrons, being the ultimate bottleneck for the n-type doping in Iodine HP's.",
+    "authors": [
+      "Fernando P. Sabino",
+      "Alex Zunger",
+      "Gustavo M. Dalpian"
+    ],
+    "publication_date": "2021-10-21T14:57:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.11186v1",
+    "download_url": "https://arxiv.org/abs/2110.11186v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep Learning-Based Extraction of Promising Material Groups and Common Features from High-Dimensional Data: A Case of Optical Spectra of Inorganic Crystals",
+    "abstract": "We report an interpretation method for deep learning models that allows us to handle high-dimensional spectral data in materials science. The proposed method uses feature extraction and clustering analysis to categorize materials into classes based on similarities in both spectral data and chemical characteristics such as elemental composition and atomic arrangement. As a demonstration, we apply this method to an atomistic line graph neural network (ALIGNN) model trained on first-principles calculation data of 2,681 metal oxides, chalcogenides, and related compounds for optical absorption spectrum prediction. Our analysis reveals key elemental species and their coordination environments that influence optical absorption onset characteristics. The method proposed herein is broadly applicable to the classification and interpretation of diverse spectral data, extending beyond the optical absorption spectra of inorganic crystals.",
+    "authors": [
+      "Akira Takahashi",
+      "Yu Kumagai",
+      "Arata Takamatsu",
+      "Fumiyasu Oba"
+    ],
+    "publication_date": "2025-10-20T03:38:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.17123v1",
+    "download_url": "https://arxiv.org/abs/2510.17123v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How concerted are ionic hops in inorganic solid-state electrolytes?",
+    "abstract": "Despite being fundamental to the understanding of solid-state electrolytes (SSE), little is known on the degree of coordination between mobile ions in diffusive events. Thus far, identification of concerted ionic hops mostly has relied on the analysis of spatio-temporal pair correlation functions obtained from atomistic molecular dynamics (MD) simulations. However, this type of analysis neither allows for quantifying particle correlations beyond two body nor determining concerted ionic hop mechanisms, thus hindering a detailed comprehension and possible rational design of SSE. Here, we introduce an unsupervised k-means clustering approach able to identify ion-hopping events and correlations between many mobile ions, and apply it to a comprehensive ab initio MD database comprising several families of inorganic SSE and millions of ionic configurations. It is found that despite two-body interactions between mobile ions are largest, higher-order $n$-ion ($2 < n$) correlations are most frequent. Specifically, we prove an universal exponential decaying law for the probability density function governing the number of concerted mobile ions. For the particular case of Li-based SSE, it is shown that the average number of correlated mobile ions amounts to $10 \\pm 5$ and that this result is practically independent of temperature. Interestingly, our data-driven analysis reveals that fast-ion diffusion strongly and positively correlates with ample hopping lengths and long hopping spans but not with high hopping frequencies and short interstitial residence times. Finally, it is shown that neglection of many-ion correlations generally leads to a modest overestimation of the hopping frequency that roughly is proportional to the average number of correlated mobile ions.",
+    "authors": [
+      "Cibrán López",
+      "Riccardo Rurali",
+      "Claudio Cazorla"
+    ],
+    "publication_date": "2023-11-27T08:34:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.15620v1",
+    "download_url": "https://arxiv.org/abs/2311.15620v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mechanical response of butylamine based Ruddlesden Popper organic-inorganic lead halide perovskites",
+    "abstract": "2D Ruddlesden Popper perovskites have been extensively studied for their exceptional optical and electronic characteristics while only a few studies have shed light on their mechanical properties. The existing literature mainly discusses the mechanical strength of single crystal perovskites, however a systematic study towards structure tunability of 2D perovskite thin films is still missing. In this study, we report the effect of number of inorganic layers `n' on elastic modulus of Butylammonium based 2D, quasi-2D perovskites and 3D perovskite using nanoindentation technique. The experimental results have also been substantiated using first principle density functional theory calculations. Understanding the mechanical behaviour of 2D Ruddlesden Popper perovskites thin films in comparison with conventional 3D perovskite offers intriguing insights into the atomic layer dependent properties and paves the path for next generation mechanically durable novel devices.",
+    "authors": [
+      "Yashika Gupta",
+      "Sudharm Rathore",
+      "Aparna Singh",
+      "Anshuman Kumar"
+    ],
+    "publication_date": "2021-06-09T10:14:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.04960v1",
+    "download_url": "https://arxiv.org/abs/2106.04960v1",
+    "field_of_study": "chemistry",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

@@ -1,0 +1,1105 @@
+[
+  {
+    "title": "Fuzzification of Fractal Calculus",
+    "abstract": "In this manuscript, fractal and fuzzy calculus are summarized. Fuzzy calculus in terms of fractal limit, continuity, its derivative, and integral are formulated. The fractal fuzzy calculus is a new framework that includes fractal fuzzy derivatives and fractal fuzzy integral. In this framework, fuzzy number-valued functions with fractal support are the solutions of fractal fuzzy differential equations. Different kinds of fractal fuzzy differential equations are given and solved.",
+    "authors": [
+      "Alireza Khalili Golmankhaneh",
+      "Kerri Welch",
+      "Cristina Serpa",
+      "Palle E. T. Jørgensen"
+    ],
+    "publication_date": "2023-02-13T19:19:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.07641v1",
+    "download_url": "https://arxiv.org/abs/2302.07641v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Lambda Calculus for Quantum Computation",
+    "abstract": "The classical lambda calculus may be regarded both as a programming language and as a formal algebraic system for reasoning about computation. It provides a computational model equivalent to the Turing machine, and continues to be of enormous benefit in the classical theory of computation. We propose that quantum computation, like its classical counterpart, may benefit from a version of the lambda calculus suitable for expressing and reasoning about quantum algorithms. In this paper we develop a quantum lambda calculus as an alternative model of quantum computation, which combines some of the benefits of both the quantum Turing machine and the quantum circuit models. The calculus turns out to be closely related to the linear lambda calculi used in the study of Linear Logic. We set up a computational model and an equational proof system for this calculus, and we argue that it is equivalent to the quantum Turing machine.",
+    "authors": [
+      "Andre van Tonder"
+    ],
+    "publication_date": "2003-07-21T17:48:49Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0307150v5",
+    "download_url": "https://arxiv.org/abs/quant-ph/0307150v5",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Safe Lambda Calculus",
+    "abstract": "Safety is a syntactic condition of higher-order grammars that constrains occurrences of variables in the production rules according to their type-theoretic order. In this paper, we introduce the safe lambda calculus, which is obtained by transposing (and generalizing) the safety condition to the setting of the simply-typed lambda calculus. In contrast to the original definition of safety, our calculus does not constrain types (to be homogeneous). We show that in the safe lambda calculus, there is no need to rename bound variables when performing substitution, as variable capture is guaranteed not to happen. We also propose an adequate notion of beta-reduction that preserves safety. In the same vein as Schwichtenberg's 1976 characterization of the simply-typed lambda calculus, we show that the numeric functions representable in the safe lambda calculus are exactly the multivariate polynomials; thus conditional is not definable. We also give a characterization of representable word functions. We then study the complexity of deciding beta-eta equality of two safe simply-typed terms and show that this problem is PSPACE-hard. Finally we give a game-semantic analysis of safety: We show that safe terms are denoted by `P-incrementally justified strategies'. Consequently pointers in the game semantics of safe lambda-terms are only necessary from order 4 onwards.",
+    "authors": [
+      "William Blum",
+      "C. -H. Luke Ong"
+    ],
+    "publication_date": "2009-01-16T05:41:36Z",
+    "arxiv_id": "http://arxiv.org/abs/0901.2399v3",
+    "download_url": "https://arxiv.org/abs/0901.2399v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Normalization by Evaluation for the Lambek Calculus",
+    "abstract": "The syntactic calculus of Lambek is a deductive system for the multiplicative fragment of intuitionistic non-commutative linear logic. As a fine-grained calculus of resources, it has many applications, mostly in formal computational investigations of natural languages.\n  This paper introduces a calculus of beta-eta-long normal forms for derivations in the Lambek calculus with multiplicative unit and conjunction among its logical connectives. Reduction to normal form follows the normalization by evaluation (NbE) strategy: (i) evaluate a derivation in a Kripke model of Lambek calculus; (ii) extract normal forms from the obtained semantic values. The implementation of the NbE algorithm requires the presence of a strong monad in the Kripke interpretation of positive formulae, in analogy with the extension of intuitionistic propositional logic with falsity and disjunction. The NbE algorithm can also be instantiated with minor variations to calculi for related substructural logics, such as multiplicative and dual intuitionistic linear logic (MILL and DILL).",
+    "authors": [
+      "Niccolò Veltri"
+    ],
+    "publication_date": "2022-04-14T03:17:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.06719v1",
+    "download_url": "https://arxiv.org/abs/2204.06719v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Embedding Calculus, Goodwillie Calculus and Link Invariants",
+    "abstract": "We study Goodwillie-Weiss embedding calculus through its relationship with Goodwillie's functor calculus. Specifically, building on a result of Tillmann and Weiss, we construct a functorial complement for \\(T_{n}\\)-embeddings that takes values in Heuts's categorical \\(n\\)-excisive approximation of pointed spaces. We also establish an analogue of Stallings' theorem for lower central series in the context of \\(T_{n}\\)-embeddings of \\(P \\times I\\) into \\(D^{d}\\) for any compact manifold \\(P\\). As an application, we show that the embedding tower of string links detects Milnor invariants.",
+    "authors": [
+      "Hyeonhee Jin"
+    ],
+    "publication_date": "2025-11-06T17:37:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2511.04582v1",
+    "download_url": "https://arxiv.org/abs/2511.04582v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A look at area Regge calculus",
+    "abstract": "Area Regge calculus is a candidate theory of simplicial gravity, based on the Regge action with triangle areas as the dynamical variables. It is characterized by metric discontinuities and vanishing deficit angles. Area Regge calculus arises in the large-spin limit of the Barrett-Crane spinfoam model, but not in the newer EPRL/FK model. We address the viability of area Regge calculus as a discretization of General Relativity. We argue that when all triangles are spacelike and all tetrahedra have the same signature, non-trivial solutions of the area calculus are associated with a nonzero Ricci scalar. Our argument rests on a seemingly natural regularization of the metric discontinuities. It rules out the Euclidean area calculus, as well as the Lorentzian sector with all tetrahedra spacelike - the two setups usually considered in spinfoam models. On the other hand, we argue that the area calculus has attractive properties from the point of view of finite-region observables in quantum gravity.",
+    "authors": [
+      "Yasha Neiman"
+    ],
+    "publication_date": "2013-08-05T15:33:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1308.1012v1",
+    "download_url": "https://arxiv.org/abs/1308.1012v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Differential Calculus in Triole Algebras",
+    "abstract": "This work is the first in a series of papers that, among other things, extends the formalism of diolic differential calculus, wherein a new context for obtaining differential calculus in vector bundles was established. Here we provide a modest but interesting generalization of this formalism to include a class of vector bundles with additional inner structure provided by fiber metrics that we call triole algebras. We discuss the basics of a triolic-linear algebra and study various functors of differential calculus over these algebraic objects. In doing so, we establish a conceptual framework for making sense of calculus on bundles that preserve a vector-valued fiber metric structure.",
+    "authors": [
+      "Jacob Kryczka"
+    ],
+    "publication_date": "2023-03-31T08:05:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.17868v1",
+    "download_url": "https://arxiv.org/abs/2303.17868v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A generalised editor calculus (Short Paper)",
+    "abstract": "In this paper, we present a generalization of a syntax-directed editor calculus, which can be used to instantiate a specialized syntax-directed editor for any language, given by some abstract syntax. The editor calculus guarantees the absence of syntactical errors while allowing incomplete programs. The generalized editor calculus is then encoded into a simply typed lambda calculus, extended with pairs, booleans, pattern matching and fixed points",
+    "authors": [
+      "Benjamin Bennetzen",
+      "Peter Buus Steffensen",
+      "Hans Hüttel",
+      "Nikolaj Rossander Kristensen",
+      "Andreas Tor Mortensen"
+    ],
+    "publication_date": "2025-05-24T16:30:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.18778v1",
+    "download_url": "https://arxiv.org/abs/2505.18778v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Epsilon Calculus with Equality and Herbrand Complexity",
+    "abstract": "Hilbert's epsilon calculus is an extension of elementary or predicate calculus by a term-forming operator $\\varepsilon$ and initial formulas involving such terms. The fundamental results about the epsilon calculus are so-called epsilon theorems, which have been proven by means of the epsilon elimination method. It is a procedure of transforming a proof in epsilon calculus into a proof in elementary or predicate calculus through getting rid of those initial formulas. One remarkable consequence is a proof of Herbrand's theorem due to Bernays and Hilbert which comes as a corollary of extended first epsilon theorem. The contribution of this paper is the upper and lower bounds analysis of the length of Herbrand disjunctions in extended first epsilon theorem for epsilon calculus with equality. We also show that the complexity analysis for Herbrand's theorem with equality is a straightforward consequence of the one for extended first epsilon theorem without equality due to Moser and Zach.",
+    "authors": [
+      "Kenji Miyamoto",
+      "Georg Moser"
+    ],
+    "publication_date": "2019-04-25T12:53:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.11304v1",
+    "download_url": "https://arxiv.org/abs/1904.11304v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Relational Machine Calculus",
+    "abstract": "This paper presents the Relational Machine Calculus (RMC): a simple, foundational model of first-order relational programming. The RMC originates from the Functional Machine Calculus (FMC), which generalizes the lambda-calculus and its standard call-by-name stack machine in two directions. One, \"locations\", introduces multiple stacks, which enable effect operators to be encoded into the abstraction and application constructs. The second, \"sequencing\", introduces the imperative notions of \"skip\" and \"sequence\", similar to kappa-calculus and concatenative programming languages. The key observation of the RMC is that the first-order fragment of the FMC exhibits a latent duality which, given a simple decomposition of the relevant constructors, can be concretely expressed as an involution on syntax. Semantically, this gives rise to a sound and complete calculus for string diagrams of Frobenius monoids. We consider unification as the corresponding symmetric generalization of beta-reduction. By further including standard operators of Kleene algebra, the RMC embeds a range of computational models: the kappa-calculus, logic programming, automata, Interaction Nets, and Petri Nets, among others. These embeddings preserve operational semantics, which for the RMC is again given by a generalization of the standard stack machine for the lambda-calculus. The equational theory of the RMC (which supports reasoning about its operational semantics) is conservative over both the first-order lambda-calculus and Kleene algebra, and can be oriented to give a confluent reduction relation.",
+    "authors": [
+      "Chris Barrett",
+      "Daniel Castle",
+      "Willem Heijltjes"
+    ],
+    "publication_date": "2024-05-17T14:11:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.10801v1",
+    "download_url": "https://arxiv.org/abs/2405.10801v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "calculus: High Dimensional Numerical and Symbolic Calculus in R",
+    "abstract": "The R package calculus implements C++ optimized functions for numerical and symbolic calculus, such as the Einstein summing convention, fast computation of the Levi-Civita symbol and generalized Kronecker delta, Taylor series expansion, multivariate Hermite polynomials, high-order derivatives, ordinary differential equations, differential operators and numerical integration in arbitrary orthogonal coordinate systems. The library applies numerical methods when working with R functions or symbolic programming when working with characters or expressions. The package handles multivariate numerical calculus in arbitrary dimensions and coordinates and implements the symbolic counterpart of the numerical methods whenever possible, without depending on external computer algebra systems. Except for Rcpp, the package has no strict dependencies in order to provide a stable self-contained toolbox that invites re-use.",
+    "authors": [
+      "Emanuele Guidotti"
+    ],
+    "publication_date": "2020-12-31T21:52:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2101.00086v1",
+    "download_url": "https://arxiv.org/abs/2101.00086v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hypergraph Lambek Calculus",
+    "abstract": "It is known that context-free grammars can be extended to generating graphs resulting in graph grammars; one of such fundamental approaches is hyperedge replacement grammars. On the other hand there are type-logical grammars which also serve to describe string languages. In this paper, we investigate how to extend the Lambek calculus ($\\mathrm{L}$) and grammars based on it to graphs. The resulting approach is called hypergraph Lambek calculus ($\\mathrm{HL}$). It is a logical sequential calculus whose sequents are graphs; it naturally extends the Lambek calculus and also allows one to embed its variants (commutative $\\mathrm{L}$, $\\mathrm{NL\\diamondsuit}$, $\\mathrm{L}_{\\mathbf{1}}^\\ast$). Besides, many properties of the Lambek calculus (cut elimination, counters, models) can be lifted to $\\mathrm{HL}$. However, while Lambek grammars are equivalent to context-free grammars in the string case, hypergraph Lambek grammars are much more powerful than hyperedge replacement grammars. Particularly, the former can generate the language of all graphs without isolated nodes; the language of all bipartite graphs; finite intersections of languages generated by hyperedge replacement grammars. Nevertheless, the derivability problem in $\\mathrm{HL}$ and the membership problem for grammars based on $\\mathrm{HL}$ are NP-complete as well as the membership problem for hyperedge replacement grammars.",
+    "authors": [
+      "Tikhon Pshenitsyn"
+    ],
+    "publication_date": "2020-10-02T07:36:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.00819v2",
+    "download_url": "https://arxiv.org/abs/2010.00819v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Process Calculus for Molecular Interaction Maps",
+    "abstract": "We present the MIM calculus, a modeling formalism with a strong biological basis, which provides biologically-meaningful operators for representing the interaction capabilities of molecular species. The operators of the calculus are inspired by the reaction symbols used in Molecular Interaction Maps (MIMs), a diagrammatic notation used by biologists. Models of the calculus can be easily derived from MIM diagrams, for which an unambiguous and executable interpretation is thus obtained. We give a formal definition of the syntax and semantics of the MIM calculus, and we study properties of the formalism. A case study is also presented to show the use of the calculus for modeling biomolecular networks.",
+    "authors": [
+      "Roberto Barbuti",
+      "Andrea Maggiolo-Schettini",
+      "Paolo Milazzo",
+      "Giovanni Pardini",
+      "Aureliano Rama"
+    ],
+    "publication_date": "2009-11-25T14:17:40Z",
+    "arxiv_id": "http://arxiv.org/abs/0911.4854v1",
+    "download_url": "https://arxiv.org/abs/0911.4854v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Summability Calculus",
+    "abstract": "In this paper, we present the foundations of Summability Calculus, which places various established results in number theory, infinitesimal calculus, summability theory, asymptotic analysis, information theory, and the calculus of finite differences under a single simple umbrella. Using Summability Calculus, any given finite sum of the form $f(n) = \\sum_{k=a}^n s_k\\, g(k,n)$, where $s_k$ is an arbitrary periodic sequence, becomes immediately \\emph{in analytic form}. Not only can we differentiate and integrate with respect to the bound $n$ without having to rely on an explicit analytic formula for the finite sum, but we can also deduce asymptotic expansions, accelerate convergence, assign natural values to divergent sums, and evaluate the finite sum for any $n\\in\\mathbb{C}$. This follows because the discrete definition of the simple finite sum $f(n) = \\sum_{k=a}^n s_k\\, g(k,n)$ embodies a \\emph{unique natural} definition for all $n\\in\\mathbb{C}$. Throughout the paper, many established results are strengthened such as the Bohr-Mollerup theorem, Stirling's approximation, Glaisher's approximation, and the Shannon-Nyquist sampling theorem. In addition, many celebrated theorems are extended and generalized such as the Euler-Maclaurin summation formula and Boole's summation formula. Finally, we show that countless identities that have been proved throughout the past 300 years by different mathematicians using different approaches can actually be derived in an elementary straightforward manner using the rules of Summability Calculus.",
+    "authors": [
+      "Ibrahim M. Alabdulmohsin"
+    ],
+    "publication_date": "2012-09-25T10:12:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1209.5739v1",
+    "download_url": "https://arxiv.org/abs/1209.5739v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Mechanized Theory of the Box Calculus",
+    "abstract": "The capture calculus is an extension of System F<: that tracks free variables of terms in their type, allowing one to represent capabilities while limiting their scope. While previous calculi had mechanized soundness proofs -- notably System CF<: -- the latest version, namely the box calculus (System CC<:box), only had a paper proof. We present here our work on mechanizing the theory of the box calculus in Coq, and the challenges encountered along the way. While doing so, we motivate the current design of capture calculus, in particular the concept of boxes, from both user and metatheoretical standpoints. Our mechanization is complete and available on GitHub.",
+    "authors": [
+      "Joseph Fourment",
+      "Yichen Xu"
+    ],
+    "publication_date": "2023-09-11T10:13:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.05362v1",
+    "download_url": "https://arxiv.org/abs/2309.05362v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Lecture notes on the lambda calculus",
+    "abstract": "This is a set of lecture notes that developed out of courses on the lambda calculus that I taught at the University of Ottawa in 2001 and at Dalhousie University in 2007 and 2013. Topics covered in these notes include the untyped lambda calculus, the Church-Rosser theorem, combinatory algebras, the simply-typed lambda calculus, the Curry-Howard isomorphism, weak and strong normalization, polymorphism, type inference, denotational semantics, complete partial orders, and the language PCF.",
+    "authors": [
+      "Peter Selinger"
+    ],
+    "publication_date": "2008-04-22T03:16:03Z",
+    "arxiv_id": "http://arxiv.org/abs/0804.3434v2",
+    "download_url": "https://arxiv.org/abs/0804.3434v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Polymorphic RPC Calculus",
+    "abstract": "The RPC calculus is a simple semantic foundation for multi-tier programming languages such as Links in which located functions can be written for the client-server model. Subsequently, the typed RPC calculus is designed to capture the location information of functions by types and to drive location type-directed slicing compilations. However, the use of locations is currently limited to monomorphic ones, which is one of the gaps to overcome to put into practice the theory of RPC calculi for client-server model. This paper proposes a polymorphic RPC calculus to allow programmers to write succinct multi-tier programs using polymorphic location constructs. Then the polymorphic multi-tier programs can be automatically translated into programs only containing location constants amenable to the existing slicing compilation methods. We formulate a type system for the polymorphic RPC calculus, and prove its type soundness. Also, we design a monomorphization translation together with proofs on its type and semantic correctness for the translation.",
+    "authors": [
+      "Kwanghoon Choi",
+      "James Cheney",
+      "Simon Fowler",
+      "Sam Lindley"
+    ],
+    "publication_date": "2019-10-24T09:30:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.10988v3",
+    "download_url": "https://arxiv.org/abs/1910.10988v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Bang Calculus Revisited",
+    "abstract": "Call-by-Push-Value (CBPV) is a programming paradigm subsuming both Callby-Name (CBN) and Call-by-Value (CBV) semantics. The essence of this paradigm is captured by the Bang Calculus, a (concise) term language connecting CBPV and Linear Logic.\n  This paper presents a revisited version of the Bang Calculus, called $λ!$, enjoying some important properties missing in the original formulation. Indeed, the new calculus integrates permutative conversions to unblock value redexes while being confluent at the same time. A second contribution is related to nonidempotent types. We provide a quantitative type system for our $λ!$-calculus, and we show that the length of the (weak) reduction of a typed term to its normal form plus the size of this normal form is bounded by the size of its type derivation. We also explore the properties of this type system with respect to CBN/CBV translations. We keep the original CBN translation from $λ$-calculus to the Bang Calculus, which preserves normal forms and is sound and complete with respect to the (quantitative) type system for CBN. However, in the case of CBV, we reformulate both the translation and the type system to restore two main properties: preservation of normal forms and completeness. Last but not least, the quantitative system is refined to a tight one, which transforms the previous upper bound on the length of reduction to normal form plus its size into two independent exact measures for them.",
+    "authors": [
+      "Antonio Bucciarelli",
+      "Delia Kesner",
+      "Alejandro Ríos",
+      "Andrés Viso"
+    ],
+    "publication_date": "2020-02-10T18:38:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.04011v6",
+    "download_url": "https://arxiv.org/abs/2002.04011v6",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Malliavin calculus on the Clifford algebra",
+    "abstract": "We deal with Malliavin calculus on the $L^2$ space of the $W^*$-algebra generated by fermion fields (the Clifford algebra). First, we verify the product formula for multiple integrals in Itô-Clifford calculus, which is Itô calculus on the Clifford algebra. Using this product formula, we can define the derivation operator and the divergence operator. Anti-symmetric Malliavin calculus thus constructed has properties similar to those of usual Malliavin calculus. The derivation operator and the divergence operator satisfy the canonical anti-commutation relations, and the divergence operator serves as an extension of the Itô-Clifford stochastic integral, satisfying the Clark-Ocone formula. Subsequently, using this calculus, we consider the concentration inequality, the logarithmic Sobolev inequality, and the fourth-moment theorem. As for the logarithmic Sobolev inequality, only a weaker result is obtained. On the other hand, as for the concentration inequality, we obtain results that are almost similar to those of the usual case; moreover, the results concerning the fourth-moment theorem imply that, unlike in the case of the usual Brownian motion, convergence in distribution cannot be deduced from the convergence of the fourth moment.",
+    "authors": [
+      "Takayoshi Watanabe"
+    ],
+    "publication_date": "2024-09-01T13:10:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.00715v6",
+    "download_url": "https://arxiv.org/abs/2409.00715v6",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Discrete Exterior Calculus",
+    "abstract": "We present a theory and applications of discrete exterior calculus on simplicial complexes of arbitrary finite dimension. This can be thought of as calculus on a discrete space. Our theory includes not only discrete differential forms but also discrete vector fields and the operators acting on these objects. This allows us to address the various interactions between forms and vector fields (such as Lie derivatives) which are important in applications. Previous attempts at discrete exterior calculus have addressed only differential forms. We also introduce the notion of a circumcentric dual of a simplicial complex. The importance of dual complexes in this field has been well understood, but previous researchers have used barycentric subdivision or barycentric duals. We show that the use of circumcentric duals is crucial in arriving at a theory of discrete exterior calculus that admits both vector fields and forms.",
+    "authors": [
+      "Mathieu Desbrun",
+      "Anil N. Hirani",
+      "Melvin Leok",
+      "Jerrold E. Marsden"
+    ],
+    "publication_date": "2005-08-18T14:13:14Z",
+    "arxiv_id": "http://arxiv.org/abs/math/0508341v2",
+    "download_url": "https://arxiv.org/abs/math/0508341v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Counterexamples in Scale Calculus",
+    "abstract": "We construct counterexamples to classical calculus facts such as the Inverse and Implicit Function Theorems in Scale Calculus -- a generalization of Multivariable Calculus to infinite dimensional vector spaces in which the reparameterization maps relevant to Symplectic Geometry are smooth. Scale Calculus is a cornerstone of Polyfold Theory, which was introduced by Hofer-Wysocki-Zehnder as a broadly applicable tool for regularizing moduli spaces of pseudoholomorphic curves. We show how the novel nonlinear scale-Fredholm notion in Polyfold Theory overcomes the lack of Implicit Function Theorems, by formally establishing an often implicitly used fact: The differentials of basic germs -- the local models for scale-Fredholm maps -- vary continuously in the space of bounded operators when the base point changes. We moreover demonstrate that this continuity holds only in specific coordinates, by constructing an example of a scale-diffeomorphism and scale-Fredholm map with discontinuous differentials. This justifies the high technical complexity in the foundations of Polyfold Theory.",
+    "authors": [
+      "Benjamin Filippenko",
+      "Zhengyi Zhou",
+      "Katrin Wehrheim"
+    ],
+    "publication_date": "2018-07-07T00:01:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1807.02591v3",
+    "download_url": "https://arxiv.org/abs/1807.02591v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Variable-Order Fractional Calculus of Variations",
+    "abstract": "This book intends to deepen the study of the fractional calculus, giving special emphasis to variable-order operators. It is organized in two parts, as follows. In the first part, we review the basic concepts of fractional calculus (Chapter 1) and of the fractional calculus of variations (Chapter 2). In Chapter 1, we start with a brief overview about fractional calculus and an introduction to the theory of some special functions in fractional calculus. Then, we recall several fractional operators (integrals and derivatives) definitions and some properties of the considered fractional derivatives and integrals are introduced. In the end of this chapter, we review integration by parts formulas for different operators. Chapter 2 presents a short introduction to the classical calculus of variations and review different variational problems, like the isoperimetric problems or problems with variable endpoints. In the end of this chapter, we introduce the theory of the fractional calculus of variations and some fractional variational problems with variable-order. In the second part, we systematize some new recent results on variable-order fractional calculus of (Tavares, Almeida and Torres, 2015, 2016, 2017, 2018). In Chapter 3, considering three types of fractional Caputo derivatives of variable-order, we present new approximation formulas for those fractional derivatives and prove upper bound formulas for the errors. In Chapter 4, we introduce the combined Caputo fractional derivative of variable-order and corresponding higher-order operators. Some properties are also given. Then, we prove fractional Euler-Lagrange equations for several types of fractional problems of the calculus of variations, with or without constraints.",
+    "authors": [
+      "Ricardo Almeida",
+      "Dina Tavares",
+      "Delfim F. M. Torres"
+    ],
+    "publication_date": "2018-05-02T10:39:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1805.00720v2",
+    "download_url": "https://arxiv.org/abs/1805.00720v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "'Riemann Equations' in Bidifferential Calculus",
+    "abstract": "We consider equations that formally resemble a matrix Riemann (or Hopf) equation in the framework of bidifferential calculus. With different choices of a first-order bidifferential calculus, we obtain a variety of equations, including a semi-discrete and a fully discrete version of the matrix Riemann equation. A corresponding universal solution-generating method then either yields a (continuous or discrete) Cole-Hopf transformation, or leaves us with the problem of solving Riemann equations (hence an application of the hodograph method). If the bidifferential calculus extends to second order, solutions of a system of `Riemann equations' are also solutions of an equation that arises, on the universal level of bidifferential calculus, as an integrability condition. Depending on the choice of bidifferential calculus, the latter can represent a number of prominent integrable equations, like self-dual Yang-Mills, as well as matrix versions of the two-dimensional Toda lattice, Hirota's bilinear difference equation, (2+1)-dimensional NLS, KP and Davey-Stewartson equations. For all of them, a recent (non-isospectral) binary Darboux transformation result in bidifferential calculus applies, which can be specialized to generate solutions of the associated `Riemann equations'. For the latter, we clarify the relation between these specialized binary Darboux transformations and the aforementioned solution-generating method. From (arbitrary size) matrix versions of the `Riemann equations' associated with an integrable equation, possessing a bidifferential calculus formulation, multi-soliton-type solutions of the latter can be generated. This includes `breaking' multi-soliton-type solutions of the self-dual Yang-Mills and the (2+1)-dimensional NLS equation, which are parametrized by solutions of Riemann equations.",
+    "authors": [
+      "Oleksandr Chvartatskyi",
+      "Folkert Mueller-Hoissen",
+      "Nikola Stoilov"
+    ],
+    "publication_date": "2014-09-03T16:37:40Z",
+    "arxiv_id": "http://arxiv.org/abs/1409.1154v2",
+    "download_url": "https://arxiv.org/abs/1409.1154v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Pseudodifferential calculus on manifolds with corners and groupoids",
+    "abstract": "We build a longitudinally smooth differentiable groupoid associated to any manifold with corners. The pseudodifferential calculus on this groupoid coincides with the pseudodifferential calculus of Melrose (also called b-calculus). We also define an algebra of rapidly decreasing functions on this groupoid; it contains the kernels of the smoothing operators of the (small) b-calculus.",
+    "authors": [
+      "Bertrand Monthubert"
+    ],
+    "publication_date": "1997-07-22T14:13:16Z",
+    "arxiv_id": "http://arxiv.org/abs/funct-an/9707008v2",
+    "download_url": "https://arxiv.org/abs/funct-an/9707008v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards a Calculus of Object Programs",
+    "abstract": "Verifying properties of object-oriented software requires a method for handling references in a simple and intuitive way, closely related to how O-O programmers reason about their programs. The method presented here, a Calculus of Object Programs, combines four components: compositional logic, a framework for describing program semantics and proving program properties; negative variables to address the specifics of O-O programming, in particular qualified calls; the alias calculus, which determines whether reference expressions can ever have the same value; and the calculus of object structures, a specification technique for the structures that arise during the execution of an object-oriented program. The article illustrates the Calculus by proving the standard algorithm for reversing a linked list.",
+    "authors": [
+      "Bertrand Meyer"
+    ],
+    "publication_date": "2011-07-11T11:18:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1107.1999v2",
+    "download_url": "https://arxiv.org/abs/1107.1999v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Conceptual differential calculus part ii: Cubic higher order calculus",
+    "abstract": "Following the programme set out in Part I of this work, we develop a conceptual higher order differential calculus. The '' local linear algebra '' defined in Part I is generalized by '' higher order local linear algebra ''. The underlying combinatorial object of such higher algebra is the natural n-dimensional hyper-cube, and so we qualify this calculus as '' cubic ''. More precisely, we define two versions of conceptual cubic calculus: '' full '' and '' symmetric cubic ''. The theory thus initiated sheds new light on several foundational issues.",
+    "authors": [
+      "Wolfgang Bertram"
+    ],
+    "publication_date": "2015-10-12T11:24:17Z",
+    "arxiv_id": "http://arxiv.org/abs/1510.03234v1",
+    "download_url": "https://arxiv.org/abs/1510.03234v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hahn's Symmetric Quantum Variational Calculus",
+    "abstract": "We introduce and develop the Hahn symmetric quantum calculus with applications to the calculus of variations. Namely, we obtain a necessary optimality condition of Euler-Lagrange type and a sufficient optimality condition for variational problems within the context of Hahn's symmetric calculus. Moreover, we show the effectiveness of Leitmann's direct method when applied to Hahn's symmetric variational calculus. Illustrative examples are provided.",
+    "authors": [
+      "Artur M. C. Brito da Cruz",
+      "Natalia Martins",
+      "Delfim F. M. Torres"
+    ],
+    "publication_date": "2012-09-07T13:30:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1209.1530v1",
+    "download_url": "https://arxiv.org/abs/1209.1530v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Differential complexes and exterior calculus",
+    "abstract": "In this paper we present a new theory of calculus over $k$-dimensional domains in a smooth $n$-manifold, unifying the discrete, exterior, and continuum theories. The calculus begins at a single point and is extended to chains of finitely many points by linearity, or superposition. It converges to the smooth continuum with respect to a norm on the space of ``pointed chains,'' culminating in the chainlet complex. Through this complex, we discover a broad theory of coordinate free, multivector analysis in smooth manifolds for which both the classical Newtonian calculus and the Cartan exterior calculus become special cases. The chainlet operators, products and integrals apply to both symmetric and antisymmetric tensor cochains. As corollaries, we obtain the full calculus on Euclidean space, cell complexes, bilayer structures (e.g., soap films) and nonsmooth domains, with equal ease. The power comes from the recently discovered prederivative and preintegral that are antecedent to the Newtonian theory. These lead to new models for the continuum of space and time, and permit analysis of domains that may not be locally Euclidean, or locally connected, or with locally finite mass.",
+    "authors": [
+      "Jenny Harrison"
+    ],
+    "publication_date": "2006-01-09T00:40:25Z",
+    "arxiv_id": "http://arxiv.org/abs/math-ph/0601015v4",
+    "download_url": "https://arxiv.org/abs/math-ph/0601015v4",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Embedding calculus for surfaces",
+    "abstract": "We prove convergence of Goodwillie-Weiss' embedding calculus for spaces of embeddings into a manifold of dimension at most two, so in particular for diffeomorphisms between surfaces. We also relate the Johnson filtration of the mapping class group of a surface to a certain filtration arising from embedding calculus.",
+    "authors": [
+      "Manuel Krannich",
+      "Alexander Kupers"
+    ],
+    "publication_date": "2021-01-19T22:34:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2101.07885v3",
+    "download_url": "https://arxiv.org/abs/2101.07885v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "From X to Pi; Representing the Classical Sequent Calculus in the Pi-calculus",
+    "abstract": "We study the Pi-calculus, enriched with pairing and non-blocking input, and define a notion of type assignment that uses the type constructor \"arrow\". We encode the circuits of the calculus X into this variant of Pi, and show that all reduction (cut-elimination) and assignable types are preserved. Since X enjoys the Curry-Howard isomorphism for Gentzen's calculus LK, this implies that all proofs in LK have a representation in Pi.",
+    "authors": [
+      "Steffen van Bakel",
+      "Luca Cardelli",
+      "Maria Grazia Vigliotti"
+    ],
+    "publication_date": "2011-09-22T14:05:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1109.4817v1",
+    "download_url": "https://arxiv.org/abs/1109.4817v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the Recognizing Power of the Lambek Calculus with Brackets",
+    "abstract": "Every language recognized by the Lambek calculus with brackets is context-free. This is shown by combining an observation by Jäger with an entirely straightforward adaptation of the method Pentus used for the original Lambek calculus. The case of the variant of the calculus allowing sequents with empty antecedents is slightly more complicated, requiring a restricted use of the multiplicative unit.",
+    "authors": [
+      "Makoto Kanazawa"
+    ],
+    "publication_date": "2017-09-22T11:16:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1709.07695v4",
+    "download_url": "https://arxiv.org/abs/1709.07695v4",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Calculus on Fractal Curves in R^n",
+    "abstract": "A new calculus on fractal curves, such as the von Koch curve, is formulated. We define a Riemann-like integral along a fractal curve F, called F-alpha-integral, where alpha is the dimension of F. A derivative along the fractal curve called F-alpha-derivative, is also defined. The mass function, a measure-like algorithmic quantity on the curves, plays a central role in the formulation. An appropriate algorithm to calculate the mass function is presented to emphasize algorithmic aspect. Several aspects of this calculus retain much of the simplicity of ordinary calculus. We establish a conjugacy between this calculus and ordinary calculus on the real line. The F-alpha-integral and F-alpha-derivative are shown to be conjugate to the Riemann integral and ordinary derivative respectively. In fact they can thus be evaluated using the corresponding operators in ordinary calculus and conjugacy. Sobolev Spaces are constructed on F, and F-alpha- differentiability is generalized. Finally we touch upon an example of absorption along fractal path to illustrate the utility of the framework in model making.",
+    "authors": [
+      "Abhay Parvate",
+      "Seema Satin",
+      "A. D. Gangal"
+    ],
+    "publication_date": "2009-06-03T10:28:51Z",
+    "arxiv_id": "http://arxiv.org/abs/0906.0676v2",
+    "download_url": "https://arxiv.org/abs/0906.0676v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Destination Calculus: A Linear λ-Calculus for Purely Functional Memory Writes",
+    "abstract": "Destination passing -- aka. out parameters -- is taking a parameter to fill rather than returning a result from a function. Due to its apparently imperative nature, destination passing has struggled to find its way to pure functional programming. In this paper, we present a pure functional calculus with destinations at its core. Our calculus subsumes all the similar systems, and can be used to reason about their correctness or extension. In addition, our calculus can express programs that were previously not known to be expressible in a pure language. This is guaranteed by a modal type system where modes are used to manage both linearity and scopes. Type safety of our core calculus was proved formally with the Coq proof assistant.",
+    "authors": [
+      "Thomas Bagrel",
+      "Arnaud Spiwack"
+    ],
+    "publication_date": "2025-03-10T16:08:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.07489v1",
+    "download_url": "https://arxiv.org/abs/2503.07489v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multivector Differential Calculus",
+    "abstract": "Universal geometric calculus simplifies and unifies the structure and notation of mathematics for all of science and engineering, and for technological applications. This paper treats the fundamentals of the multivector differential calculus part of geometric calculus. The multivector differential is introduced, followed by the multivector derivative and the adjoint of multivector functions. The basic rules of multivector differentiation are derived explicitly, as well as a variety of basic multivector derivatives. Finally factorization, which relates functions of vector variables and multivector variables is discussed, and the concepts of both simplicial variables and derivatives are explained. Everything is proven explicitly in a very elementary level step by step approach. The paper is thus intended to serve as reference material, providing a number of details, which are usually skipped in more advanced discussions of the subject matter. The arrangement of the material closely follows {chapter 2 of D. Hestenes, G. Sobczyk, Clifford Algebra to Geometric Calculus, Kluwer, Dordrecht, 1999}.",
+    "authors": [
+      "Eckhard Hitzer"
+    ],
+    "publication_date": "2013-06-05T01:17:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1306.2278v1",
+    "download_url": "https://arxiv.org/abs/1306.2278v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Functional Machine Calculus",
+    "abstract": "This paper presents the Functional Machine Calculus (FMC) as a simple model of higher-order computation with \"reader/writer\" effects: higher-order mutable store, input/output, and probabilistic and non-deterministic computation.\n  The FMC derives from the lambda-calculus by taking the standard operational perspective of a call-by-name stack machine as primary, and introducing two natural generalizations. One, \"locations\", introduces multiple stacks, which each may represent an effect and so enable effect operators to be encoded into the abstraction and application constructs of the calculus. The second, \"sequencing\", is known from kappa-calculus and concatenative programming languages, and introduces the imperative notions of \"skip\" and \"sequence\". This enables the encoding of reduction strategies, including call-by-value lambda-calculus and monadic constructs.\n  The encoding of effects into generalized abstraction and application means that standard results from the lambda-calculus may carry over to effects. The main result is confluence, which is possible because encoded effects reduce algebraically rather than operationally. Reduction generates the familiar algebraic laws for state, and unlike in the monadic setting, reader/writer effects combine seamlessly. A system of simple types confers termination of the machine.",
+    "authors": [
+      "Willem Heijltjes"
+    ],
+    "publication_date": "2022-12-15T22:36:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.08177v4",
+    "download_url": "https://arxiv.org/abs/2212.08177v4",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Differential Calculus on Cayley Graphs",
+    "abstract": "We conservatively extend classical elementary differential calculus to the Cartesian closed category of convergence spaces. By specializing results about the convergence space representation of directed graphs, we use Cayley graphs to obtain a differential calculus on groups, from which we then extract a Boolean differential calculus, in which both linearity and the product rule, also called the Leibniz identity, are satisfied.",
+    "authors": [
+      "Daniel R. Patten",
+      "Howard A. Blair",
+      "David W. Jakel",
+      "Robert J. Irwin"
+    ],
+    "publication_date": "2015-04-29T20:26:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1504.08013v1",
+    "download_url": "https://arxiv.org/abs/1504.08013v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Divided Differences and Multivariate Holomorphic Calculus",
+    "abstract": "We review the multivariate holomorphic functional calculus for tuples in a commutative Banach algebra and establish a simple \"naïve\" extension to commuting tuples in a general Banach algebra. The approach is naïve in the sense that the naïvely defined joint spectrum maybe too big. The advantage of the approach is that the functional calculus then is given by a simple concrete formula from which all its continuity properties can easily be derived.\n  We apply this framework to multivariate functions arising as divided differences of a univariate function. This provides a rich set of examples to which our naïve calculus applies. Foremost, we offer a natural and straightforward proof of the Connes-Moscovici Rearrangement Lemma in the context of the multivariate holomorphic functional calculus. Secondly, we show that the Daletski-Krein type noncommutative Taylor expansion is a natural consequence of our calculus. Also Magnus' Theorem which gives a nonlinear differential equation for the $\\log$ of the solutions to a linear matrix ODE follows naturally and easily from our calculus. Finally, we collect various combinatorial related formulas.",
+    "authors": [
+      "Luiz Hartmann",
+      "Matthias Lesch"
+    ],
+    "publication_date": "2024-11-08T11:27:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.05484v3",
+    "download_url": "https://arxiv.org/abs/2411.05484v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Grokking the Sequent Calculus (Functional Pearl)",
+    "abstract": "The sequent calculus is a proof system which was designed as a more symmetric alternative to natural deduction. The λμμ-calculus is a term assignment system for the sequent calculus and a great foundation for compiler intermediate languages due to its first-class representation of evaluation contexts. Unfortunately, only experts of the sequent calculus can appreciate its beauty. To remedy this, we present the first introduction to the λμμ-calculus which is not directed at type theorists or logicians but at compiler hackers and programming-language enthusiasts. We do this by writing a compiler from a small but interesting surface language to the λμμ-calculus as a compiler intermediate language.",
+    "authors": [
+      "David Binder",
+      "Marco Tzschentke",
+      "Marius Müller",
+      "Klaus Ostermann"
+    ],
+    "publication_date": "2024-06-20T20:30:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.14719v1",
+    "download_url": "https://arxiv.org/abs/2406.14719v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Graphical Calculus for Fermionic Tensors",
+    "abstract": "We introduce a graphical calculus, consisting of a set of fermionic tensors with tensor-network equations, which can be used to perform various computations in fermionic many-body physics purely diagrammatically. The indices of our tensors primarily correspond to fermionic modes, but also include qubits and fixed odd-parity states. Our graphical calculus extends the ZX calculus for systems involving qubits. We apply the calculus in order to represent various objects, operations, and computations in physics, including fermionic Gaussian states, the partial trace of Majorana modes, purification protocols, fermionization and bosonization maps, and the construction of fermionic codes.",
+    "authors": [
+      "Yuanjie Ren",
+      "Kaifeng Bu",
+      "Andreas Bauer"
+    ],
+    "publication_date": "2025-08-06T00:01:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.03976v1",
+    "download_url": "https://arxiv.org/abs/2508.03976v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Distributional Hessian and divdiv complexes on triangulation and cohomology",
+    "abstract": "In this paper, we construct discrete versions of some Bernstein-Gelfand-Gelfand (BGG) complexes, i.e., the Hessian and the divdiv complexes, on triangulations in 2D and 3D. The sequences consist of finite elements with local polynomial shape functions and various types of Dirac measure on subsimplices. The construction generalizes Whitney forms (canonical conforming finite elements) for the de Rham complex and Regge calculus/finite elements for the elasticity (Riemannian deformation) complex from discrete topological and Discrete Exterior Calculus perspectives. We show that the cohomology of the resulting complexes is isomorphic to the continuous versions, and thus isomorphic to the de~Rham cohomology with coefficients.",
+    "authors": [
+      "Kaibo Hu",
+      "Ting Lin",
+      "Qian Zhang"
+    ],
+    "publication_date": "2023-11-27T01:53:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.15482v1",
+    "download_url": "https://arxiv.org/abs/2311.15482v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Product Calculus and Stokes Theorem",
+    "abstract": "In this paper the analogy between differential forms arising from integrals in additive calculus and forms arising from the integrals in product calculus is investigated. It is found that with an appropriate definition of scalar multiplication and vector addition a set of vector spaces can be constructed analogous to what is found in exterior calculus. A product differential is defined which allows for the product derivative version of closed and exact forms. The product differential also allows for a product integral version of Stokes theorem (for scalar functions).",
+    "authors": [
+      "M. G. Naber"
+    ],
+    "publication_date": "2024-01-29T15:29:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.08784v1",
+    "download_url": "https://arxiv.org/abs/2403.08784v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Persistence module and Schubert calculus",
+    "abstract": "A multiplication on persistence diagrams is introduced by means of Schubert calculus. The key observation behind this multiplication comes from the fact that the representation space of persistence modules has the structure of the Schubert decomposition of a flag. In particular, isomorphism classes of persistence modules correspond to Schubert cells, thereby the Schubert calculus naturally defines a multiplication on persistence diagrams. The meaning of the multiplication on persistence diagrams is carried over from that on Schubert calculus, i.e., algebro-geometric intersections of varieties of persistence modules.",
+    "authors": [
+      "Yasuaki Hiraoka",
+      "Kohei Yahiro",
+      "Chenguang Xu"
+    ],
+    "publication_date": "2024-09-20T07:53:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.13301v1",
+    "download_url": "https://arxiv.org/abs/2409.13301v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Flower Calculus",
+    "abstract": "We introduce the flower calculus, a deep inference proof system for intuitionistic first-order logic inspired by Peirce's existential graphs. It works as a rewriting system over inductive objects called ''flowers'', that enjoy both a graphical interpretation as topological diagrams, and a textual presentation as nested sequents akin to coherent formulas. Importantly, the calculus dispenses completely with the traditional notion of symbolic connective, operating solely on nested flowers containing atomic predicates. We prove both the soundness of the full calculus and the completeness of an analytic fragment with respect to Kripke semantics. This provides to our knowledge the first analyticity result for a proof system based on existential graphs, adapting semantic cut-elimination techniques to a deep inference setting. Furthermore, the kernel of rules targetted by completeness is fully invertible, a desirable property for both automated and interactive proof search.",
+    "authors": [
+      "Pablo Donato"
+    ],
+    "publication_date": "2024-02-23T08:13:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.15174v3",
+    "download_url": "https://arxiv.org/abs/2402.15174v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fundamental Theorem of Calculus",
+    "abstract": "A simple but rigorous proof of the Fundamental Theorem of Calculus is given in geometric calculus, after the basis for this theory in geometric algebra has been explained. Various classical examples of this theorem, such as the Green's and Stokes' theorem are discussed, as well as the new theory of monogenic functions, which generalizes the concept of an analytic function of a complex variable to higher dimensions.",
+    "authors": [
+      "Garret Sobczyk",
+      "Omar Leon Sanchez"
+    ],
+    "publication_date": "2008-09-26T03:44:28Z",
+    "arxiv_id": "http://arxiv.org/abs/0809.4526v1",
+    "download_url": "https://arxiv.org/abs/0809.4526v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Stochastic Calculus for Rosenblatt Processes",
+    "abstract": "A stochastic calculus is given for processes described by stochastic integrals with respect to fractional Brownian motions and Rosenblatt processes somewhat analogous to the stochastic calculus for Itô processes. These processes for this stochastic calculus arise naturally from a stochastic chain rule for functionals of Rosenblatt processes; and some Itô-type expressions are given here. Furthermore, there is some analysis of these results for their applications to problems using Rosenblatt noise.",
+    "authors": [
+      "Petr Čoupek",
+      "Tyrone E. Duncan",
+      "Bozenna Pasik-Duncan"
+    ],
+    "publication_date": "2019-08-01T09:41:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.00296v1",
+    "download_url": "https://arxiv.org/abs/1908.00296v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Differential Calculus on Quantum Spheres",
+    "abstract": "We study covariant differential calculus on the quantum spheres S_q^2N-1.\n  Two classification results for covariant first order differential calculi are proved. As an important step towards a description of the noncommutative geometry of the quantum spheres, a framework of covariant differential calculus is established, including a particular first order calculus obtained by factorization, higher order calculi and a symmetry concept.",
+    "authors": [
+      "Martin Welk"
+    ],
+    "publication_date": "1998-02-18T20:03:47Z",
+    "arxiv_id": "http://arxiv.org/abs/math/9802087v3",
+    "download_url": "https://arxiv.org/abs/math/9802087v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Calculus of functional centrality",
+    "abstract": "In this document, we present another perspective for the calculus of optimal geometrical primitives and functions according to the centrality requirements. The shortest paths expressed in spatial and temporal domains are studied. We show the effectiveness of this formulation by providing solutions that cannot be easily accessed by classical formulation when using the calculus of variations.",
+    "authors": [
+      "Djemel Ziou"
+    ],
+    "publication_date": "2023-02-09T20:45:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.06465v1",
+    "download_url": "https://arxiv.org/abs/2302.06465v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algebraic Approach for Performance Bound Calculus on Transportation Networks (Road Network Calculus)",
+    "abstract": "We propose in this article an adaptation of the basic techniques of the deterministic network calculus theory to the road traffic flow theory. Network calculus is a theory based on min-plus algebra. It uses algebraic techniques to compute performance bounds in communication networks, such as maximum end-to-end delays and backlogs. The objective of this article is to investigate the application of such techniques for determining performance bounds on road networks, such as maximum bounds on travel times. The main difficulty to apply the network calculus theory on road networks is the modeling of interaction of cars inside one road, or more precisely the congestion phase. We propose a traffic model for a single-lane road without passing, which is compatible with the network calculus theory. The model permits to derive a maximum bound of the travel time of cars through the road. Then, basing on that model, we explain how to extend the approach to model intersections and large-scale networks.",
+    "authors": [
+      "Nadir Farhi",
+      "Habib Haj-Salem",
+      "Jean-Patrick Lebacque"
+    ],
+    "publication_date": "2013-02-01T10:30:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.0132v1",
+    "download_url": "https://arxiv.org/abs/1302.0132v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Kolmogorov's Calculus of Problems and Its Legacy",
+    "abstract": "Kolmogorov's Calculus of Problems is an interpretation of Heyting's intuitionistic propositional calculus published by A.N. Kolmogorov in 1932. Unlike Heyting's intended interpretation of this calculus, Kolmogorov's interpretation does not comply with the philosophical principles of Mathematical Intuitionism. This philosophical difference between Kolmogorov and Heyting implies different treatments of problems and propositions: while in Heyting's view the difference between problems and propositions is merely linguistic, Kolmogorov keeps the two concepts apart and does not apply his calculus to propositions. I stress differences between Kolmogorov's and Heyting's interpretations and show how the two interpretations diverged during their development. In this context I reconstruct Kolmogorov's philosophical views on mathematics and analyse his original take on the Hilbert-Brouwer controversy. Finally, I overview some later works motivated by Kolmogorov's Calculus of Problems and propose a justification of Kolmogorov's distinction between problems and propositions in terms of Univalent Mathematics.",
+    "authors": [
+      "Andrei Rodin"
+    ],
+    "publication_date": "2023-07-16T08:25:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.09202v1",
+    "download_url": "https://arxiv.org/abs/2307.09202v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Topological View on Integration and Exterior Calculus",
+    "abstract": "A construction of integration, function calculus, and exterior calculus is made, allowing for integration of unital magma valued functions against (compactified) unital magma valued measures over arbitrary topological spaces. The Riemann integral, geometric product integral, and Lebesgue integral are shown as special cases. Notions similar to chain complexes are developed to allow this form of integration to define notions of exterior derivative for differential forms, and of derivatives of functions as well. Resulting conclusions on integration, orientation, dimension, and differentiation are discussed. Applications include calculus on fractals, stochastic analysis, discrete analysis, and other novel forms of calculus.",
+    "authors": [
+      "Petal B. Mokryn"
+    ],
+    "publication_date": "2024-07-16T13:04:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.11689v3",
+    "download_url": "https://arxiv.org/abs/2407.11689v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Pusz--Woronowicz's functional calculus revisited",
+    "abstract": "This note is a complement to Pusz--Woronowicz's works on functional calculus for two positive forms from the viewpoint of operator theory. Based on an elementary, self-contained and purely Hilbert space operator explanation of their functional calculus, we show that any operator connection type operations (including any operator perspectives) are captured by their functional calculus.",
+    "authors": [
+      "Kanae Hatano",
+      "Yoshimichi Ueda"
+    ],
+    "publication_date": "2020-12-24T02:26:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2012.13072v3",
+    "download_url": "https://arxiv.org/abs/2012.13072v3",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The G4i analogue of a G3i calculus",
+    "abstract": "This paper provides a method to obtain terminating analytic calculi for a large class of intuitionistic modal logics. For a given logic L with a cut-free calculus G that is an extension of G3ip the method produces a terminating analytic calculus that is an extension of G4ip and equivalent to G. G4ip has been introduced by Dyckhoff in 1992 as a terminating analogue of the calculus G3ip for intuitionistic propositional logic. Thus this paper can be viewed as an extension of Dyckhoff's work to intuitionistic modal logic.",
+    "authors": [
+      "Rosalie Iemhoff"
+    ],
+    "publication_date": "2020-11-20T14:16:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.11847v1",
+    "download_url": "https://arxiv.org/abs/2011.11847v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Upward confluence in the interaction calculus",
+    "abstract": "The lambda calculus is not upward confluent, one of counterexamples known thanks to Plotkin. This paper investigates upward confluence in the interaction calculus. Can an interaction system have this property? We positively answer this question and also provide a necessary and sufficient condition for stronger one-step upward confluence which happens to be very restrictive. However, the provided condition is not necessary for upward confluence as we prove that the interaction system of the linear lambda calculus is upward confluent.",
+    "authors": [
+      "Anton Salikhmetov"
+    ],
+    "publication_date": "2018-06-19T14:23:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.07275v4",
+    "download_url": "https://arxiv.org/abs/1806.07275v4",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "General fractional calculus and Prabhakar's theory",
+    "abstract": "General fractional calculus offers an elegant and self-consistent path toward the generalization of fractional calculus to an enhanced class of kernels. Prabhakar's theory can be thought of, to some extent, as an explicit realization of this scheme achieved by merging the Prabhakar (or, three-parameter Mittag-Leffler) function with the general wisdom of the standard (Riemann-Liouville and Caputo) formulation of fractional calculus. Here I discuss some implications that emerge when attempting to frame Prabhakar's theory within the program of general fractional calculus.",
+    "authors": [
+      "Andrea Giusti"
+    ],
+    "publication_date": "2019-11-15T15:27:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1911.06695v2",
+    "download_url": "https://arxiv.org/abs/1911.06695v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Computational Complexity of Propositional Cirquent Calculus",
+    "abstract": "Introduced in 2006 by Japaridze, cirquent calculus is a refinement of sequent calculus. The advent of cirquent calculus arose from the need for a deductive system with a more explicit ability to reason about resources. Unlike the more traditional proof-theoretic approaches that manipulate tree-like objects (formulas, sequents, etc.), cirquent calculus is based on circuit-style structures called cirquents, in which different \"peer\" (sibling, cousin, etc.) substructures may share components. It is this resource sharing mechanism to which cirquent calculus owes its novelty (and its virtues). From its inception, cirquent calculus has been paired with an abstract resource semantics. This semantics allows for reasoning about the interaction between a resource provider and a resource user, where resources are understood in the their most general and intuitive sense. Interpreting resources in a more restricted computational sense has made cirquent calculus instrumental in axiomatizing various fundamental fragments of Computability Logic, a formal theory of (interactive) computability. The so-called \"classical\" rules of cirquent calculus, in the absence of the particularly troublesome contraction rule, produce a sound and complete system CL5 for Computability Logic. In this paper, we investigate the computational complexity of CL5, showing it is  $Σ_2^p$-complete. We also show that CL5 without the duplication rule has polynomial size proofs and is NP-complete.",
+    "authors": [
+      "Matthew Steven Bauer"
+    ],
+    "publication_date": "2014-01-08T22:24:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1401.1849v4",
+    "download_url": "https://arxiv.org/abs/1401.1849v4",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Definitions by rewriting in the Calculus of Constructions",
+    "abstract": "This paper presents general syntactic conditions ensuring the strong normalization and the logical consistency of the Calculus of Algebraic Constructions, an extension of the Calculus of Constructions with functions and predicates defined by higher-order rewrite rules. On the one hand, the Calculus of Constructions is a powerful type system in which one can formalize the propositions and natural deduction proofs of higher-order logic. On the other hand, rewriting is a simple and powerful computation paradigm. The combination of both allows, among other things, to develop formal proofs with a reduced size and more automation compared with more traditional proof assistants. The main novelty is to consider a general form of rewriting at the predicate-level which generalizes the strong elimination of the Calculus of Inductive Constructions.",
+    "authors": [
+      "Frédéric Blanqui"
+    ],
+    "publication_date": "2006-10-12T11:47:54Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0610072v1",
+    "download_url": "https://arxiv.org/abs/cs/0610072v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algebraic Properties of Propositional Calculus",
+    "abstract": "In this short note we relate some known properties of propositional calculus to purely algebraic considerations of a Boolean algebra. Classes of formulas of propositional calculus are considered as elements of a Boolean algebra. As such they can be represented by uniquely defined elements of this algebra which we call \"logical primes\". The algebraic notations appear useful because they make it possible to derive well known properties of propositional calculus by simple calculations or to substitute lengthy logical considerations by schematic algebraic manipulations.",
+    "authors": [
+      "Bernd R. Schuh"
+    ],
+    "publication_date": "2009-06-11T15:15:03Z",
+    "arxiv_id": "http://arxiv.org/abs/0906.2133v1",
+    "download_url": "https://arxiv.org/abs/0906.2133v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Koszul calculus of preprojective algebras",
+    "abstract": "We show that the Koszul calculus of a preprojective algebra, whose graph is distinct from A$\\_1$ and A$\\_2$, vanishes in any (co)homological degree $p>2$. Moreover, its (higher) cohomological calculus is isomorphic as a bimodule to its (higher) homological calculus, by exchanging degrees $p$ and $2-p$, and we prove a generalised version of the 2-Calabi-Yau property. For the ADE Dynkin graphs, the preprojective algebras are not Koszul and they are not Calabi-Yau in the sense of Ginzburg's definition, but they satisfy our generalised Calabi-Yau property and we say that they are Koszul complex Calabi-Yau (Kc-Calabi-Yau) of dimension $2$. For Kc-Calabi-Yau (quadratic) algebras of any dimension, defined in terms of derived categories, we prove a Poincaré Van den Bergh duality theorem. We compute explicitly the Koszul calculus of preprojective algebras for the ADE Dynkin graphs.",
+    "authors": [
+      "Roland Berger",
+      "Rachel Taillefer"
+    ],
+    "publication_date": "2019-05-20T06:39:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.07906v2",
+    "download_url": "https://arxiv.org/abs/1905.07906v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A noncommutative calculus on the cyclic dual of Ext",
+    "abstract": "We show that if the cochain complex computing Ext groups (in the category of modules over Hopf algebroids) admits a cocyclic structure, then the noncommutative Cartan calculus structure on Tor over Ext dualises in a cyclic sense to a calculus on Coext over Cotor. More precisely, the cyclic duals of the chain resp. cochain spaces computing the two classical derived functors lead to complexes that compute the more exotic ones, giving a cyclic opposite module over an operad with multiplication that induce operations such as a Lie derivative, a cap product (or contraction), and a (cyclic) differential, along with higher homotopy operators defining a noncommutative Cartan calculus up to homotopy. In particular, this allows to recover the classical Cartan calculus from differential geometry or the Chevalley-Eilenberg calculus for Lie(-Rinehart) algebras without any finiteness conditions or the use of topological tensor products.",
+    "authors": [
+      "Niels Kowalzig"
+    ],
+    "publication_date": "2019-12-17T17:25:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.08145v2",
+    "download_url": "https://arxiv.org/abs/1912.08145v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Calculus of Variations on Time Scales and Discrete Fractional Calculus",
+    "abstract": "We study problems of the calculus of variations and optimal control within the framework of time scales. Specifically, we obtain Euler-Lagrange type equations for both Lagrangians depending on higher order delta derivatives and isoperimetric problems. We also develop some direct methods to solve certain classes of variational problems via dynamic inequalities. In the last chapter we introduce fractional difference operators and propose a new discrete-time fractional calculus of variations. Corresponding Euler-Lagrange and Legendre necessary optimality conditions are derived and some illustrative examples provided.",
+    "authors": [
+      "Rui A. C. Ferreira"
+    ],
+    "publication_date": "2010-07-28T23:45:27Z",
+    "arxiv_id": "http://arxiv.org/abs/1007.5087v1",
+    "download_url": "https://arxiv.org/abs/1007.5087v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Unitary Functor Calculus with Reality",
+    "abstract": "We construct a calculus of functors in the spirit of orthogonal calculus, which is designed to study \"functors with reality\" such as the Real classifying space functor, $BU_\\mathbb{R}(-)$. The calculus produces a Taylor tower, the $n$-th layer of which is classified by a spectrum with an action of $C_2 \\ltimes U(n)$.\n  We further give model categorical considerations, producing a zig-zag of Quillen equivalences between spectra with an action of $C_2 \\ltimes U(n)$ and a model structure on the category of input functors which captures the homotopy theory of the $n$-th layer of the Taylor tower.",
+    "authors": [
+      "Niall Taggart"
+    ],
+    "publication_date": "2020-04-30T15:38:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.14886v2",
+    "download_url": "https://arxiv.org/abs/2004.14886v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Differentiation Theory for Itô's Calculus",
+    "abstract": "A peculiar feature of Itô's calculus is that it is an integral calculus that gives no explicit derivative with a systematic differentiation theory counterpart, as in elementary calculus. So, can we define a pathwise stochastic derivative of semimartingales with respect to Brownian motion that leads to a differentiation theory counterpart to Itô's integral calculus? From Itô's definition of his integral, such a derivative must be based on the quadratic covariation process. We give such a derivative in this note and we show that it leads to a fundamental theorem of stochastic calculus, a generalized stochastic chain rule that includes the case of convex functions acting on continuous semimartingales, and the stochastic mean value and Rolle's theorems. In addition, it interacts with basic algebraic operations on semimartingales similarly to the way the deterministic derivative does on deterministic functions, making it natural for computations. Such a differentiation theory leads to many interesting applications some of which we address in an upcoming article.",
+    "authors": [
+      "Hassan Allouba"
+    ],
+    "publication_date": "2010-05-24T15:30:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1005.4357v1",
+    "download_url": "https://arxiv.org/abs/1005.4357v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Core Calculus for Documents",
+    "abstract": "Passive documents and active programs now widely comingle. Document languages include Turing-complete programming elements, and programming languages include sophisticated document notations. However, there are no formal foundations that model these languages. This matters because the interaction between document and program can be subtle and error-prone. In this paper we describe several such problems, then taxonomize and formalize document languages as levels of a document calculus. We employ the calculus as a foundation for implementing complex features such as reactivity, as well as for proving theorems about the boundary of content and computation. We intend for the document calculus to provide a theoretical basis for new document languages, and to assist designers in cleaning up the unsavory corners of existing languages.",
+    "authors": [
+      "Will Crichton",
+      "Shriram Krishnamurthi"
+    ],
+    "publication_date": "2023-10-06T16:41:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.04368v2",
+    "download_url": "https://arxiv.org/abs/2310.04368v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algebraic Pattern Matching in Join Calculus",
+    "abstract": "We propose an extension of the join calculus with pattern matching on algebraic data types. Our initial motivation is twofold: to provide an intuitive semantics of the interaction between concurrency and pattern matching; to define a practical compilation scheme from extended join definitions into ordinary ones plus ML pattern matching. To assess the correctness of our compilation scheme, we develop a theory of the applied join calculus, a calculus with value passing and value matching. We implement this calculus as an extension of the current JoCaml system.",
+    "authors": [
+      "Qin Ma",
+      "Luc Maranget"
+    ],
+    "publication_date": "2008-02-27T13:21:51Z",
+    "arxiv_id": "http://arxiv.org/abs/0802.4018v2",
+    "download_url": "https://arxiv.org/abs/0802.4018v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The stack calculus",
+    "abstract": "We introduce a functional calculus with simple syntax and operational semantics in which the calculi introduced so far in the Curry-Howard correspondence for Classical Logic can be faithfully encoded. Our calculus enjoys confluence without any restriction. Its type system enforces strong normalization of expressions and it is a sound and complete system for full implicational Classical Logic. We give a very simple denotational semantics which allows easy calculations of the interpretation of expressions.",
+    "authors": [
+      "Alberto Carraro",
+      "Thomas Ehrhard",
+      "Antonino Salibra"
+    ],
+    "publication_date": "2013-03-29T09:02:13Z",
+    "arxiv_id": "http://arxiv.org/abs/1303.7331v1",
+    "download_url": "https://arxiv.org/abs/1303.7331v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Superposition Calculus for Abductive Reasoning",
+    "abstract": "We present a modification of the superposition calculus that is meant to generate consequences of sets of first-order axioms. This approach is proven to be sound and deductive-complete in the presence of redundancy elimination rules, provided the considered consequences are built on a given finite set of ground terms, represented by constant symbols. In contrast to other approaches, most existing results about the termination of the superposition calculus can be carried over to our procedure. This ensures in particular that the calculus is terminating for many theories of interest to the SMT community.",
+    "authors": [
+      "Mnacho Echenim",
+      "Nicolas Peltier"
+    ],
+    "publication_date": "2014-06-02T09:21:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1406.0303v2",
+    "download_url": "https://arxiv.org/abs/1406.0303v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "General Fractional Vector Calculus",
+    "abstract": "A generalization of fractional vector calculus as a self-consistent mathematical theory is proposed to take into account a general form of non-locality in kernels of fractional vector differential and integral operators. Self-consistency involves proving generalizations of all fundamental theorems of vector calculus for generalized kernels of operators. In the generalization of FVC from power-law nonlocality to the general form of nonlocality in space, we use the general fractional calculus in the Luchko approach. This paper proposed the following: (1) Self-consistent definitions of general fractional differential vector operators: the regional and line general fractional gradients, the regional and surface general fractional curl operators, the general fractional divergence are proposed. (2) Self-consistent definitions of general fractional integral vector operators: the general fractional circulation, general fractional flux and general fractional volume integral are proposed. (3) The general fractional gradient, Green, Stokes and Gauss theorems as fundamental theorems of general fractional vector calculus are proved for simple and complex regions. The fundamental theorems (Gradient, Green, Stokes, Gauss theorems) of the proposed general FVC are proved for a wider class of domains, surfaces and curves. Therefore we can state that we proposed a calculus, which is a general fractional vector calculus. The difficulties and problems of defining general fractional integral and differential vector operators are discussed to the nonlocal case, caused by the violation of standard product (Leibniz) rule, chain rule, and semigroup property. General FVC for orthogonal curvilinear coordinates, which includes general fractional vector operators for the spherical and cylindrical coordinates, is also proposed.",
+    "authors": [
+      "Vasily E. Tarasov"
+    ],
+    "publication_date": "2021-11-04T10:01:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.02716v1",
+    "download_url": "https://arxiv.org/abs/2111.02716v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Converting BPMN Diagrams to Privacy Calculus",
+    "abstract": "The ecosystem of Privacy Calculus is a formal framework for privacy comprising (a) the Privacy Calculus, a Turing-complete language of message-exchanging processes based on the pi-calculus, (b) a privacy policy language, and (c) a type checker that checks adherence of Privacy Calculus terms to privacy policies. BPMN is a standard for the graphical description of business processes which aims to be understandable by all business users, from those with no technical background to those implementing software. This paper presents how (a subset of) BPMN diagrams can be converted to Privacy Calculus terms, in the hope that it will serve as a small piece of larger workflows for building privacy-preserving software. The conversion is described mathematically in the paper, but has also been implemented as a software tool.",
+    "authors": [
+      "Georgios V. Pitsiladis",
+      "Petros S. Stefaneas"
+    ],
+    "publication_date": "2024-10-31T09:25:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.23759v1",
+    "download_url": "https://arxiv.org/abs/2410.23759v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Proof nets for the Lambek-Grishin calculus",
+    "abstract": "Grishin's generalization of Lambek's Syntactic Calculus combines a non-commutative multiplicative conjunction and its residuals (product, left and right division) with a dual family: multiplicative disjunction, right and left difference. Interaction between these two families takes the form of linear distributivity principles. We study proof nets for the Lambek-Grishin calculus and the correspondence between these nets and unfocused and focused versions of its sequent calculus.",
+    "authors": [
+      "Michael Moortgat",
+      "Richard Moot"
+    ],
+    "publication_date": "2011-12-29T19:16:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1112.6384v1",
+    "download_url": "https://arxiv.org/abs/1112.6384v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Graphical Calculus for Stable Curvature Invariants",
+    "abstract": "In this article we develop a graphical calculus for stable invariants of Riemannian manifolds akin to the graphical calculus for Rozansky-Witten invariants for hyperkähler manifolds; based on interpreting trivalent graphs with colored edges as stably invariant polynomials on the space of algebraic curvature tensors. In this graphical calculus we describe explicitly the Pfaffian polynomials central to the Theorem of Chern-Gauß-Bonnet and the normalized moment polynomials calculating the moments of sectional curvature considered as a random variable on the Graßmannian of planes. Eventually we illustrate the power of this graphical calculus by deriving a curvature identity for compact Einstein manifolds of dimensions greater than 2 involving the Euler characteristic, the third moment of sectional curvature and the $L^2$--norm of the covariant derivative of the curvature tensor. A model implementation of this calculus for the computer algebra system Maxima is available for download under http://www.matcuer.unam.mx/~gw/CurvGraphs.mac.",
+    "authors": [
+      "Gregor Weingart"
+    ],
+    "publication_date": "2024-04-25T06:20:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.16355v1",
+    "download_url": "https://arxiv.org/abs/2404.16355v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Goodwillie calculus of polyhedral products",
+    "abstract": "We describe the Goodwillie calculus of polyhedral products in the case that the fat wedge filtration on the associated real moment-angle complex is trivial. We do this by analysing the behaviour on calculus of the Denham-Suciu fibre sequence, the Iriye-Kishimoto decomposition of the polyhedral product constructed from a collection of pairs of cones and their bases, and the Hilton-Milnor decomposition. As a corollary we show that the Goodwillie calculus of these polyhedral products converges integrally and diverges in $v_h$-periodic homotopy unless the simplicial complex is a full simplex.",
+    "authors": [
+      "Guy Boyde",
+      "Niall Taggart"
+    ],
+    "publication_date": "2024-02-12T16:35:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.07774v1",
+    "download_url": "https://arxiv.org/abs/2402.07774v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Monogenic Calculus as an Intertwining Operator",
+    "abstract": "We revise a monogenic calculus for several non-commuting operators, which is defined through group representations. Instead of an algebraic homomorphism we use group covariance. The related notion of joint spectrum and spectral mapping theorem are discussed. The construction is illustrated by a simple example of calculus and joint spectrum of two non-commuting selfadjoint (n\\times n) matrices.\n  Keywords: Functional calculus, spectrum, intertwining operator, spectral mapping theorem, jet spaces, monogenic function, Clifford algebra",
+    "authors": [
+      "Vladimir V. Kisil"
+    ],
+    "publication_date": "2003-11-17T15:16:00Z",
+    "arxiv_id": "http://arxiv.org/abs/math/0311285v1",
+    "download_url": "https://arxiv.org/abs/math/0311285v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spectrum as the Support of Functional Calculus",
+    "abstract": "We investigate the new definition of analytic functional calculus in the terms of representation theory of SL2(R). We avoid any usage of its algebraic homomorphism property and replace it by the demand to be an intertwining operator. The related notion of spectrum and spectral mapping theorem are given. The construction is illustrated by a simple example of calculus and spectrum of non-normal n x n matrix. Keywords: Functional calculus, spectrum, intertwining operator, spectral mapping theorem, jet spaces.",
+    "authors": [
+      "Vladimir V. Kisil"
+    ],
+    "publication_date": "2002-08-30T13:35:49Z",
+    "arxiv_id": "http://arxiv.org/abs/math/0208249v1",
+    "download_url": "https://arxiv.org/abs/math/0208249v1",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A New Approach to Euler Calculus for Continuous Integrands",
+    "abstract": "Euler calculus is based on integrating simple functions with respect to the Euler characteristic. This paper makes the case for extending Euler calculus to continuous integrands by integrating with respect to (Gaussian) curvature. This requires a metric but is nevertheless defined within any O-minimal theory. It satisfies a Fubini theorem and extends to a functor. Euler calculus is the \"adiabatic limit\" of this \"curvature calculus\". All this suggests new applications of differential geometry to data analysis.",
+    "authors": [
+      "Carl McTague"
+    ],
+    "publication_date": "2015-11-01T14:31:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1511.00257v2",
+    "download_url": "https://arxiv.org/abs/1511.00257v2",
+    "field_of_study": "mathematics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

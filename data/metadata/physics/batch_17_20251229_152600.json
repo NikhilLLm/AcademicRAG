@@ -1,0 +1,1595 @@
+[
+  {
+    "title": "Quantum description of classical apparatus: Zeno effect and decoherence",
+    "abstract": "We study the measurement process by treating classical detectors entirely quantum mechanically. As a generic model we use a point-contact detector coupled to an electron in a quantum dot and tunneling into the continuum. Transition to the classical description and the mechanism of decoherence are investigated. We concentrate on the influence of the measurement on the electron decay rate to the continuum. We demonstrate that the Zeno (or the anti-Zeno) effect requires a nonuniform density of states in the continuum. In this case we show that the anti-Zeno effect relates only to the average decay rate, whereas for sufficiently small time the Zeno effect always takes place. We discuss the experimental consequences of our results and the role of the projection postulate in a measurement process.",
+    "authors": [
+      "S. A. Gurvitz"
+    ],
+    "publication_date": "2002-12-30T14:53:23Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0212155v2",
+    "download_url": "https://arxiv.org/abs/quant-ph/0212155v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Programmable Multi-Node Quantum Network Design and Simulation",
+    "abstract": "Software-defined networking offers a device-agnostic programmable framework to encode new network functions. Externally centralized control plane intelligence allows programmers to write network applications and to build functional network designs. OpenFlow is a key protocol widely adopted to build programmable networks because of its programmability, flexibility and ability to interconnect heterogeneous network devices. We simulate the functional topology of a multi-node quantum network that uses programmable network principles to manage quantum metadata for protocols such as teleportation, superdense coding, and quantum key distribution. We first show how the OpenFlow protocol can manage the quantum metadata needed to control the quantum channel. We then use numerical simulation to demonstrate robust programmability of a quantum switch via the OpenFlow network controller while executing an application of superdense coding. We describe the software framework implemented to carry out these simulations and we discuss near-term efforts to realize these applications.",
+    "authors": [
+      "Venkat R. Dasari",
+      "Ronald J. Sadlier",
+      "Ryan Prout",
+      "Brian P. Williams",
+      "Travis S. Humble"
+    ],
+    "publication_date": "2016-04-05T14:35:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1604.01276v1",
+    "download_url": "https://arxiv.org/abs/1604.01276v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum correlation evolution of GHZ and W states under noisy channels using ameliorated measurement-induced disturbance",
+    "abstract": "We study quantum correlation of Greenberger-Horne-Zeilinger (GHZ) and W states under various noisy channels using measurement-induced disturbance approach and its optimized version. Although these inequivalent maximal entangled states represent the same quantum correlation in the absence of noise, it is shown that the W state is more robust than the GHZ state through most noisy channels. Also, using measurement-induced disturbance measure, we obtain the analytical relations for the time evolution of quantum correlations in terms of the noisy parameter $κ$ and remove its overestimating quantum correlations upon implementing the ameliorated measurement-induced disturbance.",
+    "authors": [
+      "Pakhshan Espoukeh",
+      "Pouria Pedram"
+    ],
+    "publication_date": "2014-09-23T16:29:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1409.6658v1",
+    "download_url": "https://arxiv.org/abs/1409.6658v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Concentration bounds for quantum states and limitations on the QAOA from polynomial approximations",
+    "abstract": "We prove concentration bounds for the following classes of quantum states: (i) output states of shallow quantum circuits, answering an open question from [DPMRF22]; (ii) injective matrix product states; (iii) output states of dense Hamiltonian evolution, i.e. states of the form $e^{ιH^{(p)}} \\cdots e^{ιH^{(1)}} |ψ_0\\rangle$ for any $n$-qubit product state $|ψ_0\\rangle$, where each $H^{(i)}$ can be any local commuting Hamiltonian satisfying a norm constraint, including dense Hamiltonians with interactions between any qubits. Our proofs use polynomial approximations to show that these states are close to local operators. This implies that the distribution of the Hamming weight of a computational basis measurement (and of other related observables) concentrates.\n  An example of (iii) are the states produced by the quantum approximate optimisation algorithm (QAOA). Using our concentration results for these states, we show that for a random spin model, the QAOA can only succeed with negligible probability even at super-constant level $p = o(\\log \\log n)$, assuming a strengthened version of the so-called overlap gap property. This gives the first limitations on the QAOA on dense instances at super-constant level, improving upon the recent result [BGMZ22].",
+    "authors": [
+      "Anurag Anshu",
+      "Tony Metger"
+    ],
+    "publication_date": "2022-09-06T18:00:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.02715v3",
+    "download_url": "https://arxiv.org/abs/2209.02715v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "GAN decoder on a quantum toric code for noise-robust quantum teleportation",
+    "abstract": "We propose a generative adversarial network (GAN)-based decoder for quantum topological codes and apply it to enhance a quantum teleportation protocol under depolarizing noise. By constructing and training the GAN's generator and discriminator networks using eigenvalue datasets from the code, we obtain a decoder with a significantly improved decoding pseudo-threshold. Simulation results show that our GAN decoder achieves a pseudo-threshold of approximately $p=0.2108$, estimated from the crossing point of logical error rate curves for code distances $d=3$ and $d=5$, nearly double that of a classical decoder under the same conditions ($p \\approx 0.1099$). Moreover, at the same target logical error rate, the GAN decoder consistently achieves higher logical fidelity compared to the classical decoder. When applied to quantum teleportation, the protocol optimized using our decoder demonstrates enhanced fidelity across noise regimes. Specifically, for code distance $d=3$, fidelity improves within the depolarizing noise threshold range $P<0.06503$; for $d=5$, the range extends to $P<0.07512$. Moreover, with appropriate training, our GAN decoder can generalize to other error models. This work positions GANs as powerful tools for decoding in topological quantum error correction, offering a flexible and noise-resilient framework for fault-tolerant quantum information processing.",
+    "authors": [
+      "Jiaxin Li",
+      "Zhimin Wang",
+      "Alberto Ferrara",
+      "Yongjian Gu",
+      "Rosario Lo Franco"
+    ],
+    "publication_date": "2024-09-11T03:17:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.06984v3",
+    "download_url": "https://arxiv.org/abs/2409.06984v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Min-Entropy of Classical-Quantum Combs for Measurement-Based Applications",
+    "abstract": "Learning a hidden property of a quantum system typically requires a series of interactions. In this work, we formalise such multi-round learning processes using a generalisation of classical-quantum states, called classical-quantum combs. Here, \"classical\" refers to a random variable encoding the hidden property to be learnt, and \"quantum\" refers to the quantum comb describing the behaviour of the system. The optimal strategy for learning the hidden property can be quantified by applying the comb min-entropy (Chiribella and Ebler, NJP, 2016) to classical-quantum combs. To demonstrate the power of this approach, we focus attention on an array of problems derived from measurement-based quantum computation (MBQC) and related applications. Specifically, we describe a known blind quantum computation (BQC) protocol using the combs formalism and thereby leverage the min-entropy to provide a proof of single-shot security for multiple rounds of the protocol, extending the existing result in the literature. Furthermore, we consider a range of operationally motivated examples related to the verification of a partially unknown MBQC device. These examples involve learning the features of the device necessary for its correct use, including learning its internal reference frame for measurement calibration. We also introduce a novel connection between MBQC and quantum causal models that arises in this context.",
+    "authors": [
+      "Isaac D. Smith",
+      "Marius Krumm",
+      "Lukas J. Fiderer",
+      "Hendrik Poulsen Nautrup",
+      "Hans J. Briegel"
+    ],
+    "publication_date": "2022-12-01T15:01:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.00553v3",
+    "download_url": "https://arxiv.org/abs/2212.00553v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Tierkreis: A Dataflow Framework for Hybrid Quantum-Classical Computing",
+    "abstract": "We present Tierkreis, a higher-order dataflow graph program representation and runtime designed for compositional, quantum-classical hybrid algorithms. The design of the system is motivated by the remote nature of quantum computers, the need for hybrid algorithms to involve cloud and distributed computing, and the long-running nature of these algorithms. The graph-based representation reflects how designers reason about and visualise algorithms, and allows automatic parallelism and asynchronicity. A strong, static type system and higher-order semantics allow for high expressivity and compositionality in the program. The flexible runtime protocol enables third-party developers to add functionality using any language or environment. With Tierkreis, quantum software developers can easily build, visualise, verify, test, and debug complex hybrid workflows, and immediately deploy them to the cloud or a custom distributed environment.",
+    "authors": [
+      "Seyon Sivarajah",
+      "Lukas Heidemann",
+      "Alan Lawrence",
+      "Ross Duncan"
+    ],
+    "publication_date": "2022-11-04T10:14:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.02350v1",
+    "download_url": "https://arxiv.org/abs/2211.02350v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Computing: Vision and Challenges",
+    "abstract": "The recent development of quantum computing, which uses entanglement, superposition, and other quantum fundamental concepts, can provide substantial processing advantages over traditional computing. These quantum features help solve many complex problems that cannot be solved otherwise with conventional computing methods. These problems include modeling quantum mechanics, logistics, chemical-based advances, drug design, statistical science, sustainable energy, banking, reliable communication, and quantum chemical engineering. The last few years have witnessed remarkable progress in quantum software and algorithm creation and quantum hardware research, which has significantly advanced the prospect of realizing quantum computers. It would be helpful to have comprehensive literature research on this area to grasp the current status and find outstanding problems that require considerable attention from the research community working in the quantum computing industry. To better understand quantum computing, this paper examines the foundations and vision based on current research in this area. We discuss cutting-edge developments in quantum computer hardware advancement and subsequent advances in quantum cryptography, quantum software, and high-scalability quantum computers. Many potential challenges and exciting new trends for quantum technology research and development are highlighted in this paper for a broader debate.",
+    "authors": [
+      "Sukhpal Singh Gill",
+      "Oktay Cetinkaya",
+      "Stefano Marrone",
+      "Daniel Claudino",
+      "David Haunschild",
+      "Leon Schlote",
+      "Huaming Wu",
+      "Carlo Ottaviani",
+      "Xiaoyuan Liu",
+      "Sree Pragna Machupalli",
+      "Kamalpreet Kaur",
+      "Priyansh Arora",
+      "Ji Liu",
+      "Ahmed Farouk",
+      "Houbing Herbert Song",
+      "Steve Uhlig",
+      "Kotagiri Ramamohanarao"
+    ],
+    "publication_date": "2024-03-04T17:33:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.02240v5",
+    "download_url": "https://arxiv.org/abs/2403.02240v5",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Experimental Quantum Enhanced Optical Interferometry",
+    "abstract": "Optical quantum interferometry represents the oldest example of quantum metrology and it is at the source of quantum technologies. The original squeezed state scheme is now a significant element of the last version of gravitational wave detectors and various additional uses have been proposed.\n  Further quantum enhanced schemes, from SU(1,1) interferometer to twin beam correlation interferometry, have also reached the stage of proof of principle experiments enlarging the field of experimental quantum interferometry and paving the way to several further applications ranging from Planck scale signals search to small effects detection. In this review paper I introduce these experimental achievements, describing their schemes, advantages, applications and possible further developments.",
+    "authors": [
+      "Marco Genovese"
+    ],
+    "publication_date": "2021-01-08T07:50:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2101.02891v1",
+    "download_url": "https://arxiv.org/abs/2101.02891v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Benchmarking Hamiltonian Noise in the D-Wave Quantum Annealer",
+    "abstract": "Various sources of noise limit the performance of quantum computers by altering qubit states in an uncontrolled manner throughout computations and reducing their coherence time. In quantum annealers, this noise introduces additional fluctuations to the parameters defining the original problem Hamiltonian, such that they find the ground states of problems perturbed from those originally programmed. Here we describe a method to benchmark the amount of noise affecting the programmed Hamiltonian of a quantum annealer. We show that a sequence of degenerate runs with the coefficients of the programmed Hamiltonian set to zero leads to an estimate of the noise spectral density affecting Hamiltonian parameters \"in situ\" during the quantum annealing protocol. The method is demonstrated in D-Wave's lower noise 2000 qubit device (DW_2000Q_6) and in its recently released 5000 qubit device (Advantage_system1.1). Our benchmarking of DW_2000Q_6 shows Hamiltonian noise dominated by the $1/f^{0.7}$ frequency dependence characteristic of flux noise intrinsic to the materials forming flux qubits. In contrast, Advantage_system1.1 is found to be affected by additional noise sources for low annealing times, with underlying intrinsic flux noise amplitudes $2-3$ times higher than in DW_2000Q_6 for all annealing times.",
+    "authors": [
+      "Tristan Zaborniak",
+      "Rogério de Sousa"
+    ],
+    "publication_date": "2020-06-29T22:37:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.16421v3",
+    "download_url": "https://arxiv.org/abs/2006.16421v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the connection between quantum nonlocality and phase sensitivity of two-mode entangled Fock state superpositions",
+    "abstract": "In two-mode interferometry, for a given total photon number $N$, entangled Fock state superpositions of the form $(|N-m\\rangle_a|m\\rangle_b+e^{i (N-2m)φ}|m\\rangle_a|N-m\\rangle_b)/\\sqrt{2}$ have been considered for phase estimation. Indeed all such states are maximally mode-entangled and violate a Clauser-Horne-Shimony-Holt (CHSH) inequality. However, they differ in their optimal phase estimation capabilities as given by their quantum Fisher informations. The quantum Fisher information is the largest for the $N00N$ state $(|N\\rangle_a|0\\rangle_b+e^{i Nφ}|0\\rangle_a|N\\rangle_b)/\\sqrt{2}$ and decreases for the other states with decreasing photon number difference between the two modes. We ask the question whether for any particular Clauser-Horne (CH) (or CHSH) inequality, the maximal values of the CH (or the CHSH) functional for the states of the above type follow the same trend as their quantum Fisher informations, while also violating the classical bound whenever the states are capable of sub-shot-noise phase estimation, so that the violation can be used to quantify sub-shot-noise sensitivity. We explore CH and CHSH inequalities in a homodyne setup. Our results show that the amount of violation in those nonlocality tests may not be used to quantify sub-shot-noise sensitivity of the above states.",
+    "authors": [
+      "Kaushik P. Seshadreesan",
+      "Christoph Wildfeuer",
+      "Moochan B. Kim",
+      "Hwang Lee",
+      "Jonathan P. Dowling"
+    ],
+    "publication_date": "2013-10-04T21:14:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1310.1410v2",
+    "download_url": "https://arxiv.org/abs/1310.1410v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum XYZ Product Codes",
+    "abstract": "We study a three-fold variant of the hypergraph product code construction, differing from the standard homological product of three classical codes. When instantiated with 3 classical LDPC codes, this \"XYZ product\" yields a non CSS quantum LDPC code which might display a large minimum distance. The simplest instance of this construction, corresponding to the product of 3 repetition codes, is a non CSS variant of the 3-dimensional toric code known as the Chamon code. The general construction was introduced in Denise Maurice's PhD thesis, but has remained poorly understood so far. The reason is that while hypergraph product codes can be analyzed with combinatorial tools, the XYZ product codes also depend crucially on the algebraic properties of the parity-check matrices of the three classical codes, making their analysis much more involved.\n  Our main motivation for studying XYZ product codes is that the natural representatives of logical operators are two-dimensional objects. This contrasts with standard hypergraph product codes in 3 dimensions which always admit one-dimensional logical operators. In particular, specific instances of XYZ product codes with constant rate might display a minimum distance as large as $Θ(N^{2/3})$. While we do not prove this result here, we obtain the dimension of a large class of XYZ product codes, and when restricting to codes with dimension 1, we reduce the problem of computing the minimum distance to a more elementary combinatorial problem involving binary 3-tensors. We also discuss in detail some families of XYZ product codes that can be embedded in three dimensions with local interaction. Some of these codes seem to share properties with Haah's cubic codes and might be interesting candidates for self-correcting quantum memories with a logarithmic energy barrier.",
+    "authors": [
+      "Anthony Leverrier",
+      "Simon Apers",
+      "Christophe Vuillot"
+    ],
+    "publication_date": "2020-11-19T09:50:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.09746v3",
+    "download_url": "https://arxiv.org/abs/2011.09746v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum routing of information using chiral quantum walks",
+    "abstract": "We address routing of classical and quantum information over quantum network, and show how to exploit chirality to achieve nearly optimal and robust transport. In particular, we prove how continuous time chiral quantum walks over a minimal graph may be used to model directional transfer and routing of information over a network. At first, we show how classical information, encoded onto an excitation localized at one vertex of a simple graph, may be sent to any other chosen location with nearly unit fidelity by tuning a single phase. Then, we prove that high-fidelity transport is also possible for coherent superpositions of states, i.e. for routing of quantum information. Furthermore, we show that by tuning the phase parameter one obtains universal quantum routing, i.e. indipendent on the input state. In our scheme, chirality is governed by a single phase, and the routing probability is robust against fluctuations of this parameter. Finally, we address characterization of quantum routers and show how to exploit the self energies of the graph to achieve high precision in estimating the phase parameter.",
+    "authors": [
+      "Alberto Bottarelli",
+      "Massimo Frigerio",
+      "Matteo G. A. Paris"
+    ],
+    "publication_date": "2023-02-16T18:29:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.08472v2",
+    "download_url": "https://arxiv.org/abs/2302.08472v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Nonlinear Quantum Mechanics at the Planck Scale",
+    "abstract": "I argue that the linearity of quantum mechanics is an emergent feature at the Planck scale, along with the manifold structure of space-time. In this regime the usual causality violation objections to nonlinearity do not apply, and nonlinear effects can be of comparable magnitude to the linear ones and still be highly suppressed at low energies. This can offer alternative approaches to quantum gravity and to the evolution of the early universe.",
+    "authors": [
+      "George Svetlichny"
+    ],
+    "publication_date": "2004-10-27T19:17:46Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0410230v1",
+    "download_url": "https://arxiv.org/abs/quant-ph/0410230v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Geometric Approach to the Quantum Mechanics of de Broglie and Vigier",
+    "abstract": "Following de Broglie and Vigier, a fully relativistic causal interpretation of quantum mechanics is given within the context of a geometric theory of gravitation and electromagnetism. While the geometric model shares the essential principles of the causal interpretation initiated by de Broglie and advanced by Vigier, the particle and wave components of the theory are derived from the Einstein equations rather than a nonlinear wave equation. This geometric approach leads to several new features, including a solution to the de Broglie variable mass problem.",
+    "authors": [
+      "W. R. Wood",
+      "G. Papini"
+    ],
+    "publication_date": "1996-12-16T19:28:24Z",
+    "arxiv_id": "http://arxiv.org/abs/gr-qc/9612042v1",
+    "download_url": "https://arxiv.org/abs/gr-qc/9612042v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Finite-Key Analysis of Quantum Key Distribution with Characterized Devices Using Entropy Accumulation",
+    "abstract": "The Entropy Accumulation Theorem (EAT) was introduced to significantly improve the finite-size rates for device-independent quantum information processing tasks such as device-independent quantum key distribution (QKD). A natural question would be whether it also improves the rates for device-dependent QKD. In this work, we provide an affirmative answer to this question. We present new tools for applying the EAT in the device-dependent setting. We present sufficient conditions for the Markov chain conditions to hold as well as general algorithms for constructing the needed min-tradeoff function. Utilizing Dupuis' recent privacy amplification without smoothing result, we improve the key rate by optimizing the sandwiched Rényi entropy directly rather than considering the traditional smooth min-entropy. We exemplify these new tools by considering several examples including the BB84 protocol with the qubit-based version and with a realistic parametric downconversion source, the six-state four-state protocol and a high-dimensional analog of the BB84 protocol.",
+    "authors": [
+      "Ian George",
+      "Jie Lin",
+      "Thomas van Himbeeck",
+      "Kun Fang",
+      "Norbert Lütkenhaus"
+    ],
+    "publication_date": "2022-03-13T03:00:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.06554v2",
+    "download_url": "https://arxiv.org/abs/2203.06554v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Gradients and frequency profiles of quantum re-uploading models",
+    "abstract": "Quantum re-uploading models have been extensively investigated as a form of machine learning within the context of variational quantum algorithms. Their trainability and expressivity are not yet fully understood and are critical to their performance. In this work, we address trainability through the lens of the magnitude of the gradients of the cost function. We prove bounds for the differences between gradients of the better-studied data-less parameterized quantum circuits and re-uploading models. We coin the concept of {\\sl absorption witness} to quantify such difference. For the expressivity, we prove that quantum re-uploading models output functions with vanishing high-frequency components and upper-bounded derivatives with respect to data. As a consequence, such functions present limited sensitivity to fine details, which protects against overfitting. We performed numerical experiments extending the theoretical results to more relaxed and realistic conditions. Overall, future designs of quantum re-uploading models will benefit from the strengthened knowledge delivered by the uncovering of absorption witnesses and vanishing high frequencies.",
+    "authors": [
+      "Alice Barthe",
+      "Adrián Pérez-Salinas"
+    ],
+    "publication_date": "2023-11-17T19:01:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.10822v2",
+    "download_url": "https://arxiv.org/abs/2311.10822v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient Computation of the Quantum Rate-Distortion Function",
+    "abstract": "The quantum rate-distortion function plays a fundamental role in quantum information theory, however there is currently no practical algorithm which can efficiently compute this function to high accuracy for moderate channel dimensions. In this paper, we show how symmetry reduction can significantly simplify common instances of the entanglement-assisted quantum rate-distortion problems. This allows us to better understand the properties of the quantum channels which obtain the optimal rate-distortion trade-off, while also allowing for more efficient computation of the quantum rate-distortion function regardless of the numerical algorithm being used. Additionally, we propose an inexact variant of the mirror descent algorithm to compute the quantum rate-distortion function with provable sublinear convergence rates. We show how this mirror descent algorithm is related to Blahut-Arimoto and expectation-maximization methods previously used to solve similar problems in information theory. Using these techniques, we present the first numerical experiments to compute a multi-qubit quantum rate-distortion function, and show that our proposed algorithm solves faster and to higher accuracy when compared to existing methods.",
+    "authors": [
+      "Kerry He",
+      "James Saunderson",
+      "Hamza Fawzi"
+    ],
+    "publication_date": "2023-09-28T00:46:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.15919v3",
+    "download_url": "https://arxiv.org/abs/2309.15919v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantifying Quantum Correlations in Fermionic Systems using Witness Operators",
+    "abstract": "We present a method to quantify quantum correlations in arbitrary systems of indistinguishable fermions using witness operators. The method associates the problem of finding the optimal entan- glement witness of a state with a class of problems known as semidefinite programs (SDPs), which can be solved efficiently with arbitrary accuracy. Based on these optimal witnesses, we introduce a measure of quantum correlations which has an interpretation analogous to the Generalized Robust- ness of entanglement. We also extend the notion of quantum discord to the case of indistinguishable fermions, and propose a geometric quantifier, which is compared to our entanglement measure. Our numerical results show a remarkable equivalence between the proposed Generalized Robustness and the Schliemann concurrence, which are equal for pure states. For mixed states, the Schliemann con- currence presents itself as an upper bound for the Generalized Robustness. The quantum discord is also found to be an upper bound for the entanglement.",
+    "authors": [
+      "Fernando Iemini",
+      "Thiago O. Maciel",
+      "Tiago Debarba",
+      "Reinaldo O. Vianna"
+    ],
+    "publication_date": "2012-05-31T20:29:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1206.0024v1",
+    "download_url": "https://arxiv.org/abs/1206.0024v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Codes of Maximal Distance and Highly Entangled Subspaces",
+    "abstract": "We present new bounds on the existence of general quantum maximum distance separable codes (QMDS): the length $n$ of all QMDS codes with local dimension $D$ and distance $d \\geq 3$ is bounded by $n \\leq D^2 + d - 2$. We obtain their weight distribution and present additional bounds that arise from Rains' shadow inequalities. Our main result can be seen as a generalization of bounds that are known for the two special cases of stabilizer QMDS codes and absolutely maximally entangled states, and confirms the quantum MDS conjecture in the special case of distance-three codes. As the existence of QMDS codes is linked to that of highly entangled subspaces (in which every vector has uniform $r$-body marginals) of maximal dimension, our methods directly carry over to address questions in multipartite entanglement.",
+    "authors": [
+      "Felix Huber",
+      "Markus Grassl"
+    ],
+    "publication_date": "2019-07-17T19:36:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.07733v2",
+    "download_url": "https://arxiv.org/abs/1907.07733v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Dynamics and extraction of quantum discord in a multipartite open system",
+    "abstract": "We consider a multipartite system consisting of two noninteracting qubits each embedded in a single-mode leaky cavity, in turn connected to an external bosonic reservoir. Initially, we take the two qubits in an entangled state while the cavities and the reservoirs have zero photons. We investigate, in this six-partite quantum system, the transfer of quantum discord from the qubits to the cavities and reservoirs. We show that this transfer occurs also when the cavities are not entangled. Moreover, we discuss how quantum discord can be extracted from the cavities and transferred to distant systems by traveling leaking photons, using the input-output theory.",
+    "authors": [
+      "B. Bellomo",
+      "G. Compagno",
+      "R. Lo Franco",
+      "A. Ridolfo",
+      "S. Savasta"
+    ],
+    "publication_date": "2011-06-22T16:38:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1106.4496v2",
+    "download_url": "https://arxiv.org/abs/1106.4496v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Finding eigenvectors with a quantum variational algorithm",
+    "abstract": "This paper presents a hybrid variational quantum algorithm that finds a random eigenvector of a unitary matrix with a known quantum circuit. The algorithm is based on the SWAP test on trial states generated by a parametrized quantum circuit. The eigenvector is described by a compact set of classical parameters that can be used to reproduce the found approximation to the eigenstate on demand. This variational eigenvector finder can be adapted to solve the generalized eigenvalue problem, to find the eigenvectors of normal matrices and to perform quantum principal component analysis (QPCA) on unknown input mixed states. These algorithms can all be run with low depth quantum circuits, suitable for an efficient implementation on noisy intermediate state quantum computers (NISQC) and, with some restrictions, on linear optical systems. Limitations and potential applications are discussed.",
+    "authors": [
+      "Juan Carlos Garcia-Escartin"
+    ],
+    "publication_date": "2023-11-22T17:36:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.13543v2",
+    "download_url": "https://arxiv.org/abs/2311.13543v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Algorithms for Learning and Testing Juntas",
+    "abstract": "In this article we develop quantum algorithms for learning and testing juntas, i.e. Boolean functions which depend only on an unknown set of k out of n input variables. Our aim is to develop efficient algorithms:\n  - whose sample complexity has no dependence on n, the dimension of the domain the Boolean functions are defined over;\n  - with no access to any classical or quantum membership (\"black-box\") queries. Instead, our algorithms use only classical examples generated uniformly at random and fixed quantum superpositions of such classical examples;\n  - which require only a few quantum examples but possibly many classical random examples (which are considered quite \"cheap\" relative to quantum examples).\n  Our quantum algorithms are based on a subroutine FS which enables sampling according to the Fourier spectrum of f; the FS subroutine was used in earlier work of Bshouty and Jackson on quantum learning. Our results are as follows:\n  - We give an algorithm for testing k-juntas to accuracy $ε$ that uses $O(k/ε)$ quantum examples. This improves on the number of examples used by the best known classical algorithm.\n  - We establish the following lower bound: any FS-based k-junta testing algorithm requires $Ω(\\sqrt{k})$ queries.\n  - We give an algorithm for learning $k$-juntas to accuracy $ε$ that uses $O(ε^{-1} k\\log k)$ quantum examples and $O(2^k \\log(1/ε))$ random examples. We show that this learning algorithms is close to optimal by giving a related lower bound.",
+    "authors": [
+      "Alp Atici",
+      "Rocco A. Servedio"
+    ],
+    "publication_date": "2007-07-24T13:17:55Z",
+    "arxiv_id": "http://arxiv.org/abs/0707.3479v1",
+    "download_url": "https://arxiv.org/abs/0707.3479v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Coupling Quantum Matter and Gravity",
+    "abstract": "In this contribution we deal with several issues one encounters when trying to couple quantum matter to classical gravitational fields. We start with a general background discussion and then move on to two more technical sections. In the first technical part we consider the question how the Hamiltonian of a composite two-particle system in an external gravitational field can be computed in a systematic post-Newtonian setting without backreaction. This enables us to reliably estimate the consistency and completeness of less systematic and more intuitive approaches that attempt to solve this problem by adding `relativistic effects' by hand. In the second technical part we consider the question of how quantum matter may act as source for classical gravitational fields via the semiclassical Einstein equations. Statements to the effect that this approach is fundamentally inconsistent are critically reviewed.",
+    "authors": [
+      "Domenico Giulini",
+      "André Großardt",
+      "Philip K. Schwartz"
+    ],
+    "publication_date": "2022-07-11T17:31:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.05029v2",
+    "download_url": "https://arxiv.org/abs/2207.05029v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Mechanics: Structures, Axioms and Paradoxes",
+    "abstract": "We present an analysis of quantum mechanics and its problems and paradoxes taking into account the results that have been obtained during the last two decades by investigations in the field of `quantum structures research'. We concentrate mostly on the results of our group FUND at Brussels Free University. By means of a spin 1/2 model where the quantum probability is generated by the presence of fluctuations on the interactions between measuring apparatus and physical system, we show that the quantum structure can find its origin in the presence of these fluctuations. This appraoch, that we have called the 'hidden measurement approach', makes it possible to construct systems that are in between quantum and classical. We show that two of the traditional axioms of quantum axiomatics are not satisfied for these 'in between quantum and classical' situations, and how this structural shortcoming of standard quantum mechanics is at the origin of most of the quantum paradoxes. We show that in this approach the EPR paradox identifies a genuine incompleteness of standard quantum mechanics, however not an incompleteness that means the lacking of hidden variables, but an incompleteness pointing at the impossibility for standard quantum mechanics to describe separated quantum systems. We indicate in which way, by redefining the meaning of density states, standard quantum mechanics can be completed. We put forward in which way the axiomatic approach to quantum mechanics can be compared to the traditional axiomatic approach to relativity theory, and how this might lead to studying another road to unification of both theories.",
+    "authors": [
+      "Diederik Aerts"
+    ],
+    "publication_date": "2001-06-24T02:02:16Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0106132v1",
+    "download_url": "https://arxiv.org/abs/quant-ph/0106132v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Entropy and information gain in quantum continual measurements",
+    "abstract": "The theory of measurements continuous in time in quantum mechanics (quantum continual measurements) has been formulated by using the notions of instrument, positive operator valued measure, etc., by using quantum stochastic differential equations and by using classical stochastic differential equations (SDE's) for vectors in Hilbert spaces or for trace-class operators. In the same times Ozawa made developments in the theory of instruments and introduced the related notions of a posteriori states and of information gain [1].\n  In this paper we introduce a simple class of SDE's relevant to the theory of continual measurements and we recall how they are related to instruments and a posteriori states and, so, to the general formulation of quantum mechanics. Then we introduce and use the notion of information gain and the other results of the paper [1] inside the theory of continual measurements.\n  [1] M. Ozawa, On information gain by quantum measurements of continuous observables, J. Math. Phys. 27 (1986) 759-763.",
+    "authors": [
+      "Alberto Barchielli"
+    ],
+    "publication_date": "2000-12-21T08:10:59Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0012115v1",
+    "download_url": "https://arxiv.org/abs/quant-ph/0012115v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Simulation of Bound State Scattering",
+    "abstract": "The last few years have seen rapid development of applications of quantum computation to quantum field theory. The first algorithms for quantum simulation of scattering have been proposed in the context of scalar and fermionic theories, requiring thousands of logical qubits. These algorithms are not suitable to simulate scattering of incoming bound states, as the initial-state preparation relies typically on adiabatically transforming wavepackets of the free theory into wavepackets of the interacting theory. In this paper we present a strategy to excite wavepackets of the interacting theory directly from the vacuum of the interacting theory, allowing the preparation of states of composite particles. This is the first step towards digital quantum simulation of scattering of bound states. The approach is based on the Haag-Ruelle scattering theory, which provides a way to construct creation and annihilation operators of a theory in a full, nonperturbative framework. We provide a quantum algorithm requiring a number of ancillary qubits that is logarithmic in the size of the wavepackets, and with a success probability vanishing at most like a polynomial in the lattice parameters and the energy of the wavepacket. The gate complexity for a single iteration of the circuit is equivalent to that of a time evolution for a fixed time. Furthermore, we propose a complete protocol for scattering simulation using this algorithm. We study its efficiency and find improvements with respect to previous algorithms in the literature.",
+    "authors": [
+      "Matteo Turco",
+      "Gonçalo M. Quinta",
+      "João Seixas",
+      "Yasser Omar"
+    ],
+    "publication_date": "2023-05-12T18:00:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.07692v3",
+    "download_url": "https://arxiv.org/abs/2305.07692v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Measure Theory and its Interpretation",
+    "abstract": "We propose a realistic, spacetime interpretation of quantum theory in which reality constitutes a *single* history obeying a \"law of motion\" that makes definite, but incomplete, predictions about its behavior. We associate a \"quantum measure\" |S| to the set S of histories, and point out that |S| fulfills a sum rule generalizing that of classical probability theory. We interpret |S| as a \"propensity\", making this precise by stating a criterion for |S|=0 to imply \"preclusion\" (meaning that the true history will not lie in S). The criterion involves triads of correlated events, and in application to electron-electron scattering, for example, it yields definite predictions about the electron trajectories themselves, independently of any measuring devices which might or might not be present. (So we can give an objective account of measurements.) Two unfinished aspects of the interpretation involve *conditonal* preclusion (which apparently requires a notion of coarse-graining for its formulation) and the need to \"locate spacetime regions in advance\" without the aid of a fixed background metric (which can be achieved in the context of conditional preclusion via a construction which makes sense both in continuum gravity and in the discrete setting of causal set theory).",
+    "authors": [
+      "Rafael D. Sorkin"
+    ],
+    "publication_date": "1995-07-30T22:00:53Z",
+    "arxiv_id": "http://arxiv.org/abs/gr-qc/9507057v2",
+    "download_url": "https://arxiv.org/abs/gr-qc/9507057v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Scalable quantum computing model in the circuit-QED lattice with circulator function",
+    "abstract": "We propose a model for a scalable quantum computing in the circuit-quantum electrodynamics(QED) architecture. In the Kagome lattice of qubits three qubits are connected to each other through a superconducting three-junction flux qubit at the vertices of the lattice. By controlling one of the three Josephson junction energies of the intervening flux qubit we can achieve the circulator function that couples arbitrary pair of two qubits among three. This selective coupling enables the interaction between two nearest neighbor qubits in the Kagome lattice, and further the two-qubit gate operation between any pair of qubits in the whole lattice by performing consecutive nearest neighbor two-qubit gates.",
+    "authors": [
+      "Mun Dae Kim",
+      "Jaewan Kim"
+    ],
+    "publication_date": "2017-06-19T05:51:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1706.05793v1",
+    "download_url": "https://arxiv.org/abs/1706.05793v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Convex optimization using quantum oracles",
+    "abstract": "We study to what extent quantum algorithms can speed up solving convex optimization problems. Following the classical literature we assume access to a convex set via various oracles, and we examine the efficiency of reductions between the different oracles. In particular, we show how a separation oracle can be implemented using $\\tilde{O}(1)$ quantum queries to a membership oracle, which is an exponential quantum speed-up over the $Ω(n)$ membership queries that are needed classically. We show that a quantum computer can very efficiently compute an approximate subgradient of a convex Lipschitz function. Combining this with a simplification of recent classical work of Lee, Sidford, and Vempala gives our efficient separation oracle. This in turn implies, via a known algorithm, that $\\tilde{O}(n)$ quantum queries to a membership oracle suffice to implement an optimization oracle (the best known classical upper bound on the number of membership queries is quadratic). We also prove several lower bounds: $Ω(\\sqrt{n})$ quantum separation (or membership) queries are needed for optimization if the algorithm knows an interior point of the convex set, and $Ω(n)$ quantum separation queries are needed if it does not.",
+    "authors": [
+      "Joran van Apeldoorn",
+      "András Gilyén",
+      "Sander Gribling",
+      "Ronald de Wolf"
+    ],
+    "publication_date": "2018-09-03T16:30:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1809.00643v4",
+    "download_url": "https://arxiv.org/abs/1809.00643v4",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Securing the Objectivity of Relative Facts in the Quantum World",
+    "abstract": "This paper compares and contrasts relational quantum mechanics (RQM) with a pragmatist view of quantum theory (DP). I'll first explain important points of agreement. Then I'll point to two problems faced by RQM and sketch DP's solutions to analogous problems. Since both RQM and DP have taken the Born rule to require relative facts I next say what these might be. This brings me to my main objection to RQM as originally conceived -- that its ontology of relative facts is incompatible with scientific objectivity and undercuts the evidential base of quantum theory. In contrast DP's relative facts have all the objectivity we need to accept quantum theory as scientific knowledge. But a very recent modification to RQM has successfully addressed my main objection, bringing the two views into even closer alignment.",
+    "authors": [
+      "Richard Healey"
+    ],
+    "publication_date": "2022-07-05T11:23:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.01966v1",
+    "download_url": "https://arxiv.org/abs/2207.01966v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Stochastic gradient descent for hybrid quantum-classical optimization",
+    "abstract": "Within the context of hybrid quantum-classical optimization, gradient descent based optimizers typically require the evaluation of expectation values with respect to the outcome of parameterized quantum circuits. In this work, we explore the consequences of the prior observation that estimation of these quantities on quantum hardware results in a form of stochastic gradient descent optimization. We formalize this notion, which allows us to show that in many relevant cases, including VQE, QAOA and certain quantum classifiers, estimating expectation values with $k$ measurement outcomes results in optimization algorithms whose convergence properties can be rigorously well understood, for any value of $k$. In fact, even using single measurement outcomes for the estimation of expectation values is sufficient. Moreover, in many settings the required gradients can be expressed as linear combinations of expectation values -- originating, e.g., from a sum over local terms of a Hamiltonian, a parameter shift rule, or a sum over data-set instances -- and we show that in these cases $k$-shot expectation value estimation can be combined with sampling over terms of the linear combination, to obtain \"doubly stochastic\" gradient descent optimizers. For all algorithms we prove convergence guarantees, providing a framework for the derivation of rigorous optimization results in the context of near-term quantum devices. Additionally, we explore numerically these methods on benchmark VQE, QAOA and quantum-enhanced machine learning tasks and show that treating the stochastic settings as hyper-parameters allows for state-of-the-art results with significantly fewer circuit executions and measurements.",
+    "authors": [
+      "Ryan Sweke",
+      "Frederik Wilde",
+      "Johannes Meyer",
+      "Maria Schuld",
+      "Paul K. Faehrmann",
+      "Barthélémy Meynard-Piganeau",
+      "Jens Eisert"
+    ],
+    "publication_date": "2019-10-02T18:25:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.01155v3",
+    "download_url": "https://arxiv.org/abs/1910.01155v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Open quantum systems are harder to track than open classical systems",
+    "abstract": "For a Markovian open quantum system it is possible, by continuously monitoring the environment, to know the stochastically evolving pure state of the system without altering the master equation. In general, even for a system with a finite Hilbert space dimension $D$, the pure state trajectory will explore an infinite number of points in Hilbert space, meaning that the dimension $K$ of the classical memory required for the tracking is infinite. However, Karasik and Wiseman [Phys. Rev. Lett., 106(2):020406, 2011] showed that tracking of a qubit ($D=2$) is always possible with a bit ($K=2$), and gave a heuristic argument implying that a finite $K$ should be sufficient for any $D$, although beyond $D=2$ it would be necessary to have $K>D$. Our paper is concerned with rigorously investigating the relationship between $D$ and $K_{\\rm min}$, the smallest feasible $K$. We confirm the long-standing conjecture of Karasik and Wiseman that, for generic systems with $D>2$, $K_{\\rm min}>D$, by a computational proof (via Hilbert Nullstellensatz certificates of infeasibility). That is, beyond $D=2$, $D$-dimensional open quantum systems are provably harder to track than $D$-dimensional open classical systems. Moreover, we develop, and better justify, a new heuristic to guide our expectation of $K_{\\rm min}$ as a function of $D$, taking into account the number $L$ of Lindblad operators as well as symmetries in the problem. The use of invariant subspace and Wigner symmetries makes it tractable to conduct a numerical search, using the method of polynomial homotopy continuation, to find finite physically realizable ensembles (as they are known) in $D=3$. The results of this search support our heuristic. We thus have confidence in the most interesting feature of our heuristic: in the absence of symmetries, $K_{\\rm min} \\sim D^2$, implying a quadratic gap between the classical and quantum tracking problems.",
+    "authors": [
+      "Prahlad Warszawski",
+      "Howard M. Wiseman"
+    ],
+    "publication_date": "2019-05-27T02:06:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.10935v2",
+    "download_url": "https://arxiv.org/abs/1905.10935v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fields and Equations of Classical Mechanics for Quantum Mechanics",
+    "abstract": "A generalized Euler equation of fluid dynamics is derived for describing many-body states of quantum mechanics. The Eulerian Eq. can be viewed as representing the interaction of two substates, where each substate has its own velocity and pressure fields. These field quantities are given by maps of the wavefunction. For one-body systems, the Eulerian Eq. can model either a fluid or particle description of quantum states. The generalized Euler Eq. is shown to be the gradient of an equation representing the total-energy of the two substates, having two energy fields. This total-energy Eq. is a generalization of the Bernoulli Eq. of fluid dynamics. The total-energy Eq., along with a continuity-equation, is equivalent to the time-dependent Schroedinger Eq. An equation is also derived that is equivalent to the main equation of Bohmian mechanics with additional identifications: The quantum potential of Bohmian mechanics is given as a sum of a kinetic energy and pressure fields. Also, the time derivative of the wavefunction phase is replaced by an energy field. In the formalism, field quantities are identified from their placement in equations of classical mechanics and separately, by definitions that involve the wavefunction and operators of quantum mechanics. This approach yields, unintended, and unknown energy and pressure fields. These fields, however, are shown to satisfy a continuity Eq., an equation that is equivalent to the other equation of Bohmian mechanics. It is also demonstrated that energy conservation holds for both of these energy fields, if the wavefunction is a linear-combination of eigenvectors, where the eigenvectors can be nondegenerate. A detailed investigation is given on the possible behavior, or source, of an electron that has one of the velocity fields. Alternate formulae for this velocity fields are also considered.",
+    "authors": [
+      "James P. Finley"
+    ],
+    "publication_date": "2022-07-09T23:28:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.04349v2",
+    "download_url": "https://arxiv.org/abs/2207.04349v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Non-Pertubative Quantum Corrections to a Born-Infeld Black Hole and its Information Geometry",
+    "abstract": "We study the non-perturbative quantum corrections to a Born-Infeld black hole in a spherical cavity. These quantum corrections produce a non-trivial short distances modification to the relation between the entropy and area of this black hole. The non-perturbative quantum correction appears as an exponential term in the black hole entropy. This in turn modifies the thermodynamics of a given system, for example reduced value of the Helmholtz free energy. Moreover, the first law of black hole thermodynamics modified due to quantum corrections. We also investigate the effect of such non-perturbative corrections on the information geometry of this system. This is done using some famous information metrics.",
+    "authors": [
+      "Behnam Pourhassan",
+      "Mohsen Dehghani",
+      "Mir Faizal",
+      "Sanjib Dey"
+    ],
+    "publication_date": "2020-12-26T20:34:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2012.14428v2",
+    "download_url": "https://arxiv.org/abs/2012.14428v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Lattice-Based Quantum Advantage from Rotated Measurements",
+    "abstract": "Trapdoor claw-free functions (TCFs) are immensely valuable in cryptographic interactions between a classical client and a quantum server. Typically, a protocol has the quantum server prepare a superposition of two-bit strings of a claw and then measure it using Pauli-$X$ or $Z$ measurements. In this paper, we demonstrate a new technique that uses the entire range of qubit measurements from the $XY$-plane. We show the advantage of this approach in two applications. First, building on (Brakerski et al. 2018, Kalai et al. 2022), we show an optimized two-round proof of quantumness whose security can be expressed directly in terms of the hardness of the LWE (learning with errors) problem. Second, we construct a one-round protocol for blind remote preparation of an arbitrary state on the $XY$-plane up to a Pauli-$Z$ correction.",
+    "authors": [
+      "Yusuf Alnawakhtha",
+      "Atul Mantri",
+      "Carl A. Miller",
+      "Daochen Wang"
+    ],
+    "publication_date": "2022-10-18T20:18:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2210.10143v3",
+    "download_url": "https://arxiv.org/abs/2210.10143v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Zero Uncertainty States in the Presence of Quantum Memory",
+    "abstract": "The uncertainty principle imposes a fundamental limit on predicting the measurement outcomes of incompatible observables even if complete classical information of the system state is known. The situation is different if one can build a quantum memory entangled with the system. Zero uncertainty states (in contrast with minimum uncertainty states) are peculiar quantum states that can eliminate uncertainties of incompatible von Neumann observables once assisted by suitable measurements on the memory. Here we determine all zero uncertainty states of any given set of nondegenerate observables and determine the minimum entanglement required. It turns out all zero uncertainty states are maximally entangled in a generic case, and vice versa, even if these observables are only weakly incompatible. Our work establishes a simple and precise connection between zero uncertainty and maximum entanglement, which is of interest to foundational studies and practical applications, including quantum certification and verification.",
+    "authors": [
+      "Huangjun Zhu"
+    ],
+    "publication_date": "2020-03-04T14:36:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.02103v2",
+    "download_url": "https://arxiv.org/abs/2003.02103v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Attaining Carnot Efficiency with Quantum and Nanoscale Heat Engines",
+    "abstract": "A heat engine operating in the one-shot finite-size regime, where systems composed of a small number of quantum particles interact with hot and cold baths and are restricted to one-shot measurements, delivers fluctuating work. Further, engines with lesser fluctuation produce a lesser amount of deterministic work. Hence, the heat-to-work conversion efficiency stays well below the Carnot efficiency. Here we overcome this limitation and attain Carnot efficiency in the one-shot finite-size regime, where the engines allow the working systems to simultaneously interact with two baths via the semi-local thermal operations and reversibly operate in a one-step cycle. These engines are superior to the ones considered earlier in work extraction efficiency, and, even, are capable of converting heat into work by exclusively utilizing inter-system correlations. We formulate a resource theory for quantum heat engines to prove the results.",
+    "authors": [
+      "Mohit Lal Bera",
+      "Maciej Lewenstein",
+      "Manabendra Nath Bera"
+    ],
+    "publication_date": "2019-11-16T09:49:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1911.07003v3",
+    "download_url": "https://arxiv.org/abs/1911.07003v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Path Integral of Bianchi I models in Loop Quantum Cosmology",
+    "abstract": "A path integral formulation of the Bianchi I models containing a massless scalar field in loop quantum cosmology is constructed. Following the strategy used in the homogenous and isotropic case, the calculation is extended to the simplest non-isotropic models according to the $\\barμ$ and $\\barμ^{\\prime}$ scheme. It is proved from the path integral angle that the quantum dynamic lacks the full invariance with respect to fiducial cell scaling in the $\\barμ$ scheme, but it does not in the $\\barμ^{\\prime}$ scheme. The investigation affirms the equivalence of the canonical approach and the path integral approach in loop quantum cosmology.",
+    "authors": [
+      "Xiao Liu",
+      "Fei Huang",
+      "Jian-Yang Zhu"
+    ],
+    "publication_date": "2012-11-22T01:21:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1211.5180v2",
+    "download_url": "https://arxiv.org/abs/1211.5180v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Security of device-independent quantum key distribution protocols: a review",
+    "abstract": "Device-independent quantum key distribution (DI-QKD) is often seen as the ultimate key exchange protocol in terms of security, as it can be performed securely with uncharacterised black-box devices. The advent of DI-QKD closes several loopholes and side-channels that plague current QKD systems. While implementing DI-QKD protocols is technically challenging, there have been recent proof-of-principle demonstrations, resulting from the progress made in both theory and experiments. In this review, we will provide an introduction to DI-QKD, an overview of the related experiments performed, and the theory and techniques required to analyse its security. We conclude with an outlook on future DI-QKD research.",
+    "authors": [
+      "Ignatius W. Primaatmaja",
+      "Koon Tong Goh",
+      "Ernest Y. -Z. Tan",
+      "John T. -F. Khoo",
+      "Shouvik Ghorai",
+      "Charles C. -W. Lim"
+    ],
+    "publication_date": "2022-06-10T09:20:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.04960v3",
+    "download_url": "https://arxiv.org/abs/2206.04960v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A proof that measured data and equations of quantum mechanics can be linked only by guesswork",
+    "abstract": "The design and operation of a quantum-mechanical device as a laboratory instrument puts models written in equations of quantum mechanics in contact with instruments. This contact is recordable in files of a Classical Digital Process-control Computer (CPC) used both to calculate with the equations and to manage the instruments. By noticing that equations and instruments make contact in a CPC, we rewrite equations of quantum mechanics to explicitly include functions of CPC-commands to the instruments. This sets up a proof that a scientist's choice in linking mathematical models to instruments is unresolvable without guesswork to narrow the set of models from which one is to be chosen.\n  As for implications of the proof, scientists inherit choices from the past and frame choices for the future, choices open to guesswork and visible in CPC files. To picture these choices, we adapt colored Petri nets, and the availability of these net fragments makes choice and guesswork part and parcel of physics.\n  Net fragments as a means of expressing guess-demanding choices are applied to portray guesswork needed in testing and calibrating a quantum computer. The sample size required to test a quantum gate in a quantum computer is shown to grow as the inverse square of the error allowed in implementing the gate.",
+    "authors": [
+      "John M. Myers",
+      "F. Hadi Madjid"
+    ],
+    "publication_date": "2000-03-30T17:52:01Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0003144v1",
+    "download_url": "https://arxiv.org/abs/quant-ph/0003144v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Basics of Quantum Mechanics, Geometrization and some Applications to Quantum Information",
+    "abstract": "In this paper we present a survey of the use of differential geometric formalisms to describe Quantum Mechanics. We analyze Schrödinger framework from this perspective and provide a description of the Weyl-Wigner construction. Finally, after reviewing the basics of the geometric formulation of quantum mechanics, we apply the methods presented to the most interesting cases of finite dimensional Hilbert spaces: those of two, three and four level systems (one qubit, one qutrit and two qubit systems). As a more practical application, we discuss the advantages that the geometric formulation of quantum mechanics can provide us with in the study of situations as the functional independence of entanglement witnesses.",
+    "authors": [
+      "J. Clemente-Gallardo",
+      "G. Marmo"
+    ],
+    "publication_date": "2008-06-28T16:20:40Z",
+    "arxiv_id": "http://arxiv.org/abs/0806.4701v1",
+    "download_url": "https://arxiv.org/abs/0806.4701v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Entangling Disciplines: Causality, Entropy and Time-Travel Paradoxes on a Quantum Computer",
+    "abstract": "Merging disciplines has led to incredible learnings and breakthroughs throughout history, including the discovery of quantum computing: a cross between computation and quantum physics. In this paper, I will discuss how we can cross quantum computing with topics in fundamental physics. This leads to fruitful, interactive learning opportunities that fuse deep open physics problems with key insights about quantum information science. By outlining quantum circuit experiments that can be run on current and near-term quantum computers, I demonstrate how to help learners engage with principles in special relativity, general relativity and thermodynamics. In turn, these connections can advance their understanding of quantum computing. Learners can further explore the quantum computing activities in this paper via the Quantum Paradoxes content series of videos, blogs and code tutorials that I created with IBM Quantum.",
+    "authors": [
+      "Maria Violaris"
+    ],
+    "publication_date": "2025-06-18T23:07:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.15909v1",
+    "download_url": "https://arxiv.org/abs/2506.15909v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fundamental bounds on precision and response for quantum trajectory observables",
+    "abstract": "The precision and response of trajectory observables offer valuable insights into the behavior of nonequilibrium systems. For classical systems, trade-offs between these characteristics and thermodynamic costs, such as entropy production and dynamical activity, have been established through uncertainty relations. Quantum systems, however, present unique challenges, where quantum coherence can enhance precision and violate classical uncertainty relations. In this study, we derive trade-off relations for stochastic observables in Markovian open quantum systems. Specifically, we present three key results: (i) a quantum generalization of the thermo-kinetic uncertainty relation, which bounds the relative fluctuations of currents in terms of entropy production and dynamical activity; (ii) a quantum inverse uncertainty relation, which constrains the relative fluctuations of arbitrary counting observables based on their instantaneous fluctuations and the spectral gap of the symmetrized Liouvillian; and (iii) a quantum response kinetic uncertainty relation, which bounds the response of general observables to kinetic perturbations in terms of dynamical activity. These fundamental bounds, validated numerically using a three-level maser and a boundary-driven XXZ spin chain, provide a comprehensive framework for understanding the interplay between precision, response, and thermodynamic costs in quantum systems.",
+    "authors": [
+      "Tan Van Vu"
+    ],
+    "publication_date": "2024-11-29T08:45:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.19546v3",
+    "download_url": "https://arxiv.org/abs/2411.19546v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Representation of Joint Measurement in Quantum Mechanics. A Refutation of Quantum Teleportation",
+    "abstract": "An inconsistency is pointed out within Quantum Mechanics as soon as successive joint measurements are involved on entangled states. The resolution of the inconsistency leads to a refutation of the use of entangled states as eigenvectors. Hence, the concept of quantum teleportation, which is based on the use of such entangled states--the Bell states--as eigenvectors, is demonstrated to be irrelevant to Quantum Mechanics.",
+    "authors": [
+      "Guillaume Adenier"
+    ],
+    "publication_date": "2001-05-08T21:29:08Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0105031v3",
+    "download_url": "https://arxiv.org/abs/quant-ph/0105031v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Geometric measure of quantum discord under decoherence",
+    "abstract": "The dynamics of a geometric measure of the quantum discord (GMQD) under decoherence is investigated. We show that the GMQD of a two-qubit state can be alternatively obtained through the singular values of a $3\\times4$ matrix whose elements are the expectation values of Pauli matrices of the two qubits. By using Heisenberg picture, the analytic results of the GMQD is obtained for three typical kinds of the quantum decoherence channels. We compare the dynamics of the GMQD with that of the quantum discord and of entanglement. We show that a sudden change in the decay rate of the GMQD does not always imply that of the quantum discord, and vice versa. We also give a general analysis on the sudden change in behavior and find that at least for the Bell diagonal states, the sudden changes in decay rates of the GMQD and that of the quantum discord occur simultaneously.",
+    "authors": [
+      "Xiao-Ming Lu",
+      "Zheng-Jun Xi",
+      "Zhe Sun",
+      "Xiaoguang Wang"
+    ],
+    "publication_date": "2010-04-29T13:36:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1004.5281v3",
+    "download_url": "https://arxiv.org/abs/1004.5281v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Agent-based Modelling of Quantum Prisoner's Dilemma",
+    "abstract": "What happens when an infinite number of players play a quantum game? In this tutorial, we will answer this question by looking at the emergence of cooperation, in the presence of noise, in a one-shot quantum Prisoner's dilemma (QuPD). We will use the numerical Agent-based model (ABM), and compare it with the analytical Nash equilibrium mapping (NEM) technique. To measure cooperation, we consider five indicators, i.e., game magnetization, entanglement susceptibility, correlation, player's payoff average and payoff capacity, respectively. In quantum social dilemmas, entanglement plays a non-trivial role in determining the behaviour of the quantum players (or, \\textit{qubits}) in the thermodynamic limit, and for QuPD, we consider the existence of bipartite entanglement between neighbouring quantum players. For the five indicators in question, we observe \\textit{first}-order phase transitions at two entanglement values, and these phase transition points depend on the payoffs associated with the QuPD game. We numerically analyze and study the properties of both the \\textit{Quantum} and the \\textit{Defect} phases of the QuPD via the five indicators. The results of this tutorial demonstrate that both ABM and NEM, in conjunction with the chosen five indicators, provide insightful information on cooperative behaviour in an infinite-player one-shot quantum Prisoner's dilemma.",
+    "authors": [
+      "Colin Benjamin",
+      "Rajdeep Tah"
+    ],
+    "publication_date": "2024-04-02T18:08:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.02216v2",
+    "download_url": "https://arxiv.org/abs/2404.02216v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantization of spherically symmetric loop quantum gravity coupled to a scalar field and a clock: the asymptotic limit",
+    "abstract": "We continue our work on the study of spherically symmetric loop quantum gravity coupled to two spherically symmetric scalar fields, one which acts as a clock. As a consequence of the presence of the latter, we can define a true Hamiltonian for the theory. The spherically symmetric context allows to carry out precise detailed calculations. Here we study the theory for regions of large values of the radial coordinate. This allows us to define in detail the vacuum of the theory and study its quantum states, yielding a quantum field theory on a quantum space time that makes contact with the usual treatment on classical space times.",
+    "authors": [
+      "Rodolfo Gambini",
+      "Jorge Pullin"
+    ],
+    "publication_date": "2023-11-09T22:22:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.05766v1",
+    "download_url": "https://arxiv.org/abs/2311.05766v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On proving the robustness of algorithms for early fault-tolerant quantum computers",
+    "abstract": "The hope of the quantum computing field is that quantum architectures are able to scale up and realize fault-tolerant quantum computing. Due to engineering challenges, such ''cheap'' error correction may be decades away. In the meantime, we anticipate an era of ''costly'' error correction, or early fault-tolerant quantum computing. Costly error correction might warrant settling for error-prone quantum computations. This motivates the development of quantum algorithms which are robust to some degree of error as well as methods to analyze their performance in the presence of error. Several such algorithms have recently been developed; what is missing is a methodology to analyze their robustness. To this end, we introduce a randomized algorithm for the task of phase estimation and give an analysis of its performance under two simple noise models. In both cases the analysis leads to a noise threshold, below which arbitrarily high accuracy can be achieved by increasing the number of samples used in the algorithm. As an application of this general analysis, we compute the maximum ratio of the largest circuit depth and the dephasing scale such that performance guarantees hold. We calculate that the randomized algorithm can succeed with arbitrarily high probability as long as the required circuit depth is less than 0.916 times the dephasing scale.",
+    "authors": [
+      "Rutuja Kshirsagar",
+      "Amara Katabarwa",
+      "Peter D. Johnson"
+    ],
+    "publication_date": "2022-09-22T21:28:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.11322v3",
+    "download_url": "https://arxiv.org/abs/2209.11322v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Consistent quantum theory as a realistic formulation of quantum mechanics",
+    "abstract": "The foundations of quantum mechanics have been plagued by controversy throughout the 85 year history of the field. It is argued that lack of clarity in the formulation of basic philosophical questions leads to unnecessary obscurity and controversy and an attempt is made to identify the main forks in the road that separate the most important interpretations of quantum theory. The consistent histories formulation, also known as \"consistent quantum theory\", is described as one particular way (favored by the author) to answer the essential questions of interpretation. The theory is shown to be a realistic formulation of quantum mechanics, in contrast to the orthodox or Copenhagen formulation which will be referred to as an operationalist theory.",
+    "authors": [
+      "P. C. Hohenberg"
+    ],
+    "publication_date": "2011-01-13T19:13:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1101.2635v2",
+    "download_url": "https://arxiv.org/abs/1101.2635v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Divide-and-conquer verification method for noisy intermediate-scale quantum computation",
+    "abstract": "Several noisy intermediate-scale quantum computations can be regarded as logarithmic-depth quantum circuits on a sparse quantum computing chip, where two-qubit gates can be directly applied on only some pairs of qubits. In this paper, we propose a method to efficiently verify such noisy intermediate-scale quantum computation. To this end, we first characterize small-scale quantum operations with respect to the diamond norm. Then by using these characterized quantum operations, we estimate the fidelity $\\langleψ_t|\\hatρ_{\\rm out}|ψ_t\\rangle$ between an actual $n$-qubit output state $\\hatρ_{\\rm out}$ obtained from the noisy intermediate-scale quantum computation and the ideal output state (i.e., the target state) $|ψ_t\\rangle$. Although the direct fidelity estimation method requires $O(2^n)$ copies of $\\hatρ_{\\rm out}$ on average, our method requires only $O(D^32^{12D})$ copies even in the worst case, where $D$ is the denseness of $|ψ_t\\rangle$. For logarithmic-depth quantum circuits on a sparse chip, $D$ is at most $O(\\log{n})$, and thus $O(D^32^{12D})$ is a polynomial in $n$. By using the IBM Manila 5-qubit chip, we also perform a proof-of-principle experiment to observe the practical performance of our method.",
+    "authors": [
+      "Yuki Takeuchi",
+      "Yasuhiro Takahashi",
+      "Tomoyuki Morimae",
+      "Seiichiro Tani"
+    ],
+    "publication_date": "2021-09-30T08:56:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.14928v3",
+    "download_url": "https://arxiv.org/abs/2109.14928v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Unitary Reconstruction of Secret for Stabilizer Based Quantum Secret Sharing",
+    "abstract": "We propose a unitary procedure to reconstruct quantum secret for a quantum secret sharing scheme constructed from stabilizer quantum error-correcting codes. Erasure correcting procedures for stabilizer codes need to add missing shares for reconstruction of quantum secret while unitary reconstruction procedures for certain class of quantum secret sharing are known to work without adding missing shares. The proposed procedure also works without adding missing shares.",
+    "authors": [
+      "Ryutaroh Matsumoto"
+    ],
+    "publication_date": "2017-01-09T02:05:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1701.02054v2",
+    "download_url": "https://arxiv.org/abs/1701.02054v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Darwinism and the spreading of classical information in non-classical theories",
+    "abstract": "Quantum Darwinism posits that the emergence of a classical reality relies on the spreading of classical information from a quantum system to many parts of its environment. But what are the essential physical principles of quantum theory that make this mechanism possible? We address this question by formulating the simplest instance of Darwinism - CNOT-like fan-out interactions - in a class of probabilistic theories that contain classical and quantum theory as special cases. We determine necessary and sufficient conditions for any theory to admit such interactions. We find that every theory with non-classical features that admits this idealized spreading of classical information must have both entangled states and entangled measurements. Furthermore, we show that Spekkens' toy theory admits this form of Darwinism, and so do all probabilistic theories that satisfy principles like strong symmetry, or contain a certain type of decoherence processes. Our result suggests the counter-intuitive general principle that in the presence of local non-classicality, a classical world can only emerge if this non-classicality can be \"amplified\" to a form of entanglement.",
+    "authors": [
+      "Roberto D. Baldijao",
+      "Marius Krumm",
+      "Andrew J. P. Garner",
+      "Markus P. Mueller"
+    ],
+    "publication_date": "2020-12-11T18:40:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2012.06559v2",
+    "download_url": "https://arxiv.org/abs/2012.06559v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimal uniform continuity bound for conditional entropy of classical--quantum states",
+    "abstract": "In this short note, I show how a recent result of Alhejji and Smith [arXiv:1909.00787] regarding an optimal uniform continuity bound for classical conditional entropy leads to an optimal uniform continuity bound for quantum conditional entropy of classical--quantum states. The bound is optimal in the sense that there always exists a pair of classical--quantum states saturating the bound, and so no further improvements are possible. An immediate application is a uniform continuity bound for entanglement of formation that improves upon the one previously given by Winter in [arXiv:1507.07775]. Two intriguing open questions are raised regarding other possible uniform continuity bounds for conditional entropy, one about quantum--classical states and another about fully quantum bipartite states.",
+    "authors": [
+      "Mark M. Wilde"
+    ],
+    "publication_date": "2019-09-04T12:52:42Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.01755v2",
+    "download_url": "https://arxiv.org/abs/1909.01755v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "3D Topological Quantum Computing",
+    "abstract": "In this paper we will present some ideas to use 3D topology for quantum computing extending ideas from a previous paper. Topological quantum computing used \\textquotedblleft knotted\\textquotedblright{} quantum states of topological phases of matter, called anyons. But anyons are connected with surface topology. But surfaces have (usually) abelian fundamental groups and therefore one needs non-abelian anyons to use it for quantum computing. But usual materials are 3D objects which can admit more complicated topologies. Here, complements of knots do play a prominent role and are in principle the main parts to understand 3-manifold topology. For that purpose, we will construct a quantum system on the complements of a knot in the 3-sphere (see arXiv:2102.04452 for previous work). The whole system is designed as knotted superconductor where every crossing is a Josephson junction and the qubit is realized as flux qubit. We discuss the properties of this systems in particular the fluxion quantization by using the A-polynomial of the knot. Furthermore we showed that 2-qubit operations can be realized by linked (knotted) superconductors again coupled via a Josephson junction.",
+    "authors": [
+      "Torsten Asselmeyer-Maluga"
+    ],
+    "publication_date": "2021-07-16T12:53:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.08049v1",
+    "download_url": "https://arxiv.org/abs/2107.08049v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Scalable Timing Coordination of Bell State Analyzers in Quantum Networks",
+    "abstract": "The optical Bell State Analyzer (BSA) plays a key role in the optical generation of entanglement in quantum networks. The optical BSA is effective in controlling the timing of arriving photons to achieve interference. It is unclear whether timing synchronization is possible even in multi-hop and complex large-scale networks, and if so, how efficient it is. We investigate the scalability of BSA synchronization mechanisms over multiple hops for quantum networks both with and without memory in each node. We first focus on the exchange of entanglement between two network nodes via a BSA, especially effective methods of optical path coordination in achieving the simultaneous arrival of photons at the BSA. In optical memoryless quantum networks, including repeater graph state networks, we see that the quantum optical path coordination works well, though some possible timing coordination mechanisms have effects that cascade to adjacent links and beyond, some of which was not going to work well of timing coordination. We also discuss the effect of quantum memory, given that end-to-end extension of entangled states through multi-node entanglement exchange is essential for the practical application of quantum networks. Finally, cycles of all-optical links in the network topology are shown to may not be to synchronize, this property should be taken into account when considering synchronization in large networks.",
+    "authors": [
+      "Yoshihiro Mori",
+      "Toshihiko Sasaki",
+      "Rikizo Ikuta",
+      "Kentaro Teramoto",
+      "Hiroyuki Ohno",
+      "Michal Hajdušek",
+      "Rodney Van Meter",
+      "Shota Nagayama"
+    ],
+    "publication_date": "2024-05-16T08:05:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.09881v1",
+    "download_url": "https://arxiv.org/abs/2405.09881v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Tutorial: Optical quantum metrology",
+    "abstract": "The purpose of quantum technologies is to explore how quantum effects can improve on existing solutions for the treatment of information. Quantum photonics sensing holds great promises for reaching a more efficient trade-off between invasivity and quality of the measurement, when compared with the potential of classical means. This tutorial is dedicated to presenting how this advantage is brought about by nonclassical light, examining the basic principles of parameter estimation and reviewing the state of the art.",
+    "authors": [
+      "Marco Barbieri"
+    ],
+    "publication_date": "2025-07-30T13:43:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.22680v1",
+    "download_url": "https://arxiv.org/abs/2507.22680v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum reference systems: reconciling locality with quantum mechanics",
+    "abstract": "The status of locality in quantum mechanics is analyzed from a nonstandard point of view. It is assumed that quantum states are relative, they depend on and are defined with respect to some bigger physical system which contains the former system as a subsystem. Hence, the bigger system acts as a reference system. It is shown that quantum mechanics can be reformulated in accordance with this new physical assumption. There is an important consequence of this dependence: states may not be comparable, i.e., they cannot be checked by suitable measurements simultaneously. This special circumstance is fully reflected mathematically by the theory. Especially, it is shown that certain joint probabilities (or the corresponding combined events) which play a vital role in any proof of Bell's theorem do not exist. The conclusion is that the principle of locality is fully valid in quantum mechanics, and one has to give up instead of locality an intuitively natural-looking feature of realism, namely, the comparability of existing states.",
+    "authors": [
+      "Gyula Bene"
+    ],
+    "publication_date": "2000-08-30T18:36:20Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0008128v1",
+    "download_url": "https://arxiv.org/abs/quant-ph/0008128v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Avoiding Negative Probabilities in Quantum Mechanics",
+    "abstract": "As currently understood since its discovery, the bare Klein-Gordon theory consists of negative quantum probabilities which are considered to be physically meaningless if not outright obsolete. Despite this annoying setback, these negative probabilities are what led the great Paul Dirac in 1928 to the esoteric discovery of the Dirac Equation. The Dirac Equation led to one of the greatest advances in our understanding of the physical world. In this reading, we ask the seemingly senseless question, \"Do negative probabilities exist in quantum mechanics?\" In an effort to answer this question, we arrive at the conclusion that depending on the choice one makes of the quantum probability current, one will obtain negative probabilities. We thus propose a new quantum probability current of the Klein-Gordon theory. This quantum probability current leads directly to positive definite quantum probabilities. Because these negative probabilities are in the bare Klein-Gordon theory, intrinsically a result of negative energies, the fact that we here arrive at a theory with positive probabilities, means that negative energy particles are not to be considered problematic as is the case in the bare Klein-Gordon theory. From an abstract-objective stand-point; in comparison with positive energy particles, the corollary is that negative energy particles should have equal chances to exist. As to why these negative energy particles do not exist, this is analogous to asking why is it that Dirac's antimatter does not exist in equal proportions with matter. This problem of why negative energy particles do not exist in equal proportions with positive energy particles is a problem that needs to be solved by a future theory.",
+    "authors": [
+      "Golden Gadzirayi Nyambuya"
+    ],
+    "publication_date": "2013-08-15T08:45:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1308.4701v1",
+    "download_url": "https://arxiv.org/abs/1308.4701v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Degenerate Quantum LDPC Codes With Good Finite Length Performance",
+    "abstract": "We study the performance of medium-length quantum LDPC (QLDPC) codes in the depolarizing channel. Only degenerate codes with the maximal stabilizer weight much smaller than their minimum distance are considered. It is shown that with the help of OSD-like post-processing the performance of the standard belief propagation (BP) decoder on many QLDPC codes can be improved by several orders of magnitude. Using this new BP-OSD decoder we study the performance of several known classes of degenerate QLDPC codes including hypergraph product codes, hyperbicycle codes, homological product codes, and Haah's cubic codes. We also construct several interesting examples of short generalized bicycle codes. Some of them have an additional property that their syndromes are protected by small BCH codes, which may be useful for the fault-tolerant syndrome measurement. We also propose a new large family of QLDPC codes that contains the class of hypergraph product codes, where one of the used parity-check matrices is square. It is shown that in some cases such codes have better performance than hypergraph product codes. Finally, we demonstrate that the performance of the proposed BP-OSD decoder for some of the constructed codes is better than for a relatively large surface code decoded by a near-optimal decoder.",
+    "authors": [
+      "Pavel Panteleev",
+      "Gleb Kalachev"
+    ],
+    "publication_date": "2019-04-04T17:58:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.02703v3",
+    "download_url": "https://arxiv.org/abs/1904.02703v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improved Bounds on Quantum Learning Algorithms",
+    "abstract": "In this article we give several new results on the complexity of algorithms that learn Boolean functions from quantum queries and quantum examples.\n  Hunziker et al. conjectured that for any class C of Boolean functions, the number of quantum black-box queries which are required to exactly identify an unknown function from C is $O(\\frac{\\log |C|}{\\sqrt{{\\hatγ}^{C}}})$, where $\\hatγ^{C}$ is a combinatorial parameter of the class C. We essentially resolve this conjecture in the affirmative by giving a quantum algorithm that, for any class C, identifies any unknown function from C using $O(\\frac{\\log |C| \\log \\log |C|}{\\sqrt{{\\hatγ}^{C}}})$ quantum black-box queries.\n  We consider a range of natural problems intermediate between the exact learning problem (in which the learner must obtain all bits of information about the black-box function) and the usual problem of computing a predicate (in which the learner must obtain only one bit of information about the black-box function). We give positive and negative results on when the quantum and classical query complexities of these intermediate problems are polynomially related to each other.\n  Finally, we improve the known lower bounds on the number of quantum examples (as opposed to quantum black-box queries) required for $(ε,δ)$-PAC learning any concept class of Vapnik-Chervonenkis dimension d over the domain $\\{0,1\\}^n$ from $Ω(\\frac{d}{n})$ to $Ω(\\frac{1}ε\\log \\frac{1}δ+d+\\frac{\\sqrt{d}}ε)$. This new lower bound comes closer to matching known upper bounds for classical PAC learning.",
+    "authors": [
+      "Alp Atici",
+      "Rocco A. Servedio"
+    ],
+    "publication_date": "2004-11-18T20:14:16Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0411140v2",
+    "download_url": "https://arxiv.org/abs/quant-ph/0411140v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Perspectives: Quantum Mechanics on Phase Space",
+    "abstract": "The basic ideas in the theory of quantum mechanics on phase space are illustrated through an introduction of generalities, which seem to underlie most if not all such formulations and follow with examples taken primarily from kinematical particle model descriptions exhibiting either Galileian or Lorentzian symmetry. The structures of fundamental importance are the relevant (Lie) groups of symmetries and their homogeneous (and associated) spaces that, in the situations of interest, also possess Hamiltonian structures. Comments are made on the relation between the theory outlined and a recent paper by Carmeli, Cassinelli, Toigo, and Vacchini.",
+    "authors": [
+      "J. A. Brooke",
+      "F. E. Schroeck"
+    ],
+    "publication_date": "2006-06-27T00:28:12Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0606223v1",
+    "download_url": "https://arxiv.org/abs/quant-ph/0606223v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fast, Lifetime-Preserving Readout for High-Coherence Quantum Annealers",
+    "abstract": "We demonstrate, for the first time, that a quantum flux parametron (QFP) is capable of acting as both isolator and amplifier in the readout circuit of a capacitively shunted flux qubit (CSFQ). By treating the QFP like a tunable coupler and biasing it such that the coupling is off, we show that $T_1$ of the CSFQ is not impacted by Purcell loss from its low-Q readout resonator ($Q_e = 760$) despite being detuned by only $40$ MHz. When annealed, the QFP amplifies the qubit's persistent current signal such that it generates a flux qubit-state-dependent frequency shift of $85$ MHz in the readout resonator, which is over $9$ times its linewidth. The device is shown to read out a flux qubit in the persistent current basis with fidelities surpassing $98.6\\%$ with only $80$ ns integration, and reaches fidelities of $99.6\\%$ when integrated for $1$ $μ$s. This combination of speed and isolation is critical to the readout of high-coherence quantum annealers.",
+    "authors": [
+      "Jeffrey A. Grover",
+      "James I. Basham",
+      "Alexander Marakov",
+      "Steven M. Disseler",
+      "Robert T. Hinkey",
+      "Moe Khalil",
+      "Zachary A. Stegen",
+      "Thomas Chamberlin",
+      "Wade DeGottardi",
+      "David J. Clarke",
+      "James R. Medford",
+      "Joel D. Strand",
+      "Micah J. A. Stoutimore",
+      "Sergey Novikov",
+      "David G. Ferguson",
+      "Daniel Lidar",
+      "Kenneth M. Zick",
+      "Anthony J. Przybysz"
+    ],
+    "publication_date": "2020-06-18T19:20:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.10817v2",
+    "download_url": "https://arxiv.org/abs/2006.10817v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Schrödinger as a Quantum Programmer: Estimating Entanglement via Steering",
+    "abstract": "Quantifying entanglement is an important task by which the resourcefulness of a quantum state can be measured. Here, we develop a quantum algorithm that tests for and quantifies the separability of a general bipartite state by using the quantum steering effect, the latter initially discovered by Schrödinger. Our separability test consists of a distributed quantum computation involving two parties: a computationally limited client, who prepares a purification of the state of interest, and a computationally unbounded server, who tries to steer the reduced systems to a probabilistic ensemble of pure product states. To design a practical algorithm, we replace the role of the server with a combination of parameterized unitary circuits and classical optimization techniques to perform the necessary computation. The result is a variational quantum steering algorithm (VQSA), a modified separability test that is implementable on quantum computers that are available today. We then simulate our VQSA on noisy quantum simulators and find favorable convergence properties on the examples tested. We also develop semidefinite programs, executable on classical computers, that benchmark the results obtained from our VQSA. Thus, our findings provide a meaningful connection between steering, entanglement, quantum algorithms, and quantum computational complexity theory. They also demonstrate the value of a parameterized mid-circuit measurement in a VQSA.",
+    "authors": [
+      "Aby Philip",
+      "Soorya Rethinasamy",
+      "Vincent Russo",
+      "Mark M. Wilde"
+    ],
+    "publication_date": "2023-03-14T13:55:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.07911v4",
+    "download_url": "https://arxiv.org/abs/2303.07911v4",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "QADQN: Quantum Attention Deep Q-Network for Financial Market Prediction",
+    "abstract": "Financial market prediction and optimal trading strategy development remain challenging due to market complexity and volatility. Our research in quantum finance and reinforcement learning for decision-making demonstrates the approach of quantum-classical hybrid algorithms to tackling real-world financial challenges. In this respect, we corroborate the concept with rigorous backtesting and validate the framework's performance under realistic market conditions, by including fixed transaction cost per trade. This paper introduces a Quantum Attention Deep Q-Network (QADQN) approach to address these challenges through quantum-enhanced reinforcement learning. Our QADQN architecture uses a variational quantum circuit inside a traditional deep Q-learning framework to take advantage of possible quantum advantages in decision-making. We gauge the QADQN agent's performance on historical data from major market indices, including the S&P 500. We evaluate the agent's learning process by examining its reward accumulation and the effectiveness of its experience replay mechanism. Our empirical results demonstrate the QADQN's superior performance, achieving better risk-adjusted returns with Sortino ratios of 1.28 and 1.19 for non-overlapping and overlapping test periods respectively, indicating effective downside risk management.",
+    "authors": [
+      "Siddhant Dutta",
+      "Nouhaila Innan",
+      "Alberto Marchisio",
+      "Sadok Ben Yahia",
+      "Muhammad Shafique"
+    ],
+    "publication_date": "2024-08-06T10:41:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.03088v1",
+    "download_url": "https://arxiv.org/abs/2408.03088v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Geometric distinguishability measures limit quantum channel estimation and discrimination",
+    "abstract": "Quantum channel estimation and discrimination are fundamentally related information processing tasks of interest in quantum information science. In this paper, we analyze these tasks by employing the right logarithmic derivative Fisher information and the geometric Rényi relative entropy, respectively, and we also identify connections between these distinguishability measures. A key result of our paper is that a chain-rule property holds for the right logarithmic derivative Fisher information and the geometric Rényi relative entropy for the interval $α\\in(0,1) $ of the Rényi parameter $α$. In channel estimation, these results imply a condition for the unattainability of Heisenberg scaling, while in channel discrimination, they lead to improved bounds on error rates in the Chernoff and Hoeffding error exponent settings. More generally, we introduce the amortized quantum Fisher information as a conceptual framework for analyzing general sequential protocols that estimate a parameter encoded in a quantum channel, and we use this framework, beyond the aforementioned application, to show that Heisenberg scaling is not possible when a parameter is encoded in a classical-quantum channel. We then identify a number of other conceptual and technical connections between the tasks of estimation and discrimination and the distinguishability measures involved in analyzing each. As part of this work, we present a detailed overview of the geometric Rényi relative entropy of quantum states and channels, as well as its properties, which may be of independent interest.",
+    "authors": [
+      "Vishal Katariya",
+      "Mark M. Wilde"
+    ],
+    "publication_date": "2020-04-22T17:11:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.10708v2",
+    "download_url": "https://arxiv.org/abs/2004.10708v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modular quantum signal processing in many variables",
+    "abstract": "Despite significant advances in quantum algorithms, quantum programs in practice are often expressed at the circuit level, forgoing helpful structural abstractions common to their classical counterparts. Consequently, as many quantum algorithms have been unified with the advent of quantum signal processing (QSP) and quantum singular value transformation (QSVT), an opportunity has appeared to cast these algorithms as modules that can be combined to constitute complex programs. Complicating this, however, is that while QSP/QSVT are often described by the polynomial transforms they apply to the singular values of large linear operators, and the algebraic manipulation of polynomials is simple, the QSP/QSVT protocols realizing analogous manipulations of their embedded polynomials are non-obvious. Here we provide a theory of modular multi-input-output QSP-based superoperators, the basic unit of which we call a gadget, and show they can be snapped together with LEGO-like ease at the level of the functions they apply. To demonstrate this ease, we also provide a Python package for assembling gadgets and compiling them to circuits. Viewed alternately, gadgets both enable the efficient block encoding of large families of useful multivariable functions, and substantiate a functional-programming approach to quantum algorithm design in recasting QSP and QSVT as monadic types.",
+    "authors": [
+      "Zane M. Rossi",
+      "Jack L. Ceroni",
+      "Isaac L. Chuang"
+    ],
+    "publication_date": "2023-09-28T17:58:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.16665v2",
+    "download_url": "https://arxiv.org/abs/2309.16665v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Why Classical Certification is Impossible in a Quantum World",
+    "abstract": "We give a simple proof that it is impossible to guarantee the classicality of inputs into any mistrustful quantum cryptographic protocol. The argument illuminates the impossibility of unconditionally secure quantum implementations of essentially classical tasks such as bit commitment with a certified classical committed bit, classical oblivious transfer, and secure classical multi-party computations of secret classical data. It applies to both non-relativistic and relativistic protocols.",
+    "authors": [
+      "Adrian Kent"
+    ],
+    "publication_date": "2004-09-04T18:46:10Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0409029v5",
+    "download_url": "https://arxiv.org/abs/quant-ph/0409029v5",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "John Bell's varying interpretations of quantum mechanics",
+    "abstract": "Various interpretations of quantum mechanics, favored (or neglected) by John Bell in the context of his non-locality theorem, are compared and discussed.",
+    "authors": [
+      "H. Dieter Zeh"
+    ],
+    "publication_date": "2014-02-22T10:17:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1402.5498v8",
+    "download_url": "https://arxiv.org/abs/1402.5498v8",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the connection between microscopic description and memory effects in open quantum system dynamics",
+    "abstract": "The exchange of information between an open quantum system and its environment allows us to discriminate among different kinds of dynamics, in particular detecting memory effects to characterize non-Markovianity. Here, we investigate the role played by the system-environment correlations and the environmental evolution in the flow of information. First, we derive general conditions ensuring that two generalized dephasing microscopic models of the global system-environment evolution result exactly in the same open-system dynamics, for any initial state of the system. Then, we use the trace distance to quantify the distinct contributions to the information inside and outside the open system in the two models. Our analysis clarifies how the interplay between system-environment correlations and environmental-state distinguishability can lead to the same information flow from and toward the open system, despite significant qualitative and quantitative differences at the level of the global evolution.",
+    "authors": [
+      "Andrea Smirne",
+      "Nina Megier",
+      "Bassano Vacchini"
+    ],
+    "publication_date": "2021-01-18T19:01:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2101.07282v2",
+    "download_url": "https://arxiv.org/abs/2101.07282v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A largely self-contained and complete security proof for quantum key distribution",
+    "abstract": "In this work we present a security analysis for quantum key distribution, establishing a rigorous tradeoff between various protocol and security parameters for a class of entanglement-based and prepare-and-measure protocols. The goal of this paper is twofold: 1) to review and clarify the state-of-the-art security analysis based on entropic uncertainty relations, and 2) to provide an accessible resource for researchers interested in a security analysis of quantum cryptographic protocols that takes into account finite resource effects. For this purpose we collect and clarify several arguments spread in the literature on the subject with the goal of making this treatment largely self-contained.\n  More precisely, we focus on a class of prepare-and-measure protocols based on the Bennett-Brassard (BB84) protocol as well as a class of entanglement-based protocols similar to the Bennett-Brassard-Mermin (BBM92) protocol. We carefully formalize the different steps in these protocols, including randomization, measurement, parameter estimation, error correction and privacy amplification, allowing us to be mathematically precise throughout the security analysis. We start from an operational definition of what it means for a quantum key distribution protocol to be secure and derive simple conditions that serve as sufficient condition for secrecy and correctness. We then derive and eventually discuss tradeoff relations between the block length of the classical computation, the noise tolerance, the secret key length and the security parameters for our protocols. Our results significantly improve upon previously reported tradeoffs.",
+    "authors": [
+      "Marco Tomamichel",
+      "Anthony Leverrier"
+    ],
+    "publication_date": "2015-06-28T22:06:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1506.08458v3",
+    "download_url": "https://arxiv.org/abs/1506.08458v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generalized Ramsey numbers through adiabatic quantum optimization",
+    "abstract": "Ramsey theory is an active research area in combinatorics whose central theme is the emergence of order in large disordered structures, with Ramsey numbers marking the threshold at which this order first appears. For generalized Ramsey numbers $r(G,H)$, the emergent order is characterized by graphs $G$ and $H$. In this paper we: (i) present a quantum algorithm for computing generalized Ramsey numbers by reformulating the computation as a combinatorial optimization problem which is solved using adiabatic quantum optimization; and (ii) determine the Ramsey numbers $r(\\mathcal{T}_{m},\\mathcal{T}_{n})$ for trees of order $m,n = 6,7,8$, most of which were previously unknown.",
+    "authors": [
+      "Mani Ranjbar",
+      "William G. Macready",
+      "Lane Clark",
+      "Frank Gaitan"
+    ],
+    "publication_date": "2016-06-03T13:21:01Z",
+    "arxiv_id": "http://arxiv.org/abs/1606.01078v1",
+    "download_url": "https://arxiv.org/abs/1606.01078v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Dwell-time distributions in quantum mechanics",
+    "abstract": "Some fundamental and formal aspects of the quantum dwell time are reviewed, examples for free motion and scattering off a potential barrier are provided, as well as extensions of the concept. We also examine the connection between the dwell time of a quantum particle in a region of space and flux-flux correlations at the boundaries, as well as operational approaches and approximations to measure the flux-flux correlation function and thus the second moment of the dwell time, which is shown to be characteristically quantum, and larger than the corresponding classical moment even for freely moving particles.",
+    "authors": [
+      "J. Muñoz",
+      "I. L. Egusquiza",
+      "A. del Campo",
+      "D. Seidel",
+      "J. G. Muga"
+    ],
+    "publication_date": "2009-01-10T11:34:46Z",
+    "arxiv_id": "http://arxiv.org/abs/0901.1371v1",
+    "download_url": "https://arxiv.org/abs/0901.1371v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Entanglement-assisted Quantum Reed-Muller Tensor Product Codes",
+    "abstract": "We present the construction of standard entanglement-assisted (EA) qubit Reed-Muller (RM) codes and their tensor product variants from classical RM codes. We show that the EA RM codes obtained using the CSS construction have zero coding rate and negative catalytic rate. We further show that EA codes constructed from these same classical RM codes using the tensor product code (TPC) construction have positive coding rate and provide a subclass of EA RM TPCs that have positive catalytic rate, thus establishing the coding analog of superadditivity for this family of codes, useful towards quantum communications. We also generalize this analysis to obtain conditions for EA TPCs from classical codes to have positive catalytic rate when their corresponding EA CSS codes have zero rate.",
+    "authors": [
+      "Priya J. Nadkarni",
+      "Praveen Jayakumar",
+      "Arpit Behera",
+      "Shayan Srinivasa Garani"
+    ],
+    "publication_date": "2023-03-15T01:04:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.08294v3",
+    "download_url": "https://arxiv.org/abs/2303.08294v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Role of Localizable Concurrence in Quantum Teleportation Protocols",
+    "abstract": "Teleporting an unknown qubit state is a paradigmatic quantum information processing task revealing the advantage of quantum communication protocols over their classical counterpart. For a teleportation protocol using a Bell state as quantum channel, the resource has been identified to be the concurrence. However, for mixed multi-partite states the lack of computable entanglement measures has made the identification of the quantum resource responsible for this advantage more challenging. Here, by building on previous results showing that localizable concurrence is the necessary resource for controlled quantum teleportation, we show that any teleportation protocol using an arbitrary multi-partite state, that includes a Bell measurement, requires a non-vanishing localizable concurrence between two of its parties in order to perform better than the classical protocol. By first analyzing the GHZ channel and GHZ measurement teleportation protocol, in the presence of GHZ-symmetric-preserving noise, we compare different multi-partite entanglement measures with the fidelity of teleportation, and we find that the protocol performs better than the classical protocol when all multi-partite entanglement measures vanish, except for the localizable concurrence. Finally, we extend our proof to an arbitrary teleportation protocol with an arbitrary multi-partite entangled channel.",
+    "authors": [
+      "Mirko Consiglio",
+      "Louis Zammit Mangion",
+      "Tony John George Apollaro"
+    ],
+    "publication_date": "2021-06-12T01:00:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.06653v2",
+    "download_url": "https://arxiv.org/abs/2106.06653v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How to Complete the Quantum-Mechanical Description?",
+    "abstract": "If the statement by Einstein, Podolsky and Rosen on incompleteness of Quantum-Mechanical description of nature is correct, then we can regard Quantum Mechanics as a Method of Indirect Computation. The problem is, whether the theory is incomplete or the nature itself does not allow complete description? And if the first option is correct, how is it possible to complete the Quantum-Mechanical description? Here we try to complement de-Broglie's idea on wave-pilot the stochastic gravitation gives origin to. We assume that de-Broglie's wave-pilots are gravitational stochastic ones, and we shall regard micro-objects as test classical particles being subject to the influence of de-Broglie's waves stochastic gravitation.",
+    "authors": [
+      "Timur F. Kamalov"
+    ],
+    "publication_date": "2002-12-24T09:29:27Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0212139v5",
+    "download_url": "https://arxiv.org/abs/quant-ph/0212139v5",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum thermodynamics under continuous monitoring: a general framework",
+    "abstract": "The thermodynamics of quantum systems driven out of equilibrium has attracted increasing attention in last the decade, in connection with quantum information and statistical physics, and with a focus on non-classical signatures. While a first approach can deal with average thermodynamics quantities over ensembles, in order to establish the impact of quantum and environmental fluctuations during the evolution, a continuous quantum measurement of the open system is required. Here we provide an introduction to the general theoretical framework to establish and interpret thermodynamics for quantum systems whose nonequilibrium evolution is continuously monitored. We review the formalism of quantum trajectories and its consistent application to the thermodynamic scenario, where main quantities such as work, heat, and entropy production can be defined at the stochastic level. The connection to irreversibility and fluctuation theorems is also discussed, together with some recent developments, and we provide some simple examples to illustrate the general theoretical framework.",
+    "authors": [
+      "Gonzalo Manzano",
+      "Roberta Zambrini"
+    ],
+    "publication_date": "2021-12-03T17:02:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.02019v2",
+    "download_url": "https://arxiv.org/abs/2112.02019v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Families of $d=2$ 2D subsystem stabilizer codes for universal Hamiltonian quantum computation with two-body interactions",
+    "abstract": "In the absence of fault tolerant quantum error correction for analog, Hamiltonian quantum computation, error suppression via energy penalties is an effective alternative. We construct families of distance-$2$ stabilizer subsystem codes we call ``trapezoid codes'', that are tailored for energy-penalty schemes. We identify a family of codes achieving the maximum code rate, and by slightly relaxing this constraint, uncover a broader range of codes with enhanced physical locality, thus increasing their practical applicability. Additionally, we provide an algorithm to map the required qubit connectivity graph into graphs compatible with the locality constraints of quantum hardware. Finally, we provide a systematic framework to evaluate the performance of these codes in terms of code rate, physical locality, graph properties, and penalty gap, enabling an informed selection of error-suppression codes for specific quantum computing applications. We identify the $[[4k+2,2k,g,2]]$ family of subsystem codes as optimal in terms of code rate and penalty gap scaling.",
+    "authors": [
+      "Phattharaporn Singkanipa",
+      "Zihan Xia",
+      "Daniel A. Lidar"
+    ],
+    "publication_date": "2024-12-09T18:36:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.06744v3",
+    "download_url": "https://arxiv.org/abs/2412.06744v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum dynamics and super-symmetric quantum mechanics",
+    "abstract": "In my talk I will present an overview of our recent work involving the use of supersymmetric quantum mechanics (SUSY-QM). I begin by discussing the mathematical underpinnings of SUSY-QM and then discuss how we have used this for developing novel theoretical and numerical approaches suitable for studying molecular systems. I will conclude by discussing our attempt to extend SUSY-QM to multiple dimensions.",
+    "authors": [
+      "Eric R. Bittner",
+      "Donald J. Kouri"
+    ],
+    "publication_date": "2010-05-20T13:20:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1005.3688v1",
+    "download_url": "https://arxiv.org/abs/1005.3688v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Random quantum circuits are approximate unitary $t$-designs in depth $O\\left(nt^{5+o(1)}\\right)$",
+    "abstract": "The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits on qubits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-designs. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $Ω(n^{-1}t^{-9.5})$. We improve this lower bound to $Ω(n^{-1}t^{-4-o(1)})$, where the $o(1)$ term goes to $0$ as $t\\to\\infty$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove fast convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries.",
+    "authors": [
+      "Jonas Haferkamp"
+    ],
+    "publication_date": "2022-03-30T18:02:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.16571v3",
+    "download_url": "https://arxiv.org/abs/2203.16571v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "What is quantum in quantum randomness?",
+    "abstract": "It is often said that quantum and classical randomness are of different nature, the former being ontological and the latter epistemological. However, so far the question of \"What is quantum in quantum randomness\", i.e. what is the impact of quantization and discreteness on the nature of randomness, remains to answer. In a first part, we explicit the differences between quantum and classical randomness within a recently proposed ontology for quantum mechanics based on contextual objectivity. In this view, quantum randomness is the result of contextuality and quantization. We show that this approach strongly impacts the purposes of quantum theory as well as its areas of application. In particular, it challenges current programs inspired by classical reductionism, aiming at the emergence of the classical world from a large number of quantum systems. In a second part, we analyze quantum physics and thermodynamics as theories of randomness, unveiling their mutual influences. We finally consider new technological applications of quantum randomness opened in the emerging field of quantum thermodynamics.",
+    "authors": [
+      "Philippe Grangier",
+      "Alexia Auffèves"
+    ],
+    "publication_date": "2018-04-13T07:21:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1804.04807v1",
+    "download_url": "https://arxiv.org/abs/1804.04807v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Physics Lab Inside Your Head: Quantum Thought Experiments as an Educational Tool",
+    "abstract": "Thought experiments are where logical reasoning meets storytelling, catalysing progress in quantum science and technology. Schrödinger's famous cat brought quantum science to the public consciousness, while Deutsch's thought experiment to test the many-worlds and Copenhagen interpretations involved the first conception of a quantum computer. I will show how presenting thought experiments using quantum circuits can demystify apparent quantum paradoxes, and provide fun, conceptually important activities for learners to implement themselves on near-term quantum devices. Additionally, I will explain how thought experiments can be used as a first introduction to quantum, and outline a workshop based on the \"quantum bomb tester\" for school students as young as 11. This paper draws upon my experience in developing and delivering quantum computing workshops in Oxford, and in creating a quantum paradoxes content series with IBM Quantum of videos, blogs and code tutorials.",
+    "authors": [
+      "Maria Violaris"
+    ],
+    "publication_date": "2023-12-13T02:09:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.07840v1",
+    "download_url": "https://arxiv.org/abs/2312.07840v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "L00L entanglement and the twisted quantum eraser",
+    "abstract": "We demonstrate the generation of unbalanced two-photon entanglement in the Laguerre-Gaussian (LG) transverse-spatial degree-of-freedom, where one photon carries a fundamental (Gauss) mode and the other a higher-order LG mode with a non-zero azimuthal ($\\ell$) or radial ($p$) component. Taking a cue from the $N00N$ state nomenclature, we call these types of states $\\ell 00 \\ell$-entangled. They are generated by shifting one photon in the LG mode space and combining it with a second (initially uncorrelated) photon at a beamsplitter, followed by coincidence detection. In order to verify two-photon coherence, we demonstrate a two-photon ``twisted'' quantum eraser, where Hong-Ou-Mandel interference is recovered between two distinguishable photons by projecting them into a rotated LG superposition basis. Using an entanglement witness, we find that our generated states have fidelities of 95.31\\% and 89.80\\% to their respective ideal maximally entangled states. Besides being of fundamental interest, this type of entanglement will likely have a significant impact on tickling the average quantum physicist's funny bone.",
+    "authors": [
+      "Dylan Danese",
+      "Sabine Wollmann",
+      "Saroch Leedumrongwatthanakun",
+      "Will McCutcheon",
+      "Manuel Erhard",
+      "William N. Plick",
+      "Mehul Malik"
+    ],
+    "publication_date": "2023-06-23T17:18:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.13620v3",
+    "download_url": "https://arxiv.org/abs/2306.13620v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A hidden variables model for non-relativistic quantum mechanics in terms of probabilities of particle paths",
+    "abstract": "It is proved that in non-relativistic quantum mechanics (without spin) the transition probability may be described in terms of particle paths, every path having a (positive) probability. This leads to a stochastic hidden variables theory providing an intuitive picture of particle motion. The change of velocity at every time has a probability that depends on the potential over a large region, at a difference with the local action of classical dynamics. Thus the hidden variables theory is non-local like Bohm's, but not deterministic.",
+    "authors": [
+      "Emilio Santos"
+    ],
+    "publication_date": "2016-03-07T19:28:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1603.02215v3",
+    "download_url": "https://arxiv.org/abs/1603.02215v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A case study of variational quantum algorithms for a job shop scheduling problem",
+    "abstract": "Combinatorial optimization models a vast range of industrial processes aiming at improving their efficiency. In general, solving this type of problem exactly is computationally intractable. Therefore, practitioners rely on heuristic solution approaches. Variational quantum algorithms are optimization heuristics that can be demonstrated with available quantum hardware. In this case study, we apply four variational quantum heuristics running on IBM's superconducting quantum processors to the job shop scheduling problem. Our problem optimizes a steel manufacturing process. A comparison on 5 qubits shows that the recent filtering variational quantum eigensolver (F-VQE) converges faster and samples the global optimum more frequently than the quantum approximate optimization algorithm (QAOA), the standard variational quantum eigensolver (VQE), and variational quantum imaginary time evolution (VarQITE). Furthermore, F-VQE readily solves problem sizes of up to 23 qubits on hardware without error mitigation post processing.",
+    "authors": [
+      "David Amaro",
+      "Matthias Rosenkranz",
+      "Nathan Fitzpatrick",
+      "Koji Hirano",
+      "Mattia Fiorentini"
+    ],
+    "publication_date": "2021-09-08T16:05:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.03745v2",
+    "download_url": "https://arxiv.org/abs/2109.03745v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards an Automatic Framework for Solving Optimization Problems with Quantum Computers",
+    "abstract": "Optimizing objective functions stands to benefit significantly from leveraging quantum computers, promising enhanced solution quality across various application domains in the future. However, harnessing the potential of quantum solvers necessitates formulating problems according to the Quadratic Unconstrained Binary Optimization (QUBO) model, demanding significant expertise in quantum computation and QUBO formulations. This expertise barrier limits access to quantum solutions.\n  Fortunately, automating the conversion of conventional optimization problems into QUBO formulations presents a solution for promoting accessibility to quantum solvers. This article addresses the unmet need for a comprehensive automatic framework to assist users in utilizing quantum solvers for optimization tasks while preserving interfaces that closely resemble conventional optimization practices. The framework prompts users to specify variables, optimization criteria, as well as validity constraints and, afterwards, allows them to choose the desired solver. Subsequently, it automatically transforms the problem description into a format compatible with the chosen solver and provides the resulting solution. Additionally, the framework offers instruments for analyzing solution validity and quality.\n  Comparative analysis against existing libraries and tools in the literature highlights the comprehensive nature of the proposed framework. Two use cases (the knapsack problem and linear regression) are considered to show the completeness and efficiency of the framework in real-world applications.\n  Finally, the proposed framework represents a significant advancement towards automating quantum computing solutions and widening access to quantum optimization for a broader range of users.",
+    "authors": [
+      "Deborah Volpe",
+      "Nils Quetschlich",
+      "Mariagrazia Graziano",
+      "Giovanna Turvani",
+      "Robert Wille"
+    ],
+    "publication_date": "2024-06-18T17:56:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.12840v1",
+    "download_url": "https://arxiv.org/abs/2406.12840v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Contexts in quantum, classical and partition logic",
+    "abstract": "Contexts are maximal collections of co-measurable observables \"bundled together\" to form a \"quasi-classical mini-universe.\" Different notions of contexts are discussed for classical, quantum and generalized urn-automaton systems.",
+    "authors": [
+      "Karl Svozil"
+    ],
+    "publication_date": "2006-09-27T10:44:03Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0609209v4",
+    "download_url": "https://arxiv.org/abs/quant-ph/0609209v4",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum frequency estimation with conditional states of continuously monitored independent dephasing channels",
+    "abstract": "We discuss the problem of estimating a frequency via N-qubit probes undergoing independent dephasing channels that can be continuously monitored via homodyne or photo-detection. We derive the corresponding analytical solutions for the conditional states, for generic initial states and for arbitrary efficiency of the continuous monitoring. For the detection strategies considered, we show that: i) in the case of perfect continuous detection, the quantum Fisher information (QFI) of the conditional states is equal to the one obtained in the noiseless dynamics; ii) for smaller detection efficiencies, the QFI of the conditional state is equal to the QFI of a state undergoing the (unconditional) dephasing dynamics, but with an effectively reduced noise parameter.",
+    "authors": [
+      "Francesco Albarelli",
+      "Matteo A. C. Rossi",
+      "Marco G. Genoni"
+    ],
+    "publication_date": "2019-10-28T10:48:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.12549v2",
+    "download_url": "https://arxiv.org/abs/1910.12549v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Pauli channels can be estimated from syndrome measurements in quantum error correction",
+    "abstract": "The performance of quantum error correction can be significantly improved if detailed information about the noise is available, allowing to optimize both codes and decoders. It has been proposed to estimate error rates from the syndrome measurements done anyway during quantum error correction. While these measurements preserve the encoded quantum state, it is currently not clear how much information about the noise can be extracted in this way. So far, apart from the limit of vanishing error rates, rigorous results have only been established for some specific codes. In this work, we rigorously resolve the question for arbitrary stabilizer codes. The main result is that a stabilizer code can be used to estimate Pauli channels with correlations across a number of qubits given by the pure distance. This result does not rely on the limit of vanishing error rates, and applies even if high weight errors occur frequently. Moreover, it also allows for measurement errors within the framework of quantum data-syndrome codes. Our proof combines Boolean Fourier analysis, combinatorics and elementary algebraic geometry. It is our hope that this work opens up interesting applications, such as the online adaptation of a decoder to time-varying noise.",
+    "authors": [
+      "Thomas Wagner",
+      "Hermann Kampermann",
+      "Dagmar Bruß",
+      "Martin Kliesch"
+    ],
+    "publication_date": "2021-07-29T18:01:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.14252v2",
+    "download_url": "https://arxiv.org/abs/2107.14252v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Material Science for Quantum Computing with Atom Chips",
+    "abstract": "In its most general form, the atom chip is a device in which neutral or charged particles are positioned in an isolating environment such as vacuum (or even a carbon solid state lattice) near the chip surface. The chip may then be used to interact in a highly controlled manner with the quantum state. I outline the importance of material science to quantum computing (QC) with atom chips, where the latter may be utilized for many, if not all, suggested implementations of QC. Material science is important both for enhancing the control coupling to the quantum system for preparation and manipulation as well as measurement, and for suppressing the uncontrolled coupling giving rise to low fidelity through static and dynamic effects such as potential corrugations and noise. As a case study, atom chips for neutral ground state atoms are analyzed and it is shown that nanofabricated wires will allow for more than $10^4$ gate operations when considering spin-flips and decoherence. The effects of fabrication imperfections and the Casimir-Polder force are also analyzed. In addition, alternative approaches to current-carrying wires are briefly described. Finally, an outlook of what materials and geometries may be required is presented, as well as an outline of directions for further study.",
+    "authors": [
+      "Ron Folman"
+    ],
+    "publication_date": "2011-08-18T18:19:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1108.3803v2",
+    "download_url": "https://arxiv.org/abs/1108.3803v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Faster quantum and classical SDP approximations for quadratic binary optimization",
+    "abstract": "We give a quantum speedup for solving the canonical semidefinite programming relaxation for binary quadratic optimization. This class of relaxations for combinatorial optimization has so far eluded quantum speedups. Our methods combine ideas from quantum Gibbs sampling and matrix exponent updates. A de-quantization of the algorithm also leads to a faster classical solver. For generic instances, our quantum solver gives a nearly quadratic speedup over state-of-the-art algorithms. Such instances include approximating the ground state of spin glasses and MaxCut on Erdös-Rényi graphs. We also provide an efficient randomized rounding procedure that converts approximately optimal SDP solutions into approximations of the original quadratic optimization problem.",
+    "authors": [
+      "Fernando G. S L. Brandão",
+      "Richard Kueng",
+      "Daniel Stilck França"
+    ],
+    "publication_date": "2019-09-10T16:43:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.04613v3",
+    "download_url": "https://arxiv.org/abs/1909.04613v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multiple quantum exceptional, diabolical, and hybrid points in multimode bosonic systems: II. Nonconventional PT-symmetric dynamics and unidirectional coupling",
+    "abstract": "We analyze the existence and degeneracies of quantum exceptional, diabolical, and hybrid points in simple bosonic systems - comprising up to six modes with damping and/or amplification - under two complementary scenarios to those described in Quantum 9, 1932 (2025): (i) nonconventional PT-symmetric dynamics confined to a subspace of the full Liouville space, and (ii) systems featuring unidirectional coupling.} The system dynamics described by quadratic non-Hermitian Hamiltonians is governed by the Heisenberg-Langevin equations. Conditions for the observation of inherited quantum hybrid points with up to sixth-order exceptional and second-order diabolical degeneracies are revealed, though relevant only for short-time dynamics. This raises the question of whether higher-order inherited singularities exist in bosonic systems under general conditions. Nevertheless, for short times, unidirectional coupling of various types enables the concatenation of simple bosonic systems with second- and third-order exceptional degeneracies such that arbitrarily high exceptional degeneracies are reached. Methods for numerical identifying the quantum exceptional and hybrid points together with their degeneracies are addressed. Following Quantum 9, 1932 (2025) rich dynamics of second-order field-operator moments is analyzed from the point of view of the presence of exceptional and diabolical points and their degeneracies.",
+    "authors": [
+      "Jan Peřina",
+      "Kishore Thapliyal",
+      "Grzegorz Chimczak",
+      "Anna Kowalewska-Kudłaszyk",
+      "Adam Miranowicz"
+    ],
+    "publication_date": "2024-05-02T18:40:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.01667v3",
+    "download_url": "https://arxiv.org/abs/2405.01667v3",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How does Quantum Uncertainty Emerge from Deterministic Bohmian Mechanics?",
+    "abstract": "Bohmian mechanics is a theory that provides a consistent explanation of quantum phenomena in terms of point particles whose motion is guided by the wave function. In this theory, the state of a system of particles is defined by the actual positions of the particles and the wave function of the system; and the state of the system evolves deterministically. Thus, the Bohmian state can be compared with the state in classical mechanics, which is given by the positions and momenta of all the particles, and which also evolves deterministically. However, while in classical mechanics it is usually taken for granted and considered unproblematic that the state is, at least in principle, measurable, this is not the case in Bohmian mechanics. Due to the linearity of the quantum dynamical laws, one essential component of the Bohmian state, the wave function, is not directly measurable. Moreover, it turns out that the measurement of the other component of the state -the positions of the particles- must be mediated by the wave function; a fact that in turn implies that the positions of the particles, though measurable, are constrained by absolute uncertainty. This is the key to understanding how Bohmian mechanics, despite being deterministic, can account for all quantum predictions, including quantum randomness and uncertainty.",
+    "authors": [
+      "Albert Solé",
+      "Xavier Oriols",
+      "Damiano Marian",
+      "Nino Zanghì"
+    ],
+    "publication_date": "2016-10-04T19:40:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1610.01138v1",
+    "download_url": "https://arxiv.org/abs/1610.01138v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum mechanics for military officers",
+    "abstract": "We present a trivial probabilistic illustration for representation of quantum mechanics as an algorithm for approximative calculation of averages.",
+    "authors": [
+      "Andrei Khrennikov"
+    ],
+    "publication_date": "2006-09-17T09:21:30Z",
+    "arxiv_id": "http://arxiv.org/abs/quant-ph/0609124v1",
+    "download_url": "https://arxiv.org/abs/quant-ph/0609124v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle",
+    "abstract": "Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, saying nothing about computing joint properties of two or more oracles; these can be far cheaper to determine given an ability to pit oracles against one another coherently.\n  This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons, and remain numerically stable and efficient. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms, and provides a bridge from quantum algorithms to algebraic geometry.",
+    "authors": [
+      "Zane M. Rossi",
+      "Isaac L. Chuang"
+    ],
+    "publication_date": "2022-05-12T17:58:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.06261v2",
+    "download_url": "https://arxiv.org/abs/2205.06261v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Symmetry and Natural Quantum Structures for Three-Particles in One-Dimension",
+    "abstract": "How do symmetries induce natural and useful quantum structures? This question is investigated in the context of models of three interacting particles in one-dimension. Such models display a wide spectrum of possibilities for dynamical systems, from integrability to hard chaos. This article demonstrates that the related but distinct notions of integrability, separability, and solvability identify meaningful collective observables for Hamiltonians with sufficient symmetry. In turn, these observables induce tensor product structures on the Hilbert space that are especially useful for storing and processing quantum information and provide guidance to interpretation and phenomenology of quantum few-body physics.",
+    "authors": [
+      "N. L. Harshman"
+    ],
+    "publication_date": "2016-07-02T20:36:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1607.00560v1",
+    "download_url": "https://arxiv.org/abs/1607.00560v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "20-Mode Universal Quantum Photonic Processor",
+    "abstract": "Integrated photonics is an essential technology for optical quantum computing. Universal, phase-stable, reconfigurable multimode interferometers (quantum photonic processors) enable manipulation of photonic quantum states and are one of the main components of photonic quantum computers in various architectures. In this paper, we report the realization of the largest quantum photonic processor to date. The processor enables arbitrary unitary transformations on its 20 input modes with an amplitude fidelity of $F_{\\text{Haar}} = 97.4\\%$ and $F_{\\text{Perm}} = 99.5\\%$ for Haar-random and permutation matrices, respectively, an optical loss of 2.9 dB averaged over all modes, and high-visibility quantum interference with $V_{\\text{HOM}}=98\\%$. The processor is realized in $\\mathrm{Si_3N_4}$ waveguides and is actively cooled by a Peltier element.",
+    "authors": [
+      "Caterina Taballione",
+      "Malaquias Correa Anguita",
+      "Michiel de Goede",
+      "Pim Venderbosch",
+      "Ben Kassenberg",
+      "Henk Snijders",
+      "Narasimhan Kannan",
+      "Ward L. Vleeshouwers",
+      "Devin Smith",
+      "Jörn P. Epping",
+      "Reinier van der Meer",
+      "Pepijn W. H. Pinkse",
+      "Hans van den Vlekkert",
+      "Jelmer J. Renema"
+    ],
+    "publication_date": "2022-03-03T16:15:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.01801v5",
+    "download_url": "https://arxiv.org/abs/2203.01801v5",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A closed quantum system giving ergodicity",
+    "abstract": "[This is the unpublished supplemental information from 1989 to the paper: J.M. Deutsch, \"Quantum statistical mechanics in a closed system.\" Phys. Rev. A, 43(4), 2046 (1991).]\n  A closed quantum mechanical system does not necessarily give time averages in accordance with the microcanonical distribution. This question is investigated if the number of degrees of freedom N is large. For systems where the different degrees of freedom are uncoupled, experimental situations are discussed that show a violation of the usual statistical mechanical rules. It is shown that by applying a finite but very small perturbation to such systems, the results of quantum statistical mechanics can indeed be recovered. The form of the perturbation is that of a banded random matrix, which has been used previously to describe strongly chaotic systems in the semiclassical limit. The properties of energy eigenfunctions for this perturbed system are also discussed, and deviations from the microcanonical result are shown to become exponentially small in the limit of large N.",
+    "authors": [
+      "J. M. Deutsch"
+    ],
+    "publication_date": "2025-02-21T21:21:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.15947v1",
+    "download_url": "https://arxiv.org/abs/2502.15947v1",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Belief Propagation with Quantum Messages for Quantum-Enhanced Classical Communications",
+    "abstract": "For space-based laser communications, when the mean photon number per received optical pulse is much smaller than one, there is a large gap between communications capacity achievable with a receiver that performs individual pulse-by-pulse detection, and the quantum-optimal \"joint-detection receiver\" that acts collectively on long codeword-blocks of modulated pulses; an effect often termed \"superadditive capacity\". In this paper, we consider the simplest scenario where a large superadditive capacity is known: a pure-loss channel with a coherent-state binary phase-shift keyed (BPSK) modulation. The two BPSK states can be mapped conceptually to two non-orthogonal states of a qubit, described by an inner product that is a function of the mean photon number per pulse. Using this map, we derive an explicit construction of the quantum circuit of a joint-detection receiver based on a recent idea of \"belief-propagation with quantum messages\" (BPQM) (arXiv:1607.04833). We quantify its performance improvement over the Dolinar receiver that performs optimal pulse-by-pulse detection, which represents the best \"classical\" approach. We analyze the scheme rigorously and show that it achieves the quantum limit of minimum average error probability in discriminating 8 (BPSK) codewords of a length-5 binary linear code with a tree factor graph. Our result suggests that a BPQM-receiver might attain the Holevo capacity of this BPSK-modulated pure-loss channel. Moreover, our receiver circuit provides an alternative proposal for a quantum supremacy experiment, targeted at a specific application that can potentially be implemented on a small, special-purpose, photonic quantum computer capable of performing cat-basis universal qubit logic.",
+    "authors": [
+      "Narayanan Rengaswamy",
+      "Kaushik P. Seshadreesan",
+      "Saikat Guha",
+      "Henry D. Pfister"
+    ],
+    "publication_date": "2020-03-09T18:44:34Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.04356v2",
+    "download_url": "https://arxiv.org/abs/2003.04356v2",
+    "field_of_study": "physics",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

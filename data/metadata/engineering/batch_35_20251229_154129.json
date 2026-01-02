@@ -1,0 +1,349 @@
+[
+  {
+    "title": "Electricity-Aware Bid Format for Coordinated Heat and Electricity Market Clearing",
+    "abstract": "Coordination between heat and electricity markets is essential to achieve a cost-effective and efficient operation of the energy system. In the current sequential market practice, the heat market is cleared before the electricity market and has no insight into the impacts of heat dispatch on the electricity market. While preserving this sequential practice, this paper introduces an electricity-aware bid format for the coordination of heat and electricity systems. This novel market mechanism defines heat bids conditionally on the day-ahead electricity prices. Prior to clearing heat and electricity markets, the proposed bid selection mechanism selects the valid bids which minimize the heat system operating cost while anticipating heat and electricity market clearing. This mechanism is modeled as a trilevel optimization problem, which we recast as a mixed-integer linear program using a lexicographic function. We use a realistic case study based on the Danish electricity and heat system and show that the proposed bid selection mechanism yields a 4.5% reduction in the total operating cost of heat and electricity systems compared to the existing market-clearing procedure while reducing the financial losses of combined heat and power plants and heat pumps due to invalid bids by up to 20.3 million euros.",
+    "authors": [
+      "Lesia Mitridati",
+      "Jalal Kazempour",
+      "Pascal Van Hentenryck"
+    ],
+    "publication_date": "2020-05-06T20:12:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.03120v4",
+    "download_url": "https://arxiv.org/abs/2005.03120v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimal Cruise Airspeed for Hybrid-Electric and Electric Aircraft: Applications to Air Mobility",
+    "abstract": "Electric and hybrid-electric aircraft can help our society transition towards more sustainable aviation and lower greenhouse gas (GHG) emissions. This paper provides solutions to minimize the direct operating cost (DOC) for hybrid-electric aircraft. The solution is the positive real root of a quintic polynomial which is derived using Pontryagin's minimum principle. By properly selecting a hybridization factor, one can also find the cruise airspeed corresponding to the minimum DOC of an electric aircraft. The optimal airspeed is integrated into the Rapidly-exploring Random Trees Star (RRT*) path planning algorithm. The minimum DOC solutions are investigated in a hybrid-electric international travel scenario and the path planning approach is applied to an electric aircraft city scenario.",
+    "authors": [
+      "Steven Li",
+      "Luis Rodrigues"
+    ],
+    "publication_date": "2023-02-14T21:44:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.07358v1",
+    "download_url": "https://arxiv.org/abs/2302.07358v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bayesian model of electrical heating disaggregation",
+    "abstract": "Adoption of smart meters is a major milestone on the path of European transition to smart energy. The residential sector in France represents $\\approx$35\\% of electricity consumption with $\\approx$40\\% (INSEE) of households using electrical heating. The number of deployed smart meters Linky is expected to reach 35M in 2021. In this manuscript we present an analysis of 676 households with an observation period of at least 6 months, for which we have metadata, such as the year of construction and the type of heating and propose a Bayesian model of the electrical consumption conditioned on temperature that allows to disaggregate the heating component from the electrical load curve in an unsupervised manner. In essence the model is a mixture of piece-wise linear models, characterised by a temperature threshold, below which we allow a mixture of two modes to represent the latent state home/away.",
+    "authors": [
+      "François Culière",
+      "Laetitia Leduc",
+      "Alexander Belikov"
+    ],
+    "publication_date": "2020-11-11T10:05:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.05674v1",
+    "download_url": "https://arxiv.org/abs/2011.05674v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Design and implementation of audio communication system for social-humanoid robot Lumen as an exhibition guide in Electrical Engineering Days 2015",
+    "abstract": "Social Robot Lumen is a humanoid robot created to act like human and be human friend. In this study, Lumen scenario is limited on Lumen as an exhibition guide in Electrical Engineering Days 2015, a seminar and exhibition of electrical engineering undergraduate and graduate student of Bandung Institute of Technology. To be an exhibition guide, Lumen is equipped by Nao robot, a server, and processing applications. Audio communication system is one of the processing applications. The purpose of the system is to create verbal communication that allow Lumen to receive human voice and respond naturally to it. To be able to communicate like a human, audio communication system is built with speech recognition module to transform speech data into text, speech synthesizer module to transform text data into speech, and gender identification module to distinguish adult female and male voice. Speech recognition module is implemented using Google Speech Recognition API, speech synthesizer module is implemented using Acapela engine, and gender identification module implemented by utilizing speech signal feature that is extracted using Fast Fourier Transform algorithm. Hardware used for implementation are Nao robot, computer, and wireless modem.\n  -----\n  Lumen Robot Sosial Robot merupakan robot humanoid yang diciptakan agar dapat bersikap seperti manusia dan menjadi teman bagi manusia. Sistem komunikasi audio merupakan salah satu aplikasi pengolah yang bertujuan agar Lumen dapat menerima suara manusia dan meresponnya dengan natural, yaitu seperti cara manusia merespon manusia lainnya. Untuk dapat berkomunikasi seperti manusia, sistem komunikasi audio dilengkapi dengan tiga buah modul: speech recognition untuk mengubah data suara menjadi teks, speech synthesizer untuk mengubah data teks menjadi suara, dan gender identification untuk membedakan suara wanita dan pria.",
+    "authors": [
+      "Putri Nhirun Rikasofiadewi",
+      "Ary Setijadi Prihatmanto"
+    ],
+    "publication_date": "2016-07-16T16:50:54Z",
+    "arxiv_id": "http://arxiv.org/abs/1607.04765v1",
+    "download_url": "https://arxiv.org/abs/1607.04765v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Virtual synchronous generator of PV generation without energy storage for frequency support in autonomous microgrid",
+    "abstract": "In autonomous microgrids frequency regulation (FR) is a critical issue, especially with a high level of penetration of the photovoltaic (PV) generation. In this study, a novel virtual synchronous generator (VSG) control for PV generation was introduced to provide frequency support without energy storage. PV generation reserve a part of the active power in accordance with the pre-defined power versus voltage curve. Based on the similarities of the synchronous generator power-angle characteristic curve and the PV array characteristic curve, PV voltage Vpv can be analogized to the power angle δ. An emulated governor (droop control) and the swing equation control is designed and applied to the DC-DC converter. PV voltage deviation is subsequently generated and the pre-defined power versus voltage curve is modified to provide the primary frequency and inertia support. A simulation model of an autonomous microgrid with PV, storage, and diesel generator was built. The feasibility and effectiveness of the proposed VSG strategy are examined under different operating conditions.",
+    "authors": [
+      "Cheng Zhong",
+      "Huayi Li",
+      "Yang Zhou",
+      "Yueming Lv",
+      "Jikai Chen",
+      "Yang Li"
+    ],
+    "publication_date": "2021-07-04T06:55:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.01560v1",
+    "download_url": "https://arxiv.org/abs/2107.01560v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Global Maxwell Tomography Using the Volume-Surface Integral Equation for Improved Estimation of Electrical Properties",
+    "abstract": "Objective: Global Maxwell Tomography (GMT) is a noninvasive inverse optimization method for the estimation of electrical properties (EP) from magnetic resonance (MR) measurements. GMT uses the volume integral equation (VIE) in the forward problem and assumes that the sample has negligible effect on the coil currents. Consequently, GMT calculates the coil's incident fields with an initial EP distribution and keeps them constant for all optimization iterations. This can lead to erroneous reconstructions. This work introduces a novel version of GMT that replaces VIE with the volume-surface integral equation (VSIE), which recalculates the coil currents at every iteration based on updated EP estimates before computing the associated fields. Methods: We simulated an 8-channel transceiver coil array for 7 T brain imaging and reconstructed the EP of a realistic head model using VSIE-based GMT. We built the coil, collected experimental MR measurements, and reconstructed EP of a two-compartment phantom. Results: In simulations, VSIE-based GMT outperformed VIE-based GMT by at least 12% for both EP. In experiments, the relative difference with respect to probe-measured EP values in the inner (outer) compartment was 13% (26%) and 17% (33%) for the permittivity and conductivity, respectively. Conclusion: The use of VSIE over VIE enhances GMT's performance by accounting for the effect of the EP on the coil currents. Significance: VSIE-based GMT does not rely on an initial EP estimate, rendering it more suitable for experimental reconstructions compared to the VIE-based GMT.",
+    "authors": [
+      "Ilias Giannakopoulos",
+      "José E. Cruz Serrallés",
+      "Jan Paška",
+      "Martijn A. Cloos",
+      "Ryan Brown",
+      "Riccardo Lattanzi"
+    ],
+    "publication_date": "2025-05-20T16:02:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.14546v1",
+    "download_url": "https://arxiv.org/abs/2505.14546v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Teaching control with Basic Maths: Introduction to Process Control course as a novel educational approach for undergraduate engineering programs",
+    "abstract": "In this article, we discuss a novel education approach to control theory in undergraduate engineering programs. In particular, we elaborate on the inclusion of an introductory course on process control during the first years of the program, to appear right after the students undergo basic calculus and physics courses. Our novel teaching proposal comprises debating the basic elements of control theory without requiring any background on advanced mathematical frameworks from the part of the students. The methodology addresses, conceptually, the majority of the steps required for the analysis and design of simple control systems. Herein, we thoroughly detail this educational guideline, as well as tools that can be used in the classroom. Furthermore, we propose a cheap test-bench kit and an open-source numerical simulator that can be used to carry out experiments during the proposed course. Most importantly, we also assess on how the Introduction to process control course has affected the undergraduate program on Control and Automation Engineering at Universidade Federal de Santa Catarina (UFSC, Brazil). Specifically, we debate the outcomes of implementing our education approach at UFSC from 2016 to 2023, considering students' rates of success in other control courses and perspectives on how the chair helped them throughout the course of their program. Based on randomised interviews, we indicate that our educational approach has had good teaching-learning results: students tend to be more motivated for other control-related subjects, while exhibiting higher rates of success.",
+    "authors": [
+      "Julio Elias Normey-Rico",
+      "Marcelo Menezes Morato"
+    ],
+    "publication_date": "2023-10-09T13:32:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.06001v1",
+    "download_url": "https://arxiv.org/abs/2310.06001v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Band structure engineering and reconstruction in electric circuit networks",
+    "abstract": "We develop an approach to design, engineer, and measure band structures in a synthetic crystal composed of electric circuit elements. Starting from the nodal analysis of a circuit lattice in terms of currents and voltages, our Laplacian formalism for synthetic matter allows us to investigate arbitrary tight-binding models in terms of wave number resolved Laplacian eigenmodes, yielding an admittance band structure of the circuit. For illustration, we model and measure a honeycomb circuit featuring a Dirac cone admittance bulk dispersion as well as flat band admittance edge modes at its bearded and zigzag terminations. We further employ our circuit band analysis to measure a topological phase transition in the topolectrical Su-Schrieffer-Heeger circuit.",
+    "authors": [
+      "Tobias Helbig",
+      "Tobias Hofmann",
+      "Ching Hua Lee",
+      "Ronny Thomale",
+      "Stefan Imhof",
+      "Laurens W. Molenkamp",
+      "Tobias Kiessling"
+    ],
+    "publication_date": "2018-07-25T12:46:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1807.09555v1",
+    "download_url": "https://arxiv.org/abs/1807.09555v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Kron Reduction of Generalized Electrical Networks",
+    "abstract": "Kron reduction is used to simplify the analysis of multi-machine power systems under certain steady state assumptions that underly the usage of phasors. In this paper we show how to perform Kron reduction for a class of electrical networks without steady state assumptions. The reduced models can thus be used to analyze the transient as well as the steady state behavior of these electrical networks.",
+    "authors": [
+      "Sina Y. Caliskan",
+      "Paulo Tabuada"
+    ],
+    "publication_date": "2012-07-03T02:27:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1207.0563v2",
+    "download_url": "https://arxiv.org/abs/1207.0563v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Alternating Direction Method of Multiplier-Based Distributed Planning Model for Natural Gas, Electricity Network, and Regional Integrated Energy Systems",
+    "abstract": "Regional integrated energy system coupling with multienergy devices, energy storage devices, and renewable energy devices has been regarded as one of the most promising solutions for future energy systems. Planning for existing natural gas and electricity network expansion, regional integrated energy system locations, or system equipment types and capacities are urgent problems in infrastructure development. This article employs a joint planning model to address these; however, the joint planning model ignores the potential ownerships by three agents, for which investment decisions are generally made by different investors. In this work, the joint planning model is decomposed into three distributed planning subproblems related to the corresponding stakeholders, and the alternating direction method of multipliers is adopted to solve the tripartite distributed planning problem. The effectiveness of the planning model is verified on an updated version of the Institute of Electrical and Electronics Engineers (IEEE) 24-bus electric system, the Belgian 20-node natural gas system, and three assumed integrated energy systems. Simulation results illustrate that a distributed planning model is more sensitive to individual load differences, which is precisely the defect of the joint planning model. Moreover, the algorithm performance considering rates of convergence and the impacts of penalty parameters is further analyzed",
+    "authors": [
+      "Ang Xuan",
+      "Yang Qiu",
+      "Yang Liu",
+      "Xin Sun"
+    ],
+    "publication_date": "2021-06-29T18:06:45Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.15655v1",
+    "download_url": "https://arxiv.org/abs/2106.15655v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey of Algorithms for Distributed Charging Control of Electric Vehicles in Smart Grid",
+    "abstract": "Electric vehicles (EVs) are an eco-friendly alternative to vehicles with internal combustion engines. Despite their environmental benefits, the massive electricity demand imposed by the anticipated proliferation of EVs could jeopardize the secure and economic operation of the power grid. Hence, proper strategies for charging coordination will be indispensable to the future power grid. Coordinated EV charging schemes can be implemented as centralized, decentralized, and hierarchical systems, with the last two, referred to as distributed charging control systems. This paper reviews the recent literature of distributed charging control schemes, where the computations are distributed across multiple EVs and/or aggregators. First, we categorize optimization problems for EV charging in terms of operational aspects and cost aspects. Then under each category, we provide a comprehensive discussion on algorithms for distributed EV charge scheduling, considering the perspectives of the grid operator, the aggregator, and the EV user. We also discuss how certain algorithms proposed in the literature cope with various uncertainties inherent to distributed EV charging control problems. Finally, we outline several research directions that require further attention.",
+    "authors": [
+      "Nanduni I. Nimalsiri",
+      "Chathurika P. Mediwaththe",
+      "Elizabeth L. Ratnam",
+      "Marnie Shaw",
+      "David B. Smith",
+      "Saman K. Halgamuge"
+    ],
+    "publication_date": "2019-11-15T07:19:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1911.06500v1",
+    "download_url": "https://arxiv.org/abs/1911.06500v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Inferring respiratory and circulatory parameters from electrical impedance tomography with deep recurrent models",
+    "abstract": "Electrical impedance tomography (EIT) is a noninvasive imaging modality that allows a continuous assessment of changes in regional bioimpedance of different organs. One of its most common biomedical applications is monitoring regional ventilation distribution in critically ill patients treated in intensive care units. In this work, we put forward a proof-of-principle study that demonstrates how one can reconstruct synchronously measured respiratory or circulatory parameters from the EIT image sequence using a deep learning model trained in an end-to-end fashion. We demonstrate that one can accurately infer absolute volume, absolute flow, normalized airway pressure and within certain limitations even the normalized arterial blood pressure from the EIT signal alone, in a way that generalizes to unseen patients without prior calibration. As an outlook with direct clinical relevance, we furthermore demonstrate the feasibility of reconstructing the absolute transpulmonary pressure from a combination of EIT and absolute airway pressure, as a way to potentially replace the invasive measurement of esophageal pressure. With these results, we hope to stimulate further studies building on the framework put forward in this work.",
+    "authors": [
+      "Nils Strodthoff",
+      "Claas Strodthoff",
+      "Tobias Becher",
+      "Norbert Weiler",
+      "Inéz Frerichs"
+    ],
+    "publication_date": "2020-10-19T16:00:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.09622v1",
+    "download_url": "https://arxiv.org/abs/2010.09622v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Interval Load Forecasting for Individual Households in the Presence of Electric Vehicle Charging",
+    "abstract": "The transition to Electric Vehicles (EV) in place of traditional internal combustion engines is increasing societal demand for electricity. The ability to integrate the additional demand from EV charging into forecasting electricity demand is critical for maintaining the reliability of electricity generation and distribution. Load forecasting studies typically exclude households with home EV charging, focusing on offices, schools, and public charging stations. Moreover, they provide point forecasts which do not offer information about prediction uncertainty. Consequently, this paper proposes the Long Short-Term Memory Bayesian Neural Networks (LSTM-BNNs) for household load forecasting in presence of EV charging. The approach takes advantage of the LSTM model to capture the time dependencies and uses the dropout layer with Bayesian inference to generate prediction intervals. Results show that the proposed LSTM-BNNs achieve accuracy similar to point forecasts with the advantage of prediction intervals. Moreover, the impact of lockdowns related to the COVID-19 pandemic on the load forecasting model is examined, and the analysis shows that there is no major change in the model performance as, for the considered households, the randomness of the EV charging outweighs the change due to pandemic.",
+    "authors": [
+      "Raiden Skala",
+      "Mohamed Ahmed T. A. Elgalhud",
+      "Katarina Grolinger",
+      "Syed Mir"
+    ],
+    "publication_date": "2023-06-05T16:25:33Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.03010v1",
+    "download_url": "https://arxiv.org/abs/2306.03010v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Proposal that interpretation of field emission current-voltage characteristics should be treated as a specialized form of electrical engineering",
+    "abstract": "This article proposes that we should think differently about predicting and interpreting measured field electron emission (FE) current-voltage [I(V)] characteristics. It is commonly assumed that I(V) data interpretation is a problem in emission physics and related electrostatics. Many experimentalists then apply Fowler-Nordheim plot methodology, developed in 1929. However, with modern emitting materials this 90-year-old interpretation methodology often fails (maybe in nearly 50% of cases), and yields spurious values for characterization parameters, particularly field enhancement factors. This has generated an unreliable literature, and validity checks on experimental I(V) data are nearly always needed before use. A new check, supplementing existing checks, is described. Twelve different \"system complications\" that, acting singly or in combinations, can cause validity-check failure are identified. A top-level path forwards from this unsatisfactory situation is proposed. The term \"field electron emission system (FE system)\" is defined to include all aspects of an experimental system that affect the measured I(V) characteristics. The analysis of FE systems should now be regarded as a specialized form of electronic/electrical engineering, provisionally called \"FE Systems Engineering\". In this approach, the I(V) relationship is split: (a) the current is expressed as a function I(F_C) of the local surface-field magnitude F_C at some defined emitter surface location \"C\"; and (b) the relationship between F_C and measured voltage V is expressed and determined separately. Determining I(F_C) is mostly a problem in emission physics; determining the relationship (F_C)(V) depends on system electrostatics and (for systems failing a validity check) on other aspects of FE Systems Engineering. The scope of FE Systems Engineering, and some related research implications and problems, are outlined.",
+    "authors": [
+      "Richard G. Forbes"
+    ],
+    "publication_date": "2023-02-04T19:47:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.02226v1",
+    "download_url": "https://arxiv.org/abs/2302.02226v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Spatial Damage Characterization in Self-Sensing Materials via Neural Network-Aided Electrical Impedance Tomography: A Computational Study",
+    "abstract": "Continuous structural health monitoring (SHM) and integrated nondestructive evaluation (NDE) are important for ensuring the safe operation of high-risk engineering structures. Recently, piezoresistive nanocomposite materials have received much attention for SHM and NDE. These materials are self-sensing because their electrical conductivity changes in response to deformation and damage. Combined with electrical impedance tomography (EIT), it is possible to map deleterious effects. However, EIT suffers from important limitations -- it is computationally expensive, provides indistinct information on damage shape, and can miss multiple damages if they are close together. In this article we apply a novel neural network approach to quantify damage metrics such as size, number, and location from EIT data. This network is trained using a simulation routine calibrated to experimental data for a piezoresistive carbon nanofiber-modified epoxy. Our results show that the network can predict the number of damages with 99.2% accuracy, quantify damage size with respect to the averaged radius at an average of 2.46% error, and quantify damage position with respect to the domain length at an average of 0.89% error. These results are an important first step in translating the combination of self-sensing materials and EIT to real-world SHM and NDE.",
+    "authors": [
+      "Lang Zhao",
+      "Tyler Tallman",
+      "Guang Lin"
+    ],
+    "publication_date": "2020-10-04T20:28:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.01674v1",
+    "download_url": "https://arxiv.org/abs/2010.01674v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Modeling and Engineering Constrained Shortest Path Algorithms for Battery Electric Vehicles",
+    "abstract": "We study the problem of computing constrained shortest paths for battery electric vehicles. Since battery capacities are limited, fastest routes are often infeasible. Instead, users are interested in fast routes on which the energy consumption does not exceed the battery capacity. For that, drivers can deliberately reduce speed to save energy. Hence, route planning should provide both path and speed recommendations. To tackle the resulting NP-hard optimization problem, previous work trades correctness or accuracy of the underlying model for practical running times. We present a novel framework to compute optimal constrained shortest paths (without charging stops) for electric vehicles that uses more realistic physical models, while taking speed adaptation into account. Careful algorithm engineering makes the approach practical even on large, realistic road networks: We compute optimal solutions in less than a second for typical battery capacities, matching the performance of previous inexact methods. For even faster query times, the approach can easily be extended with heuristics that provide high quality solutions within milliseconds.",
+    "authors": [
+      "Moritz Baum",
+      "Julian Dibbelt",
+      "Dorothea Wagner",
+      "Tobias Zündorf"
+    ],
+    "publication_date": "2020-11-20T13:35:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.10400v1",
+    "download_url": "https://arxiv.org/abs/2011.10400v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Coordinating Flexible Demand Response and Renewable Uncertainties for Scheduling of Community Integrated Energy Systems with an Electric Vehicle Charging Station: A Bi-level Approach",
+    "abstract": "A community integrated energy system (CIES) with an electric vehicle charging station (EVCS) provides a new way for tackling growing concerns of energy efficiency and environmental pollution, it is a critical task to coordinate flexible demand response and multiple renewable uncertainties. To this end, a novel bi-level optimal dispatching model for the CIES with an EVCS in multi-stakeholder scenarios is established in this paper. In this model, an integrated demand response program is designed to promote a balance between energy supply and demand while maintaining a user comprehensive satisfaction within an acceptable range. To further tap the potential of demand response through flexibly guiding users' energy consumption and electric vehicles' behaviors (charging, discharging and providing spinning reserves), a dynamic pricing mechanism combining time-of-use and real-time pricing is put forward. In the solution phase, by using sequence operation theory (SOT), the original chance-constrained programming (CCP) model is converted into a readily solvable mixed-integer linear programming (MILP) formulation and finally solved by CPLEX solver. The simulation results on a practical CIES located in North China demonstrate that the presented method manages to balance the interests between CIES and EVCS via the coordination of flexible demand response and uncertain renewables.",
+    "authors": [
+      "Yang Li",
+      "Meng Han",
+      "Zhen Yang",
+      "Guoqing Li"
+    ],
+    "publication_date": "2021-07-16T08:59:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.07772v1",
+    "download_url": "https://arxiv.org/abs/2107.07772v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Novel Numerical Methods for Measuring Distributions of Space Charge and Electric Field in Solid Dielectrics with Deconvolution Algorithm",
+    "abstract": "The deconvolution algorithm for measuring distribution of space charge under dc by the pressure wave propagation (PWP) method is studied in this paper. A new Fredholm integral equation of first kind, including a space charge distribution without a partial differential operator is presented. Numerical methods based on Tikhonov regularization for solving this integral equation and the original PWP equation are studied. Numerical simulation is studied for the effect of signal-to-noise ratio (SNR), and comparison with other algorithms is discussed. The numerical solution of an electric field distribution from measurements of a LDPE specimen is obtained successfully.",
+    "authors": [
+      "Luoquan Hu",
+      "Yewen Zhang"
+    ],
+    "publication_date": "2007-03-21T12:07:18Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0703544v1",
+    "download_url": "https://arxiv.org/abs/cond-mat/0703544v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Proceedings Scholar Metrics: H Index of proceedings on Computer Science, Electrical & Electronic Engineering, and Communications according to Google Scholar Metrics (2009-2013)",
+    "abstract": "The objective of this report is to present a list of proceedings (conferences, workshops, symposia, meetings) in the areas of Computer Science, Electrical & Electronic Engineering, and Communications covered by Google Scholar Metrics and ranked according to their h-index. Google Scholar Metrics only displays publications that have published at least 100 papers and have received at least one citation in the last five years (2009-2013). The searches were conducted between the 15th and 22nd of December, 2014. A total of 1208 proceedings have been identified",
+    "authors": [
+      "Alberto Martin-Martin",
+      "Enrique Ordunna-Malea",
+      "Juan Manuel Ayllon",
+      "Emilio Delgado Lopez-Cozar"
+    ],
+    "publication_date": "2014-12-24T09:54:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1412.7633v2",
+    "download_url": "https://arxiv.org/abs/1412.7633v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improving gearshift controllers for electric vehicles with reinforcement learning",
+    "abstract": "During a multi-speed transmission development process, the final calibration of the gearshift controller parameters is usually performed on a physical test bench. Engineers typically treat the mapping from the controller parameters to the gearshift quality as a black-box, and use methods rooted in experimental design -- a purely statistical approach -- to infer the parameter combination that will maximize a chosen gearshift performance indicator. This approach unfortunately requires thousands of gearshift trials, ultimately discouraging the exploration of different control strategies. In this work, we calibrate the feedforward and feedback parameters of a gearshift controller using a model-based reinforcement learning algorithm adapted from Pilco. Experimental results show that the method optimizes the controller parameters with few gearshift trials. This approach can accelerate the exploration of gearshift control strategies, which is especially important for the emerging technology of multi-speed transmissions for electric vehicles.",
+    "authors": [
+      "Marc-Antoine Beaudoin",
+      "Benoit Boulet"
+    ],
+    "publication_date": "2021-12-01T14:36:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.00529v1",
+    "download_url": "https://arxiv.org/abs/2112.00529v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Single Differential Equation Description of Membrane Properties Underlying the Action Potential and the Axon Electric Field",
+    "abstract": "In a succession of articles published over 65 years ago, Sir Alan Lloyd Hodgkin and Sir Andrew Fielding Huxley established what now forms our physical understanding of excitation in nerve, and how the axon conducts the action potential. They uniquely quantified the movement of ions in the nerve cell during the action potential, and demonstrated that the action potential is the result of a depolarizing event across the cell membrane. They confirmed that a complete depolarization event is followed by an abrupt increase in voltage that propagates longitudinally along the axon, accompanied by considerable increases in membrane conductance. In an elegant theoretical framework, they rigorously described fundamental properties of the Na+ and K+ conductances intrinsic to the action potential. Notwithstanding the elegance of Hodgkin and Huxley's incisive and explicative series of discoveries, their model is mathematically complex, relies on no small number of stochastic factors, and has no analytical solution. Solving for the membrane action potential and the ionic currents requires integrations approximated using numerical methods. In this article I present an analytical formalism of the nerve action potential, Vm and that of the accompanying cell membrane electric field, Em. To conclude, I present a novel description of Vm in terms of a single, nonlinear differential equation. This is an original stand-alone article: the major contribution is the latter, and how this description coincides with the cell membrane electric field. This work has necessitated unifying information from two preceding papers, each being concerned with the development of closed-form descriptions of the nerve action potential.",
+    "authors": [
+      "Robert F. Melendy",
+      "Ph. D"
+    ],
+    "publication_date": "2018-09-16T21:37:53Z",
+    "arxiv_id": "http://arxiv.org/abs/1809.05960v3",
+    "download_url": "https://arxiv.org/abs/1809.05960v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

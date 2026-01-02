@@ -1,0 +1,233 @@
+[
+  {
+    "title": "Deep inspection: an electrical distribution pole parts study via deep neural networks",
+    "abstract": "Electrical distribution poles are important assets in electricity supply. These poles need to be maintained in good condition to ensure they protect community safety, maintain reliability of supply, and meet legislative obligations. However, maintaining such a large volumes of assets is an expensive and challenging task. To address this, recent approaches utilise imagery data captured from helicopter and/or drone inspections. Whilst reducing the cost for manual inspection, manual analysis on each image is still required. As such, several image-based automated inspection systems have been proposed. In this paper, we target two major challenges: tiny object detection and extremely imbalanced datasets, which currently hinder the wide deployment of the automatic inspection. We propose a novel two-stage zoom-in detection method to gradually focus on the object of interest. To address the imbalanced dataset problem, we propose the resampling as well as reweighting schemes to iteratively adapt the model to the large intra-class variation of major class and balance the contributions to the loss from each class. Finally, we integrate these components together and devise a novel automatic inspection framework. Extensive experiments demonstrate that our proposed approaches are effective and can boost the performance compared to the baseline methods.",
+    "authors": [
+      "Liangchen Liu",
+      "Teng Zhang",
+      "Kun Zhao",
+      "Arnold Wiliem",
+      "Kieren Astin-Walmsley",
+      "Brian Lovell"
+    ],
+    "publication_date": "2019-07-16T05:10:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.06844v1",
+    "download_url": "https://arxiv.org/abs/1907.06844v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Dynamic Cell Modeling of Li-Ion Polymer Batteries for Precise SOC Estimation in Power-Needy Autonomous Electric Vehicles",
+    "abstract": "This paper presents findings on dynamic cell modeling for state-of-charge (SOC) estimation in an autonomous electric vehicle (AEV). The studied cells are Lithium-Ion Polymer-based with a nominal capacity of around 8Ah, optimized for power-needy applications. The AEV operates in a harsh environment with rate requirements up to +/-25C and highly dynamic rate profiles, unlike portable-electronic applications with constant power output and fractional C rates. SOC estimation methods effective in portable electronics may not suffice for the AEV. Accurate SOC estimation necessitates a precise cell model. The proposed SOC estimation method utilizes a detailed Kalman-filtering approach. The cell model must include SOC as a state in the model state vector. Multiple cell models are presented, starting with a simple one employing \"Coulomb counting\" as the state equation and Shepherd's rule as the output equation, lacking prediction of cell relaxation dynamics. An improved model incorporates filter states to account for relaxation and other dynamics in closed-circuit cell voltage, yielding better performance. The best overall results are achieved with a method combining nonlinear autoregressive filtering and dynamic radial basis function networks. The paper includes lab test results comparing physical cells with model predictions. The most accurate models obtained have an RMS estimation error lower than the quantization noise floor expected in the battery-management-system design. Importantly, these models enable precise SOC estimation, allowing the vehicle controller to utilize the battery pack's full operating range without overcharging or undercharging concerns.",
+    "authors": [
+      "Qasim Ajao",
+      "Lanre Sadeeq"
+    ],
+    "publication_date": "2023-06-19T00:25:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.10654v1",
+    "download_url": "https://arxiv.org/abs/2306.10654v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Assessing the Frequency Response Potential of Heavy-Duty Electric Vehicles with Vehicle-to-Grid Integration in the California Power System",
+    "abstract": "The integration of heavy-duty electric vehicles (EVs) with Vehicle-to-Grid (V2G) capability can enhance primary frequency response and improve stability in power systems with high renewable penetration. This study evaluates the technical potential of heavy-duty EV fleets to support the California power grid under three practical charging strategies: immediate charging, delayed charging, and constant-minimum-power charging. We develop a simulation framework that couples aggregated frequency dynamics with battery and charger constraints, state-of-charge management, and fleet-availability profiles. Performance is assessed using standard frequency security metrics, including nadir, rate-of-change-of-frequency, overshoot, and settling time, across credible contingency scenarios and renewable generation conditions. Results indicate that both non-V2G modes and V2G-enabled operation can contribute meaningful primary response, with V2G providing the strongest and fastest support while respecting mobility and network limits. Sensitivity analyses show that the relative benefits depend on charging strategy, control parameters, and renewable output, highlighting design trade-offs between response magnitude, duration, and battery usage. Overall, heavy-duty EV fleets-when coordinated by appropriate charging and V2G controls-offer a viable resource for strengthening primary frequency control on the California grid and mitigating stability challenges associated with increasing renewable penetration.",
+    "authors": [
+      "Xiaojie Tao",
+      "Yaoyu Fan",
+      "Zhaoyi Ye",
+      "Rajit Gadh"
+    ],
+    "publication_date": "2025-12-16T20:18:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.14894v1",
+    "download_url": "https://arxiv.org/abs/2512.14894v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Workbench for Testing and Simulation Faults in Three-phase Electric Motors with Intelligent Electronic Device and Microcontrolled System",
+    "abstract": "Electric motors can be damaged or operate improperly from a possible set of failures. Such failures are related to high or very low voltage and current levels, phase loss or blocked rotor. Therefore, it is important to protect these equipments through appropriate mechanisms. Alternatively, a workbench can simulate detectable failures related to the engines, allowing to change parameters, in which maintenance operators are able to identify the results of these changes. This work presents the development of a workbench as a tool for testing electrical machines and drives. The workbench is based on the Arduino programming platform (microcontroller system), in which it checks the functioning of electric motors under the condition of failures that may occur in this engine. Motor protections are carried out through an Intelligent Electronic Device (IED), which are popularly known as intelligent relays. The results show the development of a workbench that can test and identify several faults in a small three-phase motor.",
+    "authors": [
+      "Giovanni Faria",
+      "Michel Fernandes Peres",
+      "Osmar Moreira da Silva Neto",
+      "Jefferson Rodrigo Schuertz",
+      "Edson Leonardo dos Santos",
+      "Carlos Alexandre Gouvea da Silva"
+    ],
+    "publication_date": "2020-11-22T01:41:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.10910v1",
+    "download_url": "https://arxiv.org/abs/2011.10910v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the Electrical and Magnetic Properties of some Indian Spices",
+    "abstract": "We have made experimental measurements of electrical conductivity, pH and relative magnetic susceptibility of the aqueous solutions of 24 indian spices. The measured values of electrical conductance of these spices are found to be linearly related to their ash content and bulk calorific values reported in literature. The physiological relevance of the pH and diamagnetic susceptibility of spices when consumed as food or medicine will be also discussed.",
+    "authors": [
+      "Samson. K. Baby",
+      "T. E. Girish"
+    ],
+    "publication_date": "2010-12-11T06:53:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1012.2429v1",
+    "download_url": "https://arxiv.org/abs/1012.2429v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Calculation of the Optimal Installation Angle for Seasonal Adjusting of PV Panels Based on Solar Radiation Prediction",
+    "abstract": "An important parameter that affects PV panel performance of a solar power system is the incident solar radiation with the panel or panel's area of exposure to the sun. The direction and tilt angle of a PV panel are two important factors in PV system design. This paper itself presents the calculation of the optimum installation angles for the seasonal adjusting of solar cell panels considering apparent motion of the sun. Daily adjusting for optimal tilt angle can increase the received energy from the sun. However, making trade-off is required because changing the panel angle daily costs lots of endeavour, so we designed seasonal angles for installation of panels.",
+    "authors": [
+      "Yashar Naeimi",
+      "Farzan Kooben",
+      "Mohamad Hanif Moallem"
+    ],
+    "publication_date": "2020-04-25T23:27:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.12252v1",
+    "download_url": "https://arxiv.org/abs/2004.12252v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electric Vehicle Attack Impact on Power Grid Operation",
+    "abstract": "The increasing need for reducing greenhouse gas emissions and the drive for green cities have promoted the use of electric vehicles due to their environmental benefits. In fact, countries have set their own targets and are offering incentives for people to purchase EVs as opposed to traditional gasoline-powered cars. Manufacturers have been hastily deploying charging stations to meet the charging requirements of the EVs on the road. This rapid deployment has contributed to the EV ecosystem's lack of proper security measures, raising multiple questions related to the power grid security and vulnerability. In this paper, we offer a complete examination of the EV ecosystem from the vulnerability to the attacks and finally the solutions. We start by examining the existing vulnerabilities in the EV ecosystem that can be exploited to control the EV charging and launch attacks against the power grid. We then discuss the non-linear nature of the EV charging load and simulate multiple attacks that can be launched against the power grid using these EVs. EV loads have high reactive power demand which can have a larger impact on the grid compared to residential loads. We perform simulations on two power grids and demonstrate that while the grid can recover after a 48 MW attack utilizing traditional residential loads, a smaller 30 MW EV load attack can completely destabilize the system. Finally, we suggest several patches for the existing vulnerabilities and discuss two methods aimed at detecting EV attacks.",
+    "authors": [
+      "Mohammad Ali Sayed",
+      "Ribal Atallah",
+      "Chadi Assi",
+      "Mourad Debbabi"
+    ],
+    "publication_date": "2021-11-22T16:21:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.11317v1",
+    "download_url": "https://arxiv.org/abs/2111.11317v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Software-based signal compression algorithm for ROM-stored electrical cables",
+    "abstract": "This project introduces a groundbreaking approach to address the challenge of periodic signal compression. By proposing a novel adaptive coding method, coupled with hardware-assisted data compression, we have developed a new architecture model tailored for efficient data compression. The selected compression scheme has demonstrated remarkable results, showcasing reduced memory communication volume and power consumption in the cache memory path of benchmark systems. With a reduction range of 4.2% to 35.2%, this innovation paves the way for affordable smart sensing, monitoring, diagnostics, and protection in emerging low-cost device types. Consequently, this cutting-edge technology enhances electrical signal compression and contributes to grid improvement. Additionally, we explore the novel application of harnessing wasted thermal energy in the Read-Only Memory (ROM) using thermoelectricity (TE). This approach captures the excess thermal energy, converting it into electrical energy through optimized supercapacitor charging, resulting in efficient energy utilization. This innovation intersects the fields of embedded systems, data compression, energy efficiency, and smart grid technology.",
+    "authors": [
+      "Tshimankinda Jerome Ngoy",
+      "Mike Nkongolo"
+    ],
+    "publication_date": "2023-07-09T10:34:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.11620v1",
+    "download_url": "https://arxiv.org/abs/2308.11620v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Customising Electricity Contracts at Scale with Large Language Models",
+    "abstract": "The electricity system becomes more complex, connecting massive numbers of end-users and distributed generators. Adding or removing grid connections requires expert studies to align technical constraints with user requests. In times of labour shortages, carrying out these studies represents a significant amount of time that engineers at system operators spend in planning departments. As time is limited, only standard block connectivity contracts can be offered to end-users, or the requests pile up. Even if offers are made, these often do not perfectly match the user's requirements, leading to overpaying or underusing the grid capacity. This paper investigates whether end-users can negotiate individual, flexible time-of-use contracts directly with the grid using Large Language Models (LLMs) in chats at scale. This work addresses core technical challenges in automating contract design under grid constraints, integrating LLMs with power system models, and ensuring secure, reliable interaction. We develop a chat system using functional programs for power system analysis, enabling users to request customised, technically feasible contracts at scale. We demonstrate high accuracy in executing engineering studies, robustness to user input variations, self-assessment of connection requests by small and medium enterprises, and potential for secure, chat-enabled maintenance planning. This initial study paves the way toward developing a tailored LLM system, resulting in possible high-efficiency gains for grid planning and customer management. The code is available at: https://github.com/TU-Delft-AI-Energy-Lab/LLM-Electricity-Contracts",
+    "authors": [
+      "Jochen L. Cremer"
+    ],
+    "publication_date": "2025-05-26T06:14:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.19551v2",
+    "download_url": "https://arxiv.org/abs/2505.19551v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimal Energy Management of Series Hybrid Electric Vehicles with Engine Start-Stop System",
+    "abstract": "This paper develops energy management (EM) control for series hybrid electric vehicles (HEVs) that include an engine start-stop system (SSS). The objective of the control is to optimally split the energy between the sources of the powertrain and achieve fuel consumption minimization. In contrast to existing works, a fuel penalty is used to characterize more realistically SSS engine restarts, to enable more realistic design and testing of control algorithms. The paper first derives two important analytic results: a) analytic EM optimal solutions of fundamental and commonly used series HEV frameworks, and b) proof of optimality of charge sustaining operation in series HEVs. It then proposes a novel heuristic control strategy, the hysteresis power threshold strategy (HPTS), by amalgamating simple and effective control rules extracted from the suite of derived analytic EM optimal solutions. The decision parameters of the control strategy are small in number and freely tunable. The overall control performance can be fully optimized for different HEV parameters and driving cycles by a systematic tuning process, while also targeting charge sustaining operation. The performance of HPTS is evaluated and benchmarked against existing methodologies, including dynamic programming (DP) and a recently proposed state-of-the-art heuristic strategy. The results show the effectiveness and robustness of the HPTS and also indicate its potential to be used as the benchmark strategy for high fidelity HEV models, where DP is no longer applicable due to computational complexity.",
+    "authors": [
+      "Boli Chen",
+      "Xiao Pan",
+      "Simos A. Evangelou"
+    ],
+    "publication_date": "2022-03-30T08:08:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.16126v1",
+    "download_url": "https://arxiv.org/abs/2203.16126v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Particle-wave duality in electrical noise",
+    "abstract": "Though electrical noise and conduction current are assigned to corpuscle-like electrons drifting in solid matter, this model hardly fits in the Fluctuation-Dissipation framework. However, fluctuations of energy due to displacements of single electrons between two close conductors lead to a discrete noise model looking like continuous in practice. The complex Admittance it uses for the displacement and conduction currents between such conductors, allows a treatment of fluctuations and dissipations of electrical energy that excels the example of Callen and Welton using the complex Impedance of resistors. The new model thus obtained not only unifies the phase noise of electronic oscillators with the linewidth of lasers, but also explains why the shot noise that the drift theory assigns to conduction currents is not observed.",
+    "authors": [
+      "Jose-Ignacio Izpura"
+    ],
+    "publication_date": "2015-12-22T16:33:17Z",
+    "arxiv_id": "http://arxiv.org/abs/1512.07149v3",
+    "download_url": "https://arxiv.org/abs/1512.07149v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Simple and Precise Way to Determine Electrical Resistivity of Isotropic Conductors: Simplifying the Four-Probe Method",
+    "abstract": "COMSOL Multiphysics software is used to describe the behavior of the electrical resistivity of several samples with rectangular shape typically used in the Montgomery method. The simulation data obtained using four isotropic conductors allowed us to understand in detail the behavior of the electric potential and electric field of the samples. The results provide an analytical method which can substitute the four-probe method with much more simplicity and precision.",
+    "authors": [
+      "L. M. S. Alves",
+      "F. S. Oliveira",
+      "E. C. Romão",
+      "M. S. da Luz",
+      "C. A. M. dos Santos"
+    ],
+    "publication_date": "2022-07-12T21:59:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.05863v1",
+    "download_url": "https://arxiv.org/abs/2207.05863v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Metrology for Inductive Charging of Electric Vehicles (MICEV)",
+    "abstract": "The European Union funded project MICEV aims at improving the traceability of electrical and magnetic measurement at charging stations and to better assess the safety of this technology with respect to human exposure. The paper describes some limits of the instrumentation used for electrical measurements in the charging stations, and briefly presents two new calibration facilities for magnetic field meters and electric power meters. Modeling approaches for the efficiency and human exposure assessment are proposed. In the latter case, electromagnetic computational codes have been combined with dosimetric computational codes making use of highly detailed human anatomical phantoms in order to establish human exposure modeling real charging stations. Detailed results are presented for light vehicles where, according to our calculations, the concern towards human exposure is limited. Currently, the project has reached half way point (about 18 months) and will end in August 2020.",
+    "authors": [
+      "M. Zucca",
+      "O. Bottauscio",
+      "S. Harmon",
+      "R. Guilizzoni",
+      "F. Schilling",
+      "M. Schmidt",
+      "P. Ankarson",
+      "T. Bergsten",
+      "K. Tammi",
+      "P. Sainio",
+      "J. B. Romero",
+      "E. L. Puyal",
+      "L. Pichon",
+      "F. Freschi",
+      "V. Cirimele",
+      "P. Bauer",
+      "J. Dong",
+      "A. Maffucci",
+      "S. Ventre",
+      "N. Femia",
+      "G. Di Capua",
+      "N. Kuster",
+      "I. Liorni"
+    ],
+    "publication_date": "2019-08-29T08:58:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.11108v1",
+    "download_url": "https://arxiv.org/abs/1908.11108v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

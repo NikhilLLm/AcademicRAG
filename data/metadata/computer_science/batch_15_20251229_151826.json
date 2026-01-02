@@ -1,0 +1,1832 @@
+[
+  {
+    "title": "A Machine Learning Approach for Evaluating Creative Artifacts",
+    "abstract": "Much work has been done in understanding human creativity and defining measures to evaluate creativity. This is necessary mainly for the reason of having an objective and automatic way of quantifying creative artifacts. In this work, we propose a regression-based learning framework which takes into account quantitatively the essential criteria for creativity like novelty, influence, value and unexpectedness. As it is often the case with most creative domains, there is no clear ground truth available for creativity. Our proposed learning framework is applicable to all creative domains; yet we evaluate it on a dataset of movies created from IMDb and Rotten Tomatoes due to availability of audience and critic scores, which can be used as proxy ground truth labels for creativity. We report promising results and observations from our experiments in the following ways : 1) Correlation of creative criteria with critic scores, 2) Improvement in movie rating prediction with inclusion of various creative criteria, and 3) Identification of creative movies.",
+    "authors": [
+      "Disha Shrivastava",
+      "Saneem Ahmed CG",
+      "Anirban Laha",
+      "Karthik Sankaranarayanan"
+    ],
+    "publication_date": "2017-07-18T06:59:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1707.05499v1",
+    "download_url": "https://arxiv.org/abs/1707.05499v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Active Learning with Combinatorial Coverage",
+    "abstract": "Active learning is a practical field of machine learning that automates the process of selecting which data to label. Current methods are effective in reducing the burden of data labeling but are heavily model-reliant. This has led to the inability of sampled data to be transferred to new models as well as issues with sampling bias. Both issues are of crucial concern in machine learning deployment. We propose active learning methods utilizing combinatorial coverage to overcome these issues. The proposed methods are data-centric, as opposed to model-centric, and through our experiments we show that the inclusion of coverage in active learning leads to sampling data that tends to be the best in transferring to better performing models and has a competitive sampling bias compared to benchmark methods.",
+    "authors": [
+      "Sai Prathyush Katragadda",
+      "Tyler Cody",
+      "Peter Beling",
+      "Laura Freeman"
+    ],
+    "publication_date": "2023-02-28T13:43:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.14567v1",
+    "download_url": "https://arxiv.org/abs/2302.14567v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Federated and Differentially Private Learning for Electronic Health Records",
+    "abstract": "The use of collaborative and decentralized machine learning techniques such as federated learning have the potential to enable the development and deployment of clinical risk predictions models in low-resource settings without requiring sensitive data be shared or stored in a central repository. This process necessitates communication of model weights or updates between collaborating entities, but it is unclear to what extent patient privacy is compromised as a result. To gain insight into this question, we study the efficacy of centralized versus federated learning in both private and non-private settings. The clinical prediction tasks we consider are the prediction of prolonged length of stay and in-hospital mortality across thirty one hospitals in the eICU Collaborative Research Database. We find that while it is straightforward to apply differentially private stochastic gradient descent to achieve strong privacy bounds when training in a centralized setting, it is considerably more difficult to do so in the federated setting.",
+    "authors": [
+      "Stephen R. Pfohl",
+      "Andrew M. Dai",
+      "Katherine Heller"
+    ],
+    "publication_date": "2019-11-13T23:42:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1911.05861v1",
+    "download_url": "https://arxiv.org/abs/1911.05861v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improved Convergence Rates for Sparse Approximation Methods in Kernel-Based Learning",
+    "abstract": "Kernel-based models such as kernel ridge regression and Gaussian processes are ubiquitous in machine learning applications for regression and optimization. It is well known that a major downside for kernel-based models is the high computational cost; given a dataset of $n$ samples, the cost grows as $\\mathcal{O}(n^3)$. Existing sparse approximation methods can yield a significant reduction in the computational cost, effectively reducing the actual cost down to as low as $\\mathcal{O}(n)$ in certain cases. Despite this remarkable empirical success, significant gaps remain in the existing results for the analytical bounds on the error due to approximation. In this work, we provide novel confidence intervals for the Nyström method and the sparse variational Gaussian process approximation method, which we establish using novel interpretations of the approximate (surrogate) posterior variance of the models. Our confidence intervals lead to improved performance bounds in both regression and optimization problems.",
+    "authors": [
+      "Sattar Vakili",
+      "Jonathan Scarlett",
+      "Da-shan Shiu",
+      "Alberto Bernacchia"
+    ],
+    "publication_date": "2022-02-08T17:22:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.04005v2",
+    "download_url": "https://arxiv.org/abs/2202.04005v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Active Learning Methods based on Statistical Leverage Scores",
+    "abstract": "In many real-world machine learning applications, unlabeled data are abundant whereas class labels are expensive and scarce. An active learner aims to obtain a model of high accuracy with as few labeled instances as possible by effectively selecting useful examples for labeling. We propose a new selection criterion that is based on statistical leverage scores and present two novel active learning methods based on this criterion: ALEVS for querying single example at each iteration and DBALEVS for querying a batch of examples. To assess the representativeness of the examples in the pool, ALEVS and DBALEVS use the statistical leverage scores of the kernel matrices computed on the examples of each class. Additionally, DBALEVS selects a diverse a set of examples that are highly representative but are dissimilar to already labeled examples through maximizing a submodular set function defined with the statistical leverage scores and the kernel matrix computed on the pool of the examples. The submodularity property of the set scoring function let us identify batches with a constant factor approximate to the optimal batch in an efficient manner. Our experiments on diverse datasets show that querying based on leverage scores is a powerful strategy for active learning.",
+    "authors": [
+      "Cem Orhan",
+      "Oznur Tastan"
+    ],
+    "publication_date": "2018-12-06T12:38:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.02497v1",
+    "download_url": "https://arxiv.org/abs/1812.02497v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning to Predict Gradients for Semi-Supervised Continual Learning",
+    "abstract": "A key challenge for machine intelligence is to learn new visual concepts without forgetting the previously acquired knowledge. Continual learning is aimed towards addressing this challenge. However, there is a gap between existing supervised continual learning and human-like intelligence, where human is able to learn from both labeled and unlabeled data. How unlabeled data affects learning and catastrophic forgetting in the continual learning process remains unknown. To explore these issues, we formulate a new semi-supervised continual learning method, which can be generically applied to existing continual learning models. Specifically, a novel gradient learner learns from labeled data to predict gradients on unlabeled data. Hence, the unlabeled data could fit into the supervised continual learning method. Different from conventional semi-supervised settings, we do not hypothesize that the underlying classes, which are associated to the unlabeled data, are known to the learning process. In other words, the unlabeled data could be very distinct from the labeled data. We evaluate the proposed method on mainstream continual learning, adversarial continual learning, and semi-supervised learning tasks. The proposed method achieves state-of-the-art performance on classification accuracy and backward transfer in the continual learning setting while achieving desired performance on classification accuracy in the semi-supervised learning setting. This implies that the unlabeled images can enhance the generalizability of continual learning models on the predictive ability on unseen data and significantly alleviate catastrophic forgetting. The code is available at \\url{https://github.com/luoyan407/grad_prediction.git}.",
+    "authors": [
+      "Yan Luo",
+      "Yongkang Wong",
+      "Mohan Kankanhalli",
+      "Qi Zhao"
+    ],
+    "publication_date": "2022-01-23T06:45:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.09196v2",
+    "download_url": "https://arxiv.org/abs/2201.09196v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Automatic differentiation in machine learning: a survey",
+    "abstract": "Derivatives, mostly in the form of gradients and Hessians, are ubiquitous in machine learning. Automatic differentiation (AD), also called algorithmic differentiation or simply \"autodiff\", is a family of techniques similar to but more general than backpropagation for efficiently and accurately evaluating derivatives of numeric functions expressed as computer programs. AD is a small but established field with applications in areas including computational fluid dynamics, atmospheric sciences, and engineering design optimization. Until very recently, the fields of machine learning and AD have largely been unaware of each other and, in some cases, have independently discovered each other's results. Despite its relevance, general-purpose AD has been missing from the machine learning toolbox, a situation slowly changing with its ongoing adoption under the names \"dynamic computational graphs\" and \"differentiable programming\". We survey the intersection of AD and machine learning, cover applications where AD has direct relevance, and address the main implementation techniques. By precisely defining the main differentiation techniques and their interrelationships, we aim to bring clarity to the usage of the terms \"autodiff\", \"automatic differentiation\", and \"symbolic differentiation\" as these are encountered more and more in machine learning settings.",
+    "authors": [
+      "Atilim Gunes Baydin",
+      "Barak A. Pearlmutter",
+      "Alexey Andreyevich Radul",
+      "Jeffrey Mark Siskind"
+    ],
+    "publication_date": "2015-02-20T04:20:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1502.05767v4",
+    "download_url": "https://arxiv.org/abs/1502.05767v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MLPACK: A Scalable C++ Machine Learning Library",
+    "abstract": "MLPACK is a state-of-the-art, scalable, multi-platform C++ machine learning library released in late 2011 offering both a simple, consistent API accessible to novice users and high performance and flexibility to expert users by leveraging modern features of C++. MLPACK provides cutting-edge algorithms whose benchmarks exhibit far better performance than other leading machine learning libraries. MLPACK version 1.0.3, licensed under the LGPL, is available at http://www.mlpack.org.",
+    "authors": [
+      "Ryan R. Curtin",
+      "James R. Cline",
+      "N. P. Slagle",
+      "William B. March",
+      "Parikshit Ram",
+      "Nishant A. Mehta",
+      "Alexander G. Gray"
+    ],
+    "publication_date": "2012-10-23T17:15:03Z",
+    "arxiv_id": "http://arxiv.org/abs/1210.6293v1",
+    "download_url": "https://arxiv.org/abs/1210.6293v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Graph Prolongation Convolutional Networks: Explicitly Multiscale Machine Learning on Graphs with Applications to Modeling of Cytoskeleton",
+    "abstract": "We define a novel type of ensemble Graph Convolutional Network (GCN) model. Using optimized linear projection operators to map between spatial scales of graph, this ensemble model learns to aggregate information from each scale for its final prediction. We calculate these linear projection operators as the infima of an objective function relating the structure matrices used for each GCN. Equipped with these projections, our model (a Graph Prolongation-Convolutional Network) outperforms other GCN ensemble models at predicting the potential energy of monomer subunits in a coarse-grained mechanochemical simulation of microtubule bending. We demonstrate these performance gains by measuring an estimate of the FLOPs spent to train each model, as well as wall-clock time. Because our model learns at multiple scales, it is possible to train at each scale according to a predetermined schedule of coarse vs. fine training. We examine several such schedules adapted from the Algebraic Multigrid (AMG) literature, and quantify the computational benefit of each. We also compare this model to another model which features an optimized coarsening of the input graph. Finally, we derive backpropagation rules for the input of our network model with respect to its output, and discuss how our method may be extended to very large graphs.",
+    "authors": [
+      "C. B. Scott",
+      "Eric Mjolsness"
+    ],
+    "publication_date": "2020-02-14T01:56:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.05842v2",
+    "download_url": "https://arxiv.org/abs/2002.05842v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Performing Deep Recurrent Double Q-Learning for Atari Games",
+    "abstract": "Currently, many applications in Machine Learning are based on define new models to extract more information about data, In this case Deep Reinforcement Learning with the most common application in video games like Atari, Mario, and others causes an impact in how to computers can learning by himself with only information called rewards obtained from any action. There is a lot of algorithms modeled and implemented based on Deep Recurrent Q-Learning proposed by DeepMind used in AlphaZero and Go. In this document, We proposed Deep Recurrent Double Q-Learning that is an implementation of Deep Reinforcement Learning using Double Q-Learning algorithms and Recurrent Networks like LSTM and DRQN.",
+    "authors": [
+      "Felipe Moreno-Vera"
+    ],
+    "publication_date": "2019-08-16T15:56:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.06040v2",
+    "download_url": "https://arxiv.org/abs/1908.06040v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning Temporal Distances: Contrastive Successor Features Can Provide a Metric Structure for Decision-Making",
+    "abstract": "Temporal distances lie at the heart of many algorithms for planning, control, and reinforcement learning that involve reaching goals, allowing one to estimate the transit time between two states. However, prior attempts to define such temporal distances in stochastic settings have been stymied by an important limitation: these prior approaches do not satisfy the triangle inequality. This is not merely a definitional concern, but translates to an inability to generalize and find shortest paths. In this paper, we build on prior work in contrastive learning and quasimetrics to show how successor features learned by contrastive learning (after a change of variables) form a temporal distance that does satisfy the triangle inequality, even in stochastic settings. Importantly, this temporal distance is computationally efficient to estimate, even in high-dimensional and stochastic settings. Experiments in controlled settings and benchmark suites demonstrate that an RL algorithm based on these new temporal distances exhibits combinatorial generalization (i.e., \"stitching\") and can sometimes learn more quickly than prior methods, including those based on quasimetrics.",
+    "authors": [
+      "Vivek Myers",
+      "Chongyi Zheng",
+      "Anca Dragan",
+      "Sergey Levine",
+      "Benjamin Eysenbach"
+    ],
+    "publication_date": "2024-06-24T19:36:45Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.17098v2",
+    "download_url": "https://arxiv.org/abs/2406.17098v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards a Resilient Machine Learning Classifier -- a Case Study of Ransomware Detection",
+    "abstract": "The damage caused by crypto-ransomware, due to encryption, is difficult to revert and cause data losses. In this paper, a machine learning (ML) classifier was built to early detect ransomware (called crypto-ransomware) that uses cryptography by program behavior. If a signature-based detection was missed, a behavior-based detector can be the last line of defense to detect and contain the damages. We find that input/output activities of ransomware and the file-content entropy are unique traits to detect crypto-ransomware. A deep-learning (DL) classifier can detect ransomware with a high accuracy and a low false positive rate. We conduct an adversarial research against the models generated. We use simulated ransomware programs to launch a gray-box analysis to probe the weakness of ML classifiers and to improve model robustness. In addition to accuracy and resiliency, trustworthiness is the other key criteria for a quality detector. Making sure that the correct information was used for inference is important for a security application. The Integrated Gradient method was used to explain the deep learning model and also to reveal why false negatives evade the detection. The approaches to build and to evaluate a real-world detector were demonstrated and discussed.",
+    "authors": [
+      "Chih-Yuan Yang",
+      "Ravi Sahita"
+    ],
+    "publication_date": "2020-03-13T18:02:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2003.06428v1",
+    "download_url": "https://arxiv.org/abs/2003.06428v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A deep cut into Split Federated Self-supervised Learning",
+    "abstract": "Collaborative self-supervised learning has recently become feasible in highly distributed environments by dividing the network layers between client devices and a central server. However, state-of-the-art methods, such as MocoSFL, are optimized for network division at the initial layers, which decreases the protection of the client data and increases communication overhead. In this paper, we demonstrate that splitting depth is crucial for maintaining privacy and communication efficiency in distributed training. We also show that MocoSFL suffers from a catastrophic quality deterioration for the minimal communication overhead. As a remedy, we introduce Momentum-Aligned contrastive Split Federated Learning (MonAcoSFL), which aligns online and momentum client models during training procedure. Consequently, we achieve state-of-the-art accuracy while significantly reducing the communication overhead, making MonAcoSFL more practical in real-world scenarios.",
+    "authors": [
+      "Marcin Przewięźlikowski",
+      "Marcin Osial",
+      "Bartosz Zieliński",
+      "Marek Śmieja"
+    ],
+    "publication_date": "2024-06-12T14:35:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.08267v2",
+    "download_url": "https://arxiv.org/abs/2406.08267v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generating Material Maps to Map Informal Settlements",
+    "abstract": "Detecting and mapping informal settlements encompasses several of the United Nations sustainable development goals. This is because informal settlements are home to the most socially and economically vulnerable people on the planet. Thus, understanding where these settlements are is of paramount importance to both government and non-government organizations (NGOs), such as the United Nations Children's Fund (UNICEF), who can use this information to deliver effective social and economic aid. We propose a method that detects and maps the locations of informal settlements using only freely available, Sentinel-2 low-resolution satellite spectral data and socio-economic data. This is in contrast to previous studies that only use costly very-high resolution (VHR) satellite and aerial imagery. We show how we can detect informal settlements by combining both domain knowledge and machine learning techniques, to build a classifier that looks for known roofing materials used in informal settlements. Please find additional material at https://frontierdevelopmentlab.github.io/informal-settlements/.",
+    "authors": [
+      "Patrick Helber",
+      "Bradley Gram-Hansen",
+      "Indhu Varatharajan",
+      "Faiza Azam",
+      "Alejandro Coca-Castro",
+      "Veronika Kopackova",
+      "Piotr Bilinski"
+    ],
+    "publication_date": "2018-11-30T09:09:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.00786v2",
+    "download_url": "https://arxiv.org/abs/1812.00786v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep Learning using Linear Support Vector Machines",
+    "abstract": "Recently, fully-connected and convolutional neural networks have been trained to achieve state-of-the-art performance on a wide variety of tasks such as speech recognition, image classification, natural language processing, and bioinformatics. For classification tasks, most of these \"deep learning\" models employ the softmax activation function for prediction and minimize cross-entropy loss. In this paper, we demonstrate a small but consistent advantage of replacing the softmax layer with a linear support vector machine. Learning minimizes a margin-based loss instead of the cross-entropy loss. While there have been various combinations of neural nets and SVMs in prior art, our results using L2-SVMs show that by simply replacing softmax with linear SVMs gives significant gains on popular deep learning datasets MNIST, CIFAR-10, and the ICML 2013 Representation Learning Workshop's face expression recognition challenge.",
+    "authors": [
+      "Yichuan Tang"
+    ],
+    "publication_date": "2013-06-02T18:46:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1306.0239v4",
+    "download_url": "https://arxiv.org/abs/1306.0239v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning Interpretable Rules for Multi-label Classification",
+    "abstract": "Multi-label classification (MLC) is a supervised learning problem in which, contrary to standard multiclass classification, an instance can be associated with several class labels simultaneously. In this chapter, we advocate a rule-based approach to multi-label classification. Rule learning algorithms are often employed when one is not only interested in accurate predictions, but also requires an interpretable theory that can be understood, analyzed, and qualitatively evaluated by domain experts. Ideally, by revealing patterns and regularities contained in the data, a rule-based theory yields new insights in the application domain. Recently, several authors have started to investigate how rule-based models can be used for modeling multi-label data. Discussing this task in detail, we highlight some of the problems that make rule learning considerably more challenging for MLC than for conventional classification. While mainly focusing on our own previous work, we also provide a short overview of related work in this area.",
+    "authors": [
+      "Eneldo Loza Mencía",
+      "Johannes Fürnkranz",
+      "Eyke Hüllermeier",
+      "Michael Rapp"
+    ],
+    "publication_date": "2018-11-30T20:48:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.00050v2",
+    "download_url": "https://arxiv.org/abs/1812.00050v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep Neural Network Benchmarks for Selective Classification",
+    "abstract": "With the increasing deployment of machine learning models in many socially sensitive tasks, there is a growing demand for reliable and trustworthy predictions. One way to accomplish these requirements is to allow a model to abstain from making a prediction when there is a high risk of making an error. This requires adding a selection mechanism to the model, which selects those examples for which the model will provide a prediction. The selective classification framework aims to design a mechanism that balances the fraction of rejected predictions (i.e., the proportion of examples for which the model does not make a prediction) versus the improvement in predictive performance on the selected predictions. Multiple selective classification frameworks exist, most of which rely on deep neural network architectures. However, the empirical evaluation of the existing approaches is still limited to partial comparisons among methods and settings, providing practitioners with little insight into their relative merits. We fill this gap by benchmarking 18 baselines on a diverse set of 44 datasets that includes both image and tabular data. Moreover, there is a mix of binary and multiclass tasks. We evaluate these approaches using several criteria, including selective error rate, empirical coverage, distribution of rejected instance's classes, and performance on out-of-distribution instances. The results indicate that there is not a single clear winner among the surveyed baselines, and the best method depends on the users' objectives.",
+    "authors": [
+      "Andrea Pugnana",
+      "Lorenzo Perini",
+      "Jesse Davis",
+      "Salvatore Ruggieri"
+    ],
+    "publication_date": "2024-01-23T12:15:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.12708v2",
+    "download_url": "https://arxiv.org/abs/2401.12708v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Developing a Dataset-Adaptive, Normalized Metric for Machine Learning Model Assessment: Integrating Size, Complexity, and Class Imbalance",
+    "abstract": "Traditional metrics like accuracy, F1-score, and precision are frequently used to evaluate machine learning models, however they may not be sufficient for evaluating performance on tiny, unbalanced, or high-dimensional datasets. A dataset-adaptive, normalized metric that incorporates dataset characteristics like size, feature dimensionality, class imbalance, and signal-to-noise ratio is presented in this study. Early insights into the model's performance potential in challenging circumstances are provided by the suggested metric, which offers a scalable and adaptable evaluation framework. The metric's capacity to accurately forecast model scalability and performance is demonstrated via experimental validation spanning classification, regression, and clustering tasks, guaranteeing solid assessments in settings with limited data. This method has important ramifications for effective resource allocation and model optimization in machine learning workflows.",
+    "authors": [
+      "Serzhan Ossenov"
+    ],
+    "publication_date": "2024-12-10T07:10:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.07244v1",
+    "download_url": "https://arxiv.org/abs/2412.07244v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ML$^2$Tuner: Efficient Code Tuning via Multi-Level Machine Learning Models",
+    "abstract": "The increasing complexity of deep learning models necessitates specialized hardware and software optimizations, particularly for deep learning accelerators. Existing autotuning methods often suffer from prolonged tuning times due to profiling invalid configurations, which can cause runtime errors. We introduce ML$^2$Tuner, a multi-level machine learning tuning technique that enhances autotuning efficiency by incorporating a validity prediction model to filter out invalid configurations and an advanced performance prediction model utilizing hidden features from the compilation process. Experimental results on an extended VTA accelerator demonstrate that ML$^2$Tuner achieves equivalent performance improvements using only 12.3% of the samples required with a similar approach as TVM and reduces invalid profiling attempts by an average of 60.8%, Highlighting its potential to enhance autotuning performance by filtering out invalid configurations",
+    "authors": [
+      "JooHyoung Cha",
+      "Munyoung Lee",
+      "Jinse Kwon",
+      "Jubin Lee",
+      "Jemin Lee",
+      "Yongin Kwon"
+    ],
+    "publication_date": "2024-11-16T10:10:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.10764v1",
+    "download_url": "https://arxiv.org/abs/2411.10764v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Execution-based Code Generation using Deep Reinforcement Learning",
+    "abstract": "The utilization of programming language (PL) models, pre-trained on large-scale code corpora, as a means of automating software engineering processes has demonstrated considerable potential in streamlining various code generation tasks such as code completion, code translation, and program synthesis. However, current approaches mainly rely on supervised fine-tuning objectives borrowed from text generation, neglecting unique sequence-level characteristics of code, including but not limited to compilability as well as syntactic and functional correctness. To address this limitation, we propose PPOCoder, a new framework for code generation that synergistically combines pre-trained PL models with Proximal Policy Optimization (PPO) which is a widely used deep reinforcement learning technique. By utilizing non-differentiable feedback from code execution and structure alignment, PPOCoder seamlessly integrates external code-specific knowledge into the model optimization process. It's important to note that PPOCoder is a task-agnostic and model-agnostic framework that can be used across different code generation tasks and PLs. Extensive experiments on three code generation tasks demonstrate the effectiveness of our proposed approach compared to SOTA methods, achieving significant improvements in compilation success rates and functional correctness across different PLs.",
+    "authors": [
+      "Parshin Shojaee",
+      "Aneesh Jain",
+      "Sindhu Tipirneni",
+      "Chandan K. Reddy"
+    ],
+    "publication_date": "2023-01-31T18:02:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2301.13816v4",
+    "download_url": "https://arxiv.org/abs/2301.13816v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Comprehensive Study on Machine Learning Methods to Increase the Prediction Accuracy of Classifiers and Reduce the Number of Medical Tests Required to Diagnose Alzheimer'S Disease",
+    "abstract": "Alzheimer's patients gradually lose their ability to think, behave, and interact with others. Medical history, laboratory tests, daily activities, and personality changes can all be used to diagnose the disorder. A series of time-consuming and expensive tests are used to diagnose the illness. The most effective way to identify Alzheimer's disease is using a Random-forest classifier in this study, along with various other Machine Learning techniques. The main goal of this study is to fine-tune the classifier to detect illness with fewer tests while maintaining a reasonable disease discovery accuracy. We successfully identified the condition in almost 94% of cases using four of the thirty frequently utilized indicators.",
+    "authors": [
+      "Md. Sharifur Rahman",
+      "Professor Girijesh Prasad"
+    ],
+    "publication_date": "2022-12-01T10:34:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.00414v1",
+    "download_url": "https://arxiv.org/abs/2212.00414v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Transfer Learning for Related Reinforcement Learning Tasks via Image-to-Image Translation",
+    "abstract": "Despite the remarkable success of Deep RL in learning control policies from raw pixels, the resulting models do not generalize. We demonstrate that a trained agent fails completely when facing small visual changes, and that fine-tuning---the common transfer learning paradigm---fails to adapt to these changes, to the extent that it is faster to re-train the model from scratch. We show that by separating the visual transfer task from the control policy we achieve substantially better sample efficiency and transfer behavior, allowing an agent trained on the source task to transfer well to the target tasks. The visual mapping from the target to the source domain is performed using unaligned GANs, resulting in a control policy that can be further improved using imitation learning from imperfect demonstrations. We demonstrate the approach on synthetic visual variants of the Breakout game, as well as on transfer between subsequent levels of Road Fighter, a Nintendo car-driving game. A visualization of our approach can be seen in https://youtu.be/4mnkzYyXMn4 and https://youtu.be/KCGTrQi6Ogo .",
+    "authors": [
+      "Shani Gamrian",
+      "Yoav Goldberg"
+    ],
+    "publication_date": "2018-05-31T09:25:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.07377v6",
+    "download_url": "https://arxiv.org/abs/1806.07377v6",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Feed-Forward Neural Networks Need Inductive Bias to Learn Equality Relations",
+    "abstract": "Basic binary relations such as equality and inequality are fundamental to relational data structures. Neural networks should learn such relations and generalise to new unseen data. We show in this study, however, that this generalisation fails with standard feed-forward networks on binary vectors. Even when trained with maximal training data, standard networks do not reliably detect equality.We introduce differential rectifier (DR) units that we add to the network in different configurations. The DR units create an inductive bias in the networks, so that they do learn to generalise, even from small numbers of examples and we have not found any negative effect of their inclusion in the network. Given the fundamental nature of these relations, we hypothesize that feed-forward neural network learning benefits from inductive bias in other relations as well. Consequently, the further development of suitable inductive biases will be beneficial to many tasks in relational learning with neural networks.",
+    "authors": [
+      "Tillman Weyde",
+      "Radha Manisha Kopparti"
+    ],
+    "publication_date": "2018-12-04T20:02:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.01662v1",
+    "download_url": "https://arxiv.org/abs/1812.01662v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sum of Ranked Range Loss for Supervised Learning",
+    "abstract": "In forming learning objectives, one oftentimes needs to aggregate a set of individual values to a single output. Such cases occur in the aggregate loss, which combines individual losses of a learning model over each training sample, and in the individual loss for multi-label learning, which combines prediction scores over all class labels. In this work, we introduce the sum of ranked range (SoRR) as a general approach to form learning objectives. A ranked range is a consecutive sequence of sorted values of a set of real numbers. The minimization of SoRR is solved with the difference of convex algorithm (DCA). We explore two applications in machine learning of the minimization of the SoRR framework, namely the AoRR aggregate loss for binary/multi-class classification at the sample level and the TKML individual loss for multi-label/multi-class classification at the label level. A combination loss of AoRR and TKML is proposed as a new learning objective for improving the robustness of multi-label learning in the face of outliers in sample and labels alike. Our empirical results highlight the effectiveness of the proposed optimization frameworks and demonstrate the applicability of proposed losses using synthetic and real data sets.",
+    "authors": [
+      "Shu Hu",
+      "Yiming Ying",
+      "Xin Wang",
+      "Siwei Lyu"
+    ],
+    "publication_date": "2021-06-07T02:11:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.03300v2",
+    "download_url": "https://arxiv.org/abs/2106.03300v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Faster Graph Embeddings via Coarsening",
+    "abstract": "Graph embeddings are a ubiquitous tool for machine learning tasks, such as node classification and link prediction, on graph-structured data. However, computing the embeddings for large-scale graphs is prohibitively inefficient even if we are interested only in a small subset of relevant vertices. To address this, we present an efficient graph coarsening approach, based on Schur complements, for computing the embedding of the relevant vertices. We prove that these embeddings are preserved exactly by the Schur complement graph that is obtained via Gaussian elimination on the non-relevant vertices. As computing Schur complements is expensive, we give a nearly-linear time algorithm that generates a coarsened graph on the relevant vertices that provably matches the Schur complement in expectation in each iteration. Our experiments involving prediction tasks on graphs demonstrate that computing embeddings on the coarsened graph, rather than the entire graph, leads to significant time savings without sacrificing accuracy.",
+    "authors": [
+      "Matthew Fahrbach",
+      "Gramoz Goranci",
+      "Richard Peng",
+      "Sushant Sachdeva",
+      "Chi Wang"
+    ],
+    "publication_date": "2020-07-06T15:22:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.02817v3",
+    "download_url": "https://arxiv.org/abs/2007.02817v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Error-controlled non-additive interaction discovery in machine learning models",
+    "abstract": "Machine learning (ML) models are powerful tools for detecting complex patterns within data, yet their \"black box\" nature limits their interpretability, hindering their use in critical domains like healthcare and finance. To address this challenge, interpretable ML methods have been developed to explain how features influence model predictions. However, these methods often focus on univariate feature importance, overlooking the complex interactions between features that ML models are capable of capturing. Recognizing this limitation, recent efforts have aimed to extend these methods to discover feature interactions, but existing approaches struggle with robustness and error control, especially under data perturbations. In this study, we introduce Diamond, a novel method for trustworthy feature interaction discovery. Diamond uniquely integrates the model-X knockoffs framework to control the false discovery rate (FDR), ensuring that the proportion of falsely discovered interactions remains low. A key innovation in Diamond is its non-additivity distillation procedure, which refines existing interaction importance measures to distill non-additive interaction effects, ensuring that FDR control is maintained. This approach addresses the limitations of off-the-shelf interaction measures, which, when used naively, can lead to inaccurate discoveries. Diamond's applicability spans a wide range of ML models, including deep neural networks, transformer models, tree-based models, and factorization-based models. Our empirical evaluations on both simulated and real datasets across various biomedical studies demonstrate Diamond's utility in enabling more reliable data-driven scientific discoveries. This method represents a significant step forward in the deployment of ML models for scientific innovation and hypothesis generation.",
+    "authors": [
+      "Winston Chen",
+      "Yifan Jiang",
+      "William Stafford Noble",
+      "Yang Young Lu"
+    ],
+    "publication_date": "2024-08-30T05:13:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.17016v2",
+    "download_url": "https://arxiv.org/abs/2408.17016v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Deep Learning-based Framework for the Detection of Schools of Herring in Echograms",
+    "abstract": "Tracking the abundance of underwater species is crucial for understanding the effects of climate change on marine ecosystems. Biologists typically monitor underwater sites with echosounders and visualize data as 2D images (echograms); they interpret these data manually or semi-automatically, which is time-consuming and prone to inconsistencies. This paper proposes a deep learning framework for the automatic detection of schools of herring from echograms. Experiments demonstrated that our approach outperforms a traditional machine learning algorithm using hand-crafted features. Our framework could easily be expanded to detect more species of interest to sustainable fisheries.",
+    "authors": [
+      "Alireza Rezvanifar",
+      "Tunai Porto Marques",
+      "Melissa Cote",
+      "Alexandra Branzan Albu",
+      "Alex Slonimer",
+      "Thomas Tolhurst",
+      "Kaan Ersahin",
+      "Todd Mudge",
+      "Stephane Gauthier"
+    ],
+    "publication_date": "2019-10-18T01:12:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.08215v1",
+    "download_url": "https://arxiv.org/abs/1910.08215v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Explanation of Machine Learning Models of Colon Cancer Using SHAP Considering Interaction Effects",
+    "abstract": "When using machine learning techniques in decision-making processes, the interpretability of the models is important. Shapley additive explanation (SHAP) is one of the most promising interpretation methods for machine learning models. Interaction effects occur when the effect of one variable depends on the value of another variable. Even if each variable has little effect on the outcome, its combination can have an unexpectedly large impact on the outcome. Understanding interactions is important for understanding machine learning models; however, naive SHAP analysis cannot distinguish between the main effect and interaction effects. In this paper, we introduce the Shapley-Taylor index as an interpretation method for machine learning models using SHAP considering interaction effects. We apply the method to the cancer cohort data of Kyushu University Hospital (N=29,080) to analyze what combination of factors contributes to the risk of colon cancer.",
+    "authors": [
+      "Yasunobu Nohara",
+      "Toyoshi Inoguchi",
+      "Chinatsu Nojiri",
+      "Naoki Nakashima"
+    ],
+    "publication_date": "2022-08-05T11:54:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.03112v1",
+    "download_url": "https://arxiv.org/abs/2208.03112v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "LLM-based feature generation from text for interpretable machine learning",
+    "abstract": "Existing text representations such as embeddings and bag-of-words are not suitable for rule learning due to their high dimensionality and absent or questionable feature-level interpretability. This article explores whether large language models (LLMs) could address this by extracting a small number of interpretable features from text. We demonstrate this process on two datasets (CORD-19 and M17+) containing several thousand scientific articles from multiple disciplines and a target being a proxy for research impact. An evaluation based on testing for the statistically significant correlation with research impact has shown that LLama 2-generated features are semantically meaningful. We consequently used these generated features in text classification to predict the binary target variable representing the citation rate for the CORD-19 dataset and the ordinal 5-class target representing an expert-awarded grade in the M17+ dataset. Machine-learning models trained on the LLM-generated features provided similar predictive performance to the state-of-the-art embedding model SciBERT for scientific text. The LLM used only 62 features compared to 768 features in SciBERT embeddings, and these features were directly interpretable, corresponding to notions such as article methodological rigor, novelty, or grammatical correctness. As the final step, we extract a small number of well-interpretable action rules. Consistently competitive results obtained with the same LLM feature set across both thematically diverse datasets show that this approach generalizes across domains.",
+    "authors": [
+      "Vojtěch Balek",
+      "Lukáš Sýkora",
+      "Vilém Sklenák",
+      "Tomáš Kliegr"
+    ],
+    "publication_date": "2024-09-11T09:29:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.07132v2",
+    "download_url": "https://arxiv.org/abs/2409.07132v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Conceptualizing Machine Learning for Dynamic Information Retrieval of Electronic Health Record Notes",
+    "abstract": "The large amount of time clinicians spend sifting through patient notes and documenting in electronic health records (EHRs) is a leading cause of clinician burnout. By proactively and dynamically retrieving relevant notes during the documentation process, we can reduce the effort required to find relevant patient history. In this work, we conceptualize the use of EHR audit logs for machine learning as a source of supervision of note relevance in a specific clinical context, at a particular point in time. Our evaluation focuses on the dynamic retrieval in the emergency department, a high acuity setting with unique patterns of information retrieval and note writing. We show that our methods can achieve an AUC of 0.963 for predicting which notes will be read in an individual note writing session. We additionally conduct a user study with several clinicians and find that our framework can help clinicians retrieve relevant information more efficiently. Demonstrating that our framework and methods can perform well in this demanding setting is a promising proof of concept that they will translate to other clinical settings and data modalities (e.g., labs, medications, imaging).",
+    "authors": [
+      "Sharon Jiang",
+      "Shannon Shen",
+      "Monica Agrawal",
+      "Barbara Lam",
+      "Nicholas Kurtzman",
+      "Steven Horng",
+      "David Karger",
+      "David Sontag"
+    ],
+    "publication_date": "2023-08-09T21:04:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.08494v1",
+    "download_url": "https://arxiv.org/abs/2308.08494v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Legal Risks of Adversarial Machine Learning Research",
+    "abstract": "Adversarial Machine Learning is booming with ML researchers increasingly targeting commercial ML systems such as those used in Facebook, Tesla, Microsoft, IBM, Google to demonstrate vulnerabilities. In this paper, we ask, \"What are the potential legal risks to adversarial ML researchers when they attack ML systems?\" Studying or testing the security of any operational system potentially runs afoul the Computer Fraud and Abuse Act (CFAA), the primary United States federal statute that creates liability for hacking. We claim that Adversarial ML research is likely no different. Our analysis show that because there is a split in how CFAA is interpreted, aspects of adversarial ML attacks, such as model inversion, membership inference, model stealing, reprogramming the ML system and poisoning attacks, may be sanctioned in some jurisdictions and not penalized in others. We conclude with an analysis predicting how the US Supreme Court may resolve some present inconsistencies in the CFAA's application in Van Buren v. United States, an appeal expected to be decided in 2021. We argue that the court is likely to adopt a narrow construction of the CFAA, and that this will actually lead to better adversarial ML security outcomes in the long term.",
+    "authors": [
+      "Ram Shankar Siva Kumar",
+      "Jonathon Penney",
+      "Bruce Schneier",
+      "Kendra Albert"
+    ],
+    "publication_date": "2020-06-29T16:45:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.16179v1",
+    "download_url": "https://arxiv.org/abs/2006.16179v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Feature Ranking for Semi-supervised Learning",
+    "abstract": "The data made available for analysis are becoming more and more complex along several directions: high dimensionality, number of examples and the amount of labels per example. This poses a variety of challenges for the existing machine learning methods: coping with dataset with a large number of examples that are described in a high-dimensional space and not all examples have labels provided. For example, when investigating the toxicity of chemical compounds there are a lot of compounds available, that can be described with information rich high-dimensional representations, but not all of the compounds have information on their toxicity. To address these challenges, we propose semi-supervised learning of feature ranking. The feature rankings are learned in the context of classification and regression as well as in the context of structured output prediction (multi-label classification, hierarchical multi-label classification and multi-target regression). To the best of our knowledge, this is the first work that treats the task of feature ranking within the semi-supervised structured output prediction context. More specifically, we propose two approaches that are based on tree ensembles and the Relief family of algorithms. The extensive evaluation across 38 benchmark datasets reveals the following: Random Forests perform the best for the classification-like tasks, while for the regression-like tasks Extra-PCTs perform the best, Random Forests are the most efficient method considering induction times across all tasks, and semi-supervised feature rankings outperform their supervised counterpart across a majority of the datasets from the different tasks.",
+    "authors": [
+      "Matej Petković",
+      "Sašo Džeroski",
+      "Dragi Kocev"
+    ],
+    "publication_date": "2020-08-10T07:50:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2008.03937v1",
+    "download_url": "https://arxiv.org/abs/2008.03937v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Open Vocabulary Learning on Source Code with a Graph-Structured Cache",
+    "abstract": "Machine learning models that take computer program source code as input typically use Natural Language Processing (NLP) techniques. However, a major challenge is that code is written using an open, rapidly changing vocabulary due to, e.g., the coinage of new variable and method names. Reasoning over such a vocabulary is not something for which most NLP methods are designed. We introduce a Graph-Structured Cache to address this problem; this cache contains a node for each new word the model encounters with edges connecting each word to its occurrences in the code. We find that combining this graph-structured cache strategy with recent Graph-Neural-Network-based models for supervised learning on code improves the models' performance on a code completion task and a variable naming task --- with over $100\\%$ relative improvement on the latter --- at the cost of a moderate increase in computation time.",
+    "authors": [
+      "Milan Cvitkovic",
+      "Badal Singh",
+      "Anima Anandkumar"
+    ],
+    "publication_date": "2018-10-18T23:33:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.08305v2",
+    "download_url": "https://arxiv.org/abs/1810.08305v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "RIZE: Adaptive Regularization for Imitation Learning",
+    "abstract": "We propose a novel Inverse Reinforcement Learning (IRL) method that mitigates the rigidity of fixed reward structures and the limited flexibility of implicit reward regularization. Building on the Maximum Entropy IRL framework, our approach incorporates a squared temporal-difference (TD) regularizer with adaptive targets that evolve dynamically during training, thereby imposing adaptive bounds on recovered rewards and promoting robust decision-making. To capture richer return information, we integrate distributional RL into the learning process. Empirically, our method achieves expert-level performance on complex MuJoCo and Adroit environments, surpassing baseline methods on the Humanoid-v2 task with limited expert demonstrations. Extensive experiments and ablation studies further validate the effectiveness of the approach and provide insights into reward dynamics in imitation learning. Our source code is available at https://github.com/adibka/RIZE.",
+    "authors": [
+      "Adib Karimi",
+      "Mohammad Mehdi Ebadzadeh"
+    ],
+    "publication_date": "2025-02-27T13:47:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.20089v3",
+    "download_url": "https://arxiv.org/abs/2502.20089v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Knowledge Enhanced Machine Learning Pipeline against Diverse Adversarial Attacks",
+    "abstract": "Despite the great successes achieved by deep neural networks (DNNs), recent studies show that they are vulnerable against adversarial examples, which aim to mislead DNNs by adding small adversarial perturbations. Several defenses have been proposed against such attacks, while many of them have been adaptively attacked. In this work, we aim to enhance the ML robustness from a different perspective by leveraging domain knowledge: We propose a Knowledge Enhanced Machine Learning Pipeline (KEMLP) to integrate domain knowledge (i.e., logic relationships among different predictions) into a probabilistic graphical model via first-order logic rules. In particular, we develop KEMLP by integrating a diverse set of weak auxiliary models based on their logical relationships to the main DNN model that performs the target task. Theoretically, we provide convergence results and prove that, under mild conditions, the prediction of KEMLP is more robust than that of the main DNN model. Empirically, we take road sign recognition as an example and leverage the relationships between road signs and their shapes and contents as domain knowledge. We show that compared with adversarial training and other baselines, KEMLP achieves higher robustness against physical attacks, $\\mathcal{L}_p$ bounded attacks, unforeseen attacks, and natural corruptions under both whitebox and blackbox settings, while still maintaining high clean accuracy.",
+    "authors": [
+      "Nezihe Merve Gürel",
+      "Xiangyu Qi",
+      "Luka Rimanic",
+      "Ce Zhang",
+      "Bo Li"
+    ],
+    "publication_date": "2021-06-11T08:37:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.06235v2",
+    "download_url": "https://arxiv.org/abs/2106.06235v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning with Differential Privacy: Stability, Learnability and the Sufficiency and Necessity of ERM Principle",
+    "abstract": "While machine learning has proven to be a powerful data-driven solution to many real-life problems, its use in sensitive domains has been limited due to privacy concerns. A popular approach known as **differential privacy** offers provable privacy guarantees, but it is often observed in practice that it could substantially hamper learning accuracy. In this paper we study the learnability (whether a problem can be learned by any algorithm) under Vapnik's general learning setting with differential privacy constraint, and reveal some intricate relationships between privacy, stability and learnability.\n  In particular, we show that a problem is privately learnable **if an only if** there is a private algorithm that asymptotically minimizes the empirical risk (AERM). In contrast, for non-private learning AERM alone is not sufficient for learnability. This result suggests that when searching for private learning algorithms, we can restrict the search to algorithms that are AERM. In light of this, we propose a conceptual procedure that always finds a universally consistent algorithm whenever the problem is learnable under privacy constraint. We also propose a generic and practical algorithm and show that under very general conditions it privately learns a wide class of learning problems. Lastly, we extend some of the results to the more practical $(ε,δ)$-differential privacy and establish the existence of a phase-transition on the class of problems that are approximately privately learnable with respect to how small $δ$ needs to be.",
+    "authors": [
+      "Yu-Xiang Wang",
+      "Jing Lei",
+      "Stephen E. Fienberg"
+    ],
+    "publication_date": "2015-02-23T03:52:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1502.06309v3",
+    "download_url": "https://arxiv.org/abs/1502.06309v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine learning of percolation models using graph convolutional neural networks",
+    "abstract": "Percolation is an important topic in climate, physics, materials science, epidemiology, finance, and so on. Prediction of percolation thresholds with machine learning methods remains challenging. In this paper, we build a powerful graph convolutional neural network to study the percolation in both supervised and unsupervised ways. From a supervised learning perspective, the graph convolutional neural network simultaneously and correctly trains data of different lattice types, such as the square and triangular lattices. For the unsupervised perspective, combining the graph convolutional neural network and the confusion method, the percolation threshold can be obtained by the \"W\" shaped performance. The finding of this work opens up the possibility of building a more general framework that can probe the percolation-related phenomenon.",
+    "authors": [
+      "Hua Tian",
+      "Lirong Zhang",
+      "Youjin Deng",
+      "Wanzhou Zhang"
+    ],
+    "publication_date": "2022-07-07T15:17:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.03368v2",
+    "download_url": "https://arxiv.org/abs/2207.03368v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey of Constrained Gaussian Process Regression: Approaches and Implementation Challenges",
+    "abstract": "Gaussian process regression is a popular Bayesian framework for surrogate modeling of expensive data sources. As part of a broader effort in scientific machine learning, many recent works have incorporated physical constraints or other a priori information within Gaussian process regression to supplement limited data and regularize the behavior of the model. We provide an overview and survey of several classes of Gaussian process constraints, including positivity or bound constraints, monotonicity and convexity constraints, differential equation constraints provided by linear PDEs, and boundary condition constraints. We compare the strategies behind each approach as well as the differences in implementation, concluding with a discussion of the computational challenges introduced by constraints.",
+    "authors": [
+      "Laura Swiler",
+      "Mamikon Gulian",
+      "Ari Frankel",
+      "Cosmin Safta",
+      "John Jakeman"
+    ],
+    "publication_date": "2020-06-16T17:03:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.09319v3",
+    "download_url": "https://arxiv.org/abs/2006.09319v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Detecting Patterns of Physiological Response to Hemodynamic Stress via Unsupervised Deep Learning",
+    "abstract": "Monitoring physiological responses to hemodynamic stress can help in determining appropriate treatment and ensuring good patient outcomes. Physicians' intuition suggests that the human body has a number of physiological response patterns to hemorrhage which escalate as blood loss continues, however the exact etiology and phenotypes of such responses are not well known or understood only at a coarse level. Although previous research has shown that machine learning models can perform well in hemorrhage detection and survival prediction, it is unclear whether machine learning could help to identify and characterize the underlying physiological responses in raw vital sign data. We approach this problem by first transforming the high-dimensional vital sign time series into a tractable, lower-dimensional latent space using a dilated, causal convolutional encoder model trained purely unsupervised. Second, we identify informative clusters in the embeddings. By analyzing the clusters of latent embeddings and visualizing them over time, we hypothesize that the clusters correspond to the physiological response patterns that match physicians' intuition. Furthermore, we attempt to evaluate the latent embeddings using a variety of methods, such as predicting the cluster labels using explainable features.",
+    "authors": [
+      "Chufan Gao",
+      "Fabian Falck",
+      "Mononito Goswami",
+      "Anthony Wertz",
+      "Michael R. Pinsky",
+      "Artur Dubrawski"
+    ],
+    "publication_date": "2019-11-12T19:55:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1911.05121v1",
+    "download_url": "https://arxiv.org/abs/1911.05121v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning Constrained Dynamics with Gauss Principle adhering Gaussian Processes",
+    "abstract": "The identification of the constrained dynamics of mechanical systems is often challenging. Learning methods promise to ease an analytical analysis, but require considerable amounts of data for training. We propose to combine insights from analytical mechanics with Gaussian process regression to improve the model's data efficiency and constraint integrity. The result is a Gaussian process model that incorporates a priori constraint knowledge such that its predictions adhere to Gauss' principle of least constraint. In return, predictions of the system's acceleration naturally respect potentially non-ideal (non-)holonomic equality constraints. As corollary results, our model enables to infer the acceleration of the unconstrained system from data of the constrained system and enables knowledge transfer between differing constraint configurations.",
+    "authors": [
+      "A. Rene Geist",
+      "Sebastian Trimpe"
+    ],
+    "publication_date": "2020-04-23T15:26:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.11238v1",
+    "download_url": "https://arxiv.org/abs/2004.11238v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mill.jl and JsonGrinder.jl: automated differentiable feature extraction for learning from raw JSON data",
+    "abstract": "Learning from raw data input, thus limiting the need for manual feature engineering, is one of the key components of many successful applications of machine learning methods. While machine learning problems are often formulated on data that naturally translate into a vector representation suitable for classifiers, there are data sources, for example in cybersecurity, that are naturally represented in diverse files with a unifying hierarchical structure, such as XML, JSON, and Protocol Buffers. Converting this data to vector (tensor) representation is generally done by manual feature engineering, which is laborious, lossy, and prone to human bias about the importance of particular features.\n  Mill and JsonGrinder is a tandem of libraries, which fully automates the conversion. Starting with an arbitrary set of JSON samples, they create a differentiable machine learning model capable of infer from further JSON samples in their raw form.",
+    "authors": [
+      "Simon Mandlik",
+      "Matej Racinsky",
+      "Viliam Lisy",
+      "Tomas Pevny"
+    ],
+    "publication_date": "2021-05-19T13:02:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.09107v1",
+    "download_url": "https://arxiv.org/abs/2105.09107v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Distilling Information from a Flood: A Possibility for the Use of Meta-Analysis and Systematic Review in Machine Learning Research",
+    "abstract": "The current flood of information in all areas of machine learning research, from computer vision to reinforcement learning, has made it difficult to make aggregate scientific inferences. It can be challenging to distill a myriad of similar papers into a set of useful principles, to determine which new methodologies to use for a particular application, and to be confident that one has compared against all relevant related work when developing new ideas. However, such a rapidly growing body of research literature is a problem that other fields have already faced - in particular, medicine and epidemiology. In those fields, systematic reviews and meta-analyses have been used exactly for dealing with these issues and it is not uncommon for entire journals to be dedicated to such analyses. Here, we suggest the field of machine learning might similarly benefit from meta-analysis and systematic review, and we encourage further discussion and development along this direction.",
+    "authors": [
+      "Peter Henderson",
+      "Emma Brunskill"
+    ],
+    "publication_date": "2018-12-03T20:37:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.01074v1",
+    "download_url": "https://arxiv.org/abs/1812.01074v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Knowledge Discovery in Surveys using Machine Learning: A Case Study of Women in Entrepreneurship in UAE",
+    "abstract": "Knowledge Discovery plays a very important role in analyzing data and getting insights from them to drive better business decisions. Entrepreneurship in a Knowledge based economy contributes greatly to the development of a country's economy. In this paper, we analyze surveys that were conducted on women in entrepreneurship in UAE. Relevant insights are extracted from the data that can help us to better understand the current landscape of women in entrepreneurship and predict the future as well. The features are analyzed using machine learning to drive better business decisions in the future.",
+    "authors": [
+      "Syed Farhan Ahmad",
+      "Amrah Hermayen",
+      "Ganga Bhavani"
+    ],
+    "publication_date": "2021-03-21T16:24:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.11430v2",
+    "download_url": "https://arxiv.org/abs/2103.11430v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the Performance of Machine Learning Methods for Breakthrough Curve Prediction",
+    "abstract": "Reactive flows are important part of numerous technical and environmental processes. Often monitoring the flow and species concentrations within the domain is not possible or is expensive, in contrast, outlet concentration is straightforward to measure. In connection with reactive flows in porous media, the term breakthrough curve is used to denote the time dependency of the outlet concentration with prescribed conditions at the inlet. In this work we apply several machine learning methods to predict breakthrough curves from the given set of parameters. In our case the parameters are the Damköhler and Peclet numbers. We perform a thorough analysis for the one-dimensional case and also provide the results for the three-dimensional case.",
+    "authors": [
+      "Daria Fokina",
+      "Oleg Iliev",
+      "Pavel Toktaliev",
+      "Ivan Oseledets",
+      "Felix Schindler"
+    ],
+    "publication_date": "2022-04-25T15:27:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.11719v1",
+    "download_url": "https://arxiv.org/abs/2204.11719v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MT-CGCNN: Integrating Crystal Graph Convolutional Neural Network with Multitask Learning for Material Property Prediction",
+    "abstract": "Developing accurate, transferable and computationally inexpensive machine learning models can rapidly accelerate the discovery and development of new materials. Some of the major challenges involved in developing such models are, (i) limited availability of materials data as compared to other fields, (ii) lack of universal descriptor of materials to predict its various properties. The limited availability of materials data can be addressed through transfer learning, while the generic representation was recently addressed by Xie and Grossman [1], where they developed a crystal graph convolutional neural network (CGCNN) that provides a unified representation of crystals. In this work, we develop a new model (MT-CGCNN) by integrating CGCNN with transfer learning based on multi-task (MT) learning. We demonstrate the effectiveness of MT-CGCNN by simultaneous prediction of various material properties such as Formation Energy, Band Gap and Fermi Energy for a wide range of inorganic crystals (46774 materials). MT-CGCNN is able to reduce the test error when employed on correlated properties by upto 8%. The model prediction has lower test error compared to CGCNN, even when the training data is reduced by 10%. We also demonstrate our model's better performance through prediction of end user scenario related to metal/non-metal classification. These results encourage further development of machine learning approaches which leverage multi-task learning to address the aforementioned challenges in the discovery of new materials. We make MT-CGCNN's source code available to encourage reproducible research.",
+    "authors": [
+      "Soumya Sanyal",
+      "Janakiraman Balachandran",
+      "Naganand Yadati",
+      "Abhishek Kumar",
+      "Padmini Rajagopalan",
+      "Suchismita Sanyal",
+      "Partha Talukdar"
+    ],
+    "publication_date": "2018-11-14T06:13:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.05660v1",
+    "download_url": "https://arxiv.org/abs/1811.05660v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine learning on Crays to optimise petrophysical workflows in oil and gas exploration",
+    "abstract": "The oil and gas industry is awash with sub-surface data, which is used to characterize the rock and fluid properties beneath the seabed. This in turn drives commercial decision making and exploration, but the industry currently relies upon highly manual workflows when processing data. A key question is whether this can be improved using machine learning to complement the activities of petrophysicists searching for hydrocarbons. In this paper we present work done, in collaboration with Rock Solid Images (RSI), using supervised machine learning on a Cray XC30 to train models that streamline the manual data interpretation process. With a general aim of decreasing the petrophysical interpretation time down from over 7 days to 7 minutes, in this paper we describe the use of mathematical models that have been trained using raw well log data, for completing each of the four stages of a petrophysical interpretation workflow, along with initial data cleaning. We explore how the predictions from these models compare against the interpretations of human petrophysicists, along with numerous options and techniques that were used to optimise the prediction of our models. The power provided by modern supercomputers such as Cray machines is crucial here, but some popular machine learning framework are unable to take full advantage of modern HPC machines. As such we will also explore the suitability of the machine learning tools we have used, and describe steps we took to work round their limitations. The result of this work is the ability, for the first time, to use machine learning for the entire petrophysical workflow. Whilst there are numerous challenges, limitations and caveats, we demonstrate that machine learning has an important role to play in the processing of sub-surface data.",
+    "authors": [
+      "Nick Brown",
+      "Anna Roubickova",
+      "Ioanna Lampaki",
+      "Lucy MacGregor",
+      "Michelle Ellis",
+      "Paola Vera de Newton"
+    ],
+    "publication_date": "2020-10-01T10:14:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.02087v1",
+    "download_url": "https://arxiv.org/abs/2010.02087v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Greedy Miser: Learning under Test-time Budgets",
+    "abstract": "As machine learning algorithms enter applications in industrial settings, there is increased interest in controlling their cpu-time during testing. The cpu-time consists of the running time of the algorithm and the extraction time of the features. The latter can vary drastically when the feature set is diverse. In this paper, we propose an algorithm, the Greedy Miser, that incorporates the feature extraction cost during training to explicitly minimize the cpu-time during testing. The algorithm is a straightforward extension of stage-wise regression and is equally suitable for regression or multi-class classification. Compared to prior work, it is significantly more cost-effective and scales to larger data sets.",
+    "authors": [
+      "Zhixiang Xu",
+      "Kilian Weinberger",
+      "Olivier Chapelle"
+    ],
+    "publication_date": "2012-06-27T19:59:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1206.6451v1",
+    "download_url": "https://arxiv.org/abs/1206.6451v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
+    "abstract": "Many machine learning algorithms are vulnerable to almost imperceptible perturbations of their inputs. So far it was unclear how much risk adversarial perturbations carry for the safety of real-world machine learning applications because most methods used to generate such perturbations rely either on detailed model information (gradient-based attacks) or on confidence scores such as class probabilities (score-based attacks), neither of which are available in most real-world scenarios. In many such cases one currently needs to retreat to transfer-based attacks which rely on cumbersome substitute models, need access to the training data and can be defended against. Here we emphasise the importance of attacks which solely rely on the final model decision. Such decision-based attacks are (1) applicable to real-world black-box models such as autonomous cars, (2) need less knowledge and are easier to apply than transfer-based attacks and (3) are more robust to simple defences than gradient- or score-based attacks. Previous attacks in this category were limited to simple models or simple datasets. Here we introduce the Boundary Attack, a decision-based attack that starts from a large adversarial perturbation and then seeks to reduce the perturbation while staying adversarial. The attack is conceptually simple, requires close to no hyperparameter tuning, does not rely on substitute models and is competitive with the best gradient-based attacks in standard computer vision tasks like ImageNet. We apply the attack on two black-box algorithms from Clarifai.com. The Boundary Attack in particular and the class of decision-based attacks in general open new avenues to study the robustness of machine learning models and raise new questions regarding the safety of deployed machine learning systems. An implementation of the attack is available as part of Foolbox at https://github.com/bethgelab/foolbox .",
+    "authors": [
+      "Wieland Brendel",
+      "Jonas Rauber",
+      "Matthias Bethge"
+    ],
+    "publication_date": "2017-12-12T11:36:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1712.04248v2",
+    "download_url": "https://arxiv.org/abs/1712.04248v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Real World Applications of Machine Learning Techniques over Large Mobile Subscriber Datasets",
+    "abstract": "Communication Service Providers (CSPs) are in a unique position to utilize their vast transactional data assets generated from interactions of subscribers with network elements as well as with other subscribers. CSPs could leverage its data assets for a gamut of applications such as service personalization, predictive offer management, loyalty management, revenue forecasting, network capacity planning, product bundle optimization and churn management to gain significant competitive advantage. However, due to the sheer data volume, variety, velocity and veracity of mobile subscriber datasets, sophisticated data analytics techniques and frameworks are necessary to derive actionable insights in a useable timeframe. In this paper, we describe our journey from a relational database management system (RDBMS) based campaign management solution which allowed data scientists and marketers to use hand-written rules for service personalization and targeted promotions to a distributed Big Data Analytics platform, capable of performing large scale machine learning and data mining to deliver real time service personalization, predictive modelling and product optimization. Our work involves a careful blend of technology, processes and best practices, which facilitate man-machine collaboration and continuous experimentation to derive measurable economic value from data. Our platform has a reach of more than 500 million mobile subscribers worldwide, delivering over 1 billion personalized recommendations annually, processing a total data volume of 64 Petabytes, corresponding to 8.5 trillion events.",
+    "authors": [
+      "Jobin Wilson",
+      "Chitharanj Kachappilly",
+      "Rakesh Mohan",
+      "Prateek Kapadia",
+      "Arun Soman",
+      "Santanu Chaudhury"
+    ],
+    "publication_date": "2015-02-08T06:18:55Z",
+    "arxiv_id": "http://arxiv.org/abs/1502.02215v1",
+    "download_url": "https://arxiv.org/abs/1502.02215v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Adaptively Learning the Crowd Kernel",
+    "abstract": "We introduce an algorithm that, given n objects, learns a similarity matrix over all n^2 pairs, from crowdsourced data alone. The algorithm samples responses to adaptively chosen triplet-based relative-similarity queries. Each query has the form \"is object 'a' more similar to 'b' or to 'c'?\" and is chosen to be maximally informative given the preceding responses. The output is an embedding of the objects into Euclidean space (like MDS); we refer to this as the \"crowd kernel.\" SVMs reveal that the crowd kernel captures prominent and subtle features across a number of domains, such as \"is striped\" among neckties and \"vowel vs. consonant\" among letters.",
+    "authors": [
+      "Omer Tamuz",
+      "Ce Liu",
+      "Serge Belongie",
+      "Ohad Shamir",
+      "Adam Tauman Kalai"
+    ],
+    "publication_date": "2011-05-05T11:03:03Z",
+    "arxiv_id": "http://arxiv.org/abs/1105.1033v2",
+    "download_url": "https://arxiv.org/abs/1105.1033v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DeepCAVE: A Visualization and Analysis Tool for Automated Machine Learning",
+    "abstract": "Hyperparameter optimization (HPO), as a central paradigm of AutoML, is crucial for leveraging the full potential of machine learning (ML) models; yet its complexity poses challenges in understanding and debugging the optimization process. We present DeepCAVE, a tool for interactive visualization and analysis, providing insights into HPO. Through an interactive dashboard, researchers, data scientists, and ML engineers can explore various aspects of the HPO process and identify issues, untouched potentials, and new insights about the ML model being tuned. By empowering users with actionable insights, DeepCAVE contributes to the interpretability of HPO and ML on a design level and aims to foster the development of more robust and efficient methodologies in the future.",
+    "authors": [
+      "Sarah Segel",
+      "Helena Graf",
+      "Edward Bergman",
+      "Kristina Thieme",
+      "Marcel Wever",
+      "Alexander Tornede",
+      "Frank Hutter",
+      "Marius Lindauer"
+    ],
+    "publication_date": "2025-12-01T15:45:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.01810v1",
+    "download_url": "https://arxiv.org/abs/2512.01810v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Machine Learning in High Energy Physics",
+    "abstract": "Machine learning has been used in high energy physics for a long time, primarily at the analysis level with supervised classification. Quantum computing was postulated in the early 1980s as way to perform computations that would not be tractable with a classical computer. With the advent of noisy intermediate-scale quantum computing devices, more quantum algorithms are being developed with the aim at exploiting the capacity of the hardware for machine learning applications. An interesting question is whether there are ways to apply quantum machine learning to High Energy Physics. This paper reviews the first generation of ideas that use quantum machine learning on problems in high energy physics and provide an outlook on future applications.",
+    "authors": [
+      "Wen Guan",
+      "Gabriel Perdue",
+      "Arthur Pesah",
+      "Maria Schuld",
+      "Koji Terashi",
+      "Sofia Vallecorsa",
+      "Jean-Roch Vlimant"
+    ],
+    "publication_date": "2020-05-18T10:48:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.08582v2",
+    "download_url": "https://arxiv.org/abs/2005.08582v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Climate Adaptation with Reinforcement Learning: Experiments with Flooding and Transportation in Copenhagen",
+    "abstract": "Due to climate change the frequency and intensity of extreme rainfall events, which contribute to urban flooding, are expected to increase in many places. These floods can damage transport infrastructure and disrupt mobility, highlighting the need for cities to adapt to escalating risks. Reinforcement learning (RL) serves as a powerful tool for uncovering optimal adaptation strategies, determining how and where to deploy adaptation measures effectively, even under significant uncertainty. In this study, we leverage RL to identify the most effective timing and locations for implementing measures, aiming to reduce both direct and indirect impacts of flooding. Our framework integrates climate change projections of future rainfall events and floods, models city-wide motorized trips, and quantifies direct and indirect impacts on infrastructure and mobility. Preliminary results suggest that our RL-based approach can significantly enhance decision-making by prioritizing interventions in specific urban areas and identifying the optimal periods for their implementation. Our framework is publicly available: \\url{https://github.com/MLSM-at-DTU/floods_transport_rl}.",
+    "authors": [
+      "Miguel Costa",
+      "Morten W. Petersen",
+      "Arthur Vandervoort",
+      "Martin Drews",
+      "Karyn Morrissey",
+      "Francisco C. Pereira"
+    ],
+    "publication_date": "2024-09-27T09:18:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.18574v2",
+    "download_url": "https://arxiv.org/abs/2409.18574v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Soccer Team Vectors",
+    "abstract": "In this work we present STEVE - Soccer TEam VEctors, a principled approach for learning real valued vectors for soccer teams where similar teams are close to each other in the resulting vector space. STEVE only relies on freely available information about the matches teams played in the past. These vectors can serve as input to various machine learning tasks. Evaluating on the task of team market value estimation, STEVE outperforms all its competitors. Moreover, we use STEVE for similarity search and to rank soccer teams.",
+    "authors": [
+      "Robert Müller",
+      "Stefan Langer",
+      "Fabian Ritz",
+      "Christoph Roch",
+      "Steffen Illium",
+      "Claudia Linnhoff-Popien"
+    ],
+    "publication_date": "2019-07-30T13:46:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.00698v2",
+    "download_url": "https://arxiv.org/abs/1908.00698v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Improvement of Data Classification Using Random Multimodel Deep Learning (RMDL)",
+    "abstract": "The exponential growth in the number of complex datasets every year requires more enhancement in machine learning methods to provide robust and accurate data classification. Lately, deep learning approaches have achieved surpassing results in comparison to previous machine learning algorithms. However, finding the suitable structure for these models has been a challenge for researchers. This paper introduces Random Multimodel Deep Learning (RMDL): a new ensemble, deep learning approach for classification. RMDL solves the problem of finding the best deep learning structure and architecture while simultaneously improving robustness and accuracy through ensembles of deep learning architectures. In short, RMDL trains multiple randomly generated models of Deep Neural Network (DNN), Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN) in parallel and combines their results to produce better result of any of those models individually. In this paper, we describe RMDL model and compare the results for image and text classification as well as face recognition. We used MNIST and CIFAR-10 datasets as ground truth datasets for image classification and WOS, Reuters, IMDB, and 20newsgroup datasets for text classification. Lastly, we used ORL dataset to compare the model performance on face recognition task.",
+    "authors": [
+      "Mojtaba Heidarysafa",
+      "Kamran Kowsari",
+      "Donald E. Brown",
+      "Kiana Jafari Meimandi",
+      "Laura E. Barnes"
+    ],
+    "publication_date": "2018-08-23T00:38:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1808.08121v1",
+    "download_url": "https://arxiv.org/abs/1808.08121v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning Models Evaluation and Feature Importance Analysis on NPL Dataset",
+    "abstract": "Predicting the probability of non-performing loans for individuals has a vital and beneficial role for banks to decrease credit risk and make the right decisions before giving the loan. The trend to make these decisions are based on credit study and in accordance with generally accepted standards, loan payment history, and demographic data of the clients. In this work, we evaluate how different Machine learning models such as Random Forest, Decision tree, KNN, SVM, and XGBoost perform on the dataset provided by a private bank in Ethiopia. Further, motivated by this evaluation we explore different feature selection methods to state the important features for the bank. Our findings show that XGBoost achieves the highest F1 score on the KMeans SMOTE over-sampled data. We also found that the most important features are the age of the applicant, years of employment, and total income of the applicant rather than collateral-related features in evaluating credit risk.",
+    "authors": [
+      "Rufael Fekadu",
+      "Anteneh Getachew",
+      "Yishak Tadele",
+      "Nuredin Ali",
+      "Israel Goytom"
+    ],
+    "publication_date": "2022-08-28T17:09:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.09638v1",
+    "download_url": "https://arxiv.org/abs/2209.09638v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Harnessing Machine Learning for Single-Shot Measurement of Free Electron Laser Pulse Power",
+    "abstract": "Electron beam accelerators are essential in many scientific and technological fields. Their operation relies heavily on the stability and precision of the electron beam. Traditional diagnostic techniques encounter difficulties in addressing the complex and dynamic nature of electron beams. Particularly in the context of free-electron lasers (FELs), it is fundamentally impossible to measure the lasing-on and lasingoff electron power profiles for a single electron bunch. This is a crucial hurdle in the exact reconstruction of the photon pulse profile. To overcome this hurdle, we developed a machine learning model that predicts the temporal power profile of the electron bunch in the lasing-off regime using machine parameters that can be obtained when lasing is on. The model was statistically validated and showed superior predictions compared to the state-of-the-art batch calibrations. The work we present here is a critical element for a virtual pulse reconstruction diagnostic (VPRD) tool designed to reconstruct the power profile of individual photon pulses without requiring repeated measurements in the lasing-off regime. This promises to significantly enhance the diagnostic capabilities in FELs at large.",
+    "authors": [
+      "Till Korten",
+      "Vladimir Rybnikov",
+      "Mathias Vogt",
+      "Juliane Roensch-Schulenburg",
+      "Peter Steinbach",
+      "Najmeh Mirian"
+    ],
+    "publication_date": "2024-11-14T14:16:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.09468v2",
+    "download_url": "https://arxiv.org/abs/2411.09468v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Darts: User-Friendly Modern Machine Learning for Time Series",
+    "abstract": "We present Darts, a Python machine learning library for time series, with a focus on forecasting. Darts offers a variety of models, from classics such as ARIMA to state-of-the-art deep neural networks. The emphasis of the library is on offering modern machine learning functionalities, such as supporting multidimensional series, meta-learning on multiple series, training on large datasets, incorporating external data, ensembling models, and providing a rich support for probabilistic forecasting. At the same time, great care goes into the API design to make it user-friendly and easy to use. For instance, all models can be used using fit()/predict(), similar to scikit-learn.",
+    "authors": [
+      "Julien Herzen",
+      "Francesco Lässig",
+      "Samuele Giuliano Piazzetta",
+      "Thomas Neuer",
+      "Léo Tafti",
+      "Guillaume Raille",
+      "Tomas Van Pottelbergh",
+      "Marek Pasieka",
+      "Andrzej Skrodzki",
+      "Nicolas Huguenin",
+      "Maxime Dumonal",
+      "Jan Kościsz",
+      "Dennis Bader",
+      "Frédérick Gusset",
+      "Mounir Benheddi",
+      "Camila Williamson",
+      "Michal Kosinski",
+      "Matej Petrik",
+      "Gaël Grosch"
+    ],
+    "publication_date": "2021-10-07T07:18:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.03224v3",
+    "download_url": "https://arxiv.org/abs/2110.03224v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Wildfire Smoke and Air Quality: How Machine Learning Can Guide Forest Management",
+    "abstract": "Prescribed burns are currently the most effective method of reducing the risk of widespread wildfires, but a largely missing component in forest management is knowing which fuels one can safely burn to minimize exposure to toxic smoke. Here we show how machine learning, such as spectral clustering and manifold learning, can provide interpretable representations and powerful tools for differentiating between smoke types, hence providing forest managers with vital information on effective strategies to reduce climate-induced wildfires while minimizing production of harmful smoke.",
+    "authors": [
+      "Lorenzo Tomaselli",
+      "Coty Jen",
+      "Ann B. Lee"
+    ],
+    "publication_date": "2020-10-09T15:49:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.04651v2",
+    "download_url": "https://arxiv.org/abs/2010.04651v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning Recourse Costs from Pairwise Feature Comparisons",
+    "abstract": "This paper presents a novel technique for incorporating user input when learning and inferring user preferences. When trying to provide users of black-box machine learning models with actionable recourse, we often wish to incorporate their personal preferences about the ease of modifying each individual feature. These recourse finding algorithms usually require an exhaustive set of tuples associating each feature to its cost of modification. Since it is hard to obtain such costs by directly surveying humans, in this paper, we propose the use of the Bradley-Terry model to automatically infer feature-wise costs using non-exhaustive human comparison surveys. We propose that users only provide inputs comparing entire recourses, with all candidate feature modifications, determining which recourses are easier to implement relative to others, without explicit quantification of their costs. We demonstrate the efficient learning of individual feature costs using MAP estimates, and show that these non-exhaustive human surveys, which do not necessarily contain data for each feature pair comparison, are sufficient to learn an exhaustive set of feature costs, where each feature is associated with a modification cost.",
+    "authors": [
+      "Kaivalya Rawal",
+      "Himabindu Lakkaraju"
+    ],
+    "publication_date": "2024-09-20T23:04:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.13940v1",
+    "download_url": "https://arxiv.org/abs/2409.13940v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Advances and Open Problems in Federated Learning",
+    "abstract": "Federated learning (FL) is a machine learning setting where many clients (e.g. mobile devices or whole organizations) collaboratively train a model under the orchestration of a central server (e.g. service provider), while keeping the training data decentralized. FL embodies the principles of focused data collection and minimization, and can mitigate many of the systemic privacy risks and costs resulting from traditional, centralized machine learning and data science approaches. Motivated by the explosive growth in FL research, this paper discusses recent advances and presents an extensive collection of open problems and challenges.",
+    "authors": [
+      "Peter Kairouz",
+      "H. Brendan McMahan",
+      "Brendan Avent",
+      "Aurélien Bellet",
+      "Mehdi Bennis",
+      "Arjun Nitin Bhagoji",
+      "Kallista Bonawitz",
+      "Zachary Charles",
+      "Graham Cormode",
+      "Rachel Cummings",
+      "Rafael G. L. D'Oliveira",
+      "Hubert Eichner",
+      "Salim El Rouayheb",
+      "David Evans",
+      "Josh Gardner",
+      "Zachary Garrett",
+      "Adrià Gascón",
+      "Badih Ghazi",
+      "Phillip B. Gibbons",
+      "Marco Gruteser",
+      "Zaid Harchaoui",
+      "Chaoyang He",
+      "Lie He",
+      "Zhouyuan Huo",
+      "Ben Hutchinson",
+      "Justin Hsu",
+      "Martin Jaggi",
+      "Tara Javidi",
+      "Gauri Joshi",
+      "Mikhail Khodak",
+      "Jakub Konečný",
+      "Aleksandra Korolova",
+      "Farinaz Koushanfar",
+      "Sanmi Koyejo",
+      "Tancrède Lepoint",
+      "Yang Liu",
+      "Prateek Mittal",
+      "Mehryar Mohri",
+      "Richard Nock",
+      "Ayfer Özgür",
+      "Rasmus Pagh",
+      "Mariana Raykova",
+      "Hang Qi",
+      "Daniel Ramage",
+      "Ramesh Raskar",
+      "Dawn Song",
+      "Weikang Song",
+      "Sebastian U. Stich",
+      "Ziteng Sun",
+      "Ananda Theertha Suresh",
+      "Florian Tramèr",
+      "Praneeth Vepakomma",
+      "Jianyu Wang",
+      "Li Xiong",
+      "Zheng Xu",
+      "Qiang Yang",
+      "Felix X. Yu",
+      "Han Yu",
+      "Sen Zhao"
+    ],
+    "publication_date": "2019-12-10T20:55:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.04977v3",
+    "download_url": "https://arxiv.org/abs/1912.04977v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Shared Task on Bandit Learning for Machine Translation",
+    "abstract": "We introduce and describe the results of a novel shared task on bandit learning for machine translation. The task was organized jointly by Amazon and Heidelberg University for the first time at the Second Conference on Machine Translation (WMT 2017). The goal of the task is to encourage research on learning machine translation from weak user feedback instead of human references or post-edits. On each of a sequence of rounds, a machine translation system is required to propose a translation for an input, and receives a real-valued estimate of the quality of the proposed translation for learning. This paper describes the shared task's learning and evaluation setup, using services hosted on Amazon Web Services (AWS), the data and evaluation metrics, and the results of various machine translation architectures and learning protocols.",
+    "authors": [
+      "Artem Sokolov",
+      "Julia Kreutzer",
+      "Kellen Sunderland",
+      "Pavel Danchenko",
+      "Witold Szymaniak",
+      "Hagen Fürstenau",
+      "Stefan Riezler"
+    ],
+    "publication_date": "2017-07-27T21:16:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1707.09050v1",
+    "download_url": "https://arxiv.org/abs/1707.09050v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning Harnesses Molecular Dynamics to Discover New $μ$ Opioid Chemotypes",
+    "abstract": "Computational chemists typically assay drug candidates by virtually screening compounds against crystal structures of a protein despite the fact that some targets, like the $μ$ Opioid Receptor and other members of the GPCR family, traverse many non-crystallographic states. We discover new conformational states of $μOR$ with molecular dynamics simulation and then machine learn ligand-structure relationships to predict opioid ligand function. These artificial intelligence models identified a novel $μ$ opioid chemotype.",
+    "authors": [
+      "Evan N. Feinberg",
+      "Amir Barati Farimani",
+      "Rajendra Uprety",
+      "Amanda Hunkele",
+      "Gavril W. Pasternak",
+      "Susruta Majumdar",
+      "Vijay S. Pande"
+    ],
+    "publication_date": "2018-03-12T19:32:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.04479v1",
+    "download_url": "https://arxiv.org/abs/1803.04479v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Preferential Temporal Difference Learning",
+    "abstract": "Temporal-Difference (TD) learning is a general and very useful tool for estimating the value function of a given policy, which in turn is required to find good policies. Generally speaking, TD learning updates states whenever they are visited. When the agent lands in a state, its value can be used to compute the TD-error, which is then propagated to other states. However, it may be interesting, when computing updates, to take into account other information than whether a state is visited or not. For example, some states might be more important than others (such as states which are frequently seen in a successful trajectory). Or, some states might have unreliable value estimates (for example, due to partial observability or lack of data), making their values less desirable as targets. We propose an approach to re-weighting states used in TD updates, both when they are the input and when they provide the target for the update. We prove that our approach converges with linear function approximation and illustrate its desirable empirical behaviour compared to other TD-style methods.",
+    "authors": [
+      "Nishanth Anand",
+      "Doina Precup"
+    ],
+    "publication_date": "2021-06-11T17:05:15Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.06508v2",
+    "download_url": "https://arxiv.org/abs/2106.06508v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Research on Education Big Data for Students Academic Performance Analysis based on Machine Learning",
+    "abstract": "The application of the Internet in the field of education is becoming more and more popular, and a large amount of educational data is generated in the process. How to effectively use these data has always been a key issue in the field of educational data mining. In this work, a machine learning model based on Long Short-Term Memory Network (LSTM) was used to conduct an in-depth analysis of educational big data to evaluate student performance. The LSTM model efficiently processes time series data, allowing us to capture time-dependent and long-term trends in students' learning activities. This approach is particularly useful for analyzing student progress, engagement, and other behavioral patterns to support personalized education. In an experimental analysis, we verified the effectiveness of the deep learning method in predicting student performance by comparing the performance of different models. Strict cross-validation techniques are used to ensure the accuracy and generalization of experimental results.",
+    "authors": [
+      "Chun Wang",
+      "Jiexiao Chen",
+      "Ziyang Xie",
+      "Jianke Zou"
+    ],
+    "publication_date": "2024-06-25T01:19:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.16907v1",
+    "download_url": "https://arxiv.org/abs/2407.16907v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On Generalized Bellman Equations and Temporal-Difference Learning",
+    "abstract": "We consider off-policy temporal-difference (TD) learning in discounted Markov decision processes, where the goal is to evaluate a policy in a model-free way by using observations of a state process generated without executing the policy. To curb the high variance issue in off-policy TD learning, we propose a new scheme of setting the $λ$-parameters of TD, based on generalized Bellman equations. Our scheme is to set $λ$ according to the eligibility trace iterates calculated in TD, thereby easily keeping these traces in a desired bounded range. Compared with prior work, this scheme is more direct and flexible, and allows much larger $λ$ values for off-policy TD learning with bounded traces. As to its soundness, using Markov chain theory, we prove the ergodicity of the joint state-trace process under nonrestrictive conditions, and we show that associated with our scheme is a generalized Bellman equation (for the policy to be evaluated) that depends on both the evolution of $λ$ and the unique invariant probability measure of the state-trace process. These results not only lead immediately to a characterization of the convergence behavior of least-squares based implementation of our scheme, but also prepare the ground for further analysis of gradient-based implementations.",
+    "authors": [
+      "Huizhen Yu",
+      "A. Rupam Mahmood",
+      "Richard S. Sutton"
+    ],
+    "publication_date": "2017-04-14T16:01:18Z",
+    "arxiv_id": "http://arxiv.org/abs/1704.04463v2",
+    "download_url": "https://arxiv.org/abs/1704.04463v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A brief history on Homomorphic learning: A privacy-focused approach to machine learning",
+    "abstract": "Cryptography and data science research grew exponential with the internet boom. Legacy encryption techniques force users to make a trade-off between usability, convenience, and security. Encryption makes valuable data inaccessible, as it needs to be decrypted each time to perform any operation. Billions of dollars could be saved, and millions of people could benefit from cryptography methods that don't compromise between usability, convenience, and security. Homomorphic encryption is one such paradigm that allows running arbitrary operations on encrypted data. It enables us to run any sophisticated machine learning algorithm without access to the underlying raw data. Thus, homomorphic learning provides the ability to gain insights from sensitive data that has been neglected due to various governmental and organization privacy rules.\n  In this paper, we trace back the ideas of homomorphic learning formally posed by Ronald L. Rivest and Len Alderman as \"Can we compute upon encrypted data?\" in their 1978 paper. Then we gradually follow the ideas sprouting in the brilliant minds of Shafi Goldwasser, Kristin Lauter, Dan Bonch, Tomas Sander, Donald Beaver, and Craig Gentry to address that vital question. It took more than 30 years of collective effort to finally find the answer \"yes\" to that important question.",
+    "authors": [
+      "Aadesh Neupane"
+    ],
+    "publication_date": "2020-09-09T21:57:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.04587v2",
+    "download_url": "https://arxiv.org/abs/2009.04587v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Poisoning Attacks against Support Vector Machines",
+    "abstract": "We investigate a family of poisoning attacks against Support Vector Machines (SVM). Such attacks inject specially crafted training data that increases the SVM's test error. Central to the motivation for these attacks is the fact that most learning algorithms assume that their training data comes from a natural or well-behaved distribution. However, this assumption does not generally hold in security-sensitive settings. As we demonstrate, an intelligent adversary can, to some extent, predict the change of the SVM's decision function due to malicious input and use this ability to construct malicious data. The proposed attack uses a gradient ascent strategy in which the gradient is computed based on properties of the SVM's optimal solution. This method can be kernelized and enables the attack to be constructed in the input space even for non-linear kernels. We experimentally demonstrate that our gradient ascent procedure reliably identifies good local maxima of the non-convex validation error surface, which significantly increases the classifier's test error.",
+    "authors": [
+      "Battista Biggio",
+      "Blaine Nelson",
+      "Pavel Laskov"
+    ],
+    "publication_date": "2012-06-27T19:59:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1206.6389v3",
+    "download_url": "https://arxiv.org/abs/1206.6389v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Predictive Maintenance of Armoured Vehicles using Machine Learning Approaches",
+    "abstract": "Armoured vehicles are specialized and complex pieces of machinery designed to operate in high-stress environments, often in combat or tactical situations. This study proposes a predictive maintenance-based ensemble system that aids in predicting potential maintenance needs based on sensor data collected from these vehicles. The proposed model's architecture involves various models such as Light Gradient Boosting, Random Forest, Decision Tree, Extra Tree Classifier and Gradient Boosting to predict the maintenance requirements of the vehicles accurately. In addition, K-fold cross validation, along with TOPSIS analysis, is employed to evaluate the proposed ensemble model's stability. The results indicate that the proposed system achieves an accuracy of 98.93%, precision of 99.80% and recall of 99.03%. The algorithm can effectively predict maintenance needs, thereby reducing vehicle downtime and improving operational efficiency. Through comparisons between various algorithms and the suggested ensemble, this study highlights the potential of machine learning-based predictive maintenance solutions.",
+    "authors": [
+      "Prajit Sengupta",
+      "Anant Mehta",
+      "Prashant Singh Rana"
+    ],
+    "publication_date": "2023-07-26T18:50:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.14453v1",
+    "download_url": "https://arxiv.org/abs/2307.14453v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Position: Topological Deep Learning is the New Frontier for Relational Learning",
+    "abstract": "Topological deep learning (TDL) is a rapidly evolving field that uses topological features to understand and design deep learning models. This paper posits that TDL is the new frontier for relational learning. TDL may complement graph representation learning and geometric deep learning by incorporating topological concepts, and can thus provide a natural choice for various machine learning settings. To this end, this paper discusses open problems in TDL, ranging from practical benefits to theoretical foundations. For each problem, it outlines potential solutions and future research opportunities. At the same time, this paper serves as an invitation to the scientific community to actively participate in TDL research to unlock the potential of this emerging field.",
+    "authors": [
+      "Theodore Papamarkou",
+      "Tolga Birdal",
+      "Michael Bronstein",
+      "Gunnar Carlsson",
+      "Justin Curry",
+      "Yue Gao",
+      "Mustafa Hajij",
+      "Roland Kwitt",
+      "Pietro Liò",
+      "Paolo Di Lorenzo",
+      "Vasileios Maroulas",
+      "Nina Miolane",
+      "Farzana Nasrin",
+      "Karthikeyan Natesan Ramamurthy",
+      "Bastian Rieck",
+      "Simone Scardapane",
+      "Michael T. Schaub",
+      "Petar Veličković",
+      "Bei Wang",
+      "Yusu Wang",
+      "Guo-Wei Wei",
+      "Ghada Zamzmi"
+    ],
+    "publication_date": "2024-02-14T00:35:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.08871v3",
+    "download_url": "https://arxiv.org/abs/2402.08871v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Combining Machine Learning Defenses without Conflicts",
+    "abstract": "Machine learning (ML) defenses protect against various risks to security, privacy, and fairness. Real-life models need simultaneous protection against multiple different risks which necessitates combining multiple defenses. But combining defenses with conflicting interactions in an ML model can be ineffective, incurring a significant drop in the effectiveness of one or more defenses being combined. Practitioners need a way to determine if a given combination can be effective. Experimentally identifying effective combinations can be time-consuming and expensive, particularly when multiple defenses need to be combined. We need an inexpensive, easy-to-use combination technique to identify effective combinations. Ideally, a combination technique should be (a) accurate (correctly identifies whether a combination is effective or not), (b) scalable (allows combining multiple defenses), (c) non-invasive (requires no change to the defenses being combined), and (d) general (is applicable to different types of defenses). Prior works have identified several ad-hoc techniques but none satisfy all the requirements above. We propose a principled combination technique, Def\\Con, to identify effective defense combinations. Def\\Con meets all requirements, achieving 90% accuracy on eight combinations explored in prior work and 81% in 30 previously unexplored combinations that we empirically evaluate in this paper.",
+    "authors": [
+      "Vasisht Duddu",
+      "Rui Zhang",
+      "N. Asokan"
+    ],
+    "publication_date": "2024-11-14T19:41:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.09776v2",
+    "download_url": "https://arxiv.org/abs/2411.09776v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "P-DRUM: Post-hoc Descriptor-based Residual Uncertainty Modeling for Machine Learning Potentials",
+    "abstract": "Ensemble method is considered the gold standard for uncertainty quantification (UQ) in machine learning interatomic potentials (MLIPs). However, their high computational cost can limit its practicality. Alternative techniques, such as Monte Carlo dropout and deep kernel learning, have been proposed to improve computational efficiency; however, some of these methods cannot be applied to already trained models and may affect the prediction accuracy. In this paper, we propose a simple and efficient post-hoc framework for UQ that leverages the descriptor of a trained graph neural network potential to estimate residual errors. We refer to this method as post-hoc descriptor-based residual uncertainty modeling (P-DRUM). P-DRUM models the discrepancy between MLIP predictions and ground truth values, allowing these residuals to act as proxies for prediction uncertainty. We explore multiple variants of P-DRUM and benchmark them against established UQ methods, evaluating both their effectiveness and limitations.",
+    "authors": [
+      "Shih-Peng Huang",
+      "Nontawat Charoenphakdee",
+      "Yuta Tsuboi",
+      "Yong-Bin Zhuang",
+      "Wenwen Li"
+    ],
+    "publication_date": "2025-09-03T01:36:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.02927v2",
+    "download_url": "https://arxiv.org/abs/2509.02927v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the (In)security of Peer-to-Peer Decentralized Machine Learning",
+    "abstract": "In this work, we carry out the first, in-depth, privacy analysis of Decentralized Learning -- a collaborative machine learning framework aimed at addressing the main limitations of federated learning. We introduce a suite of novel attacks for both passive and active decentralized adversaries. We demonstrate that, contrary to what is claimed by decentralized learning proposers, decentralized learning does not offer any security advantage over federated learning. Rather, it increases the attack surface enabling any user in the system to perform privacy attacks such as gradient inversion, and even gain full control over honest users' local model. We also show that, given the state of the art in protections, privacy-preserving configurations of decentralized learning require fully connected networks, losing any practical advantage over the federated setup and therefore completely defeating the objective of the decentralized approach.",
+    "authors": [
+      "Dario Pasquini",
+      "Mathilde Raynal",
+      "Carmela Troncoso"
+    ],
+    "publication_date": "2022-05-17T15:36:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.08443v3",
+    "download_url": "https://arxiv.org/abs/2205.08443v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Incorporating Physical Knowledge into Machine Learning for Planetary Space Physics",
+    "abstract": "Recent improvements in data collection volume from planetary and space physics missions have allowed the application of novel data science techniques. The Cassini mission for example collected over 600 gigabytes of scientific data from 2004 to 2017. This represents a surge of data on the Saturn system. Machine learning can help scientists work with data on this larger scale. Unlike many applications of machine learning, a primary use in planetary space physics applications is to infer behavior about the system itself. This raises three concerns: first, the performance of the machine learning model, second, the need for interpretable applications to answer scientific questions, and third, how characteristics of spacecraft data change these applications. In comparison to these concerns, uses of black box or un-interpretable machine learning methods tend toward evaluations of performance only either ignoring the underlying physical process or, less often, providing misleading explanations for it. We build off a previous effort applying a semi-supervised physics-based classification of plasma instabilities in Saturn's magnetosphere. We then use this previous effort in comparison to other machine learning classifiers with varying data size access, and physical information access. We show that incorporating knowledge of these orbiting spacecraft data characteristics improves the performance and interpretability of machine learning methods, which is essential for deriving scientific meaning. Building on these findings, we present a framework on incorporating physics knowledge into machine learning problems targeting semi-supervised classification for space physics data in planetary environments. These findings present a path forward for incorporating physical knowledge into space physics and planetary mission data analyses for scientific discovery.",
+    "authors": [
+      "A. R. Azari",
+      "J. W. Lockhart",
+      "M. W. Liemohn",
+      "X. Jia"
+    ],
+    "publication_date": "2020-06-02T20:31:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2006.01927v1",
+    "download_url": "https://arxiv.org/abs/2006.01927v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning of polymer types from the spectral signature of Raman spectroscopy microplastics data",
+    "abstract": "The tools and technology that are currently used to analyze chemical compound structures that identify polymer types in microplastics are not well-calibrated for environmentally weathered microplastics. Microplastics that have been degraded by environmental weathering factors can offer less analytic certainty than samples of microplastics that have not been exposed to weathering processes. Machine learning tools and techniques allow us to better calibrate the research tools for certainty in microplastics analysis. In this paper, we investigate whether the signatures (Raman shift values) are distinct enough such that well studied machine learning (ML) algorithms can learn to identify polymer types using a relatively small amount of labeled input data when the samples have not been impacted by environmental degradation. Several ML models were trained on a well-known repository, Spectral Libraries of Plastic Particles (SLOPP), that contain Raman shift and intensity results for a range of plastic particles, then tested on environmentally aged plastic particles (SloPP-E) consisting of 22 polymer types. After extensive preprocessing and augmentation, the trained random forest model was then tested on the SloPP-E dataset resulting in an improvement in classification accuracy of 93.81% from 89%.",
+    "authors": [
+      "Sheela Ramanna",
+      "Danila Morozovskii",
+      "Sam Swanson",
+      "Jennifer Bruneau"
+    ],
+    "publication_date": "2022-01-14T13:34:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.05445v1",
+    "download_url": "https://arxiv.org/abs/2201.05445v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Interpretability of Machine Learning Methods Applied to Neuroimaging",
+    "abstract": "Deep learning methods have become very popular for the processing of natural images, and were then successfully adapted to the neuroimaging field. As these methods are non-transparent, interpretability methods are needed to validate them and ensure their reliability. Indeed, it has been shown that deep learning models may obtain high performance even when using irrelevant features, by exploiting biases in the training set. Such undesirable situations can potentially be detected by using interpretability methods. Recently, many methods have been proposed to interpret neural networks. However, this domain is not mature yet. Machine learning users face two major issues when aiming to interpret their models: which method to choose, and how to assess its reliability? Here, we aim at providing answers to these questions by presenting the most common interpretability methods and metrics developed to assess their reliability, as well as their applications and benchmarks in the neuroimaging context. Note that this is not an exhaustive survey: we aimed to focus on the studies which we found to be the most representative and relevant.",
+    "authors": [
+      "Elina Thibeau-Sutre",
+      "Sasha Collin",
+      "Ninon Burgos",
+      "Olivier Colliot"
+    ],
+    "publication_date": "2022-04-14T14:56:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.07005v1",
+    "download_url": "https://arxiv.org/abs/2204.07005v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MGPATH: Vision-Language Model with Multi-Granular Prompt Learning for Few-Shot WSI Classification",
+    "abstract": "Whole slide pathology image classification presents challenges due to gigapixel image sizes and limited annotation labels, hindering model generalization. This paper introduces a prompt learning method to adapt large vision-language models for few-shot pathology classification. We first extend the Prov-GigaPath vision foundation model, pre-trained on 1.3 billion pathology image tiles, into a vision-language model by adding adaptors and aligning it with medical text encoders via contrastive learning on 923K image-text pairs. The model is then used to extract visual features and text embeddings from few-shot annotations and fine-tunes with learnable prompt embeddings. Unlike prior methods that combine prompts with frozen features using prefix embeddings or self-attention, we propose multi-granular attention that compares interactions between learnable prompts with individual image patches and groups of them. This approach improves the model's ability to capture both fine-grained details and broader context, enhancing its recognition of complex patterns across sub-regions. To further improve accuracy, we leverage (unbalanced) optimal transport-based visual-text distance to secure model robustness by mitigating perturbations that might occur during the data augmentation process. Empirical experiments on lung, kidney, and breast pathology modalities validate the effectiveness of our approach; thereby, we surpass several of the latest competitors and consistently improve performance across diverse architectures, including CLIP, PLIP, and Prov-GigaPath integrated PLIP.",
+    "authors": [
+      "Anh-Tien Nguyen",
+      "Duy Minh Ho Nguyen",
+      "Nghiem Tuong Diep",
+      "Trung Quoc Nguyen",
+      "Nhat Ho",
+      "Jacqueline Michelle Metsch",
+      "Miriam Cindy Maurer",
+      "Daniel Sonntag",
+      "Hanibal Bohnenberger",
+      "Anne-Christin Hauschild"
+    ],
+    "publication_date": "2025-02-11T09:42:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.07409v5",
+    "download_url": "https://arxiv.org/abs/2502.07409v5",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning (ML) In a 5G Standalone (SA) Self Organizing Network (SON)",
+    "abstract": "Machine learning (ML) is included in Self-organizing Networks (SONs) that are key drivers for enhancing the Operations, Administration, and Maintenance (OAM) activities. It is included in the 5G Standalone (SA) system is one of the 5G communication tracks that transforms 4G networking to next-generation technology that is based on mobile applications. The research's main aim is to an overview of machine learning (ML) in 5G standalone core networks. 5G Standalone is considered a key enabler by the service providers as it improves the efficacy of the throughput that edges the network. It also assists in advancing new cellular use cases like ultra-reliable low latency communications (URLLC) that supports combinations of frequencies.",
+    "authors": [
+      "Srinivasan Sridharan"
+    ],
+    "publication_date": "2020-11-24T18:57:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.12288v1",
+    "download_url": "https://arxiv.org/abs/2011.12288v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Long Story Short: Omitted Variable Bias in Causal Machine Learning",
+    "abstract": "We develop a general theory of omitted variable bias for a wide range of common causal parameters, including (but not limited to) averages of potential outcomes, average treatment effects, average causal derivatives, and policy effects from covariate shifts. Our theory applies to nonparametric models, while naturally allowing for (semi-)parametric restrictions (such as partial linearity) when such assumptions are made. We show how simple plausibility judgments on the maximum explanatory power of omitted variables are sufficient to bound the magnitude of the bias, thus facilitating sensitivity analysis in otherwise complex, nonlinear models. Finally, we provide flexible and efficient statistical inference methods for the bounds, which can leverage modern machine learning algorithms for estimation. These results allow empirical researchers to perform sensitivity analyses in a flexible class of machine-learned causal models using very simple, and interpretable, tools. We demonstrate the utility of our approach with two empirical examples.",
+    "authors": [
+      "Victor Chernozhukov",
+      "Carlos Cinelli",
+      "Whitney Newey",
+      "Amit Sharma",
+      "Vasilis Syrgkanis"
+    ],
+    "publication_date": "2021-12-26T15:38:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.13398v5",
+    "download_url": "https://arxiv.org/abs/2112.13398v5",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reproducing Kernel Hilbert Space, Mercer's Theorem, Eigenfunctions, Nyström Method, and Use of Kernels in Machine Learning: Tutorial and Survey",
+    "abstract": "This is a tutorial and survey paper on kernels, kernel methods, and related fields. We start with reviewing the history of kernels in functional analysis and machine learning. Then, Mercer kernel, Hilbert and Banach spaces, Reproducing Kernel Hilbert Space (RKHS), Mercer's theorem and its proof, frequently used kernels, kernel construction from distance metric, important classes of kernels (including bounded, integrally positive definite, universal, stationary, and characteristic kernels), kernel centering and normalization, and eigenfunctions are explained in detail. Then, we introduce types of use of kernels in machine learning including kernel methods (such as kernel support vector machines), kernel learning by semi-definite programming, Hilbert-Schmidt independence criterion, maximum mean discrepancy, kernel mean embedding, and kernel dimensionality reduction. We also cover rank and factorization of kernel matrix as well as the approximation of eigenfunctions and kernels using the Nystr{ö}m method. This paper can be useful for various fields of science including machine learning, dimensionality reduction, functional analysis in mathematics, and mathematical physics in quantum mechanics.",
+    "authors": [
+      "Benyamin Ghojogh",
+      "Ali Ghodsi",
+      "Fakhri Karray",
+      "Mark Crowley"
+    ],
+    "publication_date": "2021-06-15T21:29:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.08443v1",
+    "download_url": "https://arxiv.org/abs/2106.08443v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The built environment and induced transport CO2 emissions: A double machine learning approach to account for residential self-selection",
+    "abstract": "Understanding why travel behavior differs between residents of urban centers and suburbs is key to sustainable urban planning. Especially in light of rapid urban growth, identifying housing locations that minimize travel demand and induced CO2 emissions is crucial to mitigate climate change. While the built environment plays an important role, the precise impact on travel behavior is obfuscated by residential self-selection. To address this issue, we propose a double machine learning approach to obtain unbiased, spatially-explicit estimates of the effect of the built environment on travel-related CO2 emissions for each neighborhood by controlling for residential self-selection. We examine how socio-demographics and travel-related attitudes moderate the effect and how it decomposes across the 5Ds of the built environment. Based on a case study for Berlin and the travel diaries of 32,000 residents, we find that the built environment causes household travel-related CO2 emissions to differ by a factor of almost two between central and suburban neighborhoods in Berlin. To highlight the practical importance for urban climate mitigation, we evaluate current plans for 64,000 new residential units in terms of total induced transport CO2 emissions. Our findings underscore the significance of spatially differentiated compact development to decarbonize the transport sector.",
+    "authors": [
+      "Florian Nachtigall",
+      "Felix Wagner",
+      "Peter Berrill",
+      "Felix Creutzig"
+    ],
+    "publication_date": "2023-12-07T22:04:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.06616v1",
+    "download_url": "https://arxiv.org/abs/2312.06616v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Energy-Based Models for Continual Learning",
+    "abstract": "We motivate Energy-Based Models (EBMs) as a promising model class for continual learning problems. Instead of tackling continual learning via the use of external memory, growing models, or regularization, EBMs change the underlying training objective to cause less interference with previously learned information. Our proposed version of EBMs for continual learning is simple, efficient, and outperforms baseline methods by a large margin on several benchmarks. Moreover, our proposed contrastive divergence-based training objective can be combined with other continual learning methods, resulting in substantial boosts in their performance. We further show that EBMs are adaptable to a more general continual learning setting where the data distribution changes without the notion of explicitly delineated tasks. These observations point towards EBMs as a useful building block for future continual learning methods.",
+    "authors": [
+      "Shuang Li",
+      "Yilun Du",
+      "Gido M. van de Ven",
+      "Igor Mordatch"
+    ],
+    "publication_date": "2020-11-24T17:08:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.12216v3",
+    "download_url": "https://arxiv.org/abs/2011.12216v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Prevalence of Errors in Machine Learning Experiments",
+    "abstract": "Context: Conducting experiments is central to research machine learning research to benchmark, evaluate and compare learning algorithms. Consequently it is important we conduct reliable, trustworthy experiments. Objective: We investigate the incidence of errors in a sample of machine learning experiments in the domain of software defect prediction. Our focus is simple arithmetical and statistical errors. Method: We analyse 49 papers describing 2456 individual experimental results from a previously undertaken systematic review comparing supervised and unsupervised defect prediction classifiers. We extract the confusion matrices and test for relevant constraints, e.g., the marginal probabilities must sum to one. We also check for multiple statistical significance testing errors. Results: We find that a total of 22 out of 49 papers contain demonstrable errors. Of these 7 were statistical and 16 related to confusion matrix inconsistency (one paper contained both classes of error). Conclusions: Whilst some errors may be of a relatively trivial nature, e.g., transcription errors their presence does not engender confidence. We strongly urge researchers to follow open science principles so errors can be more easily be detected and corrected, thus as a community reduce this worryingly high error rate with our computational experiments.",
+    "authors": [
+      "Martin Shepperd",
+      "Yuchen Guo",
+      "Ning Li",
+      "Mahir Arzoky",
+      "Andrea Capiluppi",
+      "Steve Counsell",
+      "Giuseppe Destefanis",
+      "Stephen Swift",
+      "Allan Tucker",
+      "Leila Yousefi"
+    ],
+    "publication_date": "2019-09-10T12:32:00Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.04436v1",
+    "download_url": "https://arxiv.org/abs/1909.04436v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards Scalable Newborn Screening: Automated General Movement Assessment in Uncontrolled Settings",
+    "abstract": "General movements (GMs) are spontaneous, coordinated body movements in infants that offer valuable insights into the developing nervous system. Assessed through the Prechtl GM Assessment (GMA), GMs are reliable predictors for neurodevelopmental disorders. However, GMA requires specifically trained clinicians, who are limited in number. To scale up newborn screening, there is a need for an algorithm that can automatically classify GMs from infant video recordings. This data poses challenges, including variability in recording length, device type, and setting, with each video coarsely annotated for overall movement quality. In this work, we introduce a tool for extracting features from these recordings and explore various machine learning techniques for automated GM classification.",
+    "authors": [
+      "Daphné Chopard",
+      "Sonia Laguna",
+      "Kieran Chin-Cheong",
+      "Annika Dietz",
+      "Anna Badura",
+      "Sven Wellmann",
+      "Julia E. Vogt"
+    ],
+    "publication_date": "2024-11-14T21:53:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.09821v4",
+    "download_url": "https://arxiv.org/abs/2411.09821v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Byzantine Fault-Tolerant Distributed Machine Learning Using Stochastic Gradient Descent (SGD) and Norm-Based Comparative Gradient Elimination (CGE)",
+    "abstract": "This paper considers the Byzantine fault-tolerance problem in distributed stochastic gradient descent (D-SGD) method - a popular algorithm for distributed multi-agent machine learning. In this problem, each agent samples data points independently from a certain data-generating distribution. In the fault-free case, the D-SGD method allows all the agents to learn a mathematical model best fitting the data collectively sampled by all agents. We consider the case when a fraction of agents may be Byzantine faulty. Such faulty agents may not follow a prescribed algorithm correctly, and may render traditional D-SGD method ineffective by sharing arbitrary incorrect stochastic gradients. We propose a norm-based gradient-filter, named comparative gradient elimination (CGE), that robustifies the D-SGD method against Byzantine agents. We show that the CGE gradient-filter guarantees fault-tolerance against a bounded fraction of Byzantine agents under standard stochastic assumptions, and is computationally simpler compared to many existing gradient-filters such as multi-KRUM, geometric median-of-means, and the spectral filters. We empirically show, by simulating distributed learning on neural networks, that the fault-tolerance of CGE is comparable to that of existing gradient-filters. We also empirically show that exponential averaging of stochastic gradients improves the fault-tolerance of a generic gradient-filter.",
+    "authors": [
+      "Nirupam Gupta",
+      "Shuo Liu",
+      "Nitin H. Vaidya"
+    ],
+    "publication_date": "2020-08-11T13:51:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2008.04699v2",
+    "download_url": "https://arxiv.org/abs/2008.04699v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine learning based co-creative design framework",
+    "abstract": "We propose a flexible, co-creative framework bringing together multiple machine learning techniques to assist human users to efficiently produce effective creative designs. We demonstrate its potential with a perfume bottle design case study, including human evaluation and quantitative and qualitative analyses.",
+    "authors": [
+      "Brian Quanz",
+      "Wei Sun",
+      "Ajay Deshpande",
+      "Dhruv Shah",
+      "Jae-eun Park"
+    ],
+    "publication_date": "2020-01-23T20:18:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2001.08791v1",
+    "download_url": "https://arxiv.org/abs/2001.08791v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Uncovering Drift in Textual Data: An Unsupervised Method for Detecting and Mitigating Drift in Machine Learning Models",
+    "abstract": "Drift in machine learning refers to the phenomenon where the statistical properties of data or context, in which the model operates, change over time leading to a decrease in its performance. Therefore, maintaining a constant monitoring process for machine learning model performance is crucial in order to proactively prevent any potential performance regression. However, supervised drift detection methods require human annotation and consequently lead to a longer time to detect and mitigate the drift. In our proposed unsupervised drift detection method, we follow a two step process. Our first step involves encoding a sample of production data as the target distribution, and the model training data as the reference distribution. In the second step, we employ a kernel-based statistical test that utilizes the maximum mean discrepancy (MMD) distance metric to compare the reference and target distributions and estimate any potential drift. Our method also identifies the subset of production data that is the root cause of the drift. The models retrained using these identified high drift samples show improved performance on online customer experience quality metrics.",
+    "authors": [
+      "Saeed Khaki",
+      "Akhouri Abhinav Aditya",
+      "Zohar Karnin",
+      "Lan Ma",
+      "Olivia Pan",
+      "Samarth Marudheri Chandrashekar"
+    ],
+    "publication_date": "2023-09-07T16:45:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.03831v1",
+    "download_url": "https://arxiv.org/abs/2309.03831v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Embeddings and Representation Learning for Structured Data",
+    "abstract": "Performing machine learning on structured data is complicated by the fact that such data does not have vectorial form. Therefore, multiple approaches have emerged to construct vectorial representations of structured data, from kernel and distance approaches to recurrent, recursive, and convolutional neural networks. Recent years have seen heightened attention in this demanding field of research and several new approaches have emerged, such as metric learning on structured data, graph convolutional neural networks, and recurrent decoder networks for structured data. In this contribution, we provide an high-level overview of the state-of-the-art in representation learning and embeddings for structured data across a wide range of machine learning fields.",
+    "authors": [
+      "Benjamin Paaßen",
+      "Claudio Gallicchio",
+      "Alessio Micheli",
+      "Alessandro Sperduti"
+    ],
+    "publication_date": "2019-05-15T12:57:54Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.06147v1",
+    "download_url": "https://arxiv.org/abs/1905.06147v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Interpretable Two-level Boolean Rule Learning for Classification",
+    "abstract": "As a contribution to interpretable machine learning research, we develop a novel optimization framework for learning accurate and sparse two-level Boolean rules. We consider rules in both conjunctive normal form (AND-of-ORs) and disjunctive normal form (OR-of-ANDs). A principled objective function is proposed to trade classification accuracy and interpretability, where we use Hamming loss to characterize accuracy and sparsity to characterize interpretability. We propose efficient procedures to optimize these objectives based on linear programming (LP) relaxation, block coordinate descent, and alternating minimization. Experiments show that our new algorithms provide very good tradeoffs between accuracy and interpretability.",
+    "authors": [
+      "Guolong Su",
+      "Dennis Wei",
+      "Kush R. Varshney",
+      "Dmitry M. Malioutov"
+    ],
+    "publication_date": "2016-06-18T19:37:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1606.05798v1",
+    "download_url": "https://arxiv.org/abs/1606.05798v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DMLR: Data-centric Machine Learning Research -- Past, Present and Future",
+    "abstract": "Drawing from discussions at the inaugural DMLR workshop at ICML 2023 and meetings prior, in this report we outline the relevance of community engagement and infrastructure development for the creation of next-generation public datasets that will advance machine learning science. We chart a path forward as a collective effort to sustain the creation and maintenance of these datasets and methods towards positive scientific, societal and business impact.",
+    "authors": [
+      "Luis Oala",
+      "Manil Maskey",
+      "Lilith Bat-Leah",
+      "Alicia Parrish",
+      "Nezihe Merve Gürel",
+      "Tzu-Sheng Kuo",
+      "Yang Liu",
+      "Rotem Dror",
+      "Danilo Brajovic",
+      "Xiaozhe Yao",
+      "Max Bartolo",
+      "William A Gaviria Rojas",
+      "Ryan Hileman",
+      "Rainier Aliment",
+      "Michael W. Mahoney",
+      "Meg Risdal",
+      "Matthew Lease",
+      "Wojciech Samek",
+      "Debojyoti Dutta",
+      "Curtis G Northcutt",
+      "Cody Coleman",
+      "Braden Hancock",
+      "Bernard Koch",
+      "Girmaw Abebe Tadesse",
+      "Bojan Karlaš",
+      "Ahmed Alaa",
+      "Adji Bousso Dieng",
+      "Natasha Noy",
+      "Vijay Janapa Reddi",
+      "James Zou",
+      "Praveen Paritosh",
+      "Mihaela van der Schaar",
+      "Kurt Bollacker",
+      "Lora Aroyo",
+      "Ce Zhang",
+      "Joaquin Vanschoren",
+      "Isabelle Guyon",
+      "Peter Mattson"
+    ],
+    "publication_date": "2023-11-21T22:29:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2311.13028v2",
+    "download_url": "https://arxiv.org/abs/2311.13028v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ASTROMLSKIT: A New Statistical Machine Learning Toolkit: A Platform for Data Analytics in Astronomy",
+    "abstract": "Astroinformatics is a new impact area in the world of astronomy, occasionally called the final frontier, where several astrophysicists, statisticians and computer scientists work together to tackle various data intensive astronomical problems. Exponential growth in the data volume and increased complexity of the data augments difficult questions to the existing challenges. Classical problems in Astronomy are compounded by accumulation of astronomical volume of complex data, rendering the task of classification and interpretation incredibly laborious. The presence of noise in the data makes analysis and interpretation even more arduous. Machine learning algorithms and data analytic techniques provide the right platform for the challenges posed by these problems. A diverse range of open problem like star-galaxy separation, detection and classification of exoplanets, classification of supernovae is discussed. The focus of the paper is the applicability and efficacy of various machine learning algorithms like K Nearest Neighbor (KNN), random forest (RF), decision tree (DT), Support Vector Machine (SVM), Naïve Bayes and Linear Discriminant Analysis (LDA) in analysis and inference of the decision theoretic problems in Astronomy. The machine learning algorithms, integrated into ASTROMLSKIT, a toolkit developed in the course of the work, have been used to analyze HabCat data and supernovae data. Accuracy has been found to be appreciably good.",
+    "authors": [
+      "Snehanshu Saha",
+      "Surbhi Agrawal",
+      "Manikandan. R",
+      "Kakoli Bora",
+      "Swati Routh",
+      "Anand Narasimhamurthy"
+    ],
+    "publication_date": "2015-04-29T14:06:18Z",
+    "arxiv_id": "http://arxiv.org/abs/1504.07865v1",
+    "download_url": "https://arxiv.org/abs/1504.07865v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Considerations When Learning Additive Explanations for Black-Box Models",
+    "abstract": "Many methods to explain black-box models, whether local or global, are additive. In this paper, we study global additive explanations for non-additive models, focusing on four explanation methods: partial dependence, Shapley explanations adapted to a global setting, distilled additive explanations, and gradient-based explanations. We show that different explanation methods characterize non-additive components in a black-box model's prediction function in different ways. We use the concepts of main and total effects to anchor additive explanations, and quantitatively evaluate additive and non-additive explanations. Even though distilled explanations are generally the most accurate additive explanations, non-additive explanations such as tree explanations that explicitly model non-additive components tend to be even more accurate. Despite this, our user study showed that machine learning practitioners were better able to leverage additive explanations for various tasks. These considerations should be taken into account when considering which explanation to trust and use to explain black-box models.",
+    "authors": [
+      "Sarah Tan",
+      "Giles Hooker",
+      "Paul Koch",
+      "Albert Gordo",
+      "Rich Caruana"
+    ],
+    "publication_date": "2018-01-26T00:23:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1801.08640v4",
+    "download_url": "https://arxiv.org/abs/1801.08640v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning",
+    "abstract": "This chapter gives an overview of the core concepts of machine learning (ML) -- the use of algorithms that learn from data, identify patterns, and make predictions or decisions without being explicitly programmed -- that are relevant to particle physics with some examples of applications to the energy, intensity, cosmic, and accelerator frontiers.",
+    "authors": [
+      "Javier M. Duarte",
+      "Uros Seljak",
+      "Kazu Terao"
+    ],
+    "publication_date": "2025-12-11T21:50:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.11133v1",
+    "download_url": "https://arxiv.org/abs/2512.11133v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Robust Learning from Untrusted Sources",
+    "abstract": "Modern machine learning methods often require more data for training than a single expert can provide. Therefore, it has become a standard procedure to collect data from external sources, e.g. via crowdsourcing. Unfortunately, the quality of these sources is not always guaranteed. As additional complications, the data might be stored in a distributed way, or might even have to remain private. In this work, we address the question of how to learn robustly in such scenarios. Studying the problem through the lens of statistical learning theory, we derive a procedure that allows for learning from all available sources, yet automatically suppresses irrelevant or corrupted data. We show by extensive experiments that our method provides significant improvements over alternative approaches from robust statistics and distributed optimization.",
+    "authors": [
+      "Nikola Konstantinov",
+      "Christoph Lampert"
+    ],
+    "publication_date": "2019-01-29T14:33:42Z",
+    "arxiv_id": "http://arxiv.org/abs/1901.10310v2",
+    "download_url": "https://arxiv.org/abs/1901.10310v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep Learning Approach for Predicting 30 Day Readmissions after Coronary Artery Bypass Graft Surgery",
+    "abstract": "Hospital Readmissions within 30 days after discharge following Coronary Artery Bypass Graft (CABG) Surgery are substantial contributors to healthcare costs. Many predictive models were developed to identify risk factors for readmissions. However, majority of the existing models use statistical analysis techniques with data available at discharge. We propose an ensembled model to predict CABG readmissions using pre-discharge perioperative data and machine learning survival analysis techniques. Firstly, we applied fifty one potential readmission risk variables to Cox Proportional Hazard (CPH) survival regression univariate analysis. Fourteen of them turned out to be significant (with p value < 0.05), contributing to readmissions. Subsequently, we applied these 14 predictors to multivariate CPH model and Deep Learning Neural Network (NN) representation of the CPH model, DeepSurv. We validated this new ensembled model with 453 isolated adult CABG cases. Nine of the fourteen perioperative risk variables were identified as the most significant with Hazard Ratios (HR) of greater than 1.0. The concordance index metrics for CPH, DeepSurv, and ensembled models were then evaluated with training and validation datasets. Our ensembled model yielded promising results in terms of c-statistics, as we raised the the number of iterations and data set sizes. 30 day all-cause readmissions among isolated CABG patients can be predicted more effectively with perioperative pre-discharge data, using machine learning survival analysis techniques. Prediction accuracy levels could be improved further with deep learning algorithms.",
+    "authors": [
+      "Ramesh B. Manyam",
+      "Yanqing Zhang",
+      "William B. Keeling",
+      "Jose Binongo",
+      "Michael Kayatta",
+      "Seth Carter"
+    ],
+    "publication_date": "2018-12-03T08:20:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.00596v1",
+    "download_url": "https://arxiv.org/abs/1812.00596v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Asymmetric Private Set Intersection with Applications to Contact Tracing and Private Vertical Federated Machine Learning",
+    "abstract": "We present a multi-language, cross-platform, open-source library for asymmetric private set intersection (PSI) and PSI-Cardinality (PSI-C). Our protocol combines traditional DDH-based PSI and PSI-C protocols with compression based on Bloom filters that helps reduce communication in the asymmetric setting. Currently, our library supports C++, C, Go, WebAssembly, JavaScript, Python, and Rust, and runs on both traditional hardware (x86) and browser targets. We further apply our library to two use cases: (i) a privacy-preserving contact tracing protocol that is compatible with existing approaches, but improves their privacy guarantees, and (ii) privacy-preserving machine learning on vertically partitioned data.",
+    "authors": [
+      "Nick Angelou",
+      "Ayoub Benaissa",
+      "Bogdan Cebere",
+      "William Clark",
+      "Adam James Hall",
+      "Michael A. Hoeh",
+      "Daniel Liu",
+      "Pavlos Papadopoulos",
+      "Robin Roehm",
+      "Robert Sandmann",
+      "Phillipp Schoppmann",
+      "Tom Titcombe"
+    ],
+    "publication_date": "2020-11-18T15:38:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.09350v1",
+    "download_url": "https://arxiv.org/abs/2011.09350v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning Markets",
+    "abstract": "Prediction markets show considerable promise for developing flexible mechanisms for machine learning. Here, machine learning markets for multivariate systems are defined, and a utility-based framework is established for their analysis. This differs from the usual approach of defining static betting functions. It is shown that such markets can implement model combination methods used in machine learning, such as product of expert and mixture of expert approaches as equilibrium pricing models, by varying agent utility functions. They can also implement models composed of local potentials, and message passing methods. Prediction markets also allow for more flexible combinations, by combining multiple different utility functions. Conversely, the market mechanisms implement inference in the relevant probabilistic models. This means that market mechanism can be utilized for implementing parallelized model building and inference for probabilistic modelling.",
+    "authors": [
+      "Amos Storkey"
+    ],
+    "publication_date": "2011-06-22T17:12:42Z",
+    "arxiv_id": "http://arxiv.org/abs/1106.4509v1",
+    "download_url": "https://arxiv.org/abs/1106.4509v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Scaling-up Distributed Processing of Data Streams for Machine Learning",
+    "abstract": "Emerging applications of machine learning in numerous areas involve continuous gathering of and learning from streams of data. Real-time incorporation of streaming data into the learned models is essential for improved inference in these applications. Further, these applications often involve data that are either inherently gathered at geographically distributed entities or that are intentionally distributed across multiple machines for memory, computational, and/or privacy reasons. Training of models in this distributed, streaming setting requires solving stochastic optimization problems in a collaborative manner over communication links between the physical entities. When the streaming data rate is high compared to the processing capabilities of compute nodes and/or the rate of the communications links, this poses a challenging question: how can one best leverage the incoming data for distributed training under constraints on computing capabilities and/or communications rate? A large body of research has emerged in recent decades to tackle this and related problems. This paper reviews recently developed methods that focus on large-scale distributed stochastic optimization in the compute- and bandwidth-limited regime, with an emphasis on convergence analysis that explicitly accounts for the mismatch between computation, communication and streaming rates. In particular, it focuses on methods that solve: (i) distributed stochastic convex problems, and (ii) distributed principal component analysis, which is a nonconvex problem with geometric structure that permits global convergence. For such methods, the paper discusses recent advances in terms of distributed algorithmic designs when faced with high-rate streaming data. Further, it reviews guarantees underlying these methods, which show there exist regimes in which systems can learn from distributed, streaming data at order-optimal rates.",
+    "authors": [
+      "Matthew Nokleby",
+      "Haroon Raja",
+      "Waheed U. Bajwa"
+    ],
+    "publication_date": "2020-05-18T16:28:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.08854v2",
+    "download_url": "https://arxiv.org/abs/2005.08854v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How Well Generative Adversarial Networks Learn Distributions",
+    "abstract": "This paper studies the rates of convergence for learning distributions implicitly with the adversarial framework and Generative Adversarial Networks (GANs), which subsume Wasserstein, Sobolev, MMD GAN, and Generalized/Simulated Method of Moments (GMM/SMM) as special cases. We study a wide range of parametric and nonparametric target distributions under a host of objective evaluation metrics. We investigate how to obtain valid statistical guarantees for GANs through the lens of regularization. On the nonparametric end, we derive the optimal minimax rates for distribution estimation under the adversarial framework. On the parametric end, we establish a theory for general neural network classes (including deep leaky ReLU networks) that characterizes the interplay on the choice of generator and discriminator pair. We discover and isolate a new notion of regularization, called the generator-discriminator-pair regularization, that sheds light on the advantage of GANs compared to classical parametric and nonparametric approaches for explicit distribution estimation. We develop novel oracle inequalities as the main technical tools for analyzing GANs, which are of independent interest.",
+    "authors": [
+      "Tengyuan Liang"
+    ],
+    "publication_date": "2018-11-07T23:14:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.03179v4",
+    "download_url": "https://arxiv.org/abs/1811.03179v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

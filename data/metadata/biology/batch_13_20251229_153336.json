@@ -1,0 +1,1371 @@
+[
+  {
+    "title": "Adaptive Mantel Test for AssociationTesting in Imaging Genetics Data",
+    "abstract": "Mantel's test (MT) for association is conducted by testing the linear relationship of similarity of all pairs of subjects between two observational domains. Motivated by applications to neuroimaging and genetics data, and following the succes of shrinkage and kernel methods for prediction with high-dimensional data, we here introduce the adaptive Mantel test as an extension of the MT. By utilizing kernels and penalized similarity measures, the adaptive Mantel test is able to achieve higher statistical power relative to the classical MT in many settings. Furthermore, the adaptive Mantel test is designed to simultaneously test over multiple similarity measures such that the correct type I error rate under the null hypothesis is maintained without the need to directly adjust the significance threshold for multiple testing. The performance of the adaptive Mantel test is evaluated on simulated data, and is used to investigate associations between genetics markers related to Alzheimer's Disease and heatlhy brain physiology with data from a working memory study of 350 college students from Beijing Normal University.",
+    "authors": [
+      "Dustin Pluta",
+      "Hernando Ombao",
+      "Chuansheng Chen",
+      "Gui Xue",
+      "Robert Moyzis",
+      "Zhaoxia Yu"
+    ],
+    "publication_date": "2017-12-20T00:06:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1712.07270v2",
+    "download_url": "https://arxiv.org/abs/1712.07270v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Phase-type distributions in population genetics",
+    "abstract": "Probability modelling for DNA sequence evolution is well established and provides a rich framework for understanding genetic variation between samples of individuals from one or more populations. We show that both classical and more recent models for coalescence (with or without recombination) can be described in terms of the so-called phase-type theory, where complicated and tedious calculations are circumvented by the use of matrices. The application of phase-type theory consists of describing the stochastic model as a Markov model by appropriately setting up a state space and calculating the corresponding intensity and reward matrices. Formulae of interest are then expressed in terms of these aforementioned matrices. We illustrate this by a few examples calculating the mean, variance and even higher order moments of the site frequency spectrum in the multiple merger coalescent models, and by analysing the mean and variance for the number of segregating sites for multiple samples in the two-locus ancestral recombination graph. We believe that phase-type theory has great potential as a tool for analysing probability models in population genetics. The compact matrix notation is useful for clarification of current models, in particular their formal manipulation (calculation), but also for further development or extensions.",
+    "authors": [
+      "Asger Hobolth",
+      "Arno Siri-Jégousse",
+      "Mogens Bladt"
+    ],
+    "publication_date": "2018-06-04T22:22:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.01416v1",
+    "download_url": "https://arxiv.org/abs/1806.01416v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Two Remarkable Computational Competencies of the Simple Genetic Algorithm",
+    "abstract": "Since the inception of genetic algorithmics the identification of computational efficiencies of the simple genetic algorithm (SGA) has been an important goal. In this paper we distinguish between a computational competency of the SGA--an efficient, but narrow computational ability--and a computational proficiency of the SGA--a computational ability that is both efficient and broad. Till date, attempts to deduce a computational proficiency of the SGA have been unsuccessful. It may, however, be possible to inductively infer a computational proficiency of the SGA from a set of related computational competencies that have been deduced. With this in mind we deduce two computational competencies of the SGA. These competencies, when considered together, point toward a remarkable computational proficiency of the SGA. This proficiency is pertinent to a general problem that is closely related to a well-known statistical problem at the cutting edge of computational genetics.",
+    "authors": [
+      "Keki M. Burjorjee"
+    ],
+    "publication_date": "2008-10-19T01:08:00Z",
+    "arxiv_id": "http://arxiv.org/abs/0810.3357v2",
+    "download_url": "https://arxiv.org/abs/0810.3357v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Loss of least-loaded class in asexual populations due to drift and epistasis",
+    "abstract": "We consider the dynamics of a non-recombining haploid population of finite size which accumulates deleterious mutations irreversibly. This ratchet like process occurs at a finite speed in the absence of epistasis, but it has been suggested that synergistic epistasis can halt the ratchet. Using a diffusion theory, we find explicit analytical expressions for the typical time between successive clicks of the ratchet for both non-epistatic and epistatic fitness functions. Our calculations show that the inter-click time is of a scaling form which in the absence of epistasis gives a speed that is determined by size of the least-loaded class and the selection coefficient. With synergistic interactions, the ratchet speed is found to approach zero rapidly for arbitrary epistasis. Our analytical results are in good agreement with the numerical simulations.",
+    "authors": [
+      "Kavita Jain"
+    ],
+    "publication_date": "2008-03-11T11:11:21Z",
+    "arxiv_id": "http://arxiv.org/abs/0803.1552v2",
+    "download_url": "https://arxiv.org/abs/0803.1552v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Population genetics: coalescence rate and demographic parameters inference",
+    "abstract": "We propose in this article a brief description of the work, over almost a decade, resulting from a collaboration between mathematicians and biologists from four different research laboratories, identifiable as the co-authors of the articles whose results are described here, and implicitely co-authors of this article, under the signature of Camille Noûs. This modeling work is part of population genetics, of which we give a definition below. It is therefore essentially at the interface between mathematical tools, more particularly probabilistic ones, and biological data, more specifically genetic ones.",
+    "authors": [
+      "Olivier Mazet",
+      "Camille Noûs"
+    ],
+    "publication_date": "2022-07-05T15:27:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.02111v3",
+    "download_url": "https://arxiv.org/abs/2207.02111v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "GEMINI: integrative exploration of genetic variation and genome annotations",
+    "abstract": "Modern DNA sequencing technologies enable geneticists to rapidly identify genetic variation among many human genomes. However, isolating the minority of variants underlying disease remains an important, yet formidable challenge for medical genetics. We have developed GEMINI (GEnome MINIng), a flexible software package for exploring all forms of human genetic variation. Unlike existing tools, GEMINI integrates genetic variation with a diverse and flexible set of genome annotations (e.g., dbSNP, ENCODE, UCSC, ClinVar, KEGG) into a unified database to facilitate interpretation and data exploration. Whereas other methods provide an inflexible set of variant filters or variant prioritization methods, GEMINI allows researchers to compose complex queries based on sample genotypes, inheritance patterns, and both pre-installed and custom genome annotations. GEMINI also provides methods for ad hoc queries and data exploration, a simple programming interface for custom analyses that leverage the underlying database, and both command line and graphical tools for common analyses. We demonstrate the utility of GEMINI for exploring variation in personal genomes and family based genetic studies, and illustrate its ability to scale to studies involving thousands of human samples. GEMINI is designed for reproducibility and flexibility and our goal is to will provide researchers with a standard framework for medical genomics.",
+    "authors": [
+      "Uma Paila",
+      "Brad Chapman",
+      "Rory Kirchner",
+      "Aaron Quinlan"
+    ],
+    "publication_date": "2013-04-17T15:31:05Z",
+    "arxiv_id": "http://arxiv.org/abs/1304.4860v2",
+    "download_url": "https://arxiv.org/abs/1304.4860v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Darwinian Genetic Drift",
+    "abstract": "Genetic drift is stochastic fluctuations of alleles frequencies in a population due to sampling effects. We consider a model of drift in an equilibrium population, with high mutation rates: few functional mutations per generation. Such mutation rates are common in multicellular organisms including humans, however they are not explicitly considered in most population genetics models. Under these assumptions the drift shows properties distinct from the classical drift models, which ignore realistic mutation rates: i) All (non-lethal) variants of a site have a characteristic average frequencies, which are independent of population size, however the magnitude of fluctuations around these frequencies depends on population size. ii) There is no \"mutational meltdown\" due to \"low efficiency of selection\" for small population size. Population average fitness does not depend on population size. iii) Drift (and molecular clock) can be represented as wandering by compensatory mutations, postulate of neutral mutations is not necessary for explaining the high rate of mutation accumulation. Our results, which adjust the meaning of the neutral theory from the individual neutrality of the majority of mutations, to the collective neutrality of compensatory mutations, are applicable to investigations in phylogeny and coalescent and for GWAS design and analysis.",
+    "authors": [
+      "Alexey A. Shadrin",
+      "Dmitri V. Parkhomchuk"
+    ],
+    "publication_date": "2017-01-11T14:36:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1701.02988v1",
+    "download_url": "https://arxiv.org/abs/1701.02988v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Semi-Automating Knowledge Base Construction for Cancer Genetics",
+    "abstract": "In this work, we consider the exponentially growing subarea of genetics in cancer. The need to synthesize and centralize this evidence for dissemination has motivated a team of physicians to manually construct and maintain a knowledge base that distills key results reported in the literature. This is a laborious process that entails reading through full-text articles to understand the study design, assess study quality, and extract the reported cancer risk estimates associated with particular hereditary cancer genes (i.e., penetrance). In this work, we propose models to automatically surface key elements from full-text cancer genetics articles, with the ultimate aim of expediting the manual workflow currently in place.\n  We propose two challenging tasks that are critical for characterizing the findings reported cancer genetics studies: (i) Extracting snippets of text that describe \\emph{ascertainment mechanisms}, which in turn inform whether the population studied may introduce bias owing to deviations from the target population; (ii) Extracting reported risk estimates (e.g., odds or hazard ratios) associated with specific germline mutations. The latter task may be viewed as a joint entity tagging and relation extraction problem. To train models for these tasks, we induce distant supervision over tokens and snippets in full-text articles using the manually constructed knowledge base. We propose and evaluate several model variants, including a transformer-based joint entity and relation extraction model to extract <germline mutation, risk-estimate>} pairs. We observe strong empirical performance, highlighting the practical potential for such models to aid KB construction in this space. We ablate components of our model, observing, e.g., that a joint model for <germline mutation, risk-estimate> fares substantially better than a pipelined approach.",
+    "authors": [
+      "Somin Wadhwa",
+      "Kanhua Yin",
+      "Kevin S. Hughes",
+      "Byron C. Wallace"
+    ],
+    "publication_date": "2020-05-17T02:01:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.08146v2",
+    "download_url": "https://arxiv.org/abs/2005.08146v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reduction of a metapopulation genetic model to an effective one island model",
+    "abstract": "We explore a model of metapopulation genetics which is based on a more ecologically motivated approach than is frequently used in population genetics. The size of the population is regulated by competition between individuals, rather than by artificially imposing a fixed population size. The increased complexity of the model is managed by employing techniques often used in the physical sciences, namely exploiting time-scale separation to eliminate fast variables and then constructing an effective model from the slow modes. Remarkably, an initial model with 2$\\mathcal{D}$ variables, where $\\mathcal{D}$ is the number of islands in the metapopulation, can be reduced to a model with a single variable. We analyze this effective model and show that the predictions for the probability of fixation of the alleles and the mean time to fixation agree well with those found from numerical simulations of the original model.",
+    "authors": [
+      "César Parra-Rojas",
+      "Alan J. McKane"
+    ],
+    "publication_date": "2017-07-22T11:58:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1707.07145v2",
+    "download_url": "https://arxiv.org/abs/1707.07145v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Population genetics in microchannels",
+    "abstract": "Spatial constraints such as rigid barriers affect the dynamics of cell populations, potentially altering the course of natural evolution. In this paper, we investigate the population genetics of Escherichia coli proliferating in microchannels with open ends. Our analysis is based on a population model in which reproducing cells shift entire lanes of cells towards the open ends of the channel. The model predicts that diversity is lost very rapidly within lanes, but at a much slower pace among lanes. As a consequence, two mixed, neutral E. coli strains competing in a microchannel must organize into an ordered regular stripe pattern in the course of a few generations. These predictions are in quantitative agreement with our experiments. We also demonstrate that random mutations appearing in the middle of the channel are much more likely to reach fixation than those occurring elsewhere. Our results illustrate fundamental mechanisms of microbial evolution in spatially confined space.",
+    "authors": [
+      "Anzhelika Koldaeva",
+      "Hsieh-Fu Tsai",
+      "Amy Q. Shen",
+      "Simone Pigolotti"
+    ],
+    "publication_date": "2021-04-09T02:33:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.04161v3",
+    "download_url": "https://arxiv.org/abs/2104.04161v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Integrating Large Language Models for Genetic Variant Classification",
+    "abstract": "The classification of genetic variants, particularly Variants of Uncertain Significance (VUS), poses a significant challenge in clinical genetics and precision medicine. Large Language Models (LLMs) have emerged as transformative tools in this realm. These models can uncover intricate patterns and predictive insights that traditional methods might miss, thus enhancing the predictive accuracy of genetic variant pathogenicity.\n  This study investigates the integration of state-of-the-art LLMs, including GPN-MSA, ESM1b, and AlphaMissense, which leverage DNA and protein sequence data alongside structural insights to form a comprehensive analytical framework for variant classification. Our approach evaluates these integrated models using the well-annotated ProteinGym and ClinVar datasets, setting new benchmarks in classification performance. The models were rigorously tested on a set of challenging variants, demonstrating substantial improvements over existing state-of-the-art tools, especially in handling ambiguous and clinically uncertain variants.\n  The results of this research underline the efficacy of combining multiple modeling approaches to significantly refine the accuracy and reliability of genetic variant classification systems. These findings support the deployment of these advanced computational models in clinical environments, where they can significantly enhance the diagnostic processes for genetic disorders, ultimately pushing the boundaries of personalized medicine by offering more detailed and actionable genetic insights.",
+    "authors": [
+      "Youssef Boulaimen",
+      "Gabriele Fossi",
+      "Leila Outemzabet",
+      "Nathalie Jeanray",
+      "Oleksandr Levenets",
+      "Stephane Gerart",
+      "Sebastien Vachenc",
+      "Salvatore Raieli",
+      "Joanna Giemza"
+    ],
+    "publication_date": "2024-11-07T13:45:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.05055v1",
+    "download_url": "https://arxiv.org/abs/2411.05055v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A genetic algorithm applied to the validation of building thermal models",
+    "abstract": "This paper presents the coupling of a building thermal simulation code with genetic algorithms (GAs). GAs are randomized search algorithms that are based on the mechanisms of natural selection and genetics. We show that this coupling allows the location of defective sub-models of a building thermal model i.e. parts of model that are responsible for the disagreements between measurements and model predictions. The method first of all is checked and validated on the basis of a numerical model of a building taken as reference. It is then applied to a real building case. The results show that the method could constitute an efficient tool when checking the model validity.",
+    "authors": [
+      "Alfred Jean Philippe Lauret",
+      "Harry Boyer",
+      "Carine Riviere",
+      "Alain Bastide"
+    ],
+    "publication_date": "2012-12-18T07:27:27Z",
+    "arxiv_id": "http://arxiv.org/abs/1212.5250v1",
+    "download_url": "https://arxiv.org/abs/1212.5250v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improving genetic risk prediction by leveraging pleiotropy",
+    "abstract": "An important task of human genetics studies is to accurately predict disease risks in individuals based on genetic markers, which allows for identifying individuals at high disease risks, and facilitating their disease treatment and prevention. Although hundreds of genome-wide association studies (GWAS) have been conducted on many complex human traits in recent years, there has been only limited success in translating these GWAS data into clinically useful risk prediction models. The predictive capability of GWAS data is largely bottlenecked by the available training sample size due to the presence of numerous variants carrying only small to modest effects. Recent studies have shown that different human traits may share common genetic bases. Therefore, an attractive strategy to increase the training sample size and hence improve the prediction accuracy is to integrate data of genetically correlated phenotypes. Yet the utility of genetic correlation in risk prediction has not been explored in the literature. In this paper, we analyzed GWAS data for bipolar and related disorders (BARD) and schizophrenia (SZ) with a bivariate ridge regression method, and found that jointly predicting the two phenotypes could substantially increase prediction accuracy as measured by the AUC (area under the receiver operating characteristic curve). We also found similar prediction accuracy improvements when we jointly analyzed GWAS data for Crohn's disease (CD) and ulcerative colitis (UC). The empirical observations were substantiated through our comprehensive simulation studies, suggesting that a gain in prediction accuracy can be obtained by combining phenotypes with relatively high genetic correlations. Through both real data and simulation studies, we demonstrated pleiotropy as a valuable asset that opens up a new opportunity to improve genetic risk prediction in the future.",
+    "authors": [
+      "Cong Li",
+      "Can Yang",
+      "Joel Gelernter",
+      "Hongyu Zhao"
+    ],
+    "publication_date": "2013-04-28T02:12:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1304.7417v3",
+    "download_url": "https://arxiv.org/abs/1304.7417v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Multivariate Survival Mixed Models for Genetic Analysis of Longevity Traits",
+    "abstract": "A class of multivariate mixed survival models for continuous and discrete time with a complex covariance structure is introduced in a context of quantitative genetic applications. The methods introduced can be used in many applications in quantitative genetics although the discussion presented concentrates on longevity studies. The framework presented allows to combine models based on continuous time with models based on discrete time in a joint analysis. The continuous time models are approximations of the frailty model in which the hazard function will be assumed to be piece-wise constant. The discrete time models used are multivariate variants of the discrete relative risk models. These models allow for regular parametric likelihood-based inference by exploring a coincidence of their likelihood functions and the likelihood functions of suitably defined multivariate generalized linear mixed models. The models include a dispersion parameter, which is essential for obtaining a decomposition of the variance of the trait of interest as a sum of parcels representing the additive genetic effects, environmental effects and unspecified sources of variability; as required in quantitative genetic applications. The methods presented are implemented in such a way that large and complex quantitative genetic data can be analyzed.",
+    "authors": [
+      "Rafael Pimentel Maia",
+      "Per Madsen",
+      "Rodrigo Labouriau"
+    ],
+    "publication_date": "2013-03-04T19:59:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1303.0810v2",
+    "download_url": "https://arxiv.org/abs/1303.0810v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bayesian mixed model inference for genetic association under related samples with brain network phenotype",
+    "abstract": "Genetic association studies for brain connectivity phenotypes have gained prominence due to advances in non-invasive imaging techniques and quantitative genetics. Brain connectivity traits, characterized by network configurations and unique biological structures, present distinct challenges compared to other quantitative phenotypes. Furthermore, the presence of sample relatedness in most imaging genetics studies limits the feasibility of adopting existing network-response modeling. In this paper, we fill this gap by proposing a Bayesian network-response mixed-effect model that considers a network-variate phenotype and incorporates population structures including pedigrees and unknown sample relatedness. To accommodate the inherent topological architecture associated with the genetic contributions to the phenotype, we model the effect components via a set of effect subnetworks and impose an inter-network sparsity and intra-network shrinkage to dissect the phenotypic network configurations affected by the risk genetic variant. To facilitate uncertainty quantification of signaling components from both genotype and phenotype sides, we develop a Markov chain Monte Carlo (MCMC) algorithm for posterior inference. We evaluate the performance and robustness of our model through extensive simulations. By further applying the method to study the genetic bases for brain structural connectivity using data from the Human Connectome Project with excessive family structures, we obtain plausible and interpretable results. Beyond brain connectivity genetic studies, our proposed model also provides a general linear mixed-effect regression framework for network-variate outcomes.",
+    "authors": [
+      "Xinyuan Tian",
+      "Yiting Wang",
+      "Selena Wang",
+      "Yi Zhao",
+      "Yize Zhao"
+    ],
+    "publication_date": "2023-05-16T01:55:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.09099v1",
+    "download_url": "https://arxiv.org/abs/2305.09099v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Population genetics of gene function",
+    "abstract": "This paper shows that differentiating the lifetimes of two phenotypes independently from their fertility can lead to a qualitative change in the equilibrium of a population: since survival and reproduction are distinct functional aspects of an organism, this observation contributes to extend the population-genetical characterisation of biological function. To support this statement a mathematical relation is derived to link the lifetime ratio T_1/T_2, which parametrizes the different survival ability of two phenotypes, with population variables that quantify the amount of neutral variation underlying a population's phenotypic distribution.",
+    "authors": [
+      "Ignacio Gallo"
+    ],
+    "publication_date": "2012-12-30T08:05:19Z",
+    "arxiv_id": "http://arxiv.org/abs/1301.0004v6",
+    "download_url": "https://arxiv.org/abs/1301.0004v6",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetic underpinnings of brain structural connectome for young adults",
+    "abstract": "With distinct advantages in power over behavioral phenotypes, brain imaging traits have become emerging endophenotypes to dissect molecular contributions to behaviors and neuropsychiatric illnesses. Among different imaging features, brain structural connectivity (i.e., structural connectome), which summarizes the anatomical connections between different brain regions, is one of the most cutting-edge while under-investigated traits; and the genetic influence on the structural connectome variation remains highly elusive. Relying on a landmark imaging genetics study for young adults, we develop a biologically plausible brain network response shrinkage model to comprehensively characterize the relationship between high dimensional genetic variants and the structural connectome phenotype. Under a unified Bayesian framework, we accommodate the topology of brain network and biological architecture within the genome; and eventually establish a mechanistic mapping between genetic biomarkers and the associated brain sub-network units. An efficient expectation-maximization algorithm is developed to estimate the model and ensure computing feasibility. In the application to the Human Connectome Project Young Adult (HCP-YA) data, we establish the genetic underpinnings which are highly interpretable under functional annotation and brain tissue eQTL analysis, for the brain white matter tracts connecting the hippocampus and two cerebral hemispheres. We also show the superiority of our method in extensive simulations.",
+    "authors": [
+      "Yize Zhao",
+      "Changgee Chang",
+      "Jingwen Zhang",
+      "Zhengwu Zhang"
+    ],
+    "publication_date": "2022-12-02T04:47:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.00967v1",
+    "download_url": "https://arxiv.org/abs/2212.00967v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Review of Statistical Methods in Imaging Genetics",
+    "abstract": "With the rapid growth of modern technology, many large-scale biomedical studies have been/are being/will be conducted to collect massive datasets with large volumes of multi-modality imaging, genetic, neurocognitive, and clinical information from increasingly large cohorts. Simultaneously extracting and integrating rich and diverse heterogeneous information in neuroimaging and/or genomics from these big datasets could transform our understanding of how genetic variants impact brain structure and function, cognitive function, and brain-related disease risk across the lifespan. Such understanding is critical for diagnosis, prevention, and treatment of numerous complex brain-related disorders (e.g., schizophrenia and Alzheimer). However, the development of analytical methods for the joint analysis of both high-dimensional imaging phenotypes and high-dimensional genetic data, called big data squared (BD$^2$), presents major computational and theoretical challenges for existing analytical methods. Besides the high-dimensional nature of BD$^2$, various neuroimaging measures often exhibit strong spatial smoothness and dependence and genetic markers may have a natural dependence structure arising from linkage disequilibrium. We review some recent developments of various statistical techniques for the joint analysis of BD$^2$, including massive univariate and voxel-wise approaches, reduced rank regression, mixture models, and group sparse multi-task regression. By doing so, we hope that this review may encourage others in the statistical community to enter into this new and exciting field of research.",
+    "authors": [
+      "Farouk S. Nathoo",
+      "Linglong Kong",
+      "Hongtu Zhu"
+    ],
+    "publication_date": "2017-07-23T19:11:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1707.07332v2",
+    "download_url": "https://arxiv.org/abs/1707.07332v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Coalescence, genetic diversity in sexual populations under selection",
+    "abstract": "In sexual populations, selection operates neither on the whole genome, which is repeatedly taken apart and reassembled by recombination, nor on individual alleles that are tightly linked to the chromosomal neighborhood. The resulting interference between linked alleles reduces the efficiency of selection and distorts patterns of genetic diversity. Inference of evolutionary history from diversity shaped by linked selection requires an understanding of these patterns. Here, we present a simple but powerful scaling analysis identifying the unit of selection as the genomic \"linkage block\" with a characteristic length determined in a self-consistent manner by the condition that the rate of recombination within the block is comparable to the fitness differences between different alleles of the block. We find that an asexual model with the strength of selection tuned to that of the linkage block provides an excellent description of genetic diversity and the site frequency spectra when compared to computer simulations. This linkage block approximation is accurate for the entire spectrum of strength of selection and is particularly powerful in scenarios with many weakly selected loci. The latter limit allows us to characterize coalescence, genetic diversity, and the speed of adaptation in the infinitesimal model of quantitative genetics.",
+    "authors": [
+      "Richard A. Neher",
+      "Taylor A. Kessinger",
+      "Boris I. Shraiman"
+    ],
+    "publication_date": "2013-06-05T19:00:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1306.1206v2",
+    "download_url": "https://arxiv.org/abs/1306.1206v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Causal graphical models in systems genetics: A unified framework for joint inference of causal network and genetic architecture for correlated phenotypes",
+    "abstract": "Causal inference approaches in systems genetics exploit quantitative trait loci (QTL) genotypes to infer causal relationships among phenotypes. The genetic architecture of each phenotype may be complex, and poorly estimated genetic architectures may compromise the inference of causal relationships among phenotypes. Existing methods assume QTLs are known or inferred without regard to the phenotype network structure. In this paper we develop a QTL-driven phenotype network method (QTLnet) to jointly infer a causal phenotype network and associated genetic architecture for sets of correlated phenotypes. Randomization of alleles during meiosis and the unidirectional influence of genotype on phenotype allow the inference of QTLs causal to phenotypes. Causal relationships among phenotypes can be inferred using these QTL nodes, enabling us to distinguish among phenotype networks that would otherwise be distribution equivalent. We jointly model phenotypes and QTLs using homogeneous conditional Gaussian regression models, and we derive a graphical criterion for distribution equivalence. We validate the QTLnet approach in a simulation study. Finally, we illustrate with simulated data and a real example how QTLnet can be used to infer both direct and indirect effects of QTLs and phenotypes that co-map to a genomic region.",
+    "authors": [
+      "Elias Chaibub Neto",
+      "Mark P. Keller",
+      "Alan D. Attie",
+      "Brian S. Yandell"
+    ],
+    "publication_date": "2010-10-07T11:23:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1010.1402v1",
+    "download_url": "https://arxiv.org/abs/1010.1402v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Genetic Quantum Annealing Algorithm",
+    "abstract": "A genetic algorithm (GA) is a search-based optimization technique based on the principles of Genetics and Natural Selection. We present an algorithm which enhances the classical GA with input from quantum annealers. As in a classical GA, the algorithm works by breeding a population of possible solutions based on their fitness. However, the population of individuals is defined by the continuous couplings on the quantum annealer, which then give rise via quantum annealing to the set of corresponding phenotypes that represent attempted solutions. This introduces a form of directed mutation into the algorithm that can enhance its performance in various ways. Two crucial enhancements come from the continuous couplings having strengths that are inherited from the fitness of the parents (so-called nepotism) and from the annealer couplings allowing the entire population to be influenced by the fittest individuals (so-called quantum-polyandry). We find our algorithm to be significantly more powerful on several simple problems than a classical GA.",
+    "authors": [
+      "Steven Abel",
+      "Luca A. Nutricati",
+      "Michael Spannowsky"
+    ],
+    "publication_date": "2022-09-15T16:59:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.07455v1",
+    "download_url": "https://arxiv.org/abs/2209.07455v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Transition probabilities for degenerate diffusions arising in population genetics",
+    "abstract": "We provide a detailed description of the structure of the transition probabilities and of the hitting distributions of boundary components of a manifold with corners for a degenerate strong Markov process arising in population genetics. The Markov processes that we study are a generalization of the classical Wright-Fisher process. The main ingredients in our proofs are based on the analysis of the regularity properties of solutions to a forward Kolmogorov equation defined on a compact manifold with corners, which is degenerate in the sense that it is not strictly elliptic and the coefficients of the first order drift term have mild logarithmic singularities.",
+    "authors": [
+      "Charles L. Epstein",
+      "Camelia A. Pop"
+    ],
+    "publication_date": "2016-08-06T15:39:30Z",
+    "arxiv_id": "http://arxiv.org/abs/1608.02119v2",
+    "download_url": "https://arxiv.org/abs/1608.02119v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A population genetic interpretation of GWAS findings for human quantitative traits",
+    "abstract": "GWAS in humans are revealing the genetic architecture of biomedical and anthropomorphic traits, i.e., the frequencies and effect sizes of variants that contribute to heritable variation in a trait. To interpret these findings, we need to understand how genetic architecture is shaped by basic population genetics processes-notably, by mutation, natural selection and genetic drift. Because many quantitative traits are subject to stabilizing selection and genetic variation that affects one trait often affects many others, we model the genetic architecture of a focal trait that arises under stabilizing selection in a multi-dimensional trait space. We solve the model for the phenotypic distribution and allelic dynamics at steady state and derive robust, closed form solutions for summary statistics of the genetic architecture. Our results provide a simple interpretation for missing heritability and why it varies among traits. They also predict that the distribution of variances contributed by loci identified in GWAS is well approximated by a simple functional form that depends on a single parameter: the expected contribution to genetic variance of a strongly selected site affecting the trait. We test this prediction against the results of GWAS for height and BMI and find that it fits the data well, allowing us to make inferences about the degree of pleiotropy and mutational target size for these traits. Our findings help to explain why the GWAS for height explains more of the heritable variance than similarly-sized GWAS for BMI, and to predict the increase in explained heritability with study sample size. Considering the demographic history of European populations, in which these GWAS were performed, we further find that most of the associations they identified likely involve mutations that arose during the out of Africa bottleneck at sites with selection coefficients around $s=10^{-3}$.",
+    "authors": [
+      "Yuval B. Simons",
+      "Kevin Bullaughey",
+      "Richard R. Hudson",
+      "Guy Sella"
+    ],
+    "publication_date": "2017-04-21T20:22:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1704.06707v2",
+    "download_url": "https://arxiv.org/abs/1704.06707v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Bayesian Spatial Model for Imaging Genetics",
+    "abstract": "We develop a Bayesian bivariate spatial model for multivariate regression analysis applicable to studies examining the influence of genetic variation on brain structure. Our model is motivated by an imaging genetics study of the Alzheimer's Disease Neuroimaging Initiative (ADNI), where the objective is to examine the association between images of volumetric and cortical thickness values summarizing the structure of the brain as measured by magnetic resonance imaging (MRI) and a set of 486 SNPs from 33 Alzheimer's Disease (AD) candidate genes obtained from 632 subjects. A bivariate spatial process model is developed to accommodate the correlation structures typically seen in structural brain imaging data. First, we allow for spatial correlation on a graph structure in the imaging phenotypes obtained from a neighbourhood matrix for measures on the same hemisphere of the brain. Second, we allow for correlation in the same measures obtained from different hemispheres (left/right) of the brain. We develop a mean-field variational Bayes algorithm and a Gibbs sampling algorithm to fit the model. We also incorporate Bayesian false discovery rate (FDR) procedures to select SNPs. We implement the methodology in a new release of the R package bgsmtr. We show that the new spatial model demonstrates superior performance over a standard model in our application. Data used in the preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu).",
+    "authors": [
+      "Yin Song",
+      "Shufei Ge",
+      "Jiguo Cao",
+      "Liangliang Wang",
+      "Farouk S. Nathoo"
+    ],
+    "publication_date": "2019-01-01T00:32:45Z",
+    "arxiv_id": "http://arxiv.org/abs/1901.00068v4",
+    "download_url": "https://arxiv.org/abs/1901.00068v4",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On some properties of a positive linear operator via the Moran model in population genetics",
+    "abstract": "We introduce a positive linear operator acting on the Banach space of all continuous functions on the unit interval via the Moran model studied in population genetics. We show that this operator, named the Moran operator, uniformly approximates every continuous function on the unit interval. Furthermore, some limit theorems for the iterates of the Moran operator are obtained.",
+    "authors": [
+      "Takahiro Aoyama",
+      "Ryuya Namba"
+    ],
+    "publication_date": "2025-03-01T08:37:23Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.00403v1",
+    "download_url": "https://arxiv.org/abs/2503.00403v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The best of both worlds: Combining population genetic and quantitative genetic models",
+    "abstract": "Numerous traits under migration-selection balance are shown to exhibit complex patterns of genetic architecture with large variance in effect sizes. However, the conditions under which such genetic architectures are stable have yet to be investigated, because studying the influence of a large number of small allelic effects on the maintenance of spatial polymorphism is mathematically challenging, due to the high complexity of the systems that arise. In particular, in the most simple case of a haploid population in a two-patch environment, while it is known from population genetics that polymorphism at a single major-effect locus is stable in the symmetric case, there exists no analytical predictions on how this polymorphism holds when a polygenic background also contributes to the trait. Here we propose to answer this question by introducing a new eco-evo methodology that allows us to take into account the combined contributions of a major-effect locus and of a quantitative background resulting from small-effect loci, where inheritance is encoded according to an extension to the infinitesimal model. In a regime of small variance contributed by the quantitative loci, we justify that traits are concentrated around the major alleles, according to a normal distribution, using new convex analysis arguments. This allows a reduction in the complexity of the system using a separation of time scales approach. We predict an undocumented phenomenon of loss of polymorphism at the major-effect locus despite strong selection for local adaptation, because the quantitative background slowly disrupts the rapidly established polymorphism at the major-effect locus, which is confirmed by individual-based simulations. Our study highlights how segregation of a quantitative background can greatly impact the dynamics of major-effect loci by provoking migrational meltdowns.",
+    "authors": [
+      "Léonard Dekens",
+      "Sarah P. Otto",
+      "Vincent Calvez"
+    ],
+    "publication_date": "2021-11-22T12:06:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.11142v2",
+    "download_url": "https://arxiv.org/abs/2111.11142v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Computer Security Risks of Distant Relative Matching in Consumer Genetic Databases",
+    "abstract": "Consumer genetic testing has become immensely popular in recent years and has lead to the creation of large scale genetic databases containing millions of dense autosomal genotype profiles. One of the most used features offered by genetic databases is the ability to find distant relatives using a technique called relative matching (or DNA matching). Recently, novel uses of relative matching were discovered that combined matching results with genealogical information to solve criminal cold cases. New estimates suggest that relative matching, combined with simple demographic information, could be used to re-identify a significant percentage of US Caucasian individuals. In this work we attempt to systematize computer security and privacy risks from relative matching and describe new security problems that can occur if an attacker uploads manipulated or forged genetic profiles. For example, forged profiles can be used by criminals to misdirect investigations, con-artists to defraud victims, or political operatives to blackmail opponents. We discuss solutions to mitigate these threats, including existing proposals to use digital signatures, and encourage the consumer genetics community to consider the broader security implications of relative matching now that it is becoming so prominent.",
+    "authors": [
+      "Peter M. Ney",
+      "Luis Ceze",
+      "Tadayoshi Kohno"
+    ],
+    "publication_date": "2018-10-05T21:42:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.02895v1",
+    "download_url": "https://arxiv.org/abs/1810.02895v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The multivariate Dirichlet-multinomial distribution and its application in forensic genetics to adjust for sub-population effects using the θ-correction",
+    "abstract": "In this paper, we discuss the construction of a multivariate generalisation of the Dirichlet-multinomial distribution. An example from forensic genetics in the statistical analysis of DNA mixtures motivates the study of this multivariate extension.\n  In forensic genetics, adjustment of the match probabilities due to remote ancestry in the population is often done using the so-called θ-correction. This correction increases the probability of observing multiple copies of rare alleles and thereby reduces the weight of the evidence for rare genotypes.\n  By numerical examples, we show how the θ-correction incorporated by the use of the multivariate Dirichlet-multinomial distribution affects the weight of evidence. Furthermore, we demonstrate how the θ-correction can be incorporated in a Markov structure needed to make efficient computations in a Bayesian network.",
+    "authors": [
+      "Torben Tvedebrink",
+      "Poul Svante Eriksen",
+      "Niels Morling"
+    ],
+    "publication_date": "2014-06-25T09:38:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1406.6508v3",
+    "download_url": "https://arxiv.org/abs/1406.6508v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantitative Genetics Meets Integral Projection Models: Unification of Widely Used Methods from Ecology and Evolution",
+    "abstract": "1) Micro-evolutionary predictions are complicated by ecological feedbacks like density dependence, while ecological predictions can be complicated by evolutionary change. A widely used approach in micro-evolution, quantitative genetics, struggles to incorporate ecological processes into predictive models, while structured population modelling, a tool widely used in ecology, rarely incorporates evolution explicitly.\n  2) In this paper we develop a flexible, general framework that links quantitative genetics and structured population models. We use the quantitative genetic approach to write down the phenotype as an additive map. We then construct integral projection models for each component of the phenotype. The dynamics of the distribution of the phenotype are generated by combining distributions of each of its components. Population projection models can be formulated on per generation or on shorter time steps.\n  3) We introduce the framework before developing example models with parameters chosen to exhibit specific dynamics. These models reveal (i) how evolution of a phenotype can cause populations to move from one dynamical regime to another (e.g. from stationarity to cycles), (ii) how additive genetic variances and covariances (the G matrix) are expected to evolve over multiple generations, (iii) how changing heritability with age can maintain additive genetic variation in the face of selection and (iii) life history, population dynamics, phenotypic characters and parameters in ecological models will change as adaptation occurs.\n  4) Our approach unifies population ecology and evolutionary biology providing a framework allowing a very wide range of questions to be addressed. The next step is to apply the approach to a variety of laboratory and field systems. Once this is done we will have a much deeper understanding of eco-evolutionary dynamics and feedbacks.",
+    "authors": [
+      "Tim Coulson",
+      "Floriane Plard",
+      "Susanne Schindler",
+      "Arpat Ozgul",
+      "Jean-Michel Gaillard"
+    ],
+    "publication_date": "2015-09-04T06:43:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1509.01351v1",
+    "download_url": "https://arxiv.org/abs/1509.01351v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Population genetic consequences of the Allee effect and the role of offspring-number variation",
+    "abstract": "A strong demographic Allee effect in which the expected population growth rate is negative below a certain critical population size can cause high extinction probabilities in small introduced populations. However, many species are repeatedly introduced to the same location and eventually one population may overcome the Allee effect by chance. With the help of stochastic models, we investigate how much genetic diversity such successful populations harbour on average and how this depends on offspring-number variation, an important source of stochastic variability in population size. We find that with increasing variability, the Allee effect increasingly promotes genetic diversity in successful populations. Successful Allee-effect populations with highly variable population dynamics escape rapidly from the region of small population sizes and do not linger around the critical population size. Therefore, they are exposed to relatively little genetic drift. We show that here---unlike in classical population genetics models---the role of offspring-number variation cannot be accounted for by an effective-population-size correction. Thus, our results highlight the importance of detailed biological knowledge, in this case on the probability distribution of family sizes, when predicting the evolutionary potential of newly founded populations or when using genetic data to reconstruct their demographic history.",
+    "authors": [
+      "Meike J. Wittmann",
+      "Wilfried Gabriel",
+      "Dirk Metzler"
+    ],
+    "publication_date": "2013-11-21T16:06:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1311.5461v1",
+    "download_url": "https://arxiv.org/abs/1311.5461v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evolutionary model with genetics, aging and knowledge",
+    "abstract": "We represent a process of learning by using bit strings, where 1-bits represent the knowledge acquired by individuals. Two ways of learning are considered: individual learning by trial-and-error; and social learning by copying knowledge from other individuals, or from parents in the case of species with parental care. The age-structured bit string allows us to study how knowledge is accumulated during life and its influence over the genetic pool of a population after many generations. We use the Penna model to represent the genetic inheritance of each individual. In order to study how the accumulated knowledge influences the survival process, we include it to help individuals to avoid the various death situations. Modifications in the Verhulst factor do not show any special feature due to its random nature. However, by adding years to life as a function of the accumulated knowledge, we observe an improvement of the survival rates while the genetic fitness of the population becomes worse. In this latter case, knowledge becomes more important in the last years of life where individuals are threatened by diseases. Effects of offspring overprotection and differences between individual and social learning can also be observed. Sexual selection as a function of knowledge shows some effects when fidelity is imposed.",
+    "authors": [
+      "Armando Ticona Bustillos",
+      "Paulo Murilo C. de Oliveira"
+    ],
+    "publication_date": "2003-12-11T21:39:32Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0312018v1",
+    "download_url": "https://arxiv.org/abs/q-bio/0312018v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Ecological and genetic effects of introduced species on their native competitors",
+    "abstract": "Species introductions to new habitats can cause a decline in the population size of competing native species and consequently also in their genetic diversity. We are interested in why these adverse effects are weak in some cases whereas in others the native species declines to the point of extinction. While the introduction rate and the growth rate of the introduced species in the new environment clearly have a positive relationship with invasion success and impact, the influence of competition is poorly understood. Here, we investigate how the intensity of interspecific competition influences the persistence time of a native species in the face of repeated and ongoing introductions of the nonnative species. We analyze two stochastic models: a model for the population dynamics of both species and a model that additionally includes the population genetics of the native species at a locus involved in its adaptation to a changing environment. Counterintuitively, both models predict that the persistence time of the native species is lowest for an intermediate intensity of competition. This phenomenon results from the opposing effects of competition at different stages of the invasion process: With increasing competition intensity more introduction events are needed until a new species can establish, but increasing competition also speeds up the exclusion of the native species by an established nonnative competitor. By comparing the ecological and the eco-genetic model, we detect and quantify a synergistic feedback between ecological and genetic effects.",
+    "authors": [
+      "Meike J. Wittmann",
+      "Martin Hutzenthaler",
+      "Wilfried Gabriel",
+      "Dirk Metzler"
+    ],
+    "publication_date": "2012-08-06T21:42:31Z",
+    "arxiv_id": "http://arxiv.org/abs/1208.1294v2",
+    "download_url": "https://arxiv.org/abs/1208.1294v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generalized genetic association study with samples of related individuals",
+    "abstract": "Genetic association study is an essential step to discover genetic factors that are associated with a complex trait of interest. In this paper we present a novel generalized quasi-likelihood score (GQLS) test that is suitable for a study with either a quantitative trait or a binary trait. We use a logistic regression model to link the phenotypic value of the trait to the distribution of allelic frequencies. In our model, the allele frequencies are treated as a response and the trait is treated as a covariate that allows us to leave the distribution of the trait values unspecified. Simulation studies indicate that our method is generally more powerful in comparison with the family-based association test (FBAT) and controls the type I error at the desired levels. We apply our method to analyze data on Holstein cattle for an estimated breeding value phenotype, and to analyze data from the Collaborative Study of the Genetics of Alcoholism for alcohol dependence. The results show a good portion of significant SNPs and regions consistent with previous reports in the literature, and also reveal new significant SNPs and regions that are associated with the complex trait of interest.",
+    "authors": [
+      "Zeny Feng",
+      "William W. L. Wong",
+      "Xin Gao",
+      "Flavio Schenkel"
+    ],
+    "publication_date": "2011-11-23T13:31:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1111.5487v1",
+    "download_url": "https://arxiv.org/abs/1111.5487v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Recommendations on the use and reporting of race, ethnicity, and ancestry in genetic research: experiences from the NHLBI Trans-Omics for Precision Medicine (TOPMed) program",
+    "abstract": "The ways in which race, ethnicity, and ancestry are used and reported in human genomics research has wide-ranging implications for how research is translated into clinical care, incorporated into public understanding, and implemented in public policy. Genetics researchers play an essential role in proactively dismantling genetic conceptions of race and in recognizing the social and structural factors that drive health disparities. Here, we offer commentary and concrete recommendations on the use and reporting of race, ethnicity, and ancestry across the arc of genetic research, including terminology, data harmonization, analysis, and reporting. While informed by our experiences as researchers in the NHLBI Trans-Omics for Precision Medicine (TOPMed) program, the recommendations are broadly applicable to basic and translational genomic research in diverse populations. To fully realize the benefit of diversifying genetics research beyond primarily European ancestry populations, we as genetics researchers need to make structural changes to the research process and within the research community. Considerable collaborative effort and ongoing reflection will be required to root out elements of racism from the field and generate scientific knowledge that yields broad and equitable benefit.",
+    "authors": [
+      "Alyna T. Khan",
+      "Stephanie M. Gogarten",
+      "Caitlin P. McHugh",
+      "Adrienne M. Stilp",
+      "Tamar Sofer",
+      "Michael Bowers",
+      "Quenna Wong",
+      "L. Adrienne Cupples",
+      "Bertha Hidalgo",
+      "Andrew D. Johnson",
+      "Merry-Lynn McDonald",
+      "Stephen T. McGarvey",
+      "Matthew R. G. Taylor",
+      "Stephanie M. Fullerton",
+      "Matthew P. Conomos",
+      "Sarah C. Nelson"
+    ],
+    "publication_date": "2021-08-17T20:08:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.07858v1",
+    "download_url": "https://arxiv.org/abs/2108.07858v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Diffusive noise controls early stages of genetic demixing",
+    "abstract": "Theoretical descriptions of the stepping-stone model, a cornerstone of spatial population genetics, have long overlooked diffusive noise arising from migration dynamics. We derive an exact fluctuating hydrodynamic description of this model from microscopic rules, which we then use to demonstrate that diffusive noise significantly alters early-time genetic demixing, which we characterize through heterozygosity, a key measure of diversity. Combining macroscopic fluctuation theory and microscopic simulations, we demonstrate that the scaling of density fluctuations in a spatial domain displays an early-time behaviour dominated by diffusive noise. Our exact results underscore the need for additional terms in existing continuum theories and highlight the necessity of including diffusive noise in models of spatially structured populations.",
+    "authors": [
+      "Rashmiranjan Bhutia",
+      "Stephy Jose",
+      "Prasad Perlekar",
+      "Kabir Ramola"
+    ],
+    "publication_date": "2025-05-29T17:36:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.23698v1",
+    "download_url": "https://arxiv.org/abs/2505.23698v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ContIG: Self-supervised Multimodal Contrastive Learning for Medical Imaging with Genetics",
+    "abstract": "High annotation costs are a substantial bottleneck in applying modern deep learning architectures to clinically relevant medical use cases, substantiating the need for novel algorithms to learn from unlabeled data. In this work, we propose ContIG, a self-supervised method that can learn from large datasets of unlabeled medical images and genetic data. Our approach aligns images and several genetic modalities in the feature space using a contrastive loss. We design our method to integrate multiple modalities of each individual person in the same model end-to-end, even when the available modalities vary across individuals. Our procedure outperforms state-of-the-art self-supervised methods on all evaluated downstream benchmark tasks. We also adapt gradient-based explainability algorithms to better understand the learned cross-modal associations between the images and genetic modalities. Finally, we perform genome-wide association studies on the features learned by our models, uncovering interesting relationships between images and genetic data.",
+    "authors": [
+      "Aiham Taleb",
+      "Matthias Kirchler",
+      "Remo Monti",
+      "Christoph Lippert"
+    ],
+    "publication_date": "2021-11-26T11:06:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.13424v1",
+    "download_url": "https://arxiv.org/abs/2111.13424v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Predicting the genetic component of gene expression using gene regulatory networks",
+    "abstract": "Gene expression prediction plays a vital role in transcriptome-wide association studies (TWAS), which seek to establish associations between tissue gene expression and complex traits. Traditional models rely on genetic variants in close genomic proximity to the gene of interest to predict the genetic component of gene expression. In this study, we propose a novel approach incorporating distal genetic variants acting through gene regulatory networks (GRNs) into gene expression prediction models, in line with the omnigenic model of complex trait inheritance. Using causal and coexpression GRNs reconstructed from genomic and transcriptomic data and modeling the data as a Bayesian network jointly over genetic variants and genes, inference of gene expression from observed genotypic data is achieved through a two-step process. Initially, the expression level of each gene in the network is predicted using its local genetic variants. The residuals, calculated as the differences between the observed and predicted expression levels, are then modeled using the genotype information of parent and/or grandparent nodes in the GRN. The final predicted expression level of the gene is obtained by summing the predictions from the local variants model and the residual model, effectively incorporating both local and distal genetic influences. Using various regularized regression techniques for parameter estimation, we found that GRN-based gene expression prediction outperformed the traditional local-variant approach on simulated data from the DREAM5 Systems Genetics Challenge and real data from the Geuvadis study and an eQTL mapping study in yeast. This study provides important insights into the challenge of gene expression prediction for TWAS. It reaffirms the importance of GRNs for understanding the genetic effects on gene expression and complex traits more generally.",
+    "authors": [
+      "Gutama Ibrahim Mohammad",
+      "Tom Michoel"
+    ],
+    "publication_date": "2024-08-16T04:57:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2408.08530v1",
+    "download_url": "https://arxiv.org/abs/2408.08530v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Dominance reversals: The resolution of genetic conflict and maintenance of genetic variation",
+    "abstract": "Beneficial reversals of dominance reduce the costs of genetic trade-offs and can enable selection to maintain genetic variation for fitness. Beneficial dominance reversals are characterized by the beneficial allele for a given context (e.g. habitat, developmental stage, trait, or sex) being dominant in that context but recessive where deleterious. This context-dependence at least partially mitigates the fitness consequence of heterozygotes carrying one non-beneficial allele for their context and can result in balancing selection that maintains alternative alleles. Dominance reversals are theoretically plausible and are supported by mounting empirical evidence. Here we highlight the importance of beneficial dominance reversals as a mechanism for the mitigation of genetic conflict and review the theory and empirical evidence for them. We identify some areas in need of further research and development and outline three methods (dominance ordination, allele-specific expression, and allele-specific ATAC-Seq) that could facilitate the identification of antagonistic genetic variation. There is ample scope for the development of new empirical methods as well as reanalysis of existing data through the lens of dominance reversals. A greater focus on this topic will expand our understanding of the mechanisms that resolve genetic conflict and whether they maintain genetic variation.",
+    "authors": [
+      "Karl Grieshop",
+      "Eddie K. H. Ho",
+      "Katja R. Kasimatis"
+    ],
+    "publication_date": "2021-09-03T14:52:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.01571v4",
+    "download_url": "https://arxiv.org/abs/2109.01571v4",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Graphical Modelling in Genetics and Systems Biology",
+    "abstract": "Graphical modelling has a long history in statistics as a tool for the analysis of multivariate data, starting from Wright's path analysis and Gibbs' applications to statistical physics at the beginning of the last century. In its modern form, it was pioneered by Lauritzen and Wermuth and Pearl in the 1980s, and has since found applications in fields as diverse as bioinformatics, customer satisfaction surveys and weather forecasts.\n  Genetics and systems biology are unique among these fields in the dimension of the data sets they study, which often contain several hundreds of variables and only a few tens or hundreds of observations. This raises problems in both computational complexity and the statistical significance of the resulting networks, collectively known as the \"curse of dimensionality\". Furthermore, the data themselves are difficult to model correctly due to the limited understanding of the underlying mechanisms. In the following, we will illustrate how such challenges affect practical graphical modelling and some possible solutions.",
+    "authors": [
+      "Marco Scutari"
+    ],
+    "publication_date": "2012-10-14T20:15:08Z",
+    "arxiv_id": "http://arxiv.org/abs/1210.3831v2",
+    "download_url": "https://arxiv.org/abs/1210.3831v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Coexisting Stable Equilibria in a Multiple-allele Population Genetics Model",
+    "abstract": "In this paper we find and classify all patterns for a single locus three- and four-allele population genetics models in continuous time. A pattern for a $k$-allele model means all coexisting locally stable equilibria with respect to the flow defined by the equations $\\dot{p}_i = p_i(r_i-r), i=1,...,k,$ where $p_i, r_i$ are the frequency and marginal fitness of allele $A_i$, respectively, and $r$ is the mean fitness of the population. It is well known that for the two-allele model there are only three patterns depending on the relative fitness between the homozygotes and the heterozygote. It turns out that for the three-allele model there are 14 patterns and for the four-allele model there are 117 patterns. With the help of computer simulations, we find 2351 patterns for the five-allele model. For the six-allele model, there are more than 60,000 patterns. In addition, for each pattern of the three-allele model, we also determine the asymptotic behavior of solutions of the above system of equations as $t \\to \\infty$. The problem of finding patterns has been studied in the past and it is an important problem because the results can be used to predict the long-term genetic makeup of a population.",
+    "authors": [
+      "Linlin Su",
+      "Colbert Sesanker",
+      "Roger Lui"
+    ],
+    "publication_date": "2011-08-25T15:03:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1108.5110v1",
+    "download_url": "https://arxiv.org/abs/1108.5110v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep Learning and Explainable AI: New Pathways to Genetic Insights",
+    "abstract": "Deep learning-based AI models have been extensively applied in genomics, achieving remarkable success across diverse applications. As these models gain prominence, there exists an urgent need for interpretability methods to establish trustworthiness in model-driven decisions. For genetic researchers, interpretable insights derived from these models hold significant value in providing novel perspectives for understanding biological processes. Current interpretability analyses in genomics predominantly rely on intuition and experience rather than rigorous theoretical foundations. In this review, we systematically categorize interpretability methods into input-based and model-based approaches, while critically evaluating their limitations through concrete biological application scenarios. Furthermore, we establish theoretical underpinnings to elucidate the origins of these constraints through formal mathematical demonstrations, aiming to assist genetic researchers in better understanding and designing models in the future. Finally, we provide feasible suggestions for future research on interpretability in the field of genetics.",
+    "authors": [
+      "Chenyu Wang",
+      "Chaoying Zuo",
+      "Zihan Su",
+      "Yuhang Xing",
+      "Lu Li",
+      "Maojun Wang",
+      "Zeyu Zhang"
+    ],
+    "publication_date": "2025-05-15T00:37:03Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.09873v1",
+    "download_url": "https://arxiv.org/abs/2505.09873v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "p-Adic numbers in bioinformatics: from genetic code to PAM-matrix",
+    "abstract": "In this paper we denonstrate that the use of the system of 2-adic numbers provides a new insight to some problems of genetics, in particular, generacy of the genetic code and the structure of the PAM matrix in bioinformatics. The 2-adic distance is an ultrametric and applications of ultrametrics in bioinformatics are not surprising. However, by using the 2-adic numbers we match ultrametric with a number theoretic structure. In this way we find new applications of an ultrametric which differ from known up to now in bioinformatics.\n  We obtain the following results. We show that the PAM matrix A allows the expansion into the sum of the two matrices A=A^{(2)}+A^{(\\infty)}, where the matrix A^{(2)} is 2-adically regular (i.e. matrix elements of this matrix are close to locally constant with respect to the discussed earlier by the authors 2-adic parametrization of the genetic code), and the matrix A^{(\\infty)} is sparse. We discuss the structure of the matrix A^{(\\infty)} in relation to the side chain properties of the corresponding amino acids.",
+    "authors": [
+      "A. Yu. Khrennikov",
+      "S. V. Kozyrev"
+    ],
+    "publication_date": "2009-03-01T13:02:54Z",
+    "arxiv_id": "http://arxiv.org/abs/0903.0137v3",
+    "download_url": "https://arxiv.org/abs/0903.0137v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Statistical Genetics in and out of Quasi-Linkage Equilibrium (Extended)",
+    "abstract": "This review is about statistical genetics, an interdisciplinary topic between statistical physics and population biology. The focus is on the phase of quasi-linkage equilibrium (QLE). Our goals here are to clarify under which conditions the QLE phase can be expected to hold in population biology and how the stability of the QLE phase is lost. The QLE state, which has many similarities to a thermal equilibrium state in statistical mechanics, was discovered by M Kimura for a two-locus two-allele model, and was extended and generalized to the global genome scale by (Neher and Shraiman, 2011). What we will refer to as the Kimura-Neher-Shraiman (KNS) theory describes a population evolving due to the mutations, recombination, natural selection and possibly genetic drift. A QLE phase exists at sufficiently high recombination rate and/or mutation rates with respect to selection strength. We show how in QLE it is possible to infer the epistatic parameters of the fitness function from the knowledge of the (dynamical) distribution of genotypes in a population. We further consider the breakdown of the QLE regime for high enough selection strength. We review recent results for the selection-mutation and selection-recombination dynamics. Finally, we identify and characterize a new phase which we call the non-random coexistence (NRC) where variability persists in the population without either fixating or disappearing.",
+    "authors": [
+      "Vito Dichio",
+      "Hong-Li Zeng",
+      "Erik Aurell"
+    ],
+    "publication_date": "2021-05-04T11:34:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2105.01428v6",
+    "download_url": "https://arxiv.org/abs/2105.01428v6",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Recovering Direct Effects in Genetics: A Comparison",
+    "abstract": "In genetics it is often of interest to discover single nucleotide polymorphisms (SNPs) that are directly related to a disease, rather than just being associated with it. Few methods exist, however, addressing this so-called `true sparsity recovery' issue. In a thorough simulation study, we show that for moderate or low correlation between predictors, lasso-based methods perform well at true sparsity recovery, despite not being specifically designed for this purpose. For large correlations, however, more specialised methods are needed. Stability selection and direct effect testing perform well in all situations, including when the correlation is large.",
+    "authors": [
+      "Matthew Sperrin",
+      "Thomas Jaki"
+    ],
+    "publication_date": "2011-07-27T16:11:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1107.5517v1",
+    "download_url": "https://arxiv.org/abs/1107.5517v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Markov Logic Networks in the Analysis of Genetic Data",
+    "abstract": "Complex, non-additive genetic interactions are common and can be critical in determining phenotypes. Genome-wide association studies (GWAS) and similar statistical studies of linkage data, however, assume additive models of gene interactions in looking for genotype-phenotype associations. These statistical methods view the compound effects of multiple genes on a phenotype as a sum of partial influences of each individual gene and can often miss a substantial part of the heritable effect. Such methods do not use any biological knowledge about underlying genotype-phenotype mechanisms. Modeling approaches from the AI field that incorporate deterministic knowledge into models to perform statistical analysis can be applied to include prior knowledge in genetic analysis. We chose to use the most general such approach, Markov Logic Networks (MLNs), as a framework for combining deterministic knowledge with statistical analysis. Using simple, logistic regression-type MLNs we have been able to replicate the results of traditional statistical methods. Moreover, we show that even with simple models we are able to go beyond finding independent markers linked to a phenotype by using joint inference that avoids an independence assumption. The method is applied to genetic data on yeast sporulation, a phenotype governed by non-linear gene interactions. In addition to detecting all of the previously identified loci associated with sporulation, our method is able to identify four loci with small effects. Since their effect on sporulation is small, these four loci were not detected with methods that do not account for dependence between markers due to gene interactions. We show how gene interactions can be detected using more complex models, which can be used as a general framework for incorporating systems biology with genetics.",
+    "authors": [
+      "Nikita A. Sakhanenko",
+      "David J. Galas"
+    ],
+    "publication_date": "2010-03-03T21:01:10Z",
+    "arxiv_id": "http://arxiv.org/abs/1003.0902v1",
+    "download_url": "https://arxiv.org/abs/1003.0902v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Information and (co-)variances in discrete evolutionary genetics involving solely selection",
+    "abstract": "The purpose of this Note is twofold: First, we introduce the general formalism of evolutionary genetics dynamics involving fitnesses, under both the deterministic and stochastic setups, and chiefly in discrete-time. In the process, we particularize it to a one-parameter model where only a selection parameter is unknown. Then and in a parallel manner, we discuss the estimation problems of the selection parameter based on a single-generation frequency distribution shift under both deterministic and stochastic evolutionary dynamics. In the stochastics, we consider both the celebrated Wright-Fisher and Moran models.",
+    "authors": [
+      "Thierry Huillet"
+    ],
+    "publication_date": "2009-08-27T08:05:35Z",
+    "arxiv_id": "http://arxiv.org/abs/0908.3946v1",
+    "download_url": "https://arxiv.org/abs/0908.3946v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Large-scale Feature Selection of Risk Genetic Factors for Alzheimer's Disease via Distributed Group Lasso Regression",
+    "abstract": "Genome-wide association studies (GWAS) have achieved great success in the genetic study of Alzheimer's disease (AD). Collaborative imaging genetics studies across different research institutions show the effectiveness of detecting genetic risk factors. However, the high dimensionality of GWAS data poses significant challenges in detecting risk SNPs for AD. Selecting relevant features is crucial in predicting the response variable. In this study, we propose a novel Distributed Feature Selection Framework (DFSF) to conduct the large-scale imaging genetics studies across multiple institutions. To speed up the learning process, we propose a family of distributed group Lasso screening rules to identify irrelevant features and remove them from the optimization. Then we select the relevant group features by performing the group Lasso feature selection process in a sequence of parameters. Finally, we employ the stability selection to rank the top risk SNPs that might help detect the early stage of AD. To the best of our knowledge, this is the first distributed feature selection model integrated with group Lasso feature selection as well as detecting the risk genetic factors across multiple research institutions system. Empirical studies are conducted on 809 subjects with 5.9 million SNPs which are distributed across several individual institutions, demonstrating the efficiency and effectiveness of the proposed method.",
+    "authors": [
+      "Qingyang Li",
+      "Dajiang Zhu",
+      "Jie Zhang",
+      "Derrek Paul Hibar",
+      "Neda Jahanshad",
+      "Yalin Wang",
+      "Jieping Ye",
+      "Paul M. Thompson",
+      "Jie Wang"
+    ],
+    "publication_date": "2017-04-27T00:02:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1704.08383v1",
+    "download_url": "https://arxiv.org/abs/1704.08383v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Population genetics of neutral mutations in exponentially growing cancer cell populations",
+    "abstract": "In order to analyze data from cancer genome sequencing projects, we need to be able to distinguish causative, or \"driver,\" mutations from \"passenger\" mutations that have no selective effect. Toward this end, we prove results concerning the frequency of neutural mutations in exponentially growing multitype branching processes that have been widely used in cancer modeling. Our results yield a simple new population genetics result for the site frequency spectrum of a sample from an exponentially growing population.",
+    "authors": [
+      "Rick Durrett"
+    ],
+    "publication_date": "2013-02-12T09:55:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.2742v1",
+    "download_url": "https://arxiv.org/abs/1302.2742v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Growth, competition and cooperation in spatial population genetics",
+    "abstract": "We study an individual based model describing competition in space between two different alleles. Although the model is similar in spirit to classic models of spatial population genetics such as the stepping stone model, here however space is continuous and the total density of competing individuals fluctuates due to demographic stochasticity. By means of analytics and numerical simulations, we study the behavior of fixation probabilities, fixation times, and heterozygosity, in a neutral setting and in cases where the two species can compete or cooperate. By concluding with examples in which individuals are transported by fluid flows, we argue that this model is a natural choice to describe competition in marine environments.",
+    "authors": [
+      "Simone Pigolotti",
+      "Roberto Benzi",
+      "Prasad Perlekar Mogens H. Jensen",
+      "Federico Toschi",
+      "David R. Nelson"
+    ],
+    "publication_date": "2012-08-24T13:33:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1208.4973v2",
+    "download_url": "https://arxiv.org/abs/1208.4973v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Population Genetic Approach to the Quasispecies Model",
+    "abstract": "A population genetics formulation of Eigen's molecular quasispecies model is proposed and several simple replication landscapes are investigated analytically. Our results show a remarcable similarity to those obtained with the original kinetics formulation of the quasispecies model. However, due to the simplicity of our approach, the space of the parameters that define the model can be explored. In particular, for the simgle-sharp-peak landscape our analysis yelds some interesting predictions such as the existence of a maximum peak height and a mini- mum molecule length for the onset of the error threshold transition.",
+    "authors": [
+      "Domingos Alves",
+      "Jose Fernando Fontanari"
+    ],
+    "publication_date": "1996-05-24T20:42:28Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/9605160v3",
+    "download_url": "https://arxiv.org/abs/cond-mat/9605160v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "To Understand Nature - Computer Modelling between Genetics and Evolution",
+    "abstract": "We have presented the basic knowledge on the structure of molecules coding the genetic information, mechanisms of transfer of this information from DNA to proteins and phenomena connected with replication of DNA. In particular, we have described the differences of mutational pressure connected with replication of the leading and lagging DNA strands. We have shown how the asymmetric replication of DNA affects the structure of genomes, positions of genes, their function and amino acid composition. Results of Monte Carlo simulations of evolution of protein coding sequences have shown a specific role of genetic code in minimizing the effect of nucleotide substitutions on the amino acid composition of proteins. The results of simulations were compared with the results of analyses of genomic and proteomic data bases. This chapter is considered as an introduction to further chapters where chromosomes with genes represented by nucleotide sequences were replaced by bitstrings with single bits representing genes.",
+    "authors": [
+      "Dorota Mackiewicz",
+      "Stanislaw Cebrat"
+    ],
+    "publication_date": "2009-01-11T20:24:13Z",
+    "arxiv_id": "http://arxiv.org/abs/0901.1465v1",
+    "download_url": "https://arxiv.org/abs/0901.1465v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Parametric Inference using Persistence Diagrams: A Case Study in Population Genetics",
+    "abstract": "Persistent homology computes topological invariants from point cloud data. Recent work has focused on developing statistical methods for data analysis in this framework. We show that, in certain models, parametric inference can be performed using statistics defined on the computed invariants. We develop this idea with a model from population genetics, the coalescent with recombination. We apply our model to an influenza dataset, identifying two scales of topological structure which have a distinct biological interpretation.",
+    "authors": [
+      "Kevin Emmett",
+      "Daniel Rosenbloom",
+      "Pablo Camara",
+      "Raul Rabadan"
+    ],
+    "publication_date": "2014-06-18T03:23:30Z",
+    "arxiv_id": "http://arxiv.org/abs/1406.4582v1",
+    "download_url": "https://arxiv.org/abs/1406.4582v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning Explainable Imaging-Genetics Associations Related to a Neurological Disorder",
+    "abstract": "While imaging-genetics holds great promise for unraveling the complex interplay between brain structure and genetic variation in neurological disorders, traditional methods are limited to simplistic linear models or to black-box techniques that lack interpretability. In this paper, we present NeuroPathX, an explainable deep learning framework that uses an early fusion strategy powered by cross-attention mechanisms to capture meaningful interactions between structural variations in the brain derived from MRI and established biological pathways derived from genetics data. To enhance interpretability and robustness, we introduce two loss functions over the attention matrix - a sparsity loss that focuses on the most salient interactions and a pathway similarity loss that enforces consistent representations across the cohort. We validate NeuroPathX on both autism spectrum disorder and Alzheimer's disease. Our results demonstrate that NeuroPathX outperforms competing baseline approaches and reveals biologically plausible associations linked to the disorder. These findings underscore the potential of NeuroPathX to advance our understanding of complex brain disorders. Code is available at https://github.com/jueqiw/NeuroPathX .",
+    "authors": [
+      "Jueqi Wang",
+      "Zachary Jacokes",
+      "John Darrell Van Horn",
+      "Michael C. Schatz",
+      "Kevin A. Pelphrey",
+      "Archana Venkataraman"
+    ],
+    "publication_date": "2025-08-22T23:18:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.18303v1",
+    "download_url": "https://arxiv.org/abs/2508.18303v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep Genetic Network",
+    "abstract": "Optimizing a neural network's performance is a tedious and time taking process, this iterative process does not have any defined solution which can work for all the problems. Optimization can be roughly categorized into - Architecture and Hyperparameter optimization. Many algorithms have been devised to address this problem. In this paper we introduce a neural network architecture (Deep Genetic Network) which will optimize its parameters during training based on its fitness. Deep Genetic Net uses genetic algorithms along with deep neural networks to address the hyperparameter optimization problem, this approach uses ideas like mating and mutation which are key to genetic algorithms which help the neural net architecture to learn to optimize its hyperparameters by itself rather than depending on a person to explicitly set the values. Using genetic algorithms for this problem proved to work exceptionally well when given enough time to train the network. The proposed architecture is found to work well in optimizing hyperparameters in affine, convolutional and recurrent layers proving to be a good choice for conventional supervised learning tasks.",
+    "authors": [
+      "Siddhartha Dhar Choudhury",
+      "Shashank Pandey",
+      "Kunal Mehrotra"
+    ],
+    "publication_date": "2018-11-05T17:04:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.01845v2",
+    "download_url": "https://arxiv.org/abs/1811.01845v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "CGBench: Benchmarking Language Model Scientific Reasoning for Clinical Genetics Research",
+    "abstract": "Variant and gene interpretation are fundamental to personalized medicine and translational biomedicine. However, traditional approaches are manual and labor-intensive. Generative language models (LMs) can facilitate this process, accelerating the translation of fundamental research into clinically-actionable insights. While existing benchmarks have attempted to quantify the capabilities of LMs for interpreting scientific data, these studies focus on narrow tasks that do not translate to real-world research. To meet these challenges, we introduce CGBench, a robust benchmark that tests reasoning capabilities of LMs on scientific publications. CGBench is built from ClinGen, a resource of expert-curated literature interpretations in clinical genetics. CGBench measures the ability to 1) extract relevant experimental results following precise protocols and guidelines, 2) judge the strength of evidence, and 3) categorize and describe the relevant outcome of experiments. We test 8 different LMs and find that while models show promise, substantial gaps exist in literature interpretation, especially on fine-grained instructions. Reasoning models excel in fine-grained tasks but non-reasoning models are better at high-level interpretations. Finally, we measure LM explanations against human explanations with an LM judge approach, revealing that models often hallucinate or misinterpret results even when correctly classifying evidence. CGBench reveals strengths and weaknesses of LMs for precise interpretation of scientific publications, opening avenues for future research in AI for clinical genetics and science more broadly.",
+    "authors": [
+      "Owen Queen",
+      "Harrison G. Zhang",
+      "James Zou"
+    ],
+    "publication_date": "2025-10-13T22:28:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.11985v1",
+    "download_url": "https://arxiv.org/abs/2510.11985v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey on Migration-Selection Models in Population Genetics",
+    "abstract": "This survey focuses on the most important aspects of the mathematical theory of population genetic models of selection and migration between discrete niches. Such models are most appropriate if the dispersal distance is short compared to the scale at which the environment changes, or if the habitat is fragmented. The general goal of such models is to study the influence of population subdivision and gene flow among subpopulations on the amount and pattern of genetic variation maintained. Only deterministic models are treated. Because space is discrete, they are formulated in terms of systems of nonlinear difference or differential equations. A central topic is the exploration of the equilibrium and stability structure under various assumptions on the patterns of selection and migration. Another important, closely related topic concerns conditions (necessary or sufficient) for fully polymorphic (internal) equilibria. First, the theory of one-locus models with two or multiple alleles is laid out. Then, mostly very recent, developments about multilocus models are presented. Finally, as an application, analysis and results of an explicit two-locus model emerging from speciation theory are highlighted.",
+    "authors": [
+      "Reinhard Bürger"
+    ],
+    "publication_date": "2013-09-10T17:09:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1309.2576v1",
+    "download_url": "https://arxiv.org/abs/1309.2576v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Deep neural networks with controlled variable selection for the identification of putative causal genetic variants",
+    "abstract": "Deep neural networks (DNN) have been used successfully in many scientific problems for their high prediction accuracy, but their application to genetic studies remains challenging due to their poor interpretability. In this paper, we consider the problem of scalable, robust variable selection in DNN for the identification of putative causal genetic variants in genome sequencing studies. We identified a pronounced randomness in feature selection in DNN due to its stochastic nature, which may hinder interpretability and give rise to misleading results. We propose an interpretable neural network model, stabilized using ensembling, with controlled variable selection for genetic studies. The merit of the proposed method includes: (1) flexible modelling of the non-linear effect of genetic variants to improve statistical power; (2) multiple knockoffs in the input layer to rigorously control false discovery rate; (3) hierarchical layers to substantially reduce the number of weight parameters and activations to improve computational efficiency; (4) de-randomized feature selection to stabilize identified signals. We evaluated the proposed method in extensive simulation studies and applied it to the analysis of Alzheimer disease genetics. We showed that the proposed method, when compared to conventional linear and nonlinear methods, can lead to substantially more discoveries.",
+    "authors": [
+      "Peyman H. Kassani",
+      "Fred Lu",
+      "Yann Le Guen",
+      "Zihuai He"
+    ],
+    "publication_date": "2021-09-29T20:57:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.14719v1",
+    "download_url": "https://arxiv.org/abs/2109.14719v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Seed bank Cannings Graphs: How dormancy smoothes random genetic drift",
+    "abstract": "In this article, we introduce a random (directed) graph model for the simultaneous forwards and backwards description of a rather broad class of Cannings models with a seed bank mechanism. This provides a simple tool to establish a sampling duality in the finite population size, and obtain a path-wise embedding of the forward frequency process and the backward ancestral process. Further, it allows the derivation of limit theorems that generalize celebrated results by Möhle to models with seed banks, and where it can be seen how the effect of seed banks affects the genealogies. The explicit graphical construction is a new tool to understand the subtle interplay of seed banks, reproduction and genetic drift in population genetics.",
+    "authors": [
+      "Adrián González Casanova",
+      "Lizbeth Peñaloza",
+      "Arno Siri-Jégousse"
+    ],
+    "publication_date": "2022-10-11T23:00:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2210.05819v2",
+    "download_url": "https://arxiv.org/abs/2210.05819v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Variable Prioritization in Nonlinear Black Box Methods: A Genetic Association Case Study",
+    "abstract": "The central aim in this paper is to address variable selection questions in nonlinear and nonparametric regression. Motivated by statistical genetics, where nonlinear interactions are of particular interest, we introduce a novel and interpretable way to summarize the relative importance of predictor variables. Methodologically, we develop the \"RelATive cEntrality\" (RATE) measure to prioritize candidate genetic variants that are not just marginally important, but whose associations also stem from significant covarying relationships with other variants in the data. We illustrate RATE through Bayesian Gaussian process regression, but the methodological innovations apply to other \"black box\" methods. It is known that nonlinear models often exhibit greater predictive accuracy than linear models, particularly for phenotypes generated by complex genetic architectures. With detailed simulations and two real data association mapping studies, we show that applying RATE enables an explanation for this improved performance.",
+    "authors": [
+      "Lorin Crawford",
+      "Seth R. Flaxman",
+      "Daniel E. Runcie",
+      "Mike West"
+    ],
+    "publication_date": "2018-01-22T20:57:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1801.07318v3",
+    "download_url": "https://arxiv.org/abs/1801.07318v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Variational methods for Learning Multilevel Genetic Algorithms using the Kantorovich Monad",
+    "abstract": "Levels of selection and multilevel evolutionary processes are essential concepts in evolutionary theory, and yet there is a lack of common mathematical models for these core ideas. Here, we propose a unified mathematical framework for formulating and optimizing multilevel evolutionary processes and genetic algorithms over arbitrarily many levels based on concepts from category theory and population genetics. We formulate a multilevel version of the Wright-Fisher process using this approach, and we show that this model can be analyzed to clarify key features of multilevel selection. Particularly, we derive an extended multilevel probabilistic version of Price's Equation via the Kantorovich Monad, and we use this to characterize regimes of parameter space within which selection acts antagonistically or cooperatively across levels. Finally, we show how our framework can provide a unified setting for learning genetic algorithms (GAs), and we show how we can use a Variational Optimization and a multi-level analogue of coalescent analysis to fit multilevel GAs to simulated data.",
+    "authors": [
+      "Jonathan Warrell",
+      "Francesco Alesiani",
+      "Cameron Smith",
+      "Anja Mösch",
+      "Martin Renqiang Min"
+    ],
+    "publication_date": "2024-11-14T19:47:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.09779v1",
+    "download_url": "https://arxiv.org/abs/2411.09779v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "SLiM-Gym: Reinforcement Learning for Population Genetics",
+    "abstract": "We introduce SLiM-Gym, a Python package for integrating reinforcement learning (RL) with forward-time population genetic simulations. Wright-Fisher evolutionary dynamics offer a tractable framework for modeling populations across discrete generations, yet applying RL to these systems requires a compatible training environment. SLiM-Gym connects the standardized RL interface provided by Gymnasium with the high-fidelity evolutionary simulations of SLiM, allowing agents to interact with evolving populations in real time. This framework enables the development and evaluation of RL-based strategies for understanding evolutionary processes.",
+    "authors": [
+      "Niko Zuppas",
+      "Bryan C. Carstens"
+    ],
+    "publication_date": "2025-04-22T22:41:35Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.16301v1",
+    "download_url": "https://arxiv.org/abs/2504.16301v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "LitGen: Genetic Literature Recommendation Guided by Human Explanations",
+    "abstract": "As genetic sequencing costs decrease, the lack of clinical interpretation of variants has become the bottleneck in using genetics data. A major rate limiting step in clinical interpretation is the manual curation of evidence in the genetic literature by highly trained biocurators. What makes curation particularly time-consuming is that the curator needs to identify papers that study variant pathogenicity using different types of approaches and evidences---e.g. biochemical assays or case control analysis. In collaboration with the Clinical Genomic Resource (ClinGen)---the flagship NIH program for clinical curation---we propose the first machine learning system, LitGen, that can retrieve papers for a particular variant and filter them by specific evidence types used by curators to assess for pathogenicity. LitGen uses semi-supervised deep learning to predict the type of evidence provided by each paper. It is trained on papers annotated by ClinGen curators and systematically evaluated on new test data collected by ClinGen. LitGen further leverages rich human explanations and unlabeled data to gain 7.9%-12.6% relative performance improvement over models learned only on the annotated papers. It is a useful framework to improve clinical variant curation.",
+    "authors": [
+      "Allen Nie",
+      "Arturo L. Pineda",
+      "Matt W. Wright Hannah Wand",
+      "Bryan Wulf",
+      "Helio A. Costa",
+      "Ronak Y. Patel",
+      "Carlos D. Bustamante",
+      "James Zou"
+    ],
+    "publication_date": "2019-09-24T03:56:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.10699v1",
+    "download_url": "https://arxiv.org/abs/1909.10699v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Biological Systems as Systems of Increasing Entropy: Language and Genetics",
+    "abstract": "In this paper we will try to provide a formalization of some characteristics of the development of biological systems aiming at the highest level of adequacy: justificative adequacy, that is, not only what we observe (descriptive adequacy) and how we think it occurs (explanatory adequacy) but also what architectural properties (in terms of matter configuration, for example) license the occurrence of certain phenomena. In the case of a biological instantiation of a physical system, justificative adequacy is to be found in the genotype-phenotype dynamics. Moreover, we will claim that such dynamics should be analyzed from a mathematical point of view, since the genotype is hypersensitive to initial conditions: a small change in a certain state of the system may have drastic effects on the output. Regarding methodology, we will use chaos theory applied to biology and also physical genetics in order to frame our research and give it theoretical weight.",
+    "authors": [
+      "Diego Gabriel Krivochen"
+    ],
+    "publication_date": "2012-10-13T20:41:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1210.3740v3",
+    "download_url": "https://arxiv.org/abs/1210.3740v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Singular effect of linkage on long term genetic gain in the infinitesimal model",
+    "abstract": "During the founding of the field of quantitative genetics, Fisher formulated in 1918 his ``infinitesimal model'' that provided a novel mathematical framework to describe the Mendelian transmission of quantitative traits. If the infinitely many genes in that model are assumed to segregate independently during reproduction, corresponding to having no linkage, directional selection asymptotically leads to a constant genetic gain at each generation. In reality, genes are subject to strong linkage because they lie on chromosomes and thus segregate in a correlated way. Various approximations have been used in the past to study that more realistic case of the infinitesimal model with the expectation that the asymptotic gain per generation is modestly decreased. To treat this system even in the strong linkage limit, we take the genes to lie on continuous chromosomes. Surprisingly, the consequences of genetic linkage are in fact rather singular, changing the nature of the long-term gain per generation: the asymptotic gain vanishes rather than being simply decreased. Nevertheless, the per-generation gain tends to zero sufficiently slowly for the total gain, accumulated over generations, to be unbounded.",
+    "authors": [
+      "Elise Tourrette",
+      "Olivier C. Martin"
+    ],
+    "publication_date": "2024-01-08T18:54:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.04095v2",
+    "download_url": "https://arxiv.org/abs/2401.04095v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetic CNN",
+    "abstract": "The deep Convolutional Neural Network (CNN) is the state-of-the-art solution for large-scale visual recognition. Following basic principles such as increasing the depth and constructing highway connections, researchers have manually designed a lot of fixed network structures and verified their effectiveness.\n  In this paper, we discuss the possibility of learning deep network structures automatically. Note that the number of possible network structures increases exponentially with the number of layers in the network, which inspires us to adopt the genetic algorithm to efficiently traverse this large search space. We first propose an encoding method to represent each network structure in a fixed-length binary string, and initialize the genetic algorithm by generating a set of randomized individuals. In each generation, we define standard genetic operations, e.g., selection, mutation and crossover, to eliminate weak individuals and then generate more competitive ones. The competitiveness of each individual is defined as its recognition accuracy, which is obtained via training the network from scratch and evaluating it on a validation set. We run the genetic process on two small datasets, i.e., MNIST and CIFAR10, demonstrating its ability to evolve and find high-quality structures which are little studied before. These structures are also transferrable to the large-scale ILSVRC2012 dataset.",
+    "authors": [
+      "Lingxi Xie",
+      "Alan Yuille"
+    ],
+    "publication_date": "2017-03-04T19:44:16Z",
+    "arxiv_id": "http://arxiv.org/abs/1703.01513v1",
+    "download_url": "https://arxiv.org/abs/1703.01513v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A statistical framework for joint eQTL analysis in multiple tissues",
+    "abstract": "Mapping expression Quantitative Trait Loci (eQTLs) represents a powerful and widely-adopted approach to identifying putative regulatory variants and linking them to specific genes. Up to now eQTL studies have been conducted in a relatively narrow range of tissues or cell types. However, understanding the biology of organismal phenotypes will involve understanding regulation in multiple tissues, and ongoing studies are collecting eQTL data in dozens of cell types. Here we present a statistical framework for powerfully detecting eQTLs in multiple tissues or cell types (or, more generally, multiple subgroups). The framework explicitly models the potential for each eQTL to be active in some tissues and inactive in others. By modeling the sharing of active eQTLs among tissues this framework increases power to detect eQTLs that are present in more than one tissue compared with \"tissue-by-tissue\" analyses that examine each tissue separately. Conversely, by modeling the inactivity of eQTLs in some tissues, the framework allows the proportion of eQTLs shared across different tissues to be formally estimated as parameters of a model, addressing the difficulties of accounting for incomplete power when comparing overlaps of eQTLs identified by tissue-by-tissue analyses. Applying our framework to re-analyze data from transformed B cells, T cells and fibroblasts we find that it substantially increases power compared with tissue-by-tissue analysis, identifying 63% more genes with eQTLs (at FDR=0.05). Further the results suggest that, in contrast to previous analyses of the same data, the majority of eQTLs detectable in these data are shared among all three tissues.",
+    "authors": [
+      "Timothée Flutre",
+      "Xiaoquan Wen",
+      "Jonathan Pritchard",
+      "Matthew Stephens"
+    ],
+    "publication_date": "2012-12-19T18:32:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1212.4786v1",
+    "download_url": "https://arxiv.org/abs/1212.4786v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DeepGestalt - Identifying Rare Genetic Syndromes Using Deep Learning",
+    "abstract": "Facial analysis technologies have recently measured up to the capabilities of expert clinicians in syndrome identification. To date, these technologies could only identify phenotypes of a few diseases, limiting their role in clinical settings where hundreds of diagnoses must be considered.\n  We developed a facial analysis framework, DeepGestalt, using computer vision and deep learning algorithms, that quantifies similarities to hundreds of genetic syndromes based on unconstrained 2D images. DeepGestalt is currently trained with over 26,000 patient cases from a rapidly growing phenotype-genotype database, consisting of tens of thousands of validated clinical cases, curated through a community-driven platform. DeepGestalt currently achieves 91% top-10-accuracy in identifying over 215 different genetic syndromes and has outperformed clinical experts in three separate experiments.\n  We suggest that this form of artificial intelligence is ready to support medical genetics in clinical and laboratory practices and will play a key role in the future of precision medicine.",
+    "authors": [
+      "Yaron Gurovich",
+      "Yair Hanani",
+      "Omri Bar",
+      "Nicole Fleischer",
+      "Dekel Gelbman",
+      "Lina Basel-Salmon",
+      "Peter Krawitz",
+      "Susanne B Kamphausen",
+      "Martin Zenker",
+      "Lynne M. Bird",
+      "Karen W. Gripp"
+    ],
+    "publication_date": "2018-01-23T16:18:24Z",
+    "arxiv_id": "http://arxiv.org/abs/1801.07637v1",
+    "download_url": "https://arxiv.org/abs/1801.07637v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Category theory for genetics II: genotype, phenotype and haplotype",
+    "abstract": "The overarching goal of this paper is to solve the word problem for a class of idempotent commutative monoids whose elements model population haplotypes. More specifically, we design an algebraic framework in which it is possible to unravel population stratification relationships and infer linkage disequilibrium in terms of algebraic equations of haplotypes expressed in idempotent commutative monoids. We show how these relations can be used to clarify haplotype-phenotype associations through the consideration of intermediate phenotypes and genetic mechanisms such as segregation and homologous recombination. The present work paves the way for the implementation of combinatorial GWAS in the study of complex traits, and for a framework in which one can infer genetic variants interactions along with the corresponding regulatory circuitry. Throughout the paper, we formalize concepts such as genotypes, haplotypes and haplogroups, and model segregation and homologous recombination in the language of pedigrads (introduced in previous work). The benefit of using pedigrads is that they provide a computational framework in which one can reason about haplotype dynamics over several generations.",
+    "authors": [
+      "Rémy Tuyéras"
+    ],
+    "publication_date": "2018-05-18T00:52:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1805.07004v4",
+    "download_url": "https://arxiv.org/abs/1805.07004v4",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Statistical testing of shared genetic control for potentially related traits",
+    "abstract": "Integration of data from genome-wide single nucleotide polymorphism (SNP) association studies of different traits should allow researchers to disentangle the genetics of potentially related traits within individually associated regions. Formal statistical colocalisation testing of individual regions, which requires selection of a set of SNPs summarizing the association in a region. We show that the SNP selection method greatly affects type 1 error rates, with published studies having used methods expected to result in substantially inflated type 1 error rates. We show that either avoiding variable selection and instead testing the most informative principal components or integrating over variable selection using Bayesian model averaging can lead to correct control of type 1 error rates. Application to data from Graves' disease and Hashimoto's thyroiditis reveals a common genetic signature across seven regions shared between the diseases, and indicates that in five of six regions associated with Graves' disease and not Hashimoto's thyroiditis, this more likely reflects genuine absence of association with the latter rather than lack of power. Our examination, by simulation, of the performance of colocalisation tests and associated software will foster more widespread adoption of formal colocalisation testing. Given the increasing availability of large expression and genetic association data sets from disease-relevant tissue and purified cell populations, coupled with identification of regulatory sequences by projects such as ENCODE, colocalisation analysis has the potential to reveal both shared genetic signatures of related traits and causal disease genes and tissues.",
+    "authors": [
+      "Chris Wallace"
+    ],
+    "publication_date": "2013-01-23T14:19:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1301.5510v2",
+    "download_url": "https://arxiv.org/abs/1301.5510v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Assessment of Customer Credit through Combined Clustering of Artificial Neural Networks, Genetics Algorithm and Bayesian Probabilities",
+    "abstract": "Today, with respect to the increasing growth of demand to get credit from the customers of banks and finance and credit institutions, using an effective and efficient method to decrease the risk of non-repayment of credit given is very necessary. Assessment of customers' credit is one of the most important and the most essential duties of banks and institutions, and if an error occurs in this field, it would leads to the great losses for banks and institutions. Thus, using the predicting computer systems has been significantly progressed in recent decades. The data that are provided to the credit institutions' managers help them to make a straight decision for giving the credit or not-giving it. In this paper, we will assess the customer credit through a combined classification using artificial neural networks, genetics algorithm and Bayesian probabilities simultaneously, and the results obtained from three methods mentioned above would be used to achieve an appropriate and final result. We use the K_folds cross validation test in order to assess the method and finally, we compare the proposed method with the methods such as Clustering-Launched Classification (CLC), Support Vector Machine (SVM) as well as GA+SVM where the genetics algorithm has been used to improve them.",
+    "authors": [
+      "Reza Mortezapour",
+      "Mehdi Afzali"
+    ],
+    "publication_date": "2013-12-30T15:31:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1312.7740v1",
+    "download_url": "https://arxiv.org/abs/1312.7740v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Novel Crossover Operator for Genetic Algorithms: Ring Crossover",
+    "abstract": "The genetic algorithm (GA) is an optimization and search technique based on the principles of genetics and natural selection. A GA allows a population composed of many individuals to evolve under specified selection rules to a state that maximizes the \"fitness\" function. In that process, crossover operator plays an important role. To comprehend the GAs as a whole, it is necessary to understand the role of a crossover operator. Today, there are a number of different crossover operators that can be used in GAs. However, how to decide what operator to use for solving a problem? A number of test functions with various levels of difficulty has been selected as a test polygon for determine the performance of crossover operators. In this paper, a novel crossover operator called 'ring crossover' is proposed. In order to evaluate the efficiency and feasibility of the proposed operator, a comparison between the results of this study and results of different crossover operators used in GAs is made through a number of test functions with various levels of difficulty. Results of this study clearly show significant differences between the proposed operator and the other crossover operators.",
+    "authors": [
+      "Yılmaz Kaya",
+      "Murat Uyar",
+      "Ramazan Tek\\D{j}n"
+    ],
+    "publication_date": "2011-05-02T15:22:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1105.0355v1",
+    "download_url": "https://arxiv.org/abs/1105.0355v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetic code on the dyadic plane",
+    "abstract": "We introduce the simple parametrization for the space of codons (triples of nucleotides) by 8\\times 8 table. This table (which we call the dyadic plane) possesses the natural 2-adic ultrametric. We show that after this parametrization the genetic code will be a locally constant map of the simple form. The local constancy of this map will describe degeneracy of the genetic code.\n  The map of the genetic code defines 2-adic ultrametric on the space of amino acids. We show that hydrophobic amino acids will be clustered in two balls with respect to this ultrametric. Therefore the introduced parametrization of space of codons exhibits the hidden regularity of the genetic code.",
+    "authors": [
+      "A. Yu. Khrennikov",
+      "S. V. Kozyrev"
+    ],
+    "publication_date": "2007-01-03T16:38:13Z",
+    "arxiv_id": "http://arxiv.org/abs/q-bio/0701007v3",
+    "download_url": "https://arxiv.org/abs/q-bio/0701007v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Populations in statistical genetic modelling and inference",
+    "abstract": "What is a population? This review considers how a population may be defined in terms of understanding the structure of the underlying genetics of the individuals involved. The main approach is to consider statistically identifiable groups of randomly mating individuals, which is well defined in theory for any type of (sexual) organism. We discuss generative models using drift, admixture and spatial structure, and the ancestral recombination graph. These are contrasted with statistical models for inference, principle component analysis and other `non-parametric' methods. The relationships between these approaches are explored with both simulated and real-data examples. The state-of-the-art practical software tools are discussed and contrasted. We conclude that populations are a useful theoretical construct that can be well defined in theory and often approximately exist in practice.",
+    "authors": [
+      "Daniel John Lawson"
+    ],
+    "publication_date": "2013-06-04T08:40:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1306.0701v1",
+    "download_url": "https://arxiv.org/abs/1306.0701v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Genetics of the biparental Moran model",
+    "abstract": "Our goal is to study the genetic composition of a population in which each individual has 2 parents, who contribute equally to the genome of their ospring. We use a biparental Moran model, which is characterized by its xed number N of individuals. We x an individual and consider the proportions of the genomes of all individuals living n time steps later, that come from this individual. We rst prove that when n goes to innity, these proportions all converge almost surely towards the same random variable. We then rigorously prove that when N then goes to innity, this random variable multiplied by N (i.e. the stationary weight of any ancestor in the whole population) converges in law towards the mixture of a Dirac measure in 0 and an exponential law with parameter 1/2, and that the weights of several given ancestors are independent.",
+    "authors": [
+      "Camille Coron",
+      "Yves Le Jan"
+    ],
+    "publication_date": "2020-07-30T14:19:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.15479v2",
+    "download_url": "https://arxiv.org/abs/2007.15479v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A mathematical formalism for natural selection with arbitrary spatial and genetic structure",
+    "abstract": "We define a general class of models representing natural selection between two alleles. The population size and spatial structure are arbitrary, but fixed. Genetics can be haploid, diploid, or otherwise; reproduction can be asexual or sexual. Biological events (e.g.~births, deaths, mating, dispersal) depend in arbitrary fashion on the current population state. Our formalism is based on the idea of genetic sites. Each genetic site resides at a particular locus and houses a single allele. Each individual contains a number of sites equal to its ploidy (one for haploids, two for diploids, etc.). Selection occurs via replacement events, in which alleles in some sites are replaced by copies of others. Replacement events depend stochastically on the population state, leading to a Markov chain representation of natural selection. Within this formalism, we define reproductive value, fitness, neutral drift, and fixation probability, and prove relationships among them. We identify four criteria for evaluating which allele is selected and show that these become equivalent in the limit of low mutation. We then formalize the method of weak selection. The power of our formalism is illustrated with applications to evolutionary games on graphs and to selection in a haplodiploid population.",
+    "authors": [
+      "Benjamin Allen",
+      "Alex McAvoy"
+    ],
+    "publication_date": "2018-06-12T18:58:25Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.04717v2",
+    "download_url": "https://arxiv.org/abs/1806.04717v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Population Genetics of Rare Variants and Complex Diseases",
+    "abstract": "Identifying drivers of complex traits from the noisy signals of genetic variation obtained from high throughput genome sequencing technologies is a central challenge faced by human geneticists today. We hypothesize that the variants involved in complex diseases are likely to exhibit non-neutral evolutionary signatures. Uncovering the evolutionary history of all variants is therefore of intrinsic interest for complex disease research. However, doing so necessitates the simultaneous elucidation of the targets of natural selection and population-specific demographic history. Here we characterize the action of natural selection operating across complex disease categories, and use population genetic simulations to evaluate the expected patterns of genetic variation in large samples. We focus on populations that have experienced historical bottlenecks followed by explosive growth (consistent with most human populations), and describe the differences between evolutionarily deleterious mutations and those that are neutral. Genes associated with several complex disease categories exhibit stronger signatures of purifying selection than non-disease genes. In addition, loci identified through genome-wide association studies of complex traits also exhibit signatures consistent with being in regions recurrently targeted by purifying selection. Through simulations, we show that population bottlenecks and rapid growth enables deleterious rare variants to persist at low frequencies just as long as neutral variants, but low frequency and common variants tend to be much younger than neutral variants. This has resulted in a large proportion of modern-day rare alleles that have a deleterious effect on function, and that potentially contribute to disease susceptibility.",
+    "authors": [
+      "M. Cyrus Maher",
+      "Lawrence H. Uricchio",
+      "Dara G. Torgerson",
+      "Ryan D. Hernandez"
+    ],
+    "publication_date": "2013-02-12T06:16:04Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.2710v1",
+    "download_url": "https://arxiv.org/abs/1302.2710v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Asymptotic analysis of a quantitative genetics model withnonlinear integral operator",
+    "abstract": "We study the asymptotic behavior of stationary solutions to a quantitative genetics model with trait-dependent mortality and sexual reproduction. The infinitesimal model accounts for the mixing of parental phenotypes at birth.Our asymptotic analysis encompasses the case when deviations between the offspring and the mean parental trait are typically small. Under suitable regularity and growth conditions on the mortality rate, we prove existence and local uniqueness of a stationary profile that get concentrated around a local optimum of mortality, with a Gaussian shape having small variance. Our approach is based on perturbative analysis techniques that require to describe accurately  the correction to the Gaussian leading order profile. Our result extends previous results obtained with an asexual mode of reproduction, but using an alternative methodology.",
+    "authors": [
+      "Vincent Calvez",
+      "Jimmy Garnier",
+      "Florian Patout"
+    ],
+    "publication_date": "2018-11-05T15:12:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.01779v3",
+    "download_url": "https://arxiv.org/abs/1811.01779v3",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Model inspired by population genetics to study fragmentation of brittle plates",
+    "abstract": "We use a model whose rules were inspired by population genetics, the random capability growth model, to describe the statistical details observed in experiments of fragmentation of brittle platelike objects, and in particular the existence of (i) composite scaling laws, (ii) small critical exponents τassociated with the power-law fragment-size distribution, and (iii) the typical pattern of cracks. The proposed computer simulations do not require numerical solutions of the Newton's equations of motion, nor several additional assumptions normally used in discrete element models. The model is also able to predict some physical aspects which could be tested in new experiments of fragmentation of brittle systems.",
+    "authors": [
+      "M. A. F. Gomes",
+      "Viviane M. de Oliveira"
+    ],
+    "publication_date": "2006-02-13T20:07:20Z",
+    "arxiv_id": "http://arxiv.org/abs/cond-mat/0602297v2",
+    "download_url": "https://arxiv.org/abs/cond-mat/0602297v2",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "R-GenIMA: Integrating Neuroimaging and Genetics with Interpretable Multimodal AI for Alzheimer's Disease Progression",
+    "abstract": "Early detection of Alzheimer's disease (AD) requires models capable of integrating macro-scale neuroanatomical alterations with micro-scale genetic susceptibility, yet existing multimodal approaches struggle to align these heterogeneous signals. We introduce R-GenIMA, an interpretable multimodal large language model that couples a novel ROI-wise vision transformer with genetic prompting to jointly model structural MRI and single nucleotide polymorphisms (SNPs) variations. By representing each anatomically parcellated brain region as a visual token and encoding SNP profiles as structured text, the framework enables cross-modal attention that links regional atrophy patterns to underlying genetic factors. Applied to the ADNI cohort, R-GenIMA achieves state-of-the-art performance in four-way classification across normal cognition (NC), subjective memory concerns (SMC), mild cognitive impairment (MCI), and AD. Beyond predictive accuracy, the model yields biologically meaningful explanations by identifying stage-specific brain regions and gene signatures, as well as coherent ROI-Gene association patterns across the disease continuum. Attention-based attribution revealed genes consistently enriched for established GWAS-supported AD risk loci, including APOE, BIN1, CLU, and RBFOX1. Stage-resolved neuroanatomical signatures identified shared vulnerability hubs across disease stages alongside stage-specific patterns: striatal involvement in subjective decline, frontotemporal engagement during prodromal impairment, and consolidated multimodal network disruption in AD. These results demonstrate that interpretable multimodal AI can synthesize imaging and genetics to reveal mechanistic insights, providing a foundation for clinically deployable tools that enable earlier risk stratification and inform precision therapeutic strategies in Alzheimer's disease.",
+    "authors": [
+      "Kun Zhao",
+      "Siyuan Dai",
+      "Yingying Zhang",
+      "Guodong Liu",
+      "Pengfei Gu",
+      "Chenghua Lin",
+      "Paul M. Thompson",
+      "Alex Leow",
+      "Heng Huang",
+      "Lifang He",
+      "Liang Zhan",
+      "Haoteng Tang"
+    ],
+    "publication_date": "2025-12-22T02:54:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.18986v1",
+    "download_url": "https://arxiv.org/abs/2512.18986v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Killing versus catastrophes in birth-death processes and an application to population genetics",
+    "abstract": "We establish connections between the absorption probabilities of a class of birth-death processes with killing, and the stationary tail distributions of a related class of birth-death processes with catastrophes. Major ingredients of the proofs are an excursion decomposition of sample paths, a generalised detailed-balance condition, and representations of our processes in terms of superpositions of simpler processes. An overarching role is played by Siegmund duality, which allows us to invert the relationship between the processes.\n  We apply our results to a pair of ancestral processes in population genetics, namely the killed ancestral selection graph and the pruned lookdown ancestral selection graph, in a finite population setting and its diffusion limit.",
+    "authors": [
+      "Ellen Baake",
+      "Fernando Cordero",
+      "Enrico DiGaspero"
+    ],
+    "publication_date": "2024-07-11T13:13:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.08478v1",
+    "download_url": "https://arxiv.org/abs/2407.08478v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Inspiration from genetics to promote recognition and protection within ad hoc sensor networks",
+    "abstract": "This work illustrates potentials for recognition within {\\em ad hoc} sensor networks if their nodes possess individual inter-related biologically inspired genetic codes. The work takes ideas from natural immune systems protecting organisms from infection. Nodes in the present proposal have individual gene sets fitting into a self organised phylogenetic tree. Members of this population are genetically ''relatives''. Outsiders cannot easily copy or introduce a new node in the network without going through a process of conception between two nodes in the population. Related nodes can locally decide to check each other for their genetic relation without directly revealing their gene sets. A copy/clone of a gene sequence or a random gene set will appear as alien. Nodes go through a cycle of introduction (conception or ''birth'') with parents in the network and later exit from it (''death''). Hence the phylogenetic tree is dynamic or possesses a genetic drift. Typical lifetimes of gene sets and number of offspring from different parents affect this genetic drift and the level of correlation between gene sets. The frequency of mutations similarly affects the gene pool. Correlation between genes of the nodes implies a common secret for cryptographic material for communication and consistency check facilitating intrusion detection and tracing of events. A node can by itself (non-specifically) recognise an adversary if it does not respond properly according to its genes. Nodes can also collaborate to recognise adversaries by communicating response from intruders to check for consistency with the whole gene pool (phylogenetic tree).",
+    "authors": [
+      "Reinert Korsnes",
+      "Knut Ovsthus"
+    ],
+    "publication_date": "2009-12-28T12:59:00Z",
+    "arxiv_id": "http://arxiv.org/abs/0912.5166v1",
+    "download_url": "https://arxiv.org/abs/0912.5166v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Graphon-valued stochastic processes from population genetics",
+    "abstract": "The goal of this paper is to develop a theory of graphon-valued stochastic processes, and to construct and analyse a natural class of such processes arising from population genetics. We consider finite populations where individuals change type according to Wright-Fisher resampling. At any time, each pair of individuals is linked by an edge with a probability that is given by a type-connection matrix, whose entries depend on the current empirical type distribution of the entire population via a fitness function. We show that, in the large-population-size limit and with an appropriate scaling of time, the evolution of the associated adjacency matrix converges to a random process in the space of graphons, driven by the type-connection matrix and the underlying Wright-Fisher diffusion on the multi-type simplex. In the limit as the number of types tends to infinity, the limiting process is driven by the type-connection kernel and the underlying Fleming-Viot diffusion.",
+    "authors": [
+      "Siva Athreya",
+      "Frank den Hollander",
+      "Adrian Röllin"
+    ],
+    "publication_date": "2019-08-17T04:50:48Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.06241v1",
+    "download_url": "https://arxiv.org/abs/1908.06241v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Synchronization of Coupled Nonidentical Genetic Oscillators",
+    "abstract": "The study on the collective dynamics of synchronization among genetic oscillators is essential for the understanding of the rhythmic phenomena of living organisms at both molecular and cellular levels. Genetic oscillators are biochemical networks, which can generally be modelled as nonlinear dynamic systems. We show in this paper that many genetic oscillators can be transformed into Lur'e form by exploiting the special structure of biological systems. By using control theory approach, we provide a theoretical method for analyzing the synchronization of coupled nonidentical genetic oscillators. Sufficient conditions for the synchronization as well as the estimation of the bound of the synchronization error are also obtained. To demonstrate the effectiveness of our theoretical results, a population of genetic oscillators based on the Goodwin model are adopted as numerical examples.",
+    "authors": [
+      "Chunguang Li",
+      "Luonan Chen",
+      "Kazuyuki Aihara"
+    ],
+    "publication_date": "2006-02-10T01:38:44Z",
+    "arxiv_id": "http://arxiv.org/abs/nlin/0602021v1",
+    "download_url": "https://arxiv.org/abs/nlin/0602021v1",
+    "field_of_study": "biology",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

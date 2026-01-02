@@ -1,0 +1,1610 @@
+[
+  {
+    "title": "Algorithms for Weighted Boolean Optimization",
+    "abstract": "The Pseudo-Boolean Optimization (PBO) and Maximum Satisfiability (MaxSAT) problems are natural optimization extensions of Boolean Satisfiability (SAT).\n  In the recent past, different algorithms have been proposed for PBO and for MaxSAT, despite the existence of straightforward mappings from PBO to MaxSAT and vice-versa. This papers proposes Weighted Boolean Optimization (WBO), a new unified framework that aggregates and extends PBO and MaxSAT. In addition, the paper proposes a new unsatisfiability-based algorithm for WBO, based on recent unsatisfiability-based algorithms for MaxSAT. Besides standard MaxSAT, the new algorithm can also be used to solve weighted MaxSAT and PBO, handling pseudo-Boolean constraints either natively or by translation to clausal form. Experimental results illustrate that unsatisfiability-based algorithms for MaxSAT can be orders of magnitude more efficient than existing dedicated algorithms. Finally, the paper illustrates how other algorithms for either PBO or MaxSAT can be extended to WBO.",
+    "authors": [
+      "Vasco Manquinho",
+      "Joao Marques-Silva",
+      "Jordi Planes"
+    ],
+    "publication_date": "2009-03-04T20:21:56Z",
+    "arxiv_id": "http://arxiv.org/abs/0903.0843v2",
+    "download_url": "https://arxiv.org/abs/0903.0843v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Simpler and Unified Recognition Algorithm for Path Graphs and Directed Path Graphs",
+    "abstract": "A path graph is the intersection graph of paths in a tree. A directed path graph is the intersection graph of paths in a directed tree. Even if path graphs and directed path graphs are characterized very similarly, their recognition algorithms differ widely. We further unify these two graph classes by presenting the first recognition algorithm for both path graphs and directed path graphs. We deeply use a recent characterization of path graphs, and we extend it to directed path graphs. Our algorithm does not require complex data structures and has an easy and intuitive implementation, simplifying recognition algorithms for both graph classes.",
+    "authors": [
+      "Lorenzo Balzotti"
+    ],
+    "publication_date": "2020-12-15T18:19:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2012.08476v6",
+    "download_url": "https://arxiv.org/abs/2012.08476v6",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fast Approximation of Centrality",
+    "abstract": "Social studies researchers use graphs to model group activities in social networks. An important property in this context is the centrality of a vertex: the inverse of the average distance to each other vertex. We describe a randomized approximation algorithm for centrality in weighted graphs. For graphs exhibiting the small world phenomenon, our method estimates the centrality of all vertices with high probability within a (1+epsilon) factor in near-linear time.",
+    "authors": [
+      "David Eppstein",
+      "Joseph Wang"
+    ],
+    "publication_date": "2000-09-13T18:39:05Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0009005v1",
+    "download_url": "https://arxiv.org/abs/cs/0009005v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Directed Capacity-Preserving Subgraphs: Hardness and Exact Polynomial Algorithms",
+    "abstract": "We introduce and discuss the Minimum Capacity-Preserving Subgraph (MCPS) problem: given a directed graph and a retention ratio $α\\in (0,1)$, find the smallest subgraph that, for each pair of vertices $(u,v)$, preserves at least a fraction $α$ of a maximum $u$-$v$-flow's value. This problem originates from the practical setting of reducing the power consumption in a computer network: it models turning off as many links as possible while retaining the ability to transmit at least $α$ times the traffic compared to the original network.\n  First we prove that MCPS is NP-hard already on a restricted set of directed acyclic graphs (DAGs) with unit edge capacities. Our reduction also shows that a closely related problem (which only considers the arguably most complicated core of the problem in the objective function) is NP-hard to approximate within a sublogarithmic factor already on DAGs. In terms of positive results, we present two algorithms that solve MCPS optimally on directed series-parallel graphs (DSPs): a simple linear-time algorithm for the special case of unit edge capacities and a cubic-time dynamic programming algorithm for the general case of non-uniform edge capacities. Further, we introduce the family of laminar series-parallel graphs (LSPs), a generalization of DSPs that also includes cyclic and very dense graphs. Their properties allow us to solve MCPS on LSPs by employing our DSP-algorithms as subroutines. In addition, we give a separate quadratic-time algorithm for MCPS on LSPs with unit edge capacities that also yields straightforward quadratic time algorithms for several related problems such as Minimum Equivalent Digraph and Directed Hamiltonian Cycle on LSPs.",
+    "authors": [
+      "Markus Chimani",
+      "Max Ilsen"
+    ],
+    "publication_date": "2023-03-30T10:29:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.17274v2",
+    "download_url": "https://arxiv.org/abs/2303.17274v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improved Approximation Algorithms for Segment Minimization in Intensity Modulated Radiation Therapy",
+    "abstract": "he segment minimization problem consists of finding the smallest set of integer matrices that sum to a given intensity matrix, such that each summand has only one non-zero value, and the non-zeroes in each row are consecutive. This has direct applications in intensity-modulated radiation therapy, an effective form of cancer treatment. We develop three approximation algorithms for matrices with arbitrarily many rows. Our first two algorithms improve the approximation factor from the previous best of $1+\\log_2 h $ to (roughly) $3/2 \\cdot (1+\\log_3 h)$ and $11/6\\cdot(1+\\log_4{h})$, respectively, where $h$ is the largest entry in the intensity matrix. We illustrate the limitations of the specific approach used to obtain these two algorithms by proving a lower bound of $\\frac{(2b-2)}{b}\\cdot\\log_b{h} + \\frac{1}{b}$ on the approximation guarantee. Our third algorithm improves the approximation factor from $2 \\cdot (\\log D+1)$ to $24/13 \\cdot (\\log D+1)$, where $D$ is (roughly) the largest difference between consecutive elements of a row of the intensity matrix. Finally, experimentation with these algorithms shows that they perform well with respect to the optimum and outperform other approximation algorithms on 77% of the 122 test cases we consider, which include both real world and synthetic data.",
+    "authors": [
+      "Therese Biedl",
+      "Stephane Durocher",
+      "Holger H. Hoos",
+      "Shuang Luan",
+      "Jared Saia",
+      "Maxwell Young"
+    ],
+    "publication_date": "2009-05-29T17:56:06Z",
+    "arxiv_id": "http://arxiv.org/abs/0905.4930v2",
+    "download_url": "https://arxiv.org/abs/0905.4930v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improved Algorithms for 3-Coloring, 3-Edge-Coloring, and Constraint Satisfaction",
+    "abstract": "We consider worst case time bounds for NP-complete problems including 3-SAT, 3-coloring, 3-edge-coloring, and 3-list-coloring. Our algorithms are based on a constraint satisfaction (CSP) formulation of these problems; 3-SAT is equivalent to (2,3)-CSP while the other problems above are special cases of (3,2)-CSP. We give a fast algorithm for (3,2)-CSP and use it to improve the time bounds for solving the other problems listed above. Our techniques involve a mixture of Davis-Putnam-style backtracking with more sophisticated matching and network flow based ideas.",
+    "authors": [
+      "David Eppstein"
+    ],
+    "publication_date": "2000-09-13T20:42:55Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0009006v1",
+    "download_url": "https://arxiv.org/abs/cs/0009006v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Simple and Efficient Algorithm for Finding Minimum Spanning Tree Replacement Edges",
+    "abstract": "Given an undirected, weighted graph, the minimum spanning tree (MST) is a tree that connects all of the vertices of the graph with minimum sum of edge weights. In real world applications, network designers often seek to quickly find a replacement edge for each edge in the MST. For example, when a traffic accident closes a road in a transportation network, or a line goes down in a communication network, the replacement edge may reconnect the MST at lowest cost. In the paper, we consider the case of finding the lowest cost replacement edge for each edge of the MST. A previous algorithm by Tarjan takes $O(m α(m, n))$ time and space, where $α(m, n)$ is the inverse Ackermann's function. Given the MST and sorted non-tree edges, our algorithm is the first practical algorithm that runs in $O(m+n)$ time and $O(m+n)$ space to find all replacement edges. Additionally, since the most vital edge is the tree edge whose removal causes the highest cost, our algorithm finds it in linear time.",
+    "authors": [
+      "David A. Bader",
+      "Paul Burkhardt"
+    ],
+    "publication_date": "2019-08-09T14:31:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.03473v4",
+    "download_url": "https://arxiv.org/abs/1908.03473v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Stochastic Split Determinant Algorithms",
+    "abstract": "I propose a large class of stochastic Markov processes associated with probability distributions analogous to that of lattice gauge theory with dynamical fermions. The construction incorporates the idea of approximate spectral split of the determinant through local loop action, and the idea of treating the infrared part of the split through explicit diagonalizations. I suggest that exact algorithms of practical relevance might be based on the Markov processes so constructed.",
+    "authors": [
+      "Ivan Horvath"
+    ],
+    "publication_date": "1999-09-07T20:24:18Z",
+    "arxiv_id": "http://arxiv.org/abs/hep-lat/9909044v1",
+    "download_url": "https://arxiv.org/abs/hep-lat/9909044v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Compact Floor-Planning via Orderly Spanning Trees",
+    "abstract": "Floor-planning is a fundamental step in VLSI chip design. Based upon the concept of orderly spanning trees, we present a simple O(n)-time algorithm to construct a floor-plan for any n-node plane triangulation. In comparison with previous floor-planning algorithms in the literature, our solution is not only simpler in the algorithm itself, but also produces floor-plans which require fewer module types. An equally important aspect of our new algorithm lies in its ability to fit the floor-plan area in a rectangle of size (n-1)x(2n+1)/3. Lower bounds on the worst-case area for floor-planning any plane triangulation are also provided in the paper.",
+    "authors": [
+      "Chien-Chih Liao",
+      "Hsueh-I Lu",
+      "Hsu-Chun Yen"
+    ],
+    "publication_date": "2002-10-17T06:47:02Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0210016v2",
+    "download_url": "https://arxiv.org/abs/cs/0210016v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Revisiting calculation of moments of number of comparisons used by the randomized quick sort algorithm",
+    "abstract": "We revisit the method of Kirschenhofer, Prodinger and Tichy to calculate the moments of comparisons used by the quick sort algorithm. We reemphasize that this approach helps in calculating these quantities with less computation. We also point out that as observed by Knuth this method also gives moments for total path length of a binary search tree built over a random set of n keys.",
+    "authors": [
+      "Sumit Kumar Jha"
+    ],
+    "publication_date": "2016-09-07T08:16:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1609.01870v6",
+    "download_url": "https://arxiv.org/abs/1609.01870v6",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On computing the total displacement number via weighted Motzkin paths",
+    "abstract": "Counting the number of permutations of a given total displacement is equivalent to counting weighted Motzkin paths of a given area (Guay-Paquet and Petersen, 2014). The former combinatorial problem is still open. In this work, we show that this connection allows to construct efficient algorithms for counting and for sampling such permutations. These algorithms provide a tool to better understand the original combinatorial problem. A by-product of our approach is a different way of counting based on certain building sequences for Motzkin paths, which may be of independent interest.",
+    "authors": [
+      "Andreas Bärtschi",
+      "Barbara Geissmann",
+      "Daniel Graf",
+      "Tomas Hruz",
+      "Paolo Penna",
+      "Thomas Tschager"
+    ],
+    "publication_date": "2016-06-17T14:42:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1606.05538v1",
+    "download_url": "https://arxiv.org/abs/1606.05538v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Tropicalizing the simplex algorithm",
+    "abstract": "We develop a tropical analog of the simplex algorithm for linear programming. In particular, we obtain a combinatorial algorithm to perform one tropical pivoting step, including the computation of reduced costs, in O(n(m+n)) time, where m is the number of constraints and n is the dimension.",
+    "authors": [
+      "Xavier Allamigeon",
+      "Pascal Benchimol",
+      "Stéphane Gaubert",
+      "Michael Joswig"
+    ],
+    "publication_date": "2013-08-02T10:10:52Z",
+    "arxiv_id": "http://arxiv.org/abs/1308.0454v2",
+    "download_url": "https://arxiv.org/abs/1308.0454v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fermion Cluster Algorithms",
+    "abstract": "Cluster algorithms have been recently used to eliminate sign problems that plague Monte-Carlo methods in a variety of systems. In particular such algorithms can also be used to solve sign problems associated with the permutation of fermion world lines. This solution leads to the possibility of designing fermion cluster algorithms in certain cases. Using the example of free non-relativistic fermions we discuss the ideas underlying the algorithm.",
+    "authors": [
+      "Shailesh Chandrasekharan"
+    ],
+    "publication_date": "1999-09-01T19:10:05Z",
+    "arxiv_id": "http://arxiv.org/abs/hep-lat/9909007v1",
+    "download_url": "https://arxiv.org/abs/hep-lat/9909007v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algorithmic resolution via weighted blowings up",
+    "abstract": "In this paper we describe a computer implementation of Abramovich, Temkin, and Wlodarczyk's algorithm for resolving singularities in characteristic zero. Their \"weighted resolution\" algorithm proceeds by repeatedly blowing up along centers that are independent of the history of the past blowing ups, distinguishing weighted resolution from previous resolution algorithms, which all rely on history. We compare our implementation of weighted resolution with that of Villamayor's resolution algorithm, experimentally verifying that weighted resolution is remarkably efficient.",
+    "authors": [
+      "Jonghyun Lee"
+    ],
+    "publication_date": "2020-08-05T14:39:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2008.02169v1",
+    "download_url": "https://arxiv.org/abs/2008.02169v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evolutionary Algorithms Applied to Landau-Gauge Fixing",
+    "abstract": "Current algorithms used to put a lattice gauge configuration into Landau gauge either suffer from the problem of critical slowing-down or involve an additional computational expense to overcome it. Evolutionary Algorithms (EAs), which have been widely applied to other global optimisation problems, may be of use in gauge fixing. Also, being global, they should not suffer from critical slowing-down as do local gradient based algorithms. We apply EA's and also a Steepest Descent (SD) based method to the problem of Landau Gauge Fixing and compare their performance.",
+    "authors": [
+      "J. F. Markham",
+      "T. D. Kieu"
+    ],
+    "publication_date": "1998-09-18T17:58:23Z",
+    "arxiv_id": "http://arxiv.org/abs/hep-lat/9809143v1",
+    "download_url": "https://arxiv.org/abs/hep-lat/9809143v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient algorithms to solve atom reconfiguration problems. II. The assignment-rerouting-ordering (aro) algorithm",
+    "abstract": "Programmable arrays of optical traps enable the assembly of configurations of single atoms to perform controlled experiments on quantum many-body systems. Finding the sequence of control operations to transform an arbitrary configuration of atoms into a predetermined one requires solving an atom reconfiguration problem quickly and efficiently. A typical approach to solve atom reconfiguration problems is to use an assignment algorithm to determine which atoms to move to which traps. This approach results in control protocols that exactly minimize the number of displacement operations; however, this approach does not optimize for the number of displaced atoms or the number of times each atom is displaced, resulting in unnecessary control operations that increase the execution time and failure rate of the control protocol. In this work, we propose the assignment-rerouting-ordering (aro) algorithm to improve the performance of assignment-based algorithms in solving atom reconfiguration problems. The aro algorithm uses an assignment subroutine to minimize the total distance traveled by all atoms, a rerouting subroutine to reduce the number of displaced atoms, and an ordering subroutine to guarantee that each atom is displaced at most once. The ordering subroutine relies on the existence of a partial ordering of moves that can be obtained using a polynomial-time algorithm that we introduce within the formal framework of graph theory. We numerically quantify the performance of the aro algorithm in the presence and in the absence of loss, and show that it outperforms the exact, approximation, and heuristic algorithms that we use as benchmarks. Our results are useful for assembling large configurations of atoms with high success probability and fast preparation time, as well as for designing and benchmarking novel atom reconfiguration algorithms.",
+    "authors": [
+      "Remy El Sabeh",
+      "Jessica Bohm",
+      "Zhiqian Ding",
+      "Stephanie Maaz",
+      "Naomi Nishimura",
+      "Izzat El Hajj",
+      "Amer E. Mouawad",
+      "Alexandre Cooper"
+    ],
+    "publication_date": "2022-12-11T19:48:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2212.05586v2",
+    "download_url": "https://arxiv.org/abs/2212.05586v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Approximation Algorithms for Continuous Clustering and Facility Location Problems",
+    "abstract": "We consider the approximability of center-based clustering problems where the points to be clustered lie in a metric space, and no candidate centers are specified. We call such problems \"continuous\", to distinguish from \"discrete\" clustering where candidate centers are specified. For many objectives, one can reduce the continuous case to the discrete case, and use an $α$-approximation algorithm for the discrete case to get a $βα$-approximation for the continuous case, where $β$ depends on the objective: e.g. for $k$-median, $β= 2$, and for $k$-means, $β= 4$. Our motivating question is whether this gap of $β$ is inherent, or are there better algorithms for continuous clustering than simply reducing to the discrete case? In a recent SODA 2021 paper, Cohen-Addad, Karthik, and Lee prove a factor-$2$ and a factor-$4$ hardness, respectively, for continuous $k$-median and $k$-means, even when the number of centers $k$ is a constant. The discrete case for a constant $k$ is exactly solvable in polytime, so the $β$ loss seems unavoidable in some regimes.\n  In this paper, we approach continuous clustering via the round-or-cut framework. For four continuous clustering problems, we outperform the reduction to the discrete case. Notably, for the problem $λ$-UFL, where $β= 2$ and the discrete case has a hardness of $1.27$, we obtain an approximation ratio of $2.32 < 2 \\times 1.27$ for the continuous case. Also, for continuous $k$-means, where the best known approximation ratio for the discrete case is $9$, we obtain an approximation ratio of $32 < 4 \\times 9$. The key challenge is that most algorithms for discrete clustering, including the state of the art, depend on linear programs that become infinite-sized in the continuous case. To overcome this, we design new linear programs for the continuous case which are amenable to the round-or-cut framework.",
+    "authors": [
+      "Deeparnab Chakrabarty",
+      "Maryam Negahbani",
+      "Ankita Sarkar"
+    ],
+    "publication_date": "2022-06-30T08:12:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2206.15105v3",
+    "download_url": "https://arxiv.org/abs/2206.15105v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Packing-Based Approximation Algorithm for the k-Set Cover Problem",
+    "abstract": "We present a packing-based approximation algorithm for the $k$-Set Cover problem. We introduce a new local search-based $k$-set packing heuristic, and call it Restricted $k$-Set Packing. We analyze its tight approximation ratio via a complicated combinatorial argument. Equipped with the Restricted $k$-Set Packing algorithm, our $k$-Set Cover algorithm is composed of the $k$-Set Packing heuristic \\cite{schrijver} for $k\\geq 7$, Restricted $k$-Set Packing for $k=6,5,4$ and the semi-local $(2,1)$-improvement \\cite{furer} for 3-Set Cover. We show that our algorithm obtains a tight approximation ratio of $H_k-0.6402+Θ(\\frac{1}{k})$, where $H_k$ is the $k$-th harmonic number. For small $k$, our results are 1.8667 for $k=6$, 1.7333 for $k=5$ and 1.5208 for $k=4$. Our algorithm improves the currently best approximation ratio for the $k$-Set Cover problem of any $k\\geq 4$.",
+    "authors": [
+      "Martin Furer",
+      "Huiwen Yu"
+    ],
+    "publication_date": "2011-09-15T18:42:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1109.3418v1",
+    "download_url": "https://arxiv.org/abs/1109.3418v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hierarchy-Based Algorithms for Minimizing Makespan under Precedence and Communication Constraints",
+    "abstract": "We consider the classic problem of scheduling jobs with precedence constraints on a set of identical machines to minimize the makespan objective function. Understanding the exact approximability of the problem when the number of machines is a constant is a well-known question in scheduling theory. Indeed, an outstanding open problem from the classic book of Garey and Johnson asks whether this problem is NP-hard even in the case of 3 machines and unit-length jobs. In a recent breakthrough, Levey and Rothvoss gave a $(1+ε)$-approximation algorithm, which runs in nearly quasi-polynomial time, for the case when job have unit lengths. However, a substantially more difficult case where jobs have arbitrary processing lengths has remained open.\n  We make progress on this more general problem. We show that there exists a $(1+ε)$-approximation algorithm (with similar running time as that of Levey and Rothvoss) for the non-migratory setting: when every job has to be scheduled entirely on a single machine, but within a machine the job need not be scheduled during consecutive time steps. Further, we also show that our algorithmic framework generalizes to another classic scenario where, along with the precedence constraints, the jobs also have communication delay constraints. Both of these fundamental problems are highly relevant to the practice of datacenter scheduling.",
+    "authors": [
+      "Janardhan Kulkarni",
+      "Shi Li",
+      "Jakub Tarnawski",
+      "Minwei Ye"
+    ],
+    "publication_date": "2020-04-28T23:28:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.13891v1",
+    "download_url": "https://arxiv.org/abs/2004.13891v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Composing dynamic programming tree-decomposition-based algorithms",
+    "abstract": "Given two integers $\\ell$ and $p$ as well as $\\ell$ graph classes $\\mathcal{H}_1,\\ldots,\\mathcal{H}_\\ell$, the problems $\\mathsf{GraphPart}(\\mathcal{H}_1, \\ldots, \\mathcal{H}_\\ell,p)$, \\break $\\mathsf{VertPart}(\\mathcal{H}_1, \\ldots, \\mathcal{H}_\\ell)$, and $\\mathsf{EdgePart}(\\mathcal{H}_1, \\ldots, \\mathcal{H}_\\ell)$ ask, given graph $G$ as input, whether $V(G)$, $V(G)$, $E(G)$ respectively can be partitioned into $\\ell$ sets $S_1, \\ldots, S_\\ell$ such that, for each $i$ between $1$ and $\\ell$, $G[S_i] \\in \\mathcal{H}_i$, $G[S_i] \\in \\mathcal{H}_i$, $(V(G),S_i) \\in \\mathcal{H}_i$ respectively. Moreover in $\\mathsf{GraphPart}(\\mathcal{H}_1, \\ldots, \\mathcal{H}_\\ell,p)$, we request that the number of edges with endpoints in different sets of the partition is bounded by $p$. We show that if there exist dynamic programming tree-decomposition-based algorithms for recognizing the graph classes $\\mathcal{H}_i$, for each $i$, then we can constructively create a dynamic programming tree-decomposition-based algorithms for $\\mathsf{GraphPart}(\\mathcal{H}_1, \\ldots, \\mathcal{H}_\\ell,p)$, $\\mathsf{VertPart}(\\mathcal{H}_1, \\ldots, \\mathcal{H}_\\ell)$, and $\\mathsf{EdgePart}(\\mathcal{H}_1, \\ldots, \\mathcal{H}_\\ell)$. We apply this approach to known problems. For well-studied problems, like VERTEX COVER and GRAPH $q$-COLORING, we obtain running times that are comparable to those of the best known problem-specific algorithms. For an exotic problem from bioinformatics, called DISPLAYGRAPH, this approach improves the known algorithm parameterized by treewidth.",
+    "authors": [
+      "Julien Baste"
+    ],
+    "publication_date": "2019-04-29T08:50:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.12500v4",
+    "download_url": "https://arxiv.org/abs/1904.12500v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algorithms for robust production scheduling with energy consumption limits",
+    "abstract": "In this work, we consider a scheduling problem faced by production companies with large electricity consumption. Due to the contract with the electric utility, the production companies are obligated to comply with the total energy consumption limits in the specified time intervals (usually 15-minutes long), otherwise, the companies pay substantial penalty fees. Although it is possible to design production schedules that consider these limits as hard constraints, uncertainties occurring during the execution of the schedules are usually not taken into account. This may lead to situations in which the unexpected delays of the operations cause the violations of the energy consumption limits. Our goal is to design robust production schedules pro-actively guaranteeing that the energy consumption limits are not violated for the given set of uncertainty scenarios. We consider scheduling on one machine with release times of the operations and total tardiness as the objective function. To tackle this problem, we first propose a pseudo-polynomial algorithm for finding the optimal robust schedule for the given permutation of the operations. This algorithm is then utilised in three different algorithms for finding the optimal permutation: two exact (Branch-and-Bound and logic-based Benders decomposition) and one heuristic algorithm (tabu search). All the algorithms were experimentally evaluated on random instances with different sizes of the uncertainty scenarios set. Using the tabu search algorithm, we are able to solve large instances within one minute.",
+    "authors": [
+      "István Módos",
+      "Přemysl Šůcha",
+      "Zdeněk Hanzálek"
+    ],
+    "publication_date": "2018-02-12T08:22:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1802.03928v1",
+    "download_url": "https://arxiv.org/abs/1802.03928v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Split decomposition and graph-labelled trees: characterizations and fully-dynamic algorithms for totally decomposable graphs",
+    "abstract": "In this paper, we revisit the split decomposition of graphs and give new combinatorial and algorithmic results for the class of totally decomposable graphs, also known as the distance hereditary graphs, and for two non-trivial subclasses, namely the cographs and the 3-leaf power graphs. Precisely, we give strutural and incremental characterizations, leading to optimal fully-dynamic recognition algorithms for vertex and edge modifications, for each of these classes. These results rely on a new framework to represent the split decomposition, namely the graph-labelled trees, which also captures the modular decomposition of graphs and thereby unify these two decompositions techniques. The point of the paper is to use bijections between these graph classes and trees whose nodes are labelled by cliques and stars. Doing so, we are also able to derive an intersection model for distance hereditary graphs, which answers an open problem.",
+    "authors": [
+      "Emeric Gioan",
+      "Christophe Paul"
+    ],
+    "publication_date": "2008-10-10T07:49:30Z",
+    "arxiv_id": "http://arxiv.org/abs/0810.1823v2",
+    "download_url": "https://arxiv.org/abs/0810.1823v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Parallel Algorithms for Finding Large Cliques in Sparse Graphs",
+    "abstract": "We present a parallel k-clique listing algorithm with improved work bounds (for the same depth) in sparse graphs with low degeneracy or arboricity. We achieve this by introducing and analyzing a new pruning criterion for a backtracking search. Our algorithm has better asymptotic performance, especially for larger cliques (when k is not constant), where we avoid the straightforwardly exponential runtime growth with respect to the clique size. In particular, for cliques that are a constant factor smaller than the graph's degeneracy, the work improvement is an exponential factor in the clique size compared to previous results. Moreover, we present a low-depth approximation to the community degeneracy (which can be arbitrarily smaller than the degeneracy). This approximation enables a low depth clique listing algorithm whose runtime is parameterized by the community degeneracy.",
+    "authors": [
+      "Lukas Gianinazzi",
+      "Maciej Besta",
+      "Yannick Schaffner",
+      "Torsten Hoefler"
+    ],
+    "publication_date": "2021-09-20T16:29:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.09663v1",
+    "download_url": "https://arxiv.org/abs/2109.09663v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Refined $F_5$ Algorithms for Ideals of Minors of Square Matrices",
+    "abstract": "We consider the problem of computing a grevlex Gröbner basis for the set $F_r(M)$ of minors of size $r$ of an $n\\times n$ matrix $M$ of generic linear forms over a field of characteristic zero or large enough. Such sets are not regular sequences; in fact, the ideal $\\langle F_r(M) \\rangle$ cannot be generated by a regular sequence. As such, when using the general-purpose algorithm $F_5$ to find the sought Gröbner basis, some computing time is wasted on reductions to zero. We use known results about the first syzygy module of $F_r(M)$ to refine the $F_5$ algorithm in order to detect more reductions to zero. In practice, our approach avoids a significant number of reductions to zero. In particular, in the case $r=n-2$, we prove that our new algorithm avoids all reductions to zero, and we provide a corresponding complexity analysis which improves upon the previously known estimates.",
+    "authors": [
+      "Sriram Gopalakrishnan",
+      "Vincent Neiger",
+      "Mohab Safey El Din"
+    ],
+    "publication_date": "2023-02-10T16:53:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2302.05375v2",
+    "download_url": "https://arxiv.org/abs/2302.05375v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Orientability of Undirected Phylogenetic Networks to a Desired Class: Practical Algorithms and Application to Tree-Child Orientation",
+    "abstract": "The C-Orientation problem asks whether it is possible to orient an undirected graph to a directed phylogenetic network of a desired network class C. This problem arises, for example, when visualising evolutionary data, as popular methods such as Neighbor-Net are distance-based and inevitably produce undirected graphs. The complexity of C-Orientation remains open for many classes C, including binary tree-child networks, and practical methods are still lacking. In this paper, we propose an exact FPT algorithm for C-Orientation that is applicable to any class C and parameterised by the reticulation number and the maximum size of minimal basic cycles, and a very fast heuristic for Tree-Child Orientation. While the state-of-the-art for C-Orientation is a simple exponential time algorithm whose computational bottleneck lies in searching for appropriate reticulation vertex placements, our methods significantly reduce this search space. Experiments show that, although our FPT algorithm is still exponential, it significantly outperforms the existing method. The heuristic runs even faster but with increasing false negatives as the reticulation number grows. Given this trade-off, we also discuss theoretical directions for improvement and biological applicability of the heuristic approach.",
+    "authors": [
+      "Tsuyoshi Urata",
+      "Manato Yokoyama",
+      "Haruki Miyaji",
+      "Momoko Hayamizu"
+    ],
+    "publication_date": "2024-07-13T05:14:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.09776v3",
+    "download_url": "https://arxiv.org/abs/2407.09776v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Continued Fractions and Probability Estimations in the Shor Algorithm -- A Detailed and Self-Contained Treatise",
+    "abstract": "The algorithm of Shor for prime factorization is a hybrid algorithm consisting of a quantum part and a classical part. The main focus of the classical part is a continued fraction analysis. The presentation of this is often short, pointing to text books on number theory. In this contribution, we present the relevant results and proofs from the theory of continued fractions in detail (even in more detail than in text books) filling the gap to allow a complete comprehension of the algorithm of Shor. Similarly, we provide a detailed computation of the estimation of the probability that convergents will provide the period required for determining a prime factor.",
+    "authors": [
+      "Johanna Barzen",
+      "Frank Leymann"
+    ],
+    "publication_date": "2022-05-04T07:46:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.01925v2",
+    "download_url": "https://arxiv.org/abs/2205.01925v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Some algorithms related to the Jacobian Conjecture",
+    "abstract": "We describe an algorithm that computes possible corners of hypothetical counterexamples to the Jacobian Conjecture up to a given bound. Using this algorithm we compute the possible families corresponding to $\\gcd(deg(P),deg(Q))\\le 35$, and all the pairs $(deg(P),deg(Q))$ with $\\max(deg(P),deg(Q))\\le 150$ for any hypothetical counterexample.",
+    "authors": [
+      "Jorge A. Guccione",
+      "Juan J. Guccione",
+      "Rodrigo Horruitiner",
+      "Christian Valqui"
+    ],
+    "publication_date": "2017-08-26T06:00:33Z",
+    "arxiv_id": "http://arxiv.org/abs/1708.07936v1",
+    "download_url": "https://arxiv.org/abs/1708.07936v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Quest for Light Sea Quarks: Algorithms for the Future",
+    "abstract": "As part of a systematic algorithm study, we present first results on a performance comparison between a multibosonic algorithm and the hybrid Monte Carlo algorithm as employed by the SESAM collaboration. The standard Wilson fermion action is used on 32*16^3 lattices at beta=5.5.",
+    "authors": [
+      "W. Schroers",
+      "N. Eicker",
+      "M. D'Elia",
+      "Ph. de Forcrand",
+      "C. Gebert",
+      "Th. Lippert",
+      "I. Montvay",
+      "B. Orth",
+      "M. Pepe",
+      "K. Schilling"
+    ],
+    "publication_date": "2001-10-10T12:33:08Z",
+    "arxiv_id": "http://arxiv.org/abs/hep-lat/0110033v1",
+    "download_url": "https://arxiv.org/abs/hep-lat/0110033v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Federated Learning Algorithms Development Paradigm",
+    "abstract": "At present many distributed and decentralized frameworks for federated learning algorithms are already available. However, development of such a framework targeting smart Internet of Things in edge systems is still an open challenge. A solution to that challenge named Python Testbed for Federated Learning Algorithms (PTB-FLA) appeared recently. This solution is written in pure Python, it supports both centralized and decentralized algorithms, and its usage was validated and illustrated by three simple algorithm examples. In this paper, we present the federated learning algorithms development paradigm based on PTB-FLA. The paradigm comprises the four phases named by the code they produce: (1) the sequential code, (2) the federated sequential code, (3) the federated sequential code with callbacks, and (4) the PTB-FLA code. The development paradigm is validated and illustrated in the case study on logistic regression, where both centralized and decentralized algorithms are developed.",
+    "authors": [
+      "Miroslav Popovic",
+      "Marko Popovic",
+      "Ivan Kastelan",
+      "Miodrag Djukic",
+      "Ilija Basicevic"
+    ],
+    "publication_date": "2023-10-08T10:08:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.05102v2",
+    "download_url": "https://arxiv.org/abs/2310.05102v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Variations on Memetic Algorithms for Graph Coloring Problems",
+    "abstract": "Graph vertex coloring with a given number of colors is a well-known and much-studied NP-complete problem.The most effective methods to solve this problem are proved to be hybrid algorithms such as memetic algorithms or quantum annealing. Those hybrid algorithms use a powerful local search inside a population-based algorithm.This paper presents a new memetic algorithm based on one of the most effective algorithms: the Hybrid Evolutionary Algorithm HEA from Galinier and Hao (1999).The proposed algorithm, denoted HEAD - for HEA in Duet - works with a population of only two individuals.Moreover, a new way of managing diversity is brought by HEAD.These two main differences greatly improve the results, both in terms of solution quality and computational time.HEAD has produced several good results for the popular DIMACS benchmark graphs,  such as 222-colorings for \\textless{}dsjc1000.9\\textgreater{}, 81-colorings for \\textless{}flat1000\\_76\\_0\\textgreater{} and even 47-colorings for \\textless{}dsjc500.5\\textgreater{} and 82-colorings for \\textless{}dsjc1000.5\\textgreater{}.",
+    "authors": [
+      "Laurent Moalic",
+      "Alexandre Gondran"
+    ],
+    "publication_date": "2014-01-08T19:50:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1401.2184v2",
+    "download_url": "https://arxiv.org/abs/1401.2184v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On-line algorithms for multiplication and division in real and complex numeration systems",
+    "abstract": "A positional numeration system is given by a base and by a set of digits. The base is a real or complex number $β$ such that $|β|>1$, and the digit set $A$ is a finite set of digits including $0$. Thus a number can be seen as a finite or infinite string of digits. An on-line algorithm processes the input piece-by-piece in a serial fashion. On-line arithmetic, introduced by Trivedi and Ercegovac, is a mode of computation where operands and results flow through arithmetic units in a digit serial manner, starting with the most significant digit.\n  In this paper, we first formulate a generalized version of the on-line algorithms for multiplication and division of Trivedi and Ercegovac for the cases that $β$ is any real or complex number, and digits are real or complex. We then define the so-called OL Property, and show that if $(β, A)$ has the OL Property, then on-line multiplication and division are feasible by the Trivedi-Ercegovac algorithms. For a real base $β$ and a digit set $A$ of contiguous integers, the system $(β, A)$ has the OL Property if $\\# A > |β|$. For a complex base $β$ and symmetric digit set $A$ of contiguous integers, the system $(β, A)$ has the OL Property if $\\# A > β\\overlineβ + |β+ \\overlineβ|$. Provided that addition and subtraction are realizable in parallel in the system $(β, A)$ and that preprocessing of the denominator is possible, our on-line algorithms for multiplication and division have linear time complexity. Three examples are presented in detail: base $β=\\frac{3+\\sqrt{5}}{2}$ with digits $A=\\{-1,0,1\\}$; base $β=2i$ with digits $A = \\{-2,-1, 0,1,2\\}$; and base $β= -\\frac{3}{2} + i \\frac{\\sqrt{3}}{2} = -1 + ω$, where $ω= \\exp{\\frac{2iπ}{3}}$, with digits $A = \\{0, \\pm 1, \\pm ω, \\pm ω^2 \\}$.",
+    "authors": [
+      "Christiane Frougny",
+      "Marta Pavelka",
+      "Edita Pelantova",
+      "Milena Svobodova"
+    ],
+    "publication_date": "2016-10-26T13:05:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1610.08309v5",
+    "download_url": "https://arxiv.org/abs/1610.08309v5",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Approximation Algorithm for Cycle-Star Hub Network Design Problems and Cycle-Metric Labeling Problems",
+    "abstract": "We consider a single allocation hub-and-spoke network design problem which allocates each non-hub node to exactly one of given hub nodes so as to minimize the total transportation cost. This paper deals with a case in which the hubs are located in a cycle, which is called a cycle-star hub network design problem. The problem is essentially equivalent to a cycle-metric labeling problem. The problem is useful in the design of networks in telecommunications and airline transportation systems.We propose a $2(1-1/h)$-approximation algorithm where $h$ denotes the number of hub nodes. Our algorithm solves a linear relaxation problem and employs a dependent rounding procedure. We analyze our algorithm by approximating a given cycle-metric matrix by a convex combination of Monge matrices.",
+    "authors": [
+      "Yuko Kuroki",
+      "Tomomi Matsui"
+    ],
+    "publication_date": "2016-12-09T12:04:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1612.02990v1",
+    "download_url": "https://arxiv.org/abs/1612.02990v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A New Algorithmic Scheme for Computing Characteristic Sets",
+    "abstract": "Ritt-Wu's algorithm of characteristic sets is the most representative for triangularizing sets of multivariate polynomials. Pseudo-division is the main operation used in this algorithm. In this paper we present a new algorithmic scheme for computing generalized characteristic sets by introducing other admissible reductions than pseudo-division. A concrete subalgorithm is designed to triangularize polynomial sets using selected admissible reductions and several effective elimination strategies and to replace the algorithm of basic sets (used in Ritt-Wu's algorithm). The proposed algorithm has been implemented and experimental results show that it performs better than Ritt-Wu's algorithm in terms of computing time and simplicity of output for a number of non-trivial test examples.",
+    "authors": [
+      "Meng Jin",
+      "Xiaoliang Li",
+      "Dongming Wang"
+    ],
+    "publication_date": "2011-08-06T14:28:07Z",
+    "arxiv_id": "http://arxiv.org/abs/1108.1486v1",
+    "download_url": "https://arxiv.org/abs/1108.1486v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Time-Efficient Output-Sensitive Quantum Algorithm for Boolean Matrix Multiplication",
+    "abstract": "This paper presents a quantum algorithm that computes the product of two $n\\times n$ Boolean matrices in $\\tilde O(n\\sqrt{\\ell}+\\ell\\sqrt{n})$ time, where $\\ell$ is the number of non-zero entries in the product. This improves the previous output-sensitive quantum algorithms for Boolean matrix multiplication in the time complexity setting by Buhrman and Špalek (SODA'06) and Le Gall (SODA'12). We also show that our approach cannot be further improved unless a breakthrough is made: we prove that any significant improvement would imply the existence of an algorithm based on quantum search that multiplies two $n\\times n$ Boolean matrices in $O(n^{5/2-\\varepsilon})$ time, for some constant $\\varepsilon>0$.",
+    "authors": [
+      "François Le Gall"
+    ],
+    "publication_date": "2012-01-30T11:30:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1201.6174v2",
+    "download_url": "https://arxiv.org/abs/1201.6174v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On converting community detection algorithms for fuzzy graphs in Neo4j",
+    "abstract": "An essential feature of large scale free graphs, such as the Web, protein-to-protein interaction, brain connectivity, and social media graphs, is that they tend to form recursive communities. The latter are densely connected vertex clusters exhibiting quick local information dissemination and processing. Under the fuzzy graph model vertices are fixed while each edge exists with a given probability according to a membership function. This paper presents Fuzzy Walktrap and Fuzzy Newman-Girvan, fuzzy versions of two established community discovery algorithms. The proposed algorithms have been applied to a synthetic graph generated by the Kronecker model with different termination criteria and the results are discussed.",
+    "authors": [
+      "Georgios Drakopoulos",
+      "Andreas Kanavos",
+      "Christos Makris",
+      "Vasileios Megalooikonomou"
+    ],
+    "publication_date": "2016-08-07T16:09:18Z",
+    "arxiv_id": "http://arxiv.org/abs/1608.02235v3",
+    "download_url": "https://arxiv.org/abs/1608.02235v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Practical Algorithm with Performance Guarantees for the Art Gallery Problem",
+    "abstract": "Given a closed simple polygon $P$, we say two points $p,q$ see each other if the segment $pq$ is fully contained in $P$. The art gallery problem seeks a minimum size set $G\\subset P$ of guards that sees $P$ completely. The only currently correct algorithm to solve the art gallery problem exactly uses algebraic methods and is attributed to Sharir. As the art gallery problem is ER-complete, it seems unlikely to avoid algebraic methods, without additional assumptions. In this paper, we introduce the notion of vision stability. In order to describe vision stability consider an enhanced guard that can see \"around the corner\" by an angle of $δ$ or a diminished guard whose vision is by an angle of $δ$ \"blocked\" by reflex vertices. A polygon $P$ has vision stability $δ$ if the optimal number of enhanced guards to guard $P$ is the same as the optimal number of diminished guards to guard $P$. We will argue that most relevant polygons are vision stable. We describe a one-shot vision stable algorithm that computes an optimal guard set for visionstable polygons using polynomial time and solving one integer program. It guarantees to find the optimal solution for every vision stable polygon. We implemented an iterative visionstable algorithm and show its practical performance is slower, but comparable with other state of the art algorithms. Our iterative algorithm is inspired and follows closely the one-shot algorithm. It delays several steps and only computes them when deemed necessary. Given a chord $c$ of a polygon, we denote by $n(c)$ the number of vertices visible from $c$. The chord-width of a polygon is the maximum $n(c)$ over all possible chords $c$. The set of vision stable polygons admits an FPT algorithm when parametrized by the chord-width. Furthermore, the one-shot algorithm runs in FPT time, when parameterized by the number of reflex vertices.",
+    "authors": [
+      "Simon Hengeveld",
+      "Tillmann Miltzow"
+    ],
+    "publication_date": "2020-07-14T09:09:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.06920v8",
+    "download_url": "https://arxiv.org/abs/2007.06920v8",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algorithms for geometrical operations with NURBS surfaces",
+    "abstract": "The aim of the paper is to show algorithms for geometrical manipulations on NURBS surfaces. These include generating NURBS surfaces that pass through given points, calculating the minimum distance to a point and include line to surface and surface to surface intersections.",
+    "authors": [
+      "Gernot Beer"
+    ],
+    "publication_date": "2022-10-24T12:23:57Z",
+    "arxiv_id": "http://arxiv.org/abs/2210.13160v1",
+    "download_url": "https://arxiv.org/abs/2210.13160v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Minimum Forcing Sets for Miura Folding Patterns",
+    "abstract": "We introduce the study of forcing sets in mathematical origami. The origami material folds flat along straight line segments called creases, each of which is assigned a folding direction of mountain or valley. A subset $F$ of creases is forcing if the global folding mountain/valley assignment can be deduced from its restriction to $F$. In this paper we focus on one particular class of foldable patterns called Miura-ori, which divide the plane into congruent parallelograms using horizontal lines and zig-zag vertical lines. We develop efficient algorithms for constructing a minimum forcing set of a Miura-ori map, and for deciding whether a given set of creases is forcing or not. We also provide tight bounds on the size of a forcing set, establishing that the standard mountain-valley assignment for the Miura-ori is the one that requires the most creases in its forcing sets. Additionally, given a partial mountain/valley assignment to a subset of creases of a Miura-ori map, we determine whether the assignment domain can be extended to a locally flat-foldable pattern on all the creases. At the heart of our results is a novel correspondence between flat-foldable Miura-ori maps and $3$-colorings of grid graphs.",
+    "authors": [
+      "Brad Ballinger",
+      "Mirela Damian",
+      "David Eppstein",
+      "Robin Flatland",
+      "Jessica Ginepro",
+      "Thomas Hull"
+    ],
+    "publication_date": "2014-10-08T19:46:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1410.2231v1",
+    "download_url": "https://arxiv.org/abs/1410.2231v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A $(1.4 + ε)$-approximation algorithm for the $2$-Max-Duo problem",
+    "abstract": "The maximum duo-preservation string mapping (Max-Duo) problem is the complement of the well studied minimum common string partition (MCSP) problem, both of which have applications in many fields including text compression and bioinformatics. $k$-Max-Duo is the restricted version of Max-Duo, where every letter of the alphabet occurs at most $k$ times in each of the strings, which is readily reduced into the well known maximum independent set (MIS) problem on a graph of maximum degree $Δ\\le 6(k-1)$. In particular, $2$-Max-Duo can then be approximated arbitrarily close to $1.8$ using the state-of-the-art approximation algorithm for the MIS problem. $2$-Max-Duo was proved APX-hard and very recently a $(1.6 + ε)$-approximation was claimed, for any $ε> 0$. In this paper, we present a vertex-degree reduction technique, based on which, we show that $2$-Max-Duo can be approximated arbitrarily close to $1.4$.",
+    "authors": [
+      "Yao Xu",
+      "Yong Chen",
+      "Guohui Lin",
+      "Tian Liu",
+      "Taibo Luo",
+      "Peng Zhang"
+    ],
+    "publication_date": "2017-02-21T04:06:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1702.06256v2",
+    "download_url": "https://arxiv.org/abs/1702.06256v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Why is My Route Different Today? An Algorithm for Explaining Route Selection",
+    "abstract": "Users of routing services like Apple Maps, Google Maps, and Waze frequently wonder why a given route is proposed. This question particularly arises when dynamic conditions like traffic and road closures cause unusual routes to be proposed. While many dynamic conditions may exist in a road network at any time, only a small fraction of those conditions are typically relevant to a given user's route. In this work, we introduce the concept of a simple valid explanation (SVE), which consists of a small set of traffic-laden road segments that answer the following question: Which traffic conditions cause a particular shortest traffic-aware route to differ from the shortest traffic-free route? We give an efficient algorithm for finding SVEs and show that they theoretically and experimentally lead to small and interpretable answers to the question.",
+    "authors": [
+      "Aaron Schild",
+      "Sreenivas Gollapudi",
+      "Anupam Gupta",
+      "Kostas Kollias",
+      "Ali Sinop"
+    ],
+    "publication_date": "2025-06-05T21:34:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.05604v1",
+    "download_url": "https://arxiv.org/abs/2506.05604v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algorithms on Minimizing the Maximum Sensor Movement for Barrier Coverage of a Linear Domain",
+    "abstract": "In this paper, we study the problem of moving $n$ sensors on a line to form a barrier coverage of a specified segment of the line such that the maximum moving distance of the sensors is minimized. Previously, it was an open question whether this problem on sensors with arbitrary sensing ranges is solvable in polynomial time. We settle this open question positively by giving an $O(n^2 \\log n)$ time algorithm. For the special case when all sensors have the same-size sensing range, the previously best solution takes $O(n^2)$ time. We present an $O(n \\log n)$ time algorithm for this case; further, if all sensors are initially located on the coverage segment, our algorithm takes $O(n)$ time. Also, we extend our techniques to the cycle version of the problem where the barrier coverage is for a simple cycle and the sensors are allowed to move only along the cycle. For sensors with the same-size sensing range, we solve the cycle version in $O(n)$ time, improving the previously best $O(n^2)$ time solution.",
+    "authors": [
+      "Danny Z. Chen",
+      "Yan Gu",
+      "Jian Li",
+      "Haitao Wang"
+    ],
+    "publication_date": "2012-07-26T20:39:11Z",
+    "arxiv_id": "http://arxiv.org/abs/1207.6409v2",
+    "download_url": "https://arxiv.org/abs/1207.6409v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Classical and Quantum Algorithms for Variants of Subset-Sum via Dynamic Programming",
+    "abstract": "Subset-Sum is an NP-complete problem where one must decide if a multiset of $n$ integers contains a subset whose elements sum to a target value $m$. The best-known classical and quantum algorithms run in time $\\tilde{O}(2^{n/2})$ and $\\tilde{O}(2^{n/3})$, respectively, based on the well-known meet-in-the-middle technique. Here we introduce a novel classical dynamic-programming-based data structure with applications to Subset-Sum and a number of variants, including Equal-Sums (where one seeks two disjoint subsets with the same sum), 2-Subset-Sum (a relaxed version of Subset-Sum where each item in the input set can be used twice in the summation), and Shifted-Sums, a generalization of both of these variants, where one seeks two disjoint subsets whose sums differ by some specified value.\n  Given any modulus $p$, our data structure can be constructed in time $O(n^2p)$, after which queries can be made in time $O(n^2)$ to the lists of subsets summing to any value modulo $p$. We use this data structure in combination with variable-time amplitude amplification and a new quantum pair finding algorithm, extending the quantum claw finding algorithm to the multiple solutions case, to give an $O(2^{0.504n})$ quantum algorithm for Shifted-Sums, an improvement on the best-known $O(2^{0.773n})$ classical running time. Incidentally, we obtain new $\\tilde{O}(2^{n/2})$ and $\\tilde{O}(2^{n/3})$ classical and quantum algorithms for Subset-Sum, not based on the seminal meet-in-the-middle method. We also study Pigeonhole Equal-Sums and Pigeonhole Modular Equal-Sums, where the existence of a solution is guaranteed by the pigeonhole principle. For the former problem, we give faster classical and quantum algorithms with running time $\\tilde{O}(2^{n/2})$ and $\\tilde{O}(2^{2n/5})$, respectively. For the more general modular problem, we give a classical algorithm that also runs in time $\\tilde{O}(2^{n/2})$.",
+    "authors": [
+      "Jonathan Allcock",
+      "Yassine Hamoudi",
+      "Antoine Joux",
+      "Felix Klingelhöfer",
+      "Miklos Santha"
+    ],
+    "publication_date": "2021-11-13T07:05:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.07059v2",
+    "download_url": "https://arxiv.org/abs/2111.07059v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient quantum algorithms for solving quantum linear system problems",
+    "abstract": "We transform the problem of solving linear system of equations $A\\mathbf{x}=\\mathbf{b}$ to a problem of finding the right singular vector with singular value zero of an augmented matrix $C$, and present two quantum algorithms for solving this problem. The first algorithm solves the problem directly by applying the quantum eigenstate filtering algorithm with query complexity of $O\\left( sκ\\log \\left( 1/ε\\right) \\right) $ for a $s$-sparse matrix $C$, where $κ$ is the condition number of the matrix $A$, and $ε$ is the desired precision. The second algorithm uses the quantum resonant transition approach, the query complexity scales as $O\\left[sκ+ \\log\\left( 1/ε\\right)/\\log \\log \\left( 1/ε\\right) \\right] $. Both algorithms meet the optimal query complexity in $κ$, and are simpler than previous algorithms.",
+    "authors": [
+      "Hefeng Wang",
+      "Hua Xiang"
+    ],
+    "publication_date": "2022-08-14T02:49:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.06763v3",
+    "download_url": "https://arxiv.org/abs/2208.06763v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Tiling Hyperbolic Manifolds: Algorithms and Applications",
+    "abstract": "We introduce a new tiling algorithm for hyperbolic 3-manifolds. We use it to compute the maximal cusp area matrix; this completely characterizes the space of all embedded and disjoint cusp neighborhoods. As another application of our work, we find the Epstein-Penner decomposition answering a challenge of Sakuma and Weeks. We furthermore provide the refinements needed to make our algorithm verified: producing intervals provably containing the correct answer. As key ingredient for our work and perhaps of independent interest, we give new and simpler expressions for the distances between points, lines, and planes in the hyperboloid model.",
+    "authors": [
+      "Matthias Goerner"
+    ],
+    "publication_date": "2025-12-18T05:06:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.16181v1",
+    "download_url": "https://arxiv.org/abs/2512.16181v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On-line Viterbi Algorithm and Its Relationship to Random Walks",
+    "abstract": "In this paper, we introduce the on-line Viterbi algorithm for decoding hidden Markov models (HMMs) in much smaller than linear space. Our analysis on two-state HMMs suggests that the expected maximum memory used to decode sequence of length $n$ with $m$-state HMM can be as low as $Θ(m\\log n)$, without a significant slow-down compared to the classical Viterbi algorithm. Classical Viterbi algorithm requires $O(mn)$ space, which is impractical for analysis of long DNA sequences (such as complete human genome chromosomes) and for continuous data streams. We also experimentally demonstrate the performance of the on-line Viterbi algorithm on a simple HMM for gene finding on both simulated and real DNA sequences.",
+    "authors": [
+      "Rastislav Šrámek",
+      "Broňa Brejová",
+      "Tomáš Vinař"
+    ],
+    "publication_date": "2007-03-31T23:52:33Z",
+    "arxiv_id": "http://arxiv.org/abs/0704.0062v1",
+    "download_url": "https://arxiv.org/abs/0704.0062v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sampling-based Path Planning Algorithms: A Survey",
+    "abstract": "Path planning is a classic problem for autonomous robots. To ensure safe and efficient point-to-point navigation an appropriate algorithm should be chosen keeping the robot's dimensions and its classification in mind. Autonomous robots use path-planning algorithms to safely navigate a dynamic, dense, and unknown environment. A few metrics for path planning algorithms to be taken into account are safety, efficiency, lowest-cost path generation, and obstacle avoidance. Before path planning can take place we need map representation which can be discretized or open configuration space. Discretized configuration space provides node/connectivity information from one point to another. While in open/free configuration space it is up to the algorithm to create a list of nodes and then find a feasible path. Both types of maps are populated by obstacle positions using perception obstacle detection techniques to represent current obstacles from the perspective of the robot. For open configuration spaces, sampling-based planning algorithms are used. This paper aims to explore various types of Sampling-based path-planning algorithms such as Probabilistic RoadMap (PRM), and Rapidly-exploring Random Trees (RRT). These two algorithms also have optimized versions - PRM* and RRT* and this paper discusses how that optimization is achieved and is beneficial.",
+    "authors": [
+      "Alka Choudhary"
+    ],
+    "publication_date": "2023-04-23T18:27:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2304.14839v1",
+    "download_url": "https://arxiv.org/abs/2304.14839v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Experimental Comparisons of Derivative Free Optimization Algorithms",
+    "abstract": "In this paper, the performances of the quasi-Newton BFGS algorithm, the NEWUOA derivative free optimizer, the Covariance Matrix Adaptation Evolution Strategy (CMA-ES), the Differential Evolution (DE) algorithm and Particle Swarm Optimizers (PSO) are compared experimentally on benchmark functions reflecting important challenges encountered in real-world optimization problems. Dependence of the performances in the conditioning of the problem and rotational invariance of the algorithms are in particular investigated.",
+    "authors": [
+      "Anne Auger",
+      "Nikolaus Hansen",
+      "Jorge M. Perez Zerpa",
+      "Raymond Ros",
+      "Marc Schoenauer"
+    ],
+    "publication_date": "2010-05-31T09:10:30Z",
+    "arxiv_id": "http://arxiv.org/abs/1005.5631v1",
+    "download_url": "https://arxiv.org/abs/1005.5631v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Maximum Likelihood Recursive State Estimation using the Expectation Maximization Algorithm",
+    "abstract": "A Maximum Likelihood recursive state estimator is derived for non-linear and non-Gaussian state-space models. The estimator combines a particle filter to generate the conditional density and the Expectation Maximization algorithm to compute the maximum likelihood state estimate iteratively. Algorithms for maximum likelihood state filtering, prediction and smoothing are presented. The convergence properties of these algorithms, which are inherited from the Expectation Maximization algorithm, are proven and examined in two examples. It is shown that, with randomized reinitialization, which is feasible because of the algorithm simplicity, these methods are able to converge to the Maximum Likelihood Estimate (MLE) of multimodal, truncated and skewed densities, as well as those of disjoint support.",
+    "authors": [
+      "Mohammad S. Ramadan",
+      "Robert R. Bitmead"
+    ],
+    "publication_date": "2021-03-18T18:48:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.10475v1",
+    "download_url": "https://arxiv.org/abs/2103.10475v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How to transform graph states using single-qubit operations: computational complexity and algorithms",
+    "abstract": "Graph states are ubiquitous in quantum information with diverse applications ranging from quantum network protocols to measurement based quantum computing. Here we consider the question whether one graph (source) state can be transformed into another graph (target) state, using a specific set of quantum operations (LC+LPM+CC): single-qubit Clifford operations (LC), single-qubit Pauli measurements (LPM) and classical communication (CC) between sites holding the individual qubits. We first show that deciding whether a graph state |G> can be transformed into another graph state |G'> using LC+LPM+CC is NP-Complete, even if |G'> is restricted to be the GHZ-state. However, we also provide efficient algorithms for two situations of practical interest:\n  1. |G> has Schmidt-rank width one and |G'> is a GHZ-state. The Schmidt-rank width is an entanglement measure of quantum states, meaning this algorithm is efficient if the original state has little entanglement. Our algorithm has runtime O(|V(G')||V(G)|^3), and is also efficient in practice even on small instances as further showcased by a freely available software implementation.\n  2. |G> is in a certain class of states with unbounded Schmidt-rank width, and |G'> is a GHZ-state of a constant size. Here the runtime is O(poly(|V(G)|)), showing that more efficient algorithms can in principle be found even for states holding a large amount of entanglement, as long as the output state has constant size.\n  Our results make use of the insight that deciding whether a graph state |G> can be transformed to another graph state |G'> is equivalent to a known decision problem in graph theory, namely the problem of deciding whether a graph G' is a vertex-minor of a graph G. Many of the technical tools developed to obtain our results may be of independent interest.",
+    "authors": [
+      "Axel Dahlberg",
+      "Jonas Helsen",
+      "Stephanie Wehner"
+    ],
+    "publication_date": "2018-05-14T17:33:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1805.05306v2",
+    "download_url": "https://arxiv.org/abs/1805.05306v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Accelerating the Kamada-Kawai algorithm for boundary detection in a mobile ad hoc network",
+    "abstract": "Force-directed algorithms such as the Kamada-Kawai algorithm have shown promising results for solving the boundary detection problem in a mobile ad hoc network. However, the classical Kamada-Kawai algorithm does not scale well when it is used in networks with large numbers of nodes. It also produces poor results in non-convex networks. To address these problems, this paper proposes an improved version of the Kamada-Kawai algorithm. The proposed extension includes novel heuristics and algorithms that achieve a faster energy level reduction. Our experimental results show that the improved algorithm can significantly shorten the processing time and detect boundary nodes with an acceptable level of accuracy.",
+    "authors": [
+      "Se-Hang Cheong",
+      "Yain-Whar Si"
+    ],
+    "publication_date": "2015-08-21T15:28:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1508.05312v1",
+    "download_url": "https://arxiv.org/abs/1508.05312v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Special Algorithm for Stability Analysis of Multistable Biological Regulatory Systems",
+    "abstract": "We consider the problem of counting (stable) equilibriums of an important family of algebraic differential equations modeling multistable biological regulatory systems. The problem can be solved, in principle, using real quantifier elimination algorithms, in particular real root classification algorithms. However, it is well known that they can handle only very small cases due to the enormous computing time requirements. In this paper, we present a special algorithm which is much more efficient than the general methods. Its efficiency comes from the exploitation of certain interesting structures of the family of differential equations.",
+    "authors": [
+      "Hoon Hong",
+      "Xiaoxian Tang",
+      "Bican Xia"
+    ],
+    "publication_date": "2013-12-06T06:23:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1312.1780v2",
+    "download_url": "https://arxiv.org/abs/1312.1780v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The SAMME.C2 algorithm for severely imbalanced multi-class classification",
+    "abstract": "Classification predictive modeling involves the accurate assignment of observations in a dataset to target classes or categories. There is an increasing growth of real-world classification problems with severely imbalanced class distributions. In this case, minority classes have much fewer observations to learn from than those from majority classes. Despite this sparsity, a minority class is often considered the more interesting class yet developing a scientific learning algorithm suitable for the observations presents countless challenges. In this article, we suggest a novel multi-class classification algorithm specialized to handle severely imbalanced classes based on the method we refer to as SAMME.C2. It blends the flexible mechanics of the boosting techniques from SAMME algorithm, a multi-class classifier, and Ada.C2 algorithm, a cost-sensitive binary classifier designed to address highly class imbalances. Not only do we provide the resulting algorithm but we also establish scientific and statistical formulation of our proposed SAMME.C2 algorithm. Through numerical experiments examining various degrees of classifier difficulty, we demonstrate consistent superior performance of our proposed model.",
+    "authors": [
+      "Banghee So",
+      "Emiliano A. Valdez"
+    ],
+    "publication_date": "2021-12-30T00:20:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.14868v1",
+    "download_url": "https://arxiv.org/abs/2112.14868v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Simple Polynomial Algorithm for the Longest Path Problem on Cocomparability Graphs",
+    "abstract": "Given a graph $G$, the longest path problem asks to compute a simple path of $G$ with the largest number of vertices. This problem is the most natural optimization version of the well known and well studied Hamiltonian path problem, and thus it is NP-hard on general graphs. However, in contrast to the Hamiltonian path problem, there are only few restricted graph families such as trees and some small graph classes where polynomial algorithms for the longest path problem have been found. Recently it has been shown that this problem can be solved in polynomial time on interval graphs by applying dynamic programming to a characterizing ordering of the vertices of the given graph \\cite{longest-int-algo}, thus answering an open question. In the present paper, we provide the first polynomial algorithm for the longest path problem on a much greater class, namely on cocomparability graphs. Our algorithm uses a similar - but essentially simpler - dynamic programming approach, which is applied to a Lexicographic Depth First Search (LDFS) characterizing ordering of the vertices of a cocomparability graph. Therefore, our results provide evidence that this general dynamic programming approach can be used in a more general setting, leading to efficient algorithms for the longest path problem on greater classes of graphs. LDFS has recently been introduced in \\cite{Corneil-LDFS08}. Since then, a similar phenomenon of extending an existing interval graph algorithm to cocomparability graphs by using an LDFS preprocessing step has also been observed for the minimum path cover problem \\cite{Corneil-MPC}. Therefore, more interestingly, our results also provide evidence that cocomparability graphs present an interval graph structure when they are considered using an LDFS ordering of their vertices, which may lead to other new and more efficient combinatorial algorithms.",
+    "authors": [
+      "George B. Mertzios",
+      "Derek G. Corneil"
+    ],
+    "publication_date": "2010-04-26T15:53:01Z",
+    "arxiv_id": "http://arxiv.org/abs/1004.4560v1",
+    "download_url": "https://arxiv.org/abs/1004.4560v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Sublinear-Time Maintenance of Breadth-First Spanning Trees in Partially Dynamic Networks",
+    "abstract": "We study the problem of maintaining a breadth-first spanning tree (BFS tree) in partially dynamic distributed networks modeling a sequence of either failures or additions of communication links (but not both). We present deterministic $(1+ε)$-approximation algorithms whose amortized time (over some number of link changes) is sublinear in $D$, the maximum diameter of the network.\n  Our technique also leads to a deterministic $(1+ε)$-approximate incremental algorithm for single-source shortest paths (SSSP) in the sequential (usual RAM) model. Prior to our work, the state of the art was the classic exact algorithm of Even and Shiloach [JACM 1981] that is optimal under some assumptions [Roditty and Zwick ESA 2004, Henzinger et al. STOC 2015]. Our result is the first to show that, in the incremental setting, this bound can be beaten in certain cases if some approximation is allowed.",
+    "authors": [
+      "Monika Henzinger",
+      "Sebastian Krinninger",
+      "Danupon Nanongkai"
+    ],
+    "publication_date": "2015-12-26T21:54:27Z",
+    "arxiv_id": "http://arxiv.org/abs/1512.08147v2",
+    "download_url": "https://arxiv.org/abs/1512.08147v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Comparing the Finite-Time Performance of Simulation-Optimization Algorithms",
+    "abstract": "We empirically evaluate the finite-time performance of several simulation-optimization algorithms on a testbed of problems with the goal of motivating further development of algorithms with strong finite-time performance. We investigate if the observed performance of the algorithms can be explained by properties of the problems, e.g., the number of decision variables, the topology of the objective function, or the magnitude of the simulation error.",
+    "authors": [
+      "Naijia Dong",
+      "David J. Eckman",
+      "Matthias Poloczek",
+      "Xueqi Zhao",
+      "Shane G. Henderson"
+    ],
+    "publication_date": "2017-05-22T16:07:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1705.07825v1",
+    "download_url": "https://arxiv.org/abs/1705.07825v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An output-sensitive Algorithm to partition a Sequence of Integers into Subsets with equal Sums",
+    "abstract": "We present a polynomial time algorithm, which solves a nonstandard Variation of the well-known PARTITION-problem: Given positive integers $n, k$ and $t$ such that $t \\geq n$ and $k \\cdot t = {n+1 \\choose 2}$, the algorithm partitions the elements of the set $I_n = \\{1, \\ldots, n\\}$ into $k$ mutually disjoint subsets $T_j$ such that $\\cup_{j=1}^k T_j = I_n$ and $\\sum_{x \\in T_{j}} x = t$ for each $j \\in \\{1,2, \\ldots, k\\}$. The algorithm needs $\\mathcal{O}(n \\cdot ( \\frac{n}{2k} + \\log \\frac{n(n+1)}{2k} ))$ steps to insert the $n$ elements of $I_n$ into the $k$ sets $T_j$.",
+    "authors": [
+      "Alexander Büchel",
+      "Ulrich Gilleßen",
+      "Kurt-Ulrich Witt"
+    ],
+    "publication_date": "2018-11-09T17:08:35Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.04014v5",
+    "download_url": "https://arxiv.org/abs/1811.04014v5",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Derivative-Free Superiorization: Principle and Algorithm",
+    "abstract": "The superiorization methodology is intended to work with input data of constrained minimization problems, that is, a target function and a set of constraints. However, it is based on an antipodal way of thinking to what leads to constrained minimization methods. Instead of adapting unconstrained minimization algorithms to handling constraints, it adapts feasibility-seeking algorithms to reduce (not necessarily minimize) target function values. This is done by inserting target-function-reducing perturbations into a feasibility-seeking algorithm while retaining its feasibility-seeking ability and without paying a high computational price. A superiorized algorithm that employs component-wise target function reduction steps is presented. This enables derivative-free superiorization (DFS), meaning that superiorization can be applied to target functions that have no calculable partial derivatives or subgradients. The numerical behavior of our derivative-free superiorization algorithm is illustrated on a data set generated by simulating a problem of image reconstruction from projections. We present a tool (we call it a proximity-target curve) for deciding which of two iterative methods is \"better\" for solving a particular problem. The plots of proximity-target curves of our experiments demonstrate the advantage of the proposed derivative-free superiorization algorithm.",
+    "authors": [
+      "Yair Censor",
+      "Edgar Garduño",
+      "Elias S. Helou",
+      "Gabor T. Herman"
+    ],
+    "publication_date": "2019-08-27T09:25:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.10100v3",
+    "download_url": "https://arxiv.org/abs/1908.10100v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Swendsen-Wang Algorithm on the Mean-Field Potts Model",
+    "abstract": "We study the $q$-state ferromagnetic Potts model on the $n$-vertex complete graph known as the mean-field (Curie-Weiss) model. We analyze the Swendsen-Wang algorithm which is a Markov chain that utilizes the random cluster representation for the ferromagnetic Potts model to recolor large sets of vertices in one step and potentially overcomes obstacles that inhibit single-site Glauber dynamics. Long et al. studied the case $q=2$, the Swendsen-Wang algorithm for the mean-field ferromagnetic Ising model, and showed that the mixing time satisfies: (i) $Θ(1)$ for $β<β_c$, (ii) $Θ(n^{1/4})$ for $β=β_c$, (iii) $Θ(\\log n)$ for $β>β_c$, where $β_c$ is the critical temperature for the ordered/disordered phase transition. In contrast, for $q\\geq 3$ there are two critical temperatures $0<β_u<β_{rc}$ that are relevant. We prove that the mixing time of the Swendsen-Wang algorithm for the ferromagnetic Potts model on the $n$-vertex complete graph satisfies: (i) $Θ(1)$ for $β<β_u$, (ii) $Θ(n^{1/3})$ for $β=β_u$, (iii) $\\exp(n^{Ω(1)})$ for $β_u<β<β_{rc}$, and (iv) $Θ(\\log{n})$ for $β\\geqβ_{rc}$. These results complement refined results of Cuff et al. on the mixing time of the Glauber dynamics for the ferromagnetic Potts model.",
+    "authors": [
+      "Andreas Galanis",
+      "Daniel Stefankovic",
+      "Eric Vigoda"
+    ],
+    "publication_date": "2015-02-23T20:52:31Z",
+    "arxiv_id": "http://arxiv.org/abs/1502.06593v4",
+    "download_url": "https://arxiv.org/abs/1502.06593v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient Algorithms for Battleship",
+    "abstract": "We consider an algorithmic problem inspired by the Battleship game. In the variant of the problem that we investigate, there is a unique ship of shape $S \\subset Z^2$ which has been translated in the lattice $Z^2$. We assume that a player has already hit the ship with a first shot and the goal is to sink the ship using as few shots as possible, that is, by minimizing the number of missed shots. While the player knows the shape $S$, which position of $S$ has been hit is not known.\n  Given a shape $S$ of $n$ lattice points, the minimum number of misses that can be achieved in the worst case by any algorithm is called the Battleship complexity of the shape $S$ and denoted $c(S)$. We prove three bounds on $c(S)$, each considering a different class of shapes. First, we have $c(S) \\leq n-1$ for arbitrary shapes and the bound is tight for parallelogram-free shapes. Second, we provide an algorithm that shows that $c(S) = O(\\log n)$ if $S$ is an HV-convex polyomino. Third, we provide an algorithm that shows that $c(S) = O(\\log \\log n)$ if $S$ is a digital convex set. This last result is obtained through a novel discrete version of the Blaschke-Lebesgue inequality relating the area and the width of any convex body.",
+    "authors": [
+      "Loïc Crombez",
+      "Guilherme D. da Fonseca",
+      "Yan Gerard"
+    ],
+    "publication_date": "2020-04-15T21:26:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.07354v1",
+    "download_url": "https://arxiv.org/abs/2004.07354v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Imbalanced Big Data Oversampling: Taxonomy, Algorithms, Software, Guidelines and Future Directions",
+    "abstract": "Learning from imbalanced data is among the most challenging areas in contemporary machine learning. This becomes even more difficult when considered the context of big data that calls for dedicated architectures capable of high-performance processing. Apache Spark is a highly efficient and popular architecture, but it poses specific challenges for algorithms to be implemented for it. While oversampling algorithms are an effective way for handling class imbalance, they have not been designed for distributed environments. In this paper, we propose a holistic look on oversampling algorithms for imbalanced big data. We discuss the taxonomy of oversampling algorithms and their mechanisms used to handle skewed class distributions. We introduce a Spark library with 14 state-of-the-art oversampling algorithms implemented and evaluate their efficacy via extensive experimental study. Using binary and multi-class massive data sets, we analyze the effectiveness of oversampling algorithms and their relationships with different types of classifiers. We evaluate the trade-off between accuracy and time complexity of oversampling algorithms, as well as their scalability when increasing the size of data. This allows us to gain insight into the usefulness of specific components of oversampling algorithms for big data, as well as formulate guidelines and recommendations for designing future resampling approaches for massive imbalanced data. Our library can be downloaded from https://github.com/fsleeman/spark-class-balancing.git.",
+    "authors": [
+      "William C. Sleeman",
+      "Bartosz Krawczyk"
+    ],
+    "publication_date": "2021-07-24T01:49:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.11508v1",
+    "download_url": "https://arxiv.org/abs/2107.11508v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Locked and Unlocked Polygonal Chains in 3D",
+    "abstract": "In this paper, we study movements of simple polygonal chains in 3D. We say that an open, simple polygonal chain can be straightened if it can be continuously reconfigured to a straight sequence of segments in such a manner that both the length of each link and the simplicity of the chain are maintained throughout the movement. The analogous concept for closed chains is convexification: reconfiguration to a planar convex polygon. Chains that cannot be straightened or convexified are called locked. While there are open chains in 3D that are locked, we show that if an open chain has a simple orthogonal projection onto some plane, it can be straightened. For closed chains, we show that there are unknotted but locked closed chains, and we provide an algorithm for convexifying a planar simple polygon in 3D with a polynomial number of moves.",
+    "authors": [
+      "T. Biedl",
+      "E. Demaine",
+      "M. Demaine",
+      "S. Lazard",
+      "A. Lubiw",
+      "J. O'Rourke",
+      "M. Overmars",
+      "S. Robbins",
+      "I. Streinu",
+      "G. Toussaint",
+      "S. Whitesides"
+    ],
+    "publication_date": "1998-11-11T20:36:50Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/9811019v1",
+    "download_url": "https://arxiv.org/abs/cs/9811019v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Family Constraining of Iterative Algorithms",
+    "abstract": "In constraining iterative processes, the algorithmic operator of the iterative process is pre-multiplied by a constraining operator at each iterative step. This enables the constrained algorithm, besides solving the original problem, also to find a solution that incorporates some prior knowledge about the solution. This approach has been useful in image restoration and other image processing situations when a single constraining operator was used. In the field of image reconstruction from projections a priori information about the original image, such as smoothness or that it belongs to a certain closed convex set, may be used to improve the reconstruction quality. We study here constraining of iterative processes by a family of operators rather than by a single operator.",
+    "authors": [
+      "Yair Censor",
+      "Ioana Pantelimon",
+      "Constantin Popa"
+    ],
+    "publication_date": "2013-06-26T06:53:43Z",
+    "arxiv_id": "http://arxiv.org/abs/1306.6145v2",
+    "download_url": "https://arxiv.org/abs/1306.6145v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Performance Optimization of MapReduce-based Apriori Algorithm on Hadoop Cluster",
+    "abstract": "Many techniques have been proposed to implement the Apriori algorithm on MapReduce framework but only a few have focused on performance improvement. FPC (Fixed Passes Combined-counting) and DPC (Dynamic Passes Combined-counting) algorithms combine multiple passes of Apriori in a single MapReduce phase to reduce the execution time. In this paper, we propose improved MapReduce based Apriori algorithms VFPC (Variable Size based Fixed Passes Combined-counting) and ETDPC (Elapsed Time based Dynamic Passes Combined-counting) over FPC and DPC. Further, we optimize the multi-pass phases of these algorithms by skipping pruning step in some passes, and propose Optimized-VFPC and Optimized-ETDPC algorithms. Quantitative analysis reveals that counting cost of additional un-pruned candidates produced due to skipped-pruning is less significant than reduction in computation cost due to the same. Experimental results show that VFPC and ETDPC are more robust and flexible than FPC and DPC whereas their optimized versions are more efficient in terms of execution time.",
+    "authors": [
+      "Sudhakar Singh",
+      "Rakhi Garg",
+      "P K Mishra"
+    ],
+    "publication_date": "2018-07-16T19:30:50Z",
+    "arxiv_id": "http://arxiv.org/abs/1807.06070v1",
+    "download_url": "https://arxiv.org/abs/1807.06070v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Efficient Non-Adaptive Quantum Algorithms for Tolerant Junta Testing",
+    "abstract": "We consider the problem of deciding whether an $n$-qubit unitary (or $n$-bit Boolean function) is $\\varepsilon_1$-close to some $k$-junta or $\\varepsilon_2$-far from every $k$-junta, where $k$-junta unitaries act non-trivially on at most $k$ qubits and as the identity on the rest, and $k$-junta Boolean functions depend on at most $k$ variables. For constant numbers $\\varepsilon_1,\\varepsilon_2$ such that $0 < \\varepsilon_1 < \\varepsilon_2 < 1$, we show the following. (1) A non-adaptive $O(k\\log k)$-query tolerant $(\\varepsilon_1,\\varepsilon_2)$-tester for $k$-junta unitaries when $2\\sqrt{2}\\varepsilon_1 < \\varepsilon_2$. (2) A non-adaptive tolerant $(\\varepsilon_1,\\varepsilon_2)$-tester for Boolean functions with $O(k \\log k)$ quantum queries when $4\\varepsilon_1 < \\varepsilon_2$. (3) A $2^{\\widetilde{O}(k)}$-query tolerant $(\\varepsilon_1,\\varepsilon_2)$-tester for $k$-junta unitaries for any $\\varepsilon_1,\\varepsilon_2$. The first algorithm provides an exponential improvement over the best-known quantum algorithms. The second algorithm shows an exponential quantum advantage over any non-adaptive classical algorithm. The third tester gives the first tolerant junta unitary testing result for an arbitrary gap.\n  Besides, we adapt the first two quantum algorithms to be implemented using only single-qubit operations, thereby enhancing experimental feasibility, with a slightly more stringent requirement for the parameter gap.",
+    "authors": [
+      "Zongbo Bao",
+      "Yuxuan Liu",
+      "Penghui Yao",
+      "Zekun Ye",
+      "Jialin Zhang"
+    ],
+    "publication_date": "2025-08-24T11:15:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.17306v4",
+    "download_url": "https://arxiv.org/abs/2508.17306v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Two computationally efficient polynomial-iteration infeasible interior-point algorithms for linear programming",
+    "abstract": "Since the beginning of the development of interior-point methods, there exists a puzzling gap between the results in theory and the observations in numerical experience, i.e., algorithms with good polynomial bound are not computationally efficient and algorithms demonstrated efficiency in computation do not have a good or any polynomial bound. Todd raised a question in 2002: \"Can we find a theoretically and practically efficient way to reoptimize?\" This paper is an effort to close the gap. We propose two arc-search infeasible interior-point algorithms with infeasible central path neighborhood wider than all existing infeasible interior-point algorithms that are proved to be convergent. We show that the first algorithm is polynomial and its simplified version, if it terminates in finite iterations, has a complexity bound equal to the best known complexity bound for all (feasible or infeasible) interior-point algorithms. We demonstrate the computational efficiency of the proposed algorithms by testing all Netlib linear programming problems in standard form and comparing the numerical results to those obtained by Mehrotra's predictor-corrector algorithm and a recently developed more efficient arc-search algorithm (the convergence of these two algorithms is unknown). We conclude that the newly proposed algorithms are not only polynomial but also computationally competitive comparing to both Mehrotra's predictor-corrector algorithm and the efficient arc-search algorithm.",
+    "authors": [
+      "Yaguang Yang"
+    ],
+    "publication_date": "2016-09-02T18:39:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1609.00694v4",
+    "download_url": "https://arxiv.org/abs/1609.00694v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Schrodingerization based quantum algorithms for the time-fractional heat equation",
+    "abstract": "We develop a quantum algorithm for solving high-dimensional time-fractional heat equations. By applying the dimension extension technique from [FKW23], the $d+1$-dimensional time-fractional equation is reformulated as a local partial differential equation in $d+2$ dimensions. Through discretization along both the extended and spatial domains, a stable system of ordinary differential equations is obtained by a simple change of variables. We propose a quantum algorithm for the resulting semi-discrete problem using the Schrodingerization approach from [JLY24a,JLY23,JL24a]. The Schrodingerization technique transforms general linear partial and ordinary differential equations into Schrodinger-type systems--with unitary evolution, making them suitable for quantum simulation. This is accomplished via the warped phase transformation, which maps the equation into a higher-dimensional space. We provide detailed implementations of this method and conduct a comprehensive complexity analysis, demonstrating up to exponential advantage--with respect to the inverse of the mesh size in high dimensions~--~compared to its classical counterparts. Specifically, to compute the solution to time $T$, while the classical method requires at least $\\mathcal{O}(N_t d h^{-(d+0.5)})$ matrix-vector multiplications, where $N_t $ is the number of time steps (which is, for example, $\\mathcal{O}(Tdh^{-2})$ for the forward Euler method), our quantum algorithms requires $\\widetilde{\\mathcal{O}}(T^2d^4 h^{-8})$ queries to the block-encoding input models, with the quantum complexity being independent of the dimension $d$ in terms of the inverse mesh size $h^{-1}$. Numerical experiments are performed to validate our formulation.",
+    "authors": [
+      "Shi Jin",
+      "Nana Liu",
+      "Yue Yu"
+    ],
+    "publication_date": "2025-09-22T12:49:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.17713v2",
+    "download_url": "https://arxiv.org/abs/2509.17713v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Connected Component Labeling Algorithm for Implicitly-Defined Domains",
+    "abstract": "A connected component labeling algorithm is developed for implicitly-defined domains specified by multivariate polynomials. The algorithm operates by recursively subdividing the constraint domain into hyperrectangular subcells until the topology thereon is sufficiently simple; in particular, we devise a topology test using properties of Bernstein polynomials. In many cases the algorithm produces a certificate guaranteeing its correctness, i.e., two points yield the same label if and only if they are path-connected. To robustly handle various kinds of edge cases, the algorithm may assign identical labels to distinct components, but only when they are exactly or nearly touching, relative to a user-controlled length scale. A variety of numerical experiments assess the effectiveness of the overall approach, including statistical analyses on randomly generated multi-component geometry in 2D and 3D, as well as specific examples involving cusps, self-intersections, junctions, and other kinds of singularities.",
+    "authors": [
+      "Robert I. Saye"
+    ],
+    "publication_date": "2022-05-30T06:55:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2205.14885v2",
+    "download_url": "https://arxiv.org/abs/2205.14885v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mixing times for the Swapping Algorithm on the Blume-Emery-Griffiths Model",
+    "abstract": "We analyze the so called Swapping Algorithm, a parallel version of the well-known Metropolis-Hastings algorithm, on the mean-field version of the Blume-Emery-Griffiths model in statistical mechanics. This model has two parameters and depending on their choice, the model exhibits either a first, or a second order phase transition. In agreement with a conjecture by Bhatnagar and Randall we find that the Swapping Algorithm mixes rapidly in presence of a second order phase transition, while becoming slow when the phase transition is first order.",
+    "authors": [
+      "M. Ebbers",
+      "H. Knöpfel",
+      "M. Löwe",
+      "F. Vermet"
+    ],
+    "publication_date": "2012-06-19T09:42:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1206.4162v1",
+    "download_url": "https://arxiv.org/abs/1206.4162v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A 2020 taxonomy of algorithms inspired on living beings behavior",
+    "abstract": "Taking the role of a computer naturalist, a journey is taken through bio inspired algorithms taking account on algorithms which are inspired on living being behaviors. A compilation of algorithms is made considering several reviews or surveys of bio-inspired heuristics and swarm intelligence until 2020 year. A classification is made considering kingdoms as used by biologists generating several branches for animalia, bacteria, plants, fungi and protista to develop a taxonomy.",
+    "authors": [
+      "Luis Torres-Treviño"
+    ],
+    "publication_date": "2021-06-09T02:37:46Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.04775v1",
+    "download_url": "https://arxiv.org/abs/2106.04775v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Streaming Algorithms for Planar Convex Hulls",
+    "abstract": "Many classical algorithms are known for computing the convex hull of a set of $n$ point in $\\mathbb{R}^2$ using $O(n)$ space. For large point sets, whose size exceeds the size of the working space, these algorithms cannot be directly used. The current best streaming algorithm for computing the convex hull is computationally expensive, because it needs to solve a set of linear programs. In this paper, we propose simpler and faster streaming and W-stream algorithms for computing the convex hull. Our streaming algorithm has small pass complexity, which is roughly a square root of the current best bound, and it is simpler in the sense that our algorithm mainly relies on computing the convex hulls of smaller point sets. Our W-stream algorithms, one of which is deterministic and the other of which is randomized, have nearly-optimal tradeoff between the pass complexity and space usage, as we established by a new unconditional lower bound.",
+    "authors": [
+      "Martin Farach-Colton",
+      "Meng Li",
+      "Meng-Tsung Tsai"
+    ],
+    "publication_date": "2018-09-30T19:36:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.00455v1",
+    "download_url": "https://arxiv.org/abs/1810.00455v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Block-Krylov techniques in the context of sparse-FGLM algorithms",
+    "abstract": "Consider a zero-dimensional ideal $I$ in $\\mathbb{K}[X_1,\\dots,X_n]$. Inspired by Faugère and Mou's Sparse FGLM algorithm, we use Krylov sequences based on multiplication matrices of $I$ in order to compute a description of its zero set by means of univariate polynomials.\n  Steel recently showed how to use Coppersmith's block-Wiedemann algorithm in this context; he describes an algorithm that can be easily parallelized, but only computes parts of the output in this manner. Using generating series expressions going back to work of Bostan, Salvy, and Schost, we show how to compute the entire output for a small overhead, without making any assumption on the ideal $I$ other than it having dimension zero. We then propose a refinement of this idea that partially avoids the introduction of a generic linear form. We comment on experimental results obtained by an implementation based on the C++ libraries Eigen, LinBox and NTL.",
+    "authors": [
+      "Seung Gyu Hyun",
+      "Vincent Neiger",
+      "Hamid Rahkooy",
+      "Eric Schost"
+    ],
+    "publication_date": "2017-12-12T08:56:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1712.04177v2",
+    "download_url": "https://arxiv.org/abs/1712.04177v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Numerical Algorithm for Pólya Enumeration Theorem",
+    "abstract": "Although the Pólya enumeration theorem has been used extensively for decades, an optimized, purely numerical algorithm for calculating its coefficients is not readily available. We present such an algorithm for finding the number of unique colorings of a finite set under the action of a finite group.",
+    "authors": [
+      "Conrad W. Rosenbrock",
+      "Wiley S. Morgan",
+      "Gus L. W. Hart",
+      "Stefano Curtarolo",
+      "Rodney W. Forcade"
+    ],
+    "publication_date": "2014-12-13T00:03:38Z",
+    "arxiv_id": "http://arxiv.org/abs/1412.4167v1",
+    "download_url": "https://arxiv.org/abs/1412.4167v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Translation-Invariant Quantum Algorithms for Ordered Search are Optimal",
+    "abstract": "Ordered search is the task of finding an item in an ordered list using comparison queries. The best exact classical algorithm for this fundamental problem uses $\\lceil \\log_{2}{n}\\rceil$ queries for a list of length $n$. Quantum computers can achieve a constant-factor speedup, but the best possible coefficient of $\\log_{2}{n}$ for exact quantum algorithms is only known to lie between $(\\ln{2})/π\\approx 0.221$ and $4/\\log_{2}{605} \\approx 0.433$. We consider a special class of translation-invariant algorithms with no workspace, introduced by Farhi, Goldstone, Gutmann, and Sipser, that has been used to find the best known upper bounds. First, we show that any bounded-error, $k$-query quantum algorithm for ordered search can be implemented by a $k$-query algorithm in this special class. Second, we use linear programming to show that the best exact $5$-query quantum algorithm can search a list of length $7265$, giving an ordered search algorithm that asymptotically uses $5 \\log_{7265}{n} \\approx 0.390 \\log_{2}{n}$ quantum queries.",
+    "authors": [
+      "Joseph Carolan",
+      "Andrew M. Childs",
+      "Matt Kovacs-Deak",
+      "Luke Schaeffer"
+    ],
+    "publication_date": "2025-03-27T02:08:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.21090v2",
+    "download_url": "https://arxiv.org/abs/2503.21090v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The traveling salesman problem for cubic graphs",
+    "abstract": "We show how to find a Hamiltonian cycle in a graph of degree at most three with n vertices, in time O(2^{n/3}) ~= 1.260^n and linear space. Our algorithm can find the minimum weight Hamiltonian cycle (traveling salesman problem), in the same time bound. We can also count or list all Hamiltonian cycles in a degree three graph in time O(2^{3n/8}) ~= 1.297^n. We also solve the traveling salesman problem in graphs of degree at most four, by randomized and deterministic algorithms with runtime O((27/4)^{n/3}) ~= 1.890^n and O((27/4+epsilon)^{n/3}) respectively. Our algorithms allow the input to specify a set of forced edges which must be part of any generated cycle. Our cycle listing algorithm shows that every degree three graph has O(2^{3n/8}) Hamiltonian cycles; we also exhibit a family of graphs with 2^{n/3} Hamiltonian cycles per graph.",
+    "authors": [
+      "David Eppstein"
+    ],
+    "publication_date": "2003-02-20T06:36:35Z",
+    "arxiv_id": "http://arxiv.org/abs/cs/0302030v2",
+    "download_url": "https://arxiv.org/abs/cs/0302030v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Entanglement involved in Grover's and Shor's algorithms: the four-qubit case",
+    "abstract": "In this paper, we study the nature of entanglement in quantum Grover's and Shor's algorithms. So far, the authors who have been interested in this problem have approached the question quantitatively by introducing entanglement measures (numerical ones most of the time). One can ask a different question: what about a qualitative measure of entanglement ? In other words, we try to find what are the different entanglement SLOCC classes that can be generated by these two algorithms. We treat in this article the case of pure four-qubit systems.",
+    "authors": [
+      "Hamza Jaffali",
+      "Frédéric Holweck"
+    ],
+    "publication_date": "2018-11-21T14:27:27Z",
+    "arxiv_id": "http://arxiv.org/abs/1811.08894v2",
+    "download_url": "https://arxiv.org/abs/1811.08894v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Improved invariant polytope algorithm and applications",
+    "abstract": "In several papers of 2013 - 2016, Guglielmi and Protasov made a breakthrough in the problem of the joint spectral radius computation, developing the invariant polytope algorithm which for most matrix families finds the exact value of the joint spectral radius. This algorithm found many applications in problems of functional analysis, approximation theory, combinatorics, etc.. In this paper we propose a modification of the invariant polytope algorithm making it roughly 3 times faster and suitable for higher dimensions. The modified version works for most matrix families of dimensions up to 25, for non-negative matrices the dimension is up to three thousand. Besides we introduce a new, fast algorithm for computing good lower bounds for the joint spectral radius. The corresponding examples and statistics of numerical results are provided. Several applications of our algorithms are presented. In particular, we find the exact values of the regularity exponents of Daubechies wavelets of high orders and the capacities of codes that avoid certain difference patterns.",
+    "authors": [
+      "Thomas Mejstrik"
+    ],
+    "publication_date": "2018-12-07T16:04:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.03080v3",
+    "download_url": "https://arxiv.org/abs/1812.03080v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Hidden Flow Structure and Metric Space of Network Embedding Algorithms Based on Random Walks",
+    "abstract": "Network embedding which encodes all vertices in a network as a set of numerical vectors in accordance with it's local and global structures, has drawn widespread attention. Network embedding not only learns significant features of a network, such as the clustering and linking prediction but also learns the latent vector representation of the nodes which provides theoretical support for a variety of applications, such as visualization, node classification, and recommendation. As the latest progress of the research, several algorithms based on random walks have been devised. Although their high scores for learning efficiency and accuracy have drawn much attention, there is still a lack of theoretical explanation, and the transparency of the algorithms has been doubted. Here, we propose an approach based on the open-flow network model to reveal the underlying flow structure and its hidden metric space of different random walk strategies on networks. We show that the essence of embedding based on random walks is the latent metric structure defined on the open-flow network. This not only deepens our understanding of random walk based embedding algorithms but also helps in finding new potential applications in embedding.",
+    "authors": [
+      "Weiwei Gu",
+      "Li Gong",
+      "Xiandao Lou",
+      "Jiang Zhang"
+    ],
+    "publication_date": "2017-04-19T14:17:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1704.05743v1",
+    "download_url": "https://arxiv.org/abs/1704.05743v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Detection of ChatGPT Fake Science with the xFakeSci Learning Algorithm",
+    "abstract": "Generative AI tools exemplified by ChatGPT are becoming a new reality. This study is motivated by the premise that ``AI generated content may exhibit a distinctive behavior that can be separated from scientific articles''. In this study, we show how articles can be generated using means of prompt engineering for various diseases and conditions. We then show how we tested this premise in two phases and prove its validity. Subsequently, we introduce xFakeSci, a novel learning algorithm, that is capable of distinguishing ChatGPT-generated articles from publications produced by scientists. The algorithm is trained using network models driven from both sources. As for the classification step, it was performed using 300 articles per condition. The actual label steps took place against an equal mix of 50 generated articles and 50 authentic PubMed abstracts. The testing also spanned publication periods from 2010 to 2024 and encompassed research on three distinct diseases: cancer, depression, and Alzheimer's. Further, we evaluated the accuracy of the xFakeSci algorithm against some of the classical data mining algorithms (e.g., Support Vector Machines, Regression, and Naive Bayes). The xFakeSci algorithm achieved F1 scores ranging from 80% to 94%, outperforming common data mining algorithms, which scored F1 values between 38% and 52%. We attribute the noticeable difference to the introduction of calibration and a proximity distance heuristic, which underscores this promising performance. Indeed, the prediction of fake science generated by ChatGPT presents a considerable challenge. Nonetheless, the introduction of the xFakeSci algorithm is a significant step on the way to combating fake science.",
+    "authors": [
+      "Ahmed Abdeen Hamed",
+      "Xindong Wu"
+    ],
+    "publication_date": "2023-08-15T23:22:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.11767v4",
+    "download_url": "https://arxiv.org/abs/2308.11767v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Schrödingerization based quantum algorithms for the fractional Poisson equation",
+    "abstract": "We develop a quantum algorithm for solving high-dimensional fractional Poisson equations. By applying the Caffarelli-Silvestre extension, the $d$-dimensional fractional equation is reformulated as a local partial differential equation in $d+1$ dimensions. We propose a quantum algorithm for the finite element discretization of this local problem, by capturing the steady-state of the corresponding differential equations using the Schrödingerization approach from \\cite{JLY22SchrShort, JLY22SchrLong, analogPDE}. The Schrödingerization technique transforms general linear partial and ordinary differential equations into Schrödinger-type systems, making them suitable for quantum simulation. This is achieved through the warped phase transformation, which maps the equation into a higher-dimensional space. We provide detailed implementations of the method and conduct a comprehensive complexity analysis, which can show up to exponential advantage -- with respect to the inverse of the mesh size in high dimensions -- compared to its classical counterpart. Specifically, while the classical method requires $\\widetilde{\\mathcal{O}}(d^{1/2} 3^{3d/2} h^{-d-2})$ operations, the quantum counterpart requires $\\widetilde{\\mathcal{O}}(d 3^{3d/2} h^{-2.5})$ queries to the block-encoding input models, with the quantum complexity being independent of the dimension $d$ in terms of the inverse mesh size $h^{-1}$. Numerical experiments are conducted to verify the validity of our formulation.",
+    "authors": [
+      "Shi Jin",
+      "Nana Liu",
+      "Yue Yu"
+    ],
+    "publication_date": "2025-05-02T21:53:19Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.01602v1",
+    "download_url": "https://arxiv.org/abs/2505.01602v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On Robust Wasserstein Barycenter: The Model and Algorithm",
+    "abstract": "The Wasserstein barycenter problem is to compute the average of $m$ given probability measures, which has been widely studied in many different areas; however, real-world data sets are often noisy and huge, which impedes its applications in practice. Hence, in this paper, we focus on improving the computational efficiency of two types of robust Wasserstein barycenter problem (RWB): fixed-support RWB (fixed-RWB) and free-support RWB (free-RWB); actually, the former is a subroutine of the latter. Firstly, we improve efficiency through model reducing; we reduce RWB as an augmented Wasserstein barycenter problem, which works for both fixed-RWB and free-RWB. Especially, fixed-RWB can be computed within $\\widetilde{O}(\\frac{mn^2}{ε_+})$ time by using an off-the-shelf solver, where $ε_+$ is the pre-specified additive error and $n$ is the size of locations of input measures. Then, for free-RWB, we leverage a quality guaranteed data compression technique, coreset, to accelerate computation by reducing the data set size $m$. It shows that running algorithms on the coreset is enough instead of on the original data set. Next, by combining the model reducing and coreset techniques above, we propose an algorithm for free-RWB by updating the weights and locations alternatively. Finally, our experiments demonstrate the efficiency of our techniques.",
+    "authors": [
+      "Xu Wang",
+      "Jiawei Huang",
+      "Qingyuan Yang",
+      "Jinpeng Zhang"
+    ],
+    "publication_date": "2023-12-25T16:20:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.15762v1",
+    "download_url": "https://arxiv.org/abs/2312.15762v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Algorithms for an Efficient Tensor Biclustering",
+    "abstract": "Consider a data set collected by (individuals-features) pairs in different times. It can be represented as a tensor of three dimensions (Individuals, features and times). The tensor biclustering problem computes a subset of individuals and a subset of features whose signal trajectories over time lie in a low-dimensional subspace, modeling similarity among the signal trajectories while allowing different scalings across different individuals or different features. This approach are based on spectral decomposition in order to build the desired biclusters. We evaluate the quality of the results from each algorithms with both synthetic and real data set.",
+    "authors": [
+      "Andriantsiory Dina Faneva",
+      "Mustapha Lebbah",
+      "Hanane Azzag",
+      "Gaël Beck"
+    ],
+    "publication_date": "2019-03-10T18:56:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1903.04042v1",
+    "download_url": "https://arxiv.org/abs/1903.04042v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The h-Index of a Graph and its Application to Dynamic Subgraph Statistics",
+    "abstract": "We describe a data structure that maintains the number of triangles in a dynamic undirected graph, subject to insertions and deletions of edges and of degree-zero vertices. More generally it can be used to maintain the number of copies of each possible three-vertex subgraph in time O(h) per update, where h is the h-index of the graph, the maximum number such that the graph contains $h$ vertices of degree at least h. We also show how to maintain the h-index itself, and a collection of h high-degree vertices in the graph, in constant time per update. Our data structure has applications in social network analysis using the exponential random graph model (ERGM); its bound of O(h) time per edge is never worse than the Theta(sqrt m) time per edge necessary to list all triangles in a static graph, and is strictly better for graphs obeying a power law degree distribution. In order to better understand the behavior of the h-index statistic and its implications for the performance of our algorithms, we also study the behavior of the h-index on a set of 136 real-world networks.",
+    "authors": [
+      "David Eppstein",
+      "Emma S. Spiro"
+    ],
+    "publication_date": "2009-04-23T18:37:36Z",
+    "arxiv_id": "http://arxiv.org/abs/0904.3741v1",
+    "download_url": "https://arxiv.org/abs/0904.3741v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Parallel tree algorithms for AMR and non-standard data access",
+    "abstract": "We introduce several parallel algorithms operating on a distributed forest of adaptive quadtrees/octrees. They are targeted at large-scale applications relying on data layouts that are more complex than required for standard finite elements, such as hp-adaptive Galerkin methods, particle tracking and semi-Lagrangian schemes, and in-situ post-processing and visualization. Specifically, we design algorithms to derive an adapted worker forest based on sparse data, to identify owner processes in a top-down search of remote objects, and to allow for variable process counts and per-element data sizes in partitioning and parallel file I/O. We demonstrate the algorithms' usability and performance in the context of a particle tracking example that we scale to 21e9 particles and 64Ki MPI processes on the Juqueen supercomputer, and we describe the construction of a parallel assembly of variably sized spheres in space creating up to 768e9 elements on the Juwels supercomputer.",
+    "authors": [
+      "Carsten Burstedde"
+    ],
+    "publication_date": "2018-03-22T16:15:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.08432v3",
+    "download_url": "https://arxiv.org/abs/1803.08432v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An improved algorithm for the vertex cover $P_3$ problem on graphs of bounded treewidth",
+    "abstract": "Given a graph $G=(V,E)$ and a positive integer $t\\geq2$, the task in the vertex cover $P_t$ ($VCP_t$) problem is to find a minimum subset of vertices $F\\subseteq V$ such that every path of order $t$ in $G$ contains at least one vertex from $F$. The $VCP_t$ problem is NP-complete for any integer $t\\geq2$ and has many applications in real world. Recently, the authors presented a dynamic programming algorithm running in time $4^p\\cdot n^{O(1)}$ for the $VCP_3$ problem on $n$-vertex graphs with treewidth $p$. In this paper, we propose an improvement of it and improved the time-complexity to $3^p\\cdot n^{O(1)}$.\n  The connected vertex cover $P_3$ ($CVCP_3$) problem is the connected variation of the $VCP_3$ problem where $G[F]$ is required to be connected. Using the Cut\\&Count technique, we give a randomized algorithm with runtime $4^p\\cdot n^{O(1)}$ for the $CVCP_3$ problem on $n$-vertex graphs with treewidth $p$.",
+    "authors": [
+      "Zongwen Bai",
+      "Jianhua Tu",
+      "Yongtang Shi"
+    ],
+    "publication_date": "2016-03-31T03:27:56Z",
+    "arxiv_id": "http://arxiv.org/abs/1603.09448v6",
+    "download_url": "https://arxiv.org/abs/1603.09448v6",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Making the cut: two methods for breaking down a quantum algorithm",
+    "abstract": "Despite the promise that fault-tolerant quantum computers can efficiently solve classically intractable problems, it remains a major challenge to find quantum algorithms that may reach computational advantage in the present era of noisy, small-scale quantum hardware. Thus, there is substantial ongoing effort to create new quantum algorithms (or adapt existing ones) to accommodate depth and space restrictions. By adopting a hybrid query perspective, we identify and characterize two methods of ``breaking down'' quantum algorithms into rounds of lower (query) depth, designating these approaches as ``parallelization'' and ``interpolation''. To the best of our knowledge, these had not been explicitly identified and compared side-by-side, although one can find instances of them in the literature. We apply them to two problems with known quantum speedup: calculating the $k$-threshold function and computing a NAND tree. We show that for the first problem parallelization offers the best performance, while for the second interpolation is the better choice. This illustrates that no approach is strictly better than the other, and so that there is more than one good way to break down a quantum algorithm into a hybrid quantum-classical algorithm.",
+    "authors": [
+      "Miguel Murça",
+      "Duarte Magano",
+      "Yasser Omar"
+    ],
+    "publication_date": "2023-05-17T18:00:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.10485v2",
+    "download_url": "https://arxiv.org/abs/2305.10485v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A memory and gate efficient algorithm for unitary mixed Schur sampling",
+    "abstract": "We formalize the task of unitary Schur sampling -- an extension of weak Schur sampling -- which is the process of measuring the Young label and the unitary group register of an input $m$ qudit state. Intuitively, this task is equivalent to applying the Schur transform, projecting onto the isotypic subspaces of the unitary and symmetric groups indexed by the Young labels, and discarding of the permutation register. As such unitary Schur sampling is the natural task in processes such as quantum state tomography or spectrum estimation. We generalize this task to unitary mixed Schur sampling to account for the recently introduced mixed Schur-Weyl transform. We provide a streaming algorithm which achieves an exponential reduction in the memory complexity and a polynomial reduction in the gate complexity over naïve algorithms for the task of unitary (mixed) Schur sampling. Further, we show that if the input state has limited rank, the gate and memory complexities of our streaming algorithm as well as the algorithms for the full Schur and mixed Schur transforms are further reduced. Our work generalizes and improves on the results in arXiv2309.11947.",
+    "authors": [
+      "Enrique Cervero-Martín",
+      "Laura Mančinska",
+      "Elias Theil"
+    ],
+    "publication_date": "2024-10-21T09:03:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.15793v2",
+    "download_url": "https://arxiv.org/abs/2410.15793v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Comparative Study of Compressive Sensing Algorithms for Hyperspectral Imaging Reconstruction",
+    "abstract": "Hyperspectral Imaging comprises excessive data consequently leading to significant challenges for data processing, storage and transmission. Compressive Sensing has been used in the field of Hyperspectral Imaging as a technique to compress the large amount of data. This work addresses the recovery of hyperspectral images 2.5x compressed. A comparative study in terms of the accuracy and the performance of the convex FISTA/ADMM in addition to the greedy gOMP/BIHT/CoSaMP recovery algorithms is presented. The results indicate that the algorithms recover successfully the compressed data, yet the gOMP algorithm achieves superior accuracy and faster recovery in comparison to the other algorithms at the expense of high dependence on unknown sparsity level of the data to recover.",
+    "authors": [
+      "Jon Alvarez Justo",
+      "Daniela Lupu",
+      "Milica Orlandic",
+      "Ion Necoara",
+      "Tor Arne Johansen"
+    ],
+    "publication_date": "2024-01-26T10:38:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.14762v1",
+    "download_url": "https://arxiv.org/abs/2401.14762v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Construction of New Generalizations of Wynn's Epsilon and Rho Algorithm by Solving Finite Difference Equations in the Transformation Order",
+    "abstract": "We construct new sequence transformations based on Wynn's epsilon and rho algorithms. The recursions of the new algorithms include the recursions of Wynn's epsilon and rho algorithm and of Osada's generalized rho algorithm as special cases. We demonstrate the performance of our algorithms numerically by applying them to some linearly and logarithmically convergent sequences as well as some divergent series.",
+    "authors": [
+      "Xiang-Ke Chang",
+      "Yi He",
+      "Xing-Biao Hu",
+      "Jian-Qing Sun",
+      "Ernst Joachim Weniger"
+    ],
+    "publication_date": "2019-03-25T09:29:09Z",
+    "arxiv_id": "http://arxiv.org/abs/1903.10198v1",
+    "download_url": "https://arxiv.org/abs/1903.10198v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Variational Algorithms for Marginal MAP",
+    "abstract": "The marginal maximum a posteriori probability (MAP) estimation problem, which calculates the mode of the marginal posterior distribution of a subset of variables with the remaining variables marginalized, is an important inference problem in many models, such as those with hidden variables or uncertain parameters. Unfortunately, marginal MAP can be NP-hard even on trees, and has attracted less attention in the literature compared to the joint MAP (maximization) and marginalization problems. We derive a general dual representation for marginal MAP that naturally integrates the marginalization and maximization operations into a joint variational optimization problem, making it possible to easily extend most or all variational-based algorithms to marginal MAP. In particular, we derive a set of \"mixed-product\" message passing algorithms for marginal MAP, whose form is a hybrid of max-product, sum-product and a novel \"argmax-product\" message updates. We also derive a class of convergent algorithms based on proximal point methods, including one that transforms the marginal MAP problem into a sequence of standard marginalization problems. Theoretically, we provide guarantees under which our algorithms give globally or locally optimal solutions, and provide novel upper bounds on the optimal objectives. Empirically, we demonstrate that our algorithms significantly outperform the existing approaches, including a state-of-the-art algorithm based on local search methods.",
+    "authors": [
+      "Qiang Liu",
+      "Alexander Ihler"
+    ],
+    "publication_date": "2013-02-26T20:58:59Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.6584v3",
+    "download_url": "https://arxiv.org/abs/1302.6584v3",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fitness Landscape-Based Characterisation of Nature-Inspired Algorithms",
+    "abstract": "A significant challenge in nature-inspired algorithmics is the identification of specific characteristics of problems that make them harder (or easier) to solve using specific methods. The hope is that, by identifying these characteristics, we may more easily predict which algorithms are best-suited to problems sharing certain features. Here, we approach this problem using fitness landscape analysis. Techniques already exist for measuring the \"difficulty\" of specific landscapes, but these are often designed solely with evolutionary algorithms in mind, and are generally specific to discrete optimisation. In this paper we develop an approach for comparing a wide range of continuous optimisation algorithms. Using a fitness landscape generation technique, we compare six different nature-inspired algorithms and identify which methods perform best on landscapes exhibiting specific features.",
+    "authors": [
+      "Matthew Crossley",
+      "Andy Nisbet",
+      "Martyn Amos"
+    ],
+    "publication_date": "2012-10-11T12:40:36Z",
+    "arxiv_id": "http://arxiv.org/abs/1210.3210v2",
+    "download_url": "https://arxiv.org/abs/1210.3210v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "New inertial regularized algorithm for solving strongly pseudomonotone equilibrium problems",
+    "abstract": "The article introduces a new algorithm for solving a class ofequilibrium problems involving strongly pseudomonotone bifunctions with Lipschitz-type condition. We describe how to incorporate the proximal-like regularized technique with inertial effects. The main novelty of the algorithm is that it can be done without previously knowing the information on the strongly pseudomonotone and Lipschitz-type constants of cost bifunction. A reasonable explain for this is that the algorithm uses a sequence of stepsizes which is diminishing and non-summable. Theorem of strong convergence is proved. In the case, when the information on the modulus of strong pseudomonotonicity and Lispchitz-type constant is known,the rate of linear convergence of the algorithm has been established. Several of numerical experiments are performed to illustrate the convergence of the algorithm and also compare it with other algorithms.",
+    "authors": [
+      "Dang Van Hieu"
+    ],
+    "publication_date": "2017-10-18T01:19:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1710.06544v2",
+    "download_url": "https://arxiv.org/abs/1710.06544v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Fast quantum algorithms for approximating some irreducible representations of groups",
+    "abstract": "We consider the quantum complexity of estimating matrix elements of unitary irreducible representations of groups. For several finite groups including the symmetric group, quantum Fourier transforms yield efficient solutions to this problem. Furthermore, quantum Schur transforms yield efficient solutions for certain irreducible representations of the unitary group. Beyond this, we obtain poly(n)-time quantum algorithms for approximating matrix elements from all the irreducible representations of the alternating group A_n, and all the irreducible representations of polynomial highest weight of U(n), SU(n), and SO(n). These quantum algorithms offer exponential speedup in worst case complexity over the fastest known classical algorithms. On the other hand, we show that average case instances are classically easy, and that the techniques analyzed here do not offer a speedup over classical computation for the estimation of group characters.",
+    "authors": [
+      "Stephen P. Jordan"
+    ],
+    "publication_date": "2008-11-04T18:08:09Z",
+    "arxiv_id": "http://arxiv.org/abs/0811.0562v2",
+    "download_url": "https://arxiv.org/abs/0811.0562v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Typical Algorithms for Estimating Hurst Exponent of Time Sequence: A Data Analyst's Perspective",
+    "abstract": "The Hurst exponent is a significant metric for characterizing time sequences with long-term memory property and it arises in many fields. The available methods for estimating the Hurst exponent can be categorized into time-domain and spectrum-domain methods. Although there are various estimation methods for the Hurst exponent, there are still some disadvantages that should be overcome: firstly, the estimation methods are mathematics-oriented instead of engineering-oriented; secondly, the accuracy and effectiveness of the estimation algorithms are inadequately assessed; thirdly, the framework of classification for the estimation methods are insufficient; and lastly there is a lack of clear guidance for selecting proper estimation in practical problems involved in data analysis. The contributions of this paper lie in four aspects: 1) the optimal sequence partition method is proposed for designing the estimation algorithms for Hurst exponent; 2) the algorithmic pseudo-codes are adopted to describe the estimation algorithms, which improves the understandability and usability of the estimation methods and also reduces the difficulty of implementation with computer programming languages; 3) the performance assessment is carried for the typical estimation algorithms via the ideal time sequence with given Hurst exponent and the practical time sequence captured in applications; 4) the guidance for selecting proper algorithms for estimating the Hurst exponent is presented and discussed. It is expected that the systematic survey of available estimation algorithms could help the users to understand the principles and the assessment of the various estimation methods could help the users to select, implement and apply the estimation algorithms of interest in practical situations in an easy way.",
+    "authors": [
+      "Hong-Yan Zhang",
+      "Zhi-Qiang Feng",
+      "Si-Yu Feng",
+      "Yu Zhou"
+    ],
+    "publication_date": "2023-10-29T15:56:53Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.19051v4",
+    "download_url": "https://arxiv.org/abs/2310.19051v4",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Simple Python Testbed for Federated Learning Algorithms",
+    "abstract": "Nowadays many researchers are developing various distributed and decentralized frameworks for federated learning algorithms. However, development of such a framework targeting smart Internet of Things in edge systems is still an open challenge. In this paper, we present our solution to that challenge called Python Testbed for Federated Learning Algorithms. The solution is written in pure Python, and it supports both centralized and decentralized algorithms. The usage of the presented solution is both validated and illustrated by three simple algorithm examples.",
+    "authors": [
+      "Miroslav Popovic",
+      "Marko Popovic",
+      "Ivan Kastelan",
+      "Miodrag Djukic",
+      "Silvia Ghilezan"
+    ],
+    "publication_date": "2023-05-31T16:59:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.20027v2",
+    "download_url": "https://arxiv.org/abs/2305.20027v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A new efficient Cluster Algorithm for the Ising Model",
+    "abstract": "Using D-theory we construct a new efficient cluster algorithm for the Ising model. The construction is very different from the standard Swendsen-Wang algorithm and related to worm algorithms. With the new algorithm we have measured the correlation function with high precision over a surprisingly large number of orders of magnitude.",
+    "authors": [
+      "Matthias Nyfeler",
+      "Michele Pepe",
+      "Uwe-Jens Wiese"
+    ],
+    "publication_date": "2005-10-06T10:06:29Z",
+    "arxiv_id": "http://arxiv.org/abs/hep-lat/0510040v1",
+    "download_url": "https://arxiv.org/abs/hep-lat/0510040v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Finite metric spaces--combinatorics, geometry and algorithms",
+    "abstract": "Finite metric spaces arise in many different contexts. Enormous bodies of data, scientific, commercial and others can often be viewed as large metric spaces. It turns out that the metric of graphs reveals a lot of interesting information. Metric spaces also come up in many recent advances in the theory of algorithms. Finally, finite submetrics of classical geometric objects such as normed spaces or manifolds reflect many important properties of the underlying structure. In this paper we review some of the recent advances in this area.",
+    "authors": [
+      "Nathan Linial"
+    ],
+    "publication_date": "2003-04-28T20:15:30Z",
+    "arxiv_id": "http://arxiv.org/abs/math/0304466v1",
+    "download_url": "https://arxiv.org/abs/math/0304466v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Cost of Generalised HMC Algorithms for Free Field Theory",
+    "abstract": "We study analytically the computational cost of the Generalised Hybrid Monte Carlo (GHMC) algorithm for free field theory. We calculate the autocorrelation functions of operators quadratic in the fields, and optimise the GHMC momentum mixing angle, the trajectory length, and the integration stepsize. We show that long trajectories are optimal for GHMC, and that standard HMC is much more efficient than algorithms based on the Second Order Langevin (L2MC) or Kramers Equation. We show that contrary to naive expectations HMC and L2MC have the same volume dependence, but their dynamical critical exponents are z=1 and z=3/2 respectively.",
+    "authors": [
+      "A. D. Kennedy",
+      "Brian Pendleton"
+    ],
+    "publication_date": "2000-01-28T12:06:58Z",
+    "arxiv_id": "http://arxiv.org/abs/hep-lat/0001031v1",
+    "download_url": "https://arxiv.org/abs/hep-lat/0001031v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A chiseling algorithm for low-rank Grassmann decomposition of skew-symmetric tensors",
+    "abstract": "A numerical algorithm to decompose a low-rank skew-symmetric tensor into a sum of elementary (rank-$1$) skew-symmetric tensors is introduced. The algorithm uncovers this Grassmann decomposition based on linear relations that are encoded by the kernel of the differential of the natural action of the general linear group on the tensor, following the ideas of [Brooksbank, Kassabov, and Wilson, Detecting cluster patterns in tensor data, arXiv:2408.17425, 2024]. The Grassmann decomposition can be recovered, up to scale, from a diagonalization of a generic element in this kernel. Numerical experiments illustrate that the algorithm is computationally efficient and quite accurate for mathematically low-rank tensors.",
+    "authors": [
+      "Nick Vannieuwenhoven"
+    ],
+    "publication_date": "2024-10-18T14:12:29Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.14486v1",
+    "download_url": "https://arxiv.org/abs/2410.14486v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Next Priority Concept: A new and generic algorithm computing concepts from complex and heterogeneous data",
+    "abstract": "In this article, we present a new data type agnostic algorithm calculating a concept lattice from heterogeneous and complex data. Our NextPriorityConcept algorithm is first introduced and proved in the binary case as an extension of Bordat's algorithm with the notion of strategies to select only some predecessors of each concept, avoiding the generation of unreasonably large lattices. The algorithm is then extended to any type of data in a generic way. It is inspired from pattern structure theory, where data are locally described by predicates independent of their types, allowing the management of heterogeneous data.",
+    "authors": [
+      "Christophe Demko",
+      "Karell Bertet",
+      "Cyril Faucher",
+      "Jean-François Viaud",
+      "Sergeï Kuznetsov"
+    ],
+    "publication_date": "2019-12-20T19:55:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.11038v1",
+    "download_url": "https://arxiv.org/abs/1912.11038v1",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum algorithms for feedforward neural networks",
+    "abstract": "Quantum machine learning has the potential for broad industrial applications, and the development of quantum algorithms for improving the performance of neural networks is of particular interest given the central role they play in machine learning today. In this paper we present quantum algorithms for training and evaluating feedforward neural networks based on the canonical classical feedforward and backpropagation algorithms. Our algorithms rely on an efficient quantum subroutine for approximating the inner products between vectors in a robust way, and on implicitly storing large intermediate values in quantum random access memory for fast retrieval at later stages. The running times of our algorithms can be quadratically faster in the size of the network than their standard classical counterparts since they depend linearly on the number of neurons in the network, as opposed to the number of connections between neurons as in the classical case. This makes our algorithms suited for large-scale, highly-connected networks where the number of edges in the network dominates the classical algorithmic running time. Furthermore, networks trained by our quantum algorithm may have an intrinsic resilience to overfitting, as the algorithm naturally mimics the effects of classical techniques such as drop-out used to regularize networks. Our algorithms can also be used as the basis for new quantum-inspired classical algorithms which have the same dependence on the network dimensions as their quantum counterparts, but with quadratic overhead in other parameters that makes them relatively impractical.",
+    "authors": [
+      "Jonathan Allcock",
+      "Chang-Yu Hsieh",
+      "Iordanis Kerenidis",
+      "Shengyu Zhang"
+    ],
+    "publication_date": "2018-12-07T16:24:02Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.03089v2",
+    "download_url": "https://arxiv.org/abs/1812.03089v2",
+    "field_of_study": "computer_science",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

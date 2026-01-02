@@ -1,0 +1,693 @@
+[
+  {
+    "title": "Can Machine Learning Identify Governing Laws For Dynamics in Complex Engineered Systems ? : A Study in Chemical Engineering",
+    "abstract": "Machine learning recently has been used to identify the governing equations for dynamics in physical systems. The promising results from applications on systems such as fluid dynamics and chemical kinetics inspire further investigation of these methods on complex engineered systems. Dynamics of these systems play a crucial role in design and operations. Hence, it would be advantageous to learn about the mechanisms that may be driving the complex dynamics of systems. In this work, our research question was aimed at addressing this open question about applicability and usefulness of novel machine learning approach in identifying the governing dynamical equations for engineered systems. We focused on distillation column which is an ubiquitous unit operation in chemical engineering and demonstrates complex dynamics i.e. it's dynamics is a combination of heuristics and fundamental physical laws. We tested the method of Sparse Identification of Non-Linear Dynamics (SINDy) because of it's ability to produce white-box models with terms that can be used for physical interpretation of dynamics. Time series data for dynamics was generated from simulation of distillation column using ASPEN Dynamics. One promising result was reduction of number of equations for dynamic simulation from 1000s in ASPEN to only 13 - one for each state variable. Prediction accuracy was high on the test data from system within the perturbation range, however outside perturbation range equations did not perform well. In terms of physical law extraction, some terms were interpretable as related to Fick's law of diffusion (with concentration terms) and Henry's law (with ratio of concentration and pressure terms). While some terms were interpretable, we conclude that more research is needed on combining engineering systems with machine learning approach to improve understanding of governing laws for unknown dynamics.",
+    "authors": [
+      "Renganathan Subramanian",
+      "Shweta Singh"
+    ],
+    "publication_date": "2019-07-18T11:31:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1907.07755v1",
+    "download_url": "https://arxiv.org/abs/1907.07755v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generalizing Linear Graphs and Bond Graph Models with Hetero-functional Graphs for System-of-Systems Engineering Applications",
+    "abstract": "In the 20th century, individual technology products like the generator, telephone, and automobile were connected to form many of the large-scale, complex, infrastructure networks we know today: the power grid, the communication infrastructure, and the transportation system. Progressively, these networked systems began interacting, forming what is now known as systems-of-systems. Because the component systems in the system-of-systems differ, modeling and analysis techniques with primitives applicable across multiple domains or disciplines are needed. For example, linear graphs and bond graphs have been used extensively in the electrical engineering, mechanical engineering, and mechatronic fields to design and analyze a wide variety of engineering systems. In contrast, hetero-functional graph theory (HFGT) has emerged to study many complex engineering systems and systems-of-systems (e.g. electric power, potable water, wastewater, natural gas, oil, coal, multi-modal transportation, mass-customized production, and personalized healthcare delivery systems). This paper seeks to relate hetero-functional graphs to linear graphs and bond graphs and demonstrate that the former is a generalization of the latter two. The contribution is relayed in three stages. First, the three modeling techniques are compared conceptually. Next, these techniques are contrasted on six example systems: (a) an electrical system, (b) a translational mechanical system, (c) a rotational mechanical system, (d) a fluidic system, (e) a thermal system, and (f) a multi-energy (electro-mechanical) system. Finally, this paper proves mathematically that hetero-functional graphs are a formal generalization of both linear graphs and bond graphs.",
+    "authors": [
+      "Ehsanoddin Ghorbanichemazkati",
+      "Amro M. Farid"
+    ],
+    "publication_date": "2024-09-05T15:42:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.03630v1",
+    "download_url": "https://arxiv.org/abs/2409.03630v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "RAGVA: Engineering Retrieval Augmented Generation-based Virtual Assistants in Practice",
+    "abstract": "Retrieval-augmented generation (RAG)-based applications are gaining prominence due to their ability to leverage large language models (LLMs). These systems excel at combining retrieval mechanisms with generative capabilities, resulting in more accurate, contextually relevant responses that enhance user experience. In particular, Transurban, a road operation company, is replacing its rule-based virtual assistant (VA) with a RAG-based VA (RAGVA) to offer more flexible customer interactions and support a wider range of scenarios. In this paper, drawing from the experience at Transurban, we present a comprehensive step-by-step guide for building a conversational application and how to engineer a RAGVA. These guides aim to serve as references for future researchers and practitioners. While the engineering processes for traditional software applications are well-established, the development and evaluation of RAG-based applications are still in their early stages, with numerous emerging challenges remaining uncharted. To address this gap, we conduct a focus group study with Transurban practitioners regarding developing and evaluating their RAGVA. We identified eight challenges encountered by the engineering team and proposed eight future directions that should be explored to advance the development of RAG-based applications. This study contributes to the foundational understanding of a RAG-based conversational application and the emerging AI software engineering challenges it presents.",
+    "authors": [
+      "Rui Yang",
+      "Michael Fu",
+      "Chakkrit Tantithamthavorn",
+      "Chetan Arora",
+      "Lisa Vandenhurk",
+      "Joey Chua"
+    ],
+    "publication_date": "2025-02-20T05:57:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.14930v1",
+    "download_url": "https://arxiv.org/abs/2502.14930v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Grey Literature in Software Engineering: A Critical Review",
+    "abstract": "Context: Grey Literature (GL) recently has grown in Software Engineering (SE) research since the increased use of online communication channels by software engineers. However, there is still a limited understanding of how SE research is taking advantage of GL. Objective: This research aimed to understand how SE researchers use GL in their secondary studies. Method: We conducted a tertiary study of studies published between 2011 and 2018 in high-quality software engineering conferences and journals. We then applied qualitative and quantitative analysis to investigate 446 potential studies. Results: From the 446 selected studies, 126 studies cited GL but only 95 of those used GL to answer a specific research question representing almost 21% of all the 446 secondary studies. Interestingly, we identified that few studies employed specific search mechanisms and used additional criteria for assessing GL. Moreover, by the time we conducted this research, 49% of the GL URLs are not working anymore. Based on our findings, we discuss some challenges in using GL and potential mitigation plans. Conclusion: In this paper, we summarized the last 10 years of software engineering research that uses GL, showing that GL has been essential for bringing practical new perspectives that are scarce in traditional literature. By drawing the current landscape of use, we also raise some awareness of related challenges (and strategies to deal with them).",
+    "authors": [
+      "Fernando Kamei",
+      "Igor Wiese",
+      "Crescencio Lima",
+      "Ivanilton Polato",
+      "Vilmar Nepomuceno",
+      "Waldemar Ferreira",
+      "Márcio Ribeiro",
+      "Carolline Pena",
+      "Bruno Cartaxo",
+      "Gustavo Pinto",
+      "Sérgio Soares"
+    ],
+    "publication_date": "2021-04-27T19:06:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.13435v2",
+    "download_url": "https://arxiv.org/abs/2104.13435v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Molecular Piston Engine with Spiking Transduction of Back-action in Hybrid Opto-mechanical Brownian Motors",
+    "abstract": "We consider the Molecular Opto-mechanical systems in back-action amplification of single molecule Raman imaging. Surface Enhanced Raman Scattering (SERS) is mapped into the dissipative cavity opto-mechanics system of coupled resonators. We investigate the plasmon molecular vibration interactions in strong coupling regimes of cavity opto-mechanics in the presence of impurities. Eigenfunction spectrum is analyzed for the normal mode splitting of photonic and mechanical hybrid system. Back-action transduction of photons into mechanical modes is investigated by avoided crossing due to the nonlinear interactions and Casimir forces in the presence of virtual photons and radiation pressure. In input-output coupled cavity scheme, both cavity and driving fields are analyzed for the absorption and dissipation of heat in weak and strong coupling regimes of the cascaded cavity setup. In terms of the second order coherence functions, thermodynamic work and heat engine are investigated via phonon lasing of mechanical mode in opto-mechanical implementation of Brownian motors by tuning the competing coupling strengths of impurities and nonlinearities.",
+    "authors": [
+      "Yusuf Gul"
+    ],
+    "publication_date": "2018-06-07T11:52:23Z",
+    "arxiv_id": "http://arxiv.org/abs/1806.02630v1",
+    "download_url": "https://arxiv.org/abs/1806.02630v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mechanical Controlled Thermal Switch and Hysteresis with Domain Boundary Engineered Phonon Transport",
+    "abstract": "Heat flow control in phononics has received significant attention recently due to its widespread applications in energy transfer, conversion and utilization. Here, we demonstrate that by applying external stress or strain we can effectively tune the thermal conductivity through changing the density of twin boundaries, which in turn offers the intriguing mechanical-controlled thermal switch and hysteresis operations. Twin boundaries perpendicular to the transport direction strongly scatter phonons. As such, the heat flow is in inverse proportional to the density of twin boundaries and hence allows an excellent way to switch thermal conductivity mechanically and even leads to the interesting hysteresis behavior as a thermal memory. Our study provides a novel mechanism to couple thermal and mechanical properties of materials as a matter of \"domain boundary engineering\" and can have substantial implications in flexible thermal control and thermal energy harvesting.",
+    "authors": [
+      "Suzhi Li",
+      "Xiangdong Ding",
+      "Jie Ren",
+      "Ju Li",
+      "Jun Sun",
+      "Ekhard K. H. Salje"
+    ],
+    "publication_date": "2013-10-10T16:44:01Z",
+    "arxiv_id": "http://arxiv.org/abs/1310.2879v1",
+    "download_url": "https://arxiv.org/abs/1310.2879v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Performance Analysis of a Quantum-Mechanical Carnot-like Engine using Diatomic Molecules",
+    "abstract": "This study presents an analysis of a quantum mechanical formulation of the Carnot like cycle using diatomic molecules, i.e., the Morse oscillator, as the working substance. The generalized model with an arbitrary one dimensional potential is used to obtain the important performance parameters such as the efficiency, the power output, and the optimal region of the engine by considering well width L moving with a finite speed. The optimal efficiency, the maximum power output, and dimensionless power ranges of the working substance was also determined. The results obtained in this work are found to agree with those obtained for similar engine but with different working substance.",
+    "authors": [
+      "E. O. Oladimeji",
+      "T. T. Ibrahim",
+      "A. N. Ikot",
+      "J. D. Koffa",
+      "V. T. Idundun",
+      "E. C. Umeh",
+      "J. O. Audu"
+    ],
+    "publication_date": "2023-05-04T22:49:32Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.03197v3",
+    "download_url": "https://arxiv.org/abs/2305.03197v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Bounded Distance-control for Multi-UAV Formation Safety and Preservation in Target-tracking Applications",
+    "abstract": "The notion of safety in multi-agent systems assumes great significance in many emerging collaborative multi-robot applications. In this paper, we present a multi-UAV collaborative target-tracking application by defining bounded inter-UAV distances in the formation in order to ensure safe operation. In doing so, we address the problem of prioritizing specific objectives over others in a multi-objective control framework. We propose a barrier Lyapunov function-based distributed control law to enforce the bounds on the distances and assess its Lyapunov stability using a kinematic model. The theoretical analysis is supported by numerical results, which account for measurement noise and moving targets. Straight-line and circular motion of the target are considered, and results for quadratic Lyapunov function-based control, often used in multi-agent multi-objective problems, are also presented. A comparison of the two control approaches elucidates the advantages of our proposed safe-control in bounding the inter-agent distances in a formation. A concluding evaluation using ROS simulations illustrates the practical applicability of the proposed control to a pair of multi-rotors visually estimating and maintaining their mutual separation within specified bounds, as they track a moving target.",
+    "authors": [
+      "Aditya Hegde",
+      "Jasmine Jerry Aloor",
+      "Debasish Ghose"
+    ],
+    "publication_date": "2021-12-06T13:14:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.03012v2",
+    "download_url": "https://arxiv.org/abs/2112.03012v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "MAR: A structure-based search engine for models",
+    "abstract": "The availability of shared software models provides opportunities for reusing, adapting and learning from them. Public models are typically stored in a variety of locations, including model repositories, regular source code repositories, web pages, etc. To profit from them developers need effective search mechanisms to locate the models relevant for their tasks. However, to date, there has been little success in creating a generic and efficient search engine specially tailored to the modelling domain.\n  In this paper we present MAR, a search engine for models. MAR is generic in the sense that it can index any type of model if its meta-model is known. MAR uses a query-by-example approach, that is, it uses example models as queries. The search takes the model structure into account using the notion of bag of paths, which encodes the structure of a model using paths between model elements and is a representation amenable for indexing. MAR is built over HBase using a specific design to deal with large repositories. Our benchmarks show that the engine is efficient and has fast response times in most cases. We have also evaluated the precision of the search engine by creating model mutants which simulate user queries. A REST API is available to perform queries and an Eclipse plug-in allows end users to connect to the search engine from model editors. We have currently indexed more than 50.000 models of different kinds, including Ecore meta-models, BPMN diagrams and UML models. MAR is available at http://mar-search.org.",
+    "authors": [
+      "José Antonio Hernández López",
+      "Jesús Sánchez Cuadrado"
+    ],
+    "publication_date": "2020-08-26T23:30:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2008.11858v1",
+    "download_url": "https://arxiv.org/abs/2008.11858v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generative Optimization: A Perspective on AI-Enhanced Problem Solving in Engineering",
+    "abstract": "The field of engineering is shaped by the tools and methods used to solve problems. Optimization is one such class of powerful, robust, and effective engineering tools proven over decades of use. Within just a few years, generative artificial intelligence (GenAI) has risen as another promising tool for general-purpose problem-solving. While optimization shines at precisely identifying highly-optimal solutions, GenAI excels at inferring problem requirements, bridging solution domains, handling mixed data modalities, and rapidly generating copious numbers of solutions. These differing attributes also make the two frameworks complementary. Hybrid `generative optimization' algorithms have gained traction across a few engineering applications and now comprise an emerging paradigm for engineering problem-solving. We expect significant developments in the near future around generative optimization, leading to changes in how engineers solve problems using computational tools. We offer our perspective on existing methods, areas of promise, and key research questions.",
+    "authors": [
+      "Lyle Regenwetter",
+      "Cyril Picard",
+      "Amin Heyrani Nobari",
+      "Akash Srivastava",
+      "Faez Ahmed"
+    ],
+    "publication_date": "2024-12-17T19:17:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.13281v2",
+    "download_url": "https://arxiv.org/abs/2412.13281v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analyzing Web Search Behavior for Software Engineering Tasks",
+    "abstract": "Web search plays an integral role in software engineering (SE) to help with various tasks such as finding documentation, debugging, installation, etc. In this work, we present the first large-scale analysis of web search behavior for SE tasks using the search query logs from Bing, a commercial web search engine. First, we use distant supervision techniques to build a machine learning classifier to extract the SE search queries with an F1 score of 93%. We then perform an analysis on one million search sessions to understand how software engineering related queries and sessions differ from other queries and sessions. Subsequently, we propose a taxonomy of intents to identify the various contexts in which web search is used in software engineering. Lastly, we analyze millions of SE queries to understand the distribution, search metrics and trends across these SE search intents. Our analysis shows that SE related queries form a significant portion of the overall web search traffic. Additionally, we found that there are six major intent categories for which web search is used in software engineering. The techniques and insights can not only help improve existing tools but can also inspire the development of new tools that aid in finding information for SE related tasks.",
+    "authors": [
+      "Nikitha Rao",
+      "Chetan Bansal",
+      "Thomas Zimmermann",
+      "Ahmed Hassan Awadallah",
+      "Nachiappan Nagappan"
+    ],
+    "publication_date": "2019-12-19T19:46:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.09519v3",
+    "download_url": "https://arxiv.org/abs/1912.09519v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Aspects of Modelling Requirements in Very-Large Agile Systems Engineering",
+    "abstract": "Using models for requirements engineering (RE) is uncommon in systems engineering, despite the widespread use of model-based engineering in general. One reason for this lack of use is that formal models do not match well the trend to move towards agile developing methods. While there exists work that investigates challenges in the adoption of requirements modeling and agile methods in systems engineering, there is a lack of work studying successful approaches of using requirements modelling in agile systems engineering. To address this gap, we conducted a case study investigating the application of requirements models at Ericsson AB, a Swedish telecommunications company. We studied a department using requirements models to bridge agile development and plan-driven development aspects. We find that models are used to understand how requirements relate to each other, and to keep track with the product's evolution. To cope with the effort to maintain models over time, study participants suggest to rely on text-based notations that bring the models closer to developers and allow integration into existing software development workflows. This results in tool trade-offs, e.g., losing the possibility to control diagram layout.",
+    "authors": [
+      "Grischa Liebel",
+      "Eric Knauss"
+    ],
+    "publication_date": "2022-09-05T14:49:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.01993v1",
+    "download_url": "https://arxiv.org/abs/2209.01993v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Beyond the Badge: Reproducibility Engineering as a Lifetime Skill",
+    "abstract": "Ascertaining reproducibility of scientific experiments is receiving increased attention across disciplines. We argue that the necessary skills are important beyond pure scientific utility, and that they should be taught as part of software engineering (SWE) education. They serve a dual purpose: Apart from acquiring the coveted badges assigned to reproducible research, reproducibility engineering is a lifetime skill for a professional industrial career in computer science. SWE curricula seem an ideal fit for conveying such capabilities, yet they require some extensions, especially given that even at flagship conferences like ICSE, only slightly more than one-third of the technical papers (at the 2021 edition) receive recognition for artefact reusability. Knowledge and capabilities in setting up engineering environments that allow for reproducing artefacts and results over decades (a standard requirement in many traditional engineering disciplines), writing semi-literate commit messages that document crucial steps of a decision-making process and that are tightly coupled with code, or sustainably taming dynamic, quickly changing software dependencies, to name a few: They all contribute to solving the scientific reproducibility crisis, and enable software engineers to build sustainable, long-term maintainable, software-intensive, industrial systems. We propose to teach these skills at the undergraduate level, on par with traditional SWE topics.",
+    "authors": [
+      "Wolfgang Mauerer",
+      "Stefan Klessinger",
+      "Stefanie Scherzinger"
+    ],
+    "publication_date": "2022-03-10T10:59:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.05283v1",
+    "download_url": "https://arxiv.org/abs/2203.05283v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Documenting Bioinformatics Software Via Reverse Engineering",
+    "abstract": "Documentation is one of the most neglected activities in Software Engineering, although it is an important method of assuring quality and understanding. Bioinformatics software is generally written by researchers from fields other than Computer Science who usually do not provide documentation. Documenting bioinformatics software may ease its adoption in multidisciplinary teams and expand its impact on the community. In this paper, we highlight how one can document software that is already finished, using reverse engineering and thinking of the end-user.",
+    "authors": [
+      "Vinicius Soares Silva Marques",
+      "Laurence Rodrigues do Amaral"
+    ],
+    "publication_date": "2023-05-07T18:12:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.04349v1",
+    "download_url": "https://arxiv.org/abs/2305.04349v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Present and Future of Bots in Software Engineering",
+    "abstract": "We are witnessing a massive adoption of software engineering bots, applications that react to events triggered by tools and messages posted by users and run automated tasks in response, in a variety of domains. This thematic issues describes experiences and challenges with these bots.",
+    "authors": [
+      "Emad Shihab",
+      "Stefan Wagner",
+      "Marco A. Gerosa",
+      "Mairieli Wessel",
+      "Jordi Cabot"
+    ],
+    "publication_date": "2022-07-04T08:26:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.01254v1",
+    "download_url": "https://arxiv.org/abs/2207.01254v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Extractive Multi Product-Line Engineering",
+    "abstract": "Cloning is a general approach to create new functionality within variants as well as new system variants. It is a fast, flexible, intuitive, and economical approach to evolve systems in the short run. However, in the long run, the maintenance effort increases. A common solution to this problem is the extraction of a product line from a set of cloned variants. This process requires a detailed analysis of variants to extract variability information. However, clones within a variant are usually not considered in the process, but are also a cause for unsustainable software. This thesis proposes an extractive multi product-line engineering approach to re-establish the sustainable development of software variants. We propose an approach to re-engineer intra-system and inter-system clones into reusable, configurable components stored in an integrated platform and synthesize a matching multi-layer feature model.",
+    "authors": [
+      "Kamil Rosiak"
+    ],
+    "publication_date": "2021-04-12T16:22:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2104.05602v1",
+    "download_url": "https://arxiv.org/abs/2104.05602v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Exploration of the Mentorship Needs of Research Software Engineers",
+    "abstract": "As a newly designated professional title, research software engineers (RSEs) link the two worlds of software engineering and research science. They lack clear development and training opportunities, particularly in the realm of mentoring. In this paper, we discuss mentorship as it pertains to the unique needs of RSEs and propose ways in which organizations and institutions can support mentor/mentee relationships for RSEs",
+    "authors": [
+      "Reed Milewicz",
+      "Miranda Mundt"
+    ],
+    "publication_date": "2021-10-05T18:03:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2110.02251v1",
+    "download_url": "https://arxiv.org/abs/2110.02251v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Road Map to Bio-inspired Software Engineering",
+    "abstract": "Software production research is quickly evolving on two parallel approaches: conventional and bio-inspired. The bio-inspired approaches are generally developed and presented as enhancements of the conventional ones. However the conventional approaches benefit from their integration with their global context, through software engineering methodologies, for being advantageous.The integration of bio-inspired approaches with bio-inspired software engineering methodologies will enrich them and let them be irrefutably be the best. This paper identify the motivations to the emergence of such bio-inspired software engineering, presents a first approach to it, with a road map, and some of its challenges.The application of this first approach on different software systems categories is presented with its summary evaluation. However, the evaluation on industrial scale remains a challenge.",
+    "authors": [
+      "Said Ghoul"
+    ],
+    "publication_date": "2019-05-09T19:19:22Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.06746v2",
+    "download_url": "https://arxiv.org/abs/1905.06746v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Building a Sustainable Structure for Research Software Engineering Activities",
+    "abstract": "The profile of research software engineering has been greatly enhanced by developments at institutions around the world to form groups and communities that can support effective, sustainable development of research software. We observe, however, that there is still a long way to go to build a clear understanding about what approaches provide the best support for research software developers in different contexts, and how such understanding can be used to suggest more formal structures, models or frameworks that can help to further support the growth of research software engineering. This paper sets out some preliminary thoughts and proposes an initial high-level model based on discussions between the authors around the concept of a set of pillars representing key activities and processes that form the core structure of a successful research software engineering offering.",
+    "authors": [
+      "Jeremy Cohen",
+      "Daniel S. Katz",
+      "Michelle Barker",
+      "Robert Haines",
+      "Neil Chue Hong"
+    ],
+    "publication_date": "2018-07-11T11:12:53Z",
+    "arxiv_id": "http://arxiv.org/abs/1807.04072v2",
+    "download_url": "https://arxiv.org/abs/1807.04072v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Investigating the Experience of Autistic Individuals in Software Engineering",
+    "abstract": "Context: Autism spectrum disorder (ASD) leads to various issues in the everyday life of autistic individuals, often resulting in unemployment and mental health problems. To improve the inclusion of autistic adults, existing studies have highlighted the strengths these individuals possess in comparison to non-autistic individuals, e.g., high attention to detail or excellent logical reasoning skills. If fostered, these strengths could be valuable in software engineering activities, such for identifying specific kinds of bugs in code. However, existing work in SE has primarily studied the challenges of autistic individuals and possible accommodations, with little attention their strengths. Objective: Our goal is to analyse the experiences of autistic individuals in software engineering activities, such as code reviews, with a particular emphasis on strengths. Methods: This study combines Social-Technical Grounded Theory through semi-structured interviews with 16 autistic software engineers and a survey with 49 respondents, including 5 autistic participants. We compare the emerging themes with the theory by Gama et al. on the Effect of Neurodivergent Cognitive Dysfunctions in Software Engineering Performance. Results: Our results suggest that autistic software engineers are often skilled in logical thinking, attention to detail, and hyperfocus in programming; and they enjoy learning new programming languages and programming-related technologies. Confirming previous work, they tend to prefer written communication and remote work. Finally, we report a high comfort level in interacting with AI-based systems. Conclusions: Our findings extend existing work by providing further evidence on the strengths of autistic software engineers.",
+    "authors": [
+      "Madalena Sasportes",
+      "Grischa Liebel",
+      "Miguel Goulão"
+    ],
+    "publication_date": "2025-11-04T16:59:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2511.02736v1",
+    "download_url": "https://arxiv.org/abs/2511.02736v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Quality Assessment Instrument for Systematic Literature Reviews in Software Engineering",
+    "abstract": "Context: Systematic literature reviews (SLRs) have become standard practise as part of software engineering research, although their quality varies. To build on the reviews, both for future research and industry practice, they need to be of high quality. Objective: To assess the quality of SLRs in software engineering, we put forward an appraisal instrument for SLRs. The instrument is intended for use by appraisers of reviews, but authors may also use it as a checklist when designing and documenting their reviews. Method: A well-established appraisal instrument from research in healthcare was used as a starting point to develop a quality assessment instrument. It is adapted to software engineering using guidelines, checklists, and experiences from software engineering. As a validation step, the first version was reviewed by four external experts on SLRs in software engineering and updated based on their feedback. Results: The outcome of the research is an appraisal instrument for the quality assessment of SLRs in software engineering. The instrument intends to support the appraiser in assessing the quality of an SLR. The instrument includes 16 items with different options to capture the quality. The item is assessed on a two or three-grade scale, depending on the item. The instrument also supports consolidating the items into groups, which are then used to assess the overall quality of a systematic literature review. Conclusion: It is concluded that the presented instrument may be helpful support for an appraiser in assessing the quality of SLRs in software engineering.",
+    "authors": [
+      "Muhammad Usman",
+      "Nauman bin Ali",
+      "Claes Wohlin"
+    ],
+    "publication_date": "2021-09-21T12:39:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.10134v1",
+    "download_url": "https://arxiv.org/abs/2109.10134v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Defining and executing temporal constraints for evaluating engineering artifact compliance",
+    "abstract": "Engineering processes for safety-critical systems describe the steps and sequence that guide engineers from refining user requirements into executable code, as well as producing the artifacts, traces, and evidence that the resulting system is of high quality. Process compliance focuses on ensuring that the actual engineering work is followed as closely as possible to the described engineering processes. To this end, temporal constraints describe the ideal sequence of steps. Checking these process constraints, however, is still a daunting task that requires a lot of manual work and delivers feedback to engineers only late in the process. In this paper, we present an automated constraint checking approach that can incrementally check temporal constraints across inter-related engineering artifacts upon every artifact change thereby enabling timely feedback to engineers on process deviations. Temporal constraints are expressed in the Object Constraint Language (OCL) extended with operators from Linear Temporal Logic (LTL). We demonstrate the ability of our approach to support a wide range of higher level temporal patterns. We further show that for constraints in an industry-derived use case, the average evaluation time for a single constraint takes around 0.2 milliseconds.",
+    "authors": [
+      "Cosmina-Cristina Ratiu",
+      "Christoph Mayr-Dorn",
+      "Alexander Egyed"
+    ],
+    "publication_date": "2023-12-20T13:26:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.13012v1",
+    "download_url": "https://arxiv.org/abs/2312.13012v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Belonging Beyond Code: Queer Software Engineering and Humanities Student Experiences",
+    "abstract": "Queer students often encounter discrimination and a lack of belonging in their academic environments. This may be especially true in heteronormative male-dominated fields like software engineering, which already faces a diversity crisis. In contrast, disciplines like humanities have a higher proportion of queer students, suggesting a more diverse academic culture. While prior research has explored queer students' challenges in STEM fields, limited attention has been given to how experiences differ between the sociotechnical, yet highly heteronormative, field of software engineering and the socioculturally inclusive humanities. This study addresses that gap by comparing 165 queer software engineering and 119 queer humanities students experiences. Our findings reveal that queer students in software engineering are less likely to be open about their sexuality, report a significantly lower sense of belonging, and encounter more academic challenges compared to their peers in the humanities. Despite these challenges, queer software engineering students show greater determination to continue their studies. These insights suggest that software engineering could enhance inclusivity by adopting practices commonly seen in the humanities, such as integrating inclusive policies in classrooms, to create a more welcoming environment where queer students can thrive.",
+    "authors": [
+      "Emily Vorderwülbeke",
+      "Isabella Graßl"
+    ],
+    "publication_date": "2025-03-06T16:10:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2503.04576v1",
+    "download_url": "https://arxiv.org/abs/2503.04576v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Rotary mechanical circulatory support systems",
+    "abstract": "A detailed survey of the current trends and recent advances in rotary mechanical circulatory support systems is presented in this paper. Rather than clinical reports, the focus is on technological aspects of these rehabilitating devices as a reference for engineers and biomedical researchers. Existing trends in flow regimes, flow control, and bearing mechanisms are summarized. System specifications and applications of the most prominent continuous-flow ventricular assistive devices are provided. Based on the flow regime, pumps are categorized as axial flow, centrifugal flow, and mixed flow. Unique characteristics of each system are unveiled through an examination of the structure, bearing mechanism, impeller design, flow rate, and biocompatibility. A discussion on the current limitations is provided to invite more studies and further improvements.",
+    "authors": [
+      "Milad Hosseinipour",
+      "Rajesh Gupta",
+      "Mark Bonnell",
+      "Mohammad Elahinia"
+    ],
+    "publication_date": "2017-09-24T16:44:18Z",
+    "arxiv_id": "http://arxiv.org/abs/1709.08219v1",
+    "download_url": "https://arxiv.org/abs/1709.08219v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Patent Data for Engineering Design: A Critical Review and Future Directions",
+    "abstract": "Patent data have long been used for engineering design research because of its large and expanding size, and widely varying massive amount of design information contained in patents. Recent advances in artificial intelligence and data science present unprecedented opportunities to develop data-driven design methods and tools, as well as advance design science, using the patent database. Herein, we survey and categorize the patent-for-design literature based on its contributions to design theories, methods, tools, and strategies, as well as the types of patent data and data-driven methods used in respective studies. Our review highlights promising future research directions in patent data-driven design research and practice.",
+    "authors": [
+      "Shuo Jiang",
+      "Serhad Sarica",
+      "Binyang Song",
+      "Jie Hu",
+      "Jianxi Luo"
+    ],
+    "publication_date": "2021-11-15T05:42:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.08500v3",
+    "download_url": "https://arxiv.org/abs/2111.08500v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Foundation Models for Software Engineering of Cyber-Physical Systems: the Road Ahead",
+    "abstract": "FMs, particularly LLMs, are increasingly used to support various software engineering activities (e.g., coding and testing). Their applications in the software engineering of CPSs are also growing. However, research in this area remains limited. Moreover, existing studies have primarily focused on LLMs-only one type of FM-leaving ample opportunities to explore others, such as vision-language models. We argue that, in addition to LLMs, other FMs utilizing different data modalities (e.g., images, audio) and multimodal models (which integrate multiple modalities) hold great potential for supporting CPS software engineering, given that these systems process diverse data types. To address this, we present a research roadmap for integrating FMs into various phases of CPS software engineering, highlighting key research opportunities and challenges for the software engineering community. Moreover, we discuss the common challenges associated with applying FMs in this context, including the correctness of FM-generated artifacts, as well as the inherent uncertainty and hallucination associated with FMs. This roadmap is intended for researchers and practitioners in CPS software engineering, providing future research directions using FMs in this domain.",
+    "authors": [
+      "Chengjie Lu",
+      "Pablo Valle",
+      "Jiahui Wu",
+      "Erblin Isaku",
+      "Hassan Sartaj",
+      "Aitor Arrieta",
+      "Shaukat Ali"
+    ],
+    "publication_date": "2025-04-06T21:42:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2504.04630v2",
+    "download_url": "https://arxiv.org/abs/2504.04630v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Decoding the Threat Landscape : ChatGPT, FraudGPT, and WormGPT in Social Engineering Attacks",
+    "abstract": "In the ever-evolving realm of cybersecurity, the rise of generative AI models like ChatGPT, FraudGPT, and WormGPT has introduced both innovative solutions and unprecedented challenges. This research delves into the multifaceted applications of generative AI in social engineering attacks, offering insights into the evolving threat landscape using the blog mining technique. Generative AI models have revolutionized the field of cyberattacks, empowering malicious actors to craft convincing and personalized phishing lures, manipulate public opinion through deepfakes, and exploit human cognitive biases. These models, ChatGPT, FraudGPT, and WormGPT, have augmented existing threats and ushered in new dimensions of risk. From phishing campaigns that mimic trusted organizations to deepfake technology impersonating authoritative figures, we explore how generative AI amplifies the arsenal of cybercriminals. Furthermore, we shed light on the vulnerabilities that AI-driven social engineering exploits, including psychological manipulation, targeted phishing, and the crisis of authenticity. To counter these threats, we outline a range of strategies, including traditional security measures, AI-powered security solutions, and collaborative approaches in cybersecurity. We emphasize the importance of staying vigilant, fostering awareness, and strengthening regulations in the battle against AI-enhanced social engineering attacks. In an environment characterized by the rapid evolution of AI models and a lack of training data, defending against generative AI threats requires constant adaptation and the collective efforts of individuals, organizations, and governments. This research seeks to provide a comprehensive understanding of the dynamic interplay between generative AI and social engineering attacks, equipping stakeholders with the knowledge to navigate this intricate cybersecurity landscape.",
+    "authors": [
+      "Polra Victor Falade"
+    ],
+    "publication_date": "2023-10-09T10:31:04Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.05595v1",
+    "download_url": "https://arxiv.org/abs/2310.05595v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Software Engineering For Automated Game Design",
+    "abstract": "As we develop more assistive and automated game design systems, the question of how these systems should be integrated into game development workflows, and how much adaptation may be required, becomes increasingly important. In this paper we explore the impact of software engineering decisions on the ability of an automated game design system to understand a game's codebase, generate new game code, and evaluate its work. We argue that a new approach to software engineering may be required in order for game developers to fully benefit from automated game designers.",
+    "authors": [
+      "Michael Cook"
+    ],
+    "publication_date": "2020-04-03T20:56:51Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.01770v1",
+    "download_url": "https://arxiv.org/abs/2004.01770v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Processing and mechanical properties of novel biodegradable poly-lactic acid/Zn 3D printed scaffolds for application in tissue regeneration",
+    "abstract": "The feasibility to manufacture scaffolds of poly-lactic acid reinforced with Zn particles by fused filament fabrication is demonstrated for the first time. Filaments of 2.85 mm in diameter of PLA reinforced with different weight fractions of $μ$m-sized Zn - 1 wt. \\% Mg alloy particles (in the range 3.5 to 17.5 wt. \\%) were manufactured by a double extrusion in method in which standard extrusion is followed by a precision extrusion in a filament-maker machine. Filaments with constant diameter, negligible porosity and a homogeneous reinforcement distribution were obtained for Zn weight fractions of up to 10.5\\%. It was found that the presence of Zn particles led to limited changes in the physico-chemical properties of the PLA that did not affect the window temperature for 3D printing nor the melt flow index. Thus, porous scaffolds could be manufactured by fused filament fabrication at 190\\textdegree C with poly-lactic acid/Zn composites containing 3.5 and 7 wt. \\% of Zn and at 170\\textdegree C when the Zn content was 10.5 wt. \\% with excellent dimensional accuracy and mechanical properties.",
+    "authors": [
+      "C. Pascual-González",
+      "J. de la Vega",
+      "C. Thompson",
+      "J. P. Fernández-Blázquez",
+      "D. Herráez-Molinero",
+      "N. Biurrun",
+      "I. Lizarralde",
+      "J. Sánchez del Río",
+      "C. González",
+      "J. LLorca"
+    ],
+    "publication_date": "2023-08-04T13:11:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2308.03790v1",
+    "download_url": "https://arxiv.org/abs/2308.03790v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Understanding What Software Engineers Are Working on -- The Work-Item Prediction Challenge",
+    "abstract": "Understanding what a software engineer (a developer, an incident responder, a production engineer, etc.) is working on is a challenging problem -- especially when considering the more complex software engineering workflows in software-intensive organizations: i) engineers rely on a multitude (perhaps hundreds) of loosely integrated tools; ii) engineers engage in concurrent and relatively long running workflows; ii) infrastructure (such as logging) is not fully aware of work items; iv) engineering processes (e.g., for incident response) are not explicitly modeled. In this paper, we explain the corresponding 'work-item prediction challenge' on the grounds of representative scenarios, report on related efforts at Facebook, discuss some lessons learned, and review related work to call to arms to leverage, advance, and combine techniques from program comprehension, mining software repositories, process mining, and machine learning.",
+    "authors": [
+      "Ralf Lämmel",
+      "Alvin Kerber",
+      "Liane Praza"
+    ],
+    "publication_date": "2020-04-13T19:59:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.06174v1",
+    "download_url": "https://arxiv.org/abs/2004.06174v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Learning based Modelling of Throttleable Engine Dynamics for Lunar Landing Mission",
+    "abstract": "Typical lunar landing missions involve multiple phases of braking to achieve soft-landing. The propulsion system configuration for these missions consists of throttleable engines. This configuration involves complex interconnected hydraulic, mechanical, and pneumatic components each exhibiting non-linear dynamic characteristics. Accurate modelling of the propulsion dynamics is essential for analyzing closed-loop guidance and control schemes during descent. This paper presents a learning-based system identification approach for modelling of throttleable engine dynamics using data obtained from high-fidelity propulsion model. The developed model is validated with experimental results and used for closed-loop guidance and control simulations.",
+    "authors": [
+      "Suraj Kumar",
+      "Aditya Rallapalli",
+      "Bharat Kumar GVP"
+    ],
+    "publication_date": "2025-11-05T16:36:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2511.08612v1",
+    "download_url": "https://arxiv.org/abs/2511.08612v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How Research Software Engineers Can Support Scientific Software",
+    "abstract": "We are research software engineers and team members in the Department of Software Engineering and Research at Sandia National Laboratories, an organization which aims to advance software engineering in the domain of computational science. Our team hopes to promote processes and principles that lead to quality, rigor, correctness, and repeatability in the implementation of algorithms and applications in scientific software for high consequence applications. We use our experience to argue that there is a readily achievable set of software tools and best practices with a large return on investment that can be imparted upon scientific researchers that will remarkably improve the quality of software and, as a result, the quality of research.",
+    "authors": [
+      "Miranda Mundt",
+      "Evan Harvey"
+    ],
+    "publication_date": "2020-10-14T20:01:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2010.07381v1",
+    "download_url": "https://arxiv.org/abs/2010.07381v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Guiding Principles for Using Mixed Methods Research in Software Engineering",
+    "abstract": "Mixed methods research is often used in software engineering, but researchers outside of the social or human sciences often lack experience when using these designs. This paper provides guiding principles and advice on how to design mixed method research, and to encourage the intentional, rigorous, and innovative application of mixed methods in software engineering. It also presents key properties of core mixed method research designs. Through a number of fictitious but recognizable software engineering research scenarios, we showcase how to choose suitable designs and consider the inevitable trade-offs any design choice leads to. We describe several antipatterns that illustrate what to avoid in mixed method research, and when mixed method research should be considered over other approaches.",
+    "authors": [
+      "Margaret-Anne Storey",
+      "Rashina Hoda",
+      "Alessandra Maciel Paz Milani",
+      "Maria Teresa Baldassarre"
+    ],
+    "publication_date": "2024-04-09T04:34:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.06011v4",
+    "download_url": "https://arxiv.org/abs/2404.06011v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Software Engineering: A New Genre of Computing",
+    "abstract": "Quantum computing (QC) is no longer only a scientific interest but is rapidly becoming an industrially available technology that can potentially tackle the limitations of classical computing. Over the last few years, major technology giants have invested in developing hardware and programming frameworks to develop quantum-specific applications. QC hardware technologies are gaining momentum, however, operationalizing the QC technologies trigger the need for software-intensive methodologies, techniques, processes, tools, roles, and responsibilities for developing industrial-centric quantum software applications. This paper presents the vision of the quantum software engineering (QSE) life cycle consisting of quantum requirements engineering, quantum software design, quantum software implementation, quantum software testing, and quantum software maintenance. This paper particularly calls for joint contributions of software engineering research and industrial community to present real-world solutions to support the entire quantum software development activities. The proposed vision facilitates the researchers and practitioners to propose new processes, reference architectures, novel tools, and practices to leverage quantum computers and develop emerging and next generations of quantum software.",
+    "authors": [
+      "Muhammad Azeem Akbar",
+      "Arif Ali Khan",
+      "Sajjad Mahmood",
+      "Saima Rafi"
+    ],
+    "publication_date": "2022-11-25T09:56:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.13990v1",
+    "download_url": "https://arxiv.org/abs/2211.13990v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Automation in Model-Driven Engineering: A look back, and ahead",
+    "abstract": "Model-Driven Engineering (MDE) provides a huge body of knowledge of automation for many different engineering tasks, especially those involving transitioning from design to implementation. With the huge progress made in Artificial Intelligence (AI), questions arise about the future of MDE, such as how existing MDE techniques and technologies can be improved or how other activities that currently lack dedicated support can also be automated. However, at the same time, it has to be revisited where and how models should be used to keep the engineers in the loop for creating, operating, and maintaining complex systems. To trigger dedicated research on these open points, we discuss the history of automation in MDE and present perspectives on how automation in MDE can be further improved and which obstacles have to be overcome in both the medium and long-term.",
+    "authors": [
+      "Lola Burgueño",
+      "Davide Di Ruscio",
+      "Houari Sahraoui",
+      "Manuel Wimmer"
+    ],
+    "publication_date": "2024-05-28T19:14:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.18539v2",
+    "download_url": "https://arxiv.org/abs/2405.18539v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Model based system engineering approach of a lightweight embedded TCP/IP",
+    "abstract": "The use of embedded software is growing very rapidly. Accessing the internet is a necessary service which has large range of applications in many fields. The Internet is based on TCP/IP which is a very important stack. Although TCP/IP is very important there is not a software engineering model describing it. The common method in modeling and describing TCP/IP is RFCs which is not sufficient for software engineer and developers. Therefore there is a need for software engineering approach to help engineers and developers to customize their own web based applications for embedded systems. This research presents a model based system engineering approach of lightweight TCP/IP. The model contains the necessary phases for developing a lightweight TCP/IP for embedded systems. The proposed model is based on SysML as a model based system engineering language.",
+    "authors": [
+      "M. Z. Rashed",
+      "Ahmed E. Hassan",
+      "Ahmed I. Sharaf"
+    ],
+    "publication_date": "2011-04-28T13:36:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1104.5387v1",
+    "download_url": "https://arxiv.org/abs/1104.5387v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Thermal Stability Enhancement in Epitaxial α-Sn Films by Strain Engineering",
+    "abstract": "Exploring new topological materials with large topological nontrivial bandgaps and simple composition is attractive for both theoretical investigation and experimental realization. Recently alpha tin (α-Sn) has been predicted to be such a candidate and it can be tuned to be either a topological insulator or a Dirac semimetal by applying appropriate strain. However, free-standing α-Sn is only stable below 13.2 °C. In this study, a series of high-quality α-Sn films with different thicknesses have been successfully grown on InSb substrates by molecular beam epitaxy (MBE). Confirmed by both X-ray diffraction (XRD) and reciprocal space mapping (RSM), all the films remained fully strained up to 4000 Å, proving the strain effect from the substrate. Remarkably, the single-crystalline α phase can persist up to 170 °C for the 200 Å thick sample. The critical temperature where the α phase disappears decreases as the film thickness increases, showing the thermal stabilization can be engineered by varying the α-Sn thickness. A plastic flow model taking the work hardening into account is introduced to explain this dependence, assuming the strain relaxation and the phase transition occur successively. This enhanced thermal stability is prerequisite for above room-temperature characterization and application of this material system.",
+    "authors": [
+      "Huanhuan Song",
+      "Jinshan Yao",
+      "Yuanfeng Ding",
+      "Yu Gu",
+      "Yu Deng",
+      "Ming-Hui Lu",
+      "Hong Lu",
+      "Yan-Feng Chen"
+    ],
+    "publication_date": "2019-05-29T15:17:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.12519v1",
+    "download_url": "https://arxiv.org/abs/1905.12519v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mechanical Characterization of Brain Tissue in Compression at Dynamic Strain Rates",
+    "abstract": "Traumatic brain injury (TBI) occurs when local mechanical load exceeds certain tolerance levels for brain tissue. Extensive research has been done previously for brain matter experiencing compression at quasistatic loading; however, limited data is available to model TBI under dynamic impact conditions. In this research, an experimental setup was developed to perform unconfined compression tests and stress relaxation tests at strain rates < 90/s. The brain tissue showed a stiffer response with increasing strain rates, showing that hyperelastic models are not adequate. Specifically, the compressive nominal stress at 30% strain was 8.83 +/- 1.94, 12.8 +/- 3.10 and 16.0 +/- 1.41 kPa (mean +/- SD) at strain rates of 30, 60 and 90/s, respectively. Relaxation tests were also conducted at 10%-50% strain with the average rise time of 10 ms, which can be used to derive time dependent parameters. Numerical simulations were performed using one-term Ogden model with initial shear modulus mu_0 = 6.06 +/- 1.44, 9.44 +/- 2.427 and 12.64 +/- 1.227 kPa (mean +/- SD) at strain rates of 30, 60 and 90/s, respectively. A separate set of bonded and lubricated tests were also performed under the same test conditions to estimate the friction coefficient mu, by adopting combined experimental - computational approach. The values of mu were 0.1 +/- 0.03 and 0.15 +/- 0.07 (mean +/- SD) at 30 and 90/s strain rates, respectively, indicating that pure slip conditions cannot be achieved in unconfined compression tests even under fully lubricated test conditions. The material parameters obtained in this study will help to develop biofidelic human brain finite element models, which can subsequently be used to predict brain injuries under impact conditions.",
+    "authors": [
+      "Badar Rashid",
+      "Michel Destrade",
+      "Michael Gilchrist"
+    ],
+    "publication_date": "2013-02-19T07:59:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1302.4535v1",
+    "download_url": "https://arxiv.org/abs/1302.4535v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The importance of visual modelling languages in generative software engineering",
+    "abstract": "Multimodal GPTs represent a watershed in the interplay between Software Engineering and Generative Artificial Intelligence. GPT-4 accepts image and text inputs, rather than simply natural language. We investigate relevant use cases stemming from these enhanced capabilities of GPT-4. To the best of our knowledge, no other work has investigated similar use cases involving Software Engineering tasks carried out via multimodal GPTs prompted with a mix of diagrams and natural language.",
+    "authors": [
+      "Roberto Rossi"
+    ],
+    "publication_date": "2024-11-27T01:15:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.17976v4",
+    "download_url": "https://arxiv.org/abs/2411.17976v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "AI in Software Engineering: A Survey on Project Management Applications",
+    "abstract": "Artificial Intelligence (AI) refers to the intelligence demonstrated by machines, and within the realm of AI, Machine Learning (ML) stands as a notable subset. ML employs algorithms that undergo training on data sets, enabling them to carry out specific tasks autonomously. Notably, AI holds immense potential in the field of software engineering, particularly in project management and planning. In this literature survey, we explore the use of AI in Software Engineering and summarize previous works in this area. We first review eleven different publications related to this subject, then compare the surveyed works. We then comment on the possible challenges present in the utilization of AI in software engineering and suggest possible further research avenues and the ways in which AI could evolve with software engineering in the future.",
+    "authors": [
+      "Talia Crawford",
+      "Scott Duong",
+      "Richard Fueston",
+      "Ayorinde Lawani",
+      "Samuel Owoade",
+      "Abel Uzoka",
+      "Reza M. Parizi",
+      "Abbas Yazdinejad"
+    ],
+    "publication_date": "2023-07-27T23:02:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.15224v1",
+    "download_url": "https://arxiv.org/abs/2307.15224v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Visualising Game Engine Subsystem Coupling",
+    "abstract": "Game engines support video game development by providing functionalities such as graphics rendering or input/output device management. However, their architectures are often overlooked, which hinders their integration and extension. In this paper, we use an approach for architecture recovery to create architectural models for 10 open-source game engines. We use these models to answer the following questions: Which subsystems more often couple with one another? Do game engines share subsystem coupling patterns? We observe that the Low-Level Renderer, Platform Independence Layer and Resource Manager are frequently coupled to the game engine Core. By identifying the most frequent coupling patterns, we describe an emergent game engine architecture and discuss how it can be used by practitioners to improve system understanding and maintainability.",
+    "authors": [
+      "Gabriel C. Ullmann",
+      "Yann-Gaël Guéhéneuc",
+      "Fabio Petrillo",
+      "Nicolas Anquetil",
+      "Cristiano Politowski"
+    ],
+    "publication_date": "2023-09-12T15:42:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2309.06329v1",
+    "download_url": "https://arxiv.org/abs/2309.06329v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

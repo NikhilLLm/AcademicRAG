@@ -1,0 +1,1660 @@
+[
+  {
+    "title": "Dipole-Spread Function Engineering for 6D Super-Resolution Microscopy",
+    "abstract": "Fluorescent molecules are versatile nanoscale emitters that enable detailed observations of biophysical processes with nanoscale resolution. Because they are well-approximated as electric dipoles, imaging systems can be designed to visualize their 3D positions and 3D orientations, so-called dipole-spread function (DSF) engineering, for 6D super-resolution single-molecule orientation-localization microscopy (SMOLM). We review fundamental image-formation theory for fluorescent di-poles, as well as how phase and polarization modulation can be used to change the image of a dipole emitter produced by a microscope, called its DSF. We describe several methods for designing these modulations for optimum performance, as well as compare recently developed techniques, including the double-helix, tetrapod, crescent, and DeepSTORM3D learned point-spread functions (PSFs), in addition to the tri-spot, vortex, pixOL, raPol, CHIDO, and MVR DSFs. We also cover common imaging system designs and techniques for implementing engineered DSFs. Finally, we discuss recent biological applications of 6D SMOLM and future challenges for pushing the capabilities and utility of the technology.",
+    "authors": [
+      "Tingting Wu",
+      "Matthew D. Lew"
+    ],
+    "publication_date": "2023-10-09T15:50:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.05810v1",
+    "download_url": "https://arxiv.org/abs/2310.05810v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A model driven engineering approach to develop a cooperative information system",
+    "abstract": "To reuse one or several existing systems in order to develop a complex system is a common practice in software engineering. This approach can be justified by the fact that it is often difficult for a single Information System (IS) to accomplish all the requested tasks. So, one solution is to combine many different ISs and make them collaborate in order to realize these tasks. We proposed an approach named AspeCiS (An Aspect-oriented Approach to Develop a Cooperative Information System) to develop a Cooperative Information System from existing ISs by using their artifacts such as existing requirements, and design. AspeCiS covers the three following phases: (i) discovery and analysis of Cooperative Requirements, (ii) design of Cooperative Requirements models, and (iii) preparation of the implementation phase. The main issue of AspeCiS is the definition of Cooperative Requirements using the Existing Requirements and Additional Requirements, which should be composed with Aspectual Requirements. We earlier studied how to elicit the Cooperative Requirements in AspeCiS (phase of discovery and analysis of Cooperative Requirements in AspeCiS) . We study here the second phase of AspeCiS (design of Cooperative Requirements models), by the way of a model weaving process. This process uses so-called AspeCiS Weaving Metamodel, and it weaves Existing and Additional Requirements models to realize Cooperative Requirements models.",
+    "authors": [
+      "Mohamed Amroune",
+      "Pierre Jean Charrel",
+      "Nacereddine Zarour",
+      "Jean Michel Inglebert"
+    ],
+    "publication_date": "2013-06-06T16:47:46Z",
+    "arxiv_id": "http://arxiv.org/abs/1306.1469v1",
+    "download_url": "https://arxiv.org/abs/1306.1469v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Lost in Transition: The Struggle of Women Returning to Software Engineering Research after Career Breaks",
+    "abstract": "The IT industry provides supportive pathways such as returnship programs, coding boot camps, and buddy systems for women re-entering their job after a career break. Academia, however, offers limited opportunities to motivate women to return. We propose a diverse multicultural research project investigating the challenges faced by women with software engineering (SE) backgrounds re-entering academia or related research roles after a career break. Career disruptions due to pregnancy, immigration status, or lack of flexible work options can significantly impact women's career progress, creating barriers for returning as lecturers, professors, or senior researchers. Although many companies promote gender diversity policies, such measures are less prominent and often under-recognized within academic institutions. Our goal is to explore the specific challenges women encounter when re-entering academic roles compared to industry roles; to understand the institutional perspective, including a comparative analysis of existing policies and opportunities in different countries for women to return to the field; and finally, to provide recommendations that support transparent hiring practices. The research project will be carried out in multiple universities and in multiple countries to capture the diverse challenges and policies that vary by location.",
+    "authors": [
+      "Shalini Chakraborty",
+      "Sebastian Baltes"
+    ],
+    "publication_date": "2025-09-25T20:19:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.21533v1",
+    "download_url": "https://arxiv.org/abs/2509.21533v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Mining Treatment-Outcome Constructs from Sequential Software Engineering Data",
+    "abstract": "Many investigations in empirical software engineering look at sequences of data resulting from development or management processes. In this paper, we propose an analytical approach called the Gandhi-Washington Method (GWM) to investigate the impact of recurring events in software projects. GWM takes an encoding of events and activities provided by a software analyst as input. It uses regular expressions to automatically condense and summarize information and infer treatments. Relating the treatments to the outcome through statistical tests, treatment-outcome constructs are automatically mined from the data. The output of GWM is a set of treatment-outcome constructs. Each treatment in the set of mined constructs is significantly different from the other treatments considering the impact on the outcome and/or is structurally different from other treatments considering the sequence of events. We describe GWM and classes of problems to which GWM can be applied. We demonstrate the applicability of this method for empirical studies on sequences of file editing, code ownership, and release cycle time.",
+    "authors": [
+      "Maleknaz Nayebi",
+      "Guenther Ruhe",
+      "Thomas Zimmermann"
+    ],
+    "publication_date": "2019-01-17T03:40:39Z",
+    "arxiv_id": "http://arxiv.org/abs/1901.05604v1",
+    "download_url": "https://arxiv.org/abs/1901.05604v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Neural modal ordinary differential equations: Integrating physics-based modeling with neural ordinary differential equations for modeling high-dimensional monitored structures",
+    "abstract": "The order/dimension of models derived on the basis of data is commonly restricted by the number of observations, or in the context of monitored systems, sensing nodes. This is particularly true for structural systems (e.g., civil or mechanical structures), which are typically high-dimensional in nature. In the scope of physics-informed machine learning, this paper proposes a framework -- termed Neural Modal ODEs -- to integrate physics-based modeling with deep learning for modeling the dynamics of monitored and high-dimensional engineered systems. Neural Ordinary Differential Equations -- Neural ODEs are exploited as the deep learning operator. In this initiating exploration, we restrict ourselves to linear or mildly nonlinear systems. We propose an architecture that couples a dynamic version of variational autoencoders with physics-informed Neural ODEs (Pi-Neural ODEs). An encoder, as a part of the autoencoder, learns the abstract mappings from the first few items of observational data to the initial values of the latent variables, which drive the learning of embedded dynamics via physics-informed Neural ODEs, imposing a modal model structure on that latent space. The decoder of the proposed model adopts the eigenmodes derived from an eigen-analysis applied to the linearized portion of a physics-based model: a process implicitly carrying the spatial relationship between degrees-of-freedom (DOFs). The framework is validated on a numerical example, and an experimental dataset of a scaled cable-stayed bridge, where the learned hybrid model is shown to outperform a purely physics-based approach to modeling. We further show the functionality of the proposed scheme within the context of virtual sensing, i.e., the recovery of generalized response quantities in unmeasured DOFs from spatially sparse data.",
+    "authors": [
+      "Zhilu Lai",
+      "Wei Liu",
+      "Xudong Jian",
+      "Kiran Bacsa",
+      "Limin Sun",
+      "Eleni Chatzi"
+    ],
+    "publication_date": "2022-07-16T09:30:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.07883v2",
+    "download_url": "https://arxiv.org/abs/2207.07883v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Data Engineering for Data Analytics: A Classification of the Issues, and Case Studies",
+    "abstract": "Consider the situation where a data analyst wishes to carry out an analysis on a given dataset. It is widely recognized that most of the analyst's time will be taken up with \\emph{data engineering} tasks such as acquiring, understanding, cleaning and preparing the data. In this paper we provide a description and classification of such tasks into high-levels groups, namely data organization, data quality and feature engineering. We also make available four datasets and example analyses that exhibit a wide variety of these problems, to help encourage the development of tools and techniques to help reduce this burden and push forward research towards the automation or semi-automation of the data engineering process.",
+    "authors": [
+      "Alfredo Nazabal",
+      "Christopher K. I. Williams",
+      "Giovanni Colavizza",
+      "Camila Rangel Smith",
+      "Angus Williams"
+    ],
+    "publication_date": "2020-04-27T16:42:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.12929v1",
+    "download_url": "https://arxiv.org/abs/2004.12929v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Automated categorization of pre-trained models for software engineering: A case study with a Hugging Face dataset",
+    "abstract": "Software engineering (SE) activities have been revolutionized by the advent of pre-trained models (PTMs), defined as large machine learning (ML) models that can be fine-tuned to perform specific SE tasks. However, users with limited expertise may need help to select the appropriate model for their current task. To tackle the issue, the Hugging Face (HF) platform simplifies the use of PTMs by collecting, storing, and curating several models. Nevertheless, the platform currently lacks a comprehensive categorization of PTMs designed specifically for SE, i.e., the existing tags are more suited to generic ML categories.\n  This paper introduces an approach to address this gap by enabling the automatic classification of PTMs for SE tasks. First, we utilize a public dump of HF to extract PTMs information, including model documentation and associated tags. Then, we employ a semi-automated method to identify SE tasks and their corresponding PTMs from existing literature. The approach involves creating an initial mapping between HF tags and specific SE tasks, using a similarity-based strategy to identify PTMs with relevant tags. The evaluation shows that model cards are informative enough to classify PTMs considering the pipeline tag. Moreover, we provide a mapping between SE tasks and stored PTMs by relying on model names.",
+    "authors": [
+      "Claudio Di Sipio",
+      "Riccardo Rubei",
+      "Juri Di Rocco",
+      "Davide Di Ruscio",
+      "Phuong T. Nguyen"
+    ],
+    "publication_date": "2024-05-21T20:26:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2405.13185v1",
+    "download_url": "https://arxiv.org/abs/2405.13185v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards Ontology-Based Requirements Engineering for IoT-Supported Well-Being, Aging and Health",
+    "abstract": "Ontologies serve as a one of the formal means to represent and model knowledge in computer science, electrical engineering, system engineering and other related disciplines. Ontologies within requirements engineering may be used for formal representation of system requirements. In the Internet of Things, ontologies may be used to represent sensor knowledge and describe acquired data semantics. Designing an ontology comprehensive enough with an appropriate level of knowledge expressiveness, serving multiple purposes, from system requirements specifications to modeling knowledge based on data from IoT sensors, is one of the great challenges. This paper proposes an approach towards ontology-based requirements engineering for well-being, aging and health supported by the Internet of Things. Such an ontology design does not aim at creating a new ontology, but extending the appropriate one already existing, SAREF4EHAW, in order align with the well-being, aging and health concepts and structure the knowledge within the domain. Other contributions include a conceptual formulation for Well-Being, Aging and Health and a related taxonomy, as well as a concept of One Well-Being, Aging and Health. New attributes and relations have been proposed for the new ontology extension, along with the updated list of use cases and particular ontological requirements not covered by the original ontology. Future work envisions full specification of the new ontology extension, as well as structuring system requirements and sensor measurement parameters to follow description logic.",
+    "authors": [
+      "Hrvoje Belani",
+      "Petar Solic",
+      "Toni Perkovic"
+    ],
+    "publication_date": "2022-11-19T16:11:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.10735v1",
+    "download_url": "https://arxiv.org/abs/2211.10735v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Recruiting Software Engineers on Prolific",
+    "abstract": "Recruiting participants for software engineering research has been a primary concern of the human factors community. This is particularly true for quantitative investigations that require a minimum sample size not to be statistically underpowered. Traditional data collection techniques, such as mailing lists, are highly doubtful due to self-selection biases. The introduction of crowdsourcing platforms allows researchers to select informants with the exact requirements foreseen by the study design, gather data in a concise time frame, compensate their work with fair hourly pay, and most importantly, have a high degree of control over the entire data collection process. This experience report discusses our experience conducting sample studies using Prolific, an academic crowdsourcing platform. Topics discussed are the type of studies, selection processes, and power computation.",
+    "authors": [
+      "Daniel Russo"
+    ],
+    "publication_date": "2022-03-28T12:49:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2203.14695v1",
+    "download_url": "https://arxiv.org/abs/2203.14695v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Estimation of 2D Velocity Model using Acoustic Signals and Convolutional Neural Networks",
+    "abstract": "The parameters estimation of a system using indirect measurements over the same system is a problem that occurs in many fields of engineering, known as the inverse problem. It also happens in the field of underwater acoustic, especially in mediums that are not transparent enough. In those cases, shape identification of objects using only acoustic signals is a challenge because it is carried out with information of echoes that are produced by objects with different densities from that of the medium. In general, these echoes are difficult to understand since their information is usually noisy and redundant. In this paper, we propose a model of convolutional neural network with an Encoder-Decoder configuration to estimate both localization and shape of objects, which produce reflected signals. This model allows us to obtain a 2D velocity model. The model was trained with data generated by the finite-difference method, and it achieved a value of 98.58% in the intersection over union metric 75.88% in precision and 64.69% in sensibility.",
+    "authors": [
+      "Marco Apolinario",
+      "Samuel Huaman Bustamante",
+      "Giorgio Morales",
+      "Joel Telles",
+      "Daniel Diaz"
+    ],
+    "publication_date": "2019-06-10T22:36:53Z",
+    "arxiv_id": "http://arxiv.org/abs/1906.04310v1",
+    "download_url": "https://arxiv.org/abs/1906.04310v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Toward Engineering AGI: Benchmarking the Engineering Design Capabilities of LLMs",
+    "abstract": "Modern engineering, spanning electrical, mechanical, aerospace, civil, and computer disciplines, stands as a cornerstone of human civilization and the foundation of our society. However, engineering design poses a fundamentally different challenge for large language models (LLMs) compared with traditional textbook-style problem solving or factual question answering. Although existing benchmarks have driven progress in areas such as language understanding, code synthesis, and scientific problem solving, real-world engineering design demands the synthesis of domain knowledge, navigation of complex trade-offs, and management of the tedious processes that consume much of practicing engineers' time. Despite these shared challenges across engineering disciplines, no benchmark currently captures the unique demands of engineering design work. In this work, we introduce EngDesign, an Engineering Design benchmark that evaluates LLMs' abilities to perform practical design tasks across nine engineering domains. Unlike existing benchmarks that focus on factual recall or question answering, EngDesign uniquely emphasizes LLMs' ability to synthesize domain knowledge, reason under constraints, and generate functional, objective-oriented engineering designs. Each task in EngDesign represents a real-world engineering design problem, accompanied by a detailed task description specifying design goals, constraints, and performance requirements. EngDesign pioneers a simulation-based evaluation paradigm that moves beyond textbook knowledge to assess genuine engineering design capabilities and shifts evaluation from static answer checking to dynamic, simulation-driven functional verification, marking a crucial step toward realizing the vision of engineering Artificial General Intelligence (AGI).",
+    "authors": [
+      "Xingang Guo",
+      "Yaxin Li",
+      "Xiangyi Kong",
+      "Yilan Jiang",
+      "Xiayu Zhao",
+      "Zhihua Gong",
+      "Yufan Zhang",
+      "Daixuan Li",
+      "Tianle Sang",
+      "Beixiao Zhu",
+      "Gregory Jun",
+      "Yingbing Huang",
+      "Yiqi Liu",
+      "Yuqi Xue",
+      "Rahul Dev Kundu",
+      "Qi Jian Lim",
+      "Yizhou Zhao",
+      "Luke Alexander Granger",
+      "Mohamed Badr Younis",
+      "Darioush Keivan",
+      "Nippun Sabharwal",
+      "Shreyanka Sinha",
+      "Prakhar Agarwal",
+      "Kojo Vandyck",
+      "Hanlin Mai",
+      "Zichen Wang",
+      "Aditya Venkatesh",
+      "Ayush Barik",
+      "Jiankun Yang",
+      "Chongying Yue",
+      "Jingjie He",
+      "Libin Wang",
+      "Licheng Xu",
+      "Hao Chen",
+      "Jinwen Wang",
+      "Liujun Xu",
+      "Rushabh Shetty",
+      "Ziheng Guo",
+      "Dahui Song",
+      "Manvi Jha",
+      "Weijie Liang",
+      "Weiman Yan",
+      "Bryan Zhang",
+      "Sahil Bhandary Karnoor",
+      "Jialiang Zhang",
+      "Rutva Pandya",
+      "Xinyi Gong",
+      "Mithesh Ballae Ganesh",
+      "Feize Shi",
+      "Ruiling Xu",
+      "Yifan Zhang",
+      "Yanfeng Ouyang",
+      "Lianhui Qin",
+      "Elyse Rosenbaum",
+      "Corey Snyder",
+      "Peter Seiler",
+      "Geir Dullerud",
+      "Xiaojia Shelly Zhang",
+      "Zuofu Cheng",
+      "Pavan Kumar Hanumolu",
+      "Jian Huang",
+      "Mayank Kulkarni",
+      "Mahdi Namazifar",
+      "Huan Zhang",
+      "Bin Hu"
+    ],
+    "publication_date": "2025-07-01T17:59:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.16204v2",
+    "download_url": "https://arxiv.org/abs/2509.16204v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Roles-based Competency Framework for Integrating Artificial Intelligence (AI) in Engineering Courses",
+    "abstract": "In this practice paper, we propose a framework for integrating AI into disciplinary engineering courses and curricula. The use of AI within engineering is an emerging but growing area and the knowledge, skills, and abilities (KSAs) associated with it are novel and dynamic. This makes it challenging for faculty who are looking to incorporate AI within their courses to create a mental map of how to tackle this challenge. In this paper, we advance a role-based conception of competencies to assist disciplinary faculty with identifying and implementing AI competencies within engineering curricula. We draw on prior work related to AI literacy and competencies and on emerging research on the use of AI in engineering. To illustrate the use of the framework, we provide two exemplary cases. We discuss the challenges in implementing the framework and emphasize the need for an embedded approach where AI concerns are integrated across multiple courses throughout the degree program, especially for teaching responsible and ethical AI development and use.",
+    "authors": [
+      "Johannes Schleiss",
+      "Aditya Johri"
+    ],
+    "publication_date": "2024-09-28T19:13:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.12796v1",
+    "download_url": "https://arxiv.org/abs/2410.12796v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "OntoChat: a Framework for Conversational Ontology Engineering using Language Models",
+    "abstract": "Ontology engineering (OE) in large projects poses a number of challenges arising from the heterogeneous backgrounds of the various stakeholders, domain experts, and their complex interactions with ontology designers. This multi-party interaction often creates systematic ambiguities and biases from the elicitation of ontology requirements, which directly affect the design, evaluation and may jeopardise the target reuse. Meanwhile, current OE methodologies strongly rely on manual activities (e.g., interviews, discussion pages). After collecting evidence on the most crucial OE activities, we introduce \\textbf{OntoChat}, a framework for conversational ontology engineering that supports requirement elicitation, analysis, and testing. By interacting with a conversational agent, users can steer the creation of user stories and the extraction of competency questions, while receiving computational support to analyse the overall requirements and test early versions of the resulting ontologies. We evaluate OntoChat by replicating the engineering of the Music Meta Ontology, and collecting preliminary metrics on the effectiveness of each component from users. We release all code at https://github.com/King-s-Knowledge-Graph-Lab/OntoChat.",
+    "authors": [
+      "Bohui Zhang",
+      "Valentina Anita Carriero",
+      "Katrin Schreiberhuber",
+      "Stefani Tsaneva",
+      "Lucía Sánchez González",
+      "Jongmo Kim",
+      "Jacopo de Berardinis"
+    ],
+    "publication_date": "2024-03-09T14:04:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.05921v2",
+    "download_url": "https://arxiv.org/abs/2403.05921v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Situational Method Engineering: Fundamentals and Experiences",
+    "abstract": "The work presented in this paper is related to the area of Situational Method Engineering (SME) which focuses on project-specific method construction. We propose a faceted framework to understand and classify issues in system development SME. The framework identifies four different but complementary viewpoints. Each view allows us to capture a particular aspect of situational methods. Inter-relationships between these views show how they influence each other. In order to study, understand and classify a particular view of SME in its diversity, we associate a set of facets with each view. As a facet allows an in-depth description of one specific aspect of SME, the views show the variety and diversity of these aspects.",
+    "authors": [
+      "Yves-Roger Nehan",
+      "Rebecca Deneckere"
+    ],
+    "publication_date": "2009-11-08T08:37:36Z",
+    "arxiv_id": "http://arxiv.org/abs/0911.1494v1",
+    "download_url": "https://arxiv.org/abs/0911.1494v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "FLFE: A Communication-Efficient and Privacy-Preserving Federated Feature Engineering Framework",
+    "abstract": "Feature engineering is the process of using domain knowledge to extract features from raw data via data mining techniques and is a key step to improve the performance of machine learning algorithms. In the multi-party feature engineering scenario (features are stored in many different IoT devices), direct and unlimited multivariate feature transformations will quickly exhaust memory, power, and bandwidth of devices, not to mention the security of information threatened. Given this, we present a framework called FLFE to conduct privacy-preserving and communication-preserving multi-party feature transformations. The framework pre-learns the pattern of the feature to directly judge the usefulness of the transformation on a feature. Explored the new useful feature, the framework forsakes the encryption-based algorithm for the well-designed feature exchange mechanism, which largely decreases the communication overhead under the premise of confidentiality. We made experiments on datasets of both open-sourced and real-world thus validating the comparable effectiveness of FLFE to evaluation-based approaches, along with the far more superior efficacy.",
+    "authors": [
+      "Pei Fang",
+      "Zhendong Cai",
+      "Hui Chen",
+      "QingJiang Shi"
+    ],
+    "publication_date": "2020-09-05T16:08:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2009.02557v1",
+    "download_url": "https://arxiv.org/abs/2009.02557v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "What prevents Finnish women from applying to software engineering roles? A preliminary analysis of survey data",
+    "abstract": "Finland is considered a country with a good track record in gender equality. Whilst statistics support the notion that Finland is performing well compared to many other countries in terms of workplace equality, there are still many areas for improvement. This paper focuses on the problems that some women face in obtaining software engineering roles. We report a preliminary analysis of survey data from 252 respondents. These are mainly women who have shown an interest in gaining programming roles by joining the Mimmit koodaa initiative, which aims to increase equality and diversity within the software industry. The survey sought to understand what early experiences may influence later career choices and feelings of efficacy and confidence needed to pursue technology-related careers. These initial findings reveal that women's feelings of computing self-efficacy and attitudes towards software engineering are shaped by early experiences. More negative experiences decrease the likelihood of working in software engineering roles in the future, despite expressing an interest in the field.",
+    "authors": [
+      "Annika Wolff",
+      "Antti Knutas",
+      "Paula Savolainen"
+    ],
+    "publication_date": "2020-02-05T16:03:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.01840v1",
+    "download_url": "https://arxiv.org/abs/2002.01840v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Manifestations of Empathy in Software Engineering: How, Why, and When It Matters",
+    "abstract": "Empathy plays a crucial role in software engineering (SE), influencing collaboration, communication, and decision-making. While prior research has highlighted the importance of empathy in SE, there is limited understanding of how empathy manifests in SE practice, what motivates SE practitioners to demonstrate empathy, and the factors that influence empathy in SE work. Our study explores these aspects through 22 interviews and a large scale survey with 116 software practitioners. Our findings provide insights into the expression of empathy in SE, the drivers behind empathetic practices, SE activities where empathy is perceived as useful or not, and the other factors that influence empathy. In addition, we offer practical implications for SE practitioners and researchers, offering a deeper understanding of how to effectively integrate empathy into SE processes.",
+    "authors": [
+      "Hashini Gunatilake",
+      "John Grundy",
+      "Rashina Hoda",
+      "Ingo Mueller"
+    ],
+    "publication_date": "2025-08-06T14:30:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.04479v2",
+    "download_url": "https://arxiv.org/abs/2508.04479v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards a Conceptual Approach of Analytical Engineering for Big Data",
+    "abstract": "Analytics corresponds to a relevant and challenging phase of Big Data. The generation of knowledge from extensive data sets (petabyte era) of varying types, occurring at a speed able to serve decision makers, is practiced using multiple areas of knowledge, such as computing, statistics, data mining, among others. In the Big Data domain, Analytics is also considered as a process capable of adding value to the organizations. Besides the demonstration of value, Analytics should also consider operational tools and models to support decision making. To adding value, Analytics is also presented as part of some Big Data value chains, such the Information Value Chain presented by NIST among others, which are detailed in this article. As well, some maturity models are presented, since they represent important structures to favor continuous implementation of Analytics for Big Data, using specific technologies, techniques and methods. Hence, through an in-depth research, using specific literature references and use cases, we seeks to outline an approach to determine the Analytical Engineering for Big Data Analytics considering four pillars: Data, Models, Tools and People; and three process groups: Acquisition, Retention and Revision; in order to make feasible and to define an organization, possibly designated as an Analytics Organization, responsible for generating knowledge from the data in the field of Big Data Analytics.",
+    "authors": [
+      "Rogerio Rossi",
+      "Kechi Hirama"
+    ],
+    "publication_date": "2022-01-15T04:09:24Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.05754v1",
+    "download_url": "https://arxiv.org/abs/2201.05754v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Web-Based Expert System for Civil Service Regulations: RCSES",
+    "abstract": "Internet and expert systems have offered new ways of sharing and distributing knowledge, but there is a lack of researches in the area of web based expert systems. This paper introduces a development of a web-based expert system for the regulations of civil service in the Kingdom of Saudi Arabia named as RCSES. It is the first time to develop such system (application of civil service regulations) as well the development of it using web based approach. The proposed system considers 17 regulations of the civil service system. The different phases of developing the RCSES system are presented, as knowledge acquiring and selection, ontology and knowledge representations using XML format. XML Rule-based knowledge sources and the inference mechanisms were implemented using ASP.net technique. An interactive tool for entering the ontology and knowledge base, and the inferencing was built. It gives the ability to use, modify, update, and extend the existing knowledge base in an easy way. The knowledge was validated by experts in the domain of civil service regulations, and the proposed RCSES was tested, verified, and validated by different technical users and the developers staff. The RCSES system is compared with other related web based expert systems, that comparison proved the goodness, usability, and high performance of RCSES.",
+    "authors": [
+      "Mofreh Hogo",
+      "Khaled Fouad",
+      "Fouad Mousa"
+    ],
+    "publication_date": "2010-01-12T10:07:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1001.1836v1",
+    "download_url": "https://arxiv.org/abs/1001.1836v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Analysis and Validation of Image Search Engines in Histopathology",
+    "abstract": "Searching for similar images in archives of histology and histopathology images is a crucial task that may aid in patient matching for various purposes, ranging from triaging and diagnosis to prognosis and prediction. Whole slide images (WSIs) are highly detailed digital representations of tissue specimens mounted on glass slides. Matching WSI to WSI can serve as the critical method for patient matching. In this paper, we report extensive analysis and validation of four search methods bag of visual words (BoVW), Yottixel, SISH, RetCCL, and some of their potential variants. We analyze their algorithms and structures and assess their performance. For this evaluation, we utilized four internal datasets ($1269$ patients) and three public datasets ($1207$ patients), totaling more than $200,000$ patches from $38$ different classes/subtypes across five primary sites. Certain search engines, for example, BoVW, exhibit notable efficiency and speed but suffer from low accuracy. Conversely, search engines like Yottixel demonstrate efficiency and speed, providing moderately accurate results. Recent proposals, including SISH, display inefficiency and yield inconsistent outcomes, while alternatives like RetCCL prove inadequate in both accuracy and efficiency. Further research is imperative to address the dual aspects of accuracy and minimal storage requirements in histopathological image search.",
+    "authors": [
+      "Isaiah Lahr",
+      "Saghir Alfasly",
+      "Peyman Nejat",
+      "Jibran Khan",
+      "Luke Kottom",
+      "Vaishnavi Kumbhar",
+      "Areej Alsaafin",
+      "Abubakr Shafique",
+      "Sobhan Hemati",
+      "Ghazal Alabtah",
+      "Nneka Comfere",
+      "Dennis Murphee",
+      "Aaron Mangold",
+      "Saba Yasir",
+      "Chady Meroueh",
+      "Lisa Boardman",
+      "Vijay H. Shah",
+      "Joaquin J. Garcia",
+      "H. R. Tizhoosh"
+    ],
+    "publication_date": "2024-01-06T18:17:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.03271v2",
+    "download_url": "https://arxiv.org/abs/2401.03271v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "SEMDOT: Smooth-Edged Material Distribution for Optimizing Topology Algorithm",
+    "abstract": "Element-based topology optimization algorithms capable of generating smooth boundaries have drawn serious attention given the significance of accurate boundary information in engineering applications. The basic framework of a new element-based continuum algorithm is proposed in this paper. This algorithm is based on a smooth-edged material distribution strategy that uses solid/void grid points assigned to each element. Named Smooth-Edged Material Distribution for Optimizing Topology (SEMDOT), the algorithm uses elemental volume fractions which depend on the densities of grid points in the Finite Element Analysis (FEA) model rather than elemental densities. Several numerical examples are studied to demonstrate the application and effectiveness of SEMDOT. In these examples, SEMDOT proved to be capable of obtaining optimized topologies with smooth and clear boundaries showing better or comparable performance compared to other topology optimization methods. Through these examples, first, the advantages of using the Heaviside smooth function are discussed in comparison to the Heaviside step function. Then, the benefits of introducing multiple filtering steps in this algorithm are shown. Finally, comparisons are conducted to exhibit the differences between SEMDOT and some well-established element-based algorithms. The validation of the sensitivity analysis method adopted in SEMDOT is conducted using a typical compliant mechanism design case. In addition, this paper provides the Matlab code of SEMDOT for educational and academic purposes.",
+    "authors": [
+      "Yun-Fei Fu",
+      "Bernard Rolfe",
+      "Ngai Sum Louis Chiu",
+      "Yanan Wang",
+      "Xiaodong Huang",
+      "Kazem Ghabraie"
+    ],
+    "publication_date": "2020-05-19T06:03:40Z",
+    "arxiv_id": "http://arxiv.org/abs/2005.09233v3",
+    "download_url": "https://arxiv.org/abs/2005.09233v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quality Guidelines for Research Artifacts in Model-Driven Engineering",
+    "abstract": "Sharing research artifacts is known to help people to build upon existing knowledge, adopt novel contributions in practice, and increase the chances of papers receiving attention. In Model-Driven Engineering (MDE), openly providing research artifacts plays a key role, even more so as the community targets a broader use of AI techniques, which can only become feasible if large open datasets and confidence measures for their quality are available. However, the current lack of common discipline-specific guidelines for research data sharing opens the opportunity for misunderstandings about the true potential of research artifacts and subjective expectations regarding artifact quality. To address this issue, we introduce a set of guidelines for artifact sharing specifically tailored to MDE research. To design this guidelines set, we systematically analyzed general-purpose artifact sharing practices of major computer science venues and tailored them to the MDE domain. Subsequently, we conducted an online survey with 90 researchers and practitioners with expertise in MDE. We investigated our participants' experiences in developing and sharing artifacts in MDE research and the challenges encountered while doing so. We then asked them to prioritize each of our guidelines as essential, desirable, or unnecessary. Finally, we asked them to evaluate our guidelines with respect to clarity, completeness, and relevance. In each of these dimensions, our guidelines were assessed positively by more than 92\\% of the participants. To foster the reproducibility and reusability of our results, we make the full set of generated artifacts available in an open repository at \\texttt{\\url{https://mdeartifacts.github.io/}}.",
+    "authors": [
+      "Carlos Diego Nascimento Damasceno",
+      "Daniel Strüber"
+    ],
+    "publication_date": "2021-08-10T13:01:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.04652v2",
+    "download_url": "https://arxiv.org/abs/2108.04652v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Characterizing the Usage, Evolution and Impact of Java Annotations in Practice",
+    "abstract": "Annotations have been formally introduced into Java since Java 5. Since then, annotations have been widely used by the Java community for different purposes, such as compiler guidance and runtime processing. Despite the ever-growing use, there is still limited empirical knowledge about the actual usage of annotations in practice, the changes made to annotations during software evolution, and the potential impact of annotations on code quality. To fill this gap, we perform the first large-scale empirical study about Java annotations on 1,094 notable open-source projects hosted on GitHub. Our study systematically investigates annotation usage, annotation evolution, and annotation impact, and generates 10 novel and important findings. We also present the implications of our findings, which shed light for developers, researchers, tool builders, and language or library designers in order to improve all facets of Java annotation engineering.",
+    "authors": [
+      "Zhongxing Yu",
+      "Chenggang Bai",
+      "Lionel Seinturier",
+      "Martin Monperrus"
+    ],
+    "publication_date": "2018-05-04T23:29:19Z",
+    "arxiv_id": "http://arxiv.org/abs/1805.01965v2",
+    "download_url": "https://arxiv.org/abs/1805.01965v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "ACM SIGSOFT SEN Empirical Software Engineering: Introducing Our New Regular Column",
+    "abstract": "From its early foundations in the 1970s, empirical software engineering (ESE) has evolved into a mature research discipline that embraces a plethora of different topics, methodologies, and industrial practices. Despite its remarkable progress, the ESE research field still needs to keep evolving, as new impediments, shortcoming, and technologies emerge. Research reproducibility, limited external validity, subjectivity of reviews, and porting research results to industrial practices are just some examples of the drivers for improvements to ESE research. Additionally, several facets of ESE research are not documented very explicitly, which makes it difficult for newcomers to pick them up. With this new regular ACM SIGSOFT SEN column (SEN-ESE), we introduce a venue for discussing meta-aspects of ESE research, ranging from general topics such as the nature and best practices for replication packages, to more nuanced themes such as statistical methods, interview transcription tools, and publishing interdisciplinary research. Our aim for the column is to be a place where we can regularly spark conversations on ESE topics that might not often be touched upon or are left implicit. Contributions to this column will be grounded in expert interviews, focus groups, surveys, and position pieces, with the goal of encouraging reflection and improvement in how we conduct, communicate, teach, and ultimately improve ESE research. Finally, we invite feedback from the ESE community on challenging, controversial, or underexplored topics, as well as suggestions for voices you would like to hear from. While we cannot promise to act on every idea, we aim to shape this column around the community interests and are grateful for all contributions.",
+    "authors": [
+      "Justus Bogner",
+      "Roberto Verdecchia"
+    ],
+    "publication_date": "2025-10-02T13:28:54Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.02007v3",
+    "download_url": "https://arxiv.org/abs/2510.02007v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How Far Are We? The Triumphs and Trials of Generative AI in Learning Software Engineering",
+    "abstract": "Conversational Generative AI (convo-genAI) is revolutionizing Software Engineering (SE) as engineers and academics embrace this technology in their work. However, there is a gap in understanding the current potential and pitfalls of this technology, specifically in supporting students in SE tasks. In this work, we evaluate through a between-subjects study (N=22) the effectiveness of ChatGPT, a convo-genAI platform, in assisting students in SE tasks. Our study did not find statistical differences in participants' productivity or self-efficacy when using ChatGPT as compared to traditional resources, but we found significantly increased frustration levels. Our study also revealed 5 distinct faults arising from violations of Human-AI interaction guidelines, which led to 7 different (negative) consequences on participants.",
+    "authors": [
+      "Rudrajit Choudhuri",
+      "Dylan Liu",
+      "Igor Steinmacher",
+      "Marco Gerosa",
+      "Anita Sarma"
+    ],
+    "publication_date": "2023-12-18T21:38:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.11719v1",
+    "download_url": "https://arxiv.org/abs/2312.11719v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Domain Adaptation in Structural Health Monitoring of Civil Infrastructure: A Systematic Review",
+    "abstract": "This study provides a comprehensive review of domain adaptation (DA) techniques in vibration-based structural health monitoring (SHM). As data-driven models increasingly support the assessment of civil structures, the persistent challenge of transferring knowledge across varying geometries, materials, and environmental conditions remains a major obstacle. DA offers a systematic approach to mitigate these discrepancies by aligning feature distributions between simulated, laboratory, and field domains while preserving the sensitivity of damage-related information. Drawing on more than sixty representative studies, this paper analyzes the evolution of DA methods for SHM, including statistical alignment, adversarial and subdomain learning, physics-informed adaptation, and generative modeling for simulation-to-real transfer. The review summarizes their contributions and limitations across bridge and building applications, revealing that while DA has improved generalization significantly, key challenges persist: managing domain discrepancy, addressing data scarcity, enhancing model interpretability, and enabling adaptability to multiple sources and time-varying conditions. Future research directions emphasize integrating physical constraints into learning objectives, developing physics-consistent generative frameworks to enhance data realism, establishing interpretable and certifiable DA systems for engineering practice, and advancing multi-source and lifelong adaptation for scalable monitoring. Overall, this review consolidates the methodological foundation of DA for SHM, identifies existing barriers to generalization and trust, and outlines the technological trajectory toward transparent, physics-aware, and adaptive monitoring systems that support the long-term resilience of civil infrastructure.",
+    "authors": [
+      "Yifeng Zhang",
+      "Xiao Liang"
+    ],
+    "publication_date": "2025-12-21T15:47:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.18780v1",
+    "download_url": "https://arxiv.org/abs/2512.18780v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Inferencing into the void: problems with implicit populations Comments on `Empirical software engineering experts on the use of students and professionals in experiments'",
+    "abstract": "I welcome the contribution from Falessi et al. [1] hereafter referred to as F++ , and the ensuing debate. Experimentation is an important tool within empirical software engineering, so how we select participants is clearly a relevant question. Moreover as F++ point out, the question is considerably more nuanced than the simple dichotomy it might appear to be at first sight.\n  This commentary is structured as follows. In Section 2 I briefly summarise the arguments of F++ and comment on their approach. Next, in Section 3, I take a step back to consider the nature of representativeness in inferential arguments and the need for careful definition. Then I give three examples of using different types of participant to consider impact. I conclude by arguing, largely in agreement with F++, that the question of whether student participants are representative or not depends on the target population. However, we need to give careful consideration to defining that population and, in particular, not to overlook the representativeness of tasks and environment. This is facilitated by explicit description of the target populations.",
+    "authors": [
+      "Martin Shepperd"
+    ],
+    "publication_date": "2018-10-17T05:49:32Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.07392v1",
+    "download_url": "https://arxiv.org/abs/1810.07392v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The EmpathiSEr: Development and Validation of Software Engineering Oriented Empathy Scales",
+    "abstract": "Empathy plays a critical role in software engineering (SE), influencing collaboration, communication, and user-centred design. Although SE research has increasingly recognised empathy as a key human aspect, there remains no validated instrument specifically designed to measure it within the unique socio-technical contexts of SE. Existing generic empathy scales, while well-established in psychology and healthcare, often rely on language, scenarios, and assumptions that are not meaningful or interpretable for software practitioners. These scales fail to account for the diverse, role-specific, and domain-bound expressions of empathy in SE, such as understanding a non-technical user's frustrations or another practitioner's technical constraints, which differ substantially from empathy in clinical or everyday contexts. To address this gap, we developed and validated two domain-specific empathy scales: EmpathiSEr-P, assessing empathy among practitioners, and EmpathiSEr-U, capturing practitioner empathy towards users. Grounded in a practitioner-informed conceptual framework, the scales encompass three dimensions of empathy: cognitive empathy, affective empathy, and empathic responses. We followed a rigorous, multi-phase methodology, including expert evaluation, cognitive interviews, and two practitioner surveys. The resulting instruments represent the first psychometrically validated empathy scales tailored to SE, offering researchers and practitioners a tool for assessing empathy and designing empathy-enhancing interventions in software teams and user interactions.",
+    "authors": [
+      "Hashini Gunatilake",
+      "John Grundy",
+      "Rashina Hoda",
+      "Ingo Mueller"
+    ],
+    "publication_date": "2025-10-14T14:10:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.12546v1",
+    "download_url": "https://arxiv.org/abs/2510.12546v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Comparative Study of Delta Parquet, Iceberg, and Hudi for Automotive Data Engineering Use Cases",
+    "abstract": "The automotive industry generates vast amounts of data from sensors, telemetry, diagnostics, and real-time operations. Efficient data engineering is critical to handle challenges of latency, scalability, and consistency. Modern data lakehouse formats Delta Parquet, Apache Iceberg, and Apache Hudi offer features such as ACID transactions, schema enforcement, and real-time ingestion, combining the strengths of data lakes and warehouses to support complex use cases. This study presents a comparative analysis of Delta Parquet, Iceberg, and Hudi using real-world time-series automotive telemetry data with fields such as vehicle ID, timestamp, location, and event metrics. The evaluation considers modeling strategies, partitioning, CDC support, query performance, scalability, data consistency, and ecosystem maturity. Key findings show Delta Parquet provides strong ML readiness and governance, Iceberg delivers high performance for batch analytics and cloud-native workloads, while Hudi is optimized for real-time ingestion and incremental processing. Each format exhibits tradeoffs in query efficiency, time-travel, and update semantics. The study offers insights for selecting or combining formats to support fleet management, predictive maintenance, and route optimization. Using structured datasets and realistic queries, the results provide practical guidance for scaling data pipelines and integrating machine learning models in automotive applications.",
+    "authors": [
+      "Dinesh Eswararaj",
+      "Ajay Babu Nellipudi",
+      "Vandana Kollati"
+    ],
+    "publication_date": "2025-08-18T23:06:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.13396v1",
+    "download_url": "https://arxiv.org/abs/2508.13396v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Rise of Distributed Deep Learning Training in the Big Model Era: From a Software Engineering Perspective",
+    "abstract": "Deep learning (DL) has become a key component of modern software. In the \"big model\" era, the rich features of DL-based software substantially rely on powerful DL models, e.g., BERT, GPT-3, and the recently emerging GPT-4, which are trained on the powerful cloud with large datasets. Hence, training effective DL models has become a vital stage in the whole software lifecycle. When training deep learning models, especially those big models, developers need to parallelize and distribute the computation and memory resources amongst multiple devices in the training process, which is known as distributed deep learning training, or distributed training for short. However, the unique challenges that developers encounter in distributed training process have not been studied in the software engineering community. Given the increasingly heavy dependence of current DL-based software on distributed training, this paper aims to fill in the knowledge gap and presents the first comprehensive study on developers' issues in distributed training. To this end, we analyze 1,131 real-world developers' issues about using these frameworks reported on Stack Overflow and GitHub. We construct a fine-grained taxonomy consisting of 30 categories regarding the fault symptoms and summarize common fix patterns for different symptoms. Based on the results, we suggest actionable implications on research avenues that can potentially facilitate the distributed training to develop DL-based software, such as focusing on the frequent and common fix patterns when designing testing or debugging tools, developing efficient testing and debugging techniques for communication configuration along with the synthesis of network configuration analysis, designing new multi-device checkpoint-and-replay techniques to help reproduction, and designing serverless APIs for cloud platforms.",
+    "authors": [
+      "Xuanzhe Liu",
+      "Diandian Gu",
+      "Zhenpeng Chen",
+      "Jinfeng Wen",
+      "Zili Zhang",
+      "Yun Ma",
+      "Haoyu Wang",
+      "Xin Jin"
+    ],
+    "publication_date": "2021-12-12T12:58:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2112.06222v2",
+    "download_url": "https://arxiv.org/abs/2112.06222v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Digital Twin Technologies in Predictive Maintenance: Enabling Transferability via Sim-to-Real and Real-to-Sim Transfer",
+    "abstract": "The advancement of the Internet of Things (IoT) and Artificial Intelligence has catalyzed the evolution of Digital Twins (DTs) from conceptual ideas to more implementable realities. Yet, transitioning from academia to industry is complex due to the absence of standardized frameworks. This paper builds upon the authors' previously established functional and informational requirements supporting standardized DT development, focusing on a crucial aspect: transferability. While existing DT research primarily centers on asset transfer, the significance of \"sim-to-real transfer\" and \"real-to-sim transfer\"--transferring knowledge between simulations and real-world operations--is vital for comprehensive lifecycle management in DTs. A key challenge in this process is calibrating the \"reality gap,\" the discrepancy between simulated predictions and actual outcomes. Our research investigates the impact of integrating a single Reality Gap Analysis (RGA) module into an existing DT framework to effectively manage both sim-to-real and real-to-sim transfers. This integration is facilitated by data pipelines that connect the RGA module with the existing components of the DT framework, including the historical repository and the simulation model. A case study on a pedestrian bridge at Carnegie Mellon University showcases the performance of different levels of integration of our approach with an existing framework. With full implementation of an RGA module and a complete data pipeline, our approach is capable of bidirectional knowledge transfer between simulations and real-world operations without compromising efficiency.",
+    "authors": [
+      "Sizhe Ma",
+      "Katherine A. Flanigan",
+      "Mario Bergés"
+    ],
+    "publication_date": "2025-05-15T12:56:36Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.18449v1",
+    "download_url": "https://arxiv.org/abs/2507.18449v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "PaCE: Parsimonious Concept Engineering for Large Language Models",
+    "abstract": "Large Language Models (LLMs) are being used for a wide variety of tasks. While they are capable of generating human-like responses, they can also produce undesirable output including potentially harmful information, racist or sexist language, and hallucinations. Alignment methods are designed to reduce such undesirable outputs via techniques such as fine-tuning, prompt engineering, and representation engineering. However, existing methods face several challenges: some require costly fine-tuning for every alignment task; some do not adequately remove undesirable concepts, failing alignment; some remove benign concepts, lowering the linguistic capabilities of LLMs. To address these issues, we propose Parsimonious Concept Engineering (PaCE), a novel activation engineering framework for alignment. First, to sufficiently model the concepts, we construct a large-scale concept dictionary in the activation space, in which each atom corresponds to a semantic concept. Given any alignment task, we instruct a concept partitioner to efficiently annotate the concepts as benign or undesirable. Then, at inference time, we decompose the LLM activations along the concept dictionary via sparse coding, to accurately represent the activations as linear combinations of benign and undesirable components. By removing the latter ones from the activations, we reorient the behavior of the LLM towards the alignment goal. We conduct experiments on tasks such as response detoxification, faithfulness enhancement, and sentiment revising, and show that PaCE achieves state-of-the-art alignment performance while maintaining linguistic capabilities.",
+    "authors": [
+      "Jinqi Luo",
+      "Tianjiao Ding",
+      "Kwan Ho Ryan Chan",
+      "Darshan Thaker",
+      "Aditya Chattopadhyay",
+      "Chris Callison-Burch",
+      "René Vidal"
+    ],
+    "publication_date": "2024-06-06T17:59:10Z",
+    "arxiv_id": "http://arxiv.org/abs/2406.04331v2",
+    "download_url": "https://arxiv.org/abs/2406.04331v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Do Software Languages Engineers Evaluate their Languages?",
+    "abstract": "Domain Specific Languages (DSLs) can contribute to increment productivity, while reducing the required maintenance and programming expertise. We hypothesize that Software Languages Engineering (SLE) developers consistently skip, or relax, Language Evaluation. Based on the experience of engineering other types of software products, we assume that this may potentially lead to the deployment of inadequate languages. The fact that the languages already deal with concepts from the problem domain, and not the solution domain, is not enough to validate several issues at stake, such as its expressiveness, usability, effectiveness, maintainability, or even the domain expert's productivity while using them. We present a systematic review on articles published in top ranked venues, from 2001 to 2008, which report DSLs' construction, to characterize the common practice. This work confirms our initial hypothesis and lays the ground for the discussion on how to include a systematic approach to DSL evaluation in the SLE process.",
+    "authors": [
+      "Pedro Gabriel",
+      "Miguel Goulão",
+      "Vasco Amaral"
+    ],
+    "publication_date": "2011-09-30T11:25:41Z",
+    "arxiv_id": "http://arxiv.org/abs/1109.6794v1",
+    "download_url": "https://arxiv.org/abs/1109.6794v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Science for Peace and the need for Civil Clauses at universities and civilian research institutions",
+    "abstract": "After the end of World War II, the commitment to confine scientific activities in universities and research institutions to peaceful and civilian purposes has entered, in the form of {\\it Civil Clauses}, the charters of many research institutions and universities. In the wake of recent world events, the relevance and scope of such Civil Clauses has been questioned in reports issued by some governments and by the EU Commission, a development that opens the door to a possible blurring of the distinction between peaceful and military research.\n  This paper documents the reflections stimulated by a panel discussion on this issue recently organized by the Science4Peace Forum. We review the adoptions of Civil Clauses in research organizations and institutions in various countries, present evidence of the challenges that are emerging to such Civil Clauses, and collect arguments in favour of maintaining the purely civilian and peaceful focus of public (non-military) research.",
+    "authors": [
+      "J. Altmann",
+      "U. Amaldi",
+      "M. Barone",
+      "A. Bassalat",
+      "M. Bona",
+      "J. Beullens",
+      "H. Brand",
+      "S. Brentjes",
+      "D. Britzger",
+      "J. Ellis",
+      "S. Franchoo",
+      "A. Giammanco",
+      "A. Glazov",
+      "C. Heck",
+      "H. Jung",
+      "S. Kraml",
+      "L. Lönnblad",
+      "M. Mangano",
+      "M. Renneberg",
+      "Th. Riebe",
+      "A. Sabio-Vera",
+      "R. Sanders",
+      "J. Scheffran",
+      "M. Schmelling",
+      "T. Schucker",
+      "T. Suzuki",
+      "A. Tanasijczuk",
+      "I. Tsakov",
+      "D. Valls-Gabaud",
+      "M. Walker"
+    ],
+    "publication_date": "2025-05-28T15:27:22Z",
+    "arxiv_id": "http://arxiv.org/abs/2505.22476v1",
+    "download_url": "https://arxiv.org/abs/2505.22476v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Integrating AI Education in Disciplinary Engineering Fields: Towards a System and Change Perspective",
+    "abstract": "Building up competencies in working with data and tools of Artificial Intelligence (AI) is becoming more relevant across disciplinary engineering fields. While the adoption of tools for teaching and learning, such as ChatGPT, is garnering significant attention, integration of AI knowledge, competencies, and skills within engineering education is lacking. Building upon existing curriculum change research, this practice paper introduces a systems perspective on integrating AI education within engineering through the lens of a change model. In particular, it identifies core aspects that shape AI adoption on a program level as well as internal and external influences using existing literature and a practical case study. Overall, the paper provides an analysis frame to enhance the understanding of change initiatives and builds the basis for generalizing insights from different initiatives in the adoption of AI in engineering education.",
+    "authors": [
+      "Johannes Schleiss",
+      "Aditya Johri",
+      "Sebastian Stober"
+    ],
+    "publication_date": "2024-09-28T18:02:17Z",
+    "arxiv_id": "http://arxiv.org/abs/2410.12795v1",
+    "download_url": "https://arxiv.org/abs/2410.12795v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Non-Invasive Reverse Engineering of Finite State Machines Using Power Analysis and Boolean Satisfiability",
+    "abstract": "In this paper, we present a non-invasive reverse engineering attack based on a novel approach that combines functional and power analysis to recover finite state machines from their synchronous sequential circuit implementations. The proposed technique formulates the machine exploration and state identification problem as a Boolean constraint satisfaction problem and solves it using a SMT (Satisfiability Modulo Theories) solver. It uses power measurements to achieve fast convergence. Experimental results using the LGSynth'91 benchmark suite show that the satisfiability-based approach is several times faster compared to existing techniques and can successfully recover 90%-100% of the transitions of a target machine.",
+    "authors": [
+      "Harsh Vamja",
+      "Richa Agrawal",
+      "Ranga Vemuri"
+    ],
+    "publication_date": "2019-08-06T06:47:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.01979v1",
+    "download_url": "https://arxiv.org/abs/1908.01979v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "OLAF: Towards Robust LLM-Based Annotation Framework in Empirical Software Engineering",
+    "abstract": "Large Language Models (LLMs) are increasingly used in empirical software engineering (ESE) to automate or assist annotation tasks such as labeling commits, issues, and qualitative artifacts. Yet the reliability and reproducibility of such annotations remain underexplored. Existing studies often lack standardized measures for reliability, calibration, and drift, and frequently omit essential configuration details. We argue that LLM-based annotation should be treated as a measurement process rather than a purely automated activity. In this position paper, we outline the \\textbf{Operationalization for LLM-based Annotation Framework (OLAF)}, a conceptual framework that organizes key constructs: \\textit{reliability, calibration, drift, consensus, aggregation}, and \\textit{transparency}. The paper aims to motivate methodological discussion and future empirical work toward more transparent and reproducible LLM-based annotation in software engineering research.",
+    "authors": [
+      "Mia Mohammad Imran",
+      "Tarannum Shaila Zaman"
+    ],
+    "publication_date": "2025-12-17T21:24:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2512.15979v1",
+    "download_url": "https://arxiv.org/abs/2512.15979v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Weights can be Harmful: Pareto Search versus Weighted Search in Multi-Objective Search-Based Software Engineering",
+    "abstract": "In presence of multiple objectives to be optimized in Search-Based Software Engineering (SBSE), Pareto search has been commonly adopted. It searches for a good approximation of the problem's Pareto optimal solutions, from which the stakeholders choose the most preferred solution according to their preferences. However, when clear preferences of the stakeholders (e.g., a set of weights which reflect relative importance between objectives) are available prior to the search, weighted search is believed to be the first choice since it simplifies the search via converting the original multi-objective problem into a single-objective one and enable the search to focus on what only the stakeholders are interested in.\n  This paper questions such a \"weighted search first\" belief. We show that the weights can, in fact, be harmful to the search process even in the presence of clear preferences. Specifically, we conduct a large scale empirical study which consists of 38 systems/projects from three representative SBSE problems, together with two types of search budget and nine sets of weights, leading to 604 cases of comparisons. Our key finding is that weighted search reaches a certain level of solution quality by consuming relatively less resources at the early stage of the search; however, Pareto search is at the majority of the time (up to 77% of the cases) significantly better than its weighted counterpart, as long as we allow a sufficient, but not unrealistic search budget. This, together with other findings and actionable suggestions in the paper, allows us to codify pragmatic and comprehensive guidance on choosing weighted and Pareto search for SBSE under the circumstance that clear preferences are available. All code and data can be accessed at: https://github.com/ideas-labo/pareto-vs-weight-for-sbse.",
+    "authors": [
+      "Tao Chen",
+      "Miqing Li"
+    ],
+    "publication_date": "2022-02-08T09:09:20Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.03728v1",
+    "download_url": "https://arxiv.org/abs/2202.03728v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "We Don't Need Another Hero? The Impact of \"Heroes\" on Software Development",
+    "abstract": "A software project has \"Hero Developers\" when 80% of contributions are delivered by 20% of the developers. Are such heroes a good idea? Are too many heroes bad for software quality? Is it better to have more/less heroes for different kinds of projects? To answer these questions, we studied 661 open source projects from Public open source software (OSS) Github and 171 projects from an Enterprise Github.\n  We find that hero projects are very common. In fact, as projects grow in size, nearly all project become hero projects. These findings motivated us to look more closely at the effects of heroes on software development. Analysis shows that the frequency to close issues and bugs are not significantly affected by the presence of project type (Public or Enterprise). Similarly, the time needed to resolve an issue/bug/enhancement is not affected by heroes or project type. This is a surprising result since, before looking at the data, we expected that increasing heroes on a project will slow down howfast that project reacts to change. However, we do find a statistically significant association between heroes, project types, and enhancement resolution rates. Heroes do not affect enhancement resolution rates in Public projects. However, in Enterprise projects, the more heroes increase the rate at which project complete enhancements.\n  In summary, our empirical results call for a revision of a long-held truism in software engineering. Software heroes are far more common and valuable than suggested by the literature, particularly for medium to large Enterprise developments. Organizations should reflect on better ways to find and retain more of these heroes",
+    "authors": [
+      "Amritanshu Agrawal",
+      "Akond Rahman",
+      "Rahul Krishna",
+      "Alexander Sobran",
+      "Tim Menzies"
+    ],
+    "publication_date": "2017-10-25T02:26:06Z",
+    "arxiv_id": "http://arxiv.org/abs/1710.09055v2",
+    "download_url": "https://arxiv.org/abs/1710.09055v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Quantum Mini-Apps for Engineering Applications: A Case Study",
+    "abstract": "In this work, we present a case study in implementing a variational quantum algorithm for solving the Poisson equation, which is a commonly encountered partial differential equation in science and engineering. We highlight the practical challenges encountered in mapping the algorithm to physical hardware, and the software engineering considerations needed to achieve realistic results on today's non-fault-tolerant systems.",
+    "authors": [
+      "Horia Mărgărit",
+      "Amanda Bowman",
+      "Krishnageetha Karuppasamy",
+      "Alberto Maldonado-Romo",
+      "Vardaan Sahgal",
+      "Brian J. McDermott"
+    ],
+    "publication_date": "2024-11-19T23:19:43Z",
+    "arxiv_id": "http://arxiv.org/abs/2411.12920v1",
+    "download_url": "https://arxiv.org/abs/2411.12920v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Shaping a Profession, Building a Community: A Practitioner-Led Investigation of Public Interest Technologists in Civil Society",
+    "abstract": "The label `public interest technology' (PIT) is growing in popularity among those seeking to use `tech for good' - especially among technical practitioners working in civil society and nonprofit organizations. PIT encompasses a broad range of sociotechnical work across professional domains and sectors; however, the trend remains understudied within sociotechnical research. This paper describes a mixed-methods study, designed and conducted by PIT practitioners at the Center for Democracy and Technology, that characterizes technologists within the specific context of civil society, civil rights, and advocacy organizations in North America and Western Europe. We conducted interviews with civil society leaders to investigate how PIT practitioners position the field and themselves, and we held a roundtable discussion bringing diverse voices together to make meaning of this growing phenomenon. Ultimately, we find that PIT remains both defined and plagued by its expansiveness, and that today's civil society public interest technologists see a need for both (a) more robust professionalization infrastructures, including philanthropic attention, and (b) more engaged, coherent community. This study illuminates a nascent intersection of technology and policy on-the-ground that is of growing relevance to critical sociotechnical research on the shifting relationship between computing and society.",
+    "authors": [
+      "Mallory Knodel",
+      "Mallika Balakrishnan",
+      "Lauren M. Chambers"
+    ],
+    "publication_date": "2025-08-10T08:15:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2508.07230v1",
+    "download_url": "https://arxiv.org/abs/2508.07230v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Lack of Shared Understanding of Non-Functional Requirements in Continuous Software Engineering: Accidental or Essential?",
+    "abstract": "Building shared understanding of requirements is key to ensuring downstream software activities are efficient and effective. However, in continuous software engineering (CSE) some lack of shared understanding is an expected, and essential, part of a rapid feedback learning cycle. At the same time, there is a key trade-off with avoidable costs, such as rework, that come from accidental gaps in shared understanding. This trade-off is even more challenging for non-functional requirements (NFRs), which have significant implications for product success. Comprehending and managing NFRs is especially difficult in small, agile organizations. How such organizations manage shared understanding of NFRs in CSE is understudied. We conducted a case study of three small organizations scaling up CSE to further understand and identify factors that contribute to lack of shared understanding of NFRs, and its relationship to rework. Our in-depth analysis identified 41 NFR-related software tasks as rework due to a lack of shared understanding of NFRs. Of these 41 tasks 78% were due to avoidable (accidental) lack of shared understanding of NFRs. Using a mixed-methods approach we identify factors that contribute to lack of shared understanding of NFRs, such as the lack of domain knowledge, rapid pace of change, and cross-organizational communication problems. We also identify recommended strategies to mitigate lack of shared understanding through more effective management of requirements knowledge in such organizations. We conclude by discussing the complex relationship between shared understanding of requirements, rework and, CSE.",
+    "authors": [
+      "Colin Werner",
+      "Ze Shi Li",
+      "Neil Ernst",
+      "Daniela Damian"
+    ],
+    "publication_date": "2020-07-03T15:32:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2007.01761v1",
+    "download_url": "https://arxiv.org/abs/2007.01761v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The application of artificial intelligence in software engineering: a review challenging conventional wisdom",
+    "abstract": "The field of artificial intelligence (AI) is witnessing a recent upsurge in research, tools development, and deployment of applications. Multiple software companies are shifting their focus to developing intelligent systems; and many others are deploying AI paradigms to their existing processes. In parallel, the academic research community is injecting AI paradigms to provide solutions to traditional engineering problems. Similarly, AI has evidently been proved useful to software engineering (SE). When one observes the SE phases (requirements, design, development, testing, release, and maintenance), it becomes clear that multiple AI paradigms (such as neural networks, machine learning, knowledge-based systems, natural language processing) could be applied to improve the process and eliminate many of the major challenges that the SE field has been facing. This survey chapter is a review of the most commonplace methods of AI applied to SE. The review covers methods between years 1975-2017, for the requirements phase, 46 major AI-driven methods are found, 19 for design, 15 for development, 68 for testing, and 15 for release and maintenance. Furthermore, the purpose of this chapter is threefold; firstly, to answer the following questions: is there sufficient intelligence in the SE lifecycle? What does applying AI to SE entail? Secondly, to measure, formulize, and evaluate the overlap of SE phases and AI disciplines. Lastly, this chapter aims to provide serious questions to challenging the current conventional wisdom (i.e., status quo) of the state-of-the-art, craft a call for action, and to redefine the path forward.",
+    "authors": [
+      "Feras A. Batarseh",
+      "Rasika Mohod",
+      "Abhinav Kumar",
+      "Justin Bui"
+    ],
+    "publication_date": "2021-08-03T15:59:59Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.01591v1",
+    "download_url": "https://arxiv.org/abs/2108.01591v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Innovative Behaviour of Software Engineers: Findings from a Pilot Case Study",
+    "abstract": "Context: In the workplace, some individuals engage in the voluntary and intentional generation, promotion, and realization of new ideas for the benefit of individual performance, group effectiveness, or the organization. The literature classifies this phenomenon as innovative behaviour. Despite its importance to the development of innovation, innovative behaviour has not been fully investigated in software engineering. Objective: To understand the factors that support or inhibit innovative behaviour in software engineering practice. Method: We conducted a pilot case study in a Canadian software company using interviews and observations as data collection techniques. Using qualitative analysis, we identified relevant factors and relationships not addressed by studies from other areas. Results: Individual innovative behaviour is influenced by individual attitudes and also by situational factors such as relationships in the workplace, organizational characteristics, and project type. We built a model to express the interacting effects of these factors. Conclusions: Innovative behaviour is dependent on individual and contextual factors. Our results contribute to relevant impacts on research and practice, and to topics that deserve further study.",
+    "authors": [
+      "Cleviton Monteiro",
+      "Fabio Queda Bueno da Silva",
+      "Luiz Fernando Capretz"
+    ],
+    "publication_date": "2016-12-02T16:19:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1612.04648v1",
+    "download_url": "https://arxiv.org/abs/1612.04648v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Survey of Requirement Engineering Process in Android Application Development",
+    "abstract": "Mobile application development is the most rapidly growing industry in the world. Nowadays, people totally depend on smart phones for performing daily routine tasks which results in tremendous rises in the expectation of human being from IT industry which increase the requirements of human being. In order to tackle the uncontrolled changes in the requirements, IT experts performed some proper requirement engineering process (REP). Therefore, in this paper we are performing industry survey by asking them several questions related to the REP from android developer in order to understand the REP used in the IT industry. Results we extract from this study is satisfactory used in order to make REP more effective.",
+    "authors": [
+      "Ali Nawaz",
+      "Attique Ur Rehman",
+      "Wasi Haider Butt"
+    ],
+    "publication_date": "2020-08-30T07:52:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2008.13113v1",
+    "download_url": "https://arxiv.org/abs/2008.13113v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "PHYFU: Fuzzing Modern Physics Simulation Engines",
+    "abstract": "A physical simulation engine (PSE) is a software system that simulates physical environments and objects. Modern PSEs feature both forward and backward simulations, where the forward phase predicts the behavior of a simulated system, and the backward phase provides gradients (guidance) for learning-based control tasks, such as a robot arm learning to fetch items. This way, modern PSEs show promising support for learning-based control methods. To date, PSEs have been largely used in various high-profitable, commercial applications, such as games, movies, virtual reality (VR), and robotics. Despite the prosperous development and usage of PSEs by academia and industrial manufacturers such as Google and NVIDIA, PSEs may produce incorrect simulations, which may lead to negative results, from poor user experience in entertainment to accidents in robotics-involved manufacturing and surgical operations.\n  This paper introduces PHYFU, a fuzzing framework designed specifically for PSEs to uncover errors in both forward and backward simulation phases. PHYFU mutates initial states and asserts if the PSE under test behaves consistently with respect to basic Physics Laws (PLs). We further use feedback-driven test input scheduling to guide and accelerate the search for errors. Our study of four PSEs covers mainstream industrial vendors (Google and NVIDIA) as well as academic products. We successfully uncover over 5K error-triggering inputs that generate incorrect simulation results spanning across the whole software stack of PSEs.",
+    "authors": [
+      "Dongwei Xiao",
+      "Zhibo Liu",
+      "Shuai Wang"
+    ],
+    "publication_date": "2023-07-20T12:26:50Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.10818v2",
+    "download_url": "https://arxiv.org/abs/2307.10818v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Students' Perception of LLM Use in Requirements Engineering Education: An Empirical Study Across Two Universities",
+    "abstract": "The integration of Large Language Models (LLMs) in Requirements Engineering (RE) education is reshaping pedagogical approaches, seeking to enhance student engagement and motivation while providing practical tools to support their professional future. This study empirically evaluates the impact of integrating LLMs in RE coursework. We examined how the guided use of LLMs influenced students' learning experiences, and what benefits and challenges they perceived in using LLMs in RE practices. The study collected survey data from 179 students across two RE courses in two universities. LLMs were integrated into coursework through different instructional formats, i.e., individual assignments versus a team-based Agile project. Our findings indicate that LLMs improved students' comprehension of RE concepts, particularly in tasks like requirements elicitation and documentation. However, students raised concerns about LLMs in education, including academic integrity, overreliance on AI, and challenges in integrating AI-generated content into assignments. Students who worked on individual assignments perceived that they benefited more than those who worked on team-based assignments, highlighting the importance of contextual AI integration. This study offers recommendations for the effective integration of LLMs in RE education. It proposes future research directions for balancing AI-assisted learning with critical thinking and collaborative practices in RE courses.",
+    "authors": [
+      "Sharon Guardado",
+      "Risha Parveen",
+      "Zheying Zhang",
+      "Maruf Rayhan",
+      "Nirnaya Tripathi"
+    ],
+    "publication_date": "2025-09-07T09:52:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.05995v1",
+    "download_url": "https://arxiv.org/abs/2509.05995v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Just Enough, Just in Time, Just for \"Me\": Fundamental Principles for Engineering IoT-native Software Systems",
+    "abstract": "By seamlessly integrating everyday objects and by changing the way we interact with our surroundings, Internet of Things (IoT) is drastically improving the life quality of households and enhancing the productivity of businesses. Given the unique IoT characteristics, IoT applications have emerged distinctively from the mainstream application types. Inspired by the outlook of a programmable world, we further foresee an IoT-native trend in designing, developing, deploying, and maintaining software systems. However, although the challenges of IoT software projects are frequently discussed, addressing those challenges are still in the \"crossing the chasm\" period. By participating in a few various IoT projects, we gradually distilled three fundamental principles for engineering IoT-native software systems, such as just enough, just in time, and just for \"me\". These principles target the challenges that are associated with the most typical features of IoT environments, ranging from resource limits to technology heterogeneity of IoT devices. We expect this research to trigger dedicated efforts, techniques and theories for the topic IoT-native software engineering.",
+    "authors": [
+      "Zheng Li",
+      "Rajiv Ranjan"
+    ],
+    "publication_date": "2022-01-24T19:37:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2201.09931v1",
+    "download_url": "https://arxiv.org/abs/2201.09931v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Active learning for regression in engineering populations: A risk-informed approach",
+    "abstract": "Regression is a fundamental prediction task common in data-centric engineering applications that involves learning mappings between continuous variables. In many engineering applications (e.g.\\ structural health monitoring), feature-label pairs used to learn such mappings are of limited availability which hinders the effectiveness of traditional supervised machine learning approaches. The current paper proposes a methodology for overcoming the issue of data scarcity by combining active learning with hierarchical Bayesian modelling.\n  Active learning is an approach for preferentially acquiring feature-label pairs in a resource-efficient manner. In particular, the current work adopts a risk-informed approach that leverages contextual information associated with regression-based engineering decision-making tasks (e.g.\\ inspection and maintenance). Hierarchical Bayesian modelling allow multiple related regression tasks to be learned over a population, capturing local and global effects. The information sharing facilitated by this modelling approach means that information acquired for one engineering system can improve predictive performance across the population.\n  The proposed methodology is demonstrated using an experimental case study. Specifically, multiple regressions are performed over a population of machining tools, where the quantity of interest is the surface roughness of the workpieces. An inspection and maintenance decision process is defined using these regression tasks which is in turn used to construct the active-learning algorithm. The novel methodology proposed is benchmarked against an uninformed approach to label acquisition and independent modelling of the regression tasks. It is shown that the proposed approach has superior performance in terms of expected cost -- maintaining predictive performance while reducing the number of inspections required.",
+    "authors": [
+      "Daniel R. Clarkson",
+      "Lawrence A. Bull",
+      "Chandula T. Wickramarachchi",
+      "Elizabeth J. Cross",
+      "Timothy J. Rogers",
+      "Keith Worden",
+      "Nikolaos Dervilis",
+      "Aidan J. Hughes"
+    ],
+    "publication_date": "2024-09-06T15:03:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2409.04328v2",
+    "download_url": "https://arxiv.org/abs/2409.04328v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Requirement Engineering Challenges for AI-intense Systems Development",
+    "abstract": "Availability of powerful computation and communication technology as well as advances in artificial intelligence enable a new generation of complex, AI-intense systems and applications. Such systems and applications promise exciting improvements on a societal level, yet they also bring with them new challenges for their development. In this paper we argue that significant challenges relate to defining and ensuring behaviour and quality attributes of such systems and applications. We specifically derive four challenge areas from relevant use cases of complex, AI-intense systems and applications related to industry, transportation, and home automation: understanding, determining, and specifying (i) contextual definitions and requirements, (ii) data attributes and requirements, (iii) performance definition and monitoring, and (iv) the impact of human factors on system acceptance and success. Solving these challenges will imply process support that integrates new requirements engineering methods into development approaches for complex, AI-intense systems and applications. We present these challenges in detail and propose a research roadmap.",
+    "authors": [
+      "Hans-Martin Heyn",
+      "Eric Knauss",
+      "Amna Pir Muhammad",
+      "Olof Eriksson",
+      "Jennifer Linder",
+      "Padmini Subbiah",
+      "Shameer Kumar Pradhan",
+      "Sagar Tungal"
+    ],
+    "publication_date": "2021-03-18T14:06:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.10270v2",
+    "download_url": "https://arxiv.org/abs/2103.10270v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Physics-Driven Regularization of Deep Neural Networks for Enhanced Engineering Design and Analysis",
+    "abstract": "In this paper, we introduce a physics-driven regularization method for training of deep neural networks (DNNs) for use in engineering design and analysis problems. In particular, we focus on prediction of a physical system, for which in addition to training data, partial or complete information on a set of governing laws is also available. These laws often appear in the form of differential equations, derived from first principles, empirically-validated laws, or domain expertise, and are usually neglected in data-driven prediction of engineering systems. We propose a training approach that utilizes the known governing laws and regularizes data-driven DNN models by penalizing divergence from those laws. The first two numerical examples are synthetic examples, where we show that in constructing a DNN model that best fits the measurements from a physical system, the use of our proposed regularization results in DNNs that are more interpretable with smaller generalization errors, compared to other common regularization methods. The last two examples concern metamodeling for a random Burgers' system and for aerodynamic analysis of passenger vehicles, where we demonstrate that the proposed regularization provides superior generalization accuracy compared to other common alternatives.",
+    "authors": [
+      "Mohammad Amin Nabian",
+      "Hadi Meidani"
+    ],
+    "publication_date": "2018-10-11T17:12:34Z",
+    "arxiv_id": "http://arxiv.org/abs/1810.05547v2",
+    "download_url": "https://arxiv.org/abs/1810.05547v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Daily Life of Software Engineers during the COVID-19 Pandemic",
+    "abstract": "Following the onset of the COVID-19 pandemic and subsequent lockdowns, software engineers' daily life was disrupted and abruptly forced into remote working from home. This change deeply impacted typical working routines, affecting both well-being and productivity. Moreover, this pandemic will have long-lasting effects in the software industry, with several tech companies allowing their employees to work from home indefinitely if they wish to do so. Therefore, it is crucial to analyze and understand how a typical working day looks like when working from home and how individual activities affect software developers' well-being and productivity. We performed a two-wave longitudinal study involving almost 200 globally carefully selected software professionals, inferring daily activities with perceived well-being, productivity, and other relevant psychological and social variables. Results suggest that the time software engineers spent doing specific activities from home was similar when working in the office. However, we also found some significant mean differences. The amount of time developers spent on each activity was unrelated to their well-being, perceived productivity, and other variables. We conclude that working remotely is not per se a challenge for organizations or developers.",
+    "authors": [
+      "Daniel Russo",
+      "Paul P. H. Hanel",
+      "Seraphina Altnickel",
+      "Niels van Berkel"
+    ],
+    "publication_date": "2021-01-12T09:22:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2101.04363v1",
+    "download_url": "https://arxiv.org/abs/2101.04363v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Theoretical Engineering and Satellite Comlink of a PTVD-SHAM System",
+    "abstract": "This paper focuses on super helical memory system's design, 'Engineering, Architectural and Satellite Communications' as a theoretical approach of an invention-model to 'store time-data'. The current release entails three concepts: 1- an in-depth theoretical physics engineering of the chip including its, 2- architectural concept based on VLSI methods, and 3- the time-data versus data-time algorithm. The 'Parallel Time Varying & Data Super-helical Access Memory' (PTVD-SHAM), possesses a waterfall effect in its architecture dealing with the process of voltage output-switch into diverse logic and quantum states described as 'Boolean logic & image-logic', respectively. Quantum dot computational methods are explained by utilizing coiled carbon nanotubes (CCNTs) and CNT field effect transistors (CNFETs) in the chip's architecture. Quantum confinement, categorized quantum well substrate, and B-field flux involvements are discussed in theory. Multi-access of coherent sequences of 'qubit addressing' in any magnitude, gained as pre-defined, here e.g., the 'big O notation' asymptotically confined into singularity while possessing a magnitude of 'infinity' for the orientation of array displacement. Gaussian curvature of k<0 versus k'>(k<0) is debated in aim of specifying the 2D electron gas characteristics, data storage system for defining short and long time cycles for different CCNT diameters where space-time continuum is folded by chance for the particle. Precise pre/post data timing for, e.g., seismic waves before earthquake mantle-reach event occurrence, including time varying self-clocking devices in diverse geographic locations for radar systems is illustrated in the Subsections of the paper. The theoretical fabrication process, electromigration between chip's components is discussed as well.",
+    "authors": [
+      "Philip B. Alipour"
+    ],
+    "publication_date": "2007-10-01T09:35:30Z",
+    "arxiv_id": "http://arxiv.org/abs/0710.0244v1",
+    "download_url": "https://arxiv.org/abs/0710.0244v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Practicality of Agent-Based Modeling of Civil Violence: an Assessment",
+    "abstract": "Joshua Epstein (2002) proposed a simple agent-based model to describe the formation and evolution of spontaneous civil violence (such as riots or violent demonstrations). In this paper we study the practical applicability of Epstein's model.",
+    "authors": [
+      "Christopher Thron",
+      "Elizabeth Jackson"
+    ],
+    "publication_date": "2015-01-22T02:43:32Z",
+    "arxiv_id": "http://arxiv.org/abs/1501.05838v1",
+    "download_url": "https://arxiv.org/abs/1501.05838v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Advancing Financial Engineering with Foundation Models: Progress, Applications, and Challenges",
+    "abstract": "The advent of foundation models (FMs), large-scale pre-trained models with strong generalization capabilities, has opened new frontiers for financial engineering. While general-purpose FMs such as GPT-4 and Gemini have demonstrated promising performance in tasks ranging from financial report summarization to sentiment-aware forecasting, many financial applications remain constrained by unique domain requirements such as multimodal reasoning, regulatory compliance, and data privacy. These challenges have spurred the emergence of financial foundation models (FFMs): a new class of models explicitly designed for finance. This survey presents a comprehensive overview of FFMs, with a taxonomy spanning three key modalities: financial language foundation models (FinLFMs), financial time-series foundation models (FinTSFMs), and financial visual-language foundation models (FinVLFMs). We review their architectures, training methodologies, datasets, and real-world applications. Furthermore, we identify critical challenges in data availability, algorithmic scalability, and infrastructure constraints and offer insights into future research opportunities. We hope this survey can serve as both a comprehensive reference for understanding FFMs and a practical roadmap for future innovation.",
+    "authors": [
+      "Liyuan Chen",
+      "Shuoling Liu",
+      "Jiangpeng Yan",
+      "Xiaoyu Wang",
+      "Henglin Liu",
+      "Chuang Li",
+      "Kecheng Jiao",
+      "Jixuan Ying",
+      "Yang Veronica Liu",
+      "Qiang Yang",
+      "Xiu Li"
+    ],
+    "publication_date": "2025-07-07T16:06:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.18577v2",
+    "download_url": "https://arxiv.org/abs/2507.18577v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Near-term Application Engineering Challenges in Emerging Superconducting Qudit Processors",
+    "abstract": "We review the prospects to build quantum processors based on superconducting transmons and radiofrequency cavities for testing applications in the NISQ era. We identify engineering opportunities and challenges for implementation of algorithms in simulation, combinatorial optimization, and quantum machine learning in qudit-based quantum computers.",
+    "authors": [
+      "Davide Venturelli",
+      "Erik Gustafson",
+      "Doga Kurkcuoglu",
+      "Silvia Zorzetti"
+    ],
+    "publication_date": "2025-06-05T21:41:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.05608v1",
+    "download_url": "https://arxiv.org/abs/2506.05608v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Physics-Informed Machine Learning in Biomedical Science and Engineering",
+    "abstract": "Physics-informed machine learning (PIML) is emerging as a potentially transformative paradigm for modeling complex biomedical systems by integrating parameterized physical laws with data-driven methods. Here, we review three main classes of PIML frameworks: physics-informed neural networks (PINNs), neural ordinary differential equations (NODEs), and neural operators (NOs), highlighting their growing role in biomedical science and engineering. We begin with PINNs, which embed governing equations into deep learning models and have been successfully applied to biosolid and biofluid mechanics, mechanobiology, and medical imaging among other areas. We then review NODEs, which offer continuous-time modeling, especially suited to dynamic physiological systems, pharmacokinetics, and cell signaling. Finally, we discuss deep NOs as powerful tools for learning mappings between function spaces, enabling efficient simulations across multiscale and spatially heterogeneous biological domains. Throughout, we emphasize applications where physical interpretability, data scarcity, or system complexity make conventional black-box learning insufficient. We conclude by identifying open challenges and future directions for advancing PIML in biomedical science and engineering, including issues of uncertainty quantification, generalization, and integration of PIML and large language models.",
+    "authors": [
+      "Nazanin Ahmadi",
+      "Qianying Cao",
+      "Jay D. Humphrey",
+      "George Em Karniadakis"
+    ],
+    "publication_date": "2025-10-06T22:52:39Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.05433v1",
+    "download_url": "https://arxiv.org/abs/2510.05433v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Augmenting the Generality and Performance of Large Language Models for Software Engineering",
+    "abstract": "Large Language Models (LLMs) are revolutionizing software engineering (SE), with special emphasis on code generation and analysis. However, their applications to broader SE practices including conceptualization, design, and other non-code tasks, remain partially underexplored. This research aims to augment the generality and performance of LLMs for SE by (1) advancing the understanding of how LLMs with different characteristics perform on various non-code tasks, (2) evaluating them as sources of foundational knowledge in SE, and (3) effectively detecting hallucinations on SE statements. The expected contributions include a variety of LLMs trained and evaluated on domain-specific datasets, new benchmarks on foundational knowledge in SE, and methods for detecting hallucinations. Initial results in terms of performance improvements on various non-code tasks are promising.",
+    "authors": [
+      "Fabian C. Peña"
+    ],
+    "publication_date": "2025-06-13T08:00:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.11548v1",
+    "download_url": "https://arxiv.org/abs/2506.11548v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Generating Proto-Personas through Prompt Engineering: A Case Study on Efficiency, Effectiveness and Empathy",
+    "abstract": "Proto-personas are commonly used during early-stage Product Discovery, such as Lean Inception, to guide product definition and stakeholder alignment. However, the manual creation of proto-personas is often time-consuming, cognitively demanding, and prone to bias. In this paper, we propose and empirically investigate a prompt engineering-based approach to generate proto-personas with the support of Generative AI (GenAI). Our goal is to evaluate the approach in terms of efficiency, effectiveness, user acceptance, and the empathy elicited by the generated personas. We conducted a case study with 19 participants embedded in a real Lean Inception, employing a qualitative and quantitative methods design. The results reveal the approach's efficiency by reducing time and effort and improving the quality and reusability of personas in later discovery phases, such as Minimum Viable Product (MVP) scoping and feature refinement. While acceptance was generally high, especially regarding perceived usefulness and ease of use, participants noted limitations related to generalization and domain specificity. Furthermore, although cognitive empathy was strongly supported, affective and behavioral empathy varied significantly across participants. These results contribute novel empirical evidence on how GenAI can be effectively integrated into software Product Discovery practices, while also identifying key challenges to be addressed in future iterations of such hybrid design processes.",
+    "authors": [
+      "Fernando Ayach",
+      "Vitor Lameirão",
+      "Raul Leão",
+      "Jerfferson Felizardo",
+      "Rafael Sobrinho",
+      "Vanessa Borges",
+      "Patrícia Matsubara",
+      "Awdren Fontão"
+    ],
+    "publication_date": "2025-07-11T13:42:12Z",
+    "arxiv_id": "http://arxiv.org/abs/2507.08594v1",
+    "download_url": "https://arxiv.org/abs/2507.08594v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Using LLMs in Software Requirements Specifications: An Empirical Evaluation",
+    "abstract": "The creation of a Software Requirements Specification (SRS) document is important for any software development project. Given the recent prowess of Large Language Models (LLMs) in answering natural language queries and generating sophisticated textual outputs, our study explores their capability to produce accurate, coherent, and structured drafts of these documents to accelerate the software development lifecycle. We assess the performance of GPT-4 and CodeLlama in drafting an SRS for a university club management system and compare it against human benchmarks using eight distinct criteria. Our results suggest that LLMs can match the output quality of an entry-level software engineer to generate an SRS, delivering complete and consistent drafts. We also evaluate the capabilities of LLMs to identify and rectify problems in a given requirements document. Our experiments indicate that GPT-4 is capable of identifying issues and giving constructive feedback for rectifying them, while CodeLlama's results for validation were not as encouraging. We repeated the generation exercise for four distinct use cases to study the time saved by employing LLMs for SRS generation. The experiment demonstrates that LLMs may facilitate a significant reduction in development time for entry-level software engineers. Hence, we conclude that the LLMs can be gainfully used by software engineers to increase productivity by saving time and effort in generating, validating and rectifying software requirements.",
+    "authors": [
+      "Madhava Krishna",
+      "Bhagesh Gaur",
+      "Arsh Verma",
+      "Pankaj Jalote"
+    ],
+    "publication_date": "2024-04-27T09:37:00Z",
+    "arxiv_id": "http://arxiv.org/abs/2404.17842v1",
+    "download_url": "https://arxiv.org/abs/2404.17842v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An engineer's brief introduction to microwave quantum optics and a single-port state-space representation",
+    "abstract": "Classical microwave circuit theory is incapable of representing some phenomena at the quantum level. To include quantum statistical effects when treating microwave networks, various theoretical treatments can be employed such as quantum input-output network (QION) theory and SLH theory. However, these require a reformulation of classical microwave theory. To make these topics comprehensible to an electrical engineer, we demonstrate some underpinnings of microwave quantum optics in terms of microwave engineering. For instance, we equate traveling-wave phasors in a transmission line ($V_0^+$) directly to bosonic field operators. Furthermore, we extend QION to include a state-space representation and a transfer function for a single port quantum network. This serves as a case study to highlight how microwave methodologies can be applied in open quantum systems. Although the same conclusion could be found from a full SLH theory treatment, our method was derived directly from first principles of QION.",
+    "authors": [
+      "Malida O. Hecht",
+      "Antonio J. Cobarrubia",
+      "Kyle M. Sundqvist"
+    ],
+    "publication_date": "2020-11-13T02:53:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2011.06734v2",
+    "download_url": "https://arxiv.org/abs/2011.06734v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Smart Cities: Striking a Balance Between Urban Resilience and Civil Liberties",
+    "abstract": "Cities are becoming smarter and more resilient by integrating urban infrastructure with information technology. However, concerns grow that smart cities might reverse progress on civil liberties when sensing, profiling, and predicting citizen activities; undermining citizen autonomy in connectivity, mobility, and energy consumption; and deprivatizing digital infrastructure. In response, cities need to deploy technical breakthroughs, such as privacy-enhancing technologies, cohort modelling, and fair and explainable machine learning. However, as throwing technologies at cities cannot always address civil liberty concerns, cities must ensure transparency and foster citizen participation to win public trust about the way resilience and liberties are balanced.",
+    "authors": [
+      "Sangchul Park"
+    ],
+    "publication_date": "2023-03-26T01:09:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.14597v1",
+    "download_url": "https://arxiv.org/abs/2303.14597v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Scaling Trajectories in Civil Aircraft (1913-1997)",
+    "abstract": "Using entropy statistics we analyse scaling patterns in terms of changes in the ratios among product characteristics of 143 designs in civil aircraft. Two allegedly dominant designs, the piston propeller DC3 and the turbofan Boeing 707, are shown to have triggered a scaling trajectory at the level of the respective firms. Along these trajectories different variables have been scaled at different moments in time: this points to the versatility of a dominant design which allows a firm to react to a variety of user needs. Scaling at the level of the industry took off only after subsequently reengineered models were introduced, like the piston propeller Douglas DC4 and the turbofan Boeing 767. The two scaling trajectories in civil aircraft corresponding to the piston propeller and the turbofan paradigm can be compared with a single, less pronounced scaling trajectory in helicopter technology for which we have data during the period 1940-1996. Management and policy implications can be specified in terms of the phases of codification at the firm and the industry level.",
+    "authors": [
+      "Koen Frenken",
+      "Loet Leydesdorff"
+    ],
+    "publication_date": "2010-01-08T16:38:03Z",
+    "arxiv_id": "http://arxiv.org/abs/1001.1312v1",
+    "download_url": "https://arxiv.org/abs/1001.1312v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Requirements Engineering for a Web-based Research, Technology & Innovation Monitoring Tool",
+    "abstract": "With the increasing significance of Research, Technology, and Innovation (RTI) policies in recent years, the demand for detailed information about the performance of these sectors has surged. Many of the current tools are limited in their application purpose. To address these issues, we introduce a requirements engineering process to identify stakeholders and elicitate requirements to derive a system architecture, for a web-based interactive and open-access RTI system monitoring tool. Based on several core modules, we introduce a multi-tier software architecture of how such a tool is generally implemented from the perspective of software engineers. A cornerstone of this architecture is the user-facing dashboard module. We describe in detail the requirements for this module and additionally illustrate these requirements with the real example of the Austrian RTI Monitor.",
+    "authors": [
+      "Alexandra Mazak-Huemer",
+      "Christian Huemer",
+      "Michael Vierhauser",
+      "Jürgen Janger"
+    ],
+    "publication_date": "2025-01-18T20:36:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2501.10872v1",
+    "download_url": "https://arxiv.org/abs/2501.10872v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A New K means Grey Wolf Algorithm for Engineering Problems",
+    "abstract": "Purpose: The development of metaheuristic algorithms has increased by researchers to use them extensively in the field of business, science, and engineering. One of the common metaheuristic optimization algorithms is called Grey Wolf Optimization (GWO). The algorithm works based on imitation of the wolves' searching and the process of attacking grey wolves. The main purpose of this paper to overcome the GWO problem which is trapping into local optima.\n  Design or Methodology or Approach: In this paper, the K-means clustering algorithm is used to enhance the performance of the original Grey Wolf Optimization by dividing the population into different parts. The proposed algorithm is called K-means clustering Grey Wolf Optimization (KMGWO).\n  Findings: Results illustrate the efficiency of KMGWO is superior to GWO. To evaluate the performance of the KMGWO, KMGWO applied to solve 10 CEC2019 benchmark test functions. Results prove that KMGWO is better compared to GWO. KMGWO is also compared to Cat Swarm Optimization (CSO), Whale Optimization Algorithm-Bat Algorithm (WOA-BAT), and WOA, so, KMGWO achieves the first rank in terms of performance. Statistical results proved that KMGWO achieved a higher significant value compared to the compared algorithms. Also, the KMGWO is used to solve a pressure vessel design problem and it has outperformed results.\n  Originality/value: Results prove that KMGWO is superior to GWO. KMGWO is also compared to cat swarm optimization (CSO), whale optimization algorithm-bat algorithm (WOA-BAT), WOA, and GWO so KMGWO achieved the first rank in terms of performance. Also, the KMGWO is used to solve a classical engineering problem and it is superior",
+    "authors": [
+      "Hardi M. Mohammed",
+      "Zrar Kh. Abdul",
+      "Tarik A. Rashid",
+      "Abeer Alsadoon",
+      "Nebojsa Bacanin"
+    ],
+    "publication_date": "2021-02-27T04:29:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.05760v1",
+    "download_url": "https://arxiv.org/abs/2103.05760v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Developers Perception of Peer Code Review in Research Software Development",
+    "abstract": "Background: Research software is software developed by and/or used by researchers, across a wide variety of domains, to perform their research. Because of the complexity of research software, developers cannot conduct exhaustive testing. As a result, researchers have lower confidence in the correctness of the output of the software. Peer code review, a standard software engineering practice, has helped address this problem in other types of software. Aims: Peer code review is less prevalent in research software than it is in other types of software. In addition, the literature does not contain any studies about the use of peer code review in research software. Therefore, through analyzing developers perceptions, the goal of this work is to understand the current practice of peer code review in the development of research software, identify challenges and barriers associated with peer code review in research software, and present approaches to improve the peer code review in research software. Method: We conducted interviews and a community survey of research software developers to collect information about their current peer code review practices, difficulties they face, and how they address those difficulties. Results: We received 84 unique responses from the interviews and surveys. The results show that while research software teams review a large amount of their code, they lack formal process, proper organization, and adequate people to perform the reviews. Conclusions: Use of peer code review is promising for improving the quality of research software and thereby improving the trustworthiness of the underlying research results. In addition, by using peer code review, research software developers produce more readable and understandable code, which will be easier to maintain.",
+    "authors": [
+      "Nasir U. Eisty",
+      "Jeffrey C. Carver"
+    ],
+    "publication_date": "2021-09-22T18:40:05Z",
+    "arxiv_id": "http://arxiv.org/abs/2109.10971v1",
+    "download_url": "https://arxiv.org/abs/2109.10971v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Unifying Classification Schemes for Software Engineering Meta-Research",
+    "abstract": "Background: Classifications in meta-research enable researchers to cope with an increasing body of scientific knowledge. They provide a framework for, e.g., distinguishing methods, reports, reproducibility, and evaluation in a knowledge field as well as a common terminology. Both eases sharing, understanding and evolution of knowledge. In software engineering (SE), there are several classifications that describe the nature of SE research. Regarding the consolidation of the large body of classified knowledge in SE research, a generally applicable classification scheme is crucial. Moreover, the commonalities and differences among different classification schemes have rarely been studied. Due to the fact that classifications are documented textual, it is hard to catalog, reuse, and compare them. To the best of our knowledge, there is no research work so far that addresses documentation and systematic investigation of classifications in SE meta-research. Objective: We aim to construct a unified, generally applicable classification scheme for SE meta-research by collecting and documenting existing classification schemes and unifying their classes and categories. Method: Our execution plan is divided into three phases: construction, validation, and evaluation phase. For the construction phase, we perform a literature review to identify, collect, and analyze a set of established SE research classifications. In the validation phase, we analyze individual categories and classes of included papers. We use quantitative metrics from literature to conduct and assess the unification process to build a generally applicable classification scheme for SE research. Lastly, we investigate the applicability of the unified scheme. Therefore, we perform a workshop session followed by user studies w.r.t. investigations about reliability, correctness, and ease of use.",
+    "authors": [
+      "Angelika Kaplan",
+      "Thomas Kühn",
+      "Ralf Reussner"
+    ],
+    "publication_date": "2022-09-21T16:49:30Z",
+    "arxiv_id": "http://arxiv.org/abs/2209.10491v1",
+    "download_url": "https://arxiv.org/abs/2209.10491v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On Testing Quantum Programs",
+    "abstract": "A quantum computer (QC) can solve many computational problems more efficiently than a classic one. The field of QCs is growing: companies (such as DWave, IBM, Google, and Microsoft) are building QC offerings. We position that software engineers should look into defining a set of software engineering practices that apply to QC's software. To start this process, we give examples of challenges associated with testing such software and sketch potential solutions to some of these challenges.",
+    "authors": [
+      "Andriy Miranskyy",
+      "Lei Zhang"
+    ],
+    "publication_date": "2018-12-21T16:58:19Z",
+    "arxiv_id": "http://arxiv.org/abs/1812.09261v1",
+    "download_url": "https://arxiv.org/abs/1812.09261v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards Goal-oriented Prompt Engineering for Large Language Models: A Survey",
+    "abstract": "Large Language Models (LLMs) have shown prominent performance in various downstream tasks and prompt engineering plays a pivotal role in optimizing LLMs' performance. This paper, not only as an overview of current prompt engineering methods, but also aims to highlight the limitation of designing prompts based on an anthropomorphic assumption that expects LLMs to think like humans. From our review of 50 representative studies, we demonstrate that a goal-oriented prompt formulation, which guides LLMs to follow established human logical thinking, significantly improves the performance of LLMs. Furthermore, We introduce a novel taxonomy that categorizes goal-oriented prompting methods into five interconnected stages and we demonstrate the broad applicability of our framework. With four future directions proposed, we hope to further emphasize the power and potential of goal-oriented prompt engineering in all fields.",
+    "authors": [
+      "Haochen Li",
+      "Jonathan Leung",
+      "Zhiqi Shen"
+    ],
+    "publication_date": "2024-01-25T09:47:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.14043v3",
+    "download_url": "https://arxiv.org/abs/2401.14043v3",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Programming the Universe: The First Commandment of Software Engineering for all Varieties of Information Systems",
+    "abstract": "Since the early days of computers and programs, the process and outcomes of software development has been a minefield plagued with problems and failures, as much as the complexity and complication of software and its development has increased by a thousandfold in half a century. Over the years, a number of theories, laws, best practices, manifestos and methodologies have emerged, with varied degrees of (un)success. Our experience as software engineers of complex and large-scale systems shows that those guidelines are bound to previously defined and often narrow scopes. Enough is enough. Nowadays, nearly every company is in the software and services business and everything is - or is managed by - software. It is about time, then, that the laws that govern our universe ought to be redefined. In this context, we discuss and present a set of universal laws that leads us to propose the first commandment of software engineering for all varieties of information systems.",
+    "authors": [
+      "Silvio Meira",
+      "Vanilson Burégio",
+      "Paulo Borba",
+      "Vinicius Garcia",
+      "Jones Albuquerque",
+      "Sergio Soares"
+    ],
+    "publication_date": "2016-09-25T23:57:57Z",
+    "arxiv_id": "http://arxiv.org/abs/1609.07818v2",
+    "download_url": "https://arxiv.org/abs/1609.07818v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Hierarchical Bayesian Modelling for Knowledge Transfer Across Engineering Fleets via Multitask Learning",
+    "abstract": "A population-level analysis is proposed to address data sparsity when building predictive models for engineering infrastructure. Utilising an interpretable hierarchical Bayesian approach and operational fleet data, domain expertise is naturally encoded (and appropriately shared) between different sub-groups, representing (i) use-type, (ii) component, or (iii) operating condition. Specifically, domain expertise is exploited to constrain the model via assumptions (and prior distributions) allowing the methodology to automatically share information between similar assets, improving the survival analysis of a truck fleet and power prediction in a wind farm. In each asset management example, a set of correlated functions is learnt over the fleet, in a combined inference, to learn a population model. Parameter estimation is improved when sub-fleets share correlated information at different levels of the hierarchy. In turn, groups with incomplete data automatically borrow statistical strength from those that are data-rich. The statistical correlations enable knowledge transfer via Bayesian transfer learning, and the correlations can be inspected to inform which assets share information for which effect (i.e. parameter). Both case studies demonstrate the wide applicability to practical infrastructure monitoring, since the approach is naturally adapted between interpretable fleet models of different in situ examples.",
+    "authors": [
+      "L. A. Bull",
+      "D. Di Francesco",
+      "M. Dhada",
+      "O. Steinert",
+      "T. Lindgren",
+      "A. K. Parlikad",
+      "A. B. Duncan",
+      "M. Girolami"
+    ],
+    "publication_date": "2022-04-26T16:02:25Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.12404v4",
+    "download_url": "https://arxiv.org/abs/2204.12404v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Hybrid Approach Combining Control Theory and AI for Engineering Self-Adaptive Systems",
+    "abstract": "Control theoretical techniques have been successfully adopted as methods for self-adaptive systems design to provide formal guarantees about the effectiveness and robustness of adaptation mechanisms. However, the computational effort to obtain guarantees poses severe constraints when it comes to dynamic adaptation. In order to solve these limitations, in this paper, we propose a hybrid approach combining software engineering, control theory, and AI to design for software self-adaptation. Our solution proposes a hierarchical and dynamic system manager with performance tuning. Due to the gap between high-level requirements specification and the internal knob behavior of the managed system, a hierarchically composed components architecture seek the separation of concerns towards a dynamic solution. Therefore, a two-layered adaptive manager was designed to satisfy the software requirements with parameters optimization through regression analysis and evolutionary meta-heuristic. The optimization relies on the collection and processing of performance, effectiveness, and robustness metrics w.r.t control theoretical metrics at the offline and online stages. We evaluate our work with a prototype of the Body Sensor Network (BSN) in the healthcare domain, which is largely used as a demonstrator by the community. The BSN was implemented under the Robot Operating System (ROS) architecture, and concerns about the system dependability are taken as adaptation goals. Our results reinforce the necessity of performing well on such a safety-critical domain and contribute with substantial evidence on how hybrid approaches that combine control and AI-based techniques for engineering self-adaptive systems can provide effective adaptation.",
+    "authors": [
+      "Ricardo Diniz Caldas",
+      "Arthur Rodrigues",
+      "Eric Bernd Gil",
+      "Genaína Nunes Rodrigues",
+      "Thomas Vogel",
+      "Patrizio Pelliccione"
+    ],
+    "publication_date": "2020-04-24T15:19:28Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.11793v1",
+    "download_url": "https://arxiv.org/abs/2004.11793v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Towards Emotionally Intelligent Software Engineers: Understanding Students' Self-Perceptions After a Cooperative Learning Experience",
+    "abstract": "[Background] Emotional Intelligence (EI) can impact Software Engineering (SE) outcomes through improved team communication, conflict resolution, and stress management. SE workers face increasing pressure to develop both technical and interpersonal skills, as modern software development emphasizes collaborative work and complex team interactions. Despite EI's documented importance in professional practice, SE education continues to prioritize technical knowledge over emotional and social competencies. [Objective] This paper analyzes SE students' self-perceptions of their EI after a two-month cooperative learning project, using Mayer and Salovey's four-ability model to examine how students handle emotions in collaborative development. [Method] We conducted a case study with 29 SE students organized into four squads within a project-based learning course, collecting data through questionnaires and focus groups that included brainwriting and sharing circles, then analyzing the data using descriptive statistics and open coding. [Results] Students demonstrated stronger abilities in managing their own emotions compared to interpreting others' emotional states. Despite limited formal EI training, they developed informal strategies for emotional management, including structured planning and peer support networks, which they connected to improved productivity and conflict resolution. [Conclusion] This study shows how SE students perceive EI in a collaborative learning context and provides evidence-based insights into the important role of emotional competencies in SE education.",
+    "authors": [
+      "Allysson Allex Araújo",
+      "Marcos Kalinowski",
+      "Matheus Paixao",
+      "Daniel Graziotin"
+    ],
+    "publication_date": "2025-02-07T17:29:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2502.05108v1",
+    "download_url": "https://arxiv.org/abs/2502.05108v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "What Pakistani Computer Science and Software Engineering Students Think about Software Testing?",
+    "abstract": "Software testing is one of the crucial supporting processes of the software life cycle. Unfortunately for the software industry, the role is stigmatized, partly due to misperception and partly due to treatment of the role. The present study aims to analyze the situation to explore what restricts computer science and software engineering students from taking up a testing career in the software industry. To conduct this study, we surveyed 88 Pakistani students taking computer science or software engineering degrees. The results showed that the present study supports previous work into the unpopularity of testing compared to other software life cycle roles. Furthermore, the findings of our study showed that the role of tester has become a social role, with as many social connotations as technical implications.",
+    "authors": [
+      "Luiz Fernando Capretz",
+      "Abdul Rehman Gilal"
+    ],
+    "publication_date": "2023-06-01T16:55:01Z",
+    "arxiv_id": "http://arxiv.org/abs/2306.01033v1",
+    "download_url": "https://arxiv.org/abs/2306.01033v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Design Patterns for Self Adaptive Systems Engineering",
+    "abstract": "Self adaptation has been proposed to overcome the complexity of today's software systems which results from the uncertainty issue. Aspects of uncertainty include changing systems goals, changing resource availability and dynamic operating conditions. Feedback control loops have been recognized as vital elements for engineering self-adaptive systems. However, despite their importance, there is still a lack of systematic way of the design of the interactions between the different components comprising one particular feedback control loop as well as the interactions between components from different control loops . Most existing approaches are either domain specific or too abstract to be useful. In addition, the issue of multiple control loops is often neglected and consequently self adaptive systems are often designed around a single loop. In this paper we propose a set of design patterns for modeling and designing self adaptive software systems based on MAPE-K Control loop of IBM architecture blueprint which takes into account the multiple control loops issue. A case study is presented to illustrate the applicability of the proposed design patterns.",
+    "authors": [
+      "Yousef Abuseta",
+      "Khaled Swesi"
+    ],
+    "publication_date": "2015-08-06T09:02:29Z",
+    "arxiv_id": "http://arxiv.org/abs/1508.01330v1",
+    "download_url": "https://arxiv.org/abs/1508.01330v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Biology-Derived Algorithms in Engineering Optimization",
+    "abstract": "Biology-derived algorithms are an important part of computational sciences, which are essential to many scientific disciplines and engineering applications. Many computational methods are derived from or based on the analogy to natural evolution and biological activities, and these biologically inspired computations include genetic algorithms, neural networks, cellular automata, and other algorithms.",
+    "authors": [
+      "Xin-She Yang"
+    ],
+    "publication_date": "2010-03-09T14:53:12Z",
+    "arxiv_id": "http://arxiv.org/abs/1003.1888v1",
+    "download_url": "https://arxiv.org/abs/1003.1888v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Experiences and insights from using Github Classroom to support Project-Based Courses",
+    "abstract": "This work presents an approach for using GitHub classroom as a shared, structured, and persistent repository to support project-based courses at the Software Engineering Undergraduate program at PUC Minas, in Brazil. We discuss the needs of the different stakeholders that guided the development of the approach. Results on the perceptions of professors and students show that the approach brings benefits. Besides the lessons learned, we present insights on improving the education of the next generation of software engineers by employing metrics to monitor skill development, verifying student work portfolios, and employing tooling support in project-based courses.",
+    "authors": [
+      "Maria Augusta Nelson",
+      "Lesandro Ponciano"
+    ],
+    "publication_date": "2021-03-12T12:46:18Z",
+    "arxiv_id": "http://arxiv.org/abs/2103.07242v1",
+    "download_url": "https://arxiv.org/abs/2103.07242v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "How to Evaluate Solutions in Pareto-based Search-Based Software Engineering? A Critical Review and Methodological Guidance",
+    "abstract": "With modern requirements, there is an increasing tendency of considering multiple objectives/criteria simultaneously in many Software Engineering (SE) scenarios. Such a multi-objective optimization scenario comes with an important issue -- how to evaluate the outcome of optimization algorithms, which typically is a set of incomparable solutions (i.e., being Pareto non-dominated to each other). This issue can be challenging for the SE community, particularly for practitioners of Search-Based SE (SBSE). On one hand, multi-objective optimization could still be relatively new to SE/SBSE researchers, who may not be able to identify the right evaluation methods for their problems. On the other hand, simply following the evaluation methods for general multi-objective optimization problems may not be appropriate for specific SE problems, especially when the problem nature or decision maker's preferences are explicitly/implicitly available. This has been well echoed in the literature by various inappropriate/inadequate selection and inaccurate/misleading use of evaluation methods. In this paper, we first carry out a systematic and critical review of quality evaluation for multi-objective optimization in SBSE. We survey 717 papers published between 2009 and 2019 from 36 venues in seven repositories, and select 95 prominent studies, through which we identify five important but overlooked issues in the area. We then conduct an in-depth analysis of quality evaluation indicators/methods and general situations in SBSE, which, together with the identified issues, enables us to codify a methodological guidance for selecting and using evaluation methods in different SBSE scenarios.",
+    "authors": [
+      "Miqing Li",
+      "Tao Chen",
+      "Xin Yao"
+    ],
+    "publication_date": "2020-02-20T22:12:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.09040v4",
+    "download_url": "https://arxiv.org/abs/2002.09040v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Communication channel prioritization in a publish-subscribe architecture",
+    "abstract": "Real-Time communication are important in all those distributed applications where timing constraints on data proccessing and task executation play a fundamental role. Standards-base software engineering does not yet specify how real-time properties should be integrated into a publish/subscribe middleware. This article describes an approach for integration of priority quality of service in a publish/subscribe middleware. The approach simply leverages the operating system functionalities to provide a framework where specific communication channels can be prioritized at run-time. The quality of service is implemented in YARP (Yet Another Robot Platform) framework and the primarily results of performance tests are presented.",
+    "authors": [
+      "Ali Paikan",
+      "Daniele Domenichelli",
+      "Lorenzo Natale"
+    ],
+    "publication_date": "2015-04-08T21:01:15Z",
+    "arxiv_id": "http://arxiv.org/abs/1504.02128v2",
+    "download_url": "https://arxiv.org/abs/1504.02128v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Packaged Software Implementation Requirements Engineering by Small Software Enterprises",
+    "abstract": "Small to medium sized business enterprises (SMEs) generally thrive because they have successfully done something unique within a niche market. For this reason, SMEs may seek to protect their competitive advantage by avoiding any standardization encouraged by the use of packaged software (PS). Packaged software implementation at SMEs therefore presents challenges relating to how best to respond to misfits between the functionality offered by the packaged software and each SME's business needs. An important question relates to which processes small software enterprises - or Small to Medium-Sized Software Development Companies (SMSSDCs) - apply in order to identify and then deal with these misfits. To explore the processes of packaged software (PS) implementation, an ethnographic study was conducted to gain in-depth insights into the roles played by analysts in two SMSSDCs. The purpose of the study was to understand PS implementation in terms of requirements engineering (or 'PSIRE'). Data collected during the ethnographic study were analyzed using an inductive approach. Based on our analysis of the cases we constructed a theoretical model explaining the requirements engineering process for PS implementation, and named it the PSIRE Parallel Star Model. The Parallel Star Model shows that during PSIRE, more than one RE process can be carried out at the same time. The Parallel Star Model has few constraints, because not only can processes be carried out in parallel, but they do not always have to be followed in a particular order. This paper therefore offers a novel investigation and explanation of RE practices for packaged software implementation, approaching the phenomenon from the viewpoint of the analysts, and offers the first extensive study of packaged software implementation RE (PSIRE) in SMSSDCs.",
+    "authors": [
+      "Issam Jebreen",
+      "Robert Wellington",
+      "Stephen G. MacDonell"
+    ],
+    "publication_date": "2021-06-07T02:26:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.03304v1",
+    "download_url": "https://arxiv.org/abs/2106.03304v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Civil Protection Early Warning System to Improve the Resilience of Adriatic-Ionian Territories to Natural and Man-made Risk",
+    "abstract": "We are currently witnessing an increased occurrence of extreme weather events, causing a great deal of disruption and distress across the globe. In this setting, the importance and utility of Early Warning Systems is becoming increasingly obvious. In this work, we present the design of an early warning system called TransCPEarlyWarning, aimed at seven countries in the Adriatic-Ionian area in Europe. The overall objective is to increase the level of cooperation among national civil protection institutions in these countries, addressing natural and man-made risks from the early warning stage and improving the intervention capabilities of civil protection mechanisms. The system utilizes an innovative approach with a lever effect, while also aiming to support the whole system of Civil Protection.",
+    "authors": [
+      "Agorakis Bompotas",
+      "Christos Anagnostopoulos",
+      "Athanasios Kalogeras",
+      "Georgios Kalogeras",
+      "Georgios Mylonas",
+      "Kyriakos Stefanidis",
+      "Christos Alexakos",
+      "Miranda Dandoulaki"
+    ],
+    "publication_date": "2022-07-28T08:05:37Z",
+    "arxiv_id": "http://arxiv.org/abs/2207.13941v1",
+    "download_url": "https://arxiv.org/abs/2207.13941v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Taxonomy of Data Quality Challenges in Empirical Software Engineering",
+    "abstract": "Reliable empirical models such as those used in software effort estimation or defect prediction are inherently dependent on the data from which they are built. As demands for process and product improvement continue to grow, the quality of the data used in measurement and prediction systems warrants increasingly close scrutiny. In this paper we propose a taxonomy of data quality challenges in empirical software engineering, based on an extensive review of prior research. We consider current assessment techniques for each quality issue and proposed mechanisms to address these issues, where available. Our taxonomy classifies data quality issues into three broad areas: first, characteristics of data that mean they are not fit for modeling; second, data set characteristics that lead to concerns about the suitability of applying a given model to another data set; and third, factors that prevent or limit data accessibility and trust. We identify this latter area as of particular need in terms of further research.",
+    "authors": [
+      "Michael Franklin Bosu",
+      "Stephen G. MacDonell"
+    ],
+    "publication_date": "2021-06-11T02:56:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2106.06141v1",
+    "download_url": "https://arxiv.org/abs/2106.06141v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Empirical Study of the Effectiveness of an Ensemble of Stand-alone Sentiment Detection Tools for Software Engineering Datasets",
+    "abstract": "Sentiment analysis in software engineering (SE) has shown promise to analyze and support diverse development activities. We report the results of an empirical study that we conducted to determine the feasibility of developing an ensemble engine by combining the polarity labels of stand-alone SE-specific sentiment detectors. Our study has two phases. In the first phase, we pick five SE-specific sentiment detection tools from two recently published papers by Lin et al. [31, 32], who first reported negative results with standalone sentiment detectors and then proposed an improved SE-specific sentiment detector, POME [31]. We report the study results on 17,581 units (sentences/documents) coming from six currently available sentiment benchmarks for SE. We find that the existing tools can be complementary to each other in 85-95% of the cases, i.e., one is wrong, but another is right. However, a majority voting-based ensemble of those tools fails to improve the accuracy of sentiment detection. We develop Sentisead, a supervised tool by combining the polarity labels and bag of words as features. Sentisead improves the performance (F1-score) of the individual tools by 4% (over Senti4SD [5]) - 100% (over POME [31]). In a second phase, we compare and improve Sentisead infrastructure using Pre-trained Transformer Models (PTMs). We find that a Sentisead infrastructure with RoBERTa as the ensemble of the five stand-alone rule-based and shallow learning SE-specific tools from Lin et al. [31, 32] offers the best F1-score of 0.805 across the six datasets, while a stand-alone RoBERTa shows an F1-score of 0.801.",
+    "authors": [
+      "Gias Uddin",
+      "Yann-Gael Gueheneuc",
+      "Foutse Khomh",
+      "Chanchal K Roy"
+    ],
+    "publication_date": "2021-11-04T23:33:58Z",
+    "arxiv_id": "http://arxiv.org/abs/2111.03196v1",
+    "download_url": "https://arxiv.org/abs/2111.03196v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "The Colloquium on Decoupling Civil Timekeeping from Earth Rotation",
+    "abstract": "On October 5 and October 6, 2011, the Colloquium on the Decoupling Civil Timekeeping from Earth Rotation was hosted in Exton, Pennsylvania by Analytical Graphics, Inc. (AGI). This paper highlights various technical perspectives offered through these proceedings, including expressions of concern and various recommendations offered by colloquium participants.",
+    "authors": [
+      "John H. Seago",
+      "Robert L. Seaman",
+      "Steven L. Allen"
+    ],
+    "publication_date": "2011-11-29T22:32:37Z",
+    "arxiv_id": "http://arxiv.org/abs/1111.7007v1",
+    "download_url": "https://arxiv.org/abs/1111.7007v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Requirements Engineering Practice and Problems in Agile Projects: Results from an International Survey",
+    "abstract": "Requirements engineering (RE) is considerably different in agile development than in more traditional development processes. Yet, there is little empirical knowledge on the state of the practice and contemporary problems in agile RE. As part of a bigger survey initiative (Naming the Pain in Requirements Engineering), we build an empirical basis on such aspects of agile RE. Based on the responses of representatives from 92 different organisations, we found that agile RE concentrates on free-text documentation of requirements elicited with a variety of techniques. Often, traces between requirements and code are explicitly managed and also software testing and RE are aligned. Furthermore, continuous improvement of RE is performed due to intrinsic motivation. Important experienced problems include unclear requirements and communication flaws. Overall, we found that most organisations conduct RE in a way we would expect and that agile RE is in several aspects not so different from RE in other development processes.",
+    "authors": [
+      "Stefan Wagner",
+      "Daniel Méndez Fernández",
+      "Michael Felderer",
+      "Marcos Kalinowski"
+    ],
+    "publication_date": "2017-03-24T11:18:51Z",
+    "arxiv_id": "http://arxiv.org/abs/1703.08360v1",
+    "download_url": "https://arxiv.org/abs/1703.08360v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Introduction to Engineering Materials",
+    "abstract": "This lecture presents an overview of the basic concepts and fundamentals of Engineering Materials within the framework of accelerator applications. After a short introduction, main concepts relative to the structure of matter are reviewed, like crystalline structures, defects and dislocations, phase diagrams and transformations. The microscopic description is correlated with physical properties of materials, focusing in metallurgical aspects like deformation and strengthening. Main groups of materials are addressed and described, namely, metals and alloys, ceramics, polymers, composite materials, and advanced materials, where brush-strokes of tangible applications in particle accelerators and detectors are given. Deterioration aspects of materials are also presented, like corrosion in metals and degradation in plastics.",
+    "authors": [
+      "Ana Arauzo"
+    ],
+    "publication_date": "2025-09-24T08:32:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2509.20413v1",
+    "download_url": "https://arxiv.org/abs/2509.20413v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Recommender Systems for Software Project Managers",
+    "abstract": "The design of recommendation systems is based on complex information processing and big data interaction. This personalized view has evolved into a hot area in the past decade, where applications might have been proved to help for solving problem in the software development field. Therefore, with the evolvement of Recommendation System in Software Engineering (RSSE), the coordination of software projects with their stakeholders is improving. This experiment examines four open source recommender systems and implemented a customized recommender engine with two industrial-oriented packages: Lenskit and Mahout. Each of the main functions was examined and issues were identified during the experiment.",
+    "authors": [
+      "Liang Wei",
+      "Luiz Fernando Capretz"
+    ],
+    "publication_date": "2021-08-09T19:13:31Z",
+    "arxiv_id": "http://arxiv.org/abs/2108.04311v1",
+    "download_url": "https://arxiv.org/abs/2108.04311v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Detecting Requirements Defects Utilizing A Mathematical Framework for Behavior Engineering",
+    "abstract": "Behavior Engineering (BE) provides a rigorous way to derive a formal specification of a software system from the requirements written in natural language. Its graphical specification language, Behavior Tree (BT), has been used with success in industry to systematically translate large, complex, and often erroneous requirements into an integrated model of the software system. BE's process, the Behavior Modeling Process (BMP), allows requirements to be translated into individual requirement BTs one at a time, which are then integrated to form a holistic view of the system. The integrated BT then goes through a series of modifications to construct a specification BT, which is used for validation and verification. The BMP also addresses different types of defects in the requirements throughout its process. However, BT itself is a graphical modeling notation, and the types of integration relations, how they correspond to particular issues, how they should be integrated and how to get formal specification have not been clearly defined. As a result, the BMP is informal, and provides guidelines to perform all these tasks on an ad-hoc basis. In this paper, we first introduce a mathematical framework which defines the graphical form of BTs which we use to define the integration relationships of BTs and to formalize the integration strategy of the BMP. We then formulate semi-automated requirements defects detection techniques by utilizing this underlying mathematical framework, which may be extended to formalize the BMP, develop change management framework for it, build techniques for round-trip engineering and so on.",
+    "authors": [
+      "Kushal Ahmed",
+      "Toby Myers",
+      "Lian Wen",
+      "Abdul Sattar"
+    ],
+    "publication_date": "2014-01-21T07:06:14Z",
+    "arxiv_id": "http://arxiv.org/abs/1401.5198v1",
+    "download_url": "https://arxiv.org/abs/1401.5198v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "AutoOffAB: Toward Automated Offline A/B Testing for Data-Driven Requirement Engineering",
+    "abstract": "Software companies have widely used online A/B testing to evaluate the impact of a new technology by offering it to groups of users and comparing it against the unmodified product. However, running online A/B testing needs not only efforts in design, implementation, and stakeholders' approval to be served in production but also several weeks to collect the data in iterations. To address these issues, a recently emerging topic, called \"Offline A/B Testing\", is getting increasing attention, intending to conduct the offline evaluation of new technologies by estimating historical logged data. Although this approach is promising due to lower implementation effort, faster turnaround time, and no potential user harm, for it to be effectively prioritized as requirements in practice, several limitations need to be addressed, including its discrepancy with online A/B test results, and lack of systematic updates on varying data and parameters. In response, in this vision paper, I introduce AutoOffAB, an idea to automatically run variants of offline A/B testing against recent logging and update the offline evaluation results, which are used to make decisions on requirements more reliably and systematically.",
+    "authors": [
+      "Jie JW Wu"
+    ],
+    "publication_date": "2023-12-17T06:49:14Z",
+    "arxiv_id": "http://arxiv.org/abs/2312.10624v2",
+    "download_url": "https://arxiv.org/abs/2312.10624v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Research in Global Software Engineering: A Systematic Snapshot",
+    "abstract": "This paper reports our extended analysis of the recent literature addressing global software engineering (GSE), using a new Systematic Snapshot Mapping (SSM) technique. The primary purpose of this work is to understand what issues are being addressed and how research is being carried out in GSE -- and comparatively, what work is not being conducted. We carried out the analysis in two stages. In the first stage we analyzed 275 papers published between January 2011 and June 2012, and in the second stage we augmented our analysis by considering a further 26 papers (from the 2013 International Conference on Global Software Engineering (ICGSE'13). Our results reveal that, currently, GSE studies are focused on management- and infrastructure-related factors, using principally evaluative research approaches. Most of the studies are conducted at the organizational level, mainly using methods such as interviews, surveys, field studies and case studies. The USA, India and China are major players in GSE, with USA-India collaborations being the most frequently studied, followed by USA-China. While a considerable number of GSE-related studies have been published since January 2011 they are currently quite narrowly focused, on exploratory research and explanatory theories, and the critical research paradigm has been untouched. An absence of formulative research, experimentation and simulation, and a related focus on evaluative approaches, all suggest that existing tools, methods and approaches from related fields are being tested in the GSE context, even though these may not be inherently applicable to the additional scale and complexity of GSE.",
+    "authors": [
+      "Bilal Raza",
+      "Stephen G. MacDonell",
+      "Tony Clear"
+    ],
+    "publication_date": "2020-12-29T00:03:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2012.14534v1",
+    "download_url": "https://arxiv.org/abs/2012.14534v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "DATED: Guidelines for Creating Synthetic Datasets for Engineering Design Applications",
+    "abstract": "Exploiting the recent advancements in artificial intelligence, showcased by ChatGPT and DALL-E, in real-world applications necessitates vast, domain-specific, and publicly accessible datasets. Unfortunately, the scarcity of such datasets poses a significant challenge for researchers aiming to apply these breakthroughs in engineering design. Synthetic datasets emerge as a viable alternative. However, practitioners are often uncertain about generating high-quality datasets that accurately represent real-world data and are suitable for the intended downstream applications. This study aims to fill this knowledge gap by proposing comprehensive guidelines for generating, annotating, and validating synthetic datasets. The trade-offs and methods associated with each of these aspects are elaborated upon. Further, the practical implications of these guidelines are illustrated through the creation of a turbo-compressors dataset. The study underscores the importance of thoughtful sampling methods to ensure the appropriate size, diversity, utility, and realism of a dataset. It also highlights that design diversity does not equate to performance diversity or realism. By employing test sets that represent uniform, real, or task-specific samples, the influence of sample size and sampling strategy is scrutinized. Overall, this paper offers valuable insights for researchers intending to create and publish synthetic datasets for engineering design, thereby paving the way for more effective applications of AI advancements in the field. The code and data for the dataset and methods are made publicly accessible at https://github.com/cyrilpic/radcomp .",
+    "authors": [
+      "Cyril Picard",
+      "Jürg Schiffmann",
+      "Faez Ahmed"
+    ],
+    "publication_date": "2023-05-15T21:00:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.09018v1",
+    "download_url": "https://arxiv.org/abs/2305.09018v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Useful Statistical Methods for Human Factors Research in Software Engineering: A Discussion on Validation with Quantitative Data",
+    "abstract": "In this paper we describe the usefulness of statistical validation techniques for human factors survey research. We need to investigate a diversity of validity aspects when creating metrics in human factors research, and we argue that the statistical tests used in other fields to get support for reliability and construct validity in surveys, should also be applied to human factors research in software engineering more often. We also show briefly how such methods can be applied (Test-Retest, Cronbach's α, and Exploratory Factor Analysis).",
+    "authors": [
+      "Lucas Gren",
+      "Alfredo Goldman"
+    ],
+    "publication_date": "2019-04-04T10:20:58Z",
+    "arxiv_id": "http://arxiv.org/abs/1904.02457v1",
+    "download_url": "https://arxiv.org/abs/1904.02457v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Application of Ubiquitous Video Services and Management Systems in Civil Defense",
+    "abstract": "This paper proposes a model of ubiquitous video services and management systems for solving current issues of video surveillance services and management in the smart city. The author presents the Enterprise Service Bus (ESB) based methods of integrating and using existing video resources in civil defense emergency commanding by providing a use case \"Civil Defense Emergency Command Center in Huai-An City\", focusing on ubiquitous video services and management. Furthermore, this paper presents the differentiated services (DiffServ) scheduling algorithm for realizing the coordination of multitasking load from the prospective of providing various services aims at accelerating emergency responding, providing solutions to meet the needs of various clients for the video services, and making useful attempt to make contribution to the information construction of smart city in the future.",
+    "authors": [
+      "Zhaoming Dai"
+    ],
+    "publication_date": "2018-03-27T03:22:26Z",
+    "arxiv_id": "http://arxiv.org/abs/1803.10226v1",
+    "download_url": "https://arxiv.org/abs/1803.10226v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A LSTM and Cost-Sensitive Learning-Based Real-Time Warning for Civil Aviation Over-limit",
+    "abstract": "The issue of over-limit during passenger aircraft flights has drawn increasing attention in civil aviation due to its potential safety risks. To address this issue, real-time automated warning systems are essential. In this study, a real-time warning model for civil aviation over-limit is proposed based on QAR data monitoring. Firstly, highly correlated attributes to over-limit are extracted from a vast QAR dataset using the Spearman rank correlation coefficient. Because flight over-limit poses a binary classification problem with unbalanced samples, this paper incorporates cost-sensitive learning in the LSTM model. Finally, the time step length, number of LSTM cells, and learning rate in the LSTM model are optimized using a grid search approach. The model is trained on a real dataset, and its performance is evaluated on a validation set. The experimental results show that the proposed model achieves an F1 score of 0.991 and an accuracy of 0.978, indicating its effectiveness in real-time warning of civil aviation over-limit.",
+    "authors": [
+      "Yiming Bian"
+    ],
+    "publication_date": "2023-05-08T10:56:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2305.04618v1",
+    "download_url": "https://arxiv.org/abs/2305.04618v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]

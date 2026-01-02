@@ -1,0 +1,567 @@
+[
+  {
+    "title": "Privacy-Preserving Distributed Clustering for Electrical Load Profiling",
+    "abstract": "Electrical load profiling supports retailers and distribution network operators in having a better understanding of the consumption behavior of consumers. However, traditional clustering methods for load profiling are centralized and require access to all the smart meter data, thus causing privacy issues for consumers and retailers. To tackle this issue, we propose a privacy-preserving distributed clustering framework for load profiling by developing a privacy-preserving accelerated average consensus (PP-AAC) algorithm with proven convergence. Using the proposed framework, we modify several commonly used clustering methods, including k-means, fuzzy C-means, and Gaussian mixture model, to provide privacy-preserving distributed clustering methods. In this way, load profiling can be performed only by local calculations and information sharing between neighboring data owners without sacrificing privacy. Meanwhile, compared to traditional centralized clustering methods, the computational time consumed by each data owner is significantly reduced. The privacy and complexity of the proposed privacy-preserving distributed clustering framework are analyzed. The correctness, efficiency, effectiveness, and privacy-preserving feature of the proposed framework and the proposed PP-AAC algorithm are verified using a real-world Irish residential dataset.",
+    "authors": [
+      "Mengshuo Jia",
+      "Yi Wang",
+      "Chen Shen",
+      "Gabriela Hug"
+    ],
+    "publication_date": "2020-02-26T15:50:02Z",
+    "arxiv_id": "http://arxiv.org/abs/2002.12769v1",
+    "download_url": "https://arxiv.org/abs/2002.12769v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Incorporating demand response of electric vehicles in scheduling of isolated microgrids with renewables using a bi-level programming approach",
+    "abstract": "In this work, a novel optimal scheduling approach is proposed for isolated microgrids (MGs) with renewable generations by incorporating demand response of electric vehicles (EVs). First, a bi-level programming-based MG scheduling model is proposed under real-time pricing environments, where the upper- and lower- levels seek to minimize the MG net operating cost and the EV charging cost. Second, a hybrid solution algorithm called JAYA-interior point method is put forward to solve the model. And finally, the simulation results demonstrate that incorporating demand response of electric vehicles is able to guide EV users to actively participate in MG scheduling and achieve the peak load shaving, which offers a fundamental way to balance the interests between MG and EV users.",
+    "authors": [
+      "Yang Li",
+      "Kang Li"
+    ],
+    "publication_date": "2019-08-18T13:51:53Z",
+    "arxiv_id": "http://arxiv.org/abs/1908.11197v1",
+    "download_url": "https://arxiv.org/abs/1908.11197v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electricity Price Forecasting: The Dawn of Machine Learning",
+    "abstract": "Electricity price forecasting (EPF) is a branch of forecasting on the interface of electrical engineering, statistics, computer science, and finance, which focuses on predicting prices in wholesale electricity markets for a whole spectrum of horizons. These range from a few minutes (real-time/intraday auctions and continuous trading), through days (day-ahead auctions), to weeks, months or even years (exchange and over-the-counter traded futures and forward contracts). Over the last 25 years, various methods and computational tools have been applied to intraday and day-ahead EPF. Until the early 2010s, the field was dominated by relatively small linear regression models and (artificial) neural networks, typically with no more than two dozen inputs. As time passed, more data and more computational power became available. The models grew larger to the extent where expert knowledge was no longer enough to manage the complex structures. This, in turn, led to the introduction of machine learning (ML) techniques in this rapidly developing and fascinating area. Here, we provide an overview of the main trends and EPF models as of 2022.",
+    "authors": [
+      "Arkadiusz Jędrzejewski",
+      "Jesus Lago",
+      "Grzegorz Marcjasz",
+      "Rafał Weron"
+    ],
+    "publication_date": "2022-04-02T15:25:56Z",
+    "arxiv_id": "http://arxiv.org/abs/2204.00883v1",
+    "download_url": "https://arxiv.org/abs/2204.00883v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Beneficial Investigation of Extended-Range Electric Powertrains with Dual-Motor Inputs and Multi-Speed Transmission",
+    "abstract": "This paper comparatively investigates the performance of extended-range electric powertrains composed by integrating dual-motor inputs, multi-speed transmission, and engine in either series or parallel connection. Two configurations, namely dual-motor series powertrain (DMSP) and dual-motor parallel powertrain (DMPP), feature the same electric drivetrain of two downsized motors and a four-speed transmission, but their range extenders are fundamentally different. While the DMSP consists of a range extender formed by an engine-generator unit, the DMPP connects the engine through a frictional clutch. This study starts with the parameter selection that guarantees the equivalent dynamics ability of all configurations. Mathematic models are second established in detail. A model predictive control-based energy management strategy is third presented. Since the recommended configurations aim for bus application, the driving cycle CBDC and ECE15x5 are chosen for simulation. Performance indexes used for comparison include electric consumption, fuel consumption, and emissions (hydrocarbon, carbon monoxide, nitrogen oxides, and particulate matter). Compared to the conventional single-motor series powertrain, the DMSP improves all the indexes significantly, while the DMPP decreases fuel consumption further but increases most noxious exhaust emissions.",
+    "authors": [
+      "Cong Thanh Nguyen",
+      "Paul D. Walker",
+      "Nong Zhang"
+    ],
+    "publication_date": "2019-12-02T05:54:44Z",
+    "arxiv_id": "http://arxiv.org/abs/1912.00584v2",
+    "download_url": "https://arxiv.org/abs/1912.00584v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Thermal Responses of Connected HEVs Engine and Aftertreatment Systems to Eco-Driving",
+    "abstract": "Connected and automated vehicles (CAVs) have been recognized as providing unprecedented opportunities for substantial fuel economy improvement through CAV-based vehicle speed trajectory optimization (eco-driving). At the same time, the implications of the CAV operation on thermal responses, including those of engine and exhaust aftertreatment system, have not been fully investigated. To this end, firstly, a sequential optimization framework for vehicle speed trajectory planning and powertrain control in hybrid electric CAVs is proposed in this paper. Next, the impact of eco-driving and power split optimization on the engine and catalytic converter thermal responses, as well as on the tailpipe emissions is characterized. Despite an average 16% improvement in fuel economy through sequential optimization, this study shows that eco-driving slows down the thermal responses, which could unfavorably affect the tailpipe emissions.",
+    "authors": [
+      "Mohammad Reza Amini",
+      "Yiheng Feng",
+      "Hao Wang",
+      "Ilya V. Kolmanovsky",
+      "Jing Sun"
+    ],
+    "publication_date": "2019-05-30T17:06:31Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.13180v2",
+    "download_url": "https://arxiv.org/abs/1905.13180v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "An Electrical Structure-Based Approach to PMU Placement in the Electric Power Grid",
+    "abstract": "The phasor measurement unit (PMU) placement problem is revisited by taking into account a stronger characterization of the electrical connectedness between various buses in the grid. To facilitate this study, the placement problem is approached from the perspective of the \\emph{electrical structure} which, unlike previous work on PMU placement, accounts for the sensitivity between power injections and nodal phase angle differences between various buses in the power network. The problem is formulated as a binary integer program with the objective to minimize the number of PMUs for complete network observability in the absence of zero injection measurements. The implication of the proposed approach on static state estimation and fault detection algorithms incorporating PMU measurements is analyzed. Results show a significant improvement in the performance of estimation and detection schemes by employing the electrical structure-based PMU placement compared to its topological counterpart. In light of recent advances in the electrical structure of the grid, our study provides a more realistic perspective of PMU placement in the electric power grid.",
+    "authors": [
+      "K. G. Nagananda",
+      "Shalinee Kishore",
+      "Rick S. Blum"
+    ],
+    "publication_date": "2015-05-17T15:10:47Z",
+    "arxiv_id": "http://arxiv.org/abs/1505.04402v1",
+    "download_url": "https://arxiv.org/abs/1505.04402v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Feasibility Study on Real-Time High Resolution Imaging of the Brain Using Electrical Impedance Tomography",
+    "abstract": "Objective: The strengths of Electrical Impedance Tomography (EIT) are its capability of imaging the internal body by using a noninvasive, radiation safe technique, and the absence of known hazards. In this paper we introduce a novel idea of using EIT in microelectrodes during Deep Brain Stimulation (DBS) surgery in order to obtain an image of the electrical conductivities of the brain tissues surrounding the microelectrodes. DBS is a surgical treatment involving the implantation of a medical probe inside the brain. For such application, the EIT reconstruction method has to offer both high quality and robustness against noise. Methods: A post-processing method for open-domain EIT is introduced in this paper, which combines linear and nonlinear methods in order to use the advantages of both with limited drawbacks. The reconstruction method is a two-steps method, the first solves the inverse problem with a linear algorithm and the second brings the nonlinear aspects back into the image. Results: The proposed method is tested on both simulation and phantom data, and compared to three widely used method for EIT imaging. Resulting images and errors gives a strong advantage to the proposed solution. Conclusion: High quality reconstruction from phantom data validates the efficiency of the novel reconstruction method. Significance: This feasibility study presents an efficient method for open domain EIT and opens the way to clinical trials.",
+    "authors": [
+      "Sebastien Martin"
+    ],
+    "publication_date": "2022-02-26T15:21:44Z",
+    "arxiv_id": "http://arxiv.org/abs/2202.13159v2",
+    "download_url": "https://arxiv.org/abs/2202.13159v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electrical Behavior Association Mining for Household ShortTerm Energy Consumption Forecasting",
+    "abstract": "Accurate household short-term energy consumption forecasting (STECF) is crucial for home energy management, but it is technically challenging, due to highly random behaviors of individual residential users. To improve the accuracy of STECF on a day-ahead scale, this paper proposes an novel STECF methodology that leverages association mining in electrical behaviors. First, a probabilistic association quantifying and discovering method is proposed to model the pairwise behaviors association and generate associated clusters. Then, a convolutional neural network-gated recurrent unit (CNN-GRU) based forecasting is provided to explore the temporal correlation and enhance accuracy. The testing results demonstrate that this methodology yields a significant enhancement in the STECF.",
+    "authors": [
+      "Heyang Yu",
+      "Yuxi Sun",
+      "Yintao Liu",
+      "Guangchao Geng",
+      "Quanyuan Jiang"
+    ],
+    "publication_date": "2024-01-26T03:23:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2402.09433v1",
+    "download_url": "https://arxiv.org/abs/2402.09433v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Power System Resource Expansion Planning",
+    "abstract": "Power System Resource Planning is the recurrent process of studying and determining what facilities and procedures should be provided to satisfy and promote appropriate future demands for electricity. The electric power system as planned should meet or balance societal goals. These include availability of electricity to all potential users at lowest possible cost, minimum environmental damage, high levels of safety and reliability, etc. Plans should be technically and financially feasible. Plans also should achieve the objectives the entity doing the planning, including minimizing risk. The emergence of meta-heuristics has given robustness to the non-analytical methods, because of the rationale behind them. Besides, evolutionary algorithms have provided a higher degree of confidence in a stochastic convergence to optimum and have supported this confidence with a mathematical background explaining not only how they achieve convergence but also how to improve the convergence rate. The present work of analyses and implementation can be divided into: i) Transmission Constrained Generation Expansion Planning (TC GEP), ii) Composite Generation Expansion and Transmission Network Expansion Planning (GEP TNEP), iii) Transmission Network Expansion (TNEP) Planning using AC model, iv) Composite Transmission Network Expansion Planning (TNEP) and Reactive Power Expansion Planning (RPP) and v) Transmission Network Planning using Interior-Point Method (IP TNEP).",
+    "authors": [
+      "Sohom Datta"
+    ],
+    "publication_date": "2024-01-20T01:44:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.12241v1",
+    "download_url": "https://arxiv.org/abs/2401.12241v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Vulnerability Assessment of Power Grids Based on Both Topological and Electrical Properties",
+    "abstract": "In modern power grids, a local failure or attack can trigger catastrophic cascading failures, which make it challenging to assess the attack vulnerability of power grids. In this Brief, we define the $K$-link attack problem and study the attack vulnerability of power grids under cascading failures. Particularly, we propose a link centrality measure based on both topological and electrical properties of power grids. According to this centrality, we propose a greedy attack algorithm and an optimal attack algorithm. Simulation results on standard IEEE bus test data show that the optimal attack is better than the greedy attack and the traditional PSO-based attack in fracturing power grids. Moreover, the greedy attack has smaller computational complexity than the optimal attack and the PSO-based attack with an adequate attack efficiency. Our work helps to understand the vulnerability of power grids and provides some clues for securing power grids.",
+    "authors": [
+      "Cunlai Pu",
+      "Pang Wu"
+    ],
+    "publication_date": "2019-09-03T11:38:49Z",
+    "arxiv_id": "http://arxiv.org/abs/1909.05789v1",
+    "download_url": "https://arxiv.org/abs/1909.05789v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimization of the Energy-Comfort Trade-Off of HVAC Systems in Electric City Buses Based on a Steady-State Model",
+    "abstract": "The electrification of public transport vehicles offers the potential to relieve city centers of pollutant and noise emissions. Furthermore, electric buses have lower life-cycle greenhouse gas (GHG) emissions than diesel buses, particularly when operated with sustainably produced electricity. However, the heating, ventilation, and air-conditioning (HVAC) system can consume a significant amount of energy, thus limiting the achievable driving range. In this paper, we address the HVAC system in an electric city bus by analyzing the trade-off between the energy consumption and the thermal comfort of the passengers. We do this by developing a dynamic thermal model for the bus, which we simplify by considering it to be in steady state. We introduce a method that is able to quickly optimize the steady-state HVAC system inputs for a large number of samples representative of a year-round operation. A comparison between the results from the steady-state optimization approach and a dynamic simulation reveals small deviations in both the HVAC system power demand and achieved thermal comfort. Thus, the approximation of the system performance with a steady-state model is justified. We present two case studies to demonstrate the practical relevance of the approach. First, we show how the method can be used to compare different HVAC system designs based on a year-round performance evaluation. Second, we show how the method can be used to extract setpoints for online controllers that achieve close-to-optimal performance without any predictive information. In conclusion, this study shows that a steady-state analysis of the HVAC systems of an electric city bus is a valuable approach to evaluate and optimize its performance.",
+    "authors": [
+      "Fabio Widmer",
+      "Stijn van Dooren",
+      "Christopher H. Onder"
+    ],
+    "publication_date": "2024-03-01T13:28:52Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.00517v2",
+    "download_url": "https://arxiv.org/abs/2403.00517v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Charged Momentum: Electric Vehicle Surge in India's 2023 Landscape",
+    "abstract": "Electric vehicles (EVs) have emerged as a transformative force in India's transportation sector, offering a sustainable solution to the country's growing energy and environmental challenges. Against the backdrop of rapid urbanization, rising pollution levels, and the need for energy security, EVs have gained traction as a viable alternative to traditional internal combustion engine vehicles. This paper provides a comprehensive analysis of the electric vehicle market in India, focusing particularly on the landscape of 2023. It emphasizes key aspects such as the 2023 scenario of EV adoption, the role of indigenous manufacturers, dominant players shaping the market, and the influence of government policies and initiatives, including the FAME I and II schemes. Furthermore, the paper delves into EV sales data for the fiscal year 2023, offering insights into market trends and consumer preferences. By elucidating the current state of EVs in India, this paper aims to contribute to a deeper understanding of the country's transition towards sustainable mobility and its implications for energy, environment, and economy.",
+    "authors": [
+      "Rahul Wagh"
+    ],
+    "publication_date": "2024-03-20T08:09:11Z",
+    "arxiv_id": "http://arxiv.org/abs/2403.13373v1",
+    "download_url": "https://arxiv.org/abs/2403.13373v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electrical System Architecture for Aviation Electrification",
+    "abstract": "The electrification of aircraft is reshaping the foundations of aerospace design by positioning electrical systems at the center of propulsion, control, and onboard functionality. This chapter provides an overview of electrical system architectures for electric and hybrid electric aircraft, highlighting both established principles and emerging design strategies. The discussion begins with the motivations for electrification, including reducing environmental impact, improving operational efficiency, and replacing complex pneumatic and hydraulic subsystems with lighter and more reliable electrical alternatives. Aircraft electrical architectures are classified into four major categories: conventional, more electric, all electric, and hybrid electric. A range of system topologies is examined, including direct current (DC), alternating current (AC), hybrid, and distributed configurations. Each is considered in terms of its effectiveness in delivering power, enabling redundancy, supporting fault isolation, and managing thermal performance. Real world examples are presented to demonstrate practical applications, with case studies drawn from the Boeing 787 Dreamliner, the Eviation Alice commuter aircraft, and NASA X57 Maxwell demonstrator. These examples illustrate the ongoing transition from incremental subsystem electrification toward fully integrated architectures that promise higher efficiency and greater sustainability.",
+    "authors": [
+      "Anoy Saha",
+      "Mona Ghassemi"
+    ],
+    "publication_date": "2025-10-04T17:42:26Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.03887v2",
+    "download_url": "https://arxiv.org/abs/2510.03887v2",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Decentralization of Energy Systems with Blockchain: Bridging Top-down and Bottom-up Management of the Electricity Grid",
+    "abstract": "For more than a century, the grid has operated in a centralized top-down fashion. However, as distributed energy resources (DERs) penetration grows, the grid edge is increasingly infused with intelligent computing and communication capabilities. Thus, the bottom-up approach to grid operations inclined toward decentralizing energy systems will likely gain momentum alongside the existing centralized paradigm. Decentralization refers to transferring control and decision-making from a centralized entity (individual, organization, or group thereof) to a distributed network. It is not a new concept - in energy systems context or otherwise. In the energy systems context, however, the complexity of this multifaceted concept increases manifolds due to two major reasons - i) the nature of the commodity being traded (the electricity) and ii) the enormity of the traditional electricity sector's structure that builds, operates, and maintains this capital-intensive network. In this work, we aim to highlight the need for and outline a credible path toward restructuring the current operational architecture of the electricity grid in view of the ongoing decentralization trends with an emphasis on peer-to-peer energy trading. We further introduce blockchain technology in the context of decentralized energy systems problems. We also suggest that blockchain is an effective technology for facilitating the synergistic operations of top-down and bottom-up approaches to grid management.",
+    "authors": [
+      "Sakshi Mishra",
+      "Roohallah Khatami",
+      "Yu Christine Chen"
+    ],
+    "publication_date": "2023-10-11T00:57:21Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.07103v1",
+    "download_url": "https://arxiv.org/abs/2310.07103v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Machine Learning-Based Performance Evaluation of a Solar-Powered Hydrogen Fuel Cell Hybrid in a Radio-Controlled Electric Vehicle",
+    "abstract": "This paper presents an experimental investigation and performance evaluation of a hybrid electric radio-controlled car powered by a Nickel-Metal Hydride battery combined with a renewable Proton Exchange Membrane Fuel Cell system. The study evaluates the performance of the system under various load-carrying scenarios and varying environmental conditions, simulating real-world operating conditions including throttle operation. In order to build a predictive model, gather operational insights, and detect anomalies, data-driven analyses using signal processing and modern machine learning techniques were employed. Specifically, machine learning techniques were used to distinguish throttle levels with high precision based on the operational data. Anomaly and change point detection methods enhanced voltage stability, resulting in fewer critical faults in the hybrid system compared to battery-only operation. Temporal Convolutional Networks were effectively employed to predict voltage behavior, demonstrating potential for use in planning the locations of fueling or charging stations. Moreover, integration with a solar-powered electrolyzer confirmed the system's potential for off-grid, renewable hydrogen use. The results indicate that integrating a Proton Exchange Membrane Fuel Cell with Nickel-Metal Hydride batteries significantly improves electrical performance and reliability for small electric vehicles, and these findings can be a potential baseline for scaling up to larger vehicles.",
+    "authors": [
+      "Amirhesam Aghanouri",
+      "Mohamed Sabry",
+      "Joshua Cherian Varughese",
+      "Cristina Olaverri-Monreal"
+    ],
+    "publication_date": "2025-09-23T13:05:55Z",
+    "arxiv_id": "http://arxiv.org/abs/2510.17808v1",
+    "download_url": "https://arxiv.org/abs/2510.17808v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Design and comparative analyses of optimal feedback controllers for hybrid electric vehicles",
+    "abstract": "This paper presents an adaptive equivalent consumption minimization strategy (ECMS) and a linear quadratic tracking (LQT) method for optimal power-split control of combustion engine and electric machine in a hybrid electric vehicle (HEV). The objective is to deliver demanded torque and minimize fuel consumption and usage of service brakes, subject to constraints on actuator limits and battery state of charge (SOC). We derive a function for calculating maximum deliverable torque that is as close as possible to demanded torque and propose modeling SOC constraints by tangent or logarithm functions that provide an interior point to both ECMS and LQT. We show that the resulting objective functions are convex and we provide analytic solutions for their second order approximation about a given reference. We also consider robustness of the controllers to measurement noise using a simple model of noise. Simulation results of the two controllers are compared and their effectiveness is discussed.",
+    "authors": [
+      "Maryam Razi",
+      "Nikolce Murgovski",
+      "Tomas McKelvey",
+      "Torsten Wik"
+    ],
+    "publication_date": "2020-04-04T12:48:27Z",
+    "arxiv_id": "http://arxiv.org/abs/2004.01921v1",
+    "download_url": "https://arxiv.org/abs/2004.01921v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Overcoming voltage fluctuation in electric vehicles by considering Al electrolytic capacitor-based voltage stabilizer",
+    "abstract": "Battery pack used in electrical vehicles (EVs) have developed fastly nowadays and are important due to its capability to stores electric charge. However, it is still found that there is an electrical voltage fluctuations due to sudden load changes or faults in the power system. To overcome this problem, the conventional strategy focuses on using voltage stabilizer with inductor-capacitor resonant circuits, leaving the problem of using capacitors at cryogenic temperatures. Herewith, we design a vehicle automatic voltage stabilizer (VAVS) operating at room temperature. The VAVS consists of nine main components, including resistors, capacitors, transistors, and diodes arranged with a specific composition to stabilize the voltage. By considering Al electrolytic capacitor, type of diode, resistor, and transistor, the VAVS device stabilizes the input voltage from 10-15V to obtain an output voltage of 12V. Then, by varying the engine rotation speed of vehicle, VAVS applied in vehicle battery supplies a constant voltage of about 12.1 V. The lowest line regulation analysis reveals a regulated voltage fluctuation of 0.17%/V. Our result shows that VAVS design works at room temperature, overcomes the voltage fluctuation and complies with the standard regulation of voltage stabilizers.",
+    "authors": [
+      "Ida Hamidah",
+      "Doni Fajar Ramadhan",
+      "Ramdhani Ramdhani",
+      "Budi Mulyanti",
+      "Roer Eka Pawinanto",
+      "Lilik Hasanah",
+      "Asep Bayu Dani Nandiyanto",
+      "Jumril Yunas",
+      "Andrivo Rusydi"
+    ],
+    "publication_date": "2023-07-21T01:21:09Z",
+    "arxiv_id": "http://arxiv.org/abs/2307.11290v1",
+    "download_url": "https://arxiv.org/abs/2307.11290v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Wave breaking on the surface of a dielectric liquid in a horizontal electric field",
+    "abstract": "The weakly nonlinear dynamics of the free surface of a dielectric liquid in an electric field directed tangentially to the unperturbed boundary is investigated numerically. Within the framework of the strong field model, when the effects of capillarity and gravity are not taken into account, it is shown that nonlinear surface waves have a tendency to break. In result of the collapse of the surface waves, the curvature of the boundary and the gradient of the local electric field undergo infinite discontinuity on the surface of the liquid. The angles of the boundary inclination remain small. The characteristic collapse time of a surface wave traveling in a given direction is calculated versus the dielectric constant of the liquid. It is shown that the time of the singularity formation increases infinitely at small and high values of the dielectric constant. The first case corresponds to the transition of the system to the neutral stability regime (the jump in electrostatic pressure at the boundary turns into zero). At high values of the dielectric constant of the liquid, the collapse time also increases. This effect is associated with the realization of a special regime of fluid motion, in which the propagation of nonlinear surface waves of an arbitrary configuration occurs without distortions. For the liquids with relative permittivity close to five, the wave breaking time reaches a minimum, i.e., the collapse of the surface waves for such liquids occurs most intensively.",
+    "authors": [
+      "Evgeny A. Kochurin",
+      "Olga V. Zubareva",
+      "Nikolay M. Zubarev"
+    ],
+    "publication_date": "2022-11-25T08:16:49Z",
+    "arxiv_id": "http://arxiv.org/abs/2211.13948v1",
+    "download_url": "https://arxiv.org/abs/2211.13948v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "On the Sustainability of Electrical Vehicles",
+    "abstract": "Many perceive electric vehicles (EVs) to be eco-environmentally sustainable because they are free of emissions of toxic and greenhouse gases to the environment. However, few have questioned the sustainability of the electric power required to drive these vehicles. This paper presents an in-depth study that indicates that massive infusion of EVs to our society in a short time span will likely create a colossal demand for additional electric power generation much beyond what the US electric power generating industry can provide with its current generating capacity. Additionally, such demand would result in much adverse environmental consequences if the current technology of electric power generation by predominant fossil fuels continues. Other rarely accounted facts on environmental impacts by EVs are the substantial electric energy required to produce batteries that drive EVs, and the negative consequences relating to the recycling of spent batteries.",
+    "authors": [
+      "Tai-Ran Hsu"
+    ],
+    "publication_date": "2013-11-23T16:00:20Z",
+    "arxiv_id": "http://arxiv.org/abs/1311.6015v1",
+    "download_url": "https://arxiv.org/abs/1311.6015v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electrical Fault Localisation Over a Distributed Parameter Transmission Line",
+    "abstract": "Motivated by the need to localise faults along electrical power lines, this paper adopts a frequency-domain approach to parameter estimation for an infinite-dimensional linear dynamical system with one spatial variable. Since the time of the fault is unknown, and voltages and currents are measured at only one end of the line, distance information must be extracted from the post-fault transients. To properly account for high-frequency transient behaviour, the line dynamics is modelled directly by the Telegrapher's equation, rather than the more commonly used lumped-parameter approximations. First, the governing equations are non-dimensionalised to avoid ill-conditioning. A closed-form expression for the transfer function is then derived. Finally, nonlinear least-squares optimisation is employed to search for the fault location. Requirements on fault bandwidth, sensor bandwidth and simulation time-step are also presented. The result is a novel end-to-end algorithm for data generation and fault localisation, the effectiveness of which is demonstrated via simulation.",
+    "authors": [
+      "Daniel Selvaratnam",
+      "Amritam Das",
+      "Henrik Sandberg"
+    ],
+    "publication_date": "2023-10-20T08:52:42Z",
+    "arxiv_id": "http://arxiv.org/abs/2310.13359v1",
+    "download_url": "https://arxiv.org/abs/2310.13359v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Joint Mechanical and Electrical Adjustment of IRS-aided LEO Satellite MIMO Communications",
+    "abstract": "In this correspondence, we propose a joint mechanical and electrical adjustment of intelligent reflecting surface (IRS) for the performance improvements of low-earth orbit (LEO) satellite multiple-input multiple-output (MIMO) communications. In particular, we construct a three-dimensional (3D) MIMO channel model for the mechanically-tilted IRS in general deployment, and consider two types of scenarios with and without the direct path of LEO-ground user link due to the orbital flight. With the aim of maximizing the end-to-end performance, we jointly optimize tilting angle and phase shift of IRS along with the transceiver beamforming, whose performance superiority is verified via simulations with the Orbcomm LEO satellite using a real orbit data.",
+    "authors": [
+      "Doyoung Kim",
+      "Seongah Jeong"
+    ],
+    "publication_date": "2024-01-12T07:32:48Z",
+    "arxiv_id": "http://arxiv.org/abs/2401.06422v4",
+    "download_url": "https://arxiv.org/abs/2401.06422v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electric Vehicle Fleet Relocation Management for Sharing Systems based on Incentive Mechanism",
+    "abstract": "This paper deals with the electric vehicle fleet relocation management in a sharing system. The mobility sharing systems efficiency depends on the vehicles relocation task that strongly affect the company operating cost, and consequently the service price for users. The proposed approach aims at minimizing the cost of vehicles relocation for a sharing company by involving users through an innovative incentive scheme. The idea is to request users of the sharing service to relocate the EVs, e.g. through an IT application, incentivizing them by free-of-charge travels and rewards. The proposed incentive mechanism is based on the application of different levels of incentive proposal. In addition, in case of user unavailability, the vehicle relocation is guaranteed by the company staff. To this aim, a first ILP is formalized to manage the relocation task by the company staff. Moreover, a second ILP allows the company to involve users in the relocation process by the proposed incentive mechanism. Finally, a case study is presented to show the application of the proposed methodology on the relocation of electric cars and light electric vehicles.",
+    "authors": [
+      "Maria Pia Fanti",
+      "Agostino Marcello Mangini",
+      "Michele Roccotelli",
+      "Bartolomeo Silvestri",
+      "Salvatore Digiesi"
+    ],
+    "publication_date": "2020-12-01T13:23:41Z",
+    "arxiv_id": "http://arxiv.org/abs/2012.00471v1",
+    "download_url": "https://arxiv.org/abs/2012.00471v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Optimal Application of Trajectory Optimization by Travel Profile for Electric Train in an Electrical Transportation System",
+    "abstract": "Increasing greenhouse gas (GHG) emission is one of the most important concerns of world decision-makers. The considerable part of it belongs to the transportation systems. As a solution, the world is going to use urban electrical transportation systems, and thus designing optimal methods and novel strategies is essential nowadays. Indeed, reducing the amount of consumed electrical energy and having optimum and efficient energy management for electrical means of transport requires several vital elements. Designing a travel profile is one of the most crucial parts of these methods. A travel profile for the fully electric train ET245 with three stations is designed and analyzed in Milan, Italy, as a case study in this paper. As the first step, route data are acquired by the Google Maps tool. Then, the train data is collected from the manufacturer's catalogues and datasheets. Finally, computations were performed by Excel spreadsheets. The results indicate that the designed path in the proposed travel profile is covered by a commercial speed and requires reasonable electrical energy, which is considered economical and advantageous.",
+    "authors": [
+      "Armin Mosavi"
+    ],
+    "publication_date": "2023-03-01T14:45:08Z",
+    "arxiv_id": "http://arxiv.org/abs/2303.00549v1",
+    "download_url": "https://arxiv.org/abs/2303.00549v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Secure Integration of Electric Vehicles with the Power Grid",
+    "abstract": "This paper focuses on the secure integration of distributed energy resources (DERs), especially pluggable electric vehicles (EVs), with the power grid. We consider the vehicle-to-grid (V2G) system where EVs are connected to the power grid through an aggregator. In this paper, we propose a novel Cyber-Physical Anomaly Detection Engine that monitors system behavior and detects anomalies almost instantaneously. This detection engine ensures that the critical power grid component (viz.,aggregator)remains secure by monitoring(a)cyber messages for various state changes and data constraints along with (b)power data on the V2G cyber network using power measurements from sensors on the physical/power distribution network. Since the V2G system is time-sensitive, the anomaly detection engine also monitors the timing requirements of the protocol messages to enhance the safety of the aggregator. To the best of our knowledge, this is the first piece of work that combines(a)the EV charging/discharging protocols, the(b)cyber network and(c)power measurements from physical network to detect intrusions in the EV to power grid system.",
+    "authors": [
+      "Chaitra Niddodi",
+      "Shanny Lin",
+      "Sibin Mohan",
+      "Hao Zhu"
+    ],
+    "publication_date": "2019-05-03T05:16:28Z",
+    "arxiv_id": "http://arxiv.org/abs/1905.01035v4",
+    "download_url": "https://arxiv.org/abs/1905.01035v4",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "To charge in-flight or not: an inquiry into parallel-hybrid electric aircraft configurations via optimal control",
+    "abstract": "We examine two configurations for parallel hybrid electric aircraft, one with, and one without, a mechanical connection between the engines and the electric motors. For this two designs, we then review the power allocation problem in the context of aircraft energy management for a 19-seat conceptual Hybrid Electric Aircraft. We then represent the original optimal control problem as a finite-dimensional optimization and validate the second-order sufficient conditions for global optimality of the obtained solution. This is then followed by a sensitivity analysis of the fuel consumption on the initial aircraft weight and flight endurance. Our simulation and theoretical results clarify the limited benefit of charging the battery in-flight for this class of hybrid electric aircraft to reduce $CO_2$ emissions.",
+    "authors": [
+      "Mengyuan Wang",
+      "Mehran Mesbahi"
+    ],
+    "publication_date": "2022-08-18T17:18:06Z",
+    "arxiv_id": "http://arxiv.org/abs/2208.08969v1",
+    "download_url": "https://arxiv.org/abs/2208.08969v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Reducing Waiting Times at Charging Stations with Adaptive Electric Vehicle Route Planning",
+    "abstract": "Electric vehicles are becoming more popular all over the world. With increasing battery capacities and a growing fast-charging infrastructure, they are becoming suitable for long distance travel. However, queues at charging stations could lead to long waiting times, making efficient route planning even more important. In general, optimal multi-objective route planning is extremely computationally expensive. We propose an adaptive charging and routing strategy, which considers driving, waiting, and charging time. For this, we developed a multi-criterion shortest-path search algorithm using contraction hierarchies. To further reduce the computational effort, we precompute shortest-path trees between the known locations of the charging stations. We propose a central charging station database (CSDB) that helps estimating waiting times at charging stations ahead of time. This enables our adaptive charging and routing strategy to reduce these waiting times. In an extensive set of simulation experiments, we demonstrate the advantages of our concept, which reduces average waiting times at charging stations by up to 97 %. Even if only a subset of the cars uses the CSDB approach, we can substantially reduce waiting times and thereby the total travel time of electric vehicles.",
+    "authors": [
+      "Sven Schoenberg",
+      "Falko Dressler"
+    ],
+    "publication_date": "2021-02-02T10:17:38Z",
+    "arxiv_id": "http://arxiv.org/abs/2102.06503v1",
+    "download_url": "https://arxiv.org/abs/2102.06503v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Trends in the optimal location and sizing of electrical units in smart grids using meta-heuristic algorithms",
+    "abstract": "The development of smart grids has effectively transformed the traditional grid system. This promises numerous advantages for economic values and autonomous control of energy sources. In smart grids development, there are various objectives such as voltage stability, minimized power loss, minimized economic cost and voltage profile improvement. Thus, researchers have investigated several approaches based on meta-heuristic optimization algorithms for the optimal location and sizing of electrical units in a distribution system. Meta-heuristic algorithms have been applied to solve different problems in power systems and they have been successfully used in distribution systems. This paper presents a comprehensive review on existing methods for the optimal location and sizing of electrical units in distribution networks while considering the improvement of major objective functions. Techniques such as voltage stability index, power loss index, and loss sensitivity factors have been implemented alongside the meta-heuristic optimization algorithms to reduce the search space of solutions for objective functions. However, these techniques can cause a loss of optimality. Another perceived problem is the inappropriate handling of multiple objectives, which can also affect the optimality of results. Hence, a recent method such as Pareto fronts generation has been developed to produce non-dominating solutions. This review shows a need for more research on (i) the effective handling of multiple objective functions, (ii) more efficient meta-heuristic optimization algorithms and/or (iii) better supporting techniques.",
+    "authors": [
+      "Kayode Adetunji",
+      "Ivan Hofsajer",
+      "Ling Cheng"
+    ],
+    "publication_date": "2019-10-16T07:45:43Z",
+    "arxiv_id": "http://arxiv.org/abs/1910.09312v1",
+    "download_url": "https://arxiv.org/abs/1910.09312v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "evS2CP: Real-time Simultaneous Speed and Charging Planner for Connected Electric Vehicles",
+    "abstract": "This paper presents evS2CP, an optimization-based framework for simultaneous speed and charging planning designed for connected electric vehicles (EVs). With EVs emerging as competitive alternatives to internal combustion engine vehicles, overcoming challenges such as limited charging infrastructure is crucial. evS2CP addresses these issues by minimizing the travel time, charging time, and energy consumption, providing practical solutions for both human-operated and autonomous vehicles. This framework leverages V2X communication to integrate essential EV planning data, including route geometry, real-time traffic conditions, and charging station availability, while simulating dynamic driving environments using open-web API services. The speed and charging planning problem was initially formulated as a nonlinear programming model, which was then convexified into a quadratic programming model without charging-stop constraints. Additionally, a mixed-integer programming approach was employed to optimize charging station selection and minimize the frequency of charging events. A mixed-integer quadratic programming implementation exhibited exceptional computational efficiency and scalability, effectively solving trip plans over distances exceeding 700 km in a few seconds. Simulations conducted using open-source and commercial solvers validated the framework's near-global optimality, demonstrating its robustness and feasibility for real-world applications in connected EV ecosystems.",
+    "authors": [
+      "Minwoo Gwon",
+      "Jiwon Kim",
+      "Seungjun Yoo",
+      "Kwang-Ki K. Kim"
+    ],
+    "publication_date": "2024-12-12T09:41:07Z",
+    "arxiv_id": "http://arxiv.org/abs/2412.09109v1",
+    "download_url": "https://arxiv.org/abs/2412.09109v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Electrical Structure-Based PMU Placement in Electric Power Systems",
+    "abstract": "Recent work on complex networks compared the topological and electrical structures of the power grid, taking into account the underlying physical laws that govern the electrical connectivity between various components in the network. A distance metric, namely, resistance distance was introduced to provide a more comprehensive description of interconnections in power systems compared with the topological structure, which is based only on geographic connections between network components. Motivated by these studies, in this paper we revisit the phasor measurement unit (PMU) placement problem by deriving the connectivity matrix of the network using resistance distances between buses in the grid, and use it in the integer program formulations for several standard IEEE bus systems. The main result of this paper is rather discouraging: more number of PMUs are required, compared with those obtained using the topological structure, to meet the desired objective of complete network observability without zero injection measurements. However, in light of recent advances in the electrical structure of the grid, our study provides a more realistic perspective of PMU placement in power systems. By further exploring the connectivity matrix derived using the electrical structure, we devise a procedure to solve the placement problem without resorting to linear programming.",
+    "authors": [
+      "K. G. Nagananda"
+    ],
+    "publication_date": "2013-09-05T10:09:18Z",
+    "arxiv_id": "http://arxiv.org/abs/1309.1300v1",
+    "download_url": "https://arxiv.org/abs/1309.1300v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "A Unifying Framework for the Electrical Structure-Based Approach to PMU Placement in Electric Power Systems",
+    "abstract": "The electrical structure of the power grid is utilized to address the phasor measurement unit (PMU) placement problem. First, we derive the connectivity matrix of the network using the resistance distance metric and employ it in the linear program formulation to obtain the optimal number of PMUs, for complete network observability without zero injection measurements. This approach was developed by the author in an earlier work, but the solution methodology to address the location problem did not fully utilize the electrical properties of the network, resulting in an ambiguity. In this paper, we settle this issue by exploiting the coupling structure of the grid derived using the singular value decomposition (SVD)-based analysis of the resistance distance matrix to solve the location problem. Our study, which is based on recent advances in complex networks that promote the electrical structure of the grid over its topological structure and the SVD analysis which throws light on the electrical coupling of the network, results in a unified framework for the electrical structure-based PMU placement. The proposed method is tested on IEEE bus systems, and the results uncover intriguing connections between the singular vectors and average resistance distance between buses in the network.",
+    "authors": [
+      "K. G. Nagananda",
+      "Shalinee Kishore"
+    ],
+    "publication_date": "2013-12-02T06:13:54Z",
+    "arxiv_id": "http://arxiv.org/abs/1312.0336v1",
+    "download_url": "https://arxiv.org/abs/1312.0336v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Evaluating Uncertainties in Electricity Markets via Machine Learning and Quantum Computing",
+    "abstract": "The analysis of decision-making process in electricity markets is crucial for understanding and resolving issues related to market manipulation and reduced social welfare. Traditional Multi-Agent Reinforcement Learning (MARL) method can model decision-making of generation companies (GENCOs), but faces challenges due to uncertainties in policy functions, reward functions, and inter-agent interactions. Quantum computing offers a promising solution to resolve these uncertainties, and this paper introduces the Quantum Multi-Agent Deep Q-Network (Q-MADQN) method, which integrates variational quantum circuits into the traditional MARL framework. The main contributions of the paper are: identifying the correspondence between market uncertainties and quantum properties, proposing the Q-MADQN algorithm for simulating electricity market bidding, and demonstrating that Q-MADQN allows for a more thorough exploration and simulates more potential bidding strategies of profit-oriented GENCOs, compared to conventional methods, without compromising computational efficiency. The proposed method is illustrated on IEEE 30-bus test network, confirming that it offers a more accurate model for simulating complex market dynamics.",
+    "authors": [
+      "Shuyang Zhu",
+      "Ziqing Zhu",
+      "Linghua Zhu",
+      "Yujian Ye",
+      "Siqi Bu",
+      "Sasa Z. Djokic"
+    ],
+    "publication_date": "2024-07-23T11:46:13Z",
+    "arxiv_id": "http://arxiv.org/abs/2407.16404v1",
+    "download_url": "https://arxiv.org/abs/2407.16404v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Dynamic State Estimation for Integrated Natural Gas and Electric Power Systems",
+    "abstract": "A dynamic state estimation method of integrated natural gas and electric power systems (IGESs) in proposed. Firstly, the coupling model of gas pipeline networks and power systems by gas turbine units (GTUs) is established. Secondly, the Kalman filter based linear DSE model for the IGES is built. The gas density and mass flow rate, as well as the real and imaginary parts of bus voltages are taken as states, which are predicted by the linearized fluid dynamic equations of gases and exponential smoothing techniques. Boundary conditions of pipeline networks are used as supplementary constraints in the system model. At last, the proposed method is applied to an IGES including a 30-node pipeline network and IEEE 39-bus system coupled by two GTUs. Two indexes are used to evaluate the DSE performance under three measurement error conditions, and the results show that the DSE can obtain the accurate dynamic states in different conditions.",
+    "authors": [
+      "Liang Chen",
+      "Xinxin Hui",
+      "Songlin Gu",
+      "Manyun Huang",
+      "Yang Li"
+    ],
+    "publication_date": "2021-07-13T07:41:16Z",
+    "arxiv_id": "http://arxiv.org/abs/2107.05891v1",
+    "download_url": "https://arxiv.org/abs/2107.05891v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Advanced System Engineering Approaches to Emerging Challenges in Planetary and Deep-Space Exploration",
+    "abstract": "This paper presents innovative solutions to critical challenges in planetary and deep-space exploration electronics. We synthesize findings across diverse mission profiles, highlighting advances in: (1) MARTIAN positioning systems with dual-frequency transmission to achieve $\\pm$1m horizontal accuracy; (2) artificial reef platforms for Titan's hydrocarbon seas utilizing specialized sensor arrays and multi-stage communication chains; (3) precision orbital rendezvous techniques demonstrating novel thermal protection solutions; (4) miniaturized CubeSat architectures for asteroid exploration with optimized power-to-mass ratios; and (5) next-generation power management systems for MARS rovers addressing dust accumulation challenges. These innovations represent promising directions for future space exploration technologies, particularly in environments where traditional Earth-based electronic solutions prove inadequate. The interdisciplinary nature of these developments highlights the critical intersection of aerospace engineering, electrical engineering, and planetary science in advancing human exploration capabilities beyond Earth orbit.",
+    "authors": [
+      "J. de Curtò",
+      "Cristina LiCalzi",
+      "Julien Tubiana Warin",
+      "Jack Gehlert",
+      "Brian Langbein",
+      "Alexandre Gamboa",
+      "Chris Sixbey",
+      "William Maguire",
+      "Santiago Fernández",
+      "Álvaro Maestroarena",
+      "Alex Brenchley",
+      "Logan Maroclo",
+      "Philemon Mercado",
+      "Joshua DeJohn",
+      "Cesar Velez",
+      "Ethan Dahmus",
+      "Taylor Steinys",
+      "David Fritz",
+      "I. de Zarzà"
+    ],
+    "publication_date": "2025-06-26T12:01:47Z",
+    "arxiv_id": "http://arxiv.org/abs/2506.21648v1",
+    "download_url": "https://arxiv.org/abs/2506.21648v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  },
+  {
+    "title": "Database Engines: Evolution of Greenness",
+    "abstract": "Context: Information Technology consumes up to 10\\% of the world's electricity generation, contributing to CO2 emissions and high energy costs. Data centers, particularly databases, use up to 23% of this energy. Therefore, building an energy-efficient (green) database engine could reduce energy consumption and CO2 emissions.\n  Goal: To understand the factors driving databases' energy consumption and execution time throughout their evolution.\n  Method: We conducted an empirical case study of energy consumption by two MySQL database engines, InnoDB and MyISAM, across 40 releases. We examined the relationships of four software metrics to energy consumption and execution time to determine which metrics reflect the greenness and performance of a database.\n  Results: Our analysis shows that database engines' energy consumption and execution time increase as databases evolve. Moreover, the Lines of Code metric is correlated moderately to strongly with energy consumption and execution time in 88% of cases.\n  Conclusions: Our findings provide insights to both practitioners and researchers. Database administrators may use them to select a fast, green release of the MySQL database engine. MySQL database-engine developers may use the software metric to assess products' greenness and performance. Researchers may use our findings to further develop new hypotheses or build models to predict greenness and performance of databases.",
+    "authors": [
+      "Andriy V. Miranskyy",
+      "Zainab Al-zanbouri",
+      "David Godwin",
+      "Ayse Basar Bener"
+    ],
+    "publication_date": "2017-01-09T20:47:21Z",
+    "arxiv_id": "http://arxiv.org/abs/1701.02344v1",
+    "download_url": "https://arxiv.org/abs/1701.02344v1",
+    "field_of_study": "engineering",
+    "document_type": "preprint",
+    "citation_count": null,
+    "source_repository": "arXiv"
+  }
+]
