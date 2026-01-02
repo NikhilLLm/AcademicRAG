@@ -25,20 +25,28 @@ export async function getUploadResult(file) {
     return await response.json();
     
 }
-
-
-export async function getNotes( id) {
+export async function startNotesJob(id) {
   const formData = new FormData();
-  formData.append("vector_index", id);            // backend expects th
+  formData.append("vector_index", id);
 
-  const response = await fetch(`${endpoint}/notes/${id}`, {
+  const res = await fetch(`/api/notes/start/${id}`, {
     method: "POST",
     body: formData,
   });
 
-  if (!response.ok) {
-    throw new Error(`Failed to fetch notes: ${response.status}`);
+  if (!res.ok) {
+    throw new Error("Failed to start notes job");
   }
 
-  return await response.json();
+  return res.json(); // { job_id }
+}
+
+export async function getJobStatus(jobId) {
+  const res = await fetch(`/api/notes/status/${jobId}`);
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch job status");
+  }
+
+  return res.json(); // { status, result }
 }
