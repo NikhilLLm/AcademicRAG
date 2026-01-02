@@ -1,47 +1,43 @@
 import os
 import json
-from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
+from sentence_transformers import SentenceTransformer
+from fastembed import SparseTextEmbedding
 
-# === CONFIG ===
-# Use the model name (string) here. Creating a SentenceTransformer
-# instance is done below when we actually load the model.
-MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
+# ================= CONFIG =================
+DENSE_MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
+BM25_MODEL_NAME = "Qdrant/bm25"
 
 BATCH_SIZE = 32
 
-# === PATHS ===
 INPUT_ROOT = "C:/Users/nshej/aisearch/data/metadata"
 OUTPUT_ROOT = "C:/Users/nshej/aisearch/embeddings/chunks"
 
-# === LOAD MODEL ===
-# Instantiate the SentenceTransformer using the model name string.
-model = SentenceTransformer(MODEL_NAME)
+# ================= LOAD MODELS =================
+dense_embedding_model = SentenceTransformer(DENSE_MODEL_NAME)
+bm25_embedding_model = SparseTextEmbedding(BM25_MODEL_NAME)
 
-# === HELPERS ===
+# ================= HELPERS =================
 def load_metadata(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def build_text(record):
+def build_doc_text(record):
     title = (record.get("title") or "").strip()
-    abstract = record.get("abstract")
-    abstract = abstract.strip() if isinstance(abstract, str) else ""
-
-    if abstract and "no abstract" not in abstract.lower():
-        return f"{title}. {abstract}"
-    return title
+    abstract = (record.get("abstract") or "").strip()
+    authors = ", ".join(record.get("authors") or [])
+    return f"{title}. {abstract}. {authors}".strip()
 
 def get_unique_id(record):
     return record.get("arxiv_id") or record.get("title")
 
 def save_embeddings(vectors, output_path):
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         for item in vectors:
-            json.dump(item, f)
-            f.write('\n')
+            json.dump(item, f, ensure_ascii=False)
+            f.write("\n")
 
-# === MAIN LOOP ===
+# ================= MAIN LOOP =================
 for field in os.listdir(INPUT_ROOT):
     field_path = os.path.join(INPUT_ROOT, field)
     if not os.path.isdir(field_path):
@@ -56,42 +52,69 @@ for field in os.listdir(INPUT_ROOT):
         continue
 
     print(f"\n🔍 Embedding field: {field}")
-    all_texts, all_ids, all_records = [], [], []
+
+    all_docs, all_ids, all_records = [], [], []
     seen_ids = set()
 
-    # Load and combine all batches
     for file in sorted(os.listdir(field_path)):
         if not file.endswith(".json"):
             continue
+
         batch_path = os.path.join(field_path, file)
         records = load_metadata(batch_path)
 
         for record in records:
-            text = build_text(record)
-            if not text:
+            doc_text = build_doc_text(record)
+            if not doc_text:
                 continue
+
             eid = get_unique_id(record)
             if not eid or eid in seen_ids:
                 continue
+
             seen_ids.add(eid)
-            all_texts.append(text)
+            all_docs.append(doc_text)
             all_ids.append(eid)
             all_records.append(record)
 
-    print(f"📦 Total unique records to embed: {len(all_texts)}")
+    print(f"📦 Total unique records to embed: {len(all_docs)}")
+
     vectors = []
 
-    for i in tqdm(range(0, len(all_texts), BATCH_SIZE)):
-        batch_texts = all_texts[i:i+BATCH_SIZE]
-        batch_ids = all_ids[i:i+BATCH_SIZE]
-        batch_records = all_records[i:i+BATCH_SIZE]
-        embeddings = model.encode(batch_texts, show_progress_bar=False)
+    for i in tqdm(range(0, len(all_docs), BATCH_SIZE)):
+        batch_docs = all_docs[i:i + BATCH_SIZE]
+        batch_ids = all_ids[i:i + BATCH_SIZE]
+        batch_records = all_records[i:i + BATCH_SIZE]
 
-        for eid, emb, raw_text, record in zip(batch_ids, embeddings, batch_texts, batch_records):
+        # Dense embeddings
+        dense_embeddings = dense_embedding_model.encode(
+            batch_docs,
+            show_progress_bar=False
+        )
+
+        # Sparse (BM25)
+        bm25_embeddings = list(bm25_embedding_model.embed(doc for doc in batch_docs))
+
+        for eid, dense, bm25, record in zip(
+            batch_ids,
+            dense_embeddings,
+            bm25_embeddings,
+            batch_records,
+        ):
             vectors.append({
-                "id": eid, #
-                "embedding": emb.tolist(),
-                "text": raw_text,
+                "id": eid,
+
+                # Dense vector
+                "dense_embedding": dense.tolist(),
+
+                # Sparse vector (JSON-safe)
+                "sparse_embedding": {
+                    "indices": bm25.indices.tolist(),
+                    "values": bm25.values.tolist(),
+                },
+
+                # Payload
+                "text": build_doc_text(record),
                 "title": record.get("title"),
                 "abstract": record.get("abstract"),
                 "authors": record.get("authors"),
@@ -99,6 +122,7 @@ for field in os.listdir(INPUT_ROOT):
                 "download_url": record.get("download_url"),
                 "field_of_study": record.get("field_of_study"),
                 "arxiv_id": record.get("arxiv_id"),
+                "citation": record.get("citation_count"),
             })
 
     save_embeddings(vectors, output_path)
