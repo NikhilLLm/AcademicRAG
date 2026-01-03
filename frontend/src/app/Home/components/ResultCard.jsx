@@ -10,7 +10,7 @@ export default function ResultCard({ title,download_url,id }) {
       <div className="flex gap-4 mt-4">
         <Link href={`/Home/notes/${id}`}>
            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm">
-             View Notes
+             Generate Notes
            </button>
         </Link>
         <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md text-sm">
