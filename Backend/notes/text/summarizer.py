@@ -328,7 +328,7 @@ def generate_notes_from_pdf(pdf_url: str):
         merged_extractions = "\n\n=== CHUNK ===\n\n".join(batch_extractions)
 
         # Use final_chain for structured synthesis
-        final_notes = groq_llm(text=merged_extractions,MODEL_NAME="llama-3.3-70b-versatile",max_token=600,temperature=0.1,prompt_template=NOTES_PROMPT.template)
+        final_notes = groq_llm(text=merged_extractions,MODEL_NAME="llama-3.3-70b-versatile",max_token=1000,temperature=0.1,prompt_template=NOTES_PROMPT.template)
 
         logger.info(f"✅ Stage 2 Complete: Final notes generated for PDF ID: {pdf_id}")
         return final_notes

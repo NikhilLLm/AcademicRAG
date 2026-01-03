@@ -137,8 +137,8 @@ class TextPreprocessor:
     def _limit_chunks_per_section(
         self,
         merged_chunks,
-        max_per_section=5,
-        max_total_chunks=40
+        max_per_section=7,
+        max_total_chunks=60
     ):
         """
         Limits how many chunks per section go forward.
