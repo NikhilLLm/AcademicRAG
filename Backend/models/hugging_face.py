@@ -47,7 +47,7 @@ Preserve domain-specific terms and expand with technical keywords in five to six
         model=model_name,
         messages=[{"role": "user", "content": prompt}],
         temperature=temperature,
-        max_tokens=80,
+        max_tokens=100,
     )
 
     # Extract the generated content
