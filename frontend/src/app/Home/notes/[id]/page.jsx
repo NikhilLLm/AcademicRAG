@@ -94,6 +94,25 @@ export default function NotePage() {
       setLoading(false)
      })
   },[id])
+  //-----Storing notes id and title--------
+
+  function saveNoteIndex({id,title}){
+    const notes=JSON.parse(localStorage.getItem("notesIndex"))||[];
+    if(notes.some(n=>n.id===id))return;
+
+    const newNote={
+      id,
+      title,
+      createdAt: new Date().toISOString(),
+    }
+
+    //Newest note on the top
+    notes.unshift(newNote)
+
+
+    localStorage.setItem("notesIndex",JSON.stringify(notes))
+    
+  }
   //----Poll Job : Getting Notes----
 
   useEffect(()=>{
@@ -104,6 +123,10 @@ export default function NotePage() {
          if (data.status==="done"){
           setNote(data.result)
           setLoading(false)
+          saveNoteIndex({
+            id,
+            title:data.result?.papermetadata?.title || "Untitled Paper",
+          })
           clearInterval(interval)
          }
          if(data.status==="error"){
@@ -174,6 +197,8 @@ const handleDownload = async () => {
       </div>
     );
   }
+ 
+
 
   // -------------------------
   // MAIN UI
