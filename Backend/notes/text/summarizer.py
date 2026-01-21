@@ -4,7 +4,7 @@ import logging
 import hashlib
 from langchain_core.documents import Document
 from Backend.models.groq import groq_llm
-from Backend.models.prompts import NOTES_PROMPT
+from Backend.models.prompts import NOTES_PROMPT,VALIDATION_PROMPT,FINAL_NOTES_PROMPT
 
 from Backend.notes.text.chunks_embeddings import TextPreprocessor, CustomEmbedder, generate_pdf_id
 from langchain_qdrant import QdrantVectorStore
@@ -19,7 +19,7 @@ from Backend.embedding.embedd import embed_string
 import os
 from dotenv import load_dotenv
 
-load_dotenv("C:/Users/nshej/aisearch/.env")
+load_dotenv(".env")
 
 # ----------------------------
 # Logging Configuration
@@ -40,7 +40,8 @@ try:
     client = QdrantClient(
         url=URL,
         api_key=api_key,
-        prefer_grpc=False
+        prefer_grpc=False,
+        timeout=10
     )
     logger.info("Connected to Qdrant successfully")
 except Exception as e:
@@ -165,15 +166,16 @@ def hybrid_search_for_pdf(query: str, pdf_id: str, collection_name: str, k: int 
         # Convert to LangChain Document format
         documents = []
         for point in search_results.points:
+            payload = point.payload or {}
             doc = Document(
-                page_content=point.payload.get("page_content", ""),
+                page_content=payload.get("page_content", ""),
                 metadata={
-                    "pdf_id": point.payload.get("pdf_id"),
-                    "pdf_url": point.payload.get("pdf_url"),
-                    "chunk_id": point.payload.get("chunk_id"),
-                    "section": point.payload.get("section"),
-                    "source": point.payload.get("source"),
-                    "type": point.payload.get("type")
+                    "pdf_id": payload.get("pdf_id"),
+                    "pdf_url": payload.get("pdf_url"),
+                    "chunk_id": payload.get("chunk_id"),
+                    "section": payload.get("section"),
+                    "source": payload.get("source"),
+                    "type": payload.get("type")
                 }
             )
             documents.append(doc)
@@ -214,6 +216,58 @@ def batch_extract_chunks(chunks, batch_size=15):
 
     return extractions
 
+def generate_final_notes_with_validation(
+    merged_extractions: str,
+    max_iterations: int = 2
+) -> str:
+    """
+    Iterative generate → validate → repair loop
+    """
+
+    # -------- Step 1: Draft structured notes --------
+    notes = groq_llm(
+        text=merged_extractions,
+        MODEL_NAME="llama-3.3-70b-versatile",
+        max_token=1200,
+        temperature=0.1,
+        prompt_template=NOTES_PROMPT
+    )
+
+    for iteration in range(max_iterations):
+        logger.info(f"🔁 Validation loop iteration {iteration + 1}")
+
+        # -------- Step 2: Validate --------
+        validation_report = groq_llm(
+            text={
+                "notes": notes,
+                "source": merged_extractions
+            },
+            MODEL_NAME="openai/gpt-oss-20b",   # or DeepSeek-R1
+            max_token=600,
+            temperature=0.0,
+            prompt_template=VALIDATION_PROMPT
+        )
+
+        # Optional: break early if no issues
+        if '"incorrect_claims": []' in validation_report and \
+           '"unsupported_claims": []' in validation_report and \
+           '"speculative_claims": []' in validation_report:
+            logger.info("✅ Notes passed validation with no critical issues")
+            break
+
+        # -------- Step 3: Repair --------
+        notes = groq_llm(
+            text={
+                "validation": validation_report,
+                "notes": notes
+            },
+            MODEL_NAME="llama-3.1-8b-instant",
+            max_token=1200,
+            temperature=0.1,
+            prompt_template=FINAL_NOTES_PROMPT
+        )
+
+    return notes
 
 # ----------------------------
 # Main Pipeline with PDF ID
@@ -328,7 +382,11 @@ def generate_notes_from_pdf(pdf_url: str):
         merged_extractions = "\n\n=== CHUNK ===\n\n".join(batch_extractions)
 
         # Use final_chain for structured synthesis
-        final_notes = groq_llm(text=merged_extractions,MODEL_NAME="llama-3.3-70b-versatile",max_token=1000,temperature=0.1,prompt_template=NOTES_PROMPT.template)
+        final_notes = generate_final_notes_with_validation(
+            merged_extractions=merged_extractions,
+            max_iterations=2
+        )
+
 
         logger.info(f"✅ Stage 2 Complete: Final notes generated for PDF ID: {pdf_id}")
         return final_notes

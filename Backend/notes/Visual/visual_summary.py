@@ -1,5 +1,5 @@
 from huggingface_hub import InferenceClient 
-from backend.notes.Visual.image_table_extractor import ImageTableExtractor 
+from Backend.notes.Visual.image_table_extractor import ImageTableExtractor 
 from dotenv import load_dotenv 
 import os 
 import json 
@@ -10,119 +10,138 @@ HF_TOKEN = os.getenv("HF_TOKEN")
  
 client = InferenceClient( 
     model="mistralai/Mistral-7B-Instruct-v0.2", 
-    token=HF_TOKEN 
+    token=HF_TOKEN,
+
 ) 
+
 
 def normalize_visual_notes(visual_notes: str):
     """
-    Convert figures/tables into clean textual facts.
-    No markdown noise, no redundancy.
+    Light cleanup ONLY.
+    - Removes markdown bullets/headings
+    - Preserves uncertainty, qualifiers, and factual statements
+    - Does NOT drop semantic lines
     """
     lines = visual_notes.split("\n")
     clean = []
 
     for l in lines:
-        if any(x in l.lower() for x in ["figure", "table", "page"]):
-            clean.append(l.strip())
-        elif ":" in l and len(l) < 300:
-            clean.append(l.strip())
+        l = l.strip()
+        if not l:
+            continue
+
+        # Remove markdown bullets/headings only
+        l = l.lstrip("-•# ").strip()
+
+        clean.append(l)
 
     return "\n".join(clean)
 
- 
-def get_summary(pdf_url: str): 
-    """Generate final bullet-point notes from visuals + tables""" 
- 
-    # 1️⃣ Extract cleaned semantic facts 
-    extractor = ImageTableExtractor(pdf_url) 
-    extracted_items = extractor.extracted_text() 
- 
-    # 2️⃣ Separate figures and tables for better organization
-    figures = [item for item in extracted_items if item.get('type') == 'figure']
-    tables = [item for item in extracted_items if item.get('type') == 'table']
-    
-    # 3️⃣ Build structured data string
+def format_visual_evidence(figures: list, tables: list) -> str:
+    """
+    Format visual evidence into structured narrative input for LLM.
+    Preserves metadata for confidence gating in merge phase.
+    """
     data_text = ""
     
     if figures:
-        data_text += "FIGURES:\n"
-        for fig in figures:
-            data_text += f"\n- Figure {fig.get('id', 'Unknown')} (Page {fig.get('page', '?')})\n"
-            data_text += f"  Caption: {fig.get('caption', 'No caption')}\n"
-            if 'extracted_text' in fig:
-                data_text += f"  Content: {fig['extracted_text']}\n"
+        data_text += "FIGURES (WITH CONFIDENCE METADATA):\n"
+        data_text += "-" * 60 + "\n"
+        for i, fig in enumerate(figures, 1):
+            caption = fig.get("caption", "[No caption]").strip()
+            context = fig.get("context", "[No context]").strip()
+            caption_conf = fig.get("caption_confidence", 0)
+            context_conf = fig.get("context_confidence", 0)
+            usefulness = fig.get("usefulness_score", 0)
+            
+            data_text += f"""Figure {fig.get("id", i)} (Page {fig.get("page", "?")})
+[Caption Confidence: {caption_conf:.2f}, Context Confidence: {context_conf:.2f}, Usefulness: {usefulness:.2f}]
+Caption: {caption}
+Context: {context}
+\n"""
     
     if tables:
-        data_text += "\n\nTABLES:\n"
-        for tbl in tables:
-            data_text += f"\n- Table {tbl.get('id', 'Unknown')} (Page {tbl.get('page', '?')})\n"
-            if 'data' in tbl:
-                data_text += f"  Data: {json.dumps(tbl['data'], indent=2)}\n"
- 
-    # 4️⃣ Chat completion format with system + user messages
+        data_text += "TABLES (WITH STRUCTURE METADATA):\n"
+        data_text += "-" * 60 + "\n"
+        for i, tbl in enumerate(tables, 1):
+            rows = tbl.get("rows", "?")
+            cols = tbl.get("columns", "?")
+            conf = tbl.get("confidence", 0)
+            usefulness = tbl.get("usefulness_score", 0)
+            title = tbl.get("title", "[No title]")
+            
+            data_text += f"""Table {tbl.get("id", i)} (Page {tbl.get("page", "?")})
+[Confidence: {conf:.2f}, Usefulness: {usefulness:.2f}]
+Structure: {rows} rows × {cols} columns
+Title/Purpose: {title}
+\n"""
+    
+    return data_text
+
+
+def get_summary(pdf_url: str):
+    """
+    VISUAL PASS ONLY:
+    - Descriptive narrative format
+    - Evidence-bound with confidence markers
+    - NO interpretation or inference
+    - Metadata preserved for merge phase gating
+    """
+
+    extractor = ImageTableExtractor(pdf_url)
+    extracted = extractor.extracted_text()
+
+    figures = extracted.get("figures", [])
+    tables = extracted.get("tables", [])
+
+    # -------- HARD FILTER BY USEFULNESS (confidence gate) --------
+    figures = [f for f in figures if f.get("usefulness_score", 0) >= 0.6]
+    tables  = [t for t in tables  if t.get("usefulness_score", 0) >= 0.6]
+
+    # -------- BUILD STRUCTURED EVIDENCE WITH METADATA --------
+    data_text = format_visual_evidence(figures, tables)
+    
+    if not data_text.strip():
+        return "No visual evidence extracted with sufficient confidence."
+
+    # -------- PROMPT (NARRATIVE FORMAT, ANTI-HALLUCINATION) --------
     messages = [
         {
             "role": "system",
-            "content": """You are an expert academic note-taker specializing in research papers.
+            "content": """You are generating FACTUAL academic visual evidence descriptions (narrative format).
 
-Your task is to create clear, structured bullet-point notes from figures and tables.
+OUTPUT FORMAT:
+- Write as flowing narrative paragraphs (NOT bullet points)
+- One paragraph per figure/table
+- Use phrases: "shows", "depicts", "displays", "presents"
+- Reference by ID and page number
 
-FORMAT YOUR RESPONSE EXACTLY LIKE THIS:
-
-## Figures
-
-### Figure 1 (Page X): [Caption]
-- Key finding or insight
-- Important detail or metric
-- Comparison or result
-
-### Figure 2 (Page Y): [Caption]
-- Key finding or insight
-- Important detail
-
-## Tables
-
-### Table 1 (Page X): [Description]
-- Main result or comparison
-- Key metrics and values
-- Notable patterns
-
-RULES:
-- Always include figure/table number and page
-- Include the original caption/description
-- Extract KEY insights, don't just describe the visual
-- For tables: highlight important comparisons and metrics
-- Use bullet points (•) for each insight
-- Be concise but informative
-- NO mentions of "bounding boxes", "layout", or technical extraction details"""
+FACTUALITY RULES:
+- ONLY describe what is in caption/context
+- DO NOT infer trends, performance, or improvements
+- DO NOT compare methods
+- If no quantitative data: say "(illustrative only)"
+- Low confidence: Add "caption unclear"
+- Tables: Describe structure only unless data is explicit
+"""
         },
         {
             "role": "user",
-            "content": f"""Create structured study notes from the following research paper visuals:
+            "content": f"""Generate narrative visual evidence from this data. Be factual, no inference:
 
 {data_text}
-
-Remember to:
-1. Start with figure number and page
-2. Include caption/description
-3. Extract meaningful insights in bullet points
-4. For tables, highlight key comparisons and metrics"""
+"""
         }
     ]
- 
-    # 5️⃣ Call with chat completion format
+
     response = client.chat_completion(
         messages=messages,
-        max_tokens=1500,  # Increased for detailed notes
-        temperature=0.3,  # Lower for more focused output
+        max_tokens=1200,
+        temperature=0.2,
         top_p=0.9
     )
-    
-    # 6️⃣ Extract the generated text
+
     notes = response.choices[0].message.content
-    notes= normalize_visual_notes(notes)
+    notes = normalize_visual_notes(notes)
+
     return notes
-
-
-
-

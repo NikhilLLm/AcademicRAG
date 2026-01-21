@@ -9,7 +9,7 @@ def embed_string(text:str):
     bm25_embedding_model = SparseTextEmbedding(BM25_MODEL_NAME)
     
     dense_embedding = hugging_face_embed(text)
-    bm25_embeddings = next(bm25_embedding_model.query_embed(text))
+    bm25_embeddings = next(iter(bm25_embedding_model.query_embed(text)))
     enhanced={
         "dense_embedding":dense_embedding,
          "sparse_embedding": {

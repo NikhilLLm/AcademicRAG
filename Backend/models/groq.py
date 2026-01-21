@@ -1,4 +1,4 @@
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate,PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
@@ -15,39 +15,45 @@ Just give the summary as it is.
 
 Table or text chunk: {element}
 """
-
-
 def groq_llm(
-    text: str,
+    text,
     MODEL_NAME: str,
-    max_token:int,
-    temperature:float,
-    prompt_template: ChatPromptTemplate | None = None,
+    max_token: int,
+    temperature: float,
+    prompt_template: PromptTemplate,
 ) -> str:
     """
-    Run Groq LLM with configurable model and prompt.
+    Universal Groq LLM runner that auto-maps inputs
+    based on PromptTemplate.input_variables
     """
-    if not text or not text.strip():
+
+    if text is None:
         return ""
 
     model = ChatGroq(
         temperature=temperature,
         model=MODEL_NAME,
-        max_tokens=max_token
+        max_tokens=max_token,
+        
     )
 
-    if prompt_template is None:
-        prompt = ChatPromptTemplate.from_template(_DEFAULT_PROMPT_TEXT)
-    elif isinstance(prompt_template, ChatPromptTemplate):
-        prompt = prompt_template
-    else:
-        prompt = ChatPromptTemplate.from_template(prompt_template)
+    chain = prompt_template | model | StrOutputParser()
 
-    chain = (
-        {"element": lambda x: x}
-        | prompt
-        | model
-        | StrOutputParser()
-    )
+    expected_vars = prompt_template.input_variables
 
-    return chain.invoke(text)
+    # Case 1: Dict input (validation / repair)
+    if isinstance(text, dict):
+        missing = set(expected_vars) - set(text.keys())
+        if missing:
+            raise KeyError(f"Missing prompt variables: {missing}")
+        return chain.invoke(text)
+
+    # Case 2: String input (single-variable prompt)
+    if isinstance(text, str):
+        if len(expected_vars) != 1:
+            raise ValueError(
+                f"Prompt expects variables {expected_vars}, but received string input"
+            )
+        return chain.invoke({expected_vars[0]: text})
+
+    raise TypeError("text must be str or dict")

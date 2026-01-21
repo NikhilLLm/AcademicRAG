@@ -5,53 +5,63 @@ import os
 import tempfile
 import camelot
 import pandas as pd
+
+FIGURE_REGEX = re.compile(
+    r'^(figure|fig\.?|table|tbl\.?)\s*(\d+|[ivxlcdm]+)',
+    re.IGNORECASE
+)
+
 class ImageTableExtractor:
     def __init__(self, pdf_url: str):
         self.pdf_url = pdf_url.replace("abs", "pdf")
-    
+
     # --------------------------------------------------
     # PUBLIC ENTRY POINT
     # --------------------------------------------------
     def extracted_text(self):
-       visuals, text_blocks = self.extract_images()
-       enriched_visuals = []
+        visuals, text_blocks = self.extract_images()
+        enriched_visuals = []
 
-       for v in visuals:
-           ev = self.match_caption_and_context(v, text_blocks)
-           ev_cleaned = {}
-       
-           for k, val in ev.items():
-               if k in {"bbox", "data"}:
-                   continue
-               if val is None:
-                   continue
-               if isinstance(val, str) and len(val) > 800:
-                   continue
-       
-               ev_cleaned[k] = val
-       
-           enriched_visuals.append(ev_cleaned)
-       
-       # -------- CLEAN TABLES --------
-       raw_tables = self.extract_tables()
-       clean_tables = []
-       
-       for t in raw_tables:
-           clean_tables.append({
-               "type": "table",
-               "id": t["id"],
-               "page": t["page"],
-               "summary": f"Table compares models, datasets, or evaluation metrics with approx accuracy {t.get('accuracy', 'N/A')}."
-           })
-       
-       return enriched_visuals + clean_tables
+        for v in visuals:
+            ev = self.match_caption_and_context(v, text_blocks)
+
+            ev["usefulness_score"] = self.score_figure(ev)
+
+            # ---- HARD FILTER: only pass useful figures ----
+            if ev["usefulness_score"] >= 0.5:
+                ev_cleaned = {
+                    k: v for k, v in ev.items()
+                    if k not in {"bbox"} and v is not None
+                }
+                enriched_visuals.append(ev_cleaned)
+
+        # -------- TABLE EXTRACTION --------
+        raw_tables = self.extract_tables()
+        clean_tables = []
+
+        for t in raw_tables:
+            t["usefulness_score"] = self.score_table(t)
+
+            if t["usefulness_score"] >= 0.6:
+                clean_tables.append({
+                    "type": "table",
+                    "id": t["id"],
+                    "page": t["page"],
+                    "columns": t["columns"],
+                    "rows": t["rows"],
+                    "confidence": t["accuracy"],
+                    "usefulness_score": t["usefulness_score"]
+                })
+
+        return {
+            "figures": enriched_visuals,
+            "tables": clean_tables
+        }
 
     # --------------------------------------------------
-    # PASS 1: COLLECT VISUALS + ALL TEXT BLOCKS
+    # PASS 1: EXTRACT VISUALS + TEXT
     # --------------------------------------------------
     def extract_images(self):
-        """Extract image/drawing visuals + ALL text blocks"""
-
         content = requests.get(self.pdf_url).content
         doc = fitz.open(stream=content, filetype="pdf")
 
@@ -59,19 +69,18 @@ class ImageTableExtractor:
         text_blocks = []
         visual_count = 1
 
-        # -------- PASS 1A: COLLECT TEXT BLOCKS --------
         for page_num in range(len(doc)):
             page = doc.load_page(page_num)
             blocks = page.get_text("dict")["blocks"]
-            
+
             for b in blocks:
-                if b["type"] == 0:  # Text block
-                    text = ""
-                    for line in b.get("lines", []):
-                        for span in line.get("spans", []):
-                            text += span.get("text", "") + " "
-                    
-                    text = text.strip()
+                if b["type"] == 0:
+                    text = " ".join(
+                        span["text"]
+                        for line in b.get("lines", [])
+                        for span in line.get("spans", [])
+                    ).strip()
+
                     if text:
                         text_blocks.append({
                             "text": text,
@@ -79,16 +88,9 @@ class ImageTableExtractor:
                             "bbox": b["bbox"]
                         })
 
-        # -------- PASS 1B: COLLECT VISUAL BLOCKS --------
-        for page_num in range(len(doc)):
-            page = doc.load_page(page_num)
-            blocks = page.get_text("dict")["blocks"]
-            
-            for b in blocks:
-                # Images + drawings (tables are drawings in PDFs)
-                if b["type"] in (1, 2):
+                elif b["type"] in (1, 2):
                     visuals.append({
-                        "type": "visual",
+                        "type": "figure",
                         "id": f"Visual_{visual_count}",
                         "page": page_num + 1,
                         "bbox": b["bbox"]
@@ -98,136 +100,115 @@ class ImageTableExtractor:
         return visuals, text_blocks
 
     # --------------------------------------------------
-    # PASS 2: CAPTION + CONTEXT MATCHING
+    # PASS 2: CAPTION + CONTEXT
     # --------------------------------------------------
     def match_caption_and_context(self, visual, text_blocks):
-        """Match caption (below) and context (above)"""
-
-        visual_top = visual["bbox"][1]
-        visual_bottom = visual["bbox"][3]
-        visual_left = visual["bbox"][0]
-        visual_right = visual["bbox"][2]
+        vt, vb, vl, vr = visual["bbox"][1], visual["bbox"][3], visual["bbox"][0], visual["bbox"][2]
+        vw = max(vr - vl, 1)
         page = visual["page"]
 
-        caption = ""
-        context = ""
-
-        min_caption_dist = float("inf")
-        min_context_dist = float("inf")
-
-        caption_patterns = [
-            r'^(figure|fig\.?|table|tbl\.?)\s*\d+',
-            r'^(figure|fig\.?|table|tbl\.?)\s*[ivxlcdm]+',
-        ]
-
-        visual_width = max(visual_right - visual_left, 1)
+        caption, context = "", ""
+        cap_dist, ctx_dist = float("inf"), float("inf")
 
         for block in text_blocks:
             if block["page"] != page:
                 continue
 
             text = block["text"].strip()
-            if not text:
-                continue
+            bt, bb, bl, br = block["bbox"][1], block["bbox"][3], block["bbox"][0], block["bbox"][2]
 
-            bbox = block["bbox"]
-            block_top = bbox[1]
-            block_bottom = bbox[3]
-            block_left = bbox[0]
-            block_right = bbox[2]
+            overlap = min(vr, br) - max(vl, bl)
+            overlap_ratio = max(overlap / vw, 0)
 
-            # Horizontal overlap ratio
-            overlap = min(visual_right, block_right) - max(visual_left, block_left)
-            horizontal_overlap = max(overlap / visual_width, 0)
-
-            # ---------- CAPTION (BELOW) ----------
-            if block_top > visual_bottom and horizontal_overlap > 0.3:
-                if any(re.match(p, text.lower()) for p in caption_patterns):
-                    dist = block_top - visual_bottom
-                    if dist < min_caption_dist and dist < 120:
+            # ---- CAPTION ----
+            if bt > vb and overlap_ratio > 0.3:
+                m = FIGURE_REGEX.match(text)
+                if m:
+                    dist = bt - vb
+                    if dist < cap_dist and dist < 120:
                         caption = text
-                        min_caption_dist = dist
+                        visual["figure_label"] = m.group(0).strip()
+                        visual["figure_number"] = m.group(2)
+                        visual["id"] = m.group(0).replace(" ", "_").capitalize()
+                        cap_dist = dist
 
-            # ---------- CONTEXT (ABOVE) ----------
-            if block_bottom < visual_top and horizontal_overlap > 0.2:
-                dist = visual_top - block_bottom
-                if dist < min_context_dist and dist < 350:
-                    if len(text) > 30 and not text.isupper():
-                        context = text
-                        min_context_dist = dist
+            # ---- CONTEXT ----
+            if bb < vt and overlap_ratio > 0.2:
+                dist = vt - bb
+                if dist < ctx_dist and dist < 350 and len(text) > 40:
+                    context = text
+                    ctx_dist = dist
 
         visual["caption"] = caption
         visual["context"] = context
+        visual["caption_confidence"] = 0.9 if caption else 0.0
+        visual["context_confidence"] = 0.6 if context else 0.0
+        visual["text_density"] = len((caption + context).split())
+
         return visual
-    
-    #---------------------------------------------------
-    # 3.Table Extraxctioon
-    #---------------------------------------------------
-   
+
+    # --------------------------------------------------
+    # TABLE EXTRACTION (SECURE)
+    # --------------------------------------------------
     def extract_tables(self):
         pdf_bytes = requests.get(self.pdf_url).content
-        
         with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as f:
             f.write(pdf_bytes)
             pdf_path = f.name
-        
+
         try:
-            tables = camelot.read_pdf(
-                pdf_path, 
-                pages="all", 
-                flavor="stream",
-                edge_tol=50,
-                row_tol=15
-            )
-    
-            results = []
-            seen = set()
-            
-            for i, table in enumerate(tables):
-                # Skip low-accuracy tables
-                if table.parsing_report['accuracy'] < 80:  # Adjust threshold
+            tables = camelot.read_pdf(pdf_path, pages="all", flavor="stream")
+            results, seen = [], set()
+
+            for table in tables:
+                acc = table.parsing_report["accuracy"]
+                if acc < 85:
                     continue
-                    
-                df = table.df
-                
-                # Clean and validate
-                df = df.replace('', pd.NA).dropna(how='all').dropna(axis=1, how='all')
-                
-                if df.empty or df.shape[0] < 2 or df.shape[1] < 2:
+
+                df = table.df.replace("", pd.NA).dropna(how="all").dropna(axis=1, how="all")
+                if df.shape[0] < 3 or df.shape[1] < 2:
                     continue
-                
+
+                numeric_ratio = df.map(
+                    lambda x: str(x).replace('.', '', 1).isdigit()
+                ).sum().sum() / (df.shape[0] * df.shape[1])
+
+                if numeric_ratio < 0.3:
+                    continue
+
                 key = (table.page, df.shape)
                 if key in seen:
                     continue
                 seen.add(key)
-            
+
                 results.append({
                     "type": "table",
                     "id": f"Table_{len(results)+1}",
                     "page": table.page,
-                    "accuracy": table.parsing_report['accuracy'],
-                    "data": df.to_dict()
+                    "accuracy": acc,
+                    "rows": df.shape[0],
+                    "columns": list(df.columns)
                 })
-                
+
             return results
         finally:
             os.remove(pdf_path)
-    
-    # --------------------------------------------------
-    # OPTIONAL: CAPTION STRUCTURING
-    # --------------------------------------------------
-    def extract_caption_details(self, caption: str):
-        if not caption:
-            return {"label": "", "description": ""}
 
-        match = re.match(
-            r'^((?:figure|fig\.?|table|tbl\.?)\s*\d+[:\.\-\s]+)(.*)',
-            caption, re.IGNORECASE
-        )
+    # --------------------------------------------------
+    # SCORING
+    # --------------------------------------------------
+    def score_figure(self, v):
+        score = 0.0
+        if v.get("caption"): score += 0.4
+        if v.get("context"): score += 0.3
+        if v.get("text_density", 0) > 40: score += 0.2
+        if "architecture" in (v.get("caption","") + v.get("context","")).lower():
+            score += 0.1
+        return round(min(score, 1.0), 2)
 
-        if match:
-            return {
-                "label": match.group(1).strip(),
-                "description": match.group(2).strip()
-            }
-        return {"label": "", "description": caption}
+    def score_table(self, t):
+        score = 0.4 if t["accuracy"] >= 90 else 0.2
+        score += 0.2 if t["rows"] >= 5 else 0
+        score += 0.2 if len(t["columns"]) >= 3 else 0
+        score += 0.2
+        return round(min(score, 1.0), 2)

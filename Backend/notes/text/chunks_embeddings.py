@@ -49,7 +49,7 @@ class CustomEmbedder(Embeddings):
 
     def embed_query(self, text):
         result=embed_string(text)
-        return result
+        return result["dense_embedding"]
 
 
 class TextPreprocessor:
@@ -71,6 +71,8 @@ class TextPreprocessor:
     def process_pdf(self):
         try:
             extracted=self.extraction()
+            if extracted is None:
+                raise ValueError("PDF extraction failed")
             merged_chunks = self._token_aware_merge(extracted["text_chunks"])
             summary_docs = self._summarize_and_prepare_docs(merged_chunks)
             vector_store = self._store_in_qdrant(summary_docs)
@@ -180,7 +182,7 @@ class TextPreprocessor:
             for idx, chunk in enumerate(merged_chunks, 1):
                 logging.info("Summarizing chunk %d/%d", idx, len(merged_chunks))
                 
-                summary = groq_llm(text=chunk["text"],MODEL_NAME="llama-3.1-8b-instant",max_token=50,temperature=0.2,prompt_template=BATCH_PROMPT_1.template)
+                summary = groq_llm(text=chunk["text"],MODEL_NAME="llama-3.1-8b-instant",max_token=50,temperature=0.2,prompt_template=BATCH_PROMPT_1)
                 docs.append(
                     Document(
                         page_content=summary,

@@ -9,7 +9,7 @@ FIELDS = ["biology", "chemistry", "computer_science", "engineering", "mathematic
 import os
 import fitz
 
-load_dotenv("C:/Users/nshej/aisearch/.env")
+load_dotenv(".env")
 api_key=os.getenv("qdrant_key")
 PAGE_CACHE={}
 class SearchService:

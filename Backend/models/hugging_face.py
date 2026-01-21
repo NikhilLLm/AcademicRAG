@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 from dotenv import load_dotenv
 import numpy as np
 
-load_dotenv("C:/Users/nshej/aisearch/.env")
+load_dotenv(".env")
 
 _hf_client_cache = None
 

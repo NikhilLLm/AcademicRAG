@@ -70,7 +70,7 @@ class DocumentChunkExtractor:
     # --------------------------------------------------
     # SAFE FILE DELETION WITH RETRY
     # --------------------------------------------------
-    def _safe_delete(self, filepath: str, max_attempts: int = 5) -> bool:
+    def _safe_delete(self, filepath: str, max_attempts: int = 5):
         """Safely delete file with retry logic for Windows file locking"""
         for attempt in range(max_attempts):
             try:
