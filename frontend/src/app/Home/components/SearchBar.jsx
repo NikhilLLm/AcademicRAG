@@ -1,13 +1,24 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Search } from "lucide-react";
 import { getSearchResult } from "@/lib/api_call";
 
 export default function SearchBar({ setResults, setLoading }) {
   const [query, setQuery] = useState("");
 
+  // Load query from localStorage on mount
+  useEffect(() => {
+    const savedQuery = localStorage.getItem("searchQuery");
+    if (savedQuery) {
+      setQuery(savedQuery);
+    }
+  }, []);
+
   const handleSearch = async () => {
     if (!query.trim()) return;
+
+    // Save query to localStorage
+    localStorage.setItem("searchQuery", query);
 
     setLoading(true);
     try {

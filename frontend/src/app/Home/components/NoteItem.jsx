@@ -26,7 +26,7 @@ export default function NoteCard({ note, onDelete }) {
         {/* Right: Actions */}
         <div className="flex gap-3 shrink-0">
           <Link
-            href={`/home/notes/${id}?mode=view`}
+            href={`/Home/notes/${id}`}
             className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md text-sm font-medium"
           >
             View

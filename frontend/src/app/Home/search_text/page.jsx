@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SearchBar from "../components/SearchBar";
 import SearchResults from "../components/SearchResults";
 
@@ -7,6 +7,25 @@ export default function SearchPage() {
   // State for results and loading
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
+
+  // Load results from localStorage on mount
+  useEffect(() => {
+    const savedResults = localStorage.getItem("searchResults");
+    if (savedResults) {
+      try {
+        setResults(JSON.parse(savedResults));
+      } catch (err) {
+        console.error("Failed to load search results from storage:", err);
+      }
+    }
+  }, []);
+
+  // Save results to localStorage whenever they change
+  useEffect(() => {
+    if (results.length > 0) {
+      localStorage.setItem("searchResults", JSON.stringify(results));
+    }
+  }, [results]);
 
   return (
     <div className="p-6 max-w-5xl mx-auto">

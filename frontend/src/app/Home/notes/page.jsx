@@ -15,7 +15,9 @@ export default function Page() {
     },[])
 
     const deleteNote=(id)=>{
-        setNotes((prev)=>prev.filter((note)=>note.id!=id))
+        const updatedNotes = notes.filter((note)=>note.id!=id)
+        setNotes(updatedNotes)
+        localStorage.setItem("notesIndex", JSON.stringify(updatedNotes))
     }
 
    

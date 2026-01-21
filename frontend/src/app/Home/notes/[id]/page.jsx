@@ -1,14 +1,12 @@
 "use client";
 
-import { useState, useEffect} from "react";
+import { useState, useEffect, useRef } from "react";
 import { Download, User, Calendar,ArrowLeft,ExternalLink } from "lucide-react";
 
 import { startNotesJob, getJobStatus } from "@/lib/api_call";
 import { useParams } from "next/navigation";
 import { getNotes } from "@/lib/api_call";
-import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
-import { useRef } from "react";
 import Link from "next/link";
 export default function NotePage() {
   const defaultNote ={
@@ -73,6 +71,7 @@ export default function NotePage() {
   const router=useRouter()
   const {id} = useParams()
   const notesRef=useRef(null)
+  const isMountedRef=useRef(true)
   const [note,setNote]=useState({extracted_text:" ",papermetadata:{}})
   const [jobId,setJobId]=useState(null)
   const [error,setError]=useState(null)
@@ -80,18 +79,50 @@ export default function NotePage() {
   //--------Derived values ------
   const papermetadata=note?.papermetadata || defaultNote.papermetadata;
   const content=note?.extracted_text || defaultNote.extracted_text;
+
+  // Retry function to restart the job
+  const handleRetry = async () => {
+    setNote({extracted_text:" ",papermetadata:{}})
+    setJobId(null)
+    setError(null)
+    setLoading(true)
+
+    // Call the API directly to start a new job
+    try {
+      const res = await startNotesJob(id)
+      if(isMountedRef.current) {
+        setJobId(res.job_id)
+      }
+    } catch (err) {
+      if(isMountedRef.current) {
+        setError(err.message)
+        setLoading(false)
+      }
+    }
+  }
   //---------Start job--------
   useEffect(()=>{
-    if(!id) return;
+    isMountedRef.current = true
+    return () => {
+      isMountedRef.current = false
+    }
+  },[])
+
+  useEffect(()=>{
+    if(!id || !isMountedRef.current) return;
 
     setLoading(true)
     setError(null)
 
     startNotesJob(id)
-     .then((res)=>setJobId(res.job_id))
+     .then((res)=>{
+       if(isMountedRef.current) setJobId(res.job_id)
+     })
      .catch((err)=>{
-      setError(err.message)
-      setLoading(false)
+      if(isMountedRef.current) {
+        setError(err.message)
+        setLoading(false)
+      }
      })
   },[id])
   //-----Storing notes id and title--------
@@ -116,27 +147,33 @@ export default function NotePage() {
   //----Poll Job : Getting Notes----
 
   useEffect(()=>{
-    if(!jobId) return
+    if(!jobId || !isMountedRef.current) return
     const interval = setInterval(async () =>{
       try{
         const data= await getJobStatus(jobId)
          if (data.status==="done"){
-          setNote(data.result)
-          setLoading(false)
-          saveNoteIndex({
-            id,
-            title:data.result?.papermetadata?.title || "Untitled Paper",
-          })
+          if(isMountedRef.current) {
+            setNote(data.result)
+            setLoading(false)
+            saveNoteIndex({
+              id,
+              title:data.result?.papermetadata?.title || "Untitled Paper",
+            })
+          }
           clearInterval(interval)
          }
          if(data.status==="error"){
-          setError(data.error || "Job Failed")
-          setLoading(false)
+          if(isMountedRef.current) {
+            setError(data.error || "Job Failed")
+            setLoading(false)
+          }
           clearInterval(interval)
          }
       }catch (err){
-        setError(err.message)
-        setLoading(false)
+        if(isMountedRef.current) {
+          setError(err.message)
+          setLoading(false)
+        }
         clearInterval(interval)
        }
       },3000)
@@ -182,18 +219,54 @@ const handleDownload = async () => {
     const imgHeight = (canvas.height * imgWidth) / canvas.width;
 
     pdf.addImage(imgData, "PNG", 0, 0, imgWidth, imgHeight);
-    pdf.save("notes.pdf");
+    pdf.save(`${papermetadata.title}.pdf`);
 
   } catch (err) {
     console.error("PDF download failed:", err);
     alert("Something went wrong while downloading.");
   }
 };
-  //------Loading Ui------
+  //------Loading UI------
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-96 text-gray-400">
-        Generating notes…
+      <div className="flex flex-col items-center justify-center h-screen text-gray-400">
+        <div className="flex items-center justify-center mb-6">
+          <div className="relative w-16 h-16">
+            {/* Outer rotating ring */}
+            <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-indigo-500 border-r-indigo-400 animate-spin"></div>
+            {/* Inner rotating ring (opposite direction) */}
+            <div className="absolute inset-2 rounded-full border-3 border-transparent border-b-purple-500 border-l-purple-400 animate-spin" style={{animationDirection: 'reverse', animationDuration: '2s'}}></div>
+          </div>
+        </div>
+        <p className="text-lg font-medium">Generating notes…</p>
+        <p className="text-sm text-gray-500 mt-2">This may take a moment</p>
+      </div>
+    );
+  }
+
+  //------Error UI------
+  if (error || !content.trim()) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen text-gray-400">
+        <div className="text-center mb-6">
+          <div className="text-6xl mb-4">⚠️</div>
+          <h2 className="text-2xl font-bold text-red-400 mb-2">Failed to fetch notes</h2>
+          <p className="text-gray-500 mb-8">{"The notes content could not be retrieved. Please try again."}</p>
+          <div className="flex gap-4 justify-center">
+            <button
+              onClick={handleRetry}
+              className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors font-medium"
+            >
+              🔄 Retry
+            </button>
+            <button
+              onClick={() => router.push("/Home/notes")}
+              className="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors font-medium"
+            >
+              Back to Notes
+            </button>
+          </div>
+        </div>
       </div>
     );
   }
