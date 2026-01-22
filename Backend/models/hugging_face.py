@@ -37,7 +37,11 @@ def hugging_face_query_expand(
 
     prompt = f"""
 Rewrite the following search query into a detailed academic-style query.
-Preserve domain-specific terms and expand with technical keywords in five to six sentences:
+Preserve domain-specific terms and expand with technical keywords in five to six senetence paragraph
+-For generalize question try to understand what is it and then expand it correctly
+-This whole pipeline is for research paper so keeping in mind always try to enhance query for generalize or vague query in some meaningful
+-Also if technical terms are present do not consider it vague query 
+:
 
 {text}
 """

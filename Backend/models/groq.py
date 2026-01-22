@@ -18,7 +18,7 @@ Table or text chunk: {element}
 def groq_llm(
     text,
     MODEL_NAME: str,
-    max_token: int,
+    max_token: int | None,
     temperature: float,
     prompt_template: PromptTemplate,
 ) -> str:

@@ -14,7 +14,7 @@ from qdrant_client.models import (
     Prefetch, Filter, FieldCondition, MatchValue,  PayloadSchemaType,FusionQuery,
     Fusion,
 )
-from Backend.notes.text.model import batch_chain, final_chain
+from Backend.notes.text.model import batch_chain
 from Backend.embedding.embedd import embed_string
 import os
 from dotenv import load_dotenv

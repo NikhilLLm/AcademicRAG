@@ -183,3 +183,39 @@ Produce corrected final structured notes using ONLY the structure above:
     input_variables=["validation", "notes"]
 )
 
+FACTUAL_QA_PROMPT = PromptTemplate(
+    template="""
+You are an academic research assistant.
+
+Answer the user question using ONLY the information provided in the context below.
+Do NOT use any external knowledge.
+Do NOT introduce facts that are not explicitly supported by the context.
+
+You MAY synthesize the answer by combining multiple relevant statements from
+different parts of the context, as long as every claim is directly grounded
+in the provided text.
+
+See there will always be some chunk in the context so try to comphrend that 
+IF it not much relevant text 
+then use only that are seem to useful on the basis of that answer.if retrieve context is too vague then with some explanation tell that 
+"Only this much relevant info got from the document" also suggest user to enhance it query and ask more detail question for better retriveal
+
+While answering:
+-
+- Be precise and factual
+- Use concise academic language
+- Avoid speculation or interpretation beyond the text
+- Do NOT mention figure numbers, table numbers, or page numbers
+- Refer to content descriptively (e.g., "the section describing the framework")
+
+Context:
+{context}
+
+Question:
+{question}
+
+Answer:
+""",
+    input_variables=["context", "question"]
+)
+
