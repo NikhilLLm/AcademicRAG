@@ -1,4 +1,8 @@
 import endpoint  from '@/utils/endpoint'
+
+//------------------------------
+//  SEARCH QUERY
+//------------------------------
 export async function getSearchResult(query) {
   const formData = new FormData();
   formData.append("query", query);
@@ -11,6 +15,9 @@ export async function getSearchResult(query) {
   return await response.json();
   
 }
+//--------------------------------
+// UPLOAD QUERY
+//--------------------------------
 export async function getUploadResult(file) {
     const formData=new FormData()
     formData.append("file",file);
@@ -25,6 +32,9 @@ export async function getUploadResult(file) {
     return await response.json();
     
 }
+//------------------------------------
+// NOTES
+//-------------------------------------
 export async function startNotesJob(id) {
   const formData = new FormData();
   formData.append("vector_index", id);
@@ -49,4 +59,56 @@ export async function getJobStatus(jobId) {
   }
 
   return res.json(); // { status, result }
+}
+
+
+// ---------------------------------
+// CHAT
+// ---------------------------------
+
+// 1️⃣ Start chat preparation (embedding check / creation)
+export async function startChatJob(vectorIndex) {
+  const formData = new FormData();
+  formData.append("vector_index", vectorIndex);
+
+  const res = await fetch(`/api/chat/chat_start/${vectorIndex}`, {
+    method: "POST",
+    body: formData,
+  });
+
+  if (!res.ok) {
+    throw new Error("Failed to start chat job");
+  }
+
+  return res.json(); // { chat_session_id }
+}
+
+// 2️⃣ Poll chat job status
+export async function getChatStatus(chatSessionId) {
+  const res = await fetch(`/api/chat/chat_status/${chatSessionId}`);
+  console.log(chatSessionId)
+  if (!res.ok) {
+    throw new Error("Failed to fetch chat status");
+  }
+
+  return res.json(); // { status, pdf_id }
+}
+
+// 3️⃣ Send chat message (non-streaming for now)
+export async function sendChatMessage(chatSessionId, message) {
+  const res = await fetch(`/api/chat/stream/${chatSessionId}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ message }),
+  });
+
+  if (!res.ok) {
+    const err = await res.text();
+    throw new Error(err || "Failed to send chat message");
+  }
+
+  const text = await res.text(); // 👈 IMPORTANT
+  return { answer: text };
 }

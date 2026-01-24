@@ -1,30 +1,40 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Search } from "lucide-react";
 import { getSearchResult } from "@/lib/api_call";
 
 export default function SearchBar({ setResults, setLoading }) {
   const [query, setQuery] = useState("");
 
-  // Load query from localStorage on mount
-  useEffect(() => {
-    const savedQuery = localStorage.getItem("searchQuery");
-    if (savedQuery) {
-      setQuery(savedQuery);
-    }
-  }, []);
-
   const handleSearch = async () => {
-    if (!query.trim()) return;
-
-    // Save query to localStorage
-    localStorage.setItem("searchQuery", query);
+    const trimmed = query.trim();
+    if (!trimmed) return;
 
     setLoading(true);
+
     try {
-      const data = await getSearchResult(query);
-      // assuming backend returns { results: [...] }
-      setResults(data.results || []);
+      // 🔹 Check session cache
+      const cached = sessionStorage.getItem("searchData");
+      if (cached) {
+        const { query: savedQuery, results } = JSON.parse(cached);
+        if (savedQuery === trimmed) {
+          setResults(results);
+          setLoading(false);
+          return;
+        }
+      }
+
+      // 🔹 Fetch new results
+      const data = await getSearchResult(trimmed);
+      const results = data.results || [];
+
+      // 🔹 Replace old search completely
+      sessionStorage.setItem(
+        "searchData",
+        JSON.stringify({ query: trimmed, results })
+      );
+
+      setResults(results);
     } catch (err) {
       console.error("Search failed:", err);
       setResults([]);
@@ -33,10 +43,19 @@ export default function SearchBar({ setResults, setLoading }) {
     }
   };
 
-  const handleKeyPress = (e) => {
-    if (e.key === "Enter") {
-      handleSearch();
+  // 🔹 Clear results if input is emptied
+  const handleChange = (e) => {
+    const value = e.target.value;
+    setQuery(value);
+
+    if (!value.trim()) {
+      sessionStorage.removeItem("searchData");
+      setResults([]);
     }
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") handleSearch();
   };
 
   return (
@@ -47,14 +66,15 @@ export default function SearchBar({ setResults, setLoading }) {
         <input
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onKeyPress={handleKeyPress}
+          onChange={handleChange}
+          onKeyDown={handleKeyPress}
           placeholder="Enter your search query..."
-          className="flex-1 px-6 py-3 rounded-lg bg-[#1a1d2e] text-white placeholder-gray-500 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+          className="flex-1 px-6 py-3 rounded-lg bg-[#1a1d2e] text-white"
         />
+
         <button
           onClick={handleSearch}
-          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all flex items-center gap-2 font-medium shadow-lg hover:shadow-blue-500/50"
+          className="px-6 py-3 bg-blue-600 text-white rounded-lg flex items-center gap-2"
         >
           <Search className="w-5 h-5" />
           Search
