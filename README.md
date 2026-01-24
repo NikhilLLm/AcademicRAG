@@ -1,4 +1,4 @@
-# PaperSemantic - AI-Powered Research Paper Platform
+# AcademicRAG - AI-Powered Research Paper Platform
 
 <div align="center">
 
@@ -6,11 +6,11 @@
 ![Python](https://img.shields.io/badge/Python-3.11+-green?style=for-the-badge&logo=python)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688?style=for-the-badge&logo=fastapi)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-**Semantic search, AI-generated notes, and interactive chat for 35,000+ research papers**
 
-[Live Demo](#) • [Documentation](#features) • [Report Bug](#) • [Request Feature](#)
+**Semantic search, AI-generated notes, and interactive chat for  research papers**
+
+
 
 </div>
 
@@ -151,8 +151,8 @@ PaperSemantic/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/papersemantic.git
-cd papersemantic
+git clone https://github.com/NikhilLLm/AcademicRAG.git
+cd AcademicRAG
 ```
 
 ### 2. Backend Setup
