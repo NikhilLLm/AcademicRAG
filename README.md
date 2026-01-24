@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![PaperSemantic](https://img.shields.io/badge/PaperSemantic-Research%20Platform-blue?style=for-the-badge)
+
 ![Python](https://img.shields.io/badge/Python-3.11+-green?style=for-the-badge&logo=python)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688?style=for-the-badge&logo=fastapi)
@@ -33,13 +33,13 @@ PaperSemantic is an AI-powered platform that revolutionizes how researchers inte
 ## 🚀 Demo
 
 ### Search Interface
-![Search Demo](./assets/search-demo.png)
+![Search Demo](./assets/search-page.png)
 
 ### Notes Generation
-![Notes Demo](./assets/notes-demo.png)
+![Notes Demo](./assets/notes-page.png)
 
 ### Chat with Papers
-![Chat Demo](./assets/chat-demo.png)
+![Chat Demo](./assets/chat-page.png)
 
 ---
 
@@ -286,5 +286,12 @@ Build Context → LLM Response → Stream to Frontend
 - **Context-Aware:** Uses actual paper content
 - **Citation Support:** References specific sections
 - **Streaming Responses:** Real-time answer generation
+
+## Future Improvemnt
+
+-- Enhancing The Quality of The Results for all three section Search, Notes and Chat
+-- Deployement for Backend and Frontend
+-- Adding User Authentication
+-- Caching for ChatBot
 
 ---
