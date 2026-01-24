@@ -4,7 +4,8 @@ import { getChatStatus, sendChatMessage, startChatJob } from "@/lib/api_call";
 import { useParams } from "next/navigation";
 import { useEffect, useState, useRef } from "react";
 import { Send, Loader2, FileText } from "lucide-react";
-
+import Button from "@/components/ui/Button";
+import Link from "next/link";
 export default function ChatPage() {
   const { id } = useParams();
 
@@ -77,6 +78,9 @@ export default function ChatPage() {
           scrollbarGutter: 'stable both-edges' // Reserves space for scrollbar, prevents shifts
         }}
       >
+        <Link href="/Home/chat">
+         <button>Back</button>
+        </Link>
         <div className="bg-neutral-900/80 px-5 py-4 border-b border-neutral-800 flex items-center gap-3 flex-shrink-0">
           <FileText className="w-5 h-5 text-blue-400" />
           <h2 className="text-lg font-semibold">Document Viewer</h2>

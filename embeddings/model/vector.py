@@ -70,7 +70,7 @@ except UnexpectedResponse:
             distance=models.Distance.COSINE,
             hnsw_config=models.HnswConfigDiff(
                 m=32,
-                ef_construct=200,
+                ef_construct=200, #m=this is number of bidirectional graph for each node ef_construct=search depth
             ),
         )
     },

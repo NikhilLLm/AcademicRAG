@@ -110,7 +110,7 @@ for field in os.listdir(INPUT_ROOT):
                 # Sparse vector (JSON-safe)
                 "sparse_embedding": {
                     "indices": bm25.indices.tolist(),
-                    "values": bm25.values.tolist(),
+                    "values": bm25.values.tolist(),#always check function method of any libarary or method like bm25 because less error occur 
                 },
 
                 # Payload

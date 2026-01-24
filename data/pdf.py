@@ -28,7 +28,7 @@ def load_existing_ids(field):
     seen = set()
     folder_path = Path(BASE_PATH) / field
     if folder_path.exists():
-        for json_file in folder_path.glob("*.json"):
+        for json_file in folder_path.glob("*.json"): #glob working is basially pattern matching of file it take the **.file type use for retrieving the data
             try:
                 with open(json_file, 'r', encoding='utf-8') as f:
                     batch_data = json.load(f)
@@ -56,7 +56,7 @@ def extract_arxiv_metadata(feed, seen_ids, field):
             'download_url': entry.get("link"),
             'field_of_study': field,
             'document_type': "preprint",
-            'citation_count': None,
+            'citation_count': None, #to improve the quality of the data u can use the citation right now it is none but u can use the .get("citation_Count")
             'source_repository': "arXiv"
         }
         metadata_list.append(metadata)
