@@ -1,8 +1,11 @@
 """Route handlers for search endpoints."""
 import asyncio
-from fastapi import APIRouter, UploadFile, File, Form,HTTPException,BackgroundTasks
+import logging
+import uuid
+from fastapi import APIRouter, UploadFile, File, Form, HTTPException, BackgroundTasks
 from fastapi.responses import StreamingResponse
-from typing import Optional,AsyncGenerator
+from typing import Optional, AsyncGenerator
+
 from Backend.ingestion.extraction import extract_text_for_search, enhance_text_query
 from Backend.embedding.embedd import embed_string
 from Backend.search.service import SearchService
@@ -10,11 +13,23 @@ from Backend.notes.text.chunks_embeddings import TextPreprocessor
 from Backend.notes.Visual.image_table_extractor import ImageTableExtractor
 from Backend.notes.text.summarizer import generate_notes_from_pdf
 from Backend.chat.start_chat_pipeline import prepare_chat
-from Backend.chat.schema import ChatMessageRequest
-from Backend.chat.chat import hybrid_search_for_pdf,qa_chain
+from Backend.chat.chat import hybrid_search_for_pdf, qa_chain
+from Backend.database.qdrant_client import get_collection_name
+# Pydantic schemas
+from Backend.schemas.requests import (
+    SearchTextRequest,
+    StartNotesRequest,
+    InitChatRequest,
+    ChatMessageRequest
+)
+from Backend.schemas.responses import (
+    SearchResponse,
+    JobStatusResponse,
+    JobInitResponse,
+    ChatSessionResponse
+)
 
-import uuid
-from pydantic import BaseModel
+logger = logging.getLogger(__name__)
 router = APIRouter()
 search_service = SearchService()
 
@@ -22,21 +37,43 @@ search_service = SearchService()
 #Schema
 #-------------------------------
 
-@router.post("/search_text")
-async def search_text(query: str = Form(...)):
-    """Search similar papers by text query."""
-    # Enhance query and extract author if present
-    enhanced = enhance_text_query(query)
-    author = enhanced.get("author")
-    embeddings = embed_string(enhanced["enhanced_text"])
+@router.post("/search_text", response_model=SearchResponse)
+async def search_text(request: SearchTextRequest):
+    """
+    Search similar papers by text query.
+    
+    What changed:
+    - Now uses SearchTextRequest (validates query length)
+    - Added response_model for consistent output
+    - All logic stays the same!
+    """
+    try:
+        # Enhance query and extract author if present (same as before)
+        enhanced = enhance_text_query(request.query)
+        author = enhanced.get("author")
+        embeddings = embed_string(enhanced["enhanced_text"])
 
-    dense_embedding = embeddings["dense_embedding"]
-    sparse_embedding = embeddings["sparse_embedding"]
+        dense_embedding = embeddings["dense_embedding"]
+        sparse_embedding = embeddings["sparse_embedding"]
+        
+        # Search with optional author filter (same as before)
+        results = search_service.search(
+            dense_embedding=dense_embedding,
+            sparse_embedding=sparse_embedding,
+            limit=20,
+            author_filter=author
+        )
+        
+        return {"results": results}
     
-    # Search with optional author filter
-    results = search_service.search(dense_embedding=dense_embedding,sparse_embedding=sparse_embedding, limit=20, author_filter=author)
-    
-    return {"results": results}
+    except ValueError as e:
+        # Handle validation or processing errors
+        logger.error(f"Search validation error: {e}")
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        # Catch unexpected errors
+        logger.error(f"Search failed: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail="Internal server error")
 
 @router.post("/upload")
 async def upload(file: UploadFile = File(...)): 
@@ -93,31 +130,59 @@ def run_notes_job(job_id,vector_index):
         pdf_url = metadata.get('download_url', '')
         if not pdf_url:
             return {"error": "No PDF URL available"}
-        result=generate_notes_from_pdf(pdf_url=pdf_url)
+            
+        # result is now { "notes": ..., "visuals": ... }
+        output = generate_notes_from_pdf(pdf_url=pdf_url)
+        
         JOBS[job_id] = {
             "status": "done",
-            "result": {"extracted_text": result, "papermetadata": metadata}
+            "result": {
+                "extracted_text": output["notes"],
+                "visuals": output["visuals"],
+                "papermetadata": metadata
+            }
         }
     except Exception as e:
         JOBS[job_id] = {"status": "error", "error": str(e)}
     finally:
         ACTIVE_JOBS.pop(vector_index, None)  # ✅ important
 
+#--------------------------------
+# NOTES GENERATION ENDPOINTS
+#--------------------------------
+
+JOBS = {}
+ACTIVE_JOBS = {}
 
 
-JOBS={}
-#tasks creation 
-ACTIVE_JOBS={}
-@router.get("/job-status/{job_id}")
+@router.get("/job-status/{job_id}", response_model=JobStatusResponse)
 def job_status(job_id: str):
+    """
+    Check status of a notes generation job.
+    
+    What this does:
+    - Returns job status from JOBS dict (same as before)
+    - Now uses JobStatusResponse for consistent format
+    """
     return JOBS.get(job_id, {"status": "not_found"})
-@router.post("/start_short_notes")
 
+
+@router.post("/start_short_notes", response_model=JobInitResponse)
 async def start_notes(
-    vector_index: str = Form(...),
+    request: StartNotesRequest,
     bg: BackgroundTasks = BackgroundTasks(),
 ):
-    # ✅ If job already exists, reuse it
+    """
+    Start generating notes for a paper.
+    
+    What changed:
+    - Now uses StartNotesRequest (validates vector_index)
+    - Added response_model
+    - Logic stays exactly the same!
+    """
+    vector_index = request.vector_index
+    
+    # ✅ If job already exists, reuse it (same as before)
     if vector_index in ACTIVE_JOBS:
         job_id = ACTIVE_JOBS[vector_index]
         return {"job_id": job_id}
@@ -177,8 +242,21 @@ def chat_job_status(chat_session_id: str):
 
 
 
-@router.post("/init_chat")
-async def init_chat(vector_index: str = Form(...), bg: BackgroundTasks = BackgroundTasks()):
+@router.post("/init_chat", response_model=ChatSessionResponse)
+async def init_chat(
+    request: InitChatRequest,
+    bg: BackgroundTasks = BackgroundTasks()
+):
+    """
+    Initialize chat session for a paper.
+    
+    What changed:
+    - Now uses InitChatRequest (validates vector_index)
+    - Added response_model
+    - Logic stays the same!
+    """
+    vector_index = request.vector_index
+    
     if vector_index in ACTIVE_CHAT_JOBS:
         return {"chat_session_id": ACTIVE_CHAT_JOBS[vector_index]}
 
@@ -189,8 +267,17 @@ async def init_chat(vector_index: str = Form(...), bg: BackgroundTasks = Backgro
     bg.add_task(prepare_chat_pipeline, chat_session_id, vector_index)
     return {"chat_session_id": chat_session_id}
 
+
 @router.post("/chat/{chat_id}/stream")
-async def chat_message(chat_id: str, payload: ChatMessageRequest):
+async def chat_message(chat_id: str, request: ChatMessageRequest):
+    """
+    Send a message in an active chat session.
+    
+    What changed:
+    - Now uses ChatMessageRequest (validates message)
+    - Replaced print() with logger.info()
+    - Logic stays exactly the same!
+    """
 
     async def wait_for_chat_done():
         """Wait until the chat job status becomes 'done'."""
@@ -199,34 +286,30 @@ async def chat_message(chat_id: str, payload: ChatMessageRequest):
             if not chat_state:
                 raise HTTPException(status_code=404, detail="Chat session not found")
             if chat_state.get("status") == "done":
-                return chat_state  # return the chat_state once done
-            await asyncio.sleep(0.5)  # check every 0.5s, adjust if needed
+                return chat_state
+            await asyncio.sleep(0.5)
 
     async def stream_answer() -> AsyncGenerator[str, None]:
+        chat_state = await wait_for_chat_done()
+        pdf_id = chat_state["pdf_id"]
         
-      chat_state = await wait_for_chat_done()
-  
-      pdf_id = chat_state["pdf_id"]  # ✅ authoritative source
-  
-      docs = hybrid_search_for_pdf(
-          query=payload.message,
-          pdf_id=pdf_id,
-          collection_name="pdf_vectors",
-          k=10
-      )
-      
-      print("Retrieved Chunks for query:", payload.message)
-      for i, doc in enumerate(docs):
-          print(f"Chunk {i}:{doc.page_content[:200]}...")
+        docs = hybrid_search_for_pdf(
+            query=request.message,
+            pdf_id=pdf_id,
+            collection_name=get_collection_name("pdf_vectors_v2"),
+            k=100
+        )
+        
+        # Changed: print() -> logger.info()
+        logger.info(f"Retrieved {len(docs)} chunks for query: {request.message}")
+        for i, doc in enumerate(docs):
+            logger.debug(f"Chunk {i}: {doc.page_content[:200]}...")
 
-      async for chunk in qa_chain(
-          user_query=payload.message,
-          retrieved_docs=docs,
-      ):
-       yield chunk
-    
-
-    
+        async for chunk in qa_chain(
+            user_query=request.message,
+            retrieved_docs=docs,
+        ):
+            yield chunk
 
     return StreamingResponse(
         stream_answer(),

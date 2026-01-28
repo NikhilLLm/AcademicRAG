@@ -1,13 +1,14 @@
 //   . /api/notes/start/[id]/
+// Updated: Now uses JSON instead of FormData
 export async function POST(req, { params }) {
   const { id } = await params;
 
-  const formData = new FormData();
-  formData.append("vector_index", id);
-
   const response = await fetch("http://localhost:8000/start_short_notes", {
     method: "POST",
-    body: formData,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ vector_index: id }),
   });
 
   if (!response.ok) {

@@ -1,12 +1,13 @@
+// Updated: Now uses JSON instead of FormData
 export async function POST(req, { params }) {
   const { id } = await params; // no await needed
 
-  const formData = new FormData();
-  formData.append("vector_index", id);
-
   const response = await fetch("http://localhost:8000/init_chat", {
     method: "POST",
-    body: formData,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ vector_index: id }),
   });
 
   if (!response.ok) {

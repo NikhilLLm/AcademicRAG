@@ -5,24 +5,19 @@ import hashlib
 from langchain_core.documents import Document
 
 from Backend.models.prompts import FACTUAL_QA_PROMPT
-
-from qdrant_client import QdrantClient
+from Backend.database.qdrant_client import get_qdrant_client
 from qdrant_client.models import (
     QueryRequest, VectorInput, SparseVector, 
     Prefetch, Filter, FieldCondition, MatchValue,  PayloadSchemaType,FusionQuery,
     Fusion,
 )
 from Backend.notes.text.model import batch_chain
-from Backend.embedding.embedd import embed_string
-import os
+from Backend.embedding.embed_local import embed_string_small
 from Backend.ingestion.extraction import enhance_text_query
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from typing import AsyncGenerator
-from dotenv import load_dotenv
-
-load_dotenv(".env")
 
 # ----------------------------
 # Logging Configuration
@@ -33,24 +28,17 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-URL = "https://72bcce7c-0237-4ae3-a1ec-12a43a79396e.europe-west3-0.gcp.cloud.qdrant.io"
-api_key = os.getenv("qdrant_key")
-
 # ----------------------------
-# Qdrant Client
+# Qdrant Client - Centralized
 # ----------------------------
 try:
-    client = QdrantClient(
-        url=URL,
-        api_key=api_key,
-        prefer_grpc=False,
-        timeout=10
-    )
+    client = get_qdrant_client()
     logger.info("Connected to Qdrant successfully")
 except Exception as e:
     logger.exception("Failed to connect to Qdrant")
     raise e
-def hybrid_search_for_pdf(query: str, pdf_id: str, collection_name: str, k: int = 30):
+
+def hybrid_search_for_pdf(query: str, pdf_id: str, collection_name: str, k: int = 100):
     """
     Perform hybrid search filtered by PDF ID.
     This ensures you only search within ONE specific PDF.
@@ -59,7 +47,7 @@ def hybrid_search_for_pdf(query: str, pdf_id: str, collection_name: str, k: int 
         logger.info(f"Hybrid search for PDF ID: {pdf_id}")
         
         # Get hybrid embeddings for query
-        query_embedding = embed_string(query)
+        query_embedding = embed_string_small(query)
         
         # Create filter for this PDF only
         pdf_filter = Filter(
@@ -179,7 +167,7 @@ async def qa_chain(
             "context": context,
             "question": query["enhanced_text"]
         },
-        MODEL_NAME="openai/gpt-oss-20b",
+        MODEL_NAME="llama-3.3-70b-versatile",
         temperature=0.3,
         max_token=None,
         prompt_template=FACTUAL_QA_PROMPT,

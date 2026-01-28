@@ -1,29 +1,28 @@
 """Vector search service using Qdrant."""
-from io import BytesIO
-from typing import List, Dict, Any, Optional
-from fastapi import requests
-from qdrant_client import QdrantClient
-from qdrant_client.http import models
-from dotenv import load_dotenv
-FIELDS = ["biology", "chemistry", "computer_science", "engineering", "mathematics", "physics"]
 import os
 import fitz
+import requests  # Fixed import - requests is not from fastapi
+from io import BytesIO
+from typing import List, Dict, Any, Optional
+from qdrant_client.http import models
+from Backend.database.qdrant_client import get_qdrant_client, get_collection_name
 
-load_dotenv(".env")
-api_key=os.getenv("qdrant_key")
-PAGE_CACHE={}
+FIELDS = ["biology", "chemistry", "computer_science", "engineering", "mathematics", "physics"]
+PAGE_CACHE = {}
+
 class SearchService:
     def __init__(
         self,
-        url: str = "https://72bcce7c-0237-4ae3-a1ec-12a43a79396e.europe-west3-0.gcp.cloud.qdrant.io",
-        api_key: str =api_key,
-        collection_name: str = "papers_semantic_v1"  # replace with actual key value
+        collection_name: str = None
     ):
-        self.client = QdrantClient(
-            url=url,
-            api_key=api_key
-        )
-        self.collection_name = collection_name
+        """
+        Initialize SearchService with centralized Qdrant client.
+        
+        Args:
+            collection_name: Optional collection name (defaults to papers collection from env)
+        """
+        self.client = get_qdrant_client()
+        self.collection_name = collection_name or get_collection_name("papers_semantic_v1")
         
     
 
@@ -136,7 +135,7 @@ class SearchService:
         """Retrieve metadata for a specific point ID in a collection."""
         result = self.client.retrieve(
              ids=[point_id],
-             collection_name="papers_semantic_v1",
+             collection_name=self.collection_name,
              with_payload=True,
              with_vectors=False
          )

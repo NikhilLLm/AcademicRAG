@@ -8,18 +8,14 @@ from Backend.models.prompts import NOTES_PROMPT,VALIDATION_PROMPT,FINAL_NOTES_PR
 
 from Backend.notes.text.chunks_embeddings import TextPreprocessor, CustomEmbedder, generate_pdf_id
 from langchain_qdrant import QdrantVectorStore
-from qdrant_client import QdrantClient
+from Backend.database.qdrant_client import get_qdrant_client, get_collection_name
 from qdrant_client.models import (
     QueryRequest, VectorInput, SparseVector, 
     Prefetch, Filter, FieldCondition, MatchValue,  PayloadSchemaType,FusionQuery,
     Fusion,
 )
 from Backend.notes.text.model import batch_chain
-from Backend.embedding.embedd import embed_string
-import os
-from dotenv import load_dotenv
-
-load_dotenv(".env")
+from Backend.embedding.embed_local import embed_string_small
 
 # ----------------------------
 # Logging Configuration
@@ -30,19 +26,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-URL = "https://72bcce7c-0237-4ae3-a1ec-12a43a79396e.europe-west3-0.gcp.cloud.qdrant.io"
-api_key = os.getenv("qdrant_key")
-
 # ----------------------------
-# Qdrant Client
+# Qdrant Client - Centralized
 # ----------------------------
 try:
-    client = QdrantClient(
-        url=URL,
-        api_key=api_key,
-        prefer_grpc=False,
-        timeout=10
-    )
+    client = get_qdrant_client()
     logger.info("Connected to Qdrant successfully")
 except Exception as e:
     logger.exception("Failed to connect to Qdrant")
@@ -127,7 +115,7 @@ def hybrid_search_for_pdf(query: str, pdf_id: str, collection_name: str, k: int 
         logger.info(f"Hybrid search for PDF ID: {pdf_id}")
         
         # Get hybrid embeddings for query
-        query_embedding = embed_string(query)
+        query_embedding = embed_string_small(query)
         
         # Create filter for this PDF only
         pdf_filter = Filter(
@@ -175,12 +163,16 @@ def hybrid_search_for_pdf(query: str, pdf_id: str, collection_name: str, k: int 
                     "chunk_id": payload.get("chunk_id"),
                     "section": payload.get("section"),
                     "source": payload.get("source"),
-                    "type": payload.get("type")
+                    "type": payload.get("type"),
+                    "image_base64": payload.get("image_base64") # ✅ Retrieve Base64
                 }
             )
             documents.append(doc)
         
         logger.info(f"✅ Found {len(documents)} chunks for PDF ID: {pdf_id}")
+        # Debug: Check if any chunk has image_base64
+        visual_count = sum(1 for d in documents if d.metadata.get("image_base64"))
+        logger.info(f"🔍 Chunks with image_base64: {visual_count}")
         return documents
         
     except Exception as e:
@@ -292,7 +284,7 @@ def generate_notes_from_pdf(pdf_url: str):
     try:
         ensure_collection_exists(
             pdf_url=pdf_url,
-            collection_name="pdf_vectors"
+            collection_name=get_collection_name("pdf_vectors_v2")
         )
     except Exception as e:
         logger.exception("Failed during embedding preparation stage")
@@ -319,7 +311,7 @@ def generate_notes_from_pdf(pdf_url: str):
             retrieved = hybrid_search_for_pdf(
                 query=query,
                 pdf_id=pdf_id,  # ← Filter by this PDF only
-                collection_name="pdf_vectors",
+                collection_name=get_collection_name("pdf_vectors_v2"),
                 k=75
             )
             all_chunks.extend(retrieved)
@@ -349,7 +341,7 @@ def generate_notes_from_pdf(pdf_url: str):
 
     if len(unique_chunks) == 0:
         logger.error(f"No chunks retrieved for PDF ID '{pdf_id}'! Check if PDF is embedded.")
-        raise ValueError(f"No chunks found for PDF ID '{pdf_id}' in collection 'pdf_vectors'")
+        raise ValueError(f"No chunks found for PDF ID '{pdf_id}' in collection '{get_collection_name('pdf_vectors_v2')}'")
 
     # ----------------------------
     # STAGE 1: Batch Extraction
@@ -389,7 +381,32 @@ def generate_notes_from_pdf(pdf_url: str):
 
 
         logger.info(f"✅ Stage 2 Complete: Final notes generated for PDF ID: {pdf_id}")
-        return final_notes
+        # Collect visuals
+        visuals = []
+        seen_visuals = set()
+        for c in unique_chunks:
+            b64 = c.metadata.get("image_base64")
+            if b64 and b64 not in seen_visuals:
+                # Extract description from <figure_description> tags if present
+                content = c.page_content
+                description = content
+                if "<figure_description>" in content:
+                    description = content.replace("<figure_description>", "").replace("</figure_description>", "").strip()
+
+                visuals.append({
+                    "type": "image",
+                    "base64": b64,
+                    "caption": description[:100] + "..." if len(description) > 100 else description,
+                    "description": description
+                })
+                seen_visuals.add(b64)
+
+        logger.info(f"✅ Stage 2 Complete: Final notes generated for PDF ID: {pdf_id}")
+        
+        return {
+            "notes": final_notes,
+            "visuals": visuals[:5] # Return top 5 visuals
+        }
 
     except Exception as e:
         logger.exception("Stage 2 synthesis failed")

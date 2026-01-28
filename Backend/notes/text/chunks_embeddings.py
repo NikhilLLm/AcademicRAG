@@ -6,34 +6,27 @@ from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.embeddings import Embeddings
 from Backend.notes.text.extractor import DocumentChunkExtractor
-from Backend.embedding.embedd import embed_string
+from Backend.embedding.embed_local import embed_string_small
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client.models import Distance, VectorParams, SparseVectorParams, SparseIndexParams
 from Backend.models.groq import groq_llm
 from Backend.models.prompts import BATCH_PROMPT_1
-
-from qdrant_client import QdrantClient
+from Backend.database.qdrant_client import get_qdrant_client, get_collection_name, get_collection_name
 from Backend.notes.text.model import summarize_chain
-import os
-from dotenv import load_dotenv
+from Backend.notes.Visual.vision_service import describe_image
 from collections import defaultdict
 import time
+
 # ------------------- Logging Setup -------------------
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%H:%M:%S"
 )
-load_dotenv("C:/Users/nshej/aisearch/.env")
 
+# ------------------- Qdrant Client - Centralized -------------------
+client = get_qdrant_client()
 
-URL="https://72bcce7c-0237-4ae3-a1ec-12a43a79396e.europe-west3-0.gcp.cloud.qdrant.io"
-api_key=os.getenv("qdrant_key")
-client = QdrantClient(
-    url=URL,
-    api_key=api_key
-
-    )
 def generate_pdf_id(pdf_url: str)->str:
     """"Generating unique id for pdf"""
     return hashlib.md5(pdf_url.encode()).hexdigest()[:16]
@@ -42,13 +35,13 @@ class CustomEmbedder(Embeddings):
     def embed_documents(self, texts):
         embeddings=[]
         for text in texts:
-            result=embed_string(text)
+            result=embed_string_small(text)
             dense=result["dense_embedding"]
             embeddings.append(dense)
         return embeddings
 
     def embed_query(self, text):
-        result=embed_string(text)
+        result=embed_string_small(text)
         return result["dense_embedding"]
 
 
@@ -57,7 +50,7 @@ class TextPreprocessor:
         self.pdf_url = pdf_url
         self.pdf_id=generate_pdf_id(pdf_url)
         self.embedder = CustomEmbedder()
-        self.collection_name="pdf_vectors"
+        self.collection_name = get_collection_name("pdf_vectors_v2")
     def extraction(self):
         try:
             logging.info("Starting PDF processing pipeline...")
@@ -73,7 +66,31 @@ class TextPreprocessor:
             extracted=self.extraction()
             if extracted is None:
                 raise ValueError("PDF extraction failed")
-            merged_chunks = self._token_aware_merge(extracted["text_chunks"])
+            
+            # --- PROCESS IMAGES & TABLES ---
+            visual_chunks = extracted.get("image_chunks", []) + extracted.get("table_chunks", [])
+            logging.info(f"Processing {len(visual_chunks)} visual elements with Vision Model...")
+            
+            processed_visuals = []
+            for v_chunk in visual_chunks:
+                # 1. Get Base64
+                base64_data = v_chunk.get("metadata", {}).get("image_base64")
+                if not base64_data:
+                    continue
+                
+                # 2. Generate Description
+                logging.info(f"Generating description for visual chunk {v_chunk['id']}...")
+                description = describe_image(base64_data)
+                
+                # 3. Create a text-like chunk, but keep the base64 in metadata
+                v_chunk["content"] = f"<figure_description>{description}</figure_description>"
+                v_chunk["type"] = "visual" # mark it
+                processed_visuals.append(v_chunk)
+            
+            # Combine text and visual chunks - PRIORITIZE VISUALS
+            all_raw_chunks = processed_visuals + extracted["text_chunks"]
+            
+            merged_chunks = self._token_aware_merge(all_raw_chunks)
             summary_docs = self._summarize_and_prepare_docs(merged_chunks)
             vector_store = self._store_in_qdrant(summary_docs)
             logging.info("PDF processing completed successfully.")
@@ -127,7 +144,9 @@ class TextPreprocessor:
                             "text": st,
                             "source": chunk.get("source", self.pdf_url),
                             "section": chunk.get("section", ""),
-                            "chunk_id": chunk.get("id", str(uuid.uuid4()))
+                            "chunk_id": chunk.get("id", str(uuid.uuid4())),
+                            "image_base64": chunk.get("metadata", {}).get("image_base64", None), # ✅ Pass through
+                            "original_type": chunk.get("type", "text")
                         })
             logging.info("Merging done. Total merged chunks: %d", len(merged))
         except Exception as e:
@@ -140,7 +159,7 @@ class TextPreprocessor:
         self,
         merged_chunks,
         max_per_section=7,
-        max_total_chunks=60
+        max_total_chunks=100
     ):
         """
         Limits how many chunks per section go forward.
@@ -192,7 +211,9 @@ class TextPreprocessor:
                             "section": chunk["section"],
                             "type": "text_summary",
                             "pdf_id":self.pdf_id,
-                            "pdf_url":self.pdf_url
+                            "pdf_url":self.pdf_url,
+                            "image_base64": chunk.get("image_base64"), # ✅ Persist to Doc metadata
+                            "original_type": chunk.get("original_type")
                         }
                     )
                 )
@@ -208,14 +229,14 @@ class TextPreprocessor:
         try:
             logging.info(f"Storing hybrid embeddings for PDF ID: {self.pdf_id}")
             #step1: get embeddin dimensions
-            test_result=embed_string("test")
+            test_result=embed_string_small("test")
             dense_dim=len(test_result["dense_embedding"])
             logging.info(f"Dense embedding dimension: {dense_dim}")
             try:
                 client.get_collection(self.collection_name)
-                logging.info(f"Collection '{self.collection_name}")
+                logging.info(f"Collection '{self.collection_name}' already exists. Bypassing creation.")
             except Exception:
-                  logging.info(f"Creating new collection '{self.collection_name}' with hybrid search")
+                  logging.info(f"Creating new collection '{self.collection_name}' with hybrid search (Dim: {dense_dim})")
                   client.create_collection(
                     collection_name=self.collection_name,
                     vectors_config={
@@ -233,7 +254,7 @@ class TextPreprocessor:
             points=[]
             for idx,doc in enumerate(docs):
                 logging.info(f"Processing document {idx + 1}/{len(docs)}")
-                embedding_result=embedding_result = embed_string(doc.page_content)
+                embedding_result = embed_string_small(doc.page_content)
                 point = {
                     "id": str(uuid.uuid4()),
                     "vector": {
@@ -250,7 +271,9 @@ class TextPreprocessor:
                         "chunk_id": doc.metadata.get("chunk_id"),
                         "section": doc.metadata.get("section"),
                         "source": doc.metadata.get("source"),
-                        "type": doc.metadata.get("type")
+                        "type": doc.metadata.get("type"),
+                        "image_base64": doc.metadata.get("image_base64"), # ✅ Persist to Payload
+                        "original_type": doc.metadata.get("original_type")
                     }
                 }
                 points.append(point)

@@ -43,13 +43,22 @@ def _safe_delete(filepath: str, max_attempts: int = 5) -> None:
 def extract_text_for_search(
     file_bytes: bytes,
     file_type: Literal["pdf", "image"],
-    tmp_dir: str = r"C:/Users/nshej/aisearch",
+    tmp_dir: str = None,  # If None, uses system temp
 ) -> str:
     """
     Extract compact academic-style text from PDF or Image
     for embedding-based semantic retrieval.
     Uses hugging_face_query_expand for proper query/text enhancement.
+    
+    What changed:
+    - Removed hardcoded path C:/Users/nshej/aisearch
+    - Now uses system temp directory by default
     """
+    import tempfile
+    
+    if tmp_dir is None:
+        tmp_dir = tempfile.gettempdir()
+    
     os.makedirs(tmp_dir, exist_ok=True)
 
     # ---------------- PDF ----------------
@@ -163,63 +172,3 @@ def enhance_text_query(user_input: str) -> dict:
         "enhanced_text": enhanced_text,
         "author": author_match.group(1) if author_match else None
     }
-
-
-
-# def preprocess_image(image_path: str) -> Image.Image:
-#     """Preprocess image for better OCR results."""
-#     image = Image.open(image_path).convert("L")  # Convert to grayscale
-#     # Resize image if too small
-#     if image.width < 800:
-#         new_height = int((800 / image.width) * image.height)
-#         image = image.resize((800, new_height), Image.ANTIALIAS)
-#     # Apply binary threshold
-#     threshold = 180
-#     image = image.point(lambda p: p > threshold and 255)
-#     return image
-
-# # ✅ Use lightweight distilbart model to save memory (consistent with notes summarizer)
-
-# processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
-# blip_model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
-
-# # Set Tesseract path
-# pytesseract.pytesseract.tesseract_cmd = r"C:/Users/nshej/AppData/Local/Programs/Tesseract-OCR/tesseract.exe"
-
-# def extract_text_from_image(image_path_or_bytes) -> str:
-#     """Return a single combined description string from OCR + BLIP for embedding.
-#     Accepts file path (str) or bytes.
-#     """
-#     from io import BytesIO
-    
-#     # Handle both file path and bytes input
-#     if isinstance(image_path_or_bytes, bytes):
-#         image = Image.open(BytesIO(image_path_or_bytes)).convert("RGB")
-#     else:
-#         if not image_path_or_bytes or image_path_or_bytes.strip() == "":
-#             raise ValueError("Image path is not provided.")
-#         image = Image.open(image_path_or_bytes).convert("RGB")
-
-#     # --- OCR ---
-#     ocr_text = pytesseract.image_to_string(image).strip()
-
-#     summary = ""
-#     if ocr_text:
-#         try:
-#             response=requests.post(f"{BASE_URL}/short", data={"text": ocr_text})
-#             summary = response.json()["short_notes"]
-#         except Exception:
-#             summary = ocr_text  # fallback if summarizer fails
-
-#     # --- BLIP caption ---
-#     inputs = processor(images=image, return_tensors="pt")
-#     out = blip_model.generate(**inputs)
-#     caption = processor.decode(out[0], skip_special_tokens=True)
-
-#     # --- Combined description (single string) ---
-#     description = f"OCR summary: {summary}. Visual caption: {caption}."
-
-#     return description
-
-#FOR TEXT 
-

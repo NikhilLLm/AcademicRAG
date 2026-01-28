@@ -1,47 +1,48 @@
-import endpoint  from '@/utils/endpoint'
+import endpoint from '@/utils/endpoint'
 
 //------------------------------
 //  SEARCH QUERY
 //------------------------------
+// Updated: Now uses JSON instead of FormData
 export async function getSearchResult(query) {
-  const formData = new FormData();
-  formData.append("query", query);
-
   const response = await fetch(`${endpoint}/search_text`, {
     method: "POST",
-    body: formData,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ query }),
   });
-  // console.log(response);
+
   return await response.json();
-  
 }
 //--------------------------------
 // UPLOAD QUERY
 //--------------------------------
 export async function getUploadResult(file) {
-    const formData=new FormData()
-    formData.append("file",file);
-     const response = await fetch(`${endpoint}/upload`, {
+  const formData = new FormData()
+  formData.append("file", file);
+  const response = await fetch(`${endpoint}/upload`, {
     method: "POST",
     body: formData,
-     });
-     if(!response.ok){
-        throw new Error(response.status);
-     }
-    console.log(response);
-    return await response.json();
-    
+  });
+  if (!response.ok) {
+    throw new Error(response.status);
+  }
+  console.log(response);
+  return await response.json();
+
 }
 //------------------------------------
 // NOTES
 //-------------------------------------
+// Updated: Now uses JSON instead of FormData
 export async function startNotesJob(id) {
-  const formData = new FormData();
-  formData.append("vector_index", id);
-
   const res = await fetch(`/api/notes/start/${id}`, {
     method: "POST",
-    body: formData,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ vector_index: id }),
   });
 
   if (!res.ok) {
@@ -67,13 +68,14 @@ export async function getJobStatus(jobId) {
 // ---------------------------------
 
 // 1️⃣ Start chat preparation (embedding check / creation)
+// Updated: Now uses JSON instead of FormData
 export async function startChatJob(vectorIndex) {
-  const formData = new FormData();
-  formData.append("vector_index", vectorIndex);
-
   const res = await fetch(`/api/chat/chat_start/${vectorIndex}`, {
     method: "POST",
-    body: formData,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ vector_index: vectorIndex }),
   });
 
   if (!res.ok) {

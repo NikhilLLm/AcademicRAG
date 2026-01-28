@@ -6,42 +6,31 @@ from langchain_core.documents import Document
 
 from Backend.notes.text.chunks_embeddings import TextPreprocessor, CustomEmbedder, generate_pdf_id
 from langchain_qdrant import QdrantVectorStore
-from qdrant_client import QdrantClient
+from Backend.database.qdrant_client import get_qdrant_client, get_collection_name
 from qdrant_client.models import (
     QueryRequest, VectorInput, SparseVector, 
     Prefetch, Filter, FieldCondition, MatchValue,  PayloadSchemaType,FusionQuery,
     Fusion,
 )
 from Backend.notes.text.model import batch_chain, final_chain
-from Backend.embedding.embedd import embed_string
-import os
-from dotenv import load_dotenv
+from Backend.embedding.embed_local import embed_string_small
 
-load_dotenv(".env")
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s"
 )
 logger = logging.getLogger(__name__)
 
-URL = "https://72bcce7c-0237-4ae3-a1ec-12a43a79396e.europe-west3-0.gcp.cloud.qdrant.io"
-api_key = os.getenv("qdrant_key")
-
-
 # ----------------------------
-# Qdrant Client
+# Qdrant Client - Centralized
 # ----------------------------
 try:
-    client = QdrantClient(
-        url=URL,
-        api_key=api_key,
-        prefer_grpc=False,
-        timeout=10
-    )
+    client = get_qdrant_client()
     logger.info("Connected to Qdrant successfully")
 except Exception as e:
     logger.exception("Failed to connect to Qdrant")
     raise e
+
 
 # ----------------------------
 # Collection Check with PDF ID
@@ -117,7 +106,7 @@ def prepare_chat(pdf_url: str) -> dict:
 
     ensure_collection_exists(
         pdf_url=pdf_url,
-        collection_name="pdf_vectors"
+        collection_name=get_collection_name("pdf_vectors_v2")
     )
 
     return {

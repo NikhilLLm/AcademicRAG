@@ -106,9 +106,12 @@ def hugging_face_embed(
     for attempt in range(retries): 
        try:
          embedding = client.feature_extraction(text, model=model_name)
-         time.sleep(2 ** attempt)  # exponential backoff
+         break # Success, exit loop
        except Exception as e:
-         raise RuntimeError(f"Failed to get embeddings: {e}")
+         if attempt < retries - 1:
+            time.sleep(2 ** attempt)  # exponential backoff
+            continue
+         raise RuntimeError(f"Failed to get embeddings after {retries} attempts: {e}")
     
     # Handle different shapes
     import numpy as np

@@ -138,9 +138,10 @@ class DocumentChunkExtractor:
         elements = None
         try:
             elements = partition_pdf(
-                filename=tmp_path,  # Use path directly, not file handle
+                filename=tmp_path,
                 strategy="hi_res",
-                extract_images_in_pdf=True,
+                extract_image_block_types=["Image", "Table"],  # Capture both images and tables as images
+                extract_image_block_to_payload=True,           # Extract Base64
                 infer_table_structure=True,
                 ocr=self.ocr,
             )
