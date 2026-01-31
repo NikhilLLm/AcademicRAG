@@ -1,11 +1,13 @@
 from fastapi import FastAPI
 from Backend.routes.search import router as search_router
+from Backend.routes.auth import router as auth_router
 import uvicorn
 
 app = FastAPI()
 
 # Register routes
 app.include_router(search_router)
+app.include_router(auth_router)
 
 
 if __name__ == "__main__":
