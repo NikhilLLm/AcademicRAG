@@ -88,3 +88,52 @@ class ChatMessageRequest(BaseModel):
         if not v:
             raise ValueError('Message cannot be blank')
         return v
+
+class RegisterRequest(BaseModel):
+    """
+     Handles the Register Credenitals
+    """
+    email: str = Field(..., min_length=3, max_length=50)
+    password: str = Field(..., min_length=8, max_length=1000)
+
+
+    @field_validator("email")
+    @classmethod
+    def email_not_empty(cls, v: str) -> str:
+        """Ensure email is not just whitespace."""
+        v = v.strip()
+        if not v:
+            raise ValueError('Email cannot be blank')
+        return v
+    @field_validator("password")
+    @classmethod
+    def password_not_empty(cls, v: str) -> str:
+        """Ensure password is not just whitespace."""
+        v = v.strip()
+        if not v:
+            raise ValueError('Password cannot be blank')
+        return v
+
+class LoginRequest(BaseModel):
+
+    email: str = Field(..., min_length=3, max_length=50)
+    password:str =Field(..., min_length=8, max_length=1000)
+
+
+    @field_validator("email")
+    @classmethod
+    def password_not_empty(cls, v: str) -> str:
+        """Ensure password is not just whitespace."""
+        v = v.strip()
+        if not v:
+            raise ValueError('Password cannot be blank')
+        return v
+    @field_validator("password")
+    @classmethod
+    def password_not_empty(cls, v: str) -> str:
+        """Ensure password is not just whitespace."""
+        v = v.strip()
+        if not v:
+            raise ValueError('Password cannot be blank')
+        return v
+

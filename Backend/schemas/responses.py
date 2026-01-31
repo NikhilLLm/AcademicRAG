@@ -86,3 +86,22 @@ class ErrorResponse(BaseModel):
     """
     detail: str
     status_code: int = Field(default=500)
+
+class UserResponse(BaseModel):
+  """Handle User Info"""
+  id: int
+  email: str
+class RegisterResponse(BaseModel):
+    """Handle Register Response"""
+    user: UserResponse
+    access_token: str
+    token_type: Literal["bearer"]
+
+class LoginResponse(BaseModel):
+    """Handle Login Response"""
+    user: UserResponse
+    access_token: str
+    token_type: Literal["bearer"]
+
+
+ 
