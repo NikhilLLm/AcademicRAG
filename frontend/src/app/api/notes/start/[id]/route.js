@@ -2,12 +2,18 @@
 // Updated: Now uses JSON instead of FormData
 export async function POST(req, { params }) {
   const { id } = await params;
+  const authHeader = req.headers.get("authorization");
+
+  const headers = {
+    "Content-Type": "application/json",
+  };
+  if (authHeader) {
+    headers["Authorization"] = authHeader;
+  }
 
   const response = await fetch("http://localhost:8000/start_short_notes", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    headers: headers,
     body: JSON.stringify({ vector_index: id }),
   });
 

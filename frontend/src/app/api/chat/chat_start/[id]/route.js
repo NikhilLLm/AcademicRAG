@@ -1,11 +1,12 @@
 // Updated: Now uses JSON instead of FormData
 export async function POST(req, { params }) {
   const { id } = await params; // no await needed
-
+  const auth_header=req.headers.get("Authorization");
   const response = await fetch("http://localhost:8000/init_chat", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      "Authorization": auth_header
     },
     body: JSON.stringify({ vector_index: id }),
   });
