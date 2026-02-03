@@ -6,7 +6,7 @@ python-multipart==0.0.9
 # ORM / DB
 sqlalchemy==2.0.35
 
-# Qdrant client and vector store (downgraded for Python 3.11)
+# Qdrant client and vector store
 qdrant-client==1.9.2
 langchain-qdrant==0.1.3
 
@@ -49,7 +49,7 @@ python-dotenv==1.0.0
 pydantic==2.8.0
 pydantic-settings==2.4.0
 
-# unstructured.io - CORE FUNCTIONALITY
+# unstructured.io for text/image/table extraction
 unstructured==0.15.13
 unstructured-client==0.26.0
 
