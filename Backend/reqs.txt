@@ -9,7 +9,7 @@ sqlalchemy==2.0.35
 # Vector DB
 qdrant-client==1.11.0
 
-# LangChain - VERIFIED COMPATIBLE
+# LangChain
 langchain-core==0.3.10
 langchain-community==0.3.5
 langchain-qdrant==0.1.4
@@ -27,7 +27,7 @@ pytesseract==0.3.13
 
 # Data Processing
 pandas==2.2.3
-numpy==1.26.4
+# numpy already installed in Dockerfile
 
 # LLM Clients
 groq==0.11.0

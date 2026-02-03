@@ -12,10 +12,13 @@ RUN apt-get update && apt-get install -y \
     g++ \
     && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip first (separate layer for caching)
+# Upgrade pip first
 RUN pip install --no-cache-dir --upgrade pip
 
-# Install heavy dependencies FIRST (separate layers for better caching)
+# Install numpy FIRST with correct version for Python 3.11
+RUN pip install --no-cache-dir numpy==1.26.4
+
+# Install heavy dependencies (they will use the numpy we just installed)
 RUN pip install --no-cache-dir torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
 RUN pip install --no-cache-dir transformers==4.44.2
 RUN pip install --no-cache-dir sentence-transformers==3.1.1
