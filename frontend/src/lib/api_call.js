@@ -25,10 +25,14 @@ export async function getSearchResult(query) {
 // UPLOAD QUERY
 //--------------------------------
 export async function getUploadResult(file) {
+  const token = localStorage.getItem('auth_token');
   const formData = new FormData()
   formData.append("file", file);
   const response = await fetch(`${endpoint}/upload`, {
     method: "POST",
+    headers: {
+      "Authorization": `Bearer ${token}`
+    },
     body: formData,
   });
   if (!response.ok) {

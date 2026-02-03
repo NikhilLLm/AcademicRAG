@@ -8,24 +8,27 @@ export default function Page() {
       const [loading, setLoading] = useState(false);
     
       return (
-        <div className="p-6 max-w-5xl mx-auto">
-          {/* Search input */}
-          <UploadPanel setResults={setResults} setLoading={setLoading} />
+        // <div className="p-6 max-w-5xl mx-auto">
+        //   {/* Search input */}
+        //   <UploadPanel setResults={setResults} setLoading={setLoading} />
     
-          {/* Loading indicator */}
-          {loading && (
-            <p className="text-gray-400 mt-6 text-lg">Analyzing...</p>
-          )}
+        //   {/* Loading indicator */}
+        //   {loading && (
+        //     <p className="text-gray-400 mt-6 text-lg">Analyzing...</p>
+        //   )}
     
-          {/* Results */}
-          {!loading && results.length > 0 && (
-            <SearchResults results={results} />
-          )}
+        //   {/* Results */}
+        //   {!loading && results.length > 0 && (
+        //     <SearchResults results={results} />
+        //   )}
     
-          {/* Empty state */}
-          {!loading && results.length === 0 && (
-            <p className="text-gray-500 mt-6">No results yet. Try a search above.</p>
-          )}
-        </div>
+        //   {/* Empty state */}
+        //   {!loading && results.length === 0 && (
+        //     <p className="text-gray-500 mt-6">No results yet. Try a search above.</p>
+        //   )}
+        // </div>
+        <h1>
+          This Feature is under process so till then use the text search facility
+        </h1>
       );
 }

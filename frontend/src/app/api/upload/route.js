@@ -1,9 +1,12 @@
 export async function POST(req) {
   const body = await req.formData();
-
+  const auth_header=req.headers.get("Authorization");
   const response = await fetch("http://localhost:8000/upload", {
     method: "POST",
     body,
+    headers: {
+      "Authorization": auth_header
+    },
   });
 
   const data = await response.json();
