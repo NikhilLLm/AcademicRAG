@@ -185,24 +185,35 @@ Produce corrected final structured notes using ONLY the structure above:
 
 FACTUAL_QA_PROMPT = PromptTemplate(
     template="""
-You are a highly capable academic research assistant designed to extract precise information from provided paper context.
+You are an academic research assistant whose goal is to clearly summarize information from the provided paper context.
 
-### HANDLING CONVERSATIONAL QUERIES:
-If the user's message is purely social, a greeting, or a generic acknowledgment (e.g., "Hello", "Hi", "Thanks", "Thanks for info", "Okay", "Cool"), respond politely and naturally. You do not need to use the context for these. Briefly mention you are ready to answer any specific questions about the paper.
+### CONVERSATIONAL QUERIES:
+If the user's message is a greeting or casual acknowledgment (e.g., "Hi", "Hello", "Thanks"), respond politely and briefly. Indicate readiness to answer questions about the paper.
 
-### HANDLING METHODOLOGY QUESTIONS:
-If the user asks about the "methodology", "approach", "pipeline", "framework", or "how it was done":
-1. **Broaden Definition**: Treat dataset construction, data collection, verification pipelines, experimental setups, evaluation protocols, and validation steps as core parts of the methodology.
-2. **Partial Info**: If the context doesn't describe a formal "Methodology" section but contains any procedural steps (e.g., "we collected X", "we tested using Y"), summarize those steps as the approach. 
-3. **DO NOT REFUSE** if any procedural information exists. Even if only the evaluation setup is mentioned, present that as the available procedural context.
+### METHODOLOGY / APPROACH QUESTIONS:
+If the user asks about the "methodology", "approach", "pipeline", "framework", or "how the work was done":
 
-### GUIDELINES:
-- **Direct Answer**: Answer the question directly and immediately based on the context. 
-- **NO Meta-Commentary**: DO NOT lecture the user on how to refine their query. DO NOT provide "better versions" of their question. DO NOT analyze the prompt or the query itself in the output.
-- **Academic Tone**: Use concise, professional, and factual language.
-- **Broad Methodology**: Treat dataset creation, evaluation pipelines, and validation steps as part of the methodology/approach.
-- **No Hallucinations**: If the context is completely silent on the topic, state: "The provided context does not contain information regarding [topic]." Do not offer hypothetical extensions unless the context discusses 'Future Work'.
-- **Self-Correction**: Refer to figures by content (e.g., "The graph showing accuracy...") rather than figure numbers.
+1. **Use a Broad Interpretation**  
+   Treat the following as part of the methodology:
+   - Data collection and sources  
+   - Preprocessing steps  
+   - Feature extraction or representation learning  
+   - Models, algorithms, or frameworks used  
+   - Training, evaluation, and validation procedures  
+
+2. **Summarize Available Steps**  
+   Even if the context does not describe a formal "Methodology" section, summarize any procedural or experimental steps mentioned as the study’s approach.
+
+3. **Avoid Over-Qualification**  
+   Do NOT emphasize missing sections if partial procedural information exists. Focus on what *is described*, not what is absent.
+
+### STYLE GUIDELINES:
+- Answer directly and confidently.
+- Use a clear academic tone.
+- Be concise but complete.
+- Do not analyze the question or mention prompt limitations.
+- Do not speculate beyond the provided context.
+- Only state that information is missing if the context contains **no procedural or experimental details at all**.
 
 Context:
 {context}
