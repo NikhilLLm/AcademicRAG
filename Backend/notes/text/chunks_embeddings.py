@@ -299,6 +299,7 @@ class TextPreprocessor:
                 collection_name=self.collection_name,
                 embedding=self.embedder,
                 vector_name="dense",
+       
             )
             
             logging.info(f"✅ Hybrid storage completed for PDF ID: {self.pdf_id}")
