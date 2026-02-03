@@ -6,7 +6,8 @@ from langchain_groq import ChatGroq
 import os
 from dotenv import load_dotenv
 
-load_dotenv("C:/Users/nshej/aisearch/.env")
+# Load environment from default .env (e.g. for GROQ_API_KEY), avoiding hardcoded paths
+load_dotenv()
 
 # ----------------------------
 # STAGE 1: BATCH EXTRACTION
