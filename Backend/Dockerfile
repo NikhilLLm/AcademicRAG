@@ -1,31 +1,62 @@
-FROM python:3.11-slim
+# ==========================================
+# STAGE 1: Builder - Install all dependencies
+# ==========================================
+FROM python:3.11-slim AS builder
 
-# Set working directory
 WORKDIR /app
 
-# Install system dependencies
+# Install build dependencies
 RUN apt-get update && apt-get install -y \
-    poppler-utils \
-    tesseract-ocr \
-    libmagic1 \
     gcc \
     g++ \
     && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip first
+# Create virtual environment
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Upgrade pip
 RUN pip install --no-cache-dir --upgrade pip
 
-# Install numpy FIRST with correct version for Python 3.11
+# Install numpy first
 RUN pip install --no-cache-dir numpy==1.26.4
 
-# Install heavy dependencies (they will use the numpy we just installed)
+# Install PyTorch CPU (minimal)
 RUN pip install --no-cache-dir torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
-RUN pip install --no-cache-dir transformers==4.44.2
-RUN pip install --no-cache-dir sentence-transformers==3.1.1
 
-# Copy requirements and install remaining packages
+# Install ML dependencies
+RUN pip install --no-cache-dir transformers==4.44.2 sentence-transformers==3.1.1
+
+# Copy and install remaining requirements
 COPY reqs.txt .
 RUN pip install --no-cache-dir -r reqs.txt
+
+# Clean up pip cache and unnecessary files
+RUN pip cache purge && \
+    find /opt/venv -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true && \
+    find /opt/venv -type d -name "tests" -exec rm -rf {} + 2>/dev/null || true && \
+    find /opt/venv -type d -name "test" -exec rm -rf {} + 2>/dev/null || true && \
+    find /opt/venv -name "*.pyc" -delete 2>/dev/null || true && \
+    find /opt/venv -name "*.pyo" -delete 2>/dev/null || true
+
+# ==========================================
+# STAGE 2: Runtime - Minimal final image
+# ==========================================
+FROM python:3.11-slim AS runtime
+
+WORKDIR /app
+
+# Install only runtime system dependencies (no gcc/g++)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    poppler-utils \
+    tesseract-ocr \
+    libmagic1 \
+    && rm -rf /var/lib/apt/lists/* \
+    && apt-get clean
+
+# Copy virtual environment from builder
+COPY --from=builder /opt/venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
 
 # Copy application code
 COPY . .
