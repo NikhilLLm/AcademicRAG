@@ -1,34 +1,37 @@
-**Files to ignore**
-# Ignore Python cache files
+# Python
 __pycache__/
 *.py[cod]
-# Ignore virtual environment directories
+
+# Virtual environment
 .vscode/
 env/
 venv/
-# Ignore system files
+
+# System files
 .DS_Store
 Thumbs.db
-# Ignore env files
+
+# Env files
 *.env
-#Ignore test files
+
+# Test files
 .pytest_cache/
 *test_backend.py
 *test.md
 *REVISION_TOPICS.md
 *test.py
-# Ignore all PDF files
+
+# PDF files
 *.pdf
-# Ignore all txt files
-*.txt
-# Ignore all png files
+
+# DON'T IGNORE ALL TXT! We need requirements.txt!
+# *.txt  ← REMOVE THIS LINE
+
+
+# PNG files
 *.png
 
-#Ignore embeddings and vector DBs
+# Embeddings and DBs
 embeddings/chunks/
 embeddings/vector_db
-
-
-
-
 Backend/database/sql_database.db
