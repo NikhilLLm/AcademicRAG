@@ -8,7 +8,6 @@ sqlalchemy==2.0.35
 
 # Vector DB
 qdrant-client==1.11.3
-langchain-qdrant==0.1.4
 
 # Embeddings
 sentence-transformers==3.1.1
@@ -16,12 +15,13 @@ transformers==4.44.2
 torch==2.4.1
 fastembed==0.3.6
 
-# LangChain
-langchain==0.3.1
-langchain-core==0.3.5
+# LangChain - version matched!
+langchain-core==0.3.6
 langchain-text-splitters==0.3.0
-langchain-groq==0.2.0
 langchain-community==0.3.1
+langchain-qdrant==0.1.4
+langchain-groq==0.2.0
+langchain==0.3.1
 
 # PDF Processing
 PyMuPDF==1.24.10
@@ -31,7 +31,6 @@ Pillow==10.4.0
 
 # Document Processing
 unstructured==0.15.13
-unstructured-client==0.26.0
 python-docx==1.1.2
 python-magic==0.4.27
 pytesseract==0.3.13
