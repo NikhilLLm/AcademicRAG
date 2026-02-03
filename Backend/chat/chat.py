@@ -147,12 +147,21 @@ async def groq_llm_stream(
                 part if isinstance(part, str) else str(part)
                 for part in content
             )
+
+
 #-----------------------
 #  QA_CHAIN
 #-----------------------
+def format_chat_history(chat_history: list):
+    return "\n".join(
+        f"{msg['role']}: {msg['content']}" 
+        for msg in chat_history
+    )
+
 async def qa_chain(
     user_query: str,
     retrieved_docs: list,
+    chat_history:list,
 ) -> AsyncGenerator[str, None]:
 
     context = "\n".join(
@@ -164,6 +173,7 @@ async def qa_chain(
 
     async for token in groq_llm_stream(
         text={
+            "chat_history": format_chat_history(chat_history),
             "context": context,
             "question": query["enhanced_text"]
         },
