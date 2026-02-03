@@ -6,7 +6,7 @@ python-multipart==0.0.12
 # Database
 sqlalchemy==2.0.35
 
-# Vector DB and LangChain - let pip resolve compatible versions
+# Vector DB and LangChain
 qdrant-client>=1.9.0,<2.0.0
 langchain>=0.3.0,<0.4.0
 langchain-qdrant>=0.1.0,<0.2.0
@@ -22,8 +22,7 @@ PyMuPDF>=1.24.0,<2.0.0
 pypdf>=5.0.0,<6.0.0
 Pillow>=10.0.0,<11.0.0
 
-# Document Processing (optional - remove if not needed)
-# unstructured>=0.15.0,<0.16.0
+# Document Processing
 python-docx>=1.1.0,<2.0.0
 pytesseract>=0.3.0,<0.4.0
 
@@ -48,4 +47,3 @@ pydantic-settings>=2.5.0,<3.0.0
 beautifulsoup4>=4.12.0,<5.0.0
 lxml>=5.3.0,<6.0.0
 nltk>=3.9.0,<4.0.0
-
