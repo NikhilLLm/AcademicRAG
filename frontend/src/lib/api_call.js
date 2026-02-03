@@ -1,5 +1,21 @@
 import endpoint from '@/utils/endpoint'
 
+// Global helper to handle expired/invalid tokens on protected endpoints
+function handleUnauthorized(res) {
+  if (res.status === 401 || res.status === 403) {
+    try {
+      localStorage.removeItem('auth_token');
+    } catch (e) {
+      // ignore if localStorage not available
+    }
+    if (typeof window !== 'undefined') {
+      alert('Your session has expired. Please login again.');
+      window.location.href = '/login';
+    }
+    throw new Error('Unauthorized');
+  }
+}
+
 //------------------------------
 //  SEARCH QUERY
 //------------------------------
@@ -35,6 +51,9 @@ export async function getUploadResult(file) {
     },
     body: formData,
   });
+
+  handleUnauthorized(response);
+
   if (!response.ok) {
     throw new Error(response.status);
   }
@@ -68,6 +87,8 @@ export async function startNotesJob(id) {
     headers: headers,
     body: JSON.stringify({ vector_index: id }),
   });
+
+  handleUnauthorized(res);
 
   if (!res.ok) {
     throw new Error("Failed to start notes job");
@@ -108,6 +129,8 @@ export async function startChatJob(vectorIndex) {
     body: JSON.stringify({ vector_index: vectorIndex }),
   });
 
+  handleUnauthorized(res);
+
   if (!res.ok) {
     throw new Error("Failed to start chat job");
   }
@@ -119,6 +142,9 @@ export async function startChatJob(vectorIndex) {
 export async function getChatStatus(chatSessionId) {
   const res = await fetch(`${endpoint}/chat/chat_status/${chatSessionId}`);
   console.log(chatSessionId)
+
+  handleUnauthorized(res);
+
   if (!res.ok) {
     throw new Error("Failed to fetch chat status");
   }
@@ -142,6 +168,8 @@ export async function sendChatMessage(chatSessionId, message) {
     body: JSON.stringify({ message }),
   });
 
+  handleUnauthorized(res);
+
   if (!res.ok) {
     const err = await res.text();
     throw new Error(err || "Failed to send chat message");
@@ -161,6 +189,9 @@ export async function getChatSession(){
       "Authorization":`Bearer ${token}`
     },
   });
+
+  handleUnauthorized(res);
+
   if(!res.ok){
     throw new Error("Failed to fetch chat session");
   }
@@ -234,6 +265,8 @@ export async function getUserInfo() {
     },
   });
 
+  handleUnauthorized(res);
+
   if (!res.ok) {
     throw new Error(`Failed to get user info: ${res.status}`);
   }
@@ -259,6 +292,8 @@ export async function getUserNotes() {
     },
   });
 
+  handleUnauthorized(res);
+
   if (!res.ok) {
     throw new Error(`Failed to get notes: ${res.status}`);
   }
@@ -281,6 +316,8 @@ export async function getSearchHistory() {
       "Authorization": `Bearer ${token}`
     },
   });
+
+  handleUnauthorized(res);
 
   if (!res.ok) {
     throw new Error(`Failed to get search history: ${res.status}`);
