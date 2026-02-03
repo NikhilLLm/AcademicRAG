@@ -24,12 +24,12 @@ export default function Navbar() {
 
         {/* Dashboard Button */}
         <Link
-          href="/Home"
+          href="/login"
           className="bg-blue-600 hover:bg-blue-500 px-6 py-3 rounded-lg
                      border border-gray-600 hover:border-gray-400 borderd-none shadow-lg shadow-blue-500/30
                      transition text-sm font-medium"
         >
-          Search
+          Login
         </Link>
       </div>
     </nav>

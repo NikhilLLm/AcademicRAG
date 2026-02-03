@@ -13,27 +13,8 @@ export default function SearchBar({ setResults, setLoading }) {
     setLoading(true);
 
     try {
-      // 🔹 Check session cache
-      const cached = sessionStorage.getItem("searchData");
-      if (cached) {
-        const { query: savedQuery, results } = JSON.parse(cached);
-        if (savedQuery === trimmed) {
-          setResults(results);
-          setLoading(false);
-          return;
-        }
-      }
-
-      // 🔹 Fetch new results
       const data = await getSearchResult(trimmed);
       const results = data.results || [];
-
-      // 🔹 Replace old search completely
-      sessionStorage.setItem(
-        "searchData",
-        JSON.stringify({ query: trimmed, results })
-      );
-
       setResults(results);
     } catch (err) {
       console.error("Search failed:", err);
@@ -43,13 +24,12 @@ export default function SearchBar({ setResults, setLoading }) {
     }
   };
 
-  // 🔹 Clear results if input is emptied
   const handleChange = (e) => {
     const value = e.target.value;
     setQuery(value);
 
+    // Clear results if input is empty
     if (!value.trim()) {
-      sessionStorage.removeItem("searchData");
       setResults([]);
     }
   };
@@ -69,12 +49,12 @@ export default function SearchBar({ setResults, setLoading }) {
           onChange={handleChange}
           onKeyDown={handleKeyPress}
           placeholder="Enter your search query..."
-          className="flex-1 px-6 py-3 rounded-lg bg-[#1a1d2e] text-white"
+          className="flex-1 px-6 py-3 rounded-lg bg-[#1a1d2e] text-white focus:ring-2 focus:ring-blue-600 outline-none transition-all"
         />
 
         <button
           onClick={handleSearch}
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg flex items-center gap-2"
+          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg flex items-center gap-2 transition-colors"
         >
           <Search className="w-5 h-5" />
           Search

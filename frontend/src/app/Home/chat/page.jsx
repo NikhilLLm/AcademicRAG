@@ -4,15 +4,40 @@ import { useEffect, useState } from "react";
 import { MessageSquare, ArrowLeft, Clock, Play, RefreshCw, Plus, Search, Trash2 } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { getChatSession } from "@/lib/api_call";
 
 export default function ChatHistoryPage() {
     const [chats, setChats] = useState([]);
     const [searchQuery, setSearchQuery] = useState("");
+    const [loading, setLoading] = useState(false);
     const router = useRouter();
 
+    // Fetch chats from backend
     useEffect(() => {
-        const history = JSON.parse(localStorage.getItem("chatHistory")) || [];
-        setChats(history);
+        async function fetchChats() {
+            try {
+                setLoading(true);
+                const data = await getChatSession();
+                if (data) {
+                    // Group by pdf_id, pick latest session
+                    const grouped = {};
+                    data.forEach(session => {
+                        if (
+                            !grouped[session.pdf_id] ||
+                            new Date(session.updated_at) > new Date(grouped[session.pdf_id].updated_at)
+                        ) {
+                            grouped[session.pdf_id] = session;
+                        }
+                    });
+                    setChats(Object.values(grouped));
+                }
+            } catch (err) {
+                console.error("Error fetching chats:", err);
+            } finally {
+                setLoading(false);
+            }
+        }
+        fetchChats();
     }, []);
 
     const deleteChat = (e, id) => {
@@ -76,7 +101,7 @@ export default function ChatHistoryPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {filteredChats.map((chat) => (
                             <div
-                                key={chat.id}
+                                key={chat.id} // unique session id
                                 className="group relative bg-[#15182b] border border-white/10 rounded-3xl p-6 transition-all hover:bg-[#1c203a] hover:border-indigo-500/30 hover:shadow-2xl hover:shadow-indigo-500/10"
                             >
                                 <div className="flex justify-between items-start mb-4">
@@ -97,19 +122,19 @@ export default function ChatHistoryPage() {
 
                                 <div className="flex items-center gap-2 text-gray-500 text-xs mb-6">
                                     <Clock className="w-3.5 h-3.5" />
-                                    <span>Last active {new Date(chat.lastAccessed).toLocaleDateString()}</span>
+                                    <span>Last active {new Date(chat.updated_at).toLocaleDateString()}</span>
                                 </div>
 
                                 <div className="flex gap-3">
                                     <button
-                                        onClick={() => router.push(`/Home/chat/${chat.id}`)}
+                                        onClick={() => router.push(`/Home/chat/${chat.pdf_id}`)}
                                         className="flex-1 flex items-center justify-center gap-2 bg-indigo-500/10 hover:bg-indigo-500 text-indigo-400 hover:text-white px-4 py-2.5 rounded-xl transition-all font-bold text-sm"
                                     >
                                         <Play className="w-4 h-4" />
                                         Resume Chat
                                     </button>
                                     <button
-                                        onClick={() => router.push(`/Home/chat/${chat.id}?restart=true`)}
+                                        onClick={() => router.push(`/Home/chat/${chat.pdf_id}?restart=true`)}
                                         className="flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 text-gray-400 px-4 py-2.5 rounded-xl transition-all font-bold text-sm border border-white/5"
                                     >
                                         <RefreshCw className="w-4 h-4" />
@@ -141,10 +166,10 @@ export default function ChatHistoryPage() {
             </div>
 
             <style jsx global>{`
-        body {
-          background-color: #0a0a0a;
-        }
-      `}</style>
+                body {
+                    background-color: #0a0a0a;
+                }
+            `}</style>
         </div>
     );
 }

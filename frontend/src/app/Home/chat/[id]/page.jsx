@@ -20,7 +20,8 @@ export default function ChatPage() {
   const [sending, setSending] = useState(false);
   const [pdfUrl, setPdfUrl] = useState(null);
   const [proMode, setProMode] = useState(false);
-
+  const [init_error, setInitError] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);  
   const messagesEndRef = useRef(null);
 
   // --- LOGIC ---
@@ -29,17 +30,28 @@ export default function ChatPage() {
   }, [messages]);
 
   useEffect(() => {
-    if (!id) return;
-    startChatJob(id).then((res) => setChatId(res.chat_session_id));
-  }, [id]);
+  if (!id) return;
+
+  setInitError(null);
+  setLoadingChat(true);
+
+  startChatJob(id)
+    .then((res) => setChatId(res.chat_session_id))
+    .catch(() => {
+      setInitError("Failed to start chat. Please try again.");
+      setLoadingChat(false);
+    });
+}, [id, retryCount]);
 
   useEffect(() => {
-    if (!chatId) return;
-    const interval = setInterval(async () => {
+  if (!chatId) return;
+
+  const interval = setInterval(async () => {
+    try {
       const data = await getChatStatus(chatId);
+
       if (data.status === "done") {
         setLoadingChat(false);
-        // Save chat session to history
         saveChatIndex({
           id,
           title: sessionStorage.getItem(`title:${id}`) || "Untitled Paper",
@@ -47,9 +59,16 @@ export default function ChatPage() {
         });
         clearInterval(interval);
       }
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [chatId]);
+    } catch {
+      setInitError("Chat preparation failed. Please retry.");
+      setLoadingChat(false);
+      clearInterval(interval);
+    }
+  }, 3000);
+
+  return () => clearInterval(interval);
+}, [chatId]);
+
 
   function saveChatIndex({ id, title, chatId }) {
     const chats = JSON.parse(localStorage.getItem("chatHistory")) || [];
@@ -180,24 +199,23 @@ export default function ChatPage() {
       <div className="w-1/2 flex flex-col bg-[#0a0a0a]">
 
         {/* Chat Header */}
-        <div className="h-14 px-6 border-b border-[#222] flex items-center justify-between bg-[#0a0a0a]">
-          <div>
-            <h2 className="font-semibold text-white text-sm">Chat with Document</h2>
-            <p className="text-xs text-gray-500">Ask questions about the paper</p>
-          </div>
-          <div className="flex items-center gap-2">
-            {/* Status Indicator */}
-            {loadingChat ? (
-              <span className="text-xs text-yellow-500 bg-yellow-500/10 px-2 py-1 rounded-full flex items-center gap-1">
-                <Loader2 className="w-3 h-3 animate-spin" /> Preparing...
-              </span>
-            ) : (
-              <span className="text-xs text-green-500 bg-green-500/10 px-2 py-1 rounded-full">
-                Ready
-              </span>
-            )}
-          </div>
-        </div>
+        {loadingChat ? (
+  <span className="text-xs text-yellow-500 bg-yellow-500/10 px-2 py-1 rounded-full flex items-center gap-1">
+    <Loader2 className="w-3 h-3 animate-spin" /> Preparing...
+  </span>
+) : init_error ? (
+  <button
+    onClick={() => setRetryCount(c => c + 1)}
+    className="text-xs text-red-400 bg-red-500/10 px-2 py-1 rounded-full"
+  >
+    {init_error} · Retry
+  </button>
+) : (
+  <span className="text-xs text-green-500 bg-green-500/10 px-2 py-1 rounded-full">
+    Ready
+  </span>
+)}
+
 
         {/* Messages List - Custom Scrollbar */}
         <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar">

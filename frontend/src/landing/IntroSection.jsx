@@ -37,7 +37,7 @@ export default function IntroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <Link href="/Home">
+          <Link href="/login">
             <motion.button
               className="px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 transition-all font-semibold text-white shadow-lg shadow-blue-500/30"
               whileHover={{
