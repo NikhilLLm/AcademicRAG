@@ -4,12 +4,15 @@ from Backend.routes.auth import router as auth_router
 from Backend.routes.datafetch import router as datafetch_router
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
+import os
 
 app = FastAPI()
+FRONTEND_ORIGIN = os.getenv("FRONTEND_ORIGIN", "http://localhost:3000")
+
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # frontend origin
+    allow_origins=[FRONTEND_ORIGIN],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["Authorization", "Content-Type"],
