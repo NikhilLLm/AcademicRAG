@@ -68,3 +68,33 @@ class ChatMessages(Base):
 
     # Relationships
     session = relationship("ChatSession", back_populates="messages")
+
+
+# Notes generation job tracking
+class NotesJob(Base):
+    __tablename__ = 'notes_jobs'
+    id = Column(String, primary_key=True)  # job_id (UUID string)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    vector_index = Column(String, nullable=False)
+    status = Column(String, nullable=False, default="running")
+    result = Column(Text)  # JSON string of the same shape currently returned to frontend
+    error = Column(Text)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, onupdate=func.now())
+
+    user = relationship("User")
+
+
+# Chat preparation job tracking (embedding / pipeline readiness)
+class ChatPrepJob(Base):
+    __tablename__ = 'chat_prep_jobs'
+    id = Column(String, primary_key=True)  # chat_session_id (UUID string)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    vector_index = Column(String, nullable=False)
+    pdf_id = Column(String, nullable=True)  # filled once prepare_chat has run
+    status = Column(String, nullable=False, default="processing")
+    error = Column(Text)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, onupdate=func.now())
+
+    user = relationship("User")
