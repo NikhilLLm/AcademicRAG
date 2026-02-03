@@ -32,7 +32,12 @@ COPY reqs.txt .
 RUN pip install --no-cache-dir -r reqs.txt
 
 # CRITICAL: Force reinstall CPU-only PyTorch (unstructured pulls in GPU version)
-RUN pip uninstall -y torch torchvision triton && \
+# Also remove all nvidia/cuda packages that may have been pulled in
+RUN pip uninstall -y torch torchvision triton 2>/dev/null || true && \
+    pip uninstall -y nvidia-cublas-cu12 nvidia-cuda-cupti-cu12 nvidia-cuda-nvrtc-cu12 \
+    nvidia-cuda-runtime-cu12 nvidia-cudnn-cu12 nvidia-cufft-cu12 nvidia-cufile-cu12 \
+    nvidia-curand-cu12 nvidia-cusolver-cu12 nvidia-cusparse-cu12 nvidia-cusparselt-cu12 \
+    nvidia-nccl-cu12 nvidia-nvjitlink-cu12 nvidia-nvshmem-cu12 nvidia-nvtx-cu12 2>/dev/null || true && \
     pip install --no-cache-dir torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
 
 # Clean up pip cache and unnecessary files
@@ -40,8 +45,10 @@ RUN pip cache purge && \
     find /opt/venv -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true && \
     find /opt/venv -type d -name "tests" -exec rm -rf {} + 2>/dev/null || true && \
     find /opt/venv -type d -name "test" -exec rm -rf {} + 2>/dev/null || true && \
+    find /opt/venv -type d -name "docs" -exec rm -rf {} + 2>/dev/null || true && \
     find /opt/venv -name "*.pyc" -delete 2>/dev/null || true && \
-    find /opt/venv -name "*.pyo" -delete 2>/dev/null || true
+    find /opt/venv -name "*.pyo" -delete 2>/dev/null || true && \
+    find /opt/venv -name "*.so" -type f -exec strip --strip-unneeded {} + 2>/dev/null || true
 
 # ==========================================
 # STAGE 2: Runtime - Minimal final image
