@@ -31,6 +31,10 @@ RUN pip install --no-cache-dir transformers==4.44.2 sentence-transformers==3.1.1
 COPY reqs.txt .
 RUN pip install --no-cache-dir -r reqs.txt
 
+# CRITICAL: Force reinstall CPU-only PyTorch (unstructured pulls in GPU version)
+RUN pip uninstall -y torch torchvision triton && \
+    pip install --no-cache-dir torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+
 # Clean up pip cache and unnecessary files
 RUN pip cache purge && \
     find /opt/venv -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true && \
