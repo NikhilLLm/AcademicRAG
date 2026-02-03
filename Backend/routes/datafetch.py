@@ -8,7 +8,12 @@ from fastapi import APIRouter, Depends, HTTPException
 from typing import List
 import json
 
+from Backend.search.service import SearchService
+
 router = APIRouter()
+
+# Shared search service instance to resolve titles from Qdrant when notes are missing
+_search_service = SearchService()
 
 
 @router.get("/user", response_model=UserResponse)
@@ -80,8 +85,20 @@ def get_chat_session(
     ).order_by(Notes.created_at.desc()).all()
     print(current_user.id)
     print(notes_info)
-    # Map pdf_id -> title
+    # Map pdf_id -> title from existing notes (preferred)
     pdf_title_map = {note.pdf_id: note.title for note in notes_info}
+
+    # Fallback: resolve missing titles from Qdrant metadata so chats have
+    # meaningful titles even if the user never generated notes.
+    for chat in chat_info:
+        if chat.pdf_id not in pdf_title_map:
+            try:
+                meta = _search_service.get_metadata_by_id(chat.pdf_id)
+                if meta and meta.get("title"):
+                    pdf_title_map[chat.pdf_id] = meta["title"]
+            except Exception:
+                # If Qdrant/metadata lookup fails, we silently keep "Untitled"
+                continue
 
     # Build chat response
     chats = [
