@@ -1,11 +1,11 @@
 import asyncio
 from fastapi import FastAPI,APIRouter,HTTPException,BackgroundTasks,Depends
-from Backend.database.db_session import get_session
+from database.db_session import get_session
 from sqlalchemy.orm import Session
-from Backend.database.tables import User
-from Backend.utils.security import Security,JWT
-from Backend.schemas.requests import RegisterRequest,LoginRequest
-from Backend.schemas.responses import RegisterResponse,LoginResponse,UserResponse
+from database.tables import User
+from utils.security import Security,JWT
+from schemas.requests import RegisterRequest,LoginRequest
+from schemas.responses import RegisterResponse,LoginResponse,UserResponse
 
 router = APIRouter()
 

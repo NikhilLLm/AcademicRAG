@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from Backend.routes.search import router as search_router
-from Backend.routes.auth import router as auth_router
-from Backend.routes.datafetch import router as datafetch_router
+from routes.search import router as search_router
+from routes.auth import router as auth_router
+from routes.datafetch import router as datafetch_router
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import os

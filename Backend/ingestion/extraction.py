@@ -10,7 +10,7 @@ from unstructured.documents.elements import (
     Text,
 )
 from langchain_core.prompts import PromptTemplate
-from Backend.models.hugging_face import hugging_face_query_expand
+from models.hugging_face import hugging_face_query_expand
 import re
 
 # --------------------------------------------------

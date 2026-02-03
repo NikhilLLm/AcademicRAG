@@ -1,14 +1,14 @@
-from Backend.database.db_session import get_session
-from Backend.database.tables import User, Notes, SearchHistory, ChatSession, ChatMessages
-from Backend.schemas.responses import UserResponse, NotesListItem, NotesDetailResponse, SearchHistoryItem,ChatSessionDetailResponse
-from Backend.schemas.requests import InitChatRequest
+from database.db_session import get_session
+from database.tables import User, Notes, SearchHistory, ChatSession, ChatMessages
+from schemas.responses import UserResponse, NotesListItem, NotesDetailResponse, SearchHistoryItem,ChatSessionDetailResponse
+from schemas.requests import InitChatRequest
 from sqlalchemy.orm import Session
-from Backend.utils.dependencies import get_current_user
+from utils.dependencies import get_current_user
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List
 import json
 
-from Backend.search.service import SearchService
+from search.service import SearchService
 
 router = APIRouter()
 

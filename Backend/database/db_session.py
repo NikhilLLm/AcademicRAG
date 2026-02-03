@@ -1,6 +1,6 @@
 import os
 from sqlalchemy import create_engine
-from Backend.database.tables import Base
+from database.tables import Base
 from sqlalchemy.orm import sessionmaker
 # Get the path to 'Backend/database' folder
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

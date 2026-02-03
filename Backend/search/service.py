@@ -5,7 +5,7 @@ import requests  # Fixed import - requests is not from fastapi
 from io import BytesIO
 from typing import List, Dict, Any, Optional
 from qdrant_client.http import models
-from Backend.database.qdrant_client import get_qdrant_client, get_collection_name
+from database.qdrant_client import get_qdrant_client, get_collection_name
 
 FIELDS = ["biology", "chemistry", "computer_science", "engineering", "mathematics", "physics"]
 PAGE_CACHE = {}

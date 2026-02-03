@@ -3,19 +3,19 @@ import math
 import logging
 import hashlib
 from langchain_core.documents import Document
-from Backend.models.groq import groq_llm
-from Backend.models.prompts import NOTES_PROMPT,VALIDATION_PROMPT,FINAL_NOTES_PROMPT
+from models.groq import groq_llm
+from models.prompts import NOTES_PROMPT,VALIDATION_PROMPT,FINAL_NOTES_PROMPT
 
-from Backend.notes.text.chunks_embeddings import TextPreprocessor, CustomEmbedder, generate_pdf_id
+from notes.text.chunks_embeddings import TextPreprocessor, CustomEmbedder, generate_pdf_id
 from langchain_qdrant import QdrantVectorStore
-from Backend.database.qdrant_client import get_qdrant_client, get_collection_name
+from database.qdrant_client import get_qdrant_client, get_collection_name
 from qdrant_client.models import (
     QueryRequest, VectorInput, SparseVector, 
     Prefetch, Filter, FieldCondition, MatchValue,  PayloadSchemaType,FusionQuery,
     Fusion,
 )
-from Backend.notes.text.model import batch_chain
-from Backend.embedding.embed_local import embed_string_small
+from notes.text.model import batch_chain
+from embedding.embed_local import embed_string_small
 
 # ----------------------------
 # Logging Configuration

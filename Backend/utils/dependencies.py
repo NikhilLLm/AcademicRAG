@@ -1,8 +1,8 @@
 from fastapi import Depends, HTTPException, Request
 from sqlalchemy.orm import Session
-from Backend.database.db_session import get_session
-from Backend.database.tables import User
-from Backend.utils.security import JWT
+from database.db_session import get_session
+from database.tables import User
+from utils.security import JWT
 
 
 def get_current_user(request: Request, session: Session = Depends(get_session)) -> User:

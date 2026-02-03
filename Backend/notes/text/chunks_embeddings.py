@@ -5,15 +5,15 @@ import logging
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.embeddings import Embeddings
-from Backend.notes.text.extractor import DocumentChunkExtractor
-from Backend.embedding.embed_local import embed_string_small
+from notes.text.extractor import DocumentChunkExtractor
+from embedding.embed_local import embed_string_small
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client.models import Distance, VectorParams, SparseVectorParams, SparseIndexParams
-from Backend.models.groq import groq_llm
-from Backend.models.prompts import BATCH_PROMPT_1
-from Backend.database.qdrant_client import get_qdrant_client, get_collection_name, get_collection_name
-from Backend.notes.text.model import summarize_chain
-from Backend.notes.Visual.vision_service import describe_image
+from models.groq import groq_llm
+from models.prompts import BATCH_PROMPT_1
+from database.qdrant_client import get_qdrant_client, get_collection_name, get_collection_name
+from notes.text.model import summarize_chain
+from notes.Visual.vision_service import describe_image
 from collections import defaultdict
 import time
 

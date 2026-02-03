@@ -4,16 +4,16 @@ import logging
 import hashlib
 from langchain_core.documents import Document
 
-from Backend.models.prompts import FACTUAL_QA_PROMPT
-from Backend.database.qdrant_client import get_qdrant_client
+from models.prompts import FACTUAL_QA_PROMPT
+from database.qdrant_client import get_qdrant_client
 from qdrant_client.models import (
     QueryRequest, VectorInput, SparseVector, 
     Prefetch, Filter, FieldCondition, MatchValue,  PayloadSchemaType,FusionQuery,
     Fusion,
 )
-from Backend.notes.text.model import batch_chain
-from Backend.embedding.embed_local import embed_string_small
-from Backend.ingestion.extraction import enhance_text_query
+from notes.text.model import batch_chain
+from embedding.embed_local import embed_string_small
+from ingestion.extraction import enhance_text_query
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq

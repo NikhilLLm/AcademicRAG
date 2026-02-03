@@ -8,26 +8,26 @@ from fastapi.responses import StreamingResponse
 from typing import Optional, AsyncGenerator
 from sqlalchemy.orm import Session
 from datetime import datetime
-from Backend.ingestion.extraction import extract_text_for_search, enhance_text_query
-from Backend.embedding.embedd import embed_string
-from Backend.search.service import SearchService
-from Backend.notes.text.chunks_embeddings import TextPreprocessor
-from Backend.notes.Visual.image_table_extractor import ImageTableExtractor
-from Backend.notes.text.summarizer import generate_notes_from_pdf
-from Backend.chat.start_chat_pipeline import prepare_chat
-from Backend.chat.chat import hybrid_search_for_pdf, qa_chain
-from Backend.database.qdrant_client import get_collection_name
-from Backend.database.db_session import get_session
-from Backend.database.tables import User, Notes,SearchHistory,ChatSession,ChatMessages, NotesJob, ChatPrepJob
-from Backend.utils.dependencies import get_current_user,get_optional_user
+from ingestion.extraction import extract_text_for_search, enhance_text_query
+from embedding.embedd import embed_string
+from search.service import SearchService
+from notes.text.chunks_embeddings import TextPreprocessor
+from notes.Visual.image_table_extractor import ImageTableExtractor
+from notes.text.summarizer import generate_notes_from_pdf
+from chat.start_chat_pipeline import prepare_chat
+from chat.chat import hybrid_search_for_pdf, qa_chain
+from database.qdrant_client import get_collection_name
+from database.db_session import get_session
+from database.tables import User, Notes,SearchHistory,ChatSession,ChatMessages, NotesJob, ChatPrepJob
+from utils.dependencies import get_current_user,get_optional_user
 # Pydantic schemas
-from Backend.schemas.requests import (
+from schemas.requests import (
     SearchTextRequest,
     StartNotesRequest,
     InitChatRequest,
     ChatMessageRequest
 )
-from Backend.schemas.responses import (
+from schemas.responses import (
     SearchResponse,
     JobStatusResponse,
     JobInitResponse,
