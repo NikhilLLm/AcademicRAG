@@ -122,11 +122,11 @@ class LoginRequest(BaseModel):
 
     @field_validator("email")
     @classmethod
-    def password_not_empty(cls, v: str) -> str:
-        """Ensure password is not just whitespace."""
+    def email_not_empty(cls, v: str) -> str:
+        """Ensure email is not just whitespace."""
         v = v.strip()
         if not v:
-            raise ValueError('Password cannot be blank')
+            raise ValueError('Email cannot be blank')
         return v
     @field_validator("password")
     @classmethod

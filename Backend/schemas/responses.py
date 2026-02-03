@@ -4,6 +4,8 @@ These models ensure consistent response formats.
 """
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any, Literal, Union
+from datetime import datetime
+
 
 
 class PaperResult(BaseModel):
@@ -31,49 +33,18 @@ class PaperResult(BaseModel):
 
 
 class SearchResponse(BaseModel):
-    """
-    Response for search endpoints.
-    
-    What this does:
-    - Wraps list of papers in consistent format
-    - Matches your current {"results": [...]} structure
-    """
-    results: List[PaperResult]
+    results: List[dict]
 
 
 class JobStatusResponse(BaseModel):
-    """
-    Response for job status endpoints.
-    
-    What this does:
-    - Standardizes job status responses
-    - Matches your current JOBS dict structure
-    """
-    status: Literal["running", "done", "error", "not_found"]
-    result: Optional[Dict[str, Any]] = None
+    status: str
+    result: Optional[dict] = None
     error: Optional[str] = None
 
 
 class JobInitResponse(BaseModel):
-    """
-    Response when starting a new job.
-    
-    What this does:
-    - Returns job_id for polling
-    - Matches your current {"job_id": "..."} structure
-    """
     job_id: str
 
-
-class ChatSessionResponse(BaseModel):
-    """
-    Response when initializing chat.
-    
-    What this does:
-    - Returns chat_session_id for subsequent messages
-    - Matches your current {"chat_session_id": "..."} structure
-    """
-    chat_session_id: str
 
 
 class ErrorResponse(BaseModel):
@@ -88,20 +59,82 @@ class ErrorResponse(BaseModel):
     status_code: int = Field(default=500)
 
 class UserResponse(BaseModel):
-  """Handle User Info"""
-  id: int
-  email: str
+    id: int
+    email: str
+
+    class Config:
+        from_attributes = True
+
+
 class RegisterResponse(BaseModel):
-    """Handle Register Response"""
     user: UserResponse
     access_token: str
     token_type: Literal["bearer"]
 
 class LoginResponse(BaseModel):
-    """Handle Login Response"""
     user: UserResponse
     access_token: str
     token_type: Literal["bearer"]
 
 
- 
+class NotesListItem(BaseModel):
+    """Response for listing user's notes (without full content)"""
+    id: int
+    pdf_id: str
+    title: str
+    created_at: datetime
+    updated_at: Optional[datetime]
+    has_content: bool  # Whether notes have been generated
+
+    class Config:
+        from_attributes = True
+
+
+class NotesDetailResponse(BaseModel):
+    """Response for full notes detail"""
+    id: int
+    pdf_id: str
+    title: str
+    content: Optional[str]
+    visuals: Optional[str]  # JSON string   
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+# ==================== CHAT RESPONSES ====================
+class ChatMessageResponse(BaseModel):
+    id: int
+    role: str
+    content: str
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class SearchHistoryItem(BaseModel):
+    id: int
+    query: str
+    created_at: datetime
+    
+    class Config:
+        from_attributes = True
+
+
+class ChatSessionResponse(BaseModel):
+    id: int
+    pdf_id: str
+    created_at: Optional[datetime]
+    updated_at: Optional[datetime]
+
+    class Config:
+        from_attributes = True
+
+class ChatSessionDetailResponse(BaseModel):
+    id: int
+    pdf_id:str
+    title: str
+    created_at: datetime
+    updated_at: datetime

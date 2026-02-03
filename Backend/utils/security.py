@@ -32,5 +32,11 @@ class JWT:
         return jwt.encode(payload, "secret", algorithm="HS256")
 
     @staticmethod
-    def decode_token(token):
-        return jwt.decode(token, "secret", algorithms=["HS256"])
+    def verify_token(token):
+        try:
+            return jwt.decode(token, "secret", algorithms=["HS256"])
+        except JWTError:
+            return None
+
+
+
