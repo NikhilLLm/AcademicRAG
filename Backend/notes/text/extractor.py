@@ -137,14 +137,25 @@ class DocumentChunkExtractor:
         # ---- PDF PARTITION (file is closed now) ----
         elements = None
         try:
-            elements = partition_pdf(
-                filename=tmp_path,
-                strategy="hi_res",
-                extract_image_block_types=["Image", "Table"],  # Capture both images and tables as images
-                extract_image_block_to_payload=True,           # Extract Base64
-                infer_table_structure=True,
-                ocr=self.ocr,
-            )
+                strategies = ["hi_res", "fast"]
+                
+                for strategy in strategies:
+                    try:
+                        print(f"📄 Trying PDF partition strategy: {strategy}...")
+                        elements = partition_pdf(
+                            filename=tmp_path,
+                            strategy=strategy,
+                            extract_image_block_types=["Image", "Table"] if strategy == "hi_res" else None,
+                            extract_image_block_to_payload=True if strategy == "hi_res" else False,
+                            infer_table_structure=True if strategy == "hi_res" else False,
+                            ocr=self.ocr,
+                        )
+                        print(f"✅ Partition successful with strategy: {strategy}")
+                        break
+                    except Exception as e:
+                        print(f"⚠️ Strategy {strategy} failed: {e}")
+                        if strategy == strategies[-1]:
+                            raise e # Re-raise if all strategies fail
         except Exception as e:
             print(f"❌ PDF partition failed: {e}")
             return {
