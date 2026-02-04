@@ -17,9 +17,12 @@ def _get_hf_client():
             raise RuntimeError("HF_TOKEN not found in .env")
 
         print("🔌 Loading Hugging Face Inference Client...")
-        _hf_client_cache = InferenceClient(api_key=hf_token)
+        _hf_client_cache = InferenceClient(
+            api_key=hf_token
+        )
 
     return _hf_client_cache
+
 def hugging_face_query_expand(
     text: str,
     model_name: str = "Qwen/Qwen2.5-7B-Instruct",
@@ -45,22 +48,41 @@ Preserve domain-specific terms and expand with technical keywords in five to six
 
 {text}
 """
+    
+    for attempt in range(5):
+        try:
+            # Call chat_completion API
+            response = client.chat_completion(
+                model=model_name,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=temperature,
+                max_tokens=200, # Increased slightly
+            )
 
-    # Call chat_completion API
-    response = client.chat_completion(
-        model=model_name,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=temperature,
-        max_tokens=100,
-    )
+            # Extract the generated content
+            if hasattr(response, "choices") and len(response.choices) > 0:
+                return response.choices[0].message["content"].strip()
+            elif isinstance(response, dict):
+                return response.get("generated_text", "").strip()
+            else:
+                return str(response).strip()
 
-    # Extract the generated content
-    if hasattr(response, "choices") and len(response.choices) > 0:
-        return response.choices[0].message["content"].strip()
-    elif isinstance(response, dict):
-        return response.get("generated_text", "").strip()
-    else:
-        return str(response).strip()
+        except Exception as e:
+            error_msg = str(e)
+            print(f"⚠️ HF Query Expand Exception: {error_msg}")
+            
+            # 503 means model is loading, handled by the client usually but good to be safe
+            if "503" in error_msg or "loading" in error_msg.lower():
+                 print(f"⏳ Model loading, retrying... (Attempt {attempt+1})")
+                 time.sleep(5)
+                 continue
+
+            if attempt == 4:
+                print(f"❌ Failed to expand query after retries: {e}")
+                return text # Fallback to original text on failure
+            time.sleep(2)
+            
+    return text
 
 
 def hugging_face_llm(
