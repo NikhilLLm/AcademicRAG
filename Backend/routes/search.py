@@ -12,7 +12,7 @@ from ingestion.extraction import extract_text_for_search, enhance_text_query
 from embedding.embedd import embed_string
 from search.service import SearchService
 from notes.text.chunks_embeddings import TextPreprocessor
-from notes.Visual.image_table_extractor import ImageTableExtractor
+# from notes.Visual.image_table_extractor import ImageTableExtractor
 from notes.text.summarizer import generate_notes_from_pdf
 from chat.start_chat_pipeline import prepare_chat
 from chat.chat import hybrid_search_for_pdf, qa_chain
