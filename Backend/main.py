@@ -31,11 +31,11 @@ def health_check():
 
 # Only runs when you do: python main.py (NOT used by Railway)
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", 8000))  # Use PORT env var
+    port = int(os.getenv("PORT", 8080))  # Changed default to 8080
     uvicorn.run(
-        "main:app",  # ✅ Fixed: removed "Backend."
+        "main:app",
         host="0.0.0.0",
-        port=port,  # ✅ Uses env variable
-        reload=True,  # OK for local dev
+        port=port,
+        reload=False,  # Fine for local dev
         log_level="info"
     )
