@@ -23,6 +23,10 @@ app.include_router(search_router)
 app.include_router(auth_router)
 app.include_router(datafetch_router)
 
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
+
 
 
 
