@@ -29,6 +29,17 @@ app.include_router(datafetch_router)
 def health_check():
     return {"status": "ok"}
 
+@app.on_event("startup")
+async def startup_event():
+    """Preload heavy models on startup to avoid cold start latency."""
+    print("🚀 App starting up... preloading models")
+    from embedding.embedd import _get_dense_model
+    try:
+        _get_dense_model()
+        print("✅ Embedding model preloaded successfully")
+    except Exception as e:
+        print(f"❌ Failed to preload embedding model: {e}")
+
 # Only runs when you do: python main.py (NOT used by Railway)
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8080))  # Changed default to 8080

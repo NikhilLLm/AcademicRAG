@@ -18,11 +18,18 @@ def _get_bm25_model() -> SparseTextEmbedding:
     return SparseTextEmbedding(BM25_MODEL_NAME)
 
 
-@lru_cache(maxsize=1)
+# Global variable -> load once
+_dense_model = None
+
 def _get_dense_model() -> SentenceTransformer:
-    """Lazily load and cache the dense embedding model."""
-    print("🔌 Loading dense embedding model...")
-    return SentenceTransformer(DENSE_MODEL_NAME)
+    global _dense_model
+    if _dense_model is None:
+        print("🔌 Loading dense embedding model (CPU)...")
+        _dense_model = SentenceTransformer(
+            DENSE_MODEL_NAME,
+            device='cpu'  # Force CPU to avoid CUDA overhead
+        )
+    return _dense_model
 
 
 def embed_string(text: str):
