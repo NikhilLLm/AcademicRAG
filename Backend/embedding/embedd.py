@@ -18,48 +18,56 @@ def _get_bm25_model() -> SparseTextEmbedding:
 
 
 # Global variable -> load once
-import requests
 import os
 import time
+from huggingface_hub import InferenceClient
 
-HF_API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/all-mpnet-base-v2"
 HF_TOKEN = os.environ.get("HF_TOKEN")
+
+# Initialize client globally
+_hf_client = None
+
+def _get_hf_client():
+    global _hf_client
+    if _hf_client is None:
+        print("🔌 Loading Hugging Face Inference Client...")
+        _hf_client = InferenceClient(
+            provider="hf-inference",
+            api_key=HF_TOKEN,
+        )
+    return _hf_client
 
 def _get_hf_embedding(text: str):
     """
-    Get embedding from Hugging Face Inference API.
-    Retries up to 3 times for model loading (503 error).
+    Get embedding from Hugging Face Inference API using InferenceClient.
+    Uses 'feature_extraction' for embeddings.
     """
-    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
-    payload = {"inputs": text}
+    client = _get_hf_client()
     
     for attempt in range(5):
         try:
-            response = requests.post(HF_API_URL, headers=headers, json=payload)
+            # Using feature_extraction for embeddings
+            embedding = client.feature_extraction(
+                text,
+                model="sentence-transformers/all-mpnet-base-v2"
+            )
             
-            # If model is loading, wait and retry
-            if response.status_code == 503:
-                data = response.json()
-                wait_time = data.get("estimated_time", 10.0)
-                print(f"⏳ Model loading, waiting {wait_time}s... (Attempt {attempt+1})")
-                time.sleep(min(wait_time, 20.0)) # Cap wait at 20s
-                continue
-                
-            if response.status_code != 200:
-                print(f"❌ HF API Error: {response.status_code} - {response.text}")
-                raise ValueError(f"HF API returned status {response.status_code}")
-                
-            # Valid response
-            embedding = response.json()
-            
-            # Ensure it's a list (embedding vector)
-            if isinstance(embedding, list):
-                return embedding
-            else:
-                raise ValueError(f"Unexpected response format: {embedding}")
+            # The result is usually a numpy array or list. We need to ensure it's a list.
+            # If input is a single string, output is a single vector (list of floats).
+            if hasattr(embedding, "tolist"):
+                return embedding.tolist()
+            return embedding
                 
         except Exception as e:
-            print(f"⚠️ HF API Exception: {e}")
+            error_msg = str(e)
+            print(f"⚠️ HF API Exception: {error_msg}")
+            
+            # 503 means model is loading, handled by the client usually but good to be safe
+            if "503" in error_msg or "loading" in error_msg.lower():
+                 print(f"⏳ Model loading, retrying... (Attempt {attempt+1})")
+                 time.sleep(5)
+                 continue
+
             if attempt == 4:
                 raise e
             time.sleep(2)
@@ -73,15 +81,16 @@ def embed_string(text: str):
     Using Hugging Face API for dense (MPNet 768d) and fastembed for sparse.
     """
     # Use HF API for dense embedding
-    # Correct format is a list of floats
     dense_embedding = _get_hf_embedding(text)
     
     # FastEmbed returns a generator for sparse embeddings
     bm25_model = _get_bm25_model()
-    bm25_embeddings = next(iter(bm25_model.query_embed(text)))
+    # Handle both single string and list inputs safely
+    bm25_generator = bm25_model.query_embed(text)
+    bm25_embeddings = next(iter(bm25_generator)) 
     
     enhanced={
-        "dense_embedding": dense_embedding, # Already a list
+        "dense_embedding": dense_embedding, 
          "sparse_embedding": {
                     "indices": bm25_embeddings.indices.tolist(),
                     "values": bm25_embeddings.values.tolist(),
