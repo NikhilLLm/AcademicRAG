@@ -87,30 +87,37 @@ def hugging_face_llm(
     return str(output)  # Ensure string
 
 
-
-
 def hugging_face_embed(
     text: str,
     model_name: str = "sentence-transformers/all-mpnet-base-v2"
 ) -> list:
-
+    
     if not isinstance(text, str):
         raise TypeError("Embedding input must be string")
-
+    
     if not text.strip():
         return []
-
+    
     client = _get_hf_client()
-
+    
     for attempt in range(3):
         try:
-            response = client.embeddings.create(
-                model=model_name,
-                input=text
+            # Use feature_extraction for embeddings
+            embedding = client.feature_extraction(
+                text,
+                model=model_name
             )
-
-            return response.data[0].embedding
-
+            
+            # Convert to list if numpy array
+            if isinstance(embedding, np.ndarray):
+                return embedding.tolist()
+            elif isinstance(embedding, list) and len(embedding) > 0:
+                # Sometimes returns nested list
+                if isinstance(embedding[0], list):
+                    return embedding[0]
+                return embedding
+            return list(embedding)
+            
         except Exception as e:
             print(f"⚠️ HF Embedding Exception: {e}")
             if attempt == 2:
