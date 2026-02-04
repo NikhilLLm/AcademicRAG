@@ -159,7 +159,7 @@ class TextPreprocessor:
         self,
         merged_chunks,
         max_per_section=7,
-        max_total_chunks=100
+        max_total_chunks=50
     ):
         """
         Limits how many chunks per section go forward.

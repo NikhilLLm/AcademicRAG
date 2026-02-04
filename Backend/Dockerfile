@@ -25,7 +25,8 @@ RUN pip install --no-cache-dir numpy==1.26.4
 RUN pip install --no-cache-dir torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
 
 # Install ML dependencies
-RUN pip install --no-cache-dir transformers==4.44.2 sentence-transformers==3.1.1
+# Install ML dependencies (Minimal)
+RUN pip install --no-cache-dir numpy==1.26.4
 
 # Copy and install remaining requirements
 COPY reqs.txt .
