@@ -2,22 +2,8 @@ import os
 from huggingface_hub import InferenceClient
 from dotenv import load_dotenv
 import numpy as np
-import time
 
 load_dotenv(".env")
-
-# 🔧 MONKEY PATCH: Fix deprecated HF endpoint
-import huggingface_hub.inference._client
-original_base = huggingface_hub.inference._client.BASE_URL if hasattr(huggingface_hub.inference._client, 'BASE_URL') else None
-
-# Try to patch the base URL
-try:
-    if hasattr(huggingface_hub.inference._client, 'BASE_URL'):
-        huggingface_hub.inference._client.BASE_URL = "https://router.huggingface.co"
-    if hasattr(huggingface_hub.inference._client, 'API_URL'):
-        huggingface_hub.inference._client.API_URL = "https://router.huggingface.co"
-except Exception as e:
-    print(f"⚠️ Could not patch HF endpoint: {e}")
 
 _hf_client_cache = None
 
@@ -32,7 +18,8 @@ def _get_hf_client():
 
         print("🔌 Loading Hugging Face Inference Client...")
         _hf_client_cache = InferenceClient(
-            api_key=hf_token
+            api_key=hf_token,
+            base_url="https://router.huggingface.co"
         )
 
     return _hf_client_cache
