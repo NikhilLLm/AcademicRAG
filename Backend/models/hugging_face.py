@@ -1,4 +1,5 @@
 import os
+os.environ["HF_ENDPOINT"] = "https://router.huggingface.co" # Global override
 from huggingface_hub import InferenceClient
 from dotenv import load_dotenv
 import numpy as np
