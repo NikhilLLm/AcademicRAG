@@ -102,7 +102,7 @@ class DocumentChunkExtractor:
         other_chunks = []
 
         # ---- DOWNLOAD PDF TEMPORARILY ----
-        tmp_dir = r"C:/Users/nshej/aisearch"
+        tmp_dir = tempfile.gettempdir()
         os.makedirs(tmp_dir, exist_ok=True)  # ensure folder exists
         tmp_path = os.path.join(tmp_dir, "tmp_arxiv.pdf")
         

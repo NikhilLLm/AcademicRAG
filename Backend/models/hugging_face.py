@@ -19,7 +19,7 @@ def _get_hf_client():
         print("🔌 Loading Hugging Face Inference Client...")
         _hf_client_cache = InferenceClient(
             api_key=hf_token,
-            base_url="https://router.huggingface.co"
+            base_url="https://router.huggingface.co/hf-inference"
         )
 
     return _hf_client_cache
