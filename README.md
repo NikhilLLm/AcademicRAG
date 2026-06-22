@@ -18,7 +18,7 @@
 
 ## 🌟 Overview
 
-PaperSemantic is an AI-powered platform that revolutionizes how researchers interact with academic papers. Using advanced semantic search, automated note generation, and RAG-based chat functionality, it helps researchers quickly find, understand, and analyze research papers from arXiv.
+Academic RAG is an AI-powered platform that revolutionizes how researchers interact with academic papers. Using advanced semantic search, automated note generation, and RAG-based chat functionality, it helps researchers quickly find, understand, and analyze research papers from arXiv.
 
 ### ✨ Key Features
 
